@@ -1,0 +1,305 @@
+# Table of contents
+
+Full tree of every file in the repository, organized by the classical division of knowledge: domain, then field, then topic. Every added, moved, renamed or deleted file must be reflected here (see [GUIDELINE](GUIDELINE.md#3-repository-structure-and-naming)).
+
+Entries without a link are planned topics. They become notes or directories when they are written.
+
+- **Repository root**
+  - [README.md](README.md): what the repository is and how to navigate it
+  - [ToC.md](ToC.md): this file
+  - [GUIDELINE.md](GUIDELINE.md): rules for scope, structure, note format and writing style
+  - [AGENTS.md](AGENTS.md): instructions for AI agents
+  - [CLAUDE.md](CLAUDE.md): instructions for Claude Code
+  - [.gitignore](.gitignore): files excluded from version control
+- **_sources/**
+  - Original exports kept until their content is migrated into the tree below. Target locations are given in each entry.
+  - [Business-20261027091630.html](_sources/Business-20261027091630.html): Business (startups, Lean Startup, Lean Canvas, business models). Target: [applied-sciences/business-and-management](applied-sciences/business-and-management/README.md)
+  - [Career-20261027092557.html](_sources/Career-20261027092557.html): Career (job interview questions). Target: [personal-development/career](personal-development/career/README.md)
+  - [Finances-20261027091604.html](_sources/Finances-20261027091604.html): Finances (personal finance, budgeting). Target: [applied-sciences/finance-and-investing](applied-sciences/finance-and-investing/README.md)
+  - [Health & fitness.html](_sources/Health%20&%20fitness.html): Health and fitness (anatomy and more). Target: [applied-sciences/medicine-and-health](applied-sciences/medicine-and-health/README.md)
+  - [Investing-20261027092545.html](_sources/Investing-20261027092545.html): Investing (stocks, futures, CFDs, options). Target: [applied-sciences/finance-and-investing](applied-sciences/finance-and-investing/README.md)
+  - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): Knowledge (psychology, multiple intelligences). Target: [social-sciences/psychology](social-sciences/psychology/README.md)
+  - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): Self-development (self-improvement, habits, goals). Target: [personal-development/personal-growth](personal-development/personal-growth/README.md)
+  - [Skills-20261027091622.html](_sources/Skills-20261027091622.html): Skills (copywriting, social media, client acquisition, e-commerce). Target: [personal-development/skills](personal-development/skills/README.md)
+- **formal-sciences/** (planned)
+  - [README.md](formal-sciences/README.md): Formal sciences - Disciplines that study abstract structures and rules of reasoning instead of the physical world.
+  - **mathematics/** (planned)
+    - [README.md](formal-sciences/mathematics/README.md): Mathematics - Numbers, structures, space and change.
+    - Arithmetic and number theory (planned)
+    - Algebra (planned)
+    - Geometry and trigonometry (planned)
+    - Calculus and analysis (planned)
+    - Linear algebra (planned)
+    - Discrete mathematics (planned)
+  - **logic/** (planned)
+    - [README.md](formal-sciences/logic/README.md): Logic - Valid reasoning, proof and the structure of arguments.
+    - Propositional and predicate logic (planned)
+    - Proof techniques (planned)
+    - Informal logic and fallacies (planned)
+  - **statistics-and-probability/** (planned)
+    - [README.md](formal-sciences/statistics-and-probability/README.md): Statistics and probability - Describing uncertainty and drawing conclusions from data.
+    - Probability theory (planned)
+    - Descriptive statistics (planned)
+    - Inference and hypothesis testing (planned)
+    - Regression (planned)
+    - Bayesian reasoning (planned)
+  - **theoretical-computer-science/** (planned)
+    - [README.md](formal-sciences/theoretical-computer-science/README.md): Theoretical computer science - What can be computed, how fast and with how much memory.
+    - Algorithms and data structures (planned)
+    - Computability and complexity (planned)
+    - Automata and formal languages (planned)
+    - Information theory (planned)
+  - **decision-and-systems-theory/** (planned)
+    - [README.md](formal-sciences/decision-and-systems-theory/README.md): Decision and systems theory - Choice under constraints and the behavior of interacting parts.
+    - Game theory (planned)
+    - Decision theory (planned)
+    - Systems thinking (planned)
+    - Operations research (planned)
+- **natural-sciences/** (planned)
+  - [README.md](natural-sciences/README.md): Natural sciences - Disciplines that study nature through observation and experiment.
+  - **physics/** (planned)
+    - [README.md](natural-sciences/physics/README.md): Physics - Matter, energy, forces, space and time.
+    - Classical mechanics (planned)
+    - Thermodynamics (planned)
+    - Electromagnetism (planned)
+    - Optics and waves (planned)
+    - Relativity (planned)
+    - Quantum mechanics (planned)
+  - **chemistry/** (planned)
+    - [README.md](natural-sciences/chemistry/README.md): Chemistry - The composition, structure and reactions of substances.
+    - General chemistry (planned)
+    - Organic chemistry (planned)
+    - Inorganic chemistry (planned)
+    - Biochemistry (planned)
+    - Analytical chemistry (planned)
+  - **biology/** (planned)
+    - [README.md](natural-sciences/biology/README.md): Biology - Living organisms, from molecules to ecosystems.
+    - Cell biology (planned)
+    - Genetics (planned)
+    - Evolution (planned)
+    - Microbiology (planned)
+    - Botany (planned)
+    - Zoology (planned)
+    - Ecology (planned)
+    - Neurobiology (planned)
+  - **earth-sciences/** (planned)
+    - [README.md](natural-sciences/earth-sciences/README.md): Earth sciences - The structure and processes of the planet.
+    - Geology (planned)
+    - Meteorology and climate (planned)
+    - Oceanography (planned)
+    - Physical geography (planned)
+  - **astronomy/** (planned)
+    - [README.md](natural-sciences/astronomy/README.md): Astronomy - Celestial objects and the universe as a whole.
+    - Solar system (planned)
+    - Stars and galaxies (planned)
+    - Cosmology (planned)
+- **social-sciences/** (planned)
+  - [README.md](social-sciences/README.md): Social sciences - Disciplines that study human behavior, societies and institutions.
+  - **psychology/** (planned)
+    - [README.md](social-sciences/psychology/README.md): Psychology - Mind and behavior.
+    - Intelligence and its theories (planned)
+    - Cognitive psychology (planned)
+    - Developmental psychology (planned)
+    - Personality (planned)
+    - Social psychology (planned)
+    - Clinical psychology (planned)
+    - Behavioral psychology (planned)
+  - **economics/** (planned)
+    - [README.md](social-sciences/economics/README.md): Economics - How people and societies allocate scarce resources.
+    - Microeconomics (planned)
+    - Macroeconomics (planned)
+    - Behavioral economics (planned)
+    - Economic history (planned)
+    - International economics (planned)
+  - **sociology/** (planned)
+    - [README.md](social-sciences/sociology/README.md): Sociology - Social structures, groups and institutions.
+    - Social stratification (planned)
+    - Culture and norms (planned)
+    - Social research methods (planned)
+  - **political-science/** (planned)
+    - [README.md](social-sciences/political-science/README.md): Political science - Power, government and public policy.
+    - Political theory (planned)
+    - Comparative politics (planned)
+    - International relations (planned)
+    - Public policy (planned)
+  - **law/** (planned)
+    - [README.md](social-sciences/law/README.md): Law - Legal systems, rules and their application.
+    - Legal theory (planned)
+    - Contract law (planned)
+    - Criminal law (planned)
+    - Intellectual property (planned)
+    - Data protection and privacy law (planned)
+  - **anthropology/** (planned)
+    - [README.md](social-sciences/anthropology/README.md): Anthropology - Human cultures and human origins.
+    - Cultural anthropology (planned)
+    - Physical anthropology (planned)
+  - **education-and-learning/** (planned)
+    - [README.md](social-sciences/education-and-learning/README.md): Education and learning - How people learn and how learning is organized.
+    - Learning science (planned)
+    - Study methods (planned)
+    - Pedagogy (planned)
+  - **communication-and-media/** (planned)
+    - [README.md](social-sciences/communication-and-media/README.md): Communication and media - How messages are made, carried and received.
+    - Communication theory (planned)
+    - Rhetoric and persuasion (planned)
+    - Media studies (planned)
+- **humanities/** (planned)
+  - [README.md](humanities/README.md): Humanities - Disciplines that study human thought, culture and expression through interpretation and critique.
+  - **philosophy/** (planned)
+    - [README.md](humanities/philosophy/README.md): Philosophy - Fundamental questions about knowledge, existence, value and reasoning.
+    - Epistemology (planned)
+    - Metaphysics (planned)
+    - Ethics (planned)
+    - Political philosophy (planned)
+    - Philosophy of science (planned)
+    - History of philosophy (planned)
+  - **history/** (planned)
+    - [README.md](humanities/history/README.md): History - The human past and how it is reconstructed.
+    - Ancient history (planned)
+    - Medieval history (planned)
+    - Modern history (planned)
+    - History of science and technology (planned)
+    - Historiography (planned)
+  - **linguistics-and-languages/** (planned)
+    - [README.md](humanities/linguistics-and-languages/README.md): Linguistics and languages - Structure of language and the study of individual languages.
+    - General linguistics (planned)
+    - Language learning (planned)
+    - Etymology (planned)
+  - **literature/** (planned)
+    - [README.md](humanities/literature/README.md): Literature - Written works and their analysis.
+    - Literary theory (planned)
+    - World literature (planned)
+    - Poetry (planned)
+    - Writing craft (planned)
+  - **religion-and-mythology/** (planned)
+    - [README.md](humanities/religion-and-mythology/README.md): Religion and mythology - Belief systems, sacred texts and myth.
+    - Comparative religion (planned)
+    - Mythology (planned)
+    - Religious history (planned)
+  - **archaeology/** (planned)
+    - [README.md](humanities/archaeology/README.md): Archaeology - Past societies studied through material remains.
+    - Methods (planned)
+    - Major civilizations (planned)
+- **applied-sciences/** (planned)
+  - [README.md](applied-sciences/README.md): Applied sciences - Fields that use knowledge from the other domains to solve practical problems and run professions.
+  - **medicine-and-health/** (planned)
+    - [README.md](applied-sciences/medicine-and-health/README.md): Medicine and health - The human body, its care and its performance.
+    - Anatomy (planned)
+    - Physiology (planned)
+    - Nutrition (planned)
+    - Exercise and fitness (planned)
+    - Mental health (planned)
+    - Public health (planned)
+  - **computer-science/** (planned)
+    - [README.md](applied-sciences/computer-science/README.md): Computer science - Building, running and securing computing systems. The mathematical theory sits in theoretical computer science under formal sciences.
+    - Programming (planned)
+    - Software engineering (planned)
+    - Data and databases (planned)
+    - Artificial intelligence (planned)
+    - Networks (planned)
+    - Operating systems (planned)
+    - Cloud and infrastructure (planned)
+    - **cybersecurity/** (planned)
+      - [README.md](applied-sciences/computer-science/cybersecurity/README.md): Cybersecurity - Defending systems and understanding attackers, in authorized and defensive contexts only.
+      - Foundations (planned)
+      - Cryptography (planned)
+      - Identity and access (planned)
+      - Threat modeling (planned)
+      - Vulnerability management (planned)
+      - Threat intelligence (planned)
+      - Threats and attacks (planned)
+      - Application security (planned)
+      - Defensive operations (planned)
+      - Governance and compliance (planned)
+      - Privacy and data protection (planned)
+      - AI security (planned)
+      - Cloud and infrastructure security (planned)
+      - Operating system security (planned)
+      - Network security (planned)
+      - Offensive security (planned)
+  - **engineering/** (planned)
+    - [README.md](applied-sciences/engineering/README.md): Engineering - Designing and building physical and technical systems.
+    - Electrical and electronics (planned)
+    - Mechanical (planned)
+    - Civil (planned)
+    - Materials (planned)
+  - **business-and-management/** (planned)
+    - [README.md](applied-sciences/business-and-management/README.md): Business and management - Creating, running and growing organizations.
+    - Entrepreneurship and startups (planned)
+    - Strategy (planned)
+    - Marketing and copywriting (planned)
+    - Sales and client acquisition (planned)
+    - E-commerce (planned)
+    - Operations (planned)
+    - Leadership and management (planned)
+  - **finance-and-investing/** (planned)
+    - [README.md](applied-sciences/finance-and-investing/README.md): Finance and investing - Managing money, markets and risk.
+    - Personal finance (planned)
+    - Financial instruments (planned)
+    - Stocks (planned)
+    - Derivatives and options (planned)
+    - Portfolio construction (planned)
+    - Taxes and retirement (planned)
+- **personal-development/** (planned)
+  - [README.md](personal-development/README.md): Personal development - Deliberate improvement of oneself: character, habits, skills and career.
+  - **personal-growth/** (planned)
+    - [README.md](personal-development/personal-growth/README.md): Personal growth - Understanding and changing how you think, feel and act.
+    - Goal setting (planned)
+    - Habits (planned)
+    - Motivation (planned)
+    - Self-awareness (planned)
+    - Confidence (planned)
+    - Emotional intelligence (planned)
+    - Mindfulness (planned)
+    - Stress management (planned)
+  - **skills/** (planned)
+    - [README.md](personal-development/skills/README.md): Skills - Abilities that can be learned and practiced. Skills cut across many domains, so a skill note links to the note that explains the underlying knowledge instead of repeating it.
+    - Learning a skill (planned)
+    - Deliberate practice (planned)
+    - **soft-skills/** (planned)
+      - [README.md](personal-development/skills/soft-skills/README.md): Soft skills - Transferable skills that apply in most roles. Planned grouping follows the three domains of the US National Research Council report on 21st century skills (2012): cognitive, interpersonal and intrapersonal. TODO: verify against the report.
+      - Cognitive: critical thinking, problem solving, learning to learn (planned)
+      - Interpersonal: communication, teamwork, leadership, negotiation (planned)
+      - Intrapersonal: time management, self-regulation, adaptability (planned)
+    - **hard-skills/** (planned)
+      - [README.md](personal-development/skills/hard-skills/README.md): Hard skills - Skills tied to a specific task, tool or profession, and usually testable.
+      - Copywriting (planned)
+      - Social media (planned)
+      - Client acquisition (planned)
+      - Data analysis (planned)
+      - Programming (planned)
+  - **career/** (planned)
+    - [README.md](personal-development/career/README.md): Career - Finding, getting and growing in work.
+    - Job search (planned)
+    - Interviews (planned)
+    - Networking and professional profiles (LinkedIn) (planned)
+    - Negotiation (planned)
+    - Career planning (planned)
+    - Continuous learning (planned)
+- **arts/** (planned)
+  - [README.md](arts/README.md): Arts - Creative practice and the study of aesthetic works.
+  - **visual-arts/** (planned)
+    - [README.md](arts/visual-arts/README.md): Visual arts - Painting, drawing, sculpture and related media.
+    - Drawing and painting (planned)
+    - Sculpture (planned)
+    - Art history (planned)
+  - **music/** (planned)
+    - [README.md](arts/music/README.md): Music - Sound organized in time.
+    - Music theory (planned)
+    - Instruments (planned)
+    - Music history (planned)
+  - **performing-arts/** (planned)
+    - [README.md](arts/performing-arts/README.md): Performing arts - Works performed live.
+    - Theatre (planned)
+    - Dance (planned)
+    - Film and cinema (planned)
+  - **design-and-architecture/** (planned)
+    - [README.md](arts/design-and-architecture/README.md): Design and architecture - Shaping objects, interfaces and buildings.
+    - Graphic design (planned)
+    - User interface design (planned)
+    - Architecture (planned)
+  - **photography/** (planned)
+    - [README.md](arts/photography/README.md): Photography - Making images with light.
+    - Camera and exposure (planned)
+    - Composition (planned)
+    - Editing (planned)
