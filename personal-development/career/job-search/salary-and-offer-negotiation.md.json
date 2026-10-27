@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "career.salary-and-offer-negotiation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "career",
+      "job-search",
+      "negotiation"
+    ],
+    "aliases": [
+      "pay negotiation"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.job-interview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.interests-values-and-strengths",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "galinsky-2001",
+      "type": "paper",
+      "authors": [
+        "Galinsky, A. D.",
+        "Mussweiler, T."
+      ],
+      "year": 2001,
+      "title": "First offers as anchors: The role of perspective-taking and negotiator focus",
+      "url": "https://doi.org/10.1037/0022-3514.81.4.657",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fisher-ury-1981",
+      "type": "book",
+      "authors": [
+        "Fisher, R.",
+        "Ury, W."
+      ],
+      "year": 1981,
+      "title": "Getting to Yes: Negotiating Agreement Without Giving In",
+      "publisher": "Houghton Mifflin",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "BATNA",
+      "anchor": "#terms",
+      "definition": "Best alternative to a negotiated agreement: what you do if no deal happens."
+    },
+    {
+      "term": "Anchor",
+      "anchor": "#terms",
+      "definition": "The first number mentioned, which sets a reference for the negotiation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What did Galinsky and Mussweiler find about first offers?",
+      "a": "The party who made the first offer got a better outcome, unless the other side focused on its alternatives, the opponent's reservation price or its own target.",
+      "anchor": "#anchoring-evidence",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What is the reservation point?",
+      "a": "The worst terms you would still accept.",
+      "anchor": "#terms",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "job-search"
+  }
+}

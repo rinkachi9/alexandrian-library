@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "career.person-environment-fit",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "career",
+      "fit"
+    ],
+    "aliases": [
+      "P-E fit"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.career-development-theories",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kristof-brown-2005",
+      "type": "paper",
+      "authors": [
+        "Kristof-Brown, A. L.",
+        "Zimmerman, R. D.",
+        "Johnson, E. C."
+      ],
+      "year": 2005,
+      "title": "Consequences of individuals' fit at work: A meta-analysis of person-job, person-organization, person-group, and person-supervisor fit",
+      "url": "https://doi.org/10.1111/j.1744-6570.2005.00672.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "nye-2012",
+      "type": "paper",
+      "authors": [
+        "Nye, C. D.",
+        "Su, R.",
+        "Rounds, J.",
+        "Drasgow, F."
+      ],
+      "year": 2012,
+      "title": "Vocational interests and performance: A quantitative summary of over 60 years of research",
+      "url": "https://doi.org/10.1177/1745691612449021",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "nye-2017",
+      "type": "paper",
+      "authors": [
+        "Nye, C. D.",
+        "Su, R.",
+        "Rounds, J.",
+        "Drasgow, F."
+      ],
+      "year": 2017,
+      "title": "Interest congruence and performance: Revisiting recent meta-analytic findings",
+      "url": "https://doi.org/10.1016/j.jvb.2016.11.002",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Person-environment fit",
+      "anchor": "#definition",
+      "definition": "The compatibility between a person and an aspect of the environment that can be described on the same dimension."
+    },
+    {
+      "term": "Needs and supplies",
+      "anchor": "#two-ways-to-match",
+      "definition": "Fit in which the job supplies what the person wants."
+    },
+    {
+      "term": "Demands and abilities",
+      "anchor": "#two-ways-to-match",
+      "definition": "Fit in which the person can meet what the job asks."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Give an example of a job that matches your abilities but not your needs.",
+      "a": "A role you can do well that offers no autonomy when autonomy is your top need.",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the levels of fit that Kristof-Brown and colleagues compared.",
+      "a": "Person-job, person-organization, person-group and person-supervisor fit.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

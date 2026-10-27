@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "career.mentoring-process-and-relationships",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "career",
+      "mentoring",
+      "method"
+    ],
+    "aliases": [
+      "mentorship"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.coaching-techniques-for-career",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.networking",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kram-1983",
+      "type": "paper",
+      "authors": [
+        "Kram, K. E."
+      ],
+      "year": 1983,
+      "title": "Phases of the mentor relationship",
+      "url": "https://doi.org/10.2307/255910",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "allen-2004",
+      "type": "paper",
+      "authors": [
+        "Allen, T. D.",
+        "Eby, L. T.",
+        "Poteet, M. L.",
+        "Lentz, E.",
+        "Lima, L."
+      ],
+      "year": 2004,
+      "title": "Career benefits associated with mentoring for proteges: A meta-analysis",
+      "url": "https://doi.org/10.1037/0021-9010.89.1.127",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "eby-2008",
+      "type": "paper",
+      "authors": [
+        "Eby, L. T.",
+        "Allen, T. D.",
+        "Evans, S. C.",
+        "Ng, T.",
+        "DuBois, D. L."
+      ],
+      "year": 2008,
+      "title": "Does mentoring matter? A multidisciplinary meta-analysis comparing mentored and non-mentored individuals",
+      "url": "https://doi.org/10.1016/j.jvb.2007.04.005",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mentoring",
+      "anchor": "#definition",
+      "definition": "A relationship in which a more experienced person supports the development of a less experienced one."
+    },
+    {
+      "term": "Mentoring phases",
+      "anchor": "#phases",
+      "definition": "Initiation, cultivation, separation and redefinition."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name Kram's four phases.",
+      "a": "Initiation, cultivation, separation, redefinition.",
+      "anchor": "#phases",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How large are the effects of mentoring on objective career outcomes?",
+      "a": "Generally small.",
+      "anchor": "#evidence",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "methods"
+  }
+}

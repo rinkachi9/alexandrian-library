@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "career.career-transitions",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "career",
+      "transitions",
+      "change"
+    ],
+    "aliases": [
+      "career change"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.career-planning-process",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.career-development-theories",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schlossberg-1981",
+      "type": "paper",
+      "authors": [
+        "Schlossberg, N. K."
+      ],
+      "year": 1981,
+      "title": "A model for analyzing human adaptation to transition",
+      "url": "https://doi.org/10.1177/001100008100900202",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hall-1996",
+      "type": "paper",
+      "authors": [
+        "Hall, D. T."
+      ],
+      "year": 1996,
+      "title": "Protean careers of the 21st century",
+      "url": "https://doi.org/10.5465/ame.1996.3145315",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mitchell-1999",
+      "type": "paper",
+      "authors": [
+        "Mitchell, K. E.",
+        "Levin, A. S.",
+        "Krumboltz, J. D."
+      ],
+      "year": 1999,
+      "title": "Planned happenstance: Constructing unexpected career opportunities",
+      "url": "https://doi.org/10.1002/j.1556-6676.1999.tb02431.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Transition",
+      "anchor": "#transition",
+      "definition": "An event or non-event that changes assumptions about oneself and the world and so requires a change in behavior and relationships."
+    },
+    {
+      "term": "Protean career",
+      "anchor": "#the-protean-career",
+      "definition": "A career driven by the person's values and managed by the person."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is a non-event?",
+      "a": "An expected change that does not happen, such as a promotion that never comes.",
+      "anchor": "#transition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name one low-cost experiment for testing a field you consider entering.",
+      "a": "For example a small project in the field or a 20-minute talk with a practitioner.",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "planning"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "personal-development.career.job-search",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "career",
+      "job-search"
+    ]
+  },
+  "links": []
+}

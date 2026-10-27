@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "career.interests-values-and-strengths",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "career",
+      "self-assessment",
+      "interests"
+    ],
+    "aliases": [
+      "interest inventory"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.career-development-theories",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.person-environment-fit",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nye-2012",
+      "type": "paper",
+      "authors": [
+        "Nye, C. D.",
+        "Su, R.",
+        "Rounds, J.",
+        "Drasgow, F."
+      ],
+      "year": 2012,
+      "title": "Vocational interests and performance: A quantitative summary of over 60 years of research",
+      "url": "https://doi.org/10.1177/1745691612449021",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "onet-ip",
+      "type": "documentation",
+      "authors": [
+        "U.S. Department of Labor, Employment and Training Administration"
+      ],
+      "title": "O*NET Interest Profiler",
+      "url": "https://www.onetcenter.org/IP.html",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Vocational interest",
+      "anchor": "#interests",
+      "definition": "A stable preference for certain activities and settings."
+    },
+    {
+      "term": "Work values",
+      "anchor": "#values",
+      "definition": "The outcomes a person wants from work, such as autonomy, security or helping others."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is a forced ranking of values more informative than rating each value?",
+      "a": "Rating lets everything be important, while ranking forces trade-offs.",
+      "anchor": "#values",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How many items do the O*NET Interest Profiler mini and short forms have?",
+      "a": "30 and 60.",
+      "anchor": "#interests",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "self-assessment"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "career.job-search-strategy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "career",
+      "job-search"
+    ],
+    "aliases": [
+      "job hunting"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.career-planning-process",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.skills-inventory-and-gap-analysis",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kanfer-2001",
+      "type": "paper",
+      "authors": [
+        "Kanfer, R.",
+        "Wanberg, C. R.",
+        "Kantrowitz, T. M."
+      ],
+      "year": 2001,
+      "title": "Job search and employment: A personality-motivational analysis and meta-analytic review",
+      "url": "https://doi.org/10.1037/0021-9010.86.5.837",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "liu-2014",
+      "type": "paper",
+      "authors": [
+        "Liu, S.",
+        "Huang, J. L.",
+        "Wang, M."
+      ],
+      "year": 2014,
+      "title": "Effectiveness of job search interventions: A meta-analytic review",
+      "url": "https://doi.org/10.1037/a0035923",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Job-search pipeline",
+      "anchor": "#the-pipeline",
+      "definition": "A count of opportunities moving through application, response, interview and offer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Out of 20 applications you get 4 responses. What is the response rate?",
+      "a": "20 percent.",
+      "anchor": "#the-pipeline",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did the 2014 meta-analysis find about skills and motivation?",
+      "a": "Interventions promoted employment only when both skill development and motivation enhancement were included.",
+      "anchor": "#interventions-that-work",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "job-search"
+  }
+}

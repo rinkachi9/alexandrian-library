@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "career.coaching-techniques-for-career",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "career",
+      "coaching",
+      "method"
+    ],
+    "aliases": [
+      "career coaching"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.career-planning-process",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.mentoring-process-and-relationships",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "theeboom-2014",
+      "type": "paper",
+      "authors": [
+        "Theeboom, T.",
+        "Beersma, B.",
+        "van Vianen, A. E. M."
+      ],
+      "year": 2014,
+      "title": "Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context",
+      "url": "https://doi.org/10.1080/17439760.2013.837499",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "grant-2009",
+      "type": "paper",
+      "authors": [
+        "Grant, A. M.",
+        "Curtayne, L.",
+        "Burton, G."
+      ],
+      "year": 2009,
+      "title": "Executive coaching enhances goal attainment, resilience and workplace well-being: A randomised controlled study",
+      "url": "https://doi.org/10.1080/17439760902992456",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "whitmore-coaching",
+      "type": "book",
+      "authors": [
+        "Whitmore, J."
+      ],
+      "title": "Coaching for Performance",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "GROW",
+      "anchor": "#grow",
+      "definition": "A four-step coaching conversation: Goal, Reality, Options, Will."
+    },
+    {
+      "term": "Powerful question",
+      "anchor": "#powerful-questions",
+      "definition": "An open, non-leading question that directs attention to the person's own thinking."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What do the letters of GROW stand for?",
+      "a": "Goal, Reality, Options, Will.",
+      "anchor": "#grow",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did the 2014 meta-analysis find?",
+      "a": "Positive effects of coaching in organizations on five outcomes, with g from 0.43 to 0.74, from 18 studies.",
+      "anchor": "#evidence",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "methods"
+  }
+}

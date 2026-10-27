@@ -15,6 +15,7 @@ The import above loads [GUIDELINE.md](GUIDELINE.md), the single source of truth 
 - Do not invent facts, sources or version numbers. Cite primary sources.
 - Never add secrets, credentials or personal data.
 - Reflect every added, moved, renamed or deleted file in `ToC.md`.
+- Every Markdown file in an entry point has a `.md.json` sidecar ([GUIDELINE section 3.5](GUIDELINE.md#35-sidecar-metadata)). Run `npm run check` in Librarian OS against this repository before finishing.
 - Stay within the scope described in [README.md](README.md#scope).
 
 ## Before finishing a task

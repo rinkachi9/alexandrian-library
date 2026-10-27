@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "career.labor-market-and-work-trends",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "career",
+      "labor-market"
+    ],
+    "aliases": [
+      "job market"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "onet-ip",
+      "type": "documentation",
+      "authors": [
+        "U.S. Department of Labor, Employment and Training Administration"
+      ],
+      "title": "O*NET Interest Profiler",
+      "url": "https://www.onetcenter.org/IP.html",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "esco",
+      "type": "documentation",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "ESCO: European Skills, Competences, Qualifications and Occupations",
+      "url": "https://esco.ec.europa.eu/en/about-esco/what-esco",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Occupation",
+      "anchor": "#vocabulary",
+      "definition": "A group of jobs with similar tasks."
+    },
+    {
+      "term": "Occupational classification",
+      "anchor": "#classifications",
+      "definition": "A shared dictionary of occupations and the skills they need."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the difference between an occupation and a job?",
+      "a": "An occupation is a group of similar jobs, and a job is a position at one employer.",
+      "anchor": "#vocabulary",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why use a classification and job postings together?",
+      "a": "A classification is stable and comparable, while postings show current employer needs.",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

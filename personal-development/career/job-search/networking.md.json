@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "career.networking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "career",
+      "job-search",
+      "networking"
+    ],
+    "aliases": [
+      "professional networking"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.job-search-strategy",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "granovetter-1973",
+      "type": "paper",
+      "authors": [
+        "Granovetter, M. S."
+      ],
+      "year": 1973,
+      "title": "The strength of weak ties",
+      "url": "https://doi.org/10.1086/225469",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "wolff-moser-2009",
+      "type": "paper",
+      "authors": [
+        "Wolff, H.-G.",
+        "Moser, K."
+      ],
+      "year": 2009,
+      "title": "Effects of networking on career success: A longitudinal study",
+      "url": "https://doi.org/10.1037/a0013350",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Weak tie",
+      "anchor": "#weak-ties",
+      "definition": "An acquaintance who belongs to a different group and so can bring new information."
+    },
+    {
+      "term": "Networking",
+      "anchor": "#what-networking-predicts",
+      "definition": "Building, maintaining and using professional relationships."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can a weak tie know about openings you have not heard of?",
+      "a": "The person belongs to another group, so their information overlaps less with yours.",
+      "anchor": "#weak-ties",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What did the longitudinal study find about networking and salary growth?",
+      "a": "Networking was related to the growth rate of salary over time.",
+      "anchor": "#what-networking-predicts",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "job-search"
+  }
+}

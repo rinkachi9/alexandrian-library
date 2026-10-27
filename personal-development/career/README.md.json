@@ -1,0 +1,25 @@
+{
+  "node": {
+    "id": "personal-development.career",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "career"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills",
+      "rel": "related"
+    },
+    {
+      "to": "personal-development.personal-growth",
+      "rel": "related"
+    },
+    {
+      "to": "social-sciences.psychology",
+      "rel": "related"
+    }
+  ]
+}

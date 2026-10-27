@@ -41,3 +41,5 @@ dumps/
 *.crt.private
 
 _sources
+
+node_modules/

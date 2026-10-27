@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "career.skills-inventory-and-gap-analysis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "career",
+      "skills",
+      "planning"
+    ],
+    "aliases": [
+      "skills audit"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.labor-market-and-work-trends",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "personal-development.skills.soft-skills",
+      "rel": "related"
+    },
+    {
+      "to": "personal-development.skills.hard-skills",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "esco",
+      "type": "documentation",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "ESCO: European Skills, Competences, Qualifications and Occupations",
+      "url": "https://esco.ec.europa.eu/en/about-esco/what-esco",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bandura-1977",
+      "type": "paper",
+      "authors": [
+        "Bandura, A."
+      ],
+      "year": 1977,
+      "title": "Self-efficacy: Toward a unifying theory of behavioral change",
+      "url": "https://doi.org/10.1037/0033-295X.84.2.191",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Skills inventory",
+      "anchor": "#inventory",
+      "definition": "A record of each skill, its level on a fixed scale and the evidence for it."
+    },
+    {
+      "term": "Gap analysis",
+      "anchor": "#gap-analysis",
+      "definition": "A comparison of required and current levels that ranks the differences by priority."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A skill has importance 3, required level 3 and current level 0. What is its priority?",
+      "a": "The gap is 3, so priority = 3 x 3 = 9.",
+      "anchor": "#gap-analysis",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does a skill without evidence stay at level 1?",
+      "a": "Without a result others can check, the rating is only a claim.",
+      "anchor": "#inventory",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "self-assessment"
+  }
+}

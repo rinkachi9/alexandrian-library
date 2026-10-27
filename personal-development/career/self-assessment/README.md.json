@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "personal-development.career.self-assessment",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "career",
+      "self-assessment"
+    ]
+  },
+  "links": []
+}

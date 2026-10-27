@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "career.career-planning-process",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "career",
+      "planning",
+      "goals"
+    ],
+    "aliases": [
+      "career planning"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.interests-values-and-strengths",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "personal-development.personal-growth",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "locke-latham-2002",
+      "type": "paper",
+      "authors": [
+        "Locke, E. A.",
+        "Latham, G. P."
+      ],
+      "year": 2002,
+      "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+      "url": "https://doi.org/10.1037/0003-066X.57.9.705",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gollwitzer-1999",
+      "type": "paper",
+      "authors": [
+        "Gollwitzer, P. M."
+      ],
+      "year": 1999,
+      "title": "Implementation intentions: Strong effects of simple plans",
+      "url": "https://doi.org/10.1037/0003-066X.54.7.493",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mitchell-1999",
+      "type": "paper",
+      "authors": [
+        "Mitchell, K. E.",
+        "Levin, A. S.",
+        "Krumboltz, J. D."
+      ],
+      "year": 1999,
+      "title": "Planned happenstance: Constructing unexpected career opportunities",
+      "url": "https://doi.org/10.1002/j.1556-6676.1999.tb02431.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Goal-setting theory",
+      "anchor": "#goal-setting",
+      "definition": "The theory that specific and difficult goals, with commitment and feedback, lead to higher performance."
+    },
+    {
+      "term": "Implementation intention",
+      "anchor": "#implementation-intentions",
+      "definition": "An if-then plan that links a situation to an action."
+    },
+    {
+      "term": "Decision matrix",
+      "anchor": "#decision-matrix",
+      "definition": "A table that scores options on weighted criteria."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Write an if-then plan for studying SQL three times a week.",
+      "a": "If it is Monday, Wednesday or Friday at 19:00, I open my SQL exercise file.",
+      "anchor": "#implementation-intentions",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does it mean when a small change of weights flips the ranking in a matrix?",
+      "a": "The options are close, so more information is needed before deciding.",
+      "anchor": "#decision-matrix",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "planning"
+  }
+}

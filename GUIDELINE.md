@@ -55,6 +55,7 @@ Content follows the classical division of knowledge in three levels: a *domain* 
 ```text
 ToC.md                  # full tree of every file in the repository
 _sources/               # original exports that notes are migrated from
+librarian-os.json       # configuration for Librarian OS: project name, entry points, rules (see 3.5)
 _assets/
     <domain>/           # images, diagram sources, media and other files used by notes
 <domain>/
@@ -62,6 +63,7 @@ _assets/
     <field>/
         README.md       # entry point: what the field covers, reading order, links to notes
         <topic>.md      # a single note
+        <topic>.md.json # its sidecar: node header and relations (see 3.5)
         <subfield>/     # optional, groups related notes
             README.md
             <topic>.md
@@ -76,6 +78,7 @@ Guidance:
 - **One note, one main idea.** If a note needs a table of contents longer than about ten entries, it is probably several notes.
 - **Every domain, field and subfield has a `README.md`.** It is the entry point. A domain README lists its fields. A field README lists its notes in a recommended reading order with a one line description each. Fields that are planned but not written yet have a `README.md` that says so and lists planned topics.
 - **Media goes to `_assets/<domain>/`, scripts stay with their topic.** Images, diagram sources, downloadable files and media go to `_assets/<domain>/`. A script lives next to the material it belongs to: when a topic gets scripts, the note becomes a directory `<topic>/` with `README.md` (the note) and a `scripts/` directory. There is no global `scripts/` directory.
+- **`librarian-os.json` lists the entry points.** The seven domain directories are the entry points of the library. Adding a domain means adding it to the `entryPoints` list there, in the same change. Content outside the entry points (this guideline, the README, `_sources/`) is not shown by Librarian OS.
 - **Keep `ToC.md` complete.** See [section 3.4](#34-table-of-contents).
 
 *Analogy.* Think of a library. Domains are wings, fields are sections, field READMEs are the catalog cards for a section, and notes are the books. A book that tries to cover an entire section belongs on several shelves.
@@ -91,6 +94,7 @@ Guidance:
 | Scripts | lowercase, hyphens, verb phrase, stored in the `scripts/` directory of their topic | `applied-sciences/computer-science/pcap-analysis/scripts/parse-pcap-summary.py` |
 | Entry points | always `README.md` | `<domain>/<field>/README.md` |
 | Table of contents | always `ToC.md` in the repository root | `ToC.md` |
+| Sidecar | the full name of the Markdown file plus `.json` | `job-interview.md.json`, `README.md.json` |
 
 Names describe the content, not its status or origin. Avoid `notes.md`, `misc.md`, `new-draft-2.md` or dates in file names. Do not use spaces or uppercase letters, so that links and shell commands behave the same on every system.
 
@@ -103,12 +107,94 @@ Names describe the content, not its status or origin. Avoid `notes.md`, `misc.md
 
 ### 3.4 Table of contents
 
-`ToC.md` in the repository root is the complete map of the repository. It is an indented tree with one entry for every file: root documents, domain, field and subfield `README.md` files, notes, assets and scripts. Each entry is a relative link followed by a short description.
+`ToC.md` in the repository root is the complete map of the repository. It is an indented tree with one entry for every file: root documents, domain, field and subfield `README.md` files, notes, assets and scripts. Each entry is a relative link followed by a short description. A sidecar (`.md.json`) is not listed on its own: the entry of its Markdown file covers it. 
 
-- **Every change is reflected in `ToC.md`.** Adding, moving, renaming or deleting a note, an asset or a script updates `ToC.md` in the same change. Changing the title or purpose of a note updates its description there.
+- **Every change is reflected in `ToC.md`.** Adding, moving, renaming or deleting a note, an asset or a script updates `ToC.md` in the same change. Run `npm run toc` in Librarian OS with this repository as the argument to regenerate it: entries come from the files, the note titles and summaries, and the "Planned topics" lists of the READMEs, so a change of title or summary updates the description there.
 - **Planned areas are marked.** A domain, field or subfield that has only a `README.md` is marked `(planned)`. Planned topics are listed without a link.
 - **Verify before finishing.** Compare `ToC.md` with the output of `git ls-files --cached --others --exclude-standard` and check that every link resolves.
 - **`ToC.md` is not a replacement for field READMEs.** The field README keeps the recommended reading order and the context. `ToC.md` keeps the complete list.
+
+### 3.5 Sidecar metadata
+
+Every Markdown file inside an entry point (a directory listed in `librarian-os.json`) has a *sidecar*: a JSON file with the same name plus `.json`, stored next to it (`job-interview.md` and `job-interview.md.json`, `README.md` and `README.md.json`). The Markdown file stays the single source of truth for the text. The sidecar holds only what Markdown cannot express well: the identity of the note as a node in a graph, typed relations to other notes, structured sources, a list of key terms and practice questions. The Librarian OS reader (the repository is configured for it by [`librarian-os.json`](librarian-os.json)) uses the sidecars to draw mind maps, show backlinks, search and build practice decks. AI tools use them to generate questions without parsing prose.
+
+*Analogy.* The note is a book on the shelf, and the sidecar is its catalog card. The card does not repeat the book. It says what the book is, what it needs to be read after and what it connects to. The limit of the analogy is that a catalog card is written once, while a sidecar must be kept in step with the note when the note changes.
+
+**Example** (`personal-development/career/job-search/job-interview.md.json`, shortened):
+
+```json
+{
+  "node": {
+    "id": "career.job-interview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "tags": ["career", "selection", "interview"],
+    "aliases": ["hiring interview"]
+  },
+  "links": [
+    { "to": "career.resume-and-cover-letter", "rel": "prerequisite" },
+    { "to": "career.salary-and-offer-negotiation", "rel": "related", "note": "Negotiation starts after an offer" }
+  ],
+  "sources": [
+    {
+      "key": "schmidt-hunter-1998",
+      "type": "paper",
+      "authors": ["Schmidt, F. L.", "Hunter, J. E."],
+      "year": 1998,
+      "title": "The validity and utility of selection methods in personnel psychology",
+      "url": "https://doi.org/10.1037/0033-2909.124.2.262",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    { "term": "Structured interview", "anchor": "#structured-interviews", "definition": "An interview in which every candidate gets the same questions and is rated on the same scale." }
+  ],
+  "questions": [
+    { "id": "q1", "type": "explain", "q": "Why does a structured interview predict job performance better than an unstructured one?", "a": "Because fixed questions and a shared rating scale reduce noise and bias.", "anchor": "#structured-interviews", "origin": "author" }
+  ],
+  "map": { "group": "job-search" }
+}
+```
+
+**Fields**
+
+| Field | Required | Meaning |
+| --- | --- | --- |
+| `$schema` | no | Path or URL of the JSON Schema of Librarian OS (`schema/note.schema.json`), so that editors can validate and autocomplete. |
+| `node.id` | yes | Stable identifier, unique in the repository: lowercase segments of letters, digits and hyphens joined by dots. Links use ids, not paths, so moving a file does not break them. |
+| `node.kind` | yes | `note` (a topic note), or `index` (a domain, field or subfield README). Documents at the repository root, such as this one, are outside the entry points and have no sidecar. |
+| `node.status` | no | `draft` or `reviewed`. Default is `draft`. |
+| `node.level` | no | `intro`, `intermediate` or `advanced`. |
+| `node.tags`, `node.aliases` | no | Free tags for filtering, and alternative names used by search. |
+| `links` | no | Typed relations from this note to others (table below). |
+| `sources` | no | Structured bibliography: `key`, `type`, `authors`, `year`, `title`, `url`, `verified`, `checked`. The human readable list stays in "Further reading". |
+| `concepts` | no | Key terms with an `anchor` to the heading that explains them and a one sentence `definition`. |
+| `questions` | no | Practice questions with `id`, `type` (`recall`, `explain`, `apply`, `compare`), `q`, `a`, optional `hint`, `anchor`, `origin` (`author` or `ai`) and `reviewed`. |
+| `map` | no | Hints for mind maps, such as `group`. |
+
+**Relation types**
+
+| `rel` | Meaning | Shown on the target as |
+| --- | --- | --- |
+| `prerequisite` | Read the target first. | Required by |
+| `extends` | Builds on or deepens the target. | Extended by |
+| `related` | Neighbors in the same topic, no order. | Related |
+| `contrasts` | An alternative or opposing view. | Contrasts |
+| `example-of` | A concrete case of the target. | Examples |
+| `applies` | Applies the target idea in a specific setting. | Applied in |
+| `part-of` | A part of a larger topic note. | Parts |
+
+**Rules**
+
+- **Derived, not stored.** The title comes from the `#` heading and the domain, field and subfield come from the path. The hierarchy edges of the graph come from the directory tree. Storing them again would let them drift.
+- **Relations point forward only.** Backlinks are computed. Do not write the inverse relation in the target.
+- **Link only to existing ids.** A planned topic without a sidecar cannot be a target. `npm run check` fails on a broken id.
+- **No duplicated prose.** A definition in `concepts` is one sentence. The explanation belongs in the note.
+- **Practice questions.** The "Practice" section of the note stays the authoritative place for questions the author writes. The `questions` list is the deck for the reader and for generated questions, so do not copy the same question into both. Questions with `origin: "ai"` start with `reviewed: false` until the author accepts them.
+- **Format.** UTF-8, 2 space indent, one trailing newline, no comments, English only. The hyphen rule of [section 7.2](#72-punctuation-hyphens-only) applies to every string.
+- **Validation.** `npm run check` in Librarian OS (with this repository as the argument) validates every sidecar against the schema and checks ids, relation targets, titles, links and `ToC.md`. `npm run scaffold` creates missing sidecars.
 
 ## 4. Anatomy of a note
 
@@ -386,12 +472,15 @@ Run this list before marking a note as `reviewed`.
 - [ ] File and directory names follow the naming rules.
 - [ ] The note is linked from its field `README.md`.
 - [ ] `ToC.md` reflects every added, moved, renamed or deleted file, and its links resolve.
+- [ ] The note has a sidecar (`.md.json`), and `npm run check` in Librarian OS passes.
 
 A quick way to check the dash rule from the repository root:
 
 ```bash
-grep -rnP "\x{2013}|\x{2014}" --include="*.md" .
+grep -rnP "\x{2013}|\x{2014}" --include="*.md" --include="*.json" --include="*.ts" --include="*.scss" --exclude-dir=node_modules .
 ```
+
+`npm run check` repeats this test for all text files it reads.
 
 ## 11. Maintenance and versioning
 
@@ -413,6 +502,7 @@ AI assistants are welcome collaborators. The rules are the same as for a human c
 - **Follow the style rules strictly.** In particular the ban on em dashes and en dashes, and the ban on filler language (see [section 7](#7-writing-style)).
 - **Stay in scope.** Do not add content unrelated to the request. Do not restructure the repository without being asked.
 - **Prefer editing to creating.** Extend an existing note when the topic already has a home. Create a new file only when the topic deserves its own note.
+- **Keep sidecars in step.** A new or renamed note gets a sidecar (`npm run scaffold`), and relations are added only to ids that exist. Run `npm run check` in Librarian OS before finishing.
 - **Update `ToC.md` with every change.** Any file added, moved, renamed or deleted must be reflected in `ToC.md` before the task is finished (see [section 3.4](#34-table-of-contents)).
 - **Ask when a decision is unclear.** Structure, scope and naming decisions belong to the author.
 - **Never commit secrets or personal data,** and never run destructive git operations without explicit approval.

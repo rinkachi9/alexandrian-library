@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "career.resume-and-cover-letter",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "career",
+      "job-search",
+      "documents"
+    ],
+    "aliases": [
+      "CV",
+      "curriculum vitae"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.skills-inventory-and-gap-analysis",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cole-2007",
+      "type": "paper",
+      "authors": [
+        "Cole, M. S.",
+        "Rubin, R. S.",
+        "Feild, H. S.",
+        "Giles, W. F."
+      ],
+      "year": 2007,
+      "title": "Recruiters' perceptions and use of applicant resume information: Screening the recent graduate",
+      "url": "https://doi.org/10.1111/j.1464-0597.2007.00288.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Action-scope-result bullet",
+      "anchor": "#worked-example",
+      "definition": "A resume line that states what you did, how much and with what result."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Rewrite \"Responsible for onboarding\" into an action-scope-result line.",
+      "a": "For example: Onboarded 6 new hires in 2 months with a checklist that cut questions to the manager.",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What three parts does a short cover letter have?",
+      "a": "Why this employer, what you offer with evidence, and what you ask for.",
+      "anchor": "#cover-letter",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "job-search"
+  }
+}

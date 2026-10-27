@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "career.feedback-and-promotion",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "career",
+      "feedback",
+      "promotion"
+    ],
+    "aliases": [
+      "promotion"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.first-90-days",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.mentoring-process-and-relationships",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kluger-1996",
+      "type": "paper",
+      "authors": [
+        "Kluger, A. N.",
+        "DeNisi, A."
+      ],
+      "year": 1996,
+      "title": "The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory",
+      "url": "https://doi.org/10.1037/0033-2909.119.2.254",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Feedback intervention",
+      "anchor": "#feedback-is-not-always-helpful",
+      "definition": "An action that gives an actor information about aspects of their performance."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Turn \"Was it good?\" into a task-focused request.",
+      "a": "For example: Which part of the report was hardest to follow?",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why keep an evidence log?",
+      "a": "It collects dated results so you can match them to the expectations for the next level.",
+      "anchor": "#promotion",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "growth"
+  }
+}

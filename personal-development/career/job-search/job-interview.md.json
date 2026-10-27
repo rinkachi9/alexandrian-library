@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "career.job-interview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "career",
+      "job-search",
+      "interview",
+      "selection"
+    ],
+    "aliases": [
+      "hiring interview"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.resume-and-cover-letter",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.first-90-days",
+      "rel": "related",
+      "note": "The interview questions about expectations carry into the first months"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schmidt-hunter-1998",
+      "type": "paper",
+      "authors": [
+        "Schmidt, F. L.",
+        "Hunter, J. E."
+      ],
+      "year": 1998,
+      "title": "The validity and utility of selection methods in personnel psychology: Practical and theoretical implications of 85 years of research findings",
+      "url": "https://doi.org/10.1037/0033-2909.124.2.262",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sackett-2022",
+      "type": "paper",
+      "authors": [
+        "Sackett, P. R.",
+        "Zhang, C.",
+        "Berry, C. M.",
+        "Lievens, F."
+      ],
+      "year": 2022,
+      "title": "Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range",
+      "url": "https://doi.org/10.1037/apl0000994",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "levashina-2014",
+      "type": "paper",
+      "authors": [
+        "Levashina, J.",
+        "Hartwell, C. J.",
+        "Morgeson, F. P.",
+        "Campion, M. A."
+      ],
+      "year": 2014,
+      "title": "The structured employment interview: Narrative and quantitative review of the research literature",
+      "url": "https://doi.org/10.1111/peps.12052",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Structured interview",
+      "anchor": "#structured-and-unstructured-interviews",
+      "definition": "An interview with fixed questions, the same for all candidates, scored on a rating scale."
+    },
+    {
+      "term": "STAR",
+      "anchor": "#answer-structure-star",
+      "definition": "Situation, Task, Action, Result: a practitioner structure for answers about past behavior."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do structured interviews predict performance better than unstructured ones?",
+      "a": "Fixed questions and a shared rating scale reduce noise and bias.",
+      "anchor": "#structured-and-unstructured-interviews",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which two questions does the library recommend asking at the end of an interview?",
+      "a": "The biggest opportunity facing the department, and what you would need to accomplish in six months to exceed expectations.",
+      "anchor": "#questions-you-ask",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "job-search"
+  }
+}

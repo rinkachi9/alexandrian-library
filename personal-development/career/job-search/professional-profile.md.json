@@ -1,0 +1,65 @@
+{
+  "node": {
+    "id": "career.professional-profile",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "career",
+      "job-search",
+      "linkedin"
+    ],
+    "aliases": [
+      "LinkedIn profile"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.resume-and-cover-letter",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "roulin-2019",
+      "type": "paper",
+      "authors": [
+        "Roulin, N.",
+        "Levashina, J."
+      ],
+      "year": 2019,
+      "title": "LinkedIn as a new selection method: Psychometric properties and assessment approach",
+      "url": "https://doi.org/10.1111/peps.12296",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Headline",
+      "anchor": "#parts-of-a-profile",
+      "definition": "One line saying what you do and for whom."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are recommendations from colleagues persuasive?",
+      "a": "They are evidence from a source other than yourself.",
+      "anchor": "#parts-of-a-profile",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Write a one-sentence reason to add to a connection request.",
+      "a": "For example: I read your post on churn analysis and work on a similar problem.",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "job-search"
+  }
+}

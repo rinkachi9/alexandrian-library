@@ -10,6 +10,7 @@ A personal library of knowledge: notes, explanations, checklists and worked exam
 - [Knowledge domains](#knowledge-domains)
 - [Full table of contents](#full-table-of-contents)
 - [How to use this repository](#how-to-use-this-repository)
+- [Reading the library](#reading-the-library)
 - [Repository layout](#repository-layout)
 - [Sources and migration](#sources-and-migration)
 - [Contributing and working with AI agents](#contributing-and-working-with-ai-agents)
@@ -71,18 +72,32 @@ Where a topic fits two domains, it has one home note and the other domain links 
 - To look something up, start from [ToC.md](ToC.md) or search with `grep -rn "term" --include="*.md" .`.
 - To find open gaps, run `grep -rn "^TODO:" --include="*.md" .`.
 
+## Reading the library
+
+This repository is set up for [Librarian OS](https://japonics.io), a reader for Markdown knowledge repositories. [librarian-os.json](librarian-os.json) names the project and lists the entry points (the seven domain directories). Librarian OS renders the notes in the browser with adjustable font size and font family, light, dark and sepia themes, search, a graph of the relations between notes and practice questions.
+
+```bash
+# in the librarian-os directory
+npm install
+npm run dev -- --repo /absolute/path/to/this/repository
+```
+
+The relations come from the sidecar files described in [GUIDELINE.md](GUIDELINE.md#35-sidecar-metadata): every `note.md` has a `note.md.json` next to it. The tools that keep them valid run from Librarian OS: `npm run check`, `npm run scaffold` and `npm run toc`, each with this repository's path as the argument.
+
 ## Repository layout
 
 ```text
 ToC.md                  # full tree of every file
 GUIDELINE.md            # rules for structure, note format and style
 _sources/               # original exports that notes are migrated from
+librarian-os.json       # configuration for Librarian OS (project name, entry points, rules)
 _assets/<domain>/       # images, diagram sources and other files used by notes
 <domain>/
     README.md           # fields in the domain
     <field>/
         README.md       # planned topics and notes in reading order
         <topic>.md      # a single note
+        <topic>.md.json # its sidecar: node header and relations
 ```
 
 The full rules for structure and naming are in [GUIDELINE.md](GUIDELINE.md#3-repository-structure-and-naming).
