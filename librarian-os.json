@@ -20,7 +20,7 @@
     "check": true,
     "descriptions": {
       ".gitignore": "Files excluded from version control.",
-      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules.",
+      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules."
     }
   },
   "rules": { "requireSidecars": true, "noLongDashes": true }
