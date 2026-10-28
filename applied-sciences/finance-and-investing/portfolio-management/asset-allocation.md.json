@@ -1,0 +1,116 @@
+{
+  "node": {
+    "id": "finance.portfolio-management.asset-allocation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "allocation",
+      "rebalancing"
+    ],
+    "aliases": [
+      "strategic allocation",
+      "rebalancing"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.portfolio-management.risk-and-return",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.diversification",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.personal-finance.financial-rules-of-thumb",
+      "rel": "related",
+      "note": "The 100 minus age rule"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brinson-1986",
+      "type": "paper",
+      "title": "Determinants of portfolio performance",
+      "authors": [
+        "Brinson, G. P.",
+        "Hood, L. R.",
+        "Beebower, G. L."
+      ],
+      "year": 1986,
+      "publisher": "Financial Analysts Journal, 42(4), 39-44",
+      "url": "https://doi.org/10.2469/faj.v42.n4.39",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "finra-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Asset allocation",
+      "anchor": "#definition",
+      "definition": "The policy that sets the target share of each asset class in a portfolio."
+    },
+    {
+      "term": "Rebalancing",
+      "anchor": "#rebalancing",
+      "definition": "Buying and selling to return the portfolio to its target weights."
+    },
+    {
+      "term": "Risk capacity and tolerance",
+      "anchor": "#setting-the-allocation",
+      "definition": "Ability and willingness to bear a loss."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a portfolio get riskier if never rebalanced after a stock rally?",
+      "a": "The stock weight rises above target and stocks are the more volatile part.",
+      "anchor": "#rebalancing",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What three factors decide the allocation?",
+      "a": "Time horizon, ability to take risk and willingness to take risk.",
+      "anchor": "#setting-the-allocation",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "portfolio-management"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.real-estate-investing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "real-estate",
+      "reit",
+      "investing"
+    ],
+    "aliases": [
+      "rental property",
+      "REIT"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.mortgages",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "cfpb-mortgages",
+      "type": "website",
+      "title": "Owning a home: mortgages",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Net yield",
+      "anchor": "#mechanism-yields",
+      "definition": "Net operating income divided by price."
+    },
+    {
+      "term": "Cash-on-cash return",
+      "anchor": "#mechanism-yields",
+      "definition": "Cash flow after loan payments divided by equity invested."
+    },
+    {
+      "term": "REIT",
+      "anchor": "#ways-to-invest",
+      "definition": "A listed company that owns income-producing property and pays out most of its income."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A property costs 300,000 and earns rent of 18,000 with costs of 5,400. What are the gross and net yields?",
+      "a": "6.0% and 4.2%.",
+      "anchor": "#mechanism-yields",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "When does a mortgage reduce cash flow?",
+      "a": "When its cost is higher than the property's net yield.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

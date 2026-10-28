@@ -1,0 +1,120 @@
+{
+  "node": {
+    "id": "finance.personal-finance.personal-finance-basics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "personal-finance",
+      "financial-literacy"
+    ],
+    "aliases": [
+      "money management",
+      "financial literacy"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.personal-finance.budgeting",
+      "rel": "related"
+    },
+    {
+      "to": "finance.personal-finance.emergency-fund",
+      "rel": "related"
+    },
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lusardi-mitchell-2014",
+      "type": "paper",
+      "title": "The economic importance of financial literacy: theory and evidence",
+      "authors": [
+        "Lusardi, A.",
+        "Mitchell, O. S."
+      ],
+      "year": 2014,
+      "publisher": "Journal of Economic Literature, 52(1), 5-44",
+      "url": "https://doi.org/10.1257/jel.52.1.5",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "jel-codes",
+      "type": "website",
+      "title": "JEL classification system",
+      "authors": [
+        "American Economic Association"
+      ],
+      "publisher": "American Economic Association",
+      "url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cfpb-budgeting",
+      "type": "website",
+      "title": "Budgeting",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/budgeting/",
+      "verified": false
+    },
+    {
+      "key": "fed-shed",
+      "type": "website",
+      "title": "Economic Well-Being of U.S. Households (SHED)",
+      "authors": [
+        "Board of Governors of the Federal Reserve System"
+      ],
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/consumerscommunities/shed.htm",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Personal finance",
+      "anchor": "#definition",
+      "definition": "The planning and control of the financial resources of an individual or household over time."
+    },
+    {
+      "term": "Financial literacy",
+      "anchor": "#definition",
+      "definition": "The ability to understand and use concepts such as interest, inflation, risk and diversification to make decisions."
+    },
+    {
+      "term": "Pay yourself first",
+      "anchor": "#mechanism-a-priority-order",
+      "definition": "Moving the saving amount out on payday so that spending is limited to what remains."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which five areas make up personal finance?",
+      "a": "Income, spending, saving, investing and protection.",
+      "anchor": "#the-five-areas",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is the priority order a heuristic and not a rule?",
+      "a": "It assumes stable income and access to credit, and different households have different risks and rates.",
+      "anchor": "#mechanism-a-priority-order",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-finance"
+  }
+}

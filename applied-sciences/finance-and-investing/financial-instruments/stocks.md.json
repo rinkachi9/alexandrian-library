@@ -1,0 +1,121 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.stocks",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "stocks",
+      "equity"
+    ],
+    "aliases": [
+      "shares",
+      "common stock",
+      "preferred stock"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.equity-markets",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.dividends",
+      "rel": "related"
+    },
+    {
+      "to": "finance.financial-instruments.bonds",
+      "rel": "contrasts",
+      "note": "Owners versus lenders"
+    }
+  ],
+  "sources": [
+    {
+      "key": "investor-gov-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "finra-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Stock",
+      "anchor": "#definition",
+      "definition": "A security that represents a proportional ownership claim on a corporation."
+    },
+    {
+      "term": "Preferred share",
+      "anchor": "#types-of-shares",
+      "definition": "A share with priority in dividends and liquidation, often with fewer or no votes."
+    },
+    {
+      "term": "Dilution",
+      "anchor": "#risks",
+      "definition": "The fall in each holder's percentage when new shares are issued."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do shareholders differ from bondholders?",
+      "a": "Shareholders own the company and take residual profit, bondholders are lenders with a contractual claim ranking first.",
+      "anchor": "#stocks-versus-bonds",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "A holder has 100,000 of 2,000,000 shares and 500,000 new shares are issued. What is the new percentage?",
+      "a": "4%.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

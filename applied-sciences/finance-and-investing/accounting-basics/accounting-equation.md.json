@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.accounting-equation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "accounting",
+      "balance-sheet"
+    ],
+    "aliases": [
+      "balance sheet equation"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.accounting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Accounting equation",
+      "anchor": "#definition",
+      "definition": "Assets equal liabilities plus equity."
+    },
+    {
+      "term": "Equity",
+      "anchor": "#definition",
+      "definition": "The residual interest in the assets after deducting liabilities."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A company has assets of 80,000 and liabilities of 50,000. What is its equity?",
+      "a": "30,000.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How does a bank loan change the equation?",
+      "a": "Assets and liabilities both rise by the loan, and equity does not change.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

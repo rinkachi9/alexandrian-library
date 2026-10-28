@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.mortgages",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "mortgage",
+      "real-estate",
+      "loans"
+    ],
+    "aliases": [
+      "home loan"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.apr-and-apy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.real-estate-investing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cfpb-mortgages",
+      "type": "website",
+      "title": "Owning a home: mortgages",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+      "verified": false
+    },
+    {
+      "key": "cfpb-reg-z",
+      "type": "standard",
+      "title": "Regulation Z (Truth in Lending), 12 CFR 1026",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Amortization",
+      "anchor": "#definition",
+      "definition": "Repaying a loan with payments that cover interest and part of the principal so that the balance reaches zero."
+    },
+    {
+      "term": "Adjustable-rate mortgage",
+      "anchor": "#mechanism",
+      "definition": "A mortgage with a fixed initial period after which the rate resets with an index plus a margin."
+    },
+    {
+      "term": "Reverse mortgage",
+      "anchor": "#mechanism",
+      "definition": "A loan that pays an older homeowner against home equity and is repaid when they move or die."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How is the interest part of a mortgage payment computed?",
+      "a": "Balance × monthly rate, and the rest of the payment is principal.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "Why does a 15-year loan cost less in total than a 30-year loan?",
+      "a": "The balance falls faster, so interest accrues on smaller balances for less time.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "node": {
+    "id": "finance.financial-markets.equity-markets",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "markets",
+      "equities",
+      "stocks"
+    ],
+    "aliases": [
+      "stock market"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.financial-markets-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.order-types-and-order-book",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.stocks",
+      "rel": "related"
+    },
+    {
+      "to": "finance.portfolio-management.diversification",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "investor-gov-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "finra-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "barber-odean-2000",
+      "type": "paper",
+      "title": "Trading is hazardous to your wealth: the common stock investment performance of individual investors",
+      "authors": [
+        "Barber, B. M.",
+        "Odean, T."
+      ],
+      "year": 2000,
+      "publisher": "The Journal of Finance, 55(2), 773-806",
+      "url": "https://doi.org/10.1111/0022-1082.00226",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "de-long-1990",
+      "type": "paper",
+      "title": "Noise trader risk in financial markets",
+      "authors": [
+        "De Long, J. B.",
+        "Shleifer, A.",
+        "Summers, L. H.",
+        "Waldmann, R. J."
+      ],
+      "year": 1990,
+      "publisher": "Journal of Political Economy, 98(4), 703-738",
+      "url": "https://doi.org/10.1086/261703",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Market maker",
+      "anchor": "#participants",
+      "definition": "A firm that quotes both a bid and an ask and earns the spread, which gives liquidity."
+    },
+    {
+      "term": "Total return",
+      "anchor": "#how-investors-earn-and-what-they-risk",
+      "definition": "Price change plus dividends divided by the purchase price."
+    },
+    {
+      "term": "Company-specific risk",
+      "anchor": "#how-investors-earn-and-what-they-risk",
+      "definition": "Risk that a particular company does badly, reducible by diversification."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which three risks affect equity investors?",
+      "a": "Market risk, company-specific risk and economic risk.",
+      "anchor": "#how-investors-earn-and-what-they-risk",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Barber and Odean find about active trading?",
+      "a": "The most active individual investors earned much lower net returns than the least active.",
+      "anchor": "#common-mistakes",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-markets"
+  }
+}

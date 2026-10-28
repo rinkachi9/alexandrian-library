@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.financial-instruments",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "instruments"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

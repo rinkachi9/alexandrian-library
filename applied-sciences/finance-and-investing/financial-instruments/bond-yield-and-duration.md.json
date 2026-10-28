@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.bond-yield-and-duration",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "bonds",
+      "duration",
+      "yield"
+    ],
+    "aliases": [
+      "YTM",
+      "modified duration",
+      "Macaulay duration"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.bonds",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fabozzi-2016",
+      "type": "book",
+      "title": "Bond Markets, Analysis, and Strategies (9th ed.)",
+      "authors": [
+        "Fabozzi, F. J."
+      ],
+      "year": 2016,
+      "publisher": "Pearson",
+      "verified": false
+    },
+    {
+      "key": "investor-gov-bonds",
+      "type": "website",
+      "title": "Bonds",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "treasurydirect",
+      "type": "website",
+      "title": "Marketable securities",
+      "authors": [
+        "U.S. Department of the Treasury, TreasuryDirect"
+      ],
+      "publisher": "TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/marketable-securities/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Yield to maturity",
+      "anchor": "#definition",
+      "definition": "The single annual rate that makes the present value of the bond's payments equal to its price."
+    },
+    {
+      "term": "Modified duration",
+      "anchor": "#definition",
+      "definition": "Macaulay duration divided by one plus the yield, the approximate percentage price change per point of yield."
+    },
+    {
+      "term": "Convexity",
+      "anchor": "#mechanism",
+      "definition": "The curvature of the price-yield relationship, which makes the duration estimate imperfect."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A bond has a modified duration of 6. How much does it lose if the yield rises 0.5 points?",
+      "a": "About 3%.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does a zero-coupon bond have a duration equal to its maturity?",
+      "a": "All the value arrives at maturity.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

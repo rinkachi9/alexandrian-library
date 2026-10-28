@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.apr-and-apy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "interest",
+      "credit",
+      "savings"
+    ],
+    "aliases": [
+      "APR",
+      "APY",
+      "effective annual rate"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.interest-rates",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cfpb-reg-z",
+      "type": "standard",
+      "title": "Regulation Z (Truth in Lending), 12 CFR 1026",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/",
+      "verified": false
+    },
+    {
+      "key": "cfpb-credit-cards",
+      "type": "website",
+      "title": "Credit cards",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "APR",
+      "anchor": "#definition",
+      "definition": "The yearly cost of credit as a rate, including some fees but not compounding within the year."
+    },
+    {
+      "term": "APY",
+      "anchor": "#definition",
+      "definition": "The effective yearly rate including compounding: (1 + r/m)^m - 1."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Which measure should a saver use and which a borrower?",
+      "a": "A saver compares APY, a borrower compares APR plus the compounding and fee terms.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What is the APY of 12% nominal compounded monthly?",
+      "a": "12.68%.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

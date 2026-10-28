@@ -1,0 +1,116 @@
+{
+  "node": {
+    "id": "finance.financial-markets.financial-markets-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "markets",
+      "securities"
+    ],
+    "aliases": [
+      "capital markets"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.equity-markets",
+      "rel": "related"
+    },
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "jel-codes",
+      "type": "website",
+      "title": "JEL classification system",
+      "authors": [
+        "American Economic Association"
+      ],
+      "publisher": "American Economic Association",
+      "url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cfa-curriculum",
+      "type": "website",
+      "title": "CFA Program curriculum",
+      "authors": [
+        "CFA Institute"
+      ],
+      "publisher": "CFA Institute",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/curriculum",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bis-triennial-2025",
+      "type": "report",
+      "title": "Triennial Central Bank Survey of foreign exchange and OTC derivatives markets in 2025",
+      "authors": [
+        "Bank for International Settlements"
+      ],
+      "year": 2025,
+      "publisher": "Bank for International Settlements",
+      "url": "https://www.bis.org/statistics/rpfx25.htm",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Primary market",
+      "anchor": "#classification",
+      "definition": "The market where new securities are issued and the issuer receives the money."
+    },
+    {
+      "term": "Secondary market",
+      "anchor": "#classification",
+      "definition": "The market where existing securities are traded between investors."
+    },
+    {
+      "term": "Price discovery",
+      "anchor": "#functions",
+      "definition": "The process by which buyers and sellers set prices that reflect expectations."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between the money market and the capital market?",
+      "a": "The money market trades debt shorter than a year, the capital market trades longer-term debt and equity.",
+      "anchor": "#classification",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does a trade on the exchange give the company no money?",
+      "a": "It is a secondary market trade between investors, and only primary issues pay the issuer.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-markets"
+  }
+}

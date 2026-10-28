@@ -1,0 +1,118 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.accounting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "accounting",
+      "bookkeeping"
+    ],
+    "aliases": [
+      "bookkeeping",
+      "accrual accounting"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.accounting-equation",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ias-7",
+      "type": "standard",
+      "title": "IAS 7 Statement of Cash Flows",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "jel-codes",
+      "type": "website",
+      "title": "JEL classification system",
+      "authors": [
+        "American Economic Association"
+      ],
+      "publisher": "American Economic Association",
+      "url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Accrual accounting",
+      "anchor": "#mechanism",
+      "definition": "Recording revenue when earned and expenses when incurred, regardless of cash movement."
+    },
+    {
+      "term": "Double-entry bookkeeping",
+      "anchor": "#mechanism",
+      "definition": "Recording every transaction in two accounts so that debits equal credits."
+    },
+    {
+      "term": "IFRS and US GAAP",
+      "anchor": "#mechanism",
+      "definition": "The two main accounting frameworks, issued by the IASB and the FASB."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can a profitable company have little cash?",
+      "a": "Profit is measured on an accrual basis, while cash is tied up in receivables, inventory and investment.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How do financial and managerial accounting differ?",
+      "a": "Financial accounting reports to outsiders under standard rules, managerial accounting supports internal decisions.",
+      "anchor": "#branches",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "node": {
+    "id": "finance.fundamental-analysis.market-value-and-intrinsic-value",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "valuation",
+      "book-value"
+    ],
+    "aliases": [
+      "book value",
+      "fair value"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.assets",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.financial-markets-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "economics.microeconomics.economic-value",
+      "rel": "related",
+      "note": "Economic value is the user-specific concept"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-13",
+      "type": "standard",
+      "title": "IFRS 13 Fair Value Measurement",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "graham-dodd-2008",
+      "type": "book",
+      "title": "Security Analysis (6th ed.)",
+      "authors": [
+        "Graham, B.",
+        "Dodd, D. L."
+      ],
+      "year": 2008,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "de-long-1990",
+      "type": "paper",
+      "title": "Noise trader risk in financial markets",
+      "authors": [
+        "De Long, J. B.",
+        "Shleifer, A.",
+        "Summers, L. H.",
+        "Waldmann, R. J."
+      ],
+      "year": 1990,
+      "publisher": "Journal of Political Economy, 98(4), 703-738",
+      "url": "https://doi.org/10.1086/261703",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Market value",
+      "anchor": "#definition",
+      "definition": "The price at which an asset would trade in an open market between willing parties."
+    },
+    {
+      "term": "Book value",
+      "anchor": "#definition",
+      "definition": "Assets minus liabilities as recorded in the accounts."
+    },
+    {
+      "term": "Intrinsic value",
+      "anchor": "#definition",
+      "definition": "The value implied by fundamentals, the present value of expected cash flows."
+    },
+    {
+      "term": "Fair value",
+      "anchor": "#definition",
+      "definition": "The accounting measure defined in IFRS 13 as an exit price in an orderly transaction."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can market value be well above book value?",
+      "a": "Brands, software and customers are mostly not on the balance sheet.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Equity 50 million, 5 million shares priced at 30. What is price-to-book?",
+      "a": "3.0.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

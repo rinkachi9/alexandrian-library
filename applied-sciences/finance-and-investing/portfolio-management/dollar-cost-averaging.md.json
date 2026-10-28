@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "finance.portfolio-management.dollar-cost-averaging",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "dca",
+      "investing"
+    ],
+    "aliases": [
+      "DCA",
+      "constant dollar plan"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.portfolio-management.risk-and-return",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "constantinides-1979",
+      "type": "paper",
+      "title": "A note on the suboptimality of dollar-cost averaging as an investment policy",
+      "authors": [
+        "Constantinides, G. M."
+      ],
+      "year": 1979,
+      "publisher": "Journal of Financial and Quantitative Analysis, 14(2), 443-450",
+      "url": "https://doi.org/10.2307/2330513",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "barber-odean-2000",
+      "type": "paper",
+      "title": "Trading is hazardous to your wealth: the common stock investment performance of individual investors",
+      "authors": [
+        "Barber, B. M.",
+        "Odean, T."
+      ],
+      "year": 2000,
+      "publisher": "The Journal of Finance, 55(2), 773-806",
+      "url": "https://doi.org/10.1111/0022-1082.00226",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "thaler-benartzi-2004",
+      "type": "paper",
+      "title": "Save More Tomorrow: using behavioral economics to increase employee saving",
+      "authors": [
+        "Thaler, R. H.",
+        "Benartzi, S."
+      ],
+      "year": 2004,
+      "publisher": "Journal of Political Economy, 112(S1), S164-S187",
+      "url": "https://doi.org/10.1086/380085",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dollar-cost averaging",
+      "anchor": "#definition",
+      "definition": "Investing the same amount at regular intervals regardless of price."
+    },
+    {
+      "term": "Harmonic mean",
+      "anchor": "#mechanism",
+      "definition": "The average cost of fixed-amount buying, never above the simple average price."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "When does a lump sum tend to beat DCA?",
+      "a": "When stocks are expected to rise, since DCA keeps part of the money in cash.",
+      "anchor": "#dca-versus-lump-sum",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Prices of 50, 25 and 50 with 100 invested each time. What is the average cost?",
+      "a": "37.5.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "portfolio-management"
+  }
+}

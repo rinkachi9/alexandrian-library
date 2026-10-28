@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "finance.personal-finance.personal-financial-statements",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "personal-finance",
+      "net-worth",
+      "cash-flow"
+    ],
+    "aliases": [
+      "personal balance sheet",
+      "net worth"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.assets",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.accounting-basics.liabilities",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "related",
+      "note": "The company version of the same statements"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cfpb-budgeting",
+      "type": "website",
+      "title": "Budgeting",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/budgeting/",
+      "verified": false
+    },
+    {
+      "key": "lusardi-mitchell-2014",
+      "type": "paper",
+      "title": "The economic importance of financial literacy: theory and evidence",
+      "authors": [
+        "Lusardi, A.",
+        "Mitchell, O. S."
+      ],
+      "year": 2014,
+      "publisher": "Journal of Economic Literature, 52(1), 5-44",
+      "url": "https://doi.org/10.1257/jel.52.1.5",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Net worth",
+      "anchor": "#definition",
+      "definition": "Total assets minus total liabilities."
+    },
+    {
+      "term": "Net cash flow",
+      "anchor": "#definition",
+      "definition": "Cash inflows minus cash outflows over a period."
+    },
+    {
+      "term": "High-net-worth individual",
+      "anchor": "#mechanism",
+      "definition": "An industry label for people with high liquid assets, commonly 1 million or more."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Assets are 55,000 and liabilities 62,000. What is the net worth?",
+      "a": "-7,000, which is negative net worth.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How can net worth rise while net cash flow is negative?",
+      "a": "Asset prices can rise without any cash moving.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-finance"
+  }
+}

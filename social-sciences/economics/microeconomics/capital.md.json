@@ -1,0 +1,124 @@
+{
+  "node": {
+    "id": "economics.microeconomics.capital",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "capital",
+      "factors-of-production"
+    ],
+    "aliases": [
+      "factors of production",
+      "human capital",
+      "working capital"
+    ]
+  },
+  "links": [
+    {
+      "to": "economics.microeconomics.economic-value",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.wacc",
+      "rel": "related",
+      "note": "Cost of financial capital"
+    },
+    {
+      "to": "finance.accounting-basics.accounting-equation",
+      "rel": "related",
+      "note": "Equity and debt capital"
+    },
+    {
+      "to": "finance.corporate-finance.capital-expenditure",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "marshall-1890",
+      "type": "book",
+      "title": "Principles of Economics",
+      "authors": [
+        "Marshall, A."
+      ],
+      "year": 1890,
+      "publisher": "Macmillan",
+      "verified": false
+    },
+    {
+      "key": "solm-1956",
+      "type": "paper",
+      "title": "A contribution to the theory of economic growth",
+      "authors": [
+        "Solow, R. M."
+      ],
+      "year": 1956,
+      "publisher": "The Quarterly Journal of Economics, 70(1), 65-94",
+      "url": "https://doi.org/10.2307/1884513",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "becker-1964",
+      "type": "book",
+      "title": "Human Capital",
+      "authors": [
+        "Becker, G. S."
+      ],
+      "year": 1964,
+      "publisher": "National Bureau of Economic Research",
+      "verified": false
+    },
+    {
+      "key": "mankiw-2021",
+      "type": "book",
+      "title": "Principles of Economics (9th ed.)",
+      "authors": [
+        "Mankiw, N. G."
+      ],
+      "year": 2021,
+      "publisher": "Cengage",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Capital",
+      "anchor": "#definition",
+      "definition": "Produced goods such as machines and buildings used to make other goods, and in finance the funds that finance a business."
+    },
+    {
+      "term": "Working capital",
+      "anchor": "#kinds-of-capital",
+      "definition": "Current assets minus current liabilities."
+    },
+    {
+      "term": "Human capital",
+      "anchor": "#kinds-of-capital",
+      "definition": "The knowledge and skills of workers built by education and training."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Stock 500, depreciation 10%, investment 40. What is the steady state?",
+      "a": "400.",
+      "anchor": "#accumulation",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How do equity capital and debt capital differ?",
+      "a": "Equity comes from owners with a residual claim, debt from lenders and is repaid with interest.",
+      "anchor": "#kinds-of-capital",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "microeconomics"
+  }
+}

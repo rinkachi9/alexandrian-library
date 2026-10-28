@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.credit-and-debit-cards",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "credit",
+      "cards",
+      "payments"
+    ],
+    "aliases": [
+      "credit card",
+      "debit card"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.interest-rates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.apr-and-apy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.credit-scores",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cfpb-credit-cards",
+      "type": "website",
+      "title": "Credit cards",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+      "verified": false
+    },
+    {
+      "key": "cfpb-reg-z",
+      "type": "standard",
+      "title": "Regulation Z (Truth in Lending), 12 CFR 1026",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/",
+      "verified": false
+    },
+    {
+      "key": "cfpb-credit-reports",
+      "type": "website",
+      "title": "Credit reports and scores",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Credit card",
+      "anchor": "#definition",
+      "definition": "A revolving line of credit up to a limit, repaid in full or in part each month."
+    },
+    {
+      "term": "Debit card",
+      "anchor": "#definition",
+      "definition": "A card linked to a deposit account that spends the holder's own money."
+    },
+    {
+      "term": "Grace period",
+      "anchor": "#mechanism",
+      "definition": "The time between the end of the billing cycle and the due date, in which a full payment avoids interest."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Name three differences between credit and debit cards.",
+      "a": "Whose money is used, whether interest accrues and the effect on credit history.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Why is paying only the minimum costly?",
+      "a": "Interest accrues on the remaining balance, so the debt lasts years.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "finance.fundamental-analysis.peg-ratio",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "peg",
+      "valuation"
+    ],
+    "aliases": [
+      "PEG",
+      "price/earnings-to-growth"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.fundamental-analysis.price-to-earnings-ratio",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.earnings-per-share",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "graham-dodd-2008",
+      "type": "book",
+      "title": "Security Analysis (6th ed.)",
+      "authors": [
+        "Graham, B.",
+        "Dodd, D. L."
+      ],
+      "year": 2008,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "PEG ratio",
+      "anchor": "#definition",
+      "definition": "The P/E ratio divided by the expected annual earnings growth rate in percent."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "P/E 24 and expected growth of 12%. What is the PEG?",
+      "a": "2.0.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Name two weaknesses of the PEG ratio.",
+      "a": "It depends on uncertain growth forecasts and ignores risk and debt.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

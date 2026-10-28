@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.cash-flow-statement",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "accounting",
+      "cash-flow"
+    ],
+    "aliases": [
+      "statement of cash flows",
+      "CFO",
+      "CFI",
+      "CFF"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.income-and-profit",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.free-cash-flow",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ias-7",
+      "type": "standard",
+      "title": "IAS 7 Statement of Cash Flows",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Operating cash flow",
+      "anchor": "#definition",
+      "definition": "Cash from the principal revenue-producing activities."
+    },
+    {
+      "term": "Indirect method",
+      "anchor": "#mechanism-the-indirect-method",
+      "definition": "Starting from net income and adjusting for non-cash items and working capital."
+    },
+    {
+      "term": "Net cash flow",
+      "anchor": "#definition",
+      "definition": "Operating plus investing plus financing cash flow."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Net income is 50, depreciation 10, receivables rose by 25. What is operating cash flow?",
+      "a": "35.",
+      "anchor": "#mechanism-the-indirect-method",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is positive investing cash flow not always good news?",
+      "a": "It may come from selling assets that cannot be sold again.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

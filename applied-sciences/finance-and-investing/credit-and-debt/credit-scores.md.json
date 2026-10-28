@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.credit-scores",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "credit",
+      "credit-score"
+    ],
+    "aliases": [
+      "FICO",
+      "credit report"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fico-factors",
+      "type": "website",
+      "title": "What's in my FICO Scores",
+      "authors": [
+        "FICO"
+      ],
+      "publisher": "myFICO",
+      "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cfpb-credit-reports",
+      "type": "website",
+      "title": "Credit reports and scores",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+      "verified": false
+    },
+    {
+      "key": "lusardi-mitchell-2014",
+      "type": "paper",
+      "title": "The economic importance of financial literacy: theory and evidence",
+      "authors": [
+        "Lusardi, A.",
+        "Mitchell, O. S."
+      ],
+      "year": 2014,
+      "publisher": "Journal of Economic Literature, 52(1), 5-44",
+      "url": "https://doi.org/10.1257/jel.52.1.5",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Credit report",
+      "anchor": "#definition",
+      "definition": "The record of credit accounts, balances, payment history and inquiries kept by credit bureaus."
+    },
+    {
+      "term": "Credit score",
+      "anchor": "#definition",
+      "definition": "A statistical estimate of credit risk calculated from the credit report."
+    },
+    {
+      "term": "Utilization",
+      "anchor": "#mechanism-the-five-fico-categories",
+      "definition": "The share of available revolving credit that is in use."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the five FICO factors and their weights?",
+      "a": "Payment history 35%, amounts owed 30%, length of history 15%, new credit 10%, credit mix 10%.",
+      "anchor": "#mechanism-the-five-fico-categories",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does carrying a balance not improve a credit score?",
+      "a": "Paying in full on time is enough, and the interest paid is only a cost.",
+      "anchor": "#common-mistakes",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

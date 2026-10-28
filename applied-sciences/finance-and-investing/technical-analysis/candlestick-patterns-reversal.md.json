@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.candlestick-patterns-reversal",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "candlestick",
+      "reversal"
+    ],
+    "aliases": [
+      "hammer",
+      "engulfing",
+      "morning star",
+      "evening star",
+      "doji"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.price-charts",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.support-and-resistance",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.candlestick-patterns-continuation",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nison-2001",
+      "type": "book",
+      "title": "Japanese Candlestick Charting Techniques (2nd ed.)",
+      "authors": [
+        "Nison, S."
+      ],
+      "year": 2001,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "marshall-2006",
+      "type": "paper",
+      "title": "Candlestick technical trading strategies: can they create value for investors?",
+      "authors": [
+        "Marshall, B. R.",
+        "Young, M. R.",
+        "Rose, L. C."
+      ],
+      "year": 2006,
+      "publisher": "Journal of Banking & Finance, 30(8), 2303-2323",
+      "url": "https://doi.org/10.1016/j.jbankfin.2005.08.001",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hammer",
+      "anchor": "#single-candle-patterns",
+      "definition": "A small body at the top with a lower shadow at least twice the body, after a fall."
+    },
+    {
+      "term": "Engulfing pattern",
+      "anchor": "#two-candle-patterns",
+      "definition": "A candle whose body covers the whole body of the previous candle of the opposite color."
+    },
+    {
+      "term": "Doji",
+      "anchor": "#single-candle-patterns",
+      "definition": "A candle whose open and close are almost equal, showing indecision."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between a hammer and a hanging man?",
+      "a": "The shape is the same, a hammer follows a fall and is bullish, a hanging man follows a rise and is bearish.",
+      "anchor": "#single-candle-patterns",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Marshall, Young and Rose find?",
+      "a": "Candlestick patterns on Dow Jones stocks did not give profitable trading rules.",
+      "anchor": "#evidence",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

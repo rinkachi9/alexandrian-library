@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.candlestick-patterns-continuation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "candlestick",
+      "continuation"
+    ],
+    "aliases": [
+      "three methods",
+      "tasuki gap",
+      "mat hold"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.candlestick-patterns-reversal",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.trends-and-trendlines",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nison-2001",
+      "type": "book",
+      "title": "Japanese Candlestick Charting Techniques (2nd ed.)",
+      "authors": [
+        "Nison, S."
+      ],
+      "year": 2001,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "marshall-2006",
+      "type": "paper",
+      "title": "Candlestick technical trading strategies: can they create value for investors?",
+      "authors": [
+        "Marshall, B. R.",
+        "Young, M. R.",
+        "Rose, L. C."
+      ],
+      "year": 2006,
+      "publisher": "Journal of Banking & Finance, 30(8), 2303-2323",
+      "url": "https://doi.org/10.1016/j.jbankfin.2005.08.001",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rising three methods",
+      "anchor": "#the-patterns",
+      "definition": "A long white candle, three small candles inside its range and a long white candle closing above the first."
+    },
+    {
+      "term": "Tasuki gap",
+      "anchor": "#the-patterns",
+      "definition": "A gap followed by a candle that moves into the gap without filling it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does a thrusting line differ from a piercing line?",
+      "a": "A thrusting line closes below the midpoint of the previous dark body, a piercing line above it.",
+      "anchor": "#the-patterns",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What must the last candle of rising three methods do?",
+      "a": "Close above the close of the first long white candle.",
+      "anchor": "#the-patterns",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

@@ -3,7 +3,10 @@
     "id": "social-sciences.economics",
     "kind": "index",
     "status": "draft",
-    "order": 2
+    "order": 2,
+    "tags": [
+      "economics"
+    ]
   },
   "links": []
 }

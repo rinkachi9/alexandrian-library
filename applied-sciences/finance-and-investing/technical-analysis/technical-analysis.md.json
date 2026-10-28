@@ -1,0 +1,169 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.technical-analysis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "technical-analysis",
+      "charts"
+    ],
+    "aliases": [
+      "charting",
+      "chartism"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.financial-markets-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.market-efficiency",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.fundamental-analysis",
+      "rel": "contrasts",
+      "note": "Studies the business, not the chart"
+    }
+  ],
+  "sources": [
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "lo-2000",
+      "type": "paper",
+      "title": "Foundations of technical analysis: computational algorithms, statistical inference, and empirical implementation",
+      "authors": [
+        "Lo, A. W.",
+        "Mamaysky, H.",
+        "Wang, J."
+      ],
+      "year": 2000,
+      "publisher": "The Journal of Finance, 55(4), 1705-1765",
+      "url": "https://doi.org/10.1111/0022-1082.00265",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brock-1992",
+      "type": "paper",
+      "title": "Simple technical trading rules and the stochastic properties of stock returns",
+      "authors": [
+        "Brock, W.",
+        "Lakonishok, J.",
+        "LeBaron, B."
+      ],
+      "year": 1992,
+      "publisher": "The Journal of Finance, 47(5), 1731-1764",
+      "url": "https://doi.org/10.1111/j.1540-6261.1992.tb04681.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brown-jennings-1989",
+      "type": "paper",
+      "title": "On technical analysis",
+      "authors": [
+        "Brown, D. P.",
+        "Jennings, R. H."
+      ],
+      "year": 1989,
+      "publisher": "The Review of Financial Studies, 2(4), 527-551",
+      "url": "https://doi.org/10.1093/rfs/2.4.527",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "marshall-2006",
+      "type": "paper",
+      "title": "Candlestick technical trading strategies: can they create value for investors?",
+      "authors": [
+        "Marshall, B. R.",
+        "Young, M. R.",
+        "Rose, L. C."
+      ],
+      "year": 2006,
+      "publisher": "Journal of Banking & Finance, 30(8), 2303-2323",
+      "url": "https://doi.org/10.1016/j.jbankfin.2005.08.001",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fama-1970",
+      "type": "paper",
+      "title": "Efficient capital markets: a review of theory and empirical work",
+      "authors": [
+        "Fama, E. F."
+      ],
+      "year": 1970,
+      "publisher": "The Journal of Finance, 25(2), 383-417",
+      "url": "https://doi.org/10.1111/j.1540-6261.1970.tb00518.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Technical analysis",
+      "anchor": "#definition",
+      "definition": "The forecasting of price movements from the study of price and volume data."
+    },
+    {
+      "term": "Data snooping",
+      "anchor": "#worked-example",
+      "definition": "Testing many rules on the same data until one looks profitable by chance."
+    },
+    {
+      "term": "Dow theory premises",
+      "anchor": "#the-three-premises",
+      "definition": "Price discounts everything, prices move in trends and history repeats."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "State the three premises of technical analysis.",
+      "a": "Price discounts everything, prices move in trends and history repeats.",
+      "anchor": "#the-three-premises",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did the random series experiment show about backtests?",
+      "a": "Many random series show profits by chance, so a good backtest alone is weak evidence.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

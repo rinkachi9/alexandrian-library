@@ -1,0 +1,125 @@
+{
+  "node": {
+    "id": "finance.fundamental-analysis.fundamental-analysis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "fundamental-analysis",
+      "valuation"
+    ],
+    "aliases": [
+      "security analysis",
+      "equity valuation"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.income-and-profit",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.market-value-and-intrinsic-value",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.discounted-cash-flow",
+      "rel": "related"
+    },
+    {
+      "to": "finance.technical-analysis.technical-analysis",
+      "rel": "contrasts",
+      "note": "Studies price and volume, not the business"
+    }
+  ],
+  "sources": [
+    {
+      "key": "graham-dodd-2008",
+      "type": "book",
+      "title": "Security Analysis (6th ed.)",
+      "authors": [
+        "Graham, B.",
+        "Dodd, D. L."
+      ],
+      "year": 2008,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "damodaran-site",
+      "type": "website",
+      "title": "Damodaran Online",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "publisher": "NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fundamental analysis",
+      "anchor": "#definition",
+      "definition": "The study of economic factors that determine the value of a security, compared with its price."
+    },
+    {
+      "term": "Margin of safety",
+      "anchor": "#mechanism",
+      "definition": "The gap between intrinsic value and price that absorbs errors in the estimate."
+    },
+    {
+      "term": "Top-down and bottom-up",
+      "anchor": "#mechanism",
+      "definition": "Starting from the economy and industry, or from the company."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Dividend next year 3, required return 10%, growth 5%. What is the Gordon value?",
+      "a": "60.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does the analyst give a range and not one number?",
+      "a": "The value is very sensitive to the required return and growth inputs.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

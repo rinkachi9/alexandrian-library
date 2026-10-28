@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.accounting-basics",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "accounting"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

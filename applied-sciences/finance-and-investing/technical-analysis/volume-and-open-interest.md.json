@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.volume-and-open-interest",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 16,
+    "tags": [
+      "volume",
+      "obv",
+      "open-interest"
+    ],
+    "aliases": [
+      "OBV",
+      "on-balance volume"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.price-charts",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.trends-and-trendlines",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "granville-1963",
+      "type": "book",
+      "title": "Granville's New Key to Stock Market Profits",
+      "authors": [
+        "Granville, J. E."
+      ],
+      "year": 1963,
+      "publisher": "Prentice Hall",
+      "verified": false
+    },
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Open interest",
+      "anchor": "#definition",
+      "definition": "The number of outstanding futures or options contracts not yet closed."
+    },
+    {
+      "term": "On-balance volume",
+      "anchor": "#definition",
+      "definition": "A running total that adds volume on up days and subtracts it on down days."
+    },
+    {
+      "term": "Divergence",
+      "anchor": "#obv-and-divergence",
+      "definition": "Price makes a new extreme that the indicator does not confirm."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What does a rise in price with falling volume suggest?",
+      "a": "The rally is weak and losing support.",
+      "anchor": "#reading-volume",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Closes 10, 11, 10 with volumes 100, 200, 150. What is the OBV?",
+      "a": "50.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

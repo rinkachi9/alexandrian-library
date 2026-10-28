@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.funds-and-etfs",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "funds",
+      "etf",
+      "investing"
+    ],
+    "aliases": [
+      "ETF",
+      "index fund",
+      "mutual fund"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.stocks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.bonds",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.market-efficiency",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "finra-etf",
+      "type": "website",
+      "title": "Exchange-traded funds and products",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Net asset value",
+      "anchor": "#definition",
+      "definition": "The value of a fund's assets minus liabilities, divided by the number of units."
+    },
+    {
+      "term": "Authorized participant",
+      "anchor": "#how-an-etf-works",
+      "definition": "An institution that creates and redeems ETF shares against the basket of assets."
+    },
+    {
+      "term": "Synthetic replication",
+      "anchor": "#replication",
+      "definition": "Tracking an index with a swap that pays the index return, which adds counterparty risk."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What keeps an ETF price close to its NAV?",
+      "a": "Authorized participants create or redeem shares when the price departs from the value of the basket.",
+      "anchor": "#how-an-etf-works",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "What is the difference between accumulating and distributing funds?",
+      "a": "Accumulating funds reinvest income inside the fund, distributing funds pay it out.",
+      "anchor": "#what-to-check-before-buying",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.portfolio-management",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "portfolio"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "portfolio-management"
+  }
+}

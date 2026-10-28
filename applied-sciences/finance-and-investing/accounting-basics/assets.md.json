@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.assets",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "accounting",
+      "assets"
+    ],
+    "aliases": [
+      "current assets",
+      "fixed assets"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.accounting-equation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.market-value-and-intrinsic-value",
+      "rel": "related",
+      "note": "Book value versus market value"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Asset",
+      "anchor": "#definition",
+      "definition": "A present economic resource controlled by the entity as a result of past events."
+    },
+    {
+      "term": "Depreciation",
+      "anchor": "#measurement",
+      "definition": "The spreading of the cost of a tangible asset over its useful life."
+    },
+    {
+      "term": "Impairment",
+      "anchor": "#measurement",
+      "definition": "A reduction of the carrying amount when it exceeds what the asset can recover."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three elements of the definition of an asset?",
+      "a": "Control, a past event and future economic benefit.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "A machine costing 24,000 has a life of 6 years and no residual value. What is its carrying amount after 2 years?",
+      "a": "16,000.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

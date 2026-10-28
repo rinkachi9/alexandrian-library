@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "finance.fundamental-analysis.financial-ratios",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "ratios",
+      "fundamental-analysis"
+    ],
+    "aliases": [
+      "current ratio",
+      "quick ratio",
+      "debt-to-equity",
+      "ROE"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.accounting-basics.liabilities",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.free-cash-flow",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "graham-dodd-2008",
+      "type": "book",
+      "title": "Security Analysis (6th ed.)",
+      "authors": [
+        "Graham, B.",
+        "Dodd, D. L."
+      ],
+      "year": 2008,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "ias-7",
+      "type": "standard",
+      "title": "IAS 7 Statement of Cash Flows",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Quick ratio",
+      "anchor": "#the-main-ratios",
+      "definition": "Current assets minus inventory and prepaid expenses, divided by current liabilities."
+    },
+    {
+      "term": "Return on equity",
+      "anchor": "#the-main-ratios",
+      "definition": "Net income divided by average shareholders' equity."
+    },
+    {
+      "term": "DuPont split",
+      "anchor": "#the-main-ratios",
+      "definition": "ROE as net margin times asset turnover times equity multiplier."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Net margin 5%, asset turnover 2, equity multiplier 2. What is ROE?",
+      "a": "20%.",
+      "anchor": "#the-main-ratios",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can a high ROE be a warning sign?",
+      "a": "It may come from high leverage, which raises risk, rather than better operations.",
+      "anchor": "#the-main-ratios",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

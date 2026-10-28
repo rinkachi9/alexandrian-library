@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.debt-repayment-strategies",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "debt",
+      "repayment"
+    ],
+    "aliases": [
+      "debt avalanche",
+      "debt snowball"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.interest-rates",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cfpb-credit-reports",
+      "type": "website",
+      "title": "Credit reports and scores",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Debt avalanche",
+      "anchor": "#definition",
+      "definition": "Paying extra money to the debt with the highest interest rate first."
+    },
+    {
+      "term": "Debt snowball",
+      "anchor": "#definition",
+      "definition": "Paying extra money to the debt with the smallest balance first."
+    },
+    {
+      "term": "Debt consolidation",
+      "anchor": "#definition",
+      "definition": "Replacing several debts with one loan, helpful only if the new rate and fees are lower."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the avalanche never worse than the snowball in total interest?",
+      "a": "Each unit paid to a higher rate removes more future interest, given the same total payment.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Why must freed payments roll to the next debt?",
+      "a": "Keeping the total payment constant is what makes the plan work.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

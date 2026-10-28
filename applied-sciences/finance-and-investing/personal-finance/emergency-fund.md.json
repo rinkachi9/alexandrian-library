@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "finance.personal-finance.emergency-fund",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "personal-finance",
+      "savings",
+      "liquidity"
+    ],
+    "aliases": [
+      "rainy-day fund",
+      "cash reserve"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.personal-finance.budgeting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cfpb-emergency",
+      "type": "website",
+      "title": "An essential guide to building an emergency fund",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+      "verified": false
+    },
+    {
+      "key": "fed-shed",
+      "type": "website",
+      "title": "Economic Well-Being of U.S. Households (SHED)",
+      "authors": [
+        "Board of Governors of the Federal Reserve System"
+      ],
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/consumerscommunities/shed.htm",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fdic-deposit-insurance",
+      "type": "website",
+      "title": "Deposit insurance",
+      "authors": [
+        "Federal Deposit Insurance Corporation"
+      ],
+      "publisher": "FDIC",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Emergency fund",
+      "anchor": "#definition",
+      "definition": "Liquid savings reserved for unexpected, necessary spending."
+    },
+    {
+      "term": "Liquidity",
+      "anchor": "#definition",
+      "definition": "How fast and cheaply an asset turns into cash at close to its value."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why should an emergency fund not be held in stocks?",
+      "a": "Stock prices can fall at the same time as job losses, forcing a sale at a loss.",
+      "anchor": "#mechanism-how-much-and-where",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does the target differ for a two-income household and a self-employed person?",
+      "a": "About 3 months versus 9 to 12 months, because income risk is higher for the self-employed.",
+      "anchor": "#mechanism-how-much-and-where",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-finance"
+  }
+}

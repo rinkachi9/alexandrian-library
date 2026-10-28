@@ -1,0 +1,103 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.cryptocurrencies",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 13,
+    "tags": [
+      "crypto",
+      "blockchain",
+      "bitcoin"
+    ],
+    "aliases": [
+      "crypto-assets",
+      "bitcoin"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.risk-and-return",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nakamoto-2008",
+      "type": "paper",
+      "title": "Bitcoin: a peer-to-peer electronic cash system",
+      "authors": [
+        "Nakamoto, S."
+      ],
+      "year": 2008,
+      "publisher": "bitcoin.org",
+      "url": "https://bitcoin.org/bitcoin.pdf",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mica-2023",
+      "type": "standard",
+      "title": "Regulation (EU) 2023/1114 on markets in crypto-assets (MiCA)",
+      "year": 2023,
+      "publisher": "European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj",
+      "verified": false
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Blockchain",
+      "anchor": "#definition",
+      "definition": "A distributed ledger of transactions grouped in blocks linked by hashes."
+    },
+    {
+      "term": "Proof of work",
+      "anchor": "#mechanism",
+      "definition": "A scheme in which miners compete to add blocks by solving a computational puzzle."
+    },
+    {
+      "term": "Token",
+      "anchor": "#definition",
+      "definition": "A unit created on top of an existing blockchain, in contrast to a base-layer coin."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do valuation models like DCF not apply to a coin?",
+      "a": "A coin pays no cash flows to discount.",
+      "anchor": "#risks",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How much of a 100,000 portfolio is lost if a 5% position falls 70%?",
+      "a": "3,500.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

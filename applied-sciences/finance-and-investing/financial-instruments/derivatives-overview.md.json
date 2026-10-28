@@ -1,0 +1,127 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.derivatives-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "derivatives",
+      "hedging",
+      "futures"
+    ],
+    "aliases": [
+      "forwards",
+      "futures",
+      "swaps"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.options",
+      "rel": "related"
+    },
+    {
+      "to": "finance.financial-instruments.contracts-for-difference",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hull-2021",
+      "type": "book",
+      "title": "Options, Futures, and Other Derivatives (11th ed.)",
+      "authors": [
+        "Hull, J. C."
+      ],
+      "year": 2021,
+      "publisher": "Pearson",
+      "verified": false
+    },
+    {
+      "key": "black-scholes-1973",
+      "type": "paper",
+      "title": "The pricing of options and corporate liabilities",
+      "authors": [
+        "Black, F.",
+        "Scholes, M."
+      ],
+      "year": 1973,
+      "publisher": "Journal of Political Economy, 81(3), 637-654",
+      "url": "https://doi.org/10.1086/260062",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "finra-options",
+      "type": "website",
+      "title": "Options",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/options",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bis-triennial-2025",
+      "type": "report",
+      "title": "Triennial Central Bank Survey of foreign exchange and OTC derivatives markets in 2025",
+      "authors": [
+        "Bank for International Settlements"
+      ],
+      "year": 2025,
+      "publisher": "Bank for International Settlements",
+      "url": "https://www.bis.org/statistics/rpfx25.htm",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Derivative",
+      "anchor": "#definition",
+      "definition": "A contract whose value depends on an underlying asset or reference rate."
+    },
+    {
+      "term": "Margin",
+      "anchor": "#mechanism-futures",
+      "definition": "A deposit posted to cover losses on a futures position, settled daily."
+    },
+    {
+      "term": "Hedging",
+      "anchor": "#worked-example",
+      "definition": "Using a derivative to remove a price risk the holder already has."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do a forward and a future differ?",
+      "a": "A future is standardized, exchange-traded and settled daily, a forward is tailored and OTC.",
+      "anchor": "#the-main-kinds",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does a hedged farmer receive the same amount at any harvest price?",
+      "a": "The loss or gain on the crop is offset by the opposite result on the futures.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

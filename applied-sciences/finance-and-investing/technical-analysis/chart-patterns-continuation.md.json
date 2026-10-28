@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.chart-patterns-continuation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "chart-patterns",
+      "continuation"
+    ],
+    "aliases": [
+      "triangle",
+      "flag",
+      "pennant",
+      "wedge"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.chart-patterns-reversal",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.support-and-resistance",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "lo-2000",
+      "type": "paper",
+      "title": "Foundations of technical analysis: computational algorithms, statistical inference, and empirical implementation",
+      "authors": [
+        "Lo, A. W.",
+        "Mamaysky, H.",
+        "Wang, J."
+      ],
+      "year": 2000,
+      "publisher": "The Journal of Finance, 55(4), 1705-1765",
+      "url": "https://doi.org/10.1111/0022-1082.00265",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Continuation pattern",
+      "anchor": "#definition",
+      "definition": "A consolidation after which the earlier trend usually resumes."
+    },
+    {
+      "term": "Flag",
+      "anchor": "#the-patterns",
+      "definition": "A sharp move followed by a short parallel channel against the trend."
+    },
+    {
+      "term": "Wedge",
+      "anchor": "#the-patterns",
+      "definition": "A pattern in which both boundaries slope the same way and converge."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A flag follows a pole from 50 to 70 and the breakout is at 66. What is the target?",
+      "a": "86.",
+      "anchor": "#the-patterns",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How does the meaning of a rising wedge depend on the prior trend?",
+      "a": "In a downtrend it continues the trend, after an uptrend it signals a reversal, and both are bearish.",
+      "anchor": "#the-patterns",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

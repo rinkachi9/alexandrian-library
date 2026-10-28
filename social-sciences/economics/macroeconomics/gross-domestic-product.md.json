@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "economics.macroeconomics.gross-domestic-product",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "gdp",
+      "national-accounts"
+    ],
+    "aliases": [
+      "GDP",
+      "GDP per capita"
+    ]
+  },
+  "links": [
+    {
+      "to": "economics.microeconomics.economic-value",
+      "rel": "related",
+      "note": "Value added is the basis of the production approach"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sna-2008",
+      "type": "standard",
+      "title": "System of National Accounts 2008",
+      "authors": [
+        "United Nations",
+        "European Commission",
+        "IMF",
+        "OECD",
+        "World Bank"
+      ],
+      "year": 2009,
+      "publisher": "United Nations",
+      "url": "https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bea-gdp",
+      "type": "website",
+      "title": "What to know about GDP",
+      "authors": [
+        "U.S. Bureau of Economic Analysis"
+      ],
+      "publisher": "BEA",
+      "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mankiw-2021",
+      "type": "book",
+      "title": "Principles of Economics (9th ed.)",
+      "authors": [
+        "Mankiw, N. G."
+      ],
+      "year": 2021,
+      "publisher": "Cengage",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gross domestic product",
+      "anchor": "#definition",
+      "definition": "The market value of final goods and services produced inside a country in a period."
+    },
+    {
+      "term": "Real GDP",
+      "anchor": "#related-measures",
+      "definition": "GDP at constant prices, which shows the change in volume."
+    },
+    {
+      "term": "GDP deflator",
+      "anchor": "#related-measures",
+      "definition": "Nominal GDP divided by real GDP times 100, a measure of the price change."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "C = 500, I = 150, G = 200, X = 100, M = 120. What is the GDP?",
+      "a": "830.",
+      "anchor": "#three-ways-to-measure",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is only the final good counted?",
+      "a": "The value of intermediate goods is already inside the final good, so adding them would double count.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "macroeconomics"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "finance.personal-finance.financial-plan",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "personal-finance",
+      "planning"
+    ],
+    "aliases": [
+      "financial planning"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.personal-finance.budgeting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.personal-finance.personal-financial-statements",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.asset-allocation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cfpb-budgeting",
+      "type": "website",
+      "title": "Budgeting",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/budgeting/",
+      "verified": false
+    },
+    {
+      "key": "lusardi-mitchell-2014",
+      "type": "paper",
+      "title": "The economic importance of financial literacy: theory and evidence",
+      "authors": [
+        "Lusardi, A.",
+        "Mitchell, O. S."
+      ],
+      "year": 2014,
+      "publisher": "Journal of Economic Literature, 52(1), 5-44",
+      "url": "https://doi.org/10.1257/jel.52.1.5",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fed-shed",
+      "type": "website",
+      "title": "Economic Well-Being of U.S. Households (SHED)",
+      "authors": [
+        "Board of Governors of the Federal Reserve System"
+      ],
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/consumerscommunities/shed.htm",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Financial plan",
+      "anchor": "#definition",
+      "definition": "A document that records current finances, goals and the strategy for reaching them."
+    },
+    {
+      "term": "Planning cycle",
+      "anchor": "#mechanism-the-planning-cycle",
+      "definition": "Measure, set goals, choose actions, act, review and repeat."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "How does a financial plan differ from a budget?",
+      "a": "A budget allocates income for a short period, a plan links goals and actions over years.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the three time horizons of goals.",
+      "a": "Short term (under 2 years), medium term (2 to 10 years) and long term (over 10 years).",
+      "anchor": "#mechanism-the-planning-cycle",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-finance"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.macd",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 12,
+    "tags": [
+      "macd",
+      "indicators",
+      "momentum"
+    ],
+    "aliases": [
+      "moving average convergence divergence"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.moving-averages",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "appel-2005",
+      "type": "book",
+      "title": "Technical Analysis: Power Tools for Active Investors",
+      "authors": [
+        "Appel, G."
+      ],
+      "year": 2005,
+      "publisher": "FT Press",
+      "verified": false
+    },
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "MACD line",
+      "anchor": "#definition",
+      "definition": "The 12-period EMA of the close minus the 26-period EMA."
+    },
+    {
+      "term": "Signal line",
+      "anchor": "#definition",
+      "definition": "A 9-period EMA of the MACD line."
+    },
+    {
+      "term": "Histogram",
+      "anchor": "#definition",
+      "definition": "The MACD line minus the signal line."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the default MACD settings?",
+      "a": "12, 26 and 9.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does the MACD lag price?",
+      "a": "It is built from moving averages of past prices.",
+      "anchor": "#signals",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

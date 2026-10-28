@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "finance.financial-markets.order-types-and-order-book",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "markets",
+      "orders",
+      "trading"
+    ],
+    "aliases": [
+      "limit order",
+      "market order",
+      "stop order",
+      "bid ask spread"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.financial-markets-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.equity-markets",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "finra-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "investor-gov-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Spread",
+      "anchor": "#definition",
+      "definition": "The ask price minus the bid price, the cost of trading immediately."
+    },
+    {
+      "term": "Limit order",
+      "anchor": "#definition",
+      "definition": "An order to buy at a set price or lower, or sell at a set price or higher."
+    },
+    {
+      "term": "Slippage",
+      "anchor": "#worked-example",
+      "definition": "The difference between the expected price and the average fill price."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why does a limit sell below the market not work as a stop-loss?",
+      "a": "It fills at once at the market price, because it is already marketable.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does a stop order guarantee?",
+      "a": "Only a trigger. After the trigger it becomes a market order, and the fill price is not guaranteed.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-markets"
+  }
+}

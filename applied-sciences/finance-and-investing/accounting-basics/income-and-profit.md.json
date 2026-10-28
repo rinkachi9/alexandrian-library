@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.income-and-profit",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "accounting",
+      "income-statement"
+    ],
+    "aliases": [
+      "gross income",
+      "net income",
+      "taxable income"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.accounting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.ebitda",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.operating-expenses",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gross profit",
+      "anchor": "#definition",
+      "definition": "Revenue minus the cost of goods sold."
+    },
+    {
+      "term": "Net income",
+      "anchor": "#definition",
+      "definition": "What remains after all expenses, interest and taxes."
+    },
+    {
+      "term": "Taxable income",
+      "anchor": "#definition",
+      "definition": "Gross income minus exclusions, exemptions and deductions allowed by tax law."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Revenue is 500,000, COGS 350,000 and operating expenses 90,000. What is operating income?",
+      "a": "60,000.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does gross income mean different things for a person and a company?",
+      "a": "For a person it is income before deductions, for a company it is gross profit.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

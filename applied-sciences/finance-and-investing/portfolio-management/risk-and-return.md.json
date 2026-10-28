@@ -1,0 +1,138 @@
+{
+  "node": {
+    "id": "finance.portfolio-management.risk-and-return",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "risk",
+      "return",
+      "sharpe"
+    ],
+    "aliases": [
+      "volatility",
+      "risk premium"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sharpe-1964",
+      "type": "paper",
+      "title": "Capital asset prices: a theory of market equilibrium under conditions of risk",
+      "authors": [
+        "Sharpe, W. F."
+      ],
+      "year": 1964,
+      "publisher": "The Journal of Finance, 19(3), 425-442",
+      "url": "https://doi.org/10.1111/j.1540-6261.1964.tb02865.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "markowitz-1952",
+      "type": "paper",
+      "title": "Portfolio selection",
+      "authors": [
+        "Markowitz, H."
+      ],
+      "year": 1952,
+      "publisher": "The Journal of Finance, 7(1), 77-91",
+      "url": "https://doi.org/10.1111/j.1540-6261.1952.tb01525.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mehra-prescott-1985",
+      "type": "paper",
+      "title": "The equity premium: a puzzle",
+      "authors": [
+        "Mehra, R.",
+        "Prescott, E. C."
+      ],
+      "year": 1985,
+      "publisher": "Journal of Monetary Economics, 15(2), 145-161",
+      "url": "https://doi.org/10.1016/0304-3932(85)90061-3",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "damodaran-site",
+      "type": "website",
+      "title": "Damodaran Online",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "publisher": "NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Standard deviation",
+      "anchor": "#definition",
+      "definition": "The usual measure of risk: how far returns typically fall from their average."
+    },
+    {
+      "term": "Geometric mean return",
+      "anchor": "#definition",
+      "definition": "The constant rate that gives the same final value as the actual sequence of returns."
+    },
+    {
+      "term": "Sharpe ratio",
+      "anchor": "#definition",
+      "definition": "Mean return minus the risk-free rate, divided by the standard deviation."
+    },
+    {
+      "term": "Drawdown",
+      "anchor": "#definition",
+      "definition": "The fall from a peak to a later low."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the geometric mean below the arithmetic mean when returns vary?",
+      "a": "Volatility drags down compound growth, by roughly half the variance.",
+      "anchor": "#mechanism-why-the-geometric-mean-is-lower",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What is the equity premium?",
+      "a": "The extra return of stocks over the risk-free rate, about 6.6 points in the US data.",
+      "anchor": "#mechanism-why-the-geometric-mean-is-lower",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "portfolio-management"
+  }
+}

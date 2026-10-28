@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "finance.financial-markets.short-selling",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "markets",
+      "short-selling",
+      "trading"
+    ],
+    "aliases": [
+      "shorting",
+      "short sale"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.order-types-and-order-book",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.leverage-and-margin",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.options",
+      "rel": "related",
+      "note": "A put option has a capped loss"
+    }
+  ],
+  "sources": [
+    {
+      "key": "investor-gov-short",
+      "type": "website",
+      "title": "Short-selling (glossary)",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/short-selling",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "hull-2021",
+      "type": "book",
+      "title": "Options, Futures, and Other Derivatives (11th ed.)",
+      "authors": [
+        "Hull, J. C."
+      ],
+      "year": 2021,
+      "publisher": "Pearson",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Short sale",
+      "anchor": "#definition",
+      "definition": "Selling borrowed securities in the hope of buying them back cheaper."
+    },
+    {
+      "term": "Short squeeze",
+      "anchor": "#mechanism",
+      "definition": "A rising price forces shorts to buy back, pushing the price up further."
+    },
+    {
+      "term": "Margin call",
+      "anchor": "#mechanism",
+      "definition": "A demand to add collateral when a position moves against the account."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the loss on a short sale unlimited?",
+      "a": "The price can rise without a limit and the seller must buy back at the higher price.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What costs does a short seller pay besides trading fees?",
+      "a": "Borrow fee, margin interest and any dividends paid on the borrowed shares.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-markets"
+  }
+}

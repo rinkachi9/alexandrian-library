@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "finance.fundamental-analysis.earnings-per-share",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "eps",
+      "fundamental-analysis"
+    ],
+    "aliases": [
+      "EPS",
+      "diluted EPS"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.income-and-profit",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.stocks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.price-to-earnings-ratio",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ias-33",
+      "type": "standard",
+      "title": "IAS 33 Earnings per Share",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-33-earnings-per-share/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Basic EPS",
+      "anchor": "#definition",
+      "definition": "Net income minus preferred dividends, divided by the weighted average common shares outstanding."
+    },
+    {
+      "term": "Diluted EPS",
+      "anchor": "#definition",
+      "definition": "EPS that also counts shares that could be created by options, warrants and convertibles."
+    },
+    {
+      "term": "Weighted average shares",
+      "anchor": "#definition",
+      "definition": "The share count weighted by the time each share was outstanding."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can EPS rise while net income is flat?",
+      "a": "A buyback reduces the share count.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Net income 6 million, preferred dividends 0.5 million, 2.2 million weighted shares. What is basic EPS?",
+      "a": "2.50.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

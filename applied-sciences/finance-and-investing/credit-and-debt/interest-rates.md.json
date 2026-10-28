@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.interest-rates",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "interest",
+      "credit"
+    ],
+    "aliases": [
+      "compound interest",
+      "simple interest",
+      "real interest rate"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.apr-and-apy",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "cfpb-reg-z",
+      "type": "standard",
+      "title": "Regulation Z (Truth in Lending), 12 CFR 1026",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/",
+      "verified": false
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Simple interest",
+      "anchor": "#mechanism",
+      "definition": "Interest computed on the original principal only: principal × rate × time."
+    },
+    {
+      "term": "Compound interest",
+      "anchor": "#mechanism",
+      "definition": "Interest added to the balance each period so that it earns interest itself."
+    },
+    {
+      "term": "Real interest rate",
+      "anchor": "#mechanism",
+      "definition": "The nominal rate adjusted for inflation: (1 + nominal) / (1 + inflation) - 1."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does compounding frequency matter less than the rate itself?",
+      "a": "Moving from monthly to daily compounding changes the result slightly, while the rate and the time change it a lot.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What parts make up a market interest rate?",
+      "a": "The real return, expected inflation, a default risk premium and a term and liquidity premium, anchored by the policy rate.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

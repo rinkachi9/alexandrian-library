@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.commodities-and-precious-metals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "commodities",
+      "gold",
+      "futures"
+    ],
+    "aliases": [
+      "gold",
+      "oil",
+      "raw materials"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.derivatives-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.types-of-investments",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gorton-rouwenhorst-2006",
+      "type": "paper",
+      "title": "Facts and fantasies about commodity futures",
+      "authors": [
+        "Gorton, G.",
+        "Rouwenhorst, K. G."
+      ],
+      "year": 2006,
+      "publisher": "Financial Analysts Journal, 62(2), 47-68",
+      "verified": false
+    },
+    {
+      "key": "hull-2021",
+      "type": "book",
+      "title": "Options, Futures, and Other Derivatives (11th ed.)",
+      "authors": [
+        "Hull, J. C."
+      ],
+      "year": 2021,
+      "publisher": "Pearson",
+      "verified": false
+    },
+    {
+      "key": "damodaran-site",
+      "type": "website",
+      "title": "Damodaran Online",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "publisher": "NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Contango",
+      "anchor": "#mechanism-the-roll",
+      "definition": "A futures curve where later contracts cost more than earlier ones."
+    },
+    {
+      "term": "Backwardation",
+      "anchor": "#mechanism-the-roll",
+      "definition": "A futures curve where later contracts cost less than earlier ones."
+    },
+    {
+      "term": "Roll return",
+      "anchor": "#mechanism-the-roll",
+      "definition": "The gain or loss from replacing an expiring futures contract with the next one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can a commodity ETF lose money when the spot price is flat?",
+      "a": "Rolling futures in contango buys each new contract at a higher price than the expiring one.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name three drivers of commodity prices.",
+      "a": "Supply and demand, weather and export restrictions, among others.",
+      "anchor": "#what-drives-prices",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

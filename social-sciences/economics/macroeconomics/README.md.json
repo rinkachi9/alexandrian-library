@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "social-sciences.economics.macroeconomics",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "macroeconomics"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "macroeconomics"
+  }
+}

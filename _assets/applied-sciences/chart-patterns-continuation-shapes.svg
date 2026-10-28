@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Continuation chart patterns</title>
+  <desc id="d">Four panels drawn as price lines. An ascending triangle has a flat top and rising lows. A bull flag is a sharp rise followed by a small downward channel. A rectangle moves between flat support and resistance. A falling wedge narrows while sloping down. Dashed lines are the boundaries of the pattern.</desc>
+  <rect width="760" height="420" fill="#fbfaf6"/>
+  <text x="380" y="26" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Continuation chart patterns</text>
+  <text x="190" y="54" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Ascending triangle</text>
+  <rect x="20" y="64" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="30,189 80,104 120,159 170,104 205,139 250,104 275,122 320,104 355,79" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="40" y1="104" x2="320" y2="104" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="30" y1="189" x2="320" y2="114" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="170" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Flat resistance</text>
+  <text x="250" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Rising support</text>
+  <text x="570" y="54" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Bull flag</text>
+  <rect x="400" y="64" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="410,204 490,94 515,109 540,104 565,122 590,116 615,132 735,69" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="495" y1="89" x2="615" y2="122" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="515" y1="114" x2="615" y2="149" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="450" y="159" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Pole</text>
+  <text x="560" y="164" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Flag</text>
+  <text x="190" y="244" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Rectangle</text>
+  <rect x="20" y="254" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="30,374 80,294 130,354 180,294 230,354 280,294 355,264" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="40" y1="294" x2="350" y2="294" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="40" y1="354" x2="350" y2="354" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="170" y="284" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Resistance</text>
+  <text x="170" y="372" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Support</text>
+  <text x="570" y="244" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Falling wedge</text>
+  <rect x="400" y="254" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="410,274 460,324 500,292 550,339 590,314 640,349 670,334 735,279" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="410" y1="274" x2="690" y2="340" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="410" y1="324" x2="690" y2="352" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="600" y="294" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Upper boundary</text>
+  <text x="600" y="380" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Lower boundary</text>
+</svg>

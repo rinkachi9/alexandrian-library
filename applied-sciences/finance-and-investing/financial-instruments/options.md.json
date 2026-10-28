@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.options",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "derivatives",
+      "options"
+    ],
+    "aliases": [
+      "call option",
+      "put option"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.derivatives-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.stocks",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "finra-options",
+      "type": "website",
+      "title": "Options",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/options",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "black-scholes-1973",
+      "type": "paper",
+      "title": "The pricing of options and corporate liabilities",
+      "authors": [
+        "Black, F.",
+        "Scholes, M."
+      ],
+      "year": 1973,
+      "publisher": "Journal of Political Economy, 81(3), 637-654",
+      "url": "https://doi.org/10.1086/260062",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hull-2021",
+      "type": "book",
+      "title": "Options, Futures, and Other Derivatives (11th ed.)",
+      "authors": [
+        "Hull, J. C."
+      ],
+      "year": 2021,
+      "publisher": "Pearson",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Call option",
+      "anchor": "#definition",
+      "definition": "The right to buy the underlying at the strike price."
+    },
+    {
+      "term": "Put option",
+      "anchor": "#definition",
+      "definition": "The right to sell the underlying at the strike price."
+    },
+    {
+      "term": "Time value",
+      "anchor": "#definition",
+      "definition": "The option premium minus its intrinsic value, which falls to zero at expiry."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A put has strike 50 and premium 3. What is the break-even price?",
+      "a": "47.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does higher volatility raise the price of both calls and puts?",
+      "a": "A larger chance of a big move increases the chance of a payout while the loss is capped at the premium.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

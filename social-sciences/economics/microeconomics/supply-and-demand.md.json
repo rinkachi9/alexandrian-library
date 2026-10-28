@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "economics.microeconomics.supply-and-demand",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "supply",
+      "demand",
+      "equilibrium",
+      "prices"
+    ],
+    "aliases": [
+      "law of demand",
+      "law of supply",
+      "market equilibrium"
+    ]
+  },
+  "links": [
+    {
+      "to": "economics.microeconomics.economic-value",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.equity-markets",
+      "rel": "related",
+      "note": "Share prices form by supply and demand"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mankiw-2021",
+      "type": "book",
+      "title": "Principles of Economics (9th ed.)",
+      "authors": [
+        "Mankiw, N. G."
+      ],
+      "year": 2021,
+      "publisher": "Cengage",
+      "verified": false
+    },
+    {
+      "key": "marshall-1890",
+      "type": "book",
+      "title": "Principles of Economics",
+      "authors": [
+        "Marshall, A."
+      ],
+      "year": 1890,
+      "publisher": "Macmillan",
+      "verified": false
+    },
+    {
+      "key": "jel-codes",
+      "type": "website",
+      "title": "JEL classification system",
+      "authors": [
+        "American Economic Association"
+      ],
+      "publisher": "American Economic Association",
+      "url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Law of demand",
+      "anchor": "#definition",
+      "definition": "Other things equal, a higher price lowers the quantity demanded."
+    },
+    {
+      "term": "Law of supply",
+      "anchor": "#definition",
+      "definition": "Other things equal, a higher price raises the quantity supplied."
+    },
+    {
+      "term": "Equilibrium",
+      "anchor": "#definition",
+      "definition": "The price and quantity at which quantity demanded equals quantity supplied."
+    },
+    {
+      "term": "Price ceiling",
+      "anchor": "#price-controls",
+      "definition": "A legal maximum price, which below equilibrium causes a shortage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What is the difference between a shift and a movement along a curve?",
+      "a": "A price change moves along the curve, any other factor shifts the curve.",
+      "anchor": "#shifts-and-movements",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Supply falls because of a drought. What happens to price and quantity?",
+      "a": "Price rises and quantity falls.",
+      "anchor": "#shifts-and-movements",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "microeconomics"
+  }
+}

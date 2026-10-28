@@ -20,7 +20,11 @@
     "check": true,
     "descriptions": {
       ".gitignore": "Files excluded from version control.",
-      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules."
+      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules.",
+      "_assets/applied-sciences/price-charts-candlestick-anatomy.svg": "Diagram of the parts of a bullish and a bearish candlestick.",
+      "_assets/applied-sciences/chart-patterns-reversal-shapes.svg": "Diagram of four reversal chart patterns.",
+      "_assets/applied-sciences/chart-patterns-continuation-shapes.svg": "Diagram of four continuation chart patterns.",
+      "_assets/applied-sciences/candlestick-patterns-reversal-shapes.svg": "Diagram of four candlestick reversal patterns."
     }
   },
   "rules": { "requireSidecars": true, "noLongDashes": true }

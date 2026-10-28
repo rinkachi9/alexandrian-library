@@ -1,0 +1,113 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.types-of-investments",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "asset-classes",
+      "investing"
+    ],
+    "aliases": [
+      "asset classes"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.financial-markets-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.asset-allocation",
+      "rel": "related"
+    },
+    {
+      "to": "finance.portfolio-management.risk-and-return",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "damodaran-site",
+      "type": "website",
+      "title": "Damodaran Online",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "publisher": "NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "siegel-2014",
+      "type": "book",
+      "title": "Stocks for the Long Run (5th ed.)",
+      "authors": [
+        "Siegel, J. J."
+      ],
+      "year": 2014,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "cfa-curriculum",
+      "type": "website",
+      "title": "CFA Program curriculum",
+      "authors": [
+        "CFA Institute"
+      ],
+      "publisher": "CFA Institute",
+      "url": "https://www.cfainstitute.org/programs/cfa-program/curriculum",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Asset class",
+      "anchor": "#definition",
+      "definition": "A group of assets with similar legal form, market and risk characteristics."
+    },
+    {
+      "term": "Standard deviation of returns",
+      "anchor": "#what-the-data-show",
+      "definition": "A measure of the typical size of swings in annual returns."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which mainstream asset class had the highest average return in the US data and what was the price?",
+      "a": "Stocks, at about 9.94% a year, with swings about six times as large as bills.",
+      "anchor": "#what-the-data-show",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Why should money needed in two years not be in stocks?",
+      "a": "Stocks can lose a large share of their value in one year, with no time to recover.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

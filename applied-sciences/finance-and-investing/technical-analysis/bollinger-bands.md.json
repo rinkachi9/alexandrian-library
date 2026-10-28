@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.bollinger-bands",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 15,
+    "tags": [
+      "bollinger",
+      "volatility",
+      "indicators"
+    ],
+    "aliases": [
+      "Bollinger Bands",
+      "squeeze"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.moving-averages",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bollinger-2001",
+      "type": "book",
+      "title": "Bollinger on Bollinger Bands",
+      "authors": [
+        "Bollinger, J."
+      ],
+      "year": 2001,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bollinger Bands",
+      "anchor": "#definition",
+      "definition": "A 20-period average with bands two standard deviations above and below."
+    },
+    {
+      "term": "Percent b",
+      "anchor": "#definition",
+      "definition": "The position of the close within the bands, 0 at the lower band and 1 at the upper."
+    },
+    {
+      "term": "Squeeze",
+      "anchor": "#reading-the-bands",
+      "definition": "A period of very narrow bands, usually followed by a larger move."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "The middle band is 50, the standard deviation 3 and k = 2. What are the bands?",
+      "a": "Upper 56 and lower 44.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is a close above the upper band not always a sell signal?",
+      "a": "In strong trends price can walk the band for a long time.",
+      "anchor": "#reading-the-bands",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

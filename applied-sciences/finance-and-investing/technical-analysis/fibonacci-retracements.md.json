@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.fibonacci-retracements",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "fibonacci",
+      "levels"
+    ],
+    "aliases": [
+      "Fibonacci levels"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.support-and-resistance",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.trends-and-trendlines",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "lo-2000",
+      "type": "paper",
+      "title": "Foundations of technical analysis: computational algorithms, statistical inference, and empirical implementation",
+      "authors": [
+        "Lo, A. W.",
+        "Mamaysky, H.",
+        "Wang, J."
+      ],
+      "year": 2000,
+      "publisher": "The Journal of Finance, 55(4), 1705-1765",
+      "url": "https://doi.org/10.1111/0022-1082.00265",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Retracement",
+      "anchor": "#definition",
+      "definition": "A partial reversal of the previous move."
+    },
+    {
+      "term": "Fibonacci ratios",
+      "anchor": "#definition",
+      "definition": "The ratios 23.6%, 38.2%, 61.8% and 78.6% from the Fibonacci sequence, plus the 50% level from Dow theory."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A price rises from 80 to 120. Where is the 38.2% retracement?",
+      "a": "104.7.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why might retracement levels work with no theory behind them?",
+      "a": "Many traders watch them and place orders there, which makes them partly self-fulfilling.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

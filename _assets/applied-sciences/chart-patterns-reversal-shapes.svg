@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Reversal chart patterns</title>
+  <desc id="d">Four panels drawn as price lines. Head and shoulders and double top end an uptrend, inverse head and shoulders and double bottom end a downtrend. A dashed line marks the neckline or support or resistance level whose break confirms the pattern.</desc>
+  <rect width="760" height="420" fill="#fbfaf6"/>
+  <text x="380" y="26" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Reversal chart patterns</text>
+  <text x="190" y="54" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Head and shoulders (tops)</text>
+  <rect x="20" y="64" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="30,194 80,124 120,159 190,89 260,159 300,124 350,194" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="40" y1="162" x2="350" y2="162" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="80" y="112" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Left shoulder</text>
+  <text x="190" y="80" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Head</text>
+  <text x="300" y="112" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Right shoulder</text>
+  <text x="320" y="178" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Neckline</text>
+  <text x="570" y="54" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Inverse head and shoulders (bottoms)</text>
+  <rect x="400" y="64" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="410,84 460,154 500,119 570,189 640,119 680,154 730,84" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="420" y1="116" x2="730" y2="116" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="460" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Left shoulder</text>
+  <text x="570" y="206" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Head</text>
+  <text x="680" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Right shoulder</text>
+  <text x="700" y="108" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Neckline</text>
+  <text x="190" y="244" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Double top</text>
+  <rect x="20" y="254" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="30,379 100,289 170,344 240,289 350,379" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="40" y1="289" x2="350" y2="289" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="40" y1="344" x2="350" y2="344" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="100" y="278" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Top 1</text>
+  <text x="240" y="278" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Top 2</text>
+  <text x="305" y="338" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Confirmation level</text>
+  <text x="570" y="244" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Double bottom</text>
+  <rect x="400" y="254" width="340" height="150" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <polyline points="410,279 480,369 550,324 620,369 730,279" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="420" y1="369" x2="730" y2="369" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="420" y1="324" x2="730" y2="324" stroke="#b3412e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="480" y="388" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Bottom 1</text>
+  <text x="620" y="388" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Bottom 2</text>
+  <text x="685" y="318" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Confirmation level</text>
+</svg>

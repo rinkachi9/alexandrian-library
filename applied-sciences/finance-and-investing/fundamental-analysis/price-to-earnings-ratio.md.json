@@ -1,0 +1,121 @@
+{
+  "node": {
+    "id": "finance.fundamental-analysis.price-to-earnings-ratio",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "pe-ratio",
+      "valuation"
+    ],
+    "aliases": [
+      "P/E",
+      "CAPE",
+      "Shiller P/E"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.fundamental-analysis.earnings-per-share",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.peg-ratio",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "campbell-shiller-2001",
+      "type": "report",
+      "title": "Valuation ratios and the long-run stock market outlook: an update",
+      "authors": [
+        "Campbell, J. Y.",
+        "Shiller, R. J."
+      ],
+      "year": 2001,
+      "publisher": "NBER Working Paper 8221",
+      "url": "https://doi.org/10.3386/w8221",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "shiller-data",
+      "type": "website",
+      "title": "Online data Robert Shiller",
+      "authors": [
+        "Shiller, R. J."
+      ],
+      "publisher": "Yale University",
+      "url": "http://www.econ.yale.edu/~shiller/data.htm",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "damodaran-site",
+      "type": "website",
+      "title": "Damodaran Online",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "publisher": "NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Price-to-earnings ratio",
+      "anchor": "#definition",
+      "definition": "Share price divided by earnings per share."
+    },
+    {
+      "term": "CAPE",
+      "anchor": "#definition",
+      "definition": "Price divided by ten-year average inflation-adjusted earnings."
+    },
+    {
+      "term": "Earnings yield",
+      "anchor": "#definition",
+      "definition": "EPS divided by price, the inverse of P/E."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Price 80, EPS 5. What are P/E and earnings yield?",
+      "a": "16 and 6.25%.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why do higher interest rates lower the justified P/E?",
+      "a": "They raise the required return, which lowers the present value of future earnings.",
+      "anchor": "#mechanism-what-a-pe-depends-on",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" width="780" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Common candlestick reversal patterns</title>
+  <desc id="d">Four patterns drawn as candles. White bodies are bullish candles with the close above the open, dark bodies are bearish. A hammer has a small body and a long lower shadow. A shooting star has a small body and a long upper shadow. A bullish engulfing pattern has a white body that covers the body of the previous dark candle. An evening star is a long white candle, a small candle that gaps up and a long dark candle.</desc>
+  <rect width="780" height="300" fill="#fbfaf6"/>
+  <text x="390" y="26" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Candlestick reversal patterns</text>
+  <rect x="20" y="44" width="170" height="210" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <text x="105" y="66" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Hammer</text>
+  <text x="105" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">after a fall</text>
+  <line x1="105" y1="125" x2="105" y2="215" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="92.0" y="130" width="26" height="5" fill="#1f2a44" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="210" y="44" width="170" height="210" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <text x="295" y="66" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Shooting star</text>
+  <text x="295" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">after a rise</text>
+  <line x1="295" y1="95" x2="295" y2="190" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="282.0" y="180" width="26" height="5" fill="#ffffff" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="400" y="44" width="170" height="210" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <text x="485" y="66" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Bullish engulfing</text>
+  <text x="485" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">after a fall</text>
+  <line x1="460" y1="115" x2="460" y2="185" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="447.0" y="120" width="26" height="55" fill="#1f2a44" stroke="#1f2a44" stroke-width="2"/>
+  <line x1="520" y1="100" x2="520" y2="195" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="500.0" y="105" width="40" height="85" fill="#ffffff" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="590" y="44" width="170" height="210" fill="none" stroke="#d9d6cc" stroke-width="1.5"/>
+  <text x="675" y="66" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2a44" font-weight="bold" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">Evening star</text>
+  <text x="675" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a6178" font-weight="normal" stroke="#fbfaf6" stroke-width="4" paint-order="stroke">after a rise</text>
+  <line x1="625" y1="120" x2="625" y2="195" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="614.0" y="125" width="22" height="65" fill="#ffffff" stroke="#1f2a44" stroke-width="2"/>
+  <line x1="675" y1="80" x2="675" y2="110" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="664.0" y="100" width="22" height="5" fill="#1f2a44" stroke="#1f2a44" stroke-width="2"/>
+  <line x1="725" y1="105" x2="725" y2="200" stroke="#1f2a44" stroke-width="2"/>
+  <rect x="714.0" y="115" width="22" height="80" fill="#1f2a44" stroke="#1f2a44" stroke-width="2"/>
+</svg>

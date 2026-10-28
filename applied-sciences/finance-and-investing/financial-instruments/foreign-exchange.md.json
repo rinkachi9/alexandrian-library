@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.foreign-exchange",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 12,
+    "tags": [
+      "forex",
+      "currencies"
+    ],
+    "aliases": [
+      "forex",
+      "FX",
+      "currency pairs"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.financial-markets-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.interest-rates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.leverage-and-margin",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bis-triennial-2025",
+      "type": "report",
+      "title": "Triennial Central Bank Survey of foreign exchange and OTC derivatives markets in 2025",
+      "authors": [
+        "Bank for International Settlements"
+      ],
+      "year": 2025,
+      "publisher": "Bank for International Settlements",
+      "url": "https://www.bis.org/statistics/rpfx25.htm",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "esma-cfd-2018",
+      "type": "report",
+      "title": "ESMA adopts final product intervention measures on CFDs and binary options",
+      "authors": [
+        "ESMA"
+      ],
+      "year": 2018,
+      "publisher": "European Securities and Markets Authority",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-adopts-final-product-intervention-measures-cfds-and-binary-options",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Currency pair",
+      "anchor": "#definition",
+      "definition": "A quote of one currency (base) in terms of another (quote)."
+    },
+    {
+      "term": "Pip",
+      "anchor": "#definition",
+      "definition": "The smallest standard price step, 0.0001 for most pairs."
+    },
+    {
+      "term": "Carry trade",
+      "anchor": "#what-moves-exchange-rates",
+      "definition": "Borrowing in a low-rate currency to hold a high-rate one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "EUR/USD rises from 1.0800 to 1.0900. What is the move in pips?",
+      "a": "100 pips.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is leverage the main risk in retail forex?",
+      "a": "A small move is large relative to the margin, so losses and margin calls come quickly.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

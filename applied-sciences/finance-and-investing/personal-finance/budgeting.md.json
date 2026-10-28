@@ -1,0 +1,103 @@
+{
+  "node": {
+    "id": "finance.personal-finance.budgeting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "personal-finance",
+      "budget"
+    ],
+    "aliases": [
+      "spending plan"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.personal-finance.personal-finance-basics",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.personal-finance.financial-plan",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "warren-tyagi-2005",
+      "type": "book",
+      "title": "All Your Worth: The Ultimate Lifetime Money Plan",
+      "authors": [
+        "Warren, E.",
+        "Tyagi, A. W."
+      ],
+      "year": 2005,
+      "publisher": "Free Press",
+      "verified": false
+    },
+    {
+      "key": "cfpb-budgeting",
+      "type": "website",
+      "title": "Budgeting",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/budgeting/",
+      "verified": false
+    },
+    {
+      "key": "thaler-benartzi-2004",
+      "type": "paper",
+      "title": "Save More Tomorrow: using behavioral economics to increase employee saving",
+      "authors": [
+        "Thaler, R. H.",
+        "Benartzi, S."
+      ],
+      "year": 2004,
+      "publisher": "Journal of Political Economy, 112(S1), S164-S187",
+      "url": "https://doi.org/10.1086/380085",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Budget",
+      "anchor": "#definition",
+      "definition": "A plan that assigns expected income to expected spending for a defined period."
+    },
+    {
+      "term": "50/30/20 rule",
+      "anchor": "#methods",
+      "definition": "A split of net income into 50% needs, 30% wants and 20% saving and debt repayment."
+    },
+    {
+      "term": "Static and flexible budget",
+      "anchor": "#methods",
+      "definition": "A static budget keeps planned amounts fixed, a flexible budget ties some amounts to a driver such as sales."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three states of a budget?",
+      "a": "Surplus, balanced and deficit.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Why track a month of real spending before setting category limits?",
+      "a": "Plans built on guesses fail, and real data shows where money goes.",
+      "anchor": "#mechanism-building-a-monthly-budget",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-finance"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "finance.portfolio-management.leverage-and-margin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "leverage",
+      "margin",
+      "risk"
+    ],
+    "aliases": [
+      "margin call",
+      "margin loan"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.portfolio-management.risk-and-return",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "investor-gov-margin",
+      "type": "website",
+      "title": "Margin (glossary)",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/margin",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "esma-cfd-2018",
+      "type": "report",
+      "title": "ESMA adopts final product intervention measures on CFDs and binary options",
+      "authors": [
+        "ESMA"
+      ],
+      "year": 2018,
+      "publisher": "European Securities and Markets Authority",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-adopts-final-product-intervention-measures-cfds-and-binary-options",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hull-2021",
+      "type": "book",
+      "title": "Options, Futures, and Other Derivatives (11th ed.)",
+      "authors": [
+        "Hull, J. C."
+      ],
+      "year": 2021,
+      "publisher": "Pearson",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Leverage",
+      "anchor": "#definition",
+      "definition": "Position size divided by own capital."
+    },
+    {
+      "term": "Margin call",
+      "anchor": "#definition",
+      "definition": "A demand to add funds or close positions when equity falls below the maintenance level."
+    },
+    {
+      "term": "Maintenance margin",
+      "anchor": "#definition",
+      "definition": "The minimum equity that must be kept after a position is opened."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A position of 50,000 is held with 10,000 of own capital. What fall wipes out the capital?",
+      "a": "20%.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can a margin call turn a temporary loss into a permanent one?",
+      "a": "The position is sold at the low price so the investor cannot wait for a recovery.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "portfolio-management"
+  }
+}

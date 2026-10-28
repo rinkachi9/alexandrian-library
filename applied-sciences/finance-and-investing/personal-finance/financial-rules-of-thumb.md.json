@@ -1,0 +1,144 @@
+{
+  "node": {
+    "id": "finance.personal-finance.financial-rules-of-thumb",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "personal-finance",
+      "heuristics",
+      "retirement"
+    ],
+    "aliases": [
+      "rule of 72",
+      "4% rule",
+      "50/30/20"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.personal-finance.personal-finance-basics",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.personal-finance.budgeting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bengen-1994",
+      "type": "paper",
+      "title": "Determining withdrawal rates using historical data",
+      "authors": [
+        "Bengen, W. P."
+      ],
+      "year": 1994,
+      "publisher": "Journal of Financial Planning, 7(4), 171-180",
+      "verified": false
+    },
+    {
+      "key": "cooley-1998",
+      "type": "paper",
+      "title": "Retirement savings: choosing a withdrawal rate that is sustainable",
+      "authors": [
+        "Cooley, P. L.",
+        "Hubbard, C. M.",
+        "Walz, D. T."
+      ],
+      "year": 1998,
+      "publisher": "AAII Journal, 20(2), 16-21",
+      "verified": false
+    },
+    {
+      "key": "stanley-danko-1996",
+      "type": "book",
+      "title": "The Millionaire Next Door",
+      "authors": [
+        "Stanley, T. J.",
+        "Danko, W. D."
+      ],
+      "year": 1996,
+      "publisher": "Longstreet Press",
+      "verified": false
+    },
+    {
+      "key": "warren-tyagi-2005",
+      "type": "book",
+      "title": "All Your Worth: The Ultimate Lifetime Money Plan",
+      "authors": [
+        "Warren, E.",
+        "Tyagi, A. W."
+      ],
+      "year": 2005,
+      "publisher": "Free Press",
+      "verified": false
+    },
+    {
+      "key": "damodaran-site",
+      "type": "website",
+      "title": "Damodaran Online",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "publisher": "NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "siegel-2014",
+      "type": "book",
+      "title": "Stocks for the Long Run (5th ed.)",
+      "authors": [
+        "Siegel, J. J."
+      ],
+      "year": 2014,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rule of 72",
+      "anchor": "#rule-of-72",
+      "definition": "Years to double are about 72 divided by the percentage rate."
+    },
+    {
+      "term": "4% rule",
+      "anchor": "#the-4-rule",
+      "definition": "A historical result that withdrawing 4% of the starting portfolio, adjusted for inflation, lasted 30 years in US data."
+    },
+    {
+      "term": "Rule of thumb",
+      "anchor": "#definition",
+      "definition": "A simple decision rule that gives a good-enough answer without detailed analysis."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which source gave the 4% rule?",
+      "a": "Bengen (1994), supported by the Trinity study (1998).",
+      "anchor": "#the-4-rule",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is the 10% stock return misleading in a plan?",
+      "a": "It is nominal and an average, while real returns are lower and losses in single years can be large.",
+      "anchor": "#the-stock-return-figure",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-finance"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.bonds",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "bonds",
+      "fixed-income"
+    ],
+    "aliases": [
+      "debt securities",
+      "fixed income"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.credit-and-debt.interest-rates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-instruments.bond-yield-and-duration",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "investor-gov-bonds",
+      "type": "website",
+      "title": "Bonds",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "finra-bonds",
+      "type": "website",
+      "title": "Bonds",
+      "authors": [
+        "FINRA"
+      ],
+      "publisher": "Financial Industry Regulatory Authority",
+      "url": "https://www.finra.org/investors/investing/investment-products/bonds",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "treasurydirect",
+      "type": "website",
+      "title": "Marketable securities",
+      "authors": [
+        "U.S. Department of the Treasury, TreasuryDirect"
+      ],
+      "publisher": "TreasuryDirect",
+      "url": "https://www.treasurydirect.gov/marketable-securities/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fabozzi-2016",
+      "type": "book",
+      "title": "Bond Markets, Analysis, and Strategies (9th ed.)",
+      "authors": [
+        "Fabozzi, F. J."
+      ],
+      "year": 2016,
+      "publisher": "Pearson",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bond",
+      "anchor": "#definition",
+      "definition": "A tradable debt security in which the issuer promises interest and repayment of the principal."
+    },
+    {
+      "term": "Coupon",
+      "anchor": "#parameters",
+      "definition": "The yearly interest rate on the face value."
+    },
+    {
+      "term": "Credit risk",
+      "anchor": "#risks",
+      "definition": "The risk that the issuer does not pay as promised."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a bond price fall when market yields rise?",
+      "a": "The fixed coupon becomes less attractive, so the price drops until the bond yield matches the market.",
+      "anchor": "#risks",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "Name the main coupon types.",
+      "a": "Fixed-rate, floating-rate, zero-coupon and inflation-linked.",
+      "anchor": "#types",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

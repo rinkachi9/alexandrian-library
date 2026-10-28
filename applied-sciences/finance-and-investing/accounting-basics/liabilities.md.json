@@ -1,0 +1,128 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.liabilities",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "accounting",
+      "liabilities"
+    ],
+    "aliases": [
+      "obligations",
+      "current liabilities"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.accounting-equation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.accounting-basics.assets",
+      "rel": "related"
+    },
+    {
+      "to": "finance.credit-and-debt.debt",
+      "rel": "related",
+      "note": "Debt is the interest-bearing part of liabilities"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ias-37",
+      "type": "standard",
+      "title": "IAS 37 Provisions, Contingent Liabilities and Contingent Assets",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ifrs-16",
+      "type": "standard",
+      "title": "IFRS 16 Leases",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Liability",
+      "anchor": "#definition",
+      "definition": "A present obligation to transfer an economic resource as a result of past events."
+    },
+    {
+      "term": "Provision",
+      "anchor": "#classification-and-types",
+      "definition": "A liability of uncertain timing or amount that is recognized."
+    },
+    {
+      "term": "Contingent liability",
+      "anchor": "#classification-and-types",
+      "definition": "A possible obligation that depends on a future event and is disclosed, not recognized."
+    },
+    {
+      "term": "Deferred revenue",
+      "anchor": "#classification-and-types",
+      "definition": "Cash received before goods or services are delivered, recorded as a liability."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is deferred revenue a liability and not profit?",
+      "a": "The company still owes the service.",
+      "anchor": "#classification-and-types",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does a provision differ from a contingent liability?",
+      "a": "A provision meets the recognition tests and is recorded, a contingent liability is only disclosed.",
+      "anchor": "#classification-and-types",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

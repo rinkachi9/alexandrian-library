@@ -163,13 +163,16 @@ Entries without a link are planned topics. They become notes or directories when
     - Social psychology (planned)
     - Clinical psychology (planned)
     - Behavioral psychology (planned)
-  - **economics/** (planned)
+  - **economics/**
     - [README.md](social-sciences/economics/README.md): Economics - How people and societies allocate scarce resources.
-    - Microeconomics (planned)
-    - Macroeconomics (planned)
-    - Behavioral economics (planned)
-    - Economic history (planned)
-    - International economics (planned)
+    - **microeconomics/**
+      - [README.md](social-sciences/economics/microeconomics/README.md): Microeconomics - How individuals, households and firms make choices under scarcity and how those choices meet in markets.
+      - [economic-value.md](social-sciences/economics/microeconomics/economic-value.md): Economic value - Economic value is the benefit that a good, service or asset gives to a person, measured by the most that person would give up to have it, their willingness to pay.
+      - [supply-and-demand.md](social-sciences/economics/microeconomics/supply-and-demand.md): Supply and demand - The law of demand says that, other things equal, a higher price lowers the quantity buyers want, and the law of supply says that a higher price raises the quantity sel...
+      - [capital.md](social-sciences/economics/microeconomics/capital.md): Capital - In economics, capital is one of the factors of production: the man-made goods such as machines, buildings and software that are used to produce other goods.
+    - **macroeconomics/**
+      - [README.md](social-sciences/economics/macroeconomics/README.md): Macroeconomics - How the economy behaves as a whole: output, growth, inflation, employment, public debt and policy.
+      - [gross-domestic-product.md](social-sciences/economics/macroeconomics/gross-domestic-product.md): Gross domestic product - Gross domestic product (GDP) is the market value of all final goods and services produced inside a country in a period, usually a quarter or a year.
   - **sociology/** (planned)
     - [README.md](social-sciences/sociology/README.md): Sociology - Social structures, groups and institutions.
     - Social stratification (planned)
@@ -814,6 +817,33 @@ Entries without a link are planned topics. They become notes or directories when
       - [social-return-on-investment.md](applied-sciences/business-and-management/business-metrics/social-return-on-investment.md): Social return on investment (SROI) - Social return on investment (SROI) is a principles-based method for measuring social, environmental and economic value that does not appear in conventional financial a...
   - **finance-and-investing/**
     - [README.md](applied-sciences/finance-and-investing/README.md): Finance and investing - Managing money, markets and risk.
+    - **personal-finance/**
+      - [README.md](applied-sciences/finance-and-investing/personal-finance/README.md): Personal finance - How a person or household manages money: income, spending, saving, investing and protection.
+      - [personal-finance-basics.md](applied-sciences/finance-and-investing/personal-finance/personal-finance-basics.md): Personal finance basics - Personal finance is the management of a person's or household's money: what comes in, what goes out, what is saved, what is invested and what is protected against loss.
+      - [budgeting.md](applied-sciences/finance-and-investing/personal-finance/budgeting.md): Budgeting - A budget is an estimate of income and expenses for a future period, used to decide in advance where money goes.
+      - [emergency-fund.md](applied-sciences/finance-and-investing/personal-finance/emergency-fund.md): Emergency fund - An emergency fund is cash kept for unplanned costs such as a job loss, a medical bill or a major repair.
+      - [financial-plan.md](applied-sciences/finance-and-investing/personal-finance/financial-plan.md): Financial plan - A financial plan is a written document that states where a person stands financially (net worth and cash flow), what they want to achieve and how they will get there.
+      - [personal-financial-statements.md](applied-sciences/finance-and-investing/personal-finance/personal-financial-statements.md): Personal financial statements - A household can keep the same two reports as a company: a cash flow statement that shows money in and out over a period, and a balance sheet that shows what is owned a...
+      - [spending-traps.md](applied-sciences/finance-and-investing/personal-finance/spending-traps.md): Spending traps - Several patterns keep people from building wealth even when income rises: lifestyle inflation (spending grows with every raise), living paycheck to paycheck (no buffer...
+      - [financial-rules-of-thumb.md](applied-sciences/finance-and-investing/personal-finance/financial-rules-of-thumb.md): Financial rules of thumb - Personal finance is full of short rules: 50/30/20, the rule of 72, the 4% rule, "100 minus your age".
+    - **credit-and-debt/**
+      - [README.md](applied-sciences/finance-and-investing/credit-and-debt/README.md): Credit and debt - How borrowing works and what it costs: interest, annual percentage rates, loans and mortgages, credit cards and credit scores, and the methods for paying debt down.
+      - [interest-rates.md](applied-sciences/finance-and-investing/credit-and-debt/interest-rates.md): Interest rates - An interest rate is the price of using money for a period, expressed as a percentage of the amount.
+      - [apr-and-apy.md](applied-sciences/finance-and-investing/credit-and-debt/apr-and-apy.md): APR and APY - APR (annual percentage rate) and APY (annual percentage yield) are two ways to state a yearly rate.
+      - [debt.md](applied-sciences/finance-and-investing/credit-and-debt/debt.md): Debt - Debt is an obligation to repay borrowed money, normally with interest, by an agreed date.
+      - [debt-repayment-strategies.md](applied-sciences/finance-and-investing/credit-and-debt/debt-repayment-strategies.md): Debt repayment strategies - When a household has several debts, the order in which extra money is applied changes the total interest and the motivation to continue.
+      - [mortgages.md](applied-sciences/finance-and-investing/credit-and-debt/mortgages.md): Mortgages - A mortgage is a loan secured by real estate.
+      - [credit-scores.md](applied-sciences/finance-and-investing/credit-and-debt/credit-scores.md): Credit scores - A credit score is a number, in the US usually between 300 and 850, that summarizes how likely a person is to repay borrowed money, based on the credit report kept by c...
+      - [credit-and-debit-cards.md](applied-sciences/finance-and-investing/credit-and-debt/credit-and-debit-cards.md): Credit and debit cards - A debit card spends your own money straight from a bank account.
+    - **accounting-basics/**
+      - [README.md](applied-sciences/finance-and-investing/accounting-basics/README.md): Accounting basics - How financial activity is recorded and reported: the accounting equation, assets and liabilities, income and profit, and the cash flow statement.
+      - [accounting.md](applied-sciences/finance-and-investing/accounting-basics/accounting.md): Accounting - Accounting is the system for recording, classifying, summarizing and reporting the financial transactions of an organization so that owners, lenders, managers, tax aut...
+      - [accounting-equation.md](applied-sciences/finance-and-investing/accounting-basics/accounting-equation.md): Accounting equation - The accounting equation states that assets equal liabilities plus equity.
+      - [accrual-and-cash-accounting.md](applied-sciences/finance-and-investing/accounting-basics/accrual-and-cash-accounting.md): Accrual and cash accounting - Accounting can recognize a transaction when it is earned and incurred (accrual basis) or when cash moves (cash basis).
+      - [assets.md](applied-sciences/finance-and-investing/accounting-basics/assets.md): Assets - An asset is a resource that an entity controls and expects to produce future economic benefits, such as cash, inventory, equipment, a building, a patent or a financial...
+      - [liabilities.md](applied-sciences/finance-and-investing/accounting-basics/liabilities.md): Liabilities - A liability is a present obligation of an entity to transfer an economic resource as a result of past events.
+      - [income-and-profit.md](applied-sciences/finance-and-investing/accounting-basics/income-and-profit.md): Income and profit - "Income" means different things for a person and for a company, and in tax, accounting and economics.
+      - [cash-flow-statement.md](applied-sciences/finance-and-investing/accounting-basics/cash-flow-statement.md): Cash flow statement - The cash flow statement explains why cash changed during a period by sorting every cash movement into operating, investing and financing activities.
     - **corporate-finance/**
       - [README.md](applied-sciences/finance-and-investing/corporate-finance/README.md): Corporate finance - How a company measures profit and cash, how much it is worth and which investments it should make.
       - [financial-statements.md](applied-sciences/finance-and-investing/corporate-finance/financial-statements.md): Financial statements - A company reports its finances in three linked statements.
@@ -828,6 +858,62 @@ Entries without a link are planned topics. They become notes or directories when
       - [internal-rate-of-return.md](applied-sciences/finance-and-investing/corporate-finance/internal-rate-of-return.md): Internal rate of return (IRR) - The internal rate of return (IRR) is the discount rate at which an investment's net present value is zero: the annual return the project effectively pays on the money...
       - [payback-period.md](applied-sciences/finance-and-investing/corporate-finance/payback-period.md): Payback period - The payback period is the time an investment takes to return its initial cost from the cash it generates.
       - [capital-budgeting-methods.md](applied-sciences/finance-and-investing/corporate-finance/capital-budgeting-methods.md): Capital budgeting methods - Capital budgeting is the process of deciding which long-term investments a company should make.
+    - **financial-markets/**
+      - [README.md](applied-sciences/finance-and-investing/financial-markets/README.md): Financial markets - How securities are traded and how prices form: the structure of markets, the equity market, order types and the order book, market efficiency and short selling.
+      - [financial-markets-overview.md](applied-sciences/finance-and-investing/financial-markets/financial-markets-overview.md): Financial markets overview - A financial market is a place or network where buyers and sellers trade financial assets such as shares, bonds, currencies and derivatives.
+      - [equity-markets.md](applied-sciences/finance-and-investing/financial-markets/equity-markets.md): Equity markets - The equity market is where shares of companies are issued and traded.
+      - [order-types-and-order-book.md](applied-sciences/finance-and-investing/financial-markets/order-types-and-order-book.md): Order types and the order book - An exchange matches buy and sell orders in an order book.
+      - [market-efficiency.md](applied-sciences/finance-and-investing/financial-markets/market-efficiency.md): Market efficiency - The efficient market hypothesis (EMH) says that prices in a competitive market already reflect available information, so it is hard to earn a return above the market's...
+      - [short-selling.md](applied-sciences/finance-and-investing/financial-markets/short-selling.md): Short selling - Short selling is selling a security the seller does not own, by borrowing it, in the hope of buying it back later at a lower price and returning it.
+    - **financial-instruments/**
+      - [README.md](applied-sciences/finance-and-investing/financial-instruments/README.md): Financial instruments - The assets and contracts that investors buy and sell: the main asset classes, stocks and dividends, bonds, funds and ETFs, derivatives, real estate, commodities, curre...
+      - [types-of-investments.md](applied-sciences/finance-and-investing/financial-instruments/types-of-investments.md): Types of investments - Investments are grouped into asset classes that behave differently: cash and deposits, bonds (lending), stocks (ownership), real estate, commodities and precious metal...
+      - [stocks.md](applied-sciences/finance-and-investing/financial-instruments/stocks.md): Stocks - A stock (share) is a unit of ownership in a company.
+      - [dividends.md](applied-sciences/finance-and-investing/financial-instruments/dividends.md): Dividends - A dividend is a payment from a company's profits to its shareholders.
+      - [bonds.md](applied-sciences/finance-and-investing/financial-instruments/bonds.md): Bonds - A bond is a tradable loan.
+      - [bond-yield-and-duration.md](applied-sciences/finance-and-investing/financial-instruments/bond-yield-and-duration.md): Bond yield and duration - The yield to maturity (YTM) is the single annual rate that makes the present value of a bond's payments equal to its price, so it is the bond's return if held to matur...
+      - [funds-and-etfs.md](applied-sciences/finance-and-investing/financial-instruments/funds-and-etfs.md): Funds and ETFs - An investment fund pools money from many investors and a manager buys a basket of assets with it.
+      - [derivatives-overview.md](applied-sciences/finance-and-investing/financial-instruments/derivatives-overview.md): Derivatives overview - A derivative is a contract whose value depends on the price of an underlying asset such as a commodity, a share, an index, a currency or an interest rate.
+      - [options.md](applied-sciences/finance-and-investing/financial-instruments/options.md): Options - An option gives its buyer the right, but not the obligation, to buy (a call) or sell (a put) an underlying asset at a fixed strike price on or before an expiry date.
+      - [contracts-for-difference.md](applied-sciences/finance-and-investing/financial-instruments/contracts-for-difference.md): Contracts for difference - A contract for difference (CFD) is an agreement between a client and a broker to exchange the difference between the opening and closing price of an underlying asset.
+      - [real-estate-investing.md](applied-sciences/finance-and-investing/financial-instruments/real-estate-investing.md): Real estate investing - Real estate investing means buying property to earn rental income, price appreciation or both, directly or through funds and listed companies.
+      - [commodities-and-precious-metals.md](applied-sciences/finance-and-investing/financial-instruments/commodities-and-precious-metals.md): Commodities and precious metals - Commodities are standardized raw materials such as oil, natural gas, wheat, copper and gold.
+      - [foreign-exchange.md](applied-sciences/finance-and-investing/financial-instruments/foreign-exchange.md): Foreign exchange - The foreign exchange (forex, FX) market is where currencies are exchanged.
+      - [cryptocurrencies.md](applied-sciences/finance-and-investing/financial-instruments/cryptocurrencies.md): Cryptocurrencies - A cryptocurrency is a digital asset recorded on a shared ledger (a blockchain) and secured by cryptography, with no central issuer in the original design.
+    - **portfolio-management/**
+      - [README.md](applied-sciences/finance-and-investing/portfolio-management/README.md): Portfolio management - How to combine investments into a portfolio that fits a goal: the measurement of risk and return, diversification, asset allocation, regular investing and the use of l...
+      - [risk-and-return.md](applied-sciences/finance-and-investing/portfolio-management/risk-and-return.md): Risk and return - Return is what an investment gains or loses over a period, and risk is the uncertainty of that return.
+      - [diversification.md](applied-sciences/finance-and-investing/portfolio-management/diversification.md): Diversification - Diversification means spreading money over assets whose returns do not move together, so that a bad outcome in one is offset by others.
+      - [asset-allocation.md](applied-sciences/finance-and-investing/portfolio-management/asset-allocation.md): Asset allocation - Asset allocation is the division of a portfolio among asset classes such as stocks, bonds and cash.
+      - [dollar-cost-averaging.md](applied-sciences/finance-and-investing/portfolio-management/dollar-cost-averaging.md): Dollar-cost averaging - Dollar-cost averaging (DCA) is investing a fixed amount of money at regular intervals regardless of price.
+      - [leverage-and-margin.md](applied-sciences/finance-and-investing/portfolio-management/leverage-and-margin.md): Leverage and margin - Leverage is using borrowed money or derivatives to control a position larger than your own capital.
+    - **fundamental-analysis/**
+      - [README.md](applied-sciences/finance-and-investing/fundamental-analysis/README.md): Fundamental analysis - How to judge what a company is worth from its business and financial statements: the meaning of value, market capitalization and enterprise value, the main financial r...
+      - [fundamental-analysis.md](applied-sciences/finance-and-investing/fundamental-analysis/fundamental-analysis.md): Fundamental analysis - Fundamental analysis estimates what a security is worth from the economics of the business behind it: its revenue, costs, assets, debts, growth, risks and the economy...
+      - [market-value-and-intrinsic-value.md](applied-sciences/finance-and-investing/fundamental-analysis/market-value-and-intrinsic-value.md): Market value and intrinsic value - Several different numbers are called the "value" of an asset or a company.
+      - [market-capitalization-and-enterprise-value.md](applied-sciences/finance-and-investing/fundamental-analysis/market-capitalization-and-enterprise-value.md): Market capitalization and enterprise value - Market capitalization is the market value of a company's shares: the share price multiplied by the number of shares outstanding.
+      - [financial-ratios.md](applied-sciences/finance-and-investing/fundamental-analysis/financial-ratios.md): Financial ratios - A financial ratio divides one number from the financial statements or the market by another, to make companies of different sizes comparable.
+      - [earnings-per-share.md](applied-sciences/finance-and-investing/fundamental-analysis/earnings-per-share.md): Earnings per share - Earnings per share (EPS) is the profit that belongs to common shareholders divided by the average number of common shares outstanding during the period.
+      - [price-to-earnings-ratio.md](applied-sciences/finance-and-investing/fundamental-analysis/price-to-earnings-ratio.md): Price-to-earnings ratio - The price-to-earnings (P/E) ratio divides the share price by earnings per share.
+      - [peg-ratio.md](applied-sciences/finance-and-investing/fundamental-analysis/peg-ratio.md): PEG ratio - The PEG ratio divides the price-to-earnings ratio by the expected annual growth rate of earnings, expressed in percent.
+    - **technical-analysis/**
+      - [README.md](applied-sciences/finance-and-investing/technical-analysis/README.md): Technical analysis - How traders read price charts: chart types, trends, support and resistance, chart and candlestick patterns, gaps, volume and the main indicators.
+      - [technical-analysis.md](applied-sciences/finance-and-investing/technical-analysis/technical-analysis.md): Technical analysis - Technical analysis studies past prices and volume, mostly on charts, to judge the likely direction of a price.
+      - [price-charts.md](applied-sciences/finance-and-investing/technical-analysis/price-charts.md): Price charts - A price chart plots the price of a security against time.
+      - [trends-and-trendlines.md](applied-sciences/finance-and-investing/technical-analysis/trends-and-trendlines.md): Trends and trendlines - A trend is the general direction of a price over a period.
+      - [support-and-resistance.md](applied-sciences/finance-and-investing/technical-analysis/support-and-resistance.md): Support and resistance - Support is a price level where falling prices have tended to stop because buyers step in, and resistance is a level where rising prices have tended to stop because sel...
+      - [fibonacci-retracements.md](applied-sciences/finance-and-investing/technical-analysis/fibonacci-retracements.md): Fibonacci retracements - Fibonacci retracements are horizontal levels drawn between a swing low and a swing high at 23.6%, 38.2%, 50%, 61.8% and 78.6% of the move.
+      - [price-gaps.md](applied-sciences/finance-and-investing/technical-analysis/price-gaps.md): Price gaps - A price gap is an empty space on the chart between one period's range and the next: the price jumps and no trades occur between the two levels.
+      - [chart-patterns-reversal.md](applied-sciences/finance-and-investing/technical-analysis/chart-patterns-reversal.md): Reversal chart patterns - Reversal patterns are shapes on a price chart that analysts read as the end of a trend.
+      - [chart-patterns-continuation.md](applied-sciences/finance-and-investing/technical-analysis/chart-patterns-continuation.md): Continuation chart patterns - Continuation patterns are pauses inside a trend: price consolidates in a narrowing or sideways shape and then, according to the pattern's usual reading, continues in t...
+      - [candlestick-patterns-reversal.md](applied-sciences/finance-and-investing/technical-analysis/candlestick-patterns-reversal.md): Candlestick reversal patterns - Candlestick reversal patterns are one to three candle formations that, according to the Japanese charting tradition, warn that a trend may turn.
+      - [candlestick-patterns-continuation.md](applied-sciences/finance-and-investing/technical-analysis/candlestick-patterns-continuation.md): Candlestick continuation patterns - Candlestick continuation patterns are short sequences of candles that suggest a trend will go on after a pause.
+      - [moving-averages.md](applied-sciences/finance-and-investing/technical-analysis/moving-averages.md): Moving averages - A moving average is the average of the last n prices, recalculated as each new price arrives.
+      - [macd.md](applied-sciences/finance-and-investing/technical-analysis/macd.md): MACD - The moving average convergence divergence indicator (MACD) is the difference between a fast and a slow exponential moving average of price, usually 12 and 26 periods,...
+      - [relative-strength-index.md](applied-sciences/finance-and-investing/technical-analysis/relative-strength-index.md): Relative strength index - The relative strength index (RSI) compares the size of recent gains with the size of recent losses and scales the result from 0 to 100.
+      - [stochastic-oscillator-and-momentum.md](applied-sciences/finance-and-investing/technical-analysis/stochastic-oscillator-and-momentum.md): Stochastic oscillator and momentum indicators - Three oscillators measure momentum in different ways.
+      - [bollinger-bands.md](applied-sciences/finance-and-investing/technical-analysis/bollinger-bands.md): Bollinger Bands - Bollinger Bands are a volatility envelope drawn around a moving average.
+      - [volume-and-open-interest.md](applied-sciences/finance-and-investing/technical-analysis/volume-and-open-interest.md): Volume and open interest - Volume is the number of shares or contracts traded in a period, and it measures how much conviction stands behind a price move.
 - **arts/** (planned)
   - [README.md](arts/README.md): Arts - Creative practice and the study of aesthetic works.
   - **visual-arts/** (planned)
@@ -997,14 +1083,13 @@ Entries without a link are planned topics. They become notes or directories when
     - [anatomy-spinal-curves.svg](_assets/applied-sciences/anatomy-spinal-curves.svg): File.
     - [anatomy-synovial-joint.svg](_assets/applied-sciences/anatomy-synovial-joint.svg): File.
     - [anatomy-vertebra-superior-view.svg](_assets/applied-sciences/anatomy-vertebra-superior-view.svg): File.
+    - [candlestick-patterns-reversal-shapes.svg](_assets/applied-sciences/candlestick-patterns-reversal-shapes.svg): Diagram of four candlestick reversal patterns.
+    - [chart-patterns-continuation-shapes.svg](_assets/applied-sciences/chart-patterns-continuation-shapes.svg): Diagram of four continuation chart patterns.
+    - [chart-patterns-reversal-shapes.svg](_assets/applied-sciences/chart-patterns-reversal-shapes.svg): Diagram of four reversal chart patterns.
     - [physiology-sarcomere.svg](_assets/applied-sciences/physiology-sarcomere.svg): File.
+    - [price-charts-candlestick-anatomy.svg](_assets/applied-sciences/price-charts-candlestick-anatomy.svg): Diagram of the parts of a bullish and a bearish candlestick.
   - **personal-development/**
     - [career-riasec-hexagon.svg](_assets/personal-development/career-riasec-hexagon.svg): File.
 - **_sources/**
-  - [Business-20261027091630.html](_sources/Business-20261027091630.html): File.
-  - [Finances-20261027091604.html](_sources/Finances-20261027091604.html): File.
-  - [Health & fitness.html](_sources/Health%20&%20fitness.html): File.
-  - [Investing-20261027092545.html](_sources/Investing-20261027092545.html): File.
   - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): File.
   - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): File.
-  - [Skills-20261027091622.html](_sources/Skills-20261027091622.html): File.

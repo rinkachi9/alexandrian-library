@@ -1,0 +1,124 @@
+{
+  "node": {
+    "id": "finance.financial-markets.market-efficiency",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "markets",
+      "efficient-market-hypothesis"
+    ],
+    "aliases": [
+      "EMH",
+      "efficient market hypothesis"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-markets.equity-markets",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.technical-analysis",
+      "rel": "contrasts",
+      "note": "Weak-form efficiency says charts add no edge"
+    },
+    {
+      "to": "finance.fundamental-analysis.fundamental-analysis",
+      "rel": "contrasts",
+      "note": "Semi-strong efficiency says public data add no edge"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fama-1970",
+      "type": "paper",
+      "title": "Efficient capital markets: a review of theory and empirical work",
+      "authors": [
+        "Fama, E. F."
+      ],
+      "year": 1970,
+      "publisher": "The Journal of Finance, 25(2), 383-417",
+      "url": "https://doi.org/10.1111/j.1540-6261.1970.tb00518.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fama-french-1992",
+      "type": "paper",
+      "title": "The cross-section of expected stock returns",
+      "authors": [
+        "Fama, E. F.",
+        "French, K. R."
+      ],
+      "year": 1992,
+      "publisher": "The Journal of Finance, 47(2), 427-465",
+      "url": "https://doi.org/10.1111/j.1540-6261.1992.tb04398.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "de-long-1990",
+      "type": "paper",
+      "title": "Noise trader risk in financial markets",
+      "authors": [
+        "De Long, J. B.",
+        "Shleifer, A.",
+        "Summers, L. H.",
+        "Waldmann, R. J."
+      ],
+      "year": 1990,
+      "publisher": "Journal of Political Economy, 98(4), 703-738",
+      "url": "https://doi.org/10.1086/261703",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Efficient market hypothesis",
+      "anchor": "#definition",
+      "definition": "Prices reflect available information, so it is hard to earn excess risk-adjusted returns from that information."
+    },
+    {
+      "term": "Joint hypothesis problem",
+      "anchor": "#mechanism",
+      "definition": "A test of efficiency is also a test of the asset pricing model used to define excess returns."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three forms of the EMH.",
+      "a": "Weak, semi-strong and strong.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why do fees matter so much for active versus passive funds?",
+      "a": "Fees are certain, and outperformance is not, so a cost gap compounds over years.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-markets"
+  }
+}

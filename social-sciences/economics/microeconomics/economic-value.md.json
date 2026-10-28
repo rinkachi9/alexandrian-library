@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "economics.microeconomics.economic-value",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "value",
+      "surplus",
+      "utility"
+    ],
+    "aliases": [
+      "willingness to pay",
+      "consumer surplus"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.fundamental-analysis.market-value-and-intrinsic-value",
+      "rel": "related",
+      "note": "Market and intrinsic value in finance"
+    },
+    {
+      "to": "finance.corporate-finance.wacc",
+      "rel": "related",
+      "note": "Cost of capital in economic value added"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mankiw-2021",
+      "type": "book",
+      "title": "Principles of Economics (9th ed.)",
+      "authors": [
+        "Mankiw, N. G."
+      ],
+      "year": 2021,
+      "publisher": "Cengage",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "jel-codes",
+      "type": "website",
+      "title": "JEL classification system",
+      "authors": [
+        "American Economic Association"
+      ],
+      "publisher": "American Economic Association",
+      "url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Economic value",
+      "anchor": "#definition",
+      "definition": "The most a person would give up to obtain something, their willingness to pay."
+    },
+    {
+      "term": "Opportunity cost",
+      "anchor": "#definition",
+      "definition": "The value of the best alternative given up by a choice."
+    },
+    {
+      "term": "Consumer surplus",
+      "anchor": "#surplus",
+      "definition": "Willingness to pay minus the price paid."
+    },
+    {
+      "term": "Economic value added",
+      "anchor": "#kinds-of-value",
+      "definition": "Net operating profit after tax minus a charge for the capital used."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A buyer would pay 80 and pays 55. What is the consumer surplus?",
+      "a": "25.",
+      "anchor": "#surplus",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does the demand curve slope downward?",
+      "a": "The value of each further unit falls, so the willingness to pay falls.",
+      "anchor": "#marginal-value",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "microeconomics"
+  }
+}

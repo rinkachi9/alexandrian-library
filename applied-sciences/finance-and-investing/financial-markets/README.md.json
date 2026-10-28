@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.financial-markets",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "markets"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "financial-markets"
+  }
+}

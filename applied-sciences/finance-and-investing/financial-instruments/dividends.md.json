@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "finance.financial-instruments.dividends",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "stocks",
+      "dividends"
+    ],
+    "aliases": [
+      "dividend yield",
+      "payout ratio",
+      "ex-dividend"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.financial-instruments.stocks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.fundamental-analysis.earnings-per-share",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "investor-gov-stocks",
+      "type": "website",
+      "title": "Stocks",
+      "authors": [
+        "U.S. Securities and Exchange Commission, Office of Investor Education and Advocacy"
+      ],
+      "publisher": "Investor.gov",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "title": "Investment Valuation: Tools and Techniques for Determining the Value of Any Asset (3rd ed.)",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dividend yield",
+      "anchor": "#definition",
+      "definition": "Dividend per share divided by the share price."
+    },
+    {
+      "term": "Payout ratio",
+      "anchor": "#definition",
+      "definition": "Dividends divided by net income."
+    },
+    {
+      "term": "Ex-dividend date",
+      "anchor": "#mechanism-from-decision-to-payment",
+      "definition": "The first day the share trades without the right to the dividend."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does the share price fall on the ex-dividend date?",
+      "a": "New buyers do not get the dividend and the company has paid out the cash, so value falls by about the payment.",
+      "anchor": "#why-a-dividend-does-not-create-value",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "A share costs 80 and pays 3.2 a year. What is the yield?",
+      "a": "4%.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "financial-instruments"
+  }
+}

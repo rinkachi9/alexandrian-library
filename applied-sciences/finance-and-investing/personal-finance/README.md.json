@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.personal-finance",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "personal-finance"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "personal-finance"
+  }
+}

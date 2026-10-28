@@ -1,0 +1,113 @@
+{
+  "node": {
+    "id": "finance.accounting-basics.accrual-and-cash-accounting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "accounting",
+      "accrual",
+      "cash-basis"
+    ],
+    "aliases": [
+      "accrual basis",
+      "cash basis",
+      "matching principle"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.accounting-basics.accounting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.accounting-basics.accounting-equation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.accounting-basics.cash-flow-statement",
+      "rel": "related",
+      "note": "Shows why accrual profit differs from cash"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-conceptual",
+      "type": "standard",
+      "title": "Conceptual Framework for Financial Reporting",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2018,
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "ias-7",
+      "type": "standard",
+      "title": "IAS 7 Statement of Cash Flows",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Accrual accounting",
+      "anchor": "#definition",
+      "definition": "Recording revenue when earned and expenses when incurred, whatever the payment date."
+    },
+    {
+      "term": "Cash accounting",
+      "anchor": "#definition",
+      "definition": "Recording revenue and expenses when cash is received or paid."
+    },
+    {
+      "term": "Matching principle",
+      "anchor": "#mechanism",
+      "definition": "Expenses are recorded in the same period as the revenue they helped to earn."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A 2,400 annual premium is paid in July. What is the accrual expense for the first six months?",
+      "a": "1,200, with 1,200 left as a prepaid expense.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does accrual profit not show liquidity?",
+      "a": "Receivables are earned but not yet cash, so a profitable firm can lack cash.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "accounting-basics"
+  }
+}

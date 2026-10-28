@@ -1,0 +1,115 @@
+{
+  "node": {
+    "id": "finance.credit-and-debt.debt",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "debt",
+      "leverage"
+    ],
+    "aliases": [
+      "borrowing",
+      "loan"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.credit-and-debt.interest-rates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.accounting-basics.liabilities",
+      "rel": "related",
+      "note": "Debt is one kind of liability"
+    },
+    {
+      "to": "finance.corporate-finance.wacc",
+      "rel": "related",
+      "note": "Debt versus equity in a company"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "title": "Principles of Corporate Finance (14th ed.)",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "publisher": "McGraw Hill",
+      "verified": false
+    },
+    {
+      "key": "cfpb-credit-reports",
+      "type": "website",
+      "title": "Credit reports and scores",
+      "authors": [
+        "Consumer Financial Protection Bureau"
+      ],
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+      "verified": false
+    },
+    {
+      "key": "jel-codes",
+      "type": "website",
+      "title": "JEL classification system",
+      "authors": [
+        "American Economic Association"
+      ],
+      "publisher": "American Economic Association",
+      "url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Financial leverage",
+      "anchor": "#mechanism-leverage",
+      "definition": "Using borrowed money to control a larger asset, which magnifies gains and losses."
+    },
+    {
+      "term": "Secured debt",
+      "anchor": "#types",
+      "definition": "Debt backed by collateral that the lender can seize."
+    },
+    {
+      "term": "Debt-to-income ratio",
+      "anchor": "#risk-and-default",
+      "definition": "Monthly debt payments divided by gross monthly income."
+    },
+    {
+      "term": "Productive debt",
+      "anchor": "#productive-and-unproductive-debt",
+      "definition": "Debt that finances an asset raising income or keeping value."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can leverage cause a loss larger than the money put in?",
+      "a": "The loss applies to the whole asset and the interest is still owed, so it can exceed the own capital.",
+      "anchor": "#mechanism-leverage",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "List the five questions of the debt decision framework.",
+      "a": "Purpose, cost, risk, time horizon and optionality.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

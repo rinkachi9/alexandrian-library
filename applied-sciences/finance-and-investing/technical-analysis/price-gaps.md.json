@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.price-gaps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "gaps",
+      "patterns"
+    ],
+    "aliases": [
+      "breakaway gap",
+      "island reversal",
+      "key reversal day"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.price-charts",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.trends-and-trendlines",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "nison-2001",
+      "type": "book",
+      "title": "Japanese Candlestick Charting Techniques (2nd ed.)",
+      "authors": [
+        "Nison, S."
+      ],
+      "year": 2001,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gap",
+      "anchor": "#definition",
+      "definition": "An empty space on the chart between one period's range and the next."
+    },
+    {
+      "term": "Exhaustion gap",
+      "anchor": "#types",
+      "definition": "A gap near the end of a trend on very high volume, usually filled within days."
+    },
+    {
+      "term": "Island reversal",
+      "anchor": "#types",
+      "definition": "An exhaustion gap followed by a breakaway gap in the opposite direction."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which gap type appears at the start of a trend?",
+      "a": "The breakaway gap.",
+      "anchor": "#types",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is the idea that all gaps are filled a myth?",
+      "a": "Breakaway and runaway gaps often stay open for months.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

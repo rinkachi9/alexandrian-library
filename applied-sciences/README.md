@@ -1,6 +1,6 @@
 # Applied sciences
 
-Fields that use knowledge from the other domains to solve practical problems and run professions. Medicine and health, business and management, and finance and investing (corporate finance) have notes; computer science and engineering are planned.
+Fields that use knowledge from the other domains to solve practical problems and run professions. Medicine and health, business and management, and finance and investing have notes; computer science and engineering are planned.
 
 ## Fields
 

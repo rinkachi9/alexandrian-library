@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.fundamental-analysis",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "fundamental-analysis"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "fundamental-analysis"
+  }
+}

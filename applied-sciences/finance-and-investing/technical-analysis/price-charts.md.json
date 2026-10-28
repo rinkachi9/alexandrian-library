@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.price-charts",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "charts",
+      "candlestick"
+    ],
+    "aliases": [
+      "candlestick chart",
+      "OHLC"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.technical-analysis",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nison-2001",
+      "type": "book",
+      "title": "Japanese Candlestick Charting Techniques (2nd ed.)",
+      "authors": [
+        "Nison, S."
+      ],
+      "year": 2001,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "OHLC",
+      "anchor": "#definition",
+      "definition": "The open, high, low and close prices that summarize each period."
+    },
+    {
+      "term": "Candlestick",
+      "anchor": "#chart-types",
+      "definition": "A chart element with a body between open and close and shadows to the high and low."
+    },
+    {
+      "term": "Logarithmic scale",
+      "anchor": "#scale",
+      "definition": "A scale that spaces equal percentage changes equally."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A day opens at 50, reaches 55, falls to 48 and closes at 52. What are the shadows?",
+      "a": "Upper shadow 3 and lower shadow 2.",
+      "anchor": "#chart-types",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is a log scale better for a ten-year chart?",
+      "a": "Equal percentage moves take equal space, so early and late periods are comparable.",
+      "anchor": "#scale",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

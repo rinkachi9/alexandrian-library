@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.credit-and-debt",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "credit",
+      "debt"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "credit-and-debt"
+  }
+}

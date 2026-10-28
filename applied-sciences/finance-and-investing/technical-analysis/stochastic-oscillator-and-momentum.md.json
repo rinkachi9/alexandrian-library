@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "finance.technical-analysis.stochastic-oscillator-and-momentum",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 14,
+    "tags": [
+      "stochastic",
+      "roc",
+      "cci",
+      "indicators"
+    ],
+    "aliases": [
+      "stochastic oscillator",
+      "rate of change",
+      "commodity channel index"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.technical-analysis.relative-strength-index",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.technical-analysis.moving-averages",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "murphy-1999",
+      "type": "book",
+      "title": "Technical Analysis of the Financial Markets",
+      "authors": [
+        "Murphy, J. J."
+      ],
+      "year": 1999,
+      "publisher": "New York Institute of Finance",
+      "verified": false
+    },
+    {
+      "key": "wilder-1978",
+      "type": "book",
+      "title": "New Concepts in Technical Trading Systems",
+      "authors": [
+        "Wilder, J. W."
+      ],
+      "year": 1978,
+      "publisher": "Trend Research",
+      "verified": false
+    },
+    {
+      "key": "park-irwin-2007",
+      "type": "paper",
+      "title": "What do we know about the profitability of technical analysis?",
+      "authors": [
+        "Park, C.-H.",
+        "Irwin, S. H."
+      ],
+      "year": 2007,
+      "publisher": "Journal of Economic Surveys, 21(4), 786-826",
+      "url": "https://doi.org/10.1111/j.1467-6419.2007.00519.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Stochastic oscillator",
+      "anchor": "#definition",
+      "definition": "An oscillator that shows where the close sits within the recent high-low range."
+    },
+    {
+      "term": "Rate of change",
+      "anchor": "#definition",
+      "definition": "The percentage change in price over n periods."
+    },
+    {
+      "term": "Commodity channel index",
+      "anchor": "#definition",
+      "definition": "The distance of the typical price from its average in units of mean deviation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Close 108, highest high 110, lowest low 100. What is %K?",
+      "a": "80.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why are several oscillators not independent confirmation?",
+      "a": "All are functions of the same price data.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "technical-analysis"
+  }
+}

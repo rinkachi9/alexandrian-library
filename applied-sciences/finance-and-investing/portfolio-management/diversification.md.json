@@ -1,0 +1,119 @@
+{
+  "node": {
+    "id": "finance.portfolio-management.diversification",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "diversification",
+      "risk"
+    ],
+    "aliases": [
+      "portfolio diversification"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.portfolio-management.risk-and-return",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.financial-markets.equity-markets",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "markowitz-1952",
+      "type": "paper",
+      "title": "Portfolio selection",
+      "authors": [
+        "Markowitz, H."
+      ],
+      "year": 1952,
+      "publisher": "The Journal of Finance, 7(1), 77-91",
+      "url": "https://doi.org/10.1111/j.1540-6261.1952.tb01525.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sharpe-1964",
+      "type": "paper",
+      "title": "Capital asset prices: a theory of market equilibrium under conditions of risk",
+      "authors": [
+        "Sharpe, W. F."
+      ],
+      "year": 1964,
+      "publisher": "The Journal of Finance, 19(3), 425-442",
+      "url": "https://doi.org/10.1111/j.1540-6261.1964.tb02865.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "benartzi-thaler-2001",
+      "type": "paper",
+      "title": "Naive diversification strategies in defined contribution saving plans",
+      "authors": [
+        "Benartzi, S.",
+        "Thaler, R. H."
+      ],
+      "year": 2001,
+      "publisher": "American Economic Review, 91(1), 79-98",
+      "url": "https://doi.org/10.1257/aer.91.1.79",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bodie-2021",
+      "type": "book",
+      "title": "Investments (12th ed.)",
+      "authors": [
+        "Bodie, Z.",
+        "Kane, A.",
+        "Marcus, A. J."
+      ],
+      "year": 2021,
+      "publisher": "McGraw Hill",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Diversification",
+      "anchor": "#definition",
+      "definition": "Reducing portfolio risk by holding assets with imperfectly correlated returns."
+    },
+    {
+      "term": "Correlation",
+      "anchor": "#definition",
+      "definition": "A measure from -1 to +1 of how two returns move together."
+    },
+    {
+      "term": "Specific risk",
+      "anchor": "#mechanism",
+      "definition": "Risk that belongs to one company and can be removed by diversifying."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Two assets each have risk 15%. What is the risk of a 50/50 portfolio at correlation +1?",
+      "a": "15%, with no benefit.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is holding five funds not always diversification?",
+      "a": "If they hold the same kind of assets their returns are highly correlated.",
+      "anchor": "#not-the-same-as-naive-splitting",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "portfolio-management"
+  }
+}
