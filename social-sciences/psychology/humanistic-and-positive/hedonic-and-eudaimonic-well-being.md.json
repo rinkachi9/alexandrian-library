@@ -1,0 +1,213 @@
+{
+  "node": {
+    "id": "psychology.hedonic-and-eudaimonic-well-being",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "well-being",
+      "happiness",
+      "positive-psychology"
+    ],
+    "aliases": [
+      "hedonia and eudaimonia",
+      "two kinds of happiness"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.maslow-hierarchy-of-needs",
+      "rel": "related",
+      "note": "Self-actualization is a root of the eudaimonic tradition"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ryan-deci-2001",
+      "type": "paper",
+      "title": "On happiness and human potentials: a review of research on hedonic and eudaimonic well-being",
+      "authors": [
+        "Ryan, R. M.",
+        "Deci, E. L."
+      ],
+      "year": 2001,
+      "publisher": "Annual Review of Psychology, 52, 141-166",
+      "url": "https://doi.org/10.1146/annurev.psych.52.1.141",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ryff-1989",
+      "type": "paper",
+      "title": "Happiness is everything, or is it? Explorations on the meaning of psychological well-being",
+      "authors": [
+        "Ryff, C. D."
+      ],
+      "year": 1989,
+      "publisher": "Journal of Personality and Social Psychology, 57(6), 1069-1081",
+      "url": "https://doi.org/10.1037/0022-3514.57.6.1069",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "waterman-1993",
+      "type": "paper",
+      "title": "Two conceptions of happiness: contrasts of personal expressiveness (eudaimonia) and hedonic enjoyment",
+      "authors": [
+        "Waterman, A. S."
+      ],
+      "year": 1993,
+      "publisher": "Journal of Personality and Social Psychology, 64(4), 678-691",
+      "url": "https://doi.org/10.1037/0022-3514.64.4.678",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "huta-waterman-2014",
+      "type": "paper",
+      "title": "Eudaimonia and its distinction from hedonia: developing a classification and terminology for understanding conceptual and operational definitions",
+      "authors": [
+        "Huta, V.",
+        "Waterman, A. S."
+      ],
+      "year": 2014,
+      "publisher": "Journal of Happiness Studies, 15(6), 1425-1456",
+      "url": "https://doi.org/10.1007/s10902-013-9485-0",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brickman-1978",
+      "type": "paper",
+      "title": "Lottery winners and accident victims: is happiness relative?",
+      "authors": [
+        "Brickman, P.",
+        "Coates, D.",
+        "Janoff-Bulman, R."
+      ],
+      "year": 1978,
+      "publisher": "Journal of Personality and Social Psychology, 36(8), 917-927",
+      "url": "https://doi.org/10.1037/0022-3514.36.8.917",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "lucas-2007",
+      "type": "paper",
+      "title": "Adaptation and the set-point model of subjective well-being",
+      "authors": [
+        "Lucas, R. E."
+      ],
+      "year": 2007,
+      "publisher": "Current Directions in Psychological Science, 16(2), 75-79",
+      "url": "https://doi.org/10.1111/j.1467-8721.2007.00479.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "seligman-2011",
+      "type": "book",
+      "title": "Flourish: A Visionary New Understanding of Happiness and Well-being",
+      "authors": [
+        "Seligman, M. E. P."
+      ],
+      "year": 2011,
+      "publisher": "Free Press",
+      "verified": false
+    },
+    {
+      "key": "aristotle-ne",
+      "type": "book",
+      "title": "Nicomachean Ethics",
+      "authors": [
+        "Aristotle"
+      ],
+      "publisher": "Many editions; written in the 4th century BCE",
+      "verified": false
+    },
+    {
+      "key": "fredrickson-2013",
+      "type": "paper",
+      "title": "A functional genomic perspective on human well-being",
+      "authors": [
+        "Fredrickson, B. L.",
+        "Grewen, K. M.",
+        "Coffey, K. A.",
+        "Algoe, S. B."
+      ],
+      "year": 2013,
+      "publisher": "Proceedings of the National Academy of Sciences, 110(33), 13684-13689",
+      "url": "https://doi.org/10.1073/pnas.1305419110",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brown-2014",
+      "type": "paper",
+      "title": "A critical reanalysis of the relationship between genomics and well-being",
+      "authors": [
+        "Brown, N. J. L.",
+        "MacDonald, D. A.",
+        "Samanta, M. P.",
+        "Friedman, H. L."
+      ],
+      "year": 2014,
+      "publisher": "Proceedings of the National Academy of Sciences, 111(35), 12705-12709",
+      "url": "https://doi.org/10.1073/pnas.1407057111",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hedonic well-being",
+      "anchor": "#definition",
+      "definition": "Pleasure, positive affect and life satisfaction."
+    },
+    {
+      "term": "Eudaimonic well-being",
+      "anchor": "#definition",
+      "definition": "Meaning, growth and living in line with one's values."
+    },
+    {
+      "term": "Hedonic adaptation",
+      "anchor": "#adaptation",
+      "definition": "The return of well-being toward a baseline after a change in circumstances."
+    },
+    {
+      "term": "PERMA",
+      "anchor": "#models-of-eudaimonic-well-being",
+      "definition": "Seligman's model of positive emotion, engagement, relationships, meaning and accomplishment."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name Ryff's six dimensions of psychological well-being.",
+      "a": "Self-acceptance, positive relations with others, autonomy, environmental mastery, purpose in life and personal growth.",
+      "anchor": "#models-of-eudaimonic-well-being",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Lucas (2007) conclude about adaptation?",
+      "a": "Adaptation is real but incomplete, and people differ in how much they adapt.",
+      "anchor": "#adaptation",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "Why is the brain-chemistry explanation of the two kinds of happiness not relied on?",
+      "a": "The mechanisms are simplifications and a genomic result was disputed on statistical grounds.",
+      "anchor": "#evidence-and-its-limits",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "humanistic-and-positive"
+  }
+}

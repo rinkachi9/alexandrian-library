@@ -1,0 +1,177 @@
+{
+  "node": {
+    "id": "psychology.milgram-obedience-experiments",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "obedience",
+      "authority",
+      "ethics",
+      "experiments"
+    ],
+    "aliases": [
+      "Milgram experiment",
+      "shock experiment"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.self-verification-theory",
+      "rel": "related",
+      "note": "Commitment and consistency"
+    }
+  ],
+  "sources": [
+    {
+      "key": "milgram-1963",
+      "type": "paper",
+      "title": "Behavioral study of obedience",
+      "authors": [
+        "Milgram, S."
+      ],
+      "year": 1963,
+      "publisher": "The Journal of Abnormal and Social Psychology, 67(4), 371-378",
+      "url": "https://doi.org/10.1037/h0040525",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "milgram-1965",
+      "type": "paper",
+      "title": "Some conditions of obedience and disobedience to authority",
+      "authors": [
+        "Milgram, S."
+      ],
+      "year": 1965,
+      "publisher": "Human Relations, 18(1), 57-76",
+      "url": "https://doi.org/10.1177/001872676501800105",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "milgram-1974",
+      "type": "book",
+      "title": "Obedience to Authority: An Experimental View",
+      "authors": [
+        "Milgram, S."
+      ],
+      "year": 1974,
+      "publisher": "Harper & Row",
+      "verified": false
+    },
+    {
+      "key": "haslam-reicher-2012",
+      "type": "paper",
+      "title": "Contesting the \"nature\" of conformity: what Milgram and Zimbardo's studies really show",
+      "authors": [
+        "Haslam, S. A.",
+        "Reicher, S. D."
+      ],
+      "year": 2012,
+      "publisher": "PLoS Biology, 10(11), e1001426",
+      "url": "https://doi.org/10.1371/journal.pbio.1001426",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "haslam-reicher-birney-2014",
+      "type": "paper",
+      "title": "Nothing by mere authority: evidence that in an experimental analogue of the Milgram paradigm participants are motivated not by orders but by appeals to science",
+      "authors": [
+        "Haslam, S. A.",
+        "Reicher, S. D.",
+        "Birney, M. E."
+      ],
+      "year": 2014,
+      "publisher": "Journal of Social Issues, 70(3), 473-488",
+      "url": "https://doi.org/10.1111/josi.12072",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "burger-2009",
+      "type": "paper",
+      "title": "Replicating Milgram: would people still obey today?",
+      "authors": [
+        "Burger, J. M."
+      ],
+      "year": 2009,
+      "publisher": "American Psychologist, 64(1), 1-11",
+      "url": "https://doi.org/10.1037/a0010932",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "baumrind-1964",
+      "type": "paper",
+      "title": "Some thoughts on ethics of research: after reading Milgram's \"Behavioral study of obedience\"",
+      "authors": [
+        "Baumrind, D."
+      ],
+      "year": 1964,
+      "publisher": "American Psychologist, 19(6), 421-423",
+      "url": "https://doi.org/10.1037/h0040128",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "perry-2012",
+      "type": "book",
+      "title": "Behind the Shock Machine: The Untold Story of the Notorious Milgram Psychology Experiments",
+      "authors": [
+        "Perry, G."
+      ],
+      "year": 2012,
+      "publisher": "The New Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Agentic state",
+      "anchor": "#explanations",
+      "definition": "Milgram's idea that people see themselves as agents who carry out another person's wishes."
+    },
+    {
+      "term": "Engaged followership",
+      "anchor": "#explanations",
+      "definition": "The view that participants continued because they identified with the scientific goal."
+    },
+    {
+      "term": "Wilson interval",
+      "anchor": "#worked-example",
+      "definition": "A confidence interval for a proportion that works for small samples."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What share of participants went to 450 volts in the first study?",
+      "a": "26 of 40, or 65%.",
+      "anchor": "#results",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does the Bridgeport result not prove prestige does not matter?",
+      "a": "The drop to 47.5% was not statistically significant, and the intervals overlap.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "How does engaged followership differ from obedience?",
+      "a": "Participants continued because they identified with the scientific goal, not because they followed orders as such.",
+      "anchor": "#explanations",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

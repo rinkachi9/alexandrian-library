@@ -1,0 +1,157 @@
+{
+  "node": {
+    "id": "psychology.multiple-intelligences",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "intelligence",
+      "gardner",
+      "education"
+    ],
+    "aliases": [
+      "MI theory",
+      "Gardner's theory"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.neuro-linguistic-programming",
+      "rel": "related",
+      "note": "Preferred-sense claims share the learning styles problem"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gardner-1983",
+      "type": "book",
+      "title": "Frames of Mind: The Theory of Multiple Intelligences",
+      "authors": [
+        "Gardner, H."
+      ],
+      "year": 1983,
+      "publisher": "Basic Books",
+      "verified": false
+    },
+    {
+      "key": "gardner-1999",
+      "type": "book",
+      "title": "Intelligence Reframed: Multiple Intelligences for the 21st Century",
+      "authors": [
+        "Gardner, H."
+      ],
+      "year": 1999,
+      "publisher": "Basic Books",
+      "verified": false
+    },
+    {
+      "key": "spearman-1904",
+      "type": "paper",
+      "title": "General intelligence, objectively determined and measured",
+      "authors": [
+        "Spearman, C."
+      ],
+      "year": 1904,
+      "publisher": "The American Journal of Psychology, 15(2), 201-292",
+      "url": "https://doi.org/10.2307/1412107",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "visser-2006",
+      "type": "paper",
+      "title": "Beyond g: putting multiple intelligences theory to the test",
+      "authors": [
+        "Visser, B. A.",
+        "Ashton, M. C.",
+        "Vernon, P. A."
+      ],
+      "year": 2006,
+      "publisher": "Intelligence, 34(5), 487-502",
+      "url": "https://doi.org/10.1016/j.intell.2006.02.004",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "waterhouse-2006",
+      "type": "paper",
+      "title": "Multiple intelligences, the Mozart effect, and emotional intelligence: a critical review",
+      "authors": [
+        "Waterhouse, L."
+      ],
+      "year": 2006,
+      "publisher": "Educational Psychologist, 41(4), 207-225",
+      "url": "https://doi.org/10.1207/s15326985ep4104_1",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "pashler-2008",
+      "type": "paper",
+      "title": "Learning styles: concepts and evidence",
+      "authors": [
+        "Pashler, H.",
+        "McDaniel, M.",
+        "Rohrer, D.",
+        "Bjork, R."
+      ],
+      "year": 2008,
+      "publisher": "Psychological Science in the Public Interest, 9(3), 105-119",
+      "url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Multiple intelligences",
+      "anchor": "#definition",
+      "definition": "Gardner's claim that human ability consists of several relatively independent intelligences."
+    },
+    {
+      "term": "Positive manifold",
+      "anchor": "#evidence",
+      "definition": "The finding that tests of different cognitive abilities correlate positively."
+    },
+    {
+      "term": "General factor (g)",
+      "anchor": "#analogy",
+      "definition": "A single factor behind the correlations between cognitive tests, proposed by Spearman in 1904."
+    },
+    {
+      "term": "Learning style",
+      "anchor": "#multiple-intelligences-are-not-learning-styles",
+      "definition": "A claimed preference for a mode of instruction, for which matching has no adequate evidence."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name Gardner's eight intelligences.",
+      "a": "Linguistic, logical-mathematical, spatial, bodily-kinesthetic, musical, interpersonal, intrapersonal and naturalist.",
+      "anchor": "#the-eight-intelligences",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does the positive manifold count against the theory?",
+      "a": "If the intelligences were independent, scores in different areas would not correlate, but cognitive tests correlate positively.",
+      "anchor": "#evidence",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "How do multiple intelligences differ from learning styles?",
+      "a": "Intelligences are kinds of ability, styles are preferences for how to receive information, and the style claim has no adequate evidence.",
+      "anchor": "#multiple-intelligences-are-not-learning-styles",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intelligence"
+  }
+}

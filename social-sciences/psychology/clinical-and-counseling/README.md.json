@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.psychology.clinical-and-counseling",
+    "kind": "index",
+    "status": "draft",
+    "order": 4
+  },
+  "links": [],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "politics.liberalism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "ideology",
+      "liberty",
+      "rights"
+    ],
+    "aliases": [
+      "liberal tradition"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "sep-liberalism",
+      "type": "website",
+      "title": "Liberalism",
+      "authors": [
+        "Courtland, S. D.",
+        "Gaus, G.",
+        "Schmidtz, D."
+      ],
+      "year": 2022,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/liberalism/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mill-1859",
+      "type": "book",
+      "title": "On Liberty",
+      "authors": [
+        "Mill, J. S."
+      ],
+      "year": 1859,
+      "publisher": "John W. Parker and Son",
+      "verified": false
+    },
+    {
+      "key": "berlin-1958",
+      "type": "book",
+      "title": "Two Concepts of Liberty",
+      "authors": [
+        "Berlin, I."
+      ],
+      "year": 1958,
+      "publisher": "Clarendon Press",
+      "verified": false
+    },
+    {
+      "key": "rawls-1971",
+      "type": "book",
+      "title": "A Theory of Justice",
+      "authors": [
+        "Rawls, J."
+      ],
+      "year": 1971,
+      "publisher": "Harvard University Press",
+      "verified": false
+    },
+    {
+      "key": "heywood-2021",
+      "type": "book",
+      "title": "Political Ideologies: An Introduction",
+      "authors": [
+        "Heywood, A."
+      ],
+      "year": 2021,
+      "publisher": "Red Globe Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Liberalism",
+      "anchor": "#definition",
+      "definition": "A family of political doctrines that treat the individual as the basic unit and freedom as the central value."
+    },
+    {
+      "term": "Harm principle",
+      "anchor": "#main-ideas",
+      "definition": "Society may restrict a person's liberty against their will only to prevent harm to others."
+    },
+    {
+      "term": "Negative and positive liberty",
+      "anchor": "#main-ideas",
+      "definition": "Freedom from interference versus the capacity to act on one's own purposes."
+    },
+    {
+      "term": "Social liberalism",
+      "anchor": "#classical-and-social-liberalism",
+      "definition": "The strand that accepts an active state to secure the conditions of freedom."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the harm principle?",
+      "a": "Society may restrict liberty against a person's will only to prevent harm to others.",
+      "anchor": "#main-ideas",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How do classical and social liberalism differ?",
+      "a": "Classical liberals favor a minimal state and negative liberty, social liberals accept an active state and positive liberty.",
+      "anchor": "#classical-and-social-liberalism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "political-theory"
+  }
+}

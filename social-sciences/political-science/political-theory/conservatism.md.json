@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "politics.conservatism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "ideology",
+      "tradition",
+      "burke"
+    ],
+    "aliases": [
+      "conservative tradition"
+    ]
+  },
+  "links": [
+    {
+      "to": "politics.liberalism",
+      "rel": "contrasts",
+      "note": "Burke's critique of revolutionary abstraction"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sep-conservatism",
+      "type": "website",
+      "title": "Conservatism",
+      "authors": [
+        "Hamilton, A."
+      ],
+      "year": 2025,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/conservatism/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "burke-1790",
+      "type": "book",
+      "title": "Reflections on the Revolution in France",
+      "authors": [
+        "Burke, E."
+      ],
+      "year": 1790,
+      "publisher": "J. Dodsley",
+      "verified": false
+    },
+    {
+      "key": "heywood-2021",
+      "type": "book",
+      "title": "Political Ideologies: An Introduction",
+      "authors": [
+        "Heywood, A."
+      ],
+      "year": 2021,
+      "publisher": "Red Globe Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Conservatism",
+      "anchor": "#definition",
+      "definition": "A family of doctrines that defend an existing social order and prefer evolutionary change."
+    },
+    {
+      "term": "Educated prejudice",
+      "anchor": "#origins",
+      "definition": "Burke's term for habits and beliefs that work without being derived from first principles."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Who is regarded as the main early thinker of modern conservatism?",
+      "a": "Edmund Burke.",
+      "anchor": "#origins",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does conservatism say about redesigning society from theory?",
+      "a": "It is skeptical, because society is too complex, so reform should be gradual.",
+      "anchor": "#main-ideas",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "political-theory"
+  }
+}

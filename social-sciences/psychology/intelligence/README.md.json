@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.psychology.intelligence",
+    "kind": "index",
+    "status": "draft",
+    "order": 1
+  },
+  "links": [],
+  "map": {
+    "group": "intelligence"
+  }
+}

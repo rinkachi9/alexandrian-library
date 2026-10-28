@@ -1,0 +1,176 @@
+{
+  "node": {
+    "id": "psychology.object-relations-theory",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "psychoanalysis",
+      "attachment",
+      "psychotherapy"
+    ],
+    "aliases": [
+      "object relations",
+      "internal objects"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.self-verification-theory",
+      "rel": "related",
+      "note": "Stable expectations about how others see the self"
+    }
+  ],
+  "sources": [
+    {
+      "key": "greenberg-mitchell-1983",
+      "type": "book",
+      "title": "Object Relations in Psychoanalytic Theory",
+      "authors": [
+        "Greenberg, J. R.",
+        "Mitchell, S. A."
+      ],
+      "year": 1983,
+      "publisher": "Harvard University Press",
+      "verified": false
+    },
+    {
+      "key": "klein-1946",
+      "type": "paper",
+      "title": "Notes on some schizoid mechanisms",
+      "authors": [
+        "Klein, M."
+      ],
+      "year": 1946,
+      "publisher": "International Journal of Psycho-Analysis, 27, 99-110",
+      "verified": false
+    },
+    {
+      "key": "winnicott-1953",
+      "type": "paper",
+      "title": "Transitional objects and transitional phenomena",
+      "authors": [
+        "Winnicott, D. W."
+      ],
+      "year": 1953,
+      "publisher": "International Journal of Psycho-Analysis, 34, 89-97",
+      "verified": false
+    },
+    {
+      "key": "fairbairn-1952",
+      "type": "book",
+      "title": "Psychoanalytic Studies of the Personality",
+      "authors": [
+        "Fairbairn, W. R. D."
+      ],
+      "year": 1952,
+      "publisher": "Tavistock",
+      "verified": false
+    },
+    {
+      "key": "bowlby-1969",
+      "type": "book",
+      "title": "Attachment and Loss, Vol. 1: Attachment",
+      "authors": [
+        "Bowlby, J."
+      ],
+      "year": 1969,
+      "publisher": "Basic Books",
+      "verified": false
+    },
+    {
+      "key": "doering-2010",
+      "type": "paper",
+      "title": "Transference-focused psychotherapy v. treatment by community psychotherapists for borderline personality disorder: randomised controlled trial",
+      "authors": [
+        "Doering, S.",
+        "Hoerz, S.",
+        "Rentrop, M."
+      ],
+      "year": 2010,
+      "publisher": "British Journal of Psychiatry, 196(5), 389-395",
+      "url": "https://doi.org/10.1192/bjp.bp.109.070177",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "shedler-2010",
+      "type": "paper",
+      "title": "The efficacy of psychodynamic psychotherapy",
+      "authors": [
+        "Shedler, J."
+      ],
+      "year": 2010,
+      "publisher": "American Psychologist, 65(2), 98-109",
+      "url": "https://doi.org/10.1037/a0018378",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "leichsenring-rabung-2008",
+      "type": "paper",
+      "title": "Effectiveness of long-term psychodynamic psychotherapy: a meta-analysis",
+      "authors": [
+        "Leichsenring, F.",
+        "Rabung, S."
+      ],
+      "year": 2008,
+      "publisher": "JAMA, 300(13), 1551-1565",
+      "url": "https://doi.org/10.1001/jama.300.13.1551",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Internal object",
+      "anchor": "#definition",
+      "definition": "The mental representation of a significant person together with the feelings tied to the relationship."
+    },
+    {
+      "term": "Splitting",
+      "anchor": "#core-ideas",
+      "definition": "Experiencing a person as all good or all bad because good and bad experiences are kept apart."
+    },
+    {
+      "term": "Object constancy",
+      "anchor": "#core-ideas",
+      "definition": "The ability to keep a stable emotional bond during frustration, absence or conflict."
+    },
+    {
+      "term": "Paranoid-schizoid and depressive positions",
+      "anchor": "#core-ideas",
+      "definition": "Klein's two modes of experience, split and integrated, that a person moves between."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does object mean in object relations theory?",
+      "a": "A person who is emotionally significant to the individual.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is splitting?",
+      "a": "Experiencing a person as all good or all bad because the good and bad experiences are kept apart.",
+      "anchor": "#core-ideas",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "How do object relations theory and attachment theory differ in method?",
+      "a": "Object relations relies on clinical observation of inner representations, attachment theory on empirical study of attachment behavior.",
+      "anchor": "#relation-to-attachment-theory",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "politics.collectivism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "ideology",
+      "socialism",
+      "cooperatives"
+    ],
+    "aliases": [
+      "collectivist ideology"
+    ]
+  },
+  "links": [
+    {
+      "to": "politics.liberalism",
+      "rel": "contrasts",
+      "note": "Individualism versus group-first thinking"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sep-socialism",
+      "type": "website",
+      "title": "Socialism",
+      "authors": [
+        "Gilabert, P.",
+        "O'Neill, M."
+      ],
+      "year": 2024,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/socialism/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "heywood-2021",
+      "type": "book",
+      "title": "Political Ideologies: An Introduction",
+      "authors": [
+        "Heywood, A."
+      ],
+      "year": 2021,
+      "publisher": "Red Globe Press",
+      "verified": false
+    },
+    {
+      "key": "hofstede-1980",
+      "type": "book",
+      "title": "Culture's Consequences",
+      "authors": [
+        "Hofstede, G."
+      ],
+      "year": 1980,
+      "publisher": "Sage",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Collectivism",
+      "anchor": "#definition",
+      "definition": "A doctrine that gives priority to communities and groups as basic social units."
+    },
+    {
+      "term": "Individualism",
+      "anchor": "#definition",
+      "definition": "The opposite view that treats the person as the basic unit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the opposite of collectivism?",
+      "a": "Individualism.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does the cultural meaning of collectivism differ from the political one?",
+      "a": "It describes a dimension of culture, not a political or economic system.",
+      "anchor": "#the-other-meaning",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "political-theory"
+  }
+}

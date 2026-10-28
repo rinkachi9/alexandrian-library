@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "psychology.social-deduction-games",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "deception",
+      "group-decisions",
+      "games"
+    ],
+    "aliases": [
+      "Werewolf",
+      "Mafia"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.milgram-obedience-experiments",
+      "rel": "related",
+      "note": "Group pressure and authority"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bond-depaulo-2006",
+      "type": "paper",
+      "title": "Accuracy of deception judgments",
+      "authors": [
+        "Bond, C. F.",
+        "DePaulo, B. M."
+      ],
+      "year": 2006,
+      "publisher": "Personality and Social Psychology Review, 10(3), 214-234",
+      "url": "https://doi.org/10.1207/s15327957pspr1003_2",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "asch-1956",
+      "type": "paper",
+      "title": "Studies of independence and conformity: I. A minority of one against a unanimous majority",
+      "authors": [
+        "Asch, S. E."
+      ],
+      "year": 1956,
+      "publisher": "Psychological Monographs, 70(9), 1-70",
+      "url": "https://doi.org/10.1037/h0093718",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "janis-1972",
+      "type": "book",
+      "title": "Victims of Groupthink",
+      "authors": [
+        "Janis, I. L."
+      ],
+      "year": 1972,
+      "publisher": "Houghton Mifflin",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Social deduction game",
+      "anchor": "#definition",
+      "definition": "A game in which some players hold hidden opposed roles and the group must decide whom to trust."
+    },
+    {
+      "term": "Random-vote baseline",
+      "anchor": "#worked-example",
+      "definition": "The win probability of the villagers when votes carry no information."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the two win conditions in Werewolf?",
+      "a": "Villagers win when all werewolves are eliminated, werewolves win when they are at least as many as the villagers.",
+      "anchor": "#structure-of-the-game",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How accurate are people at judging lies from behavior, on average?",
+      "a": "About 54% correct (Bond and DePaulo, 2006).",
+      "anchor": "#what-the-game-exposes",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

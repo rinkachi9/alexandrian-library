@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.psychology.humanistic-and-positive",
+    "kind": "index",
+    "status": "draft",
+    "order": 2
+  },
+  "links": [],
+  "map": {
+    "group": "humanistic-and-positive"
+  }
+}

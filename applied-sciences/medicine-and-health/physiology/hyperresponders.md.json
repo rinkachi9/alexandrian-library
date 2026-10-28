@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "physiology.hyperresponders",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "physiology",
+      "variability",
+      "personalized-medicine"
+    ],
+    "aliases": [
+      "high responders",
+      "non-responders",
+      "response variability"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "atkinson-batterham-2015",
+      "type": "paper",
+      "title": "True and false interindividual differences in the physiological response to an intervention",
+      "authors": [
+        "Atkinson, G.",
+        "Batterham, A. M."
+      ],
+      "year": 2015,
+      "publisher": "Experimental Physiology, 100(6), 577-588",
+      "url": "https://doi.org/10.1113/EP085070",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "katan-1986",
+      "type": "paper",
+      "title": "Existence of consistent hypo- and hyperresponders to dietary cholesterol in man",
+      "authors": [
+        "Katan, M. B.",
+        "Beynen, A. C.",
+        "de Vries, J. H. M.",
+        "Nobels, A."
+      ],
+      "year": 1986,
+      "publisher": "American Journal of Epidemiology, 123(2), 221-234",
+      "url": "https://doi.org/10.1093/oxfordjournals.aje.a114231",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mann-2014",
+      "type": "paper",
+      "title": "High responders and low responders: factors associated with individual variation in response to standardized training",
+      "authors": [
+        "Mann, T. N.",
+        "Lamberts, R. P.",
+        "Lambert, M. I."
+      ],
+      "year": 2014,
+      "publisher": "Sports Medicine, 44(8), 1113-1124",
+      "url": "https://doi.org/10.1007/s40279-014-0197-3",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hyperresponder",
+      "anchor": "#definition",
+      "definition": "A person whose measured response to a stimulus is far above that of most people."
+    },
+    {
+      "term": "Within-person variation",
+      "anchor": "#real-and-apparent-differences",
+      "definition": "Random day-to-day and measurement-to-measurement variation that is part of every measured change."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can a hyperresponder label from one trial be wrong?",
+      "a": "The measured change includes random variation that can produce extreme values in people with an ordinary true response.",
+      "anchor": "#real-and-apparent-differences",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How can one test whether individual differences in response are real?",
+      "a": "Repeat the intervention in the same people, or compare the spread of changes with a control group.",
+      "anchor": "#real-and-apparent-differences",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "physiology"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "politics.democracy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "democracy",
+      "regimes",
+      "institutions"
+    ],
+    "aliases": [
+      "liberal democracy",
+      "polyarchy"
+    ]
+  },
+  "links": [
+    {
+      "to": "politics.liberalism",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sep-democracy",
+      "type": "website",
+      "title": "Democracy",
+      "authors": [
+        "Christiano, T.",
+        "Bajaj, S."
+      ],
+      "year": 2024,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/democracy/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dahl-1971",
+      "type": "book",
+      "title": "Polyarchy: Participation and Opposition",
+      "authors": [
+        "Dahl, R. A."
+      ],
+      "year": 1971,
+      "publisher": "Yale University Press",
+      "verified": false
+    },
+    {
+      "key": "schumpeter-1942",
+      "type": "book",
+      "title": "Capitalism, Socialism and Democracy",
+      "authors": [
+        "Schumpeter, J. A."
+      ],
+      "year": 1942,
+      "publisher": "Harper & Brothers",
+      "verified": false
+    },
+    {
+      "key": "vdem",
+      "type": "website",
+      "title": "V-Dem: Varieties of Democracy",
+      "publisher": "V-Dem Institute, University of Gothenburg",
+      "url": "https://v-dem.net/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "freedom-house",
+      "type": "website",
+      "title": "Freedom in the World",
+      "publisher": "Freedom House",
+      "url": "https://freedomhouse.org/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Democracy",
+      "anchor": "#definition",
+      "definition": "A regime in which citizens take part in exercising power, directly or through elected representatives."
+    },
+    {
+      "term": "Polyarchy",
+      "anchor": "#what-counts-as-democracy",
+      "definition": "Dahl's term for a regime high on both public contestation and inclusiveness."
+    },
+    {
+      "term": "Liberal democracy",
+      "anchor": "#liberal-democracy",
+      "definition": "A democracy with free elections, pluralism and constitutional protection of rights and minorities."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are Dahl's two dimensions?",
+      "a": "Public contestation and inclusiveness.",
+      "anchor": "#what-counts-as-democracy",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does a liberal democracy differ from a minimalist one?",
+      "a": "It adds constitutional limits that protect rights and minorities.",
+      "anchor": "#what-counts-as-democracy",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "A country holds elections with universal voting but no real opposition. What type is it in Dahl's scheme?",
+      "a": "Inclusive hegemony.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "comparative-politics"
+  }
+}

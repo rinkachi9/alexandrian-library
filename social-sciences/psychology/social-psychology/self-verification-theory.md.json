@@ -1,0 +1,160 @@
+{
+  "node": {
+    "id": "psychology.self-verification-theory",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "self-concept",
+      "identity",
+      "swann"
+    ],
+    "aliases": [
+      "self-verification",
+      "identity consistency"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "swann-read-1981",
+      "type": "paper",
+      "title": "Self-verification processes: how we sustain our self-conceptions",
+      "authors": [
+        "Swann, W. B.",
+        "Read, S. J."
+      ],
+      "year": 1981,
+      "publisher": "Journal of Experimental Social Psychology, 17(4), 351-372",
+      "url": "https://doi.org/10.1016/0022-1031(81)90043-3",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "swann-1989",
+      "type": "paper",
+      "title": "Agreeable fancy or disagreeable truth? Reconciling self-enhancement and self-verification",
+      "authors": [
+        "Swann, W. B.",
+        "Pelham, B. W.",
+        "Krull, D. S."
+      ],
+      "year": 1989,
+      "publisher": "Journal of Personality and Social Psychology, 57(5), 782-791",
+      "url": "https://doi.org/10.1037/0022-3514.57.5.782",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "swann-1992",
+      "type": "paper",
+      "title": "Why people self-verify",
+      "authors": [
+        "Swann, W. B.",
+        "Stein-Seroussi, A.",
+        "Giesler, R. B."
+      ],
+      "year": 1992,
+      "publisher": "Journal of Personality and Social Psychology, 62(3), 392-401",
+      "url": "https://doi.org/10.1037/0022-3514.62.3.392",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "swann-hixon-1992",
+      "type": "paper",
+      "title": "Embracing the bitter \"truth\": negative self-concepts and marital commitment",
+      "authors": [
+        "Swann, W. B.",
+        "Hixon, J. G.",
+        "De La Ronde, C."
+      ],
+      "year": 1992,
+      "publisher": "Psychological Science, 3(2), 118-121",
+      "url": "https://doi.org/10.1111/j.1467-9280.1992.tb00010.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "swann-2007",
+      "type": "paper",
+      "title": "Do people's self-views matter? Self-concept and self-esteem in everyday life",
+      "authors": [
+        "Swann, W. B.",
+        "Chang-Schneider, C.",
+        "McClarty, K. L."
+      ],
+      "year": 2007,
+      "publisher": "American Psychologist, 62(2), 84-94",
+      "url": "https://doi.org/10.1037/0003-066X.62.2.84",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kwang-swann-2010",
+      "type": "paper",
+      "title": "Do people embrace praise even when they feel unworthy? A review of critical tests of self-enhancement versus self-verification",
+      "authors": [
+        "Kwang, T.",
+        "Swann, W. B."
+      ],
+      "year": 2010,
+      "publisher": "Personality and Social Psychology Review, 14(3), 263-280",
+      "url": "https://doi.org/10.1177/1088868310365876",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Self-verification",
+      "anchor": "#definition",
+      "definition": "The process by which people try to get others to confirm their existing self-concept."
+    },
+    {
+      "term": "Self-concept",
+      "anchor": "#definition",
+      "definition": "The set of beliefs a person holds about their own traits, abilities and roles."
+    },
+    {
+      "term": "Behavioral confirmation",
+      "anchor": "#mechanisms",
+      "definition": "Acting in ways that draw responses that confirm one's self-view."
+    },
+    {
+      "term": "Self-enhancement",
+      "anchor": "#self-verification-and-self-enhancement",
+      "definition": "The wish for favorable evaluation of the self."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What is the motive behind self-verification?",
+      "a": "A need for coherence and predictability: others should see the person as the person sees themselves.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "What did Kwang and Swann (2010) conclude about self-enhancement and self-verification?",
+      "a": "Both motives are influential and control different kinds of responses.",
+      "anchor": "#evidence",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Sam believes they are not leadership material and defers after a promotion. Which mechanism is this?",
+      "a": "Behavioral confirmation, which draws responses that confirm the self-view.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

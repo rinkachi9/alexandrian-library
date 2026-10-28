@@ -154,15 +154,25 @@ Entries without a link are planned topics. They become notes or directories when
     - Cosmology (planned)
 - **social-sciences/**
   - [README.md](social-sciences/README.md): Social sciences - Disciplines that study human behavior, societies and institutions.
-  - **psychology/** (planned)
+  - **psychology/**
     - [README.md](social-sciences/psychology/README.md): Psychology - Mind and behavior.
-    - Intelligence and its theories (planned)
-    - Cognitive psychology (planned)
-    - Developmental psychology (planned)
-    - Personality (planned)
-    - Social psychology (planned)
-    - Clinical psychology (planned)
-    - Behavioral psychology (planned)
+    - **intelligence/**
+      - [README.md](social-sciences/psychology/intelligence/README.md): Intelligence - Theories of what intelligence is and how it is measured.
+      - [multiple-intelligences.md](social-sciences/psychology/intelligence/multiple-intelligences.md): Multiple intelligences - The theory of multiple intelligences, proposed by the psychologist Howard Gardner in 1983, says that human ability is not one general capacity but a set of relatively...
+    - **humanistic-and-positive/**
+      - [README.md](social-sciences/psychology/humanistic-and-positive/README.md): Humanistic and positive psychology - What motivates people and what makes a life go well.
+      - [maslow-hierarchy-of-needs.md](social-sciences/psychology/humanistic-and-positive/maslow-hierarchy-of-needs.md): Maslow's hierarchy of needs - Abraham Maslow proposed in 1943 that human motives fall into five groups: physiological needs, safety, love and belonging, esteem and self-actualization.
+      - [hedonic-and-eudaimonic-well-being.md](social-sciences/psychology/humanistic-and-positive/hedonic-and-eudaimonic-well-being.md): Hedonic and eudaimonic well-being - Psychologists describe two traditions of happiness.
+    - **social-psychology/**
+      - [README.md](social-sciences/psychology/social-psychology/README.md): Social psychology - How people think about themselves and act in the presence of others.
+      - [self-verification-theory.md](social-sciences/psychology/social-psychology/self-verification-theory.md): Self-verification theory - Self-verification theory, developed by the social psychologist William Swann from the early 1980s, says that people want others to see them as they see themselves.
+      - [milgram-obedience-experiments.md](social-sciences/psychology/social-psychology/milgram-obedience-experiments.md): Milgram obedience experiments - In the early 1960s Stanley Milgram asked ordinary adults to give what they believed were increasingly painful electric shocks to another person, on the instruction of...
+      - [social-deduction-games.md](social-sciences/psychology/social-psychology/social-deduction-games.md): Social deduction games - A social deduction game, such as Werewolf (also called Mafia), gives players hidden roles and asks an informed minority to deceive an uninformed majority while the maj...
+    - **clinical-and-counseling/**
+      - [README.md](social-sciences/psychology/clinical-and-counseling/README.md): Clinical and counseling psychology - Theories and methods used to understand and treat psychological difficulties.
+      - [object-relations-theory.md](social-sciences/psychology/clinical-and-counseling/object-relations-theory.md): Object relations theory - Object relations theory is a family of psychoanalytic theories which hold that the human mind is built mainly from relationships, beginning with the infant and its car...
+      - [neuro-linguistic-programming.md](social-sciences/psychology/clinical-and-counseling/neuro-linguistic-programming.md): Neuro-linguistic programming - Neuro-linguistic programming (NLP) is a set of communication and self-change techniques that Richard Bandler and John Grinder started to promote in the 1970s.
+      - [nlp-metaprograms.md](social-sciences/psychology/clinical-and-counseling/nlp-metaprograms.md): NLP metaprograms - In neuro-linguistic programming, a metaprogram is a habitual filter that is said to steer what a person pays attention to, how they decide and what motivates them.
   - **economics/**
     - [README.md](social-sciences/economics/README.md): Economics - How people and societies allocate scarce resources.
     - **microeconomics/**
@@ -178,12 +188,17 @@ Entries without a link are planned topics. They become notes or directories when
     - Social stratification (planned)
     - Culture and norms (planned)
     - Social research methods (planned)
-  - **political-science/** (planned)
+  - **political-science/**
     - [README.md](social-sciences/political-science/README.md): Political science - Power, government and public policy.
-    - Political theory (planned)
-    - Comparative politics (planned)
-    - International relations (planned)
-    - Public policy (planned)
+    - **political-theory/**
+      - [README.md](social-sciences/political-science/political-theory/README.md): Political theory - The ideas, ideologies and arguments about how society should be governed.
+      - [liberalism.md](social-sciences/political-science/political-theory/liberalism.md): Liberalism - Liberalism is a political tradition that puts individual liberty first and asks that state power be limited and justified.
+      - [conservatism.md](social-sciences/political-science/political-theory/conservatism.md): Conservatism - Conservatism is a political tradition that values social order, inherited institutions and gradual change.
+      - [collectivism.md](social-sciences/political-science/political-theory/collectivism.md): Collectivism - Collectivism is the view that the group, and not the individual, is the basic unit of social and political life, and that group goals can outrank individual ones.
+      - [critiques-of-democracy.md](social-sciences/political-science/political-theory/critiques-of-democracy.md): Critiques of democracy - Anti-democratic thought is the position that democracy is a poor or inferior way to govern.
+    - **comparative-politics/**
+      - [README.md](social-sciences/political-science/comparative-politics/README.md): Comparative politics - How political regimes and institutions work and how they differ between countries.
+      - [democracy.md](social-sciences/political-science/comparative-politics/democracy.md): Democracy - Democracy is a form of government in which citizens take part in exercising power, directly or through elected representatives.
   - **law/**
     - [README.md](social-sciences/law/README.md): Law - Legal systems, rules and their application.
     - **company-law/**
@@ -465,6 +480,7 @@ Entries without a link are planned topics. They become notes or directories when
       - [chronobiology.md](applied-sciences/medicine-and-health/physiology/chronobiology.md): Chronobiology - Chronobiology studies the natural cycles of living things and how they are tuned to the cycles of the sun and the moon.
       - [metabolic-age.md](applied-sciences/medicine-and-health/physiology/metabolic-age.md): Metabolic age - Metabolic age is a number shown by many bioimpedance scales and fitness apps.
       - [detoxification.md](applied-sciences/medicine-and-health/physiology/detoxification.md): Detoxification - Detoxification is the body's continuous process of neutralizing, transforming and removing toxins and metabolic waste.
+      - [hyperresponders.md](applied-sciences/medicine-and-health/physiology/hyperresponders.md): Hyperresponders and response variability - People given the same diet, drug or training program do not respond the same way.
     - **exercise-and-fitness/**
       - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/README.md): Exercise and fitness - This field applies anatomy and physiology to training: how movement works mechanically, which variables define a training program, how programs are planned and periodi...
       - **biomechanics/**
@@ -1090,6 +1106,8 @@ Entries without a link are planned topics. They become notes or directories when
     - [price-charts-candlestick-anatomy.svg](_assets/applied-sciences/price-charts-candlestick-anatomy.svg): Diagram of the parts of a bullish and a bearish candlestick.
   - **personal-development/**
     - [career-riasec-hexagon.svg](_assets/personal-development/career-riasec-hexagon.svg): File.
+  - **social-sciences/**
+    - [maslow-hierarchy-of-needs-pyramid.svg](_assets/social-sciences/maslow-hierarchy-of-needs-pyramid.svg): Diagram of the five levels of Maslow's hierarchy of needs.
 - **_sources/**
   - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): File.
   - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): File.

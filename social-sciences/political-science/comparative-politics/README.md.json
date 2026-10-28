@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.political-science.comparative-politics",
+    "kind": "index",
+    "status": "draft",
+    "order": 2
+  },
+  "links": [],
+  "map": {
+    "group": "comparative-politics"
+  }
+}

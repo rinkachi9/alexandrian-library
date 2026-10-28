@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Maslow's hierarchy of needs as a five-level pyramid</title>
+  <desc id="d">A pyramid of five levels. From the bottom: physiological needs, safety, love and belonging, esteem, self-actualization. An arrow on the left says that a higher need becomes prominent as the lower ones are reasonably met.</desc>
+  <rect width="640" height="400" fill="#fbfaf7"/>
+  <polygon points="320,30 408,110 232,110" fill="#c8553d" stroke="#fbfaf7" stroke-width="3"/>
+  <polygon points="232,110 408,110 456,170 184,170" fill="#d98a3d" stroke="#fbfaf7" stroke-width="3"/>
+  <polygon points="184,170 456,170 504,230 136,230" fill="#c9b03a" stroke="#fbfaf7" stroke-width="3"/>
+  <polygon points="136,230 504,230 552,290 88,290" fill="#7a9e3a" stroke="#fbfaf7" stroke-width="3"/>
+  <polygon points="88,290 552,290 600,350 40,350" fill="#2a6f97" stroke="#fbfaf7" stroke-width="3"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">
+    <text x="320" y="96" font-size="12">Self-actualization</text>
+    <text x="320" y="146">Esteem</text>
+    <text x="320" y="206" fill="#1f1f1f">Love and belonging</text>
+    <text x="320" y="266">Safety</text>
+    <text x="320" y="326">Physiological needs</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">
+    <text x="320" y="378">Common drawing: Maslow (1943) described five categories, the pyramid was added later</text>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+{
+  "node": {
+    "id": "psychology.maslow-hierarchy-of-needs",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "motivation",
+      "needs",
+      "humanistic"
+    ],
+    "aliases": [
+      "Maslow's pyramid",
+      "hierarchy of needs"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "maslow-1943",
+      "type": "paper",
+      "title": "A theory of human motivation",
+      "authors": [
+        "Maslow, A. H."
+      ],
+      "year": 1943,
+      "publisher": "Psychological Review, 50(4), 370-396",
+      "url": "https://doi.org/10.1037/h0054346",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bridgman-2019",
+      "type": "paper",
+      "title": "Who built Maslow's pyramid? A history of the creation of management studies' most famous symbol and its implications for management education",
+      "authors": [
+        "Bridgman, T.",
+        "Cummings, S.",
+        "Ballard, J."
+      ],
+      "year": 2019,
+      "publisher": "Academy of Management Learning & Education, 18(1), 81-98",
+      "url": "https://doi.org/10.5465/amle.2017.0351",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "koltko-rivera-2006",
+      "type": "paper",
+      "title": "Rediscovering the later version of Maslow's hierarchy of needs: self-transcendence and opportunities for theory, research, and unification",
+      "authors": [
+        "Koltko-Rivera, M. E."
+      ],
+      "year": 2006,
+      "publisher": "Review of General Psychology, 10(4), 302-317",
+      "url": "https://doi.org/10.1037/1089-2680.10.4.302",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "tay-diener-2011",
+      "type": "paper",
+      "title": "Needs and subjective well-being around the world",
+      "authors": [
+        "Tay, L.",
+        "Diener, E."
+      ],
+      "year": 2011,
+      "publisher": "Journal of Personality and Social Psychology, 101(2), 354-365",
+      "url": "https://doi.org/10.1037/a0023779",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "wahba-bridwell-1976",
+      "type": "paper",
+      "title": "Maslow reconsidered: a review of research on the need hierarchy theory",
+      "authors": [
+        "Wahba, M. A.",
+        "Bridwell, L. G."
+      ],
+      "year": 1976,
+      "publisher": "Organizational Behavior and Human Performance, 15(2), 212-240",
+      "url": "https://doi.org/10.1016/0030-5073(76)90038-6",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hierarchy of needs",
+      "anchor": "#definition",
+      "definition": "Maslow's grouping of human needs into five levels ordered by urgency."
+    },
+    {
+      "term": "Prepotency",
+      "anchor": "#how-the-hierarchy-is-meant-to-work",
+      "definition": "The most urgent unmet need dominates behavior until it is reasonably satisfied."
+    },
+    {
+      "term": "Self-actualization",
+      "anchor": "#the-five-levels",
+      "definition": "The need to realize one's potential, at the top of the five levels."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the five levels?",
+      "a": "Physiological, safety, love and belonging, esteem and self-actualization.",
+      "anchor": "#the-five-levels",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Who drew the pyramid?",
+      "a": "Later authors in management literature, not Maslow's 1943 paper.",
+      "anchor": "#the-five-levels",
+      "origin": "author"
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "A worker loses a job when rent is due. Which need dominates, and why do others remain active?",
+      "a": "Safety dominates, but belonging and esteem are still active, so needs do not wait their turn.",
+      "anchor": "#evidence",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "humanistic-and-positive"
+  }
+}

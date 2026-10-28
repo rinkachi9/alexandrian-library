@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.political-science.political-theory",
+    "kind": "index",
+    "status": "draft",
+    "order": 1
+  },
+  "links": [],
+  "map": {
+    "group": "political-theory"
+  }
+}

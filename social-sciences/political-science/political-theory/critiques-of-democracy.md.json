@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "politics.critiques-of-democracy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "democracy",
+      "epistocracy",
+      "theory"
+    ],
+    "aliases": [
+      "anti-democratism",
+      "antidemocratism",
+      "epistocracy"
+    ]
+  },
+  "links": [
+    {
+      "to": "politics.democracy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "politics.liberalism",
+      "rel": "related",
+      "note": "Liberals feared majority power"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sep-democracy",
+      "type": "website",
+      "title": "Democracy",
+      "authors": [
+        "Christiano, T.",
+        "Bajaj, S."
+      ],
+      "year": 2024,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/democracy/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "plato-republic",
+      "type": "book",
+      "title": "Republic",
+      "authors": [
+        "Plato"
+      ],
+      "publisher": "Many editions; written about 375 BCE",
+      "verified": false
+    },
+    {
+      "key": "schumpeter-1942",
+      "type": "book",
+      "title": "Capitalism, Socialism and Democracy",
+      "authors": [
+        "Schumpeter, J. A."
+      ],
+      "year": 1942,
+      "publisher": "Harper & Brothers",
+      "verified": false
+    },
+    {
+      "key": "brennan-2016",
+      "type": "book",
+      "title": "Against Democracy",
+      "authors": [
+        "Brennan, J."
+      ],
+      "year": 2016,
+      "publisher": "Princeton University Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Epistocracy",
+      "anchor": "#main-arguments",
+      "definition": "Rule by the knowledgeable, for example by weighting votes by political knowledge."
+    },
+    {
+      "term": "Condorcet jury theorem",
+      "anchor": "#the-epistemic-reply",
+      "definition": "If voters are independent and each more likely right than wrong, a larger majority is more likely right."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between an instrumental and an intrinsic argument against democracy?",
+      "a": "Instrumental arguments say democracy gives worse results than an alternative, intrinsic ones that it lacks a value it claims.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does the jury theorem also support the critics?",
+      "a": "If voters are more likely wrong than right, a larger group is more likely to be wrong.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "political-theory"
+  }
+}

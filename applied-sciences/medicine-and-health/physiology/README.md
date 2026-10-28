@@ -36,6 +36,7 @@ mindmap
     Chronobiology
     Metabolic age
     Detoxification
+    Hyperresponders
 ```
 
 ## Reading order
@@ -49,6 +50,7 @@ mindmap
 7. [Chronobiology](chronobiology.md): circadian rhythms and the body clock.
 8. [Metabolic age](metabolic-age.md): what the "metabolic age" number on scales means.
 9. [Detoxification](detoxification.md): how the liver and kidneys remove toxins.
+10. [Hyperresponders](hyperresponders.md): why people respond differently to the same diet, drug or training, and how to tell real differences from noise.
 
 ## Scope and evidence
 

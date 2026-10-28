@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.psychology.social-psychology",
+    "kind": "index",
+    "status": "draft",
+    "order": 3
+  },
+  "links": [],
+  "map": {
+    "group": "social-psychology"
+  }
+}

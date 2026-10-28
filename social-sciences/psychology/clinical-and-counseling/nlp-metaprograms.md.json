@@ -1,0 +1,166 @@
+{
+  "node": {
+    "id": "psychology.nlp-metaprograms",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nlp",
+      "communication",
+      "typology"
+    ],
+    "aliases": [
+      "metaprograms",
+      "information filters"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.neuro-linguistic-programming",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "charvet-1997",
+      "type": "book",
+      "title": "Words That Change Minds: Mastering the Language of Influence (2nd ed.)",
+      "authors": [
+        "Charvet, S. R."
+      ],
+      "year": 1997,
+      "publisher": "Kendall Hunt",
+      "verified": false
+    },
+    {
+      "key": "higgins-1997",
+      "type": "paper",
+      "title": "Beyond pleasure and pain",
+      "authors": [
+        "Higgins, E. T."
+      ],
+      "year": 1997,
+      "publisher": "American Psychologist, 52(12), 1280-1300",
+      "url": "https://doi.org/10.1037/0003-066X.52.12.1280",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cesario-2008",
+      "type": "paper",
+      "title": "Regulatory fit and persuasion: basic principles and remaining questions",
+      "authors": [
+        "Cesario, J.",
+        "Higgins, E. T.",
+        "Scholer, A. A."
+      ],
+      "year": 2008,
+      "publisher": "Social and Personality Psychology Compass, 2(1), 444-463",
+      "url": "https://doi.org/10.1111/j.1751-9004.2007.00055.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "rotter-1966",
+      "type": "paper",
+      "title": "Generalized expectancies for internal versus external control of reinforcement",
+      "authors": [
+        "Rotter, J. B."
+      ],
+      "year": 1966,
+      "publisher": "Psychological Monographs, 80(1), 1-28",
+      "url": "https://doi.org/10.1037/h0092976",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "navon-1977",
+      "type": "paper",
+      "title": "Forest before trees: the precedence of global features in visual perception",
+      "authors": [
+        "Navon, D."
+      ],
+      "year": 1977,
+      "publisher": "Cognitive Psychology, 9(3), 353-383",
+      "url": "https://doi.org/10.1016/0010-0285(77)90012-3",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sharpley-1987",
+      "type": "paper",
+      "title": "Research findings on neurolinguistic programming: nonsupportive data or an untestable theory?",
+      "authors": [
+        "Sharpley, C. F."
+      ],
+      "year": 1987,
+      "publisher": "Journal of Counseling Psychology, 34(1), 103-107",
+      "url": "https://doi.org/10.1037/0022-0167.34.1.103",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "witkowski-2010",
+      "type": "paper",
+      "title": "Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration?",
+      "authors": [
+        "Witkowski, T."
+      ],
+      "year": 2010,
+      "publisher": "Polish Psychological Bulletin, 41(2)",
+      "url": "https://doi.org/10.2478/v10059-010-0008-0",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "pashler-2008",
+      "type": "paper",
+      "title": "Learning styles: concepts and evidence",
+      "authors": [
+        "Pashler, H.",
+        "McDaniel, M.",
+        "Rohrer, D.",
+        "Bjork, R."
+      ],
+      "year": 2008,
+      "publisher": "Psychological Science in the Public Interest, 9(3), 105-119",
+      "url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Metaprogram",
+      "anchor": "#definition",
+      "definition": "In NLP, a habitual filter that guides what a person attends to and how they decide, in a given context."
+    },
+    {
+      "term": "Regulatory fit",
+      "anchor": "#evidence",
+      "definition": "The finding that messages framed to fit a person's promotion or prevention focus persuade better."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which researched construct is closest to toward and away from motivation?",
+      "a": "Promotion and prevention focus (regulatory focus theory).",
+      "anchor": "#the-common-dimensions",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is it better to ask a person what matters to them than to infer their metaprogram?",
+      "a": "Inference from words is unreliable and the typology is unvalidated, while a question gives the information at once.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}
