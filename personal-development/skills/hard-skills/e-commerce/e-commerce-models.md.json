@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "skills.e-commerce-models",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "e-commerce",
+      "business-models"
+    ],
+    "aliases": [
+      "electronic commerce",
+      "B2B",
+      "B2C"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "census-ecommerce-2026q2",
+      "type": "report",
+      "authors": [
+        "U.S. Census Bureau"
+      ],
+      "year": 2026,
+      "title": "Quarterly Retail E-Commerce Sales, 2nd Quarter 2026",
+      "url": "https://www.census.gov/retail/ecommerce.html",
+      "verified": false
+    },
+    {
+      "key": "osterwalder-2010",
+      "type": "book",
+      "authors": [
+        "Osterwalder, A.",
+        "Pigneur, Y."
+      ],
+      "year": 2010,
+      "title": "Business Model Generation",
+      "publisher": "Wiley"
+    },
+    {
+      "key": "teece-2010",
+      "type": "paper",
+      "authors": [
+        "Teece, D. J."
+      ],
+      "year": 2010,
+      "title": "Business models, business strategy and innovation",
+      "url": "https://doi.org/10.1016/j.lrp.2009.07.003",
+      "verified": false
+    },
+    {
+      "key": "eu-2016-679",
+      "type": "standard",
+      "authors": [
+        "European Parliament and Council of the European Union"
+      ],
+      "year": 2016,
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "E-commerce",
+      "anchor": "#definition",
+      "definition": "Any commercial transaction in which the order is placed over the internet."
+    },
+    {
+      "term": "Transaction model",
+      "anchor": "#business-model-and-transaction-model",
+      "definition": "A classification of e-commerce by the parties on each side of a sale."
+    },
+    {
+      "term": "Business model",
+      "anchor": "#business-model-and-transaction-model",
+      "definition": "How a company creates value for customers and captures part of it as revenue."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Classify: a freelancer selling translations to a company through a platform.",
+      "a": "C2B, consumer (individual) to business.",
+      "anchor": "#transaction-models",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What share of US retail sales was e-commerce in the second quarter of 2026?",
+      "a": "About 17.1%, seasonally adjusted, according to the US Census Bureau.",
+      "anchor": "#size-of-the-market",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

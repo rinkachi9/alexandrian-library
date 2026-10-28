@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "skills.content-marketing-strategy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "strategy"
+    ],
+    "aliases": [
+      "content strategy",
+      "editorial strategy"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.seven-a-framework",
+      "rel": "extends"
+    },
+    {
+      "to": "skills.ab-testing",
+      "rel": "related",
+      "note": "Measuring and testing content"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cmi-definition",
+      "type": "website",
+      "authors": [
+        "Content Marketing Institute"
+      ],
+      "title": "What is content marketing?",
+      "url": "https://contentmarketinginstitute.com/what-is-content-marketing/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content marketing strategy",
+      "anchor": "#definition",
+      "definition": "The set of decisions that connects content to a business goal: audience, problem, form, channels, cadence and metrics."
+    },
+    {
+      "term": "Vanity metric",
+      "anchor": "#metrics-by-stage",
+      "definition": "A number that grows without saying anything about the goal."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A program aims to generate demo requests. Which metric is primary, and which is a vanity metric?",
+      "a": "Demo requests attributed to content are primary; total page views are a vanity metric for this goal.",
+      "anchor": "#metrics-by-stage",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is a strategy described as a hypothesis?",
+      "a": "Because it is a bet about what the audience needs and what will work, which must be tested against results and revised.",
+      "anchor": "#the-strategy-as-a-hypothesis",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

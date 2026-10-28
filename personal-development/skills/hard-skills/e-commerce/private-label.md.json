@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "skills.private-label",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "e-commerce",
+      "private-label",
+      "branding",
+      "manufacturing"
+    ],
+    "aliases": [
+      "white label",
+      "own brand"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.dropshipping",
+      "rel": "contrasts"
+    },
+    {
+      "to": "skills.product-validation",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "eu-2023-988",
+      "type": "standard",
+      "authors": [
+        "European Parliament and Council of the European Union"
+      ],
+      "year": 2023,
+      "title": "Regulation (EU) 2023/988 on general product safety",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ftc-mail-order-rule",
+      "type": "standard",
+      "authors": [
+        "U.S. Federal Trade Commission"
+      ],
+      "title": "Mail, Internet, or Telephone Order Merchandise Rule (16 CFR Part 435)",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "eu-2011-83",
+      "type": "standard",
+      "authors": [
+        "European Parliament and Council of the European Union"
+      ],
+      "year": 2011,
+      "title": "Directive 2011/83/EU on consumer rights",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Private label",
+      "anchor": "#definition",
+      "definition": "A product manufactured by a third party and sold under the retailer's own brand."
+    },
+    {
+      "term": "Minimum order quantity",
+      "anchor": "#definition",
+      "definition": "The smallest number of units a factory accepts per order."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare the upfront cost and risk of private label and dropshipping.",
+      "a": "Private label needs design, samples and a minimum order in advance, so cost and risk are higher; dropshipping buys nothing before a sale.",
+      "anchor": "#private-label-compared-with-dropshipping",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What makes a pre-sale test of a private label product honest?",
+      "a": "Labeling it clearly as a pre-order with a realistic delivery date and offering a delay or refund choice if the date slips.",
+      "anchor": "#testing-with-ads",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

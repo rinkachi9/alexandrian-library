@@ -1,6 +1,6 @@
 # Skills
 
-Abilities that can be learned and practiced. Skills cut across many domains, so a skill note links to the note that explains the underlying knowledge instead of repeating it. This field belongs to [Personal development](../README.md) and is planned. It has no notes yet.
+Abilities that can be learned and practiced. Skills cut across many domains, so a skill note links to the note that explains the underlying knowledge instead of repeating it. This field belongs to [Personal development](../README.md). Hard skills have notes. Soft skills and the general topics below are planned.
 
 ## Subfields
 
@@ -12,6 +12,6 @@ Abilities that can be learned and practiced. Skills cut across many domains, so 
 - Learning a skill
 - Deliberate practice
 
-## Notes
+## Navigation
 
-TODO: list notes here in recommended reading order, with one line per note.
+- Back to [Personal development](../README.md).

@@ -28,7 +28,7 @@
       "_sources/Investing-20261027092545.html": "Export: stocks, futures, CFDs and options. Target: applied-sciences/finance-and-investing.",
       "_sources/Knowledge-20261027091417.html": "Export: psychology and multiple intelligences. Target: social-sciences/psychology.",
       "_sources/Self-development-20261027091445.html": "Export: self-improvement, habits and goals. Target: personal-development/personal-growth.",
-      "_sources/Skills-20261027091622.html": "Export: copywriting, social media, client acquisition and e-commerce. Target: personal-development/skills (the LinkedIn part already feeds career/job-search/professional-profile.md)."
+      "_sources/Skills-20261027091622.html": "Export: copywriting, content marketing, SEO, e-commerce, web search and LinkedIn. Migrated into personal-development/skills/hard-skills (the LinkedIn part into career/job-search/professional-profile.md)."
     }
   },
   "rules": { "requireSidecars": true, "noLongDashes": true }

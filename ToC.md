@@ -270,22 +270,40 @@ Entries without a link are planned topics. They become notes or directories when
     - Emotional intelligence (planned)
     - Mindfulness (planned)
     - Stress management (planned)
-  - **skills/** (planned)
+  - **skills/**
     - [README.md](personal-development/skills/README.md): Skills - Abilities that can be learned and practiced.
     - **soft-skills/** (planned)
       - [README.md](personal-development/skills/soft-skills/README.md): Soft skills - Transferable skills that apply in most roles.
       - Cognitive: critical thinking, problem solving, learning to learn (planned)
       - Interpersonal: communication, teamwork, leadership, negotiation (planned)
       - Intrapersonal: time management, self-regulation, adaptability (planned)
-    - **hard-skills/** (planned)
+    - **hard-skills/**
       - [README.md](personal-development/skills/hard-skills/README.md): Hard skills - Skills tied to a specific task, tool or profession, and usually testable.
-      - Copywriting (planned)
-      - Social media (planned)
-      - Client acquisition (planned)
-      - Data analysis (planned)
-      - Programming (planned)
-    - Learning a skill (planned)
-    - Deliberate practice (planned)
+      - **content-marketing/**
+        - [README.md](personal-development/skills/hard-skills/content-marketing/README.md): Content marketing - Creating and distributing useful content so that a defined audience pays attention and takes action.
+        - [content-marketing.md](personal-development/skills/hard-skills/content-marketing/content-marketing.md): Content marketing - Content marketing is the practice of creating and distributing useful text, images, audio or video so that a defined audience pays attention to a company and, over tim...
+        - [seven-a-framework.md](personal-development/skills/hard-skills/content-marketing/seven-a-framework.md): 7A framework - The 7A framework is a checklist of seven qualities for content marketing, attributed to Brian Clark, the founder of Copyblogger: agile, authentic, attention, audience,...
+        - [headlines.md](personal-development/skills/hard-skills/content-marketing/headlines.md): Headlines - A headline has one job: to make the right reader stop and start reading.
+        - [capturing-attention.md](personal-development/skills/hard-skills/content-marketing/capturing-attention.md): Capturing attention - Beyond the headline, attention depends on what the reader sees and feels in the first seconds: images, page design, speed and signs that other people trust the content.
+        - [content-marketing-strategy.md](personal-development/skills/hard-skills/content-marketing/content-marketing-strategy.md): Content marketing strategy - A content marketing strategy is a short written plan that answers five questions: what business goal the content serves, for which audience, with which kind of content...
+      - **copywriting/**
+        - [README.md](personal-development/skills/hard-skills/copywriting/README.md): Copywriting - Writing that makes a specific reader take a specific action, the principles of persuasion behind it, and how to test whether it works.
+        - [copywriting.md](personal-development/skills/hard-skills/copywriting/copywriting.md): Copywriting - Copywriting is writing whose purpose is to make a specific reader take a specific action, such as buying, signing up or calling.
+        - [persuasion-principles.md](personal-development/skills/hard-skills/copywriting/persuasion-principles.md): Persuasion principles - Persuasion principles are regularities in how people respond to requests and offers: they follow what others do (social proof), value what seems scarce, are influenced...
+        - [calls-to-action-and-risk-reversal.md](personal-development/skills/hard-skills/copywriting/calls-to-action-and-risk-reversal.md): Calls to action and risk reversal - A call to action (CTA) is the instruction that tells the reader exactly what to do next, such as "Start your free trial".
+        - [ab-testing.md](personal-development/skills/hard-skills/copywriting/ab-testing.md): A/B testing - An A/B test, or online controlled experiment, randomly splits visitors between two versions of a page, email or ad and compares a chosen metric, such as the share of v...
+      - **search-engine-optimization/**
+        - [README.md](personal-development/skills/hard-skills/search-engine-optimization/README.md): Search engine optimization - Making pages easy for search engines to find, understand and rank, so that people reach them without paid ads.
+        - [seo-fundamentals.md](personal-development/skills/hard-skills/search-engine-optimization/seo-fundamentals.md): SEO fundamentals - Search engine optimization (SEO) is the work of making pages easy for a search engine to find, understand and rank for the queries that matter to you, so that people r...
+        - [e-commerce-seo.md](personal-development/skills/hard-skills/search-engine-optimization/e-commerce-seo.md): E-commerce SEO - E-commerce SEO applies search engine optimization to online shops, whose most valuable pages are category pages and product pages.
+      - **e-commerce/**
+        - [README.md](personal-development/skills/hard-skills/e-commerce/README.md): E-commerce - Selling goods and services online: transaction models, choosing and validating products, and the two main ways of sourcing them, dropshipping and private label.
+        - [e-commerce-models.md](personal-development/skills/hard-skills/e-commerce/e-commerce-models.md): E-commerce models - E-commerce (electronic commerce) is buying and selling goods or services over the internet, including the transfer of money and data that completes the transaction.
+        - [product-selection.md](personal-development/skills/hard-skills/e-commerce/product-selection.md): Product selection - Product selection is the decision of what to sell.
+        - [product-validation.md](personal-development/skills/hard-skills/e-commerce/product-validation.md): Product validation - Product validation is collecting evidence that people will actually pay for a product before investing heavily in making or stocking it.
+        - [dropshipping.md](personal-development/skills/hard-skills/e-commerce/dropshipping.md): Dropshipping - Dropshipping is a retail model in which the seller advertises and sells products without holding stock: when a customer orders, the seller passes the order to a suppli...
+        - [private-label.md](personal-development/skills/hard-skills/e-commerce/private-label.md): Private label - A private label product is made by a manufacturer but sold under your own brand, with your own design, logo and packaging.
+      - [web-search-techniques.md](personal-development/skills/hard-skills/web-search-techniques.md): Web search techniques - Web search techniques are ways to make a search engine return exactly what you need, and to judge whether what it returns is trustworthy.
   - **career/**
     - [README.md](personal-development/career/README.md): Career - This field covers how people choose, find, build and change their work.
     - **foundations/**
@@ -326,4 +344,4 @@ Entries without a link are planned topics. They become notes or directories when
   - [Investing-20261027092545.html](_sources/Investing-20261027092545.html): Export: stocks, futures, CFDs and options. Target: applied-sciences/finance-and-investing.
   - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): Export: psychology and multiple intelligences. Target: social-sciences/psychology.
   - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): Export: self-improvement, habits and goals. Target: personal-development/personal-growth.
-  - [Skills-20261027091622.html](_sources/Skills-20261027091622.html): Export: copywriting, social media, client acquisition and e-commerce. Target: personal-development/skills (the LinkedIn part already feeds career/job-search/professional-profile.md).
+  - [Skills-20261027091622.html](_sources/Skills-20261027091622.html): Export: copywriting, content marketing, SEO, e-commerce, web search and LinkedIn. Migrated into personal-development/skills/hard-skills (the LinkedIn part into career/job-search/professional-profile.md).

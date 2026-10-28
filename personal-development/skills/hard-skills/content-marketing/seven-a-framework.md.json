@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "skills.seven-a-framework",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "framework"
+    ],
+    "aliases": [
+      "7A framework",
+      "seven A's"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing",
+      "rel": "extends"
+    },
+    {
+      "to": "career.networking",
+      "rel": "related",
+      "note": "Acceleration depends on a wide network"
+    }
+  ],
+  "sources": [
+    {
+      "key": "clark-7a",
+      "type": "book",
+      "authors": [
+        "Clark, B."
+      ],
+      "title": "The 7 A Framework for Effective Content Marketing",
+      "publisher": "Rainmaker Digital"
+    },
+    {
+      "key": "ucdavis-content-marketing",
+      "type": "course",
+      "authors": [
+        "University of California, Davis"
+      ],
+      "title": "Content Marketing",
+      "publisher": "Coursera",
+      "url": "https://www.coursera.org/learn/content-marketing",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content home base",
+      "anchor": "#attention",
+      "definition": "A site on your own domain where you bring the audience that first finds you on platforms you do not control."
+    },
+    {
+      "term": "Acceleration",
+      "anchor": "#acceleration",
+      "definition": "Unplanned opportunities such as partnerships that content creates."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "List the seven A's of the framework.",
+      "a": "Agile, authentic, attention, audience, authority, action, acceleration.",
+      "anchor": "#core-concepts",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does authenticity mean in the 7A framework, and what does it not mean?",
+      "a": "It means a genuine voice consistent with your values, not oversharing personal details.",
+      "anchor": "#authentic",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

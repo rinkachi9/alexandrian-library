@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "skills.ab-testing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "marketing",
+      "experimentation",
+      "statistics"
+    ],
+    "aliases": [
+      "split testing",
+      "online controlled experiment"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "kohavi-2020",
+      "type": "book",
+      "authors": [
+        "Kohavi, R.",
+        "Tang, D.",
+        "Xu, Y."
+      ],
+      "year": 2020,
+      "title": "Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing",
+      "publisher": "Cambridge University Press",
+      "url": "https://doi.org/10.1017/9781108653985",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fabijan-2019",
+      "type": "paper",
+      "authors": [
+        "Fabijan, A."
+      ],
+      "year": 2019,
+      "title": "Diagnosing sample ratio mismatch in online controlled experiments",
+      "url": "https://doi.org/10.1145/3292500.3330722",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "A/B test",
+      "anchor": "#definition",
+      "definition": "A randomized controlled experiment comparing a control and a changed version on a predefined metric."
+    },
+    {
+      "term": "Sample ratio mismatch",
+      "anchor": "#mechanism",
+      "definition": "A difference between the planned and the observed split of traffic, which signals a broken test."
+    },
+    {
+      "term": "Peeking",
+      "anchor": "#peeking",
+      "definition": "Checking results repeatedly and stopping when they look significant, which inflates false positives."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "With a 3% baseline conversion rate, about how many visitors per group are needed to detect a 10% relative lift?",
+      "a": "About 52,000 per group, using n = 16 x p(1 - p) / delta squared with delta = 0.003.",
+      "anchor": "#sample-size",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does randomization make the comparison fair?",
+      "a": "It spreads differences such as season, traffic source and user type evenly between groups on average, so the remaining difference can be attributed to the change.",
+      "anchor": "#the-problem-it-solves",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

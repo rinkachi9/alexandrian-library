@@ -1,0 +1,168 @@
+{
+  "node": {
+    "id": "skills.seo-fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "marketing",
+      "seo",
+      "search"
+    ],
+    "aliases": [
+      "SEO",
+      "search engine optimization"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-seo-starter",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "SEO Starter Guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "verified": false
+    },
+    {
+      "key": "google-how-search-works",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "In-depth guide to how Google Search works",
+      "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "verified": false
+    },
+    {
+      "key": "google-spam-policies",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Spam policies for Google web search",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "verified": false
+    },
+    {
+      "key": "google-helpful-content",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Creating helpful, reliable, people-first content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "verified": false
+    },
+    {
+      "key": "webdev-inp-2024",
+      "type": "website",
+      "authors": [
+        "web.dev"
+      ],
+      "year": 2024,
+      "title": "Interaction to Next Paint becomes a Core Web Vital on March 12",
+      "url": "https://web.dev/blog/inp-cwv-march-12",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brin-page-1998",
+      "type": "paper",
+      "authors": [
+        "Brin, S.",
+        "Page, L."
+      ],
+      "year": 1998,
+      "title": "The anatomy of a large-scale hypertextual Web search engine",
+      "url": "https://doi.org/10.1016/S0169-7552(98)00110-X",
+      "verified": false
+    },
+    {
+      "key": "seroundtable-lsi-2019",
+      "type": "website",
+      "authors": [
+        "Schwartz, B."
+      ],
+      "year": 2019,
+      "title": "Google: There is no such thing as LSI keywords",
+      "url": "https://www.seroundtable.com/google-lsi-keywords-27970.html",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "pew-2025",
+      "type": "report",
+      "authors": [
+        "Pew Research Center"
+      ],
+      "year": 2025,
+      "title": "Google users are less likely to click on links when an AI summary appears in the results",
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Crawling",
+      "anchor": "#how-a-search-engine-works",
+      "definition": "Discovering and downloading pages by following links and sitemaps."
+    },
+    {
+      "term": "Canonical URL",
+      "anchor": "#indexing-control",
+      "definition": "The URL that a site marks as the main version among duplicates."
+    },
+    {
+      "term": "Search intent",
+      "anchor": "#keyword-research",
+      "definition": "The goal behind a query: to learn, compare, buy or reach a specific site."
+    },
+    {
+      "term": "Core Web Vitals",
+      "anchor": "#technical-seo",
+      "definition": "Google's page experience metrics: LCP, INP and CLS."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do noindex and a robots.txt disallow rule differ?",
+      "a": "Robots.txt stops crawling but a blocked URL can still be indexed; noindex stops a crawled page from appearing in results, so the page must not be blocked.",
+      "anchor": "#indexing-control",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which metric replaced First Input Delay as a Core Web Vital, and when?",
+      "a": "Interaction to Next Paint (INP), on 12 March 2024.",
+      "anchor": "#technical-seo",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why is 'LSI keywords' a misleading name?",
+      "a": "Latent semantic indexing is a 1980s retrieval method that Google says it does not use; the useful idea is to cover related terms that describe the topic.",
+      "anchor": "#related-terms-and-the-lsi-myth",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

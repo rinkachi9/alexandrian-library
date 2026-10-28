@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "skills.e-commerce-seo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "marketing",
+      "seo",
+      "e-commerce"
+    ],
+    "aliases": [
+      "ecommerce SEO",
+      "store SEO"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.seo-fundamentals",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.e-commerce-models",
+      "rel": "applies"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-faceted-navigation",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Managing crawling of faceted navigation URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation",
+      "verified": false
+    },
+    {
+      "key": "google-product-structured-data",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Product structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+      "verified": false
+    },
+    {
+      "key": "google-canonical",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Consolidate duplicate URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "verified": false
+    },
+    {
+      "key": "schema-product",
+      "type": "documentation",
+      "authors": [
+        "schema.org"
+      ],
+      "title": "Product",
+      "url": "https://schema.org/Product",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Faceted navigation",
+      "anchor": "#duplicate-urls-and-faceted-navigation",
+      "definition": "Filters on a category page whose combinations can each create a separate URL."
+    },
+    {
+      "term": "Structured data",
+      "anchor": "#structured-data",
+      "definition": "Machine readable information added to a page, usually in JSON-LD with the schema.org vocabulary."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is copying the manufacturer's product description bad for SEO?",
+      "a": "Many shops publish the same text, so it is duplicate content and gives the search engine no reason to prefer your page.",
+      "anchor": "#product-pages",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What should happen to the URL of a permanently discontinued product?",
+      "a": "Redirect it with a 301 to the closest replacement or category, or return 404 or 410 if nothing fits; avoid redirecting everything to the home page.",
+      "anchor": "#product-variants-and-out-of-stock-items",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

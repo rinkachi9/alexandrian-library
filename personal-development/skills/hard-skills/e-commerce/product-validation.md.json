@@ -1,0 +1,135 @@
+{
+  "node": {
+    "id": "skills.product-validation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "e-commerce",
+      "product",
+      "validation",
+      "customer-research"
+    ],
+    "aliases": [
+      "demand testing",
+      "idea validation"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.product-selection",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.ab-testing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "morwitz-2007",
+      "type": "paper",
+      "authors": [
+        "Morwitz, V. G.",
+        "Steckel, J. H.",
+        "Gupta, A."
+      ],
+      "year": 2007,
+      "title": "When do purchase intentions predict sales?",
+      "url": "https://doi.org/10.1016/j.ijforecast.2007.05.015",
+      "verified": false
+    },
+    {
+      "key": "sheeran-2002",
+      "type": "paper",
+      "authors": [
+        "Sheeran, P."
+      ],
+      "year": 2002,
+      "title": "Intention-behavior relations: A conceptual and empirical review",
+      "url": "https://doi.org/10.1080/14792772143000003",
+      "verified": false
+    },
+    {
+      "key": "fitzpatrick-2013",
+      "type": "book",
+      "authors": [
+        "Fitzpatrick, R."
+      ],
+      "year": 2013,
+      "title": "The Mom Test"
+    },
+    {
+      "key": "ries-2011",
+      "type": "book",
+      "authors": [
+        "Ries, E."
+      ],
+      "year": 2011,
+      "title": "The Lean Startup",
+      "publisher": "Crown Business"
+    },
+    {
+      "key": "google-trends-faq",
+      "type": "documentation",
+      "authors": [
+        "Google"
+      ],
+      "title": "FAQ about Google Trends data",
+      "url": "https://support.google.com/trends/answer/4365533",
+      "verified": false
+    },
+    {
+      "key": "ftc-mail-order-rule",
+      "type": "standard",
+      "authors": [
+        "U.S. Federal Trade Commission"
+      ],
+      "title": "Mail, Internet, or Telephone Order Merchandise Rule (16 CFR Part 435)",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Minimum viable product",
+      "anchor": "#definition",
+      "definition": "The smallest version of a product that lets you learn whether the assumptions behind it hold."
+    },
+    {
+      "term": "Intention-behavior gap",
+      "anchor": "#why-stated-intent-is-weak-evidence",
+      "definition": "The difference between what people say they will do and what they do."
+    },
+    {
+      "term": "Conversion rate",
+      "anchor": "#analytics-and-metrics",
+      "definition": "The share of visitors who take the desired action."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are pre-orders stronger evidence than landing page sign-ups?",
+      "a": "Because they require payment, a real commitment, while a sign-up costs only an email address.",
+      "anchor": "#methods-ordered-by-strength-of-evidence",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Rewrite 'Would you buy a smart water bottle?' as a question about past behavior.",
+      "a": "For example: 'Tell me about the last time you tried to drink more water. What did you use?'",
+      "anchor": "#customer-interviews",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}
