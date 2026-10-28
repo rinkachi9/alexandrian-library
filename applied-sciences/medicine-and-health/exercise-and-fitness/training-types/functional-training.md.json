@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "exercise.training-types.functional-training",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "functional fitness",
+      "movement-based training"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.axes-and-planes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.core",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "acsm-2009",
+      "type": "paper",
+      "authors": [
+        "American College of Sports Medicine"
+      ],
+      "year": 2009,
+      "title": "Progression models in resistance training for healthy adults",
+      "url": "https://doi.org/10.1249/MSS.0b013e3181915670",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Functional training",
+      "anchor": "#definition",
+      "definition": "Training organized around movement patterns that transfer to daily life or sport."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is \"functional\" person-specific?",
+      "a": "Transfer depends on the tasks a person needs to perform.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

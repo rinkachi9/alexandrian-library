@@ -1,0 +1,91 @@
+{
+  "node": {
+    "id": "business.metrics.customer-lifetime-value",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "metrics",
+      "unit-economics"
+    ],
+    "aliases": [
+      "LTV",
+      "CLV",
+      "CLTV",
+      "lifetime value"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.churn-rate",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.arpa",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.cac-payback-period",
+      "rel": "related"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-metrics",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gupta-2006",
+      "type": "paper",
+      "authors": [
+        "Gupta, S.",
+        "Hanssens, D.",
+        "Hardie, B."
+      ],
+      "year": 2006,
+      "title": "Modeling customer lifetime value",
+      "url": "https://doi.org/10.1177/1094670506293810",
+      "verified": false
+    },
+    {
+      "key": "fader-2009",
+      "type": "paper",
+      "authors": [
+        "Fader, P. S.",
+        "Hardie, B. G. S."
+      ],
+      "year": 2009,
+      "title": "Probability models for customer-base analysis",
+      "url": "https://doi.org/10.1016/j.intmar.2008.11.003",
+      "verified": false
+    },
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Customer lifetime value",
+      "anchor": "#definition",
+      "definition": "The projected revenue or margin from a customer over the whole relationship."
+    },
+    {
+      "term": "Margin LTV",
+      "anchor": "#definition",
+      "definition": "ARPA times gross margin divided by churn rate."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

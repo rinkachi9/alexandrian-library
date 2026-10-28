@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "exercise.intensification.constant-tension",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 15,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "continuous tension"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-types.occlusion-training",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tanimoto-2006",
+      "type": "paper",
+      "authors": [
+        "Tanimoto, M.",
+        "Ishii, N."
+      ],
+      "year": 2006,
+      "title": "Effects of low-intensity resistance exercise with slow movement and tonic force generation on muscular function in young men",
+      "url": "https://doi.org/10.1152/japplphysiol.00741.2005",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Constant tension",
+      "anchor": "#definition",
+      "definition": "Keeping the muscle loaded throughout a set without rest positions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is locking out at the top of a leg press a rest?",
+      "a": "The skeleton carries the load and the muscle relaxes briefly.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

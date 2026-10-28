@@ -1,0 +1,188 @@
+{
+  "node": {
+    "id": "skills.skill-acquisition",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "skills",
+      "learning",
+      "expertise",
+      "feedback"
+    ],
+    "aliases": [
+      "learning a skill",
+      "stages of learning"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.what-is-a-skill",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.feedback-and-promotion",
+      "rel": "related",
+      "note": "Feedback at work"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fitts-1967",
+      "type": "book",
+      "authors": [
+        "Fitts, P. M.",
+        "Posner, M. I."
+      ],
+      "year": 1967,
+      "title": "Human Performance"
+    },
+    {
+      "key": "anderson-1982",
+      "type": "paper",
+      "authors": [
+        "Anderson, J. R."
+      ],
+      "year": 1982,
+      "title": "Acquisition of cognitive skill",
+      "url": "https://doi.org/10.1037/0033-295X.89.4.369",
+      "verified": false
+    },
+    {
+      "key": "dreyfus-1986",
+      "type": "book",
+      "authors": [
+        "Dreyfus, H. L.",
+        "Dreyfus, S. E."
+      ],
+      "year": 1986,
+      "title": "Mind over Machine"
+    },
+    {
+      "key": "newell-1981",
+      "type": "book",
+      "authors": [
+        "Newell, A.",
+        "Rosenbloom, P. S."
+      ],
+      "year": 1981,
+      "title": "Mechanisms of skill acquisition and the law of practice",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "heathcote-2000",
+      "type": "paper",
+      "authors": [
+        "Heathcote, A.",
+        "Brown, S.",
+        "Mewhort, D. J. K."
+      ],
+      "year": 2000,
+      "title": "The power law repealed: The case for an exponential law of practice",
+      "url": "https://doi.org/10.3758/BF03212979",
+      "verified": false
+    },
+    {
+      "key": "kluger-1996",
+      "type": "paper",
+      "authors": [
+        "Kluger, A. N.",
+        "DeNisi, A."
+      ],
+      "year": 1996,
+      "title": "The effects of feedback interventions on performance",
+      "url": "https://doi.org/10.1037/0033-2909.119.2.254",
+      "verified": false
+    },
+    {
+      "key": "ericsson-2006",
+      "type": "book",
+      "authors": [
+        "Ericsson, K. A."
+      ],
+      "year": 2006,
+      "title": "The influence of experience and deliberate practice on the development of superior expert performance",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "choudhry-2005",
+      "type": "paper",
+      "authors": [
+        "Choudhry, N. K.",
+        "Fletcher, R. H.",
+        "Soumerai, S. B."
+      ],
+      "year": 2005,
+      "title": "Systematic review: The relationship between clinical experience and quality of health care",
+      "url": "https://doi.org/10.7326/0003-4819-142-4-200502150-00008",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "benner-1984",
+      "type": "book",
+      "authors": [
+        "Benner, P."
+      ],
+      "year": 1984,
+      "title": "From Novice to Expert"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Performance versus learning",
+      "anchor": "#definition",
+      "definition": "Performance is how well you do during practice; learning is the lasting change that shows later."
+    },
+    {
+      "term": "Proceduralization",
+      "anchor": "#proceduralization-in-act-theory",
+      "definition": "The conversion of declarative instructions into condition-action rules applied directly."
+    },
+    {
+      "term": "Arrested development",
+      "anchor": "#arrested-development",
+      "definition": "The halt of improvement when a skill becomes automatic and is no longer practiced with attention."
+    },
+    {
+      "term": "Knowledge of performance",
+      "anchor": "#feedback",
+      "definition": "Feedback about the process of an action rather than its outcome."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does improvement slow down with practice?",
+      "a": "Early practice removes large, easy errors; later gains need harder, more specific practice, so learning curves flatten.",
+      "anchor": "#the-learning-curve",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "A learner follows a checklist perfectly after two weeks. What should change next?",
+      "a": "Practice without the checklist and use it only to review, moving from the cognitive to the associative stage.",
+      "anchor": "#the-three-stages-of-fitts-and-posner",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What are the five stages of the Dreyfus model?",
+      "a": "Novice, advanced beginner, competent, proficient, expert.",
+      "anchor": "#the-dreyfus-model",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skills"
+  }
+}

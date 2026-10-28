@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "biochemistry.glycogen-metabolism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 12,
+    "tags": [
+      "biochemistry",
+      "carbohydrates",
+      "energy-storage"
+    ],
+    "aliases": [
+      "glycogenesis",
+      "glycogenolysis"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.glycolysis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "carbohydrates.carbohydrates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.gluconeogenesis",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glycogen",
+      "anchor": "#definition",
+      "definition": "A branched polymer of glucose that stores carbohydrate in the liver and muscles."
+    },
+    {
+      "term": "Glycogenolysis",
+      "anchor": "#mechanism",
+      "definition": "Breakdown of glycogen to glucose-1-phosphate by glycogen phosphorylase."
+    },
+    {
+      "term": "Glucose-6-phosphatase",
+      "anchor": "#mechanism",
+      "definition": "The liver enzyme that frees glucose for release into the blood."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A runner eats no carbohydrate in a marathon and slows sharply at 30 km. What happened?",
+      "a": "Muscle and liver glycogen ran low, so the runner had to rely more on slower fat oxidation.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How much glycogen does the liver typically store?",
+      "a": "About 80 to 100 g in an adult.",
+      "anchor": "#stores",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

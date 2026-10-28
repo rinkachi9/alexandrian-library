@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.copywriting",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "marketing",
+      "copywriting"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills.hard-skills.content-marketing",
+      "rel": "related",
+      "note": "Copy and content work together"
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

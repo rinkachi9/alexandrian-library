@@ -1,0 +1,113 @@
+{
+  "node": {
+    "id": "skills.social-media.platforms-and-algorithms",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "social-media",
+      "algorithms",
+      "recommendation-systems"
+    ],
+    "aliases": [
+      "feed algorithm",
+      "recommender system",
+      "For You feed"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "meta-transparency-center",
+      "type": "documentation",
+      "authors": [
+        "Meta Transparency Center"
+      ],
+      "title": "Our approach to ranking and system cards",
+      "url": "https://transparency.meta.com/features/explaining-ranking/",
+      "verified": false
+    },
+    {
+      "key": "tiktok",
+      "type": "website",
+      "authors": [
+        "TikTok"
+      ],
+      "title": "How TikTok recommends videos #ForYou",
+      "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
+      "verified": false
+    },
+    {
+      "key": "youtube",
+      "type": "documentation",
+      "authors": [
+        "YouTube"
+      ],
+      "title": "How YouTube works: recommendations",
+      "url": "https://www.youtube.com/howyoutubeworks/product-features/recommendations/",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2022",
+      "type": "standard",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Articles 27 and 38",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Recommendation algorithm",
+      "anchor": "#definition",
+      "definition": "Models that select and rank content for each user's feed."
+    },
+    {
+      "term": "Interest graph",
+      "anchor": "#what-this-means-for-content",
+      "definition": "Recommending content by predicted interest rather than by who the user follows."
+    },
+    {
+      "term": "Engagement bait",
+      "anchor": "#what-this-means-for-content",
+      "definition": "Posts that ask for likes or shares manipulatively, which platforms say they demote."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the four stages of a typical recommendation system.",
+      "a": "Candidate generation, ranking, filtering and integrity, diversity and freshness adjustments.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why do the first seconds of a video matter so much?",
+      "a": "If people scroll past at once, the system gives the post little further distribution.",
+      "anchor": "#what-this-means-for-content",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What do Articles 27 and 38 of the Digital Services Act require?",
+      "a": "Platforms must explain the main parameters of recommender systems, and very large platforms must offer an option not based on profiling.",
+      "anchor": "#transparency-and-choice-under-eu-law",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

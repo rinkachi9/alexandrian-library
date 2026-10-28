@@ -1,0 +1,144 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.e-commerce-seo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "seo",
+      "e-commerce",
+      "structured-data"
+    ],
+    "aliases": [
+      "ecommerce SEO",
+      "faceted navigation",
+      "product structured data"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.search-engine-optimization.technical-seo",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.search-engine-optimization.on-page-seo",
+      "rel": "applies",
+      "note": "On-page SEO applied to category and product pages"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-platforms",
+      "rel": "related",
+      "note": "Platform features and limits"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Managing crawling of faceted navigation URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "google-search-central-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Product structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "google-search-central-3",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Consolidate duplicate URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "verified": false
+    },
+    {
+      "key": "schema-org",
+      "type": "website",
+      "authors": [
+        "schema.org"
+      ],
+      "title": "Product",
+      "url": "https://schema.org/Product",
+      "verified": false
+    },
+    {
+      "key": "shopify-seo",
+      "type": "documentation",
+      "authors": [
+        "Shopify"
+      ],
+      "year": 2026,
+      "title": "Search engine optimization overview",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Faceted navigation",
+      "anchor": "#duplicate-urls-and-faceted-navigation",
+      "definition": "Filters on a category page whose combinations can each create a separate URL."
+    },
+    {
+      "term": "Duplicate content",
+      "anchor": "#product-pages",
+      "definition": "The same text on many pages or sites, such as manufacturer descriptions copied by many shops."
+    },
+    {
+      "term": "Product structured data",
+      "anchor": "#structured-data",
+      "definition": "schema.org Product and Offer markup with price and availability."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is copying the manufacturer's product description bad for SEO?",
+      "a": "Many shops publish the same text, so search engines have no reason to prefer your page.",
+      "anchor": "#product-pages",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What should happen to the URL of a permanently discontinued product?",
+      "a": "Redirect it with a 301 to the closest replacement or category, or return 404 or 410 if nothing fits.",
+      "anchor": "#product-variants-and-out-of-stock-items",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Which filter pages should be indexable?",
+      "a": "Only a few that match real searches with demand, each with its own title and introduction.",
+      "anchor": "#duplicate-urls-and-faceted-navigation",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

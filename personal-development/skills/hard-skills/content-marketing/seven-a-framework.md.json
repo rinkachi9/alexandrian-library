@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "skills.content-marketing.seven-a-framework",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "framework"
+    ],
+    "aliases": [
+      "7A framework",
+      "seven A's",
+      "Brian Clark"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "career.networking",
+      "rel": "related",
+      "note": "Acceleration depends on a wide network"
+    }
+  ],
+  "sources": [
+    {
+      "key": "clark",
+      "type": "book",
+      "authors": [
+        "Clark, B."
+      ],
+      "title": "The 7 A Framework for Effective Content Marketing"
+    },
+    {
+      "key": "university-of-california",
+      "type": "course",
+      "authors": [
+        "University of California, Davis"
+      ],
+      "title": "Content Marketing (online course on Coursera)",
+      "url": "https://www.coursera.org/learn/content-marketing",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content home base",
+      "anchor": "#attention",
+      "definition": "A site on your own domain where you bring the audience first found on platforms you do not control."
+    },
+    {
+      "term": "Acceleration",
+      "anchor": "#acceleration",
+      "definition": "Unplanned opportunities such as partnerships that content creates."
+    },
+    {
+      "term": "Authority",
+      "anchor": "#authority",
+      "definition": "Being seen as a credible, relatable expert by teaching useful things."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "List the seven A's of the framework.",
+      "a": "Agile, authentic, attention, audience, authority, action, acceleration.",
+      "anchor": "#core-concepts",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does authenticity mean in the 7A framework, and what does it not mean?",
+      "a": "A genuine voice consistent with your values; it does not mean oversharing personal details.",
+      "anchor": "#authentic",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why is the 7A framework not a strategy?",
+      "a": "It does not choose an audience, budget or metrics; it is a checklist of qualities.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

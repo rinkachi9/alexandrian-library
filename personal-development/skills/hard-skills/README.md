@@ -1,15 +1,65 @@
 # Hard skills
 
-Skills tied to a specific task, tool or profession, and usually testable. This field belongs to [Skills](../README.md) and is planned. It has no notes yet.
+Skills tied to a specific task, tool, method or profession, whose results can be checked against a clear standard. This subfield belongs to [Skills](../README.md). It opens with a general note that applies to any hard skill (from welding and accounting to programming and marketing), followed by one directory per skill. The written skills cover marketing, sales and online research. Other hard skills are planned.
+
+## General note
+
+1. [Hard skills fundamentals](hard-skills-fundamentals.md): definition, categories of hard skills, how they are learned and assessed, depth and breadth, obsolescence and how to choose which to learn.
+
+## Skills
+
+Each skill has its own directory with a README, a fundamentals note and deeper notes in reading order.
+
+| Skill | What it covers | Notes |
+| --- | --- | --- |
+| [Copywriting](copywriting/README.md) | Persuasive writing that leads a reader to act | 8 |
+| [Content marketing](content-marketing/README.md) | Useful content that earns attention and builds an audience | 9 |
+| [Search engine optimization](search-engine-optimization/README.md) | Being found in search engines | 8 |
+| [E-commerce](e-commerce/README.md) | Running an online store, from product to delivery | 12 |
+| [Social media](social-media/README.md) | Organic and paid presence on social platforms | 8 |
+| [Client acquisition](client-acquisition/README.md) | Finding and winning clients for services and B2B | 8 |
+| [Personal branding](personal-branding/README.md) | Being known for something, by the right people | 5 |
+| [Online research](online-research/README.md) | Finding and verifying information online | 6 |
+
+## Map of the subfield
+
+The map groups the eight skills by the job they do. Online research supports all of them.
+
+```mermaid
+mindmap
+  root((Hard skills))
+    Writing and content
+      Copywriting
+      Content marketing
+    Being found
+      Search engine optimization
+      Social media
+    Selling
+      E-commerce
+      Client acquisition
+    Reputation
+      Personal branding
+    Information
+      Online research
+```
+
+## Suggested paths
+
+- **Freelancer or consultant:** [personal branding](personal-branding/README.md), [client acquisition](client-acquisition/README.md), [copywriting](copywriting/README.md), then [content marketing](content-marketing/README.md) or [social media](social-media/README.md).
+- **Online shop owner:** [e-commerce](e-commerce/README.md), [copywriting](copywriting/README.md), [search engine optimization](search-engine-optimization/README.md), then [social media](social-media/README.md) and [content marketing](content-marketing/README.md).
+- **Marketer:** [copywriting](copywriting/README.md), [content marketing](content-marketing/README.md), [search engine optimization](search-engine-optimization/README.md), [social media](social-media/README.md).
+- **Everyone:** [online research](online-research/README.md) supports every other skill.
 
 ## Planned topics
 
-- Copywriting
-- Social media
-- Client acquisition
 - Data analysis
 - Programming
+- Foreign languages
+- Graphic design
+- Project management
 
-## Notes
+LinkedIn profile advice is in [professional profile](../../career/job-search/professional-profile.md) in the career field, and the platform side in [LinkedIn for professionals](social-media/linkedin-for-professionals.md).
 
-TODO: list notes here in recommended reading order, with one line per note.
+## Navigation
+
+- Back to [Skills](../README.md).

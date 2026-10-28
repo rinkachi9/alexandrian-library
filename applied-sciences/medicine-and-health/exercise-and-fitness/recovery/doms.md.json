@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "exercise.recovery.doms",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "exercise",
+      "recovery"
+    ],
+    "aliases": [
+      "DOMS",
+      "muscle soreness",
+      "muscle hangover"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.recovery.recovery",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "herbert-2011",
+      "type": "paper",
+      "authors": [
+        "Herbert, R. D.",
+        "de Noronha, M.",
+        "Kamper, S. J."
+      ],
+      "year": 2011,
+      "title": "Stretching to prevent or reduce muscle soreness after exercise",
+      "url": "https://doi.org/10.1002/14651858.CD004577.pub3",
+      "verified": false
+    },
+    {
+      "key": "cheung-2003",
+      "type": "paper",
+      "authors": [
+        "Cheung, K.",
+        "Hume, P.",
+        "Maxwell, L."
+      ],
+      "year": 2003,
+      "title": "Delayed onset muscle soreness: treatment strategies and performance factors",
+      "url": "https://doi.org/10.2165/00007256-200333020-00005",
+      "verified": false
+    },
+    {
+      "key": "dupuy-2018",
+      "type": "paper",
+      "authors": [
+        "Dupuy, O.",
+        "Douzi, W.",
+        "Theurot, D.",
+        "Bosquet, L.",
+        "Dugué, B."
+      ],
+      "year": 2018,
+      "title": "An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.3389/fphys.2018.00403",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "DOMS",
+      "anchor": "#definition",
+      "definition": "Delayed muscle pain after unaccustomed or eccentric exercise."
+    },
+    {
+      "term": "Repeated bout effect",
+      "anchor": "#mechanism",
+      "definition": "Reduced soreness after repeating the same exercise."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does soreness decrease when the same workout is repeated?",
+      "a": "The repeated bout effect: muscles adapt and distribute load better across fibers.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "recovery"
+  }
+}

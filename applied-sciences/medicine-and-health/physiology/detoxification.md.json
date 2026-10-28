@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "physiology.detoxification",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "physiology",
+      "liver",
+      "kidneys",
+      "detox"
+    ],
+    "aliases": [
+      "detox",
+      "cleansing",
+      "biotransformation",
+      "liver detoxification"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.enzymes-and-coenzymes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.n-acetylcysteine",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.supplements.glutathione",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.algae.spirulina",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.algae.chlorella",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bailey-1998",
+      "type": "paper",
+      "authors": [
+        "Bailey, D. G.",
+        "Malcolm, J.",
+        "Arnold, O.",
+        "Spence, J. D."
+      ],
+      "year": 1998,
+      "title": "Grapefruit juice-drug interactions",
+      "url": "https://doi.org/10.1046/j.1365-2125.1998.00764.x",
+      "verified": false
+    },
+    {
+      "key": "klein-2015",
+      "type": "paper",
+      "authors": [
+        "Klein, A. V.",
+        "Kiat, H."
+      ],
+      "year": 2015,
+      "title": "Clinical efficacy of popular commercial \"detox\" diets: a systematic review",
+      "url": "https://doi.org/10.1111/jhn.12286",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phase I and phase II detoxification",
+      "anchor": "#mechanism",
+      "definition": "Liver transformation of toxins by enzymes such as cytochrome P450, followed by conjugation for excretion."
+    },
+    {
+      "term": "Cytochrome P450",
+      "anchor": "#mechanism",
+      "definition": "A family of liver and gut enzymes that metabolize drugs and toxins."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do commercial detox diets add little?",
+      "a": "The liver, kidneys and gut already remove toxins, and trials have not shown that detox products remove more.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiology"
+  }
+}

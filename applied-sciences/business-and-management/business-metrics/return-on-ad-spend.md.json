@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "business.metrics.return-on-ad-spend",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "metrics",
+      "advertising"
+    ],
+    "aliases": [
+      "ROAS",
+      "break-even ROAS"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.return-on-investment",
+      "rel": "contrasts"
+    },
+    {
+      "to": "skills.social-media.paid-social-advertising",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kohavi-2020",
+      "type": "book",
+      "authors": [
+        "Kohavi, R.",
+        "Tang, D.",
+        "Xu, Y."
+      ],
+      "year": 2020,
+      "title": "Trustworthy Online Controlled Experiments",
+      "url": "https://doi.org/10.1017/9781108653985",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Return on ad spend",
+      "anchor": "#definition",
+      "definition": "Revenue attributed to advertising divided by ad spend."
+    },
+    {
+      "term": "Break-even ROAS",
+      "anchor": "#definition",
+      "definition": "One divided by gross margin: the ROAS at which ads cover their own cost."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

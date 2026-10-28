@@ -1,0 +1,130 @@
+{
+  "node": {
+    "id": "skills.copywriting.customer-research",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "marketing",
+      "copywriting",
+      "customer-research"
+    ],
+    "aliases": [
+      "voice of customer",
+      "review mining",
+      "jobs to be done"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.product-validation",
+      "rel": "related",
+      "note": "Interviews and evidence from customers"
+    },
+    {
+      "to": "skills.client-acquisition.ideal-customer-profile",
+      "rel": "related",
+      "note": "The same research defines the ideal client"
+    }
+  ],
+  "sources": [
+    {
+      "key": "christensen-2016",
+      "type": "paper",
+      "authors": [
+        "Christensen, C. M.",
+        "Hall, T.",
+        "Dillon, K.",
+        "Duncan, D. S."
+      ],
+      "year": 2016,
+      "title": "Know your customers' \"jobs to be done\"",
+      "url": "https://hbr.org/2016/09/know-your-customers-jobs-to-be-done",
+      "verified": false
+    },
+    {
+      "key": "schwartz-1966",
+      "type": "book",
+      "authors": [
+        "Schwartz, E. M."
+      ],
+      "year": 1966,
+      "title": "Breakthrough Advertising"
+    },
+    {
+      "key": "fitzpatrick-2013",
+      "type": "book",
+      "authors": [
+        "Fitzpatrick, R."
+      ],
+      "year": 2013,
+      "title": "The Mom Test"
+    },
+    {
+      "key": "regulation-eu-2016",
+      "type": "standard",
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Voice of customer",
+      "anchor": "#definition",
+      "definition": "The collected phrases customers use to describe their situation, problems and goals."
+    },
+    {
+      "term": "Review mining",
+      "anchor": "#review-mining",
+      "definition": "A structured reading of reviews to extract recurring themes and exact phrases."
+    },
+    {
+      "term": "Jobs to be done",
+      "anchor": "#jobs-to-be-done",
+      "definition": "The progress a customer is trying to make in a particular circumstance, for which they hire a product."
+    },
+    {
+      "term": "Awareness levels",
+      "anchor": "#awareness-levels",
+      "definition": "Schwartz's five stages from unaware to most aware, which decide where copy should start."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are three-star reviews especially useful for copywriters?",
+      "a": "They often explain both what the buyer wanted and what disappointed them.",
+      "anchor": "#review-mining",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Where should copy start for a solution-aware reader?",
+      "a": "With what a good solution must do, showing why this solution meets that standard.",
+      "anchor": "#awareness-levels",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What seven items does a message map contain?",
+      "a": "Reader, job, main promise, proof points, top objections with answers, key phrases, awareness stage and opening.",
+      "anchor": "#from-research-to-copy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

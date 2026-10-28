@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "peptides.selank",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "tuftsin analog",
+      "anxiolytic peptide"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "peptides.semax",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fda-bulk-2023",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2023,
+      "title": "Certain bulk drug substances for use in compounding that may present significant safety risks",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Tuftsin",
+      "anchor": "#definition",
+      "definition": "A natural tetrapeptide from immunoglobulin G that stimulates immune cells."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

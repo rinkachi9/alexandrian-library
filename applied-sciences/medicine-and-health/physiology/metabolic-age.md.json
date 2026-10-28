@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "physiology.metabolic-age",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "physiology",
+      "metabolism",
+      "body-composition"
+    ],
+    "aliases": [
+      "metabolic age",
+      "BMR age"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.foundations.healthy-aging-diet",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "pontzer-2021",
+      "type": "paper",
+      "authors": [
+        "Pontzer, H.",
+        "Yamada, Y.",
+        "Sagayama, H."
+      ],
+      "year": 2021,
+      "title": "Daily energy expenditure through the human life course",
+      "url": "https://doi.org/10.1126/science.abe5017",
+      "verified": false
+    },
+    {
+      "key": "who-2020-pa",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2020,
+      "title": "WHO guidelines on physical activity and sedentary behaviour"
+    },
+    {
+      "key": "hursel-2011",
+      "type": "paper",
+      "authors": [
+        "Hursel, R.",
+        "Viechtbauer, W.",
+        "Dulloo, A. G."
+      ],
+      "year": 2011,
+      "title": "The effects of catechin rich teas and caffeine on energy expenditure and fat oxidation: a meta-analysis",
+      "url": "https://doi.org/10.1111/j.1467-789X.2011.00866.x",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Metabolic age",
+      "anchor": "#definition",
+      "definition": "A device estimate comparing basal metabolic rate with age averages."
+    },
+    {
+      "term": "Basal metabolic rate",
+      "anchor": "#definition",
+      "definition": "Energy used at complete rest to maintain vital functions."
+    },
+    {
+      "term": "Thermic effect of food",
+      "anchor": "#what-lowers-metabolic-age-evidence-by-area",
+      "definition": "Energy used to digest and process food, highest for protein."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is waist circumference more informative than metabolic age?",
+      "a": "It reflects visceral fat, which is directly linked to metabolic risk, while metabolic age is a device-specific estimate of BMR.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiology"
+  }
+}

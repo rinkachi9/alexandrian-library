@@ -1,0 +1,120 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.sales-conversations",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "sales",
+      "communication",
+      "discovery"
+    ],
+    "aliases": [
+      "discovery call",
+      "SPIN selling",
+      "consultative selling"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.client-acquisition.lead-generation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.coaching-techniques-for-career",
+      "rel": "related",
+      "note": "Questioning and listening techniques"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rackham-1988",
+      "type": "book",
+      "authors": [
+        "Rackham, N."
+      ],
+      "year": 1988,
+      "title": "SPIN Selling"
+    },
+    {
+      "key": "dixon-2011",
+      "type": "book",
+      "authors": [
+        "Dixon, M.",
+        "Adamson, B."
+      ],
+      "year": 2011,
+      "title": "The Challenger Sale"
+    },
+    {
+      "key": "fisher-2011",
+      "type": "book",
+      "authors": [
+        "Fisher, R.",
+        "Ury, W.",
+        "Patton, B."
+      ],
+      "year": 2011,
+      "title": "Getting to Yes"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Discovery call",
+      "anchor": "#definition",
+      "definition": "An early sales conversation focused on understanding the buyer's needs before proposing."
+    },
+    {
+      "term": "Implication question",
+      "anchor": "#spin-questions",
+      "definition": "A question that explores the consequences of a problem."
+    },
+    {
+      "term": "Need-payoff question",
+      "anchor": "#spin-questions",
+      "definition": "A question that lets the buyer state the value of solving the problem."
+    },
+    {
+      "term": "Active listening",
+      "anchor": "#active-listening",
+      "definition": "Full attention, follow-up questions and checking understanding."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are need-payoff questions persuasive?",
+      "a": "The buyer describes the benefit in their own words, which is more convincing than the seller saying it.",
+      "anchor": "#spin-questions",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What are the six parts of a discovery call?",
+      "a": "Opening, situation and context, problems and goals, implications and priorities, decision process, fit and next step.",
+      "anchor": "#structure-of-a-discovery-call",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why should the Huthwaite research be treated with some caution?",
+      "a": "It was collected and analyzed by a commercial training company and predates modern online buying.",
+      "anchor": "#research-behind-consultative-selling",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

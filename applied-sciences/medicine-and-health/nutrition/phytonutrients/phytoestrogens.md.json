@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "phytonutrients.phytoestrogens",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "isoflavones",
+      "genistein",
+      "daidzein",
+      "soy"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "phytonutrients.lignans",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "messina-2016",
+      "type": "paper",
+      "authors": [
+        "Messina, M."
+      ],
+      "year": 2016,
+      "title": "Soy and health update: evaluation of the clinical and epidemiologic literature",
+      "url": "https://doi.org/10.3390/nu8120754",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phytoestrogen",
+      "anchor": "#definition",
+      "definition": "A plant compound that binds estrogen receptors weakly."
+    },
+    {
+      "term": "Isoflavone",
+      "anchor": "#definition",
+      "definition": "A phytoestrogen found mainly in soy."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

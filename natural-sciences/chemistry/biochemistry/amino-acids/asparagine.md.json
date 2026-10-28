@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "amino-acids.asparagine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 22,
+    "tags": [
+      "amino-acids",
+      "non-essential",
+      "food-chemistry"
+    ],
+    "aliases": [
+      "L-asparagine",
+      "Asn",
+      "N"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.aspartic-acid",
+      "rel": "related"
+    },
+    {
+      "to": "food-additives.acrylamide",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Maillard reaction",
+      "anchor": "#mechanism",
+      "definition": "Reactions between amino acids and reducing sugars at high heat that cause browning and flavor."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Give two kitchen measures that lower acrylamide in fries.",
+      "a": "Soak the cut potatoes, fry to golden rather than dark brown (also avoid storing potatoes in the fridge).",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

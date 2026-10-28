@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "complementary-medicine.papaya-seeds",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "Carica papaya",
+      "carpaine"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "okeniyi-2007",
+      "type": "paper",
+      "authors": [
+        "Okeniyi, J. A. O.",
+        "Ogunlesi, T. A.",
+        "Oyelami, O. A.",
+        "Adeyemi, L. A."
+      ],
+      "year": 2007,
+      "title": "Effectiveness of dried Carica papaya seeds against human intestinal parasitosis: a pilot study",
+      "url": "https://doi.org/10.1089/jmf.2005.065",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Carpaine",
+      "anchor": "#definition",
+      "definition": "An alkaloid of papaya leaves and seeds."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

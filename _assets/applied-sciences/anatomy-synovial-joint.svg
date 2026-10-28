@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">Structure of a synovial joint</title>
+  <desc id="d">Schematic section through a synovial joint. Two bone ends are covered by articular cartilage and separated by a joint cavity filled with synovial fluid. The synovial membrane lines the inside of the fibrous joint capsule, and ligaments reinforce the capsule from outside.</desc>
+  <rect width="520" height="380" rx="14" fill="#fbfaf7" stroke="#d8d3c8"/>
+  <path d="M190 20 L330 20 L330 140 Q260 175 190 140 Z" fill="#efe6d2" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M190 360 L330 360 L330 230 Q260 200 190 230 Z" fill="#efe6d2" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M190 140 Q260 175 330 140 L330 152 Q260 188 190 152 Z" fill="#9fc5e8" stroke="#4f7fa8" stroke-width="1.5"/>
+  <path d="M190 230 Q260 200 330 230 L330 218 Q260 188 190 218 Z" fill="#9fc5e8" stroke="#4f7fa8" stroke-width="1.5"/>
+  <path d="M180 120 Q160 185 180 250 L340 250 Q360 185 340 120 Z" fill="none" stroke="#c76b6b" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M172 112 Q148 185 172 258" fill="none" stroke="#5c5c5c" stroke-width="5"/>
+  <path d="M348 112 Q372 185 348 258" fill="none" stroke="#5c5c5c" stroke-width="5"/>
+  <path d="M162 105 Q132 185 162 265" fill="none" stroke="#2f7d5b" stroke-width="7"/>
+  <ellipse cx="260" cy="186" rx="52" ry="10" fill="#d7ecf7"/>
+  <g font-size="12" fill="#1f2933">
+    <text x="345" y="60">Bone</text>
+    <text x="345" y="330">Bone</text>
+    <text x="355" y="145">Articular cartilage</text>
+    <text x="210" y="190">Synovial fluid</text>
+    <text x="380" y="200">Fibrous capsule</text>
+    <text x="380" y="235" fill="#c76b6b">Synovial membrane</text>
+    <text x="20" y="185" fill="#2f7d5b">Ligament</text>
+    <text x="20" y="200" fill="#2f7d5b">outside capsule</text>
+  </g>
+  <line x1="352" y1="141" x2="320" y2="146" stroke="#4f7fa8"/>
+  <line x1="378" y1="196" x2="352" y2="196" stroke="#5c5c5c"/>
+  <line x1="378" y1="231" x2="345" y2="231" stroke="#c76b6b"/>
+  <line x1="120" y1="190" x2="146" y2="190" stroke="#2f7d5b"/>
+</svg>

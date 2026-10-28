@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "anatomy.muscles.middle-scalene",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 14,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "head-and-neck",
+      "deep",
+      "scalenes",
+      "breathing"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.regions.neck",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.anterior-scalene",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "head-neck-muscles"
+  }
+}

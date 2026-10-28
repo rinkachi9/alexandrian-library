@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "natural-sciences.chemistry.biochemistry.lipids",
+    "kind": "index",
+    "status": "draft",
+    "order": 16,
+    "tags": [
+      "biochemistry",
+      "lipids"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "lipids"
+  }
+}

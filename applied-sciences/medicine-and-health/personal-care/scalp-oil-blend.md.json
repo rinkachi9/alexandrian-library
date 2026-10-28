@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "personal-care.scalp-oil-blend",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "personal-care"
+    ],
+    "aliases": [
+      "hair oil",
+      "scalp oil",
+      "castor oil",
+      "argan oil",
+      "jojoba oil"
+    ]
+  },
+  "links": [
+    {
+      "to": "essential-oils.rosemary",
+      "rel": "related"
+    },
+    {
+      "to": "essential-oils.tea-tree",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rele-2003",
+      "type": "paper",
+      "authors": [
+        "Rele, A. S.",
+        "Mohile, R. B."
+      ],
+      "year": 2003,
+      "title": "Effect of mineral oil, sunflower oil, and coconut oil on prevention of hair damage"
+    },
+    {
+      "key": "satchell-2002",
+      "type": "paper",
+      "authors": [
+        "Satchell, A. C.",
+        "Saurajen, A.",
+        "Bell, C.",
+        "Barnetson, R. S."
+      ],
+      "year": 2002,
+      "title": "Treatment of dandruff with 5% tea tree oil shampoo",
+      "url": "https://doi.org/10.1067/mjd.2002.122734",
+      "verified": false
+    },
+    {
+      "key": "panahi-2015",
+      "type": "paper",
+      "authors": [
+        "Panahi, Y.",
+        "Taghizadeh, M.",
+        "Marzony, E. T.",
+        "Sahebkar, A."
+      ],
+      "year": 2015,
+      "title": "Rosemary oil vs minoxidil 2% for the treatment of androgenetic alopecia: a randomized comparative trial"
+    },
+    {
+      "key": "oh-2014",
+      "type": "paper",
+      "authors": [
+        "Oh, J. Y.",
+        "Park, M. A.",
+        "Kim, Y. C."
+      ],
+      "year": 2014,
+      "title": "Peppermint oil promotes hair growth without toxic signs",
+      "url": "https://doi.org/10.5487/TR.2014.30.4.297",
+      "verified": false
+    },
+    {
+      "key": "lee-2016",
+      "type": "paper",
+      "authors": [
+        "Lee, B. H.",
+        "Lee, J. S.",
+        "Kim, Y. C."
+      ],
+      "year": 2016,
+      "title": "Hair growth-promoting effects of lavender oil in C57BL/6 mice",
+      "url": "https://doi.org/10.5487/TR.2016.32.2.103",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Carrier oil",
+      "anchor": "#mechanism",
+      "definition": "A fatty oil used as a base to dilute essential oils."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "personal-care"
+  }
+}

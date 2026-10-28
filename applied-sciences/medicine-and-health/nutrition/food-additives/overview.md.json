@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "food-additives.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "food-additives",
+      "food-safety"
+    ],
+    "aliases": [
+      "E numbers",
+      "acceptable daily intake",
+      "ADI"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "eu-1333-2008",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2008,
+      "title": "Regulation (EC) No 1333/2008 on food additives",
+      "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Acceptable daily intake",
+      "anchor": "#definition",
+      "definition": "The amount of an additive that can be eaten daily over a lifetime without appreciable risk."
+    },
+    {
+      "term": "E number",
+      "anchor": "#definition",
+      "definition": "The code of an additive authorized in the EU."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

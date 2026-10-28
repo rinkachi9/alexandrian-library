@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "exercise.intensification.rep-range-combination",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "mixed rep ranges"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.undulating-periodization",
+      "rel": "example-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2017-load",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Ogborn, D.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1519/JSC.0000000000002200",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2021-continuum",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Van Every, D. W.",
+        "Plotkin, D. L."
+      ],
+      "year": 2021,
+      "title": "Loading recommendations for muscle strength, hypertrophy, and local endurance: a re-examination of the repetition continuum",
+      "url": "https://doi.org/10.3390/sports9020032",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rep range combination",
+      "anchor": "#definition",
+      "definition": "Using different repetition ranges for the same muscle on different days."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does rep range combination not target fiber types selectively?",
+      "a": "Heavy and light sets near failure recruit and grow both fiber types.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

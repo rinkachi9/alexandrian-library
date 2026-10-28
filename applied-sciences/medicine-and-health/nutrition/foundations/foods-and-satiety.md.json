@@ -1,0 +1,91 @@
+{
+  "node": {
+    "id": "nutrition.foundations.foods-and-satiety",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ],
+    "aliases": [
+      "appetite",
+      "fat burning foods",
+      "satiety"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.foundations.glycemic-index",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hursel-2009",
+      "type": "paper",
+      "authors": [
+        "Hursel, R.",
+        "Viechtbauer, W.",
+        "Westerterp-Plantenga, M. S."
+      ],
+      "year": 2009,
+      "title": "The effects of green tea on weight loss and weight maintenance: a meta-analysis",
+      "url": "https://doi.org/10.1038/ijo.2009.135",
+      "verified": false
+    },
+    {
+      "key": "whiting-2012",
+      "type": "paper",
+      "authors": [
+        "Whiting, S.",
+        "Derbyshire, E.",
+        "Tiwari, B. K."
+      ],
+      "year": 2012,
+      "title": "Capsaicinoids and capsinoids. A potential role for weight management? A systematic review of the evidence",
+      "url": "https://doi.org/10.1016/j.appet.2012.05.017",
+      "verified": false
+    },
+    {
+      "key": "stuby-2019",
+      "type": "paper",
+      "authors": [
+        "Stuby, J.",
+        "Gravestock, I.",
+        "Wolfram, E."
+      ],
+      "year": 2019,
+      "title": "The effect of thylakoids on appetite and weight: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.3390/nu11102341",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Satiety",
+      "anchor": "#definition",
+      "definition": "The feeling of fullness that suppresses eating after a meal."
+    },
+    {
+      "term": "Diet-induced thermogenesis",
+      "anchor": "#definition",
+      "definition": "Energy spent digesting food, highest for protein."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does protein increase satiety?",
+      "a": "It raises satiety hormones and has the highest diet-induced thermogenesis.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

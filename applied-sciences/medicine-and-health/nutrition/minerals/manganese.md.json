@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "nutrition.minerals.manganese",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Mn",
+      "MnSOD"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "carbohydrates.glycosaminoglycans",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-manganese",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Manganese: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Manganese superoxide dismutase",
+      "anchor": "#definition",
+      "definition": "The mitochondrial antioxidant enzyme that contains manganese."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

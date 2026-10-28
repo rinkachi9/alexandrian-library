@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "nutrition.supplements.chondroitin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "supplements"
+    ],
+    "aliases": [
+      "chondroitin sulfate"
+    ]
+  },
+  "links": [
+    {
+      "to": "carbohydrates.glycosaminoglycans",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.supplements.glucosamine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "singh-2015",
+      "type": "paper",
+      "authors": [
+        "Singh, J. A.",
+        "Noorbaloochi, S.",
+        "MacDonald, R.",
+        "Maxwell, L. J."
+      ],
+      "year": 2015,
+      "title": "Chondroitin for osteoarthritis",
+      "url": "https://doi.org/10.1002/14651858.CD005614.pub2",
+      "verified": false
+    },
+    {
+      "key": "clegg-2006",
+      "type": "paper",
+      "authors": [
+        "Clegg, D. O.",
+        "Reda, D. J.",
+        "Harris, C. L."
+      ],
+      "year": 2006,
+      "title": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis",
+      "url": "https://doi.org/10.1056/NEJMoa052771",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Aggrecan",
+      "anchor": "#definition",
+      "definition": "The main cartilage proteoglycan carrying chondroitin chains."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "supplements"
+  }
+}

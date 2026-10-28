@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "anatomy.skull.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "skull",
+      "head"
+    ],
+    "aliases": [
+      "cranium",
+      "neurocranium",
+      "viscerocranium",
+      "fontanelles",
+      "sutures"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.skeletal.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Neurocranium",
+      "anchor": "#definition",
+      "definition": "The part of the skull that encloses the brain."
+    },
+    {
+      "term": "Viscerocranium",
+      "anchor": "#definition",
+      "definition": "The facial skeleton."
+    },
+    {
+      "term": "Suture",
+      "anchor": "#mechanism",
+      "definition": "A fixed fibrous joint between skull bones."
+    },
+    {
+      "term": "Fontanelle",
+      "anchor": "#mechanism",
+      "definition": "A membrane-covered gap between skull bones in infants."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the pterion clinically important?",
+      "a": "The bone is thin there and the middle meningeal artery runs beneath it, so a fracture can cause an epidural hematoma.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skull"
+  }
+}

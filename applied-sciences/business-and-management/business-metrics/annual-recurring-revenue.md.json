@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "business.metrics.annual-recurring-revenue",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "metrics",
+      "saas",
+      "valuation"
+    ],
+    "aliases": [
+      "ARR",
+      "annual run rate"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.monthly-recurring-revenue",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.arpa",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.discounted-cash-flow",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    },
+    {
+      "key": "bessemer-cloud",
+      "type": "website",
+      "authors": [
+        "Bessemer Venture Partners"
+      ],
+      "title": "State of the Cloud and cloud benchmarks",
+      "url": "https://www.bvp.com/atlas",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Annual recurring revenue",
+      "anchor": "#definition",
+      "definition": "The annualized value of recurring revenue from active subscriptions."
+    },
+    {
+      "term": "ARR bridge",
+      "anchor": "#mechanism",
+      "definition": "A breakdown of the change in ARR into new, expansion, resurrection and churned ARR."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

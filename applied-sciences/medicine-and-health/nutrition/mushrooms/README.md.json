@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.mushrooms",
+    "kind": "index",
+    "status": "draft",
+    "order": 10,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

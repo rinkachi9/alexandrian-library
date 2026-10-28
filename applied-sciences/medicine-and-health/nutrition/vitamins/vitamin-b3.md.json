@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b3",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "niacin",
+      "nicotinic acid",
+      "nicotinamide",
+      "NAD+"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.tryptophan",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.lipoprotein-a",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-niacin",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Niacin: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "hps2-2014",
+      "type": "paper",
+      "authors": [
+        "HPS2-THRIVE Collaborative Group"
+      ],
+      "year": 2014,
+      "title": "Effects of extended-release niacin with laropiprant in high-risk patients",
+      "url": "https://doi.org/10.1056/NEJMoa1300955",
+      "verified": false
+    },
+    {
+      "key": "aimhigh-2011",
+      "type": "paper",
+      "authors": [
+        "AIM-HIGH Investigators"
+      ],
+      "year": 2011,
+      "title": "Niacin in patients with low HDL cholesterol levels receiving intensive statin therapy",
+      "url": "https://doi.org/10.1056/NEJMoa1107579",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "NAD+",
+      "anchor": "#definition",
+      "definition": "Nicotinamide adenine dinucleotide, an electron carrier made from niacin."
+    },
+    {
+      "term": "Pellagra",
+      "anchor": "#proposed-effects-and-evidence",
+      "definition": "Niacin deficiency disease with dermatitis, diarrhea and dementia."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

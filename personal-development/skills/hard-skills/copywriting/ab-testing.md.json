@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "skills.copywriting.ab-testing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "marketing",
+      "experimentation",
+      "statistics",
+      "conversion"
+    ],
+    "aliases": [
+      "A/B test",
+      "split testing",
+      "online controlled experiment"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.headlines",
+      "rel": "related",
+      "note": "Headlines are a common A/B test"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kohavi-2020",
+      "type": "book",
+      "authors": [
+        "Kohavi, R.",
+        "Tang, D.",
+        "Xu, Y."
+      ],
+      "year": 2020,
+      "title": "Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing",
+      "url": "https://doi.org/10.1017/9781108653985",
+      "verified": false
+    },
+    {
+      "key": "fabijan-2019",
+      "type": "paper",
+      "authors": [
+        "Fabijan, A."
+      ],
+      "year": 2019,
+      "title": "Diagnosing sample ratio mismatch in online controlled experiments",
+      "url": "https://doi.org/10.1145/3292500.3330722",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "A/B test",
+      "anchor": "#definition",
+      "definition": "A randomized controlled experiment comparing a control and a changed version on a predefined metric."
+    },
+    {
+      "term": "Guardrail metric",
+      "anchor": "#mechanism",
+      "definition": "A metric that must not get worse during a test, such as refund rate or page speed."
+    },
+    {
+      "term": "Sample ratio mismatch",
+      "anchor": "#mechanism",
+      "definition": "A difference between the planned and observed traffic split, which signals a broken test."
+    },
+    {
+      "term": "Peeking",
+      "anchor": "#peeking",
+      "definition": "Checking results repeatedly and stopping when they look significant, which inflates false positives."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "About how many visitors per group are needed to detect a change from 3.0% to 3.3% conversion?",
+      "a": "About 52,000 per group using n = 16 p(1 - p) / delta squared.",
+      "anchor": "#sample-size",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why randomize by user rather than by page view?",
+      "a": "So that a person sees the same version on every visit, avoiding contamination between versions.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What is a novelty effect, and how do you handle it?",
+      "a": "Users react to a change because it is new; run the test long enough for the effect to settle.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

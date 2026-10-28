@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "anatomy.terminology.anatomical-movements",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "anatomy",
+      "terminology",
+      "biomechanics"
+    ],
+    "aliases": [
+      "joint movements",
+      "flexion and extension",
+      "range of motion"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.axes-and-planes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.joints.joints-overview",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.biomechanics.biomechanics-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Flexion",
+      "anchor": "#mechanism",
+      "definition": "A movement that decreases the angle between two segments in the sagittal plane."
+    },
+    {
+      "term": "Abduction",
+      "anchor": "#mechanism",
+      "definition": "Movement away from the midline in the frontal plane."
+    },
+    {
+      "term": "Pronation and supination",
+      "anchor": "#mechanism",
+      "definition": "Rotation of the forearm turning the palm down or up."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between shoulder flexion and shoulder abduction?",
+      "a": "Flexion raises the arm forward in the sagittal plane; abduction raises it to the side in the frontal plane.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "anatomy"
+  }
+}

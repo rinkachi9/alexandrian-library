@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "business.growth.content-engine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "growth",
+      "content",
+      "seo"
+    ],
+    "aliases": [
+      "SEO engine",
+      "UGC loop"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.growth-engines",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.search-engine-optimization.seo-content-and-blogging",
+      "rel": "related"
+    },
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-engines",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 6: Growth engines",
+      "url": "https://www.lennysnewsletter.com/p/growth-engines",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "balfour-2016",
+      "type": "website",
+      "authors": [
+        "Balfour, B.",
+        "Winters, C.",
+        "Kwok, K."
+      ],
+      "year": 2018,
+      "title": "Growth loops are the new funnels",
+      "url": "https://www.reforge.com/blog/growth-loops",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "User-generated content",
+      "anchor": "#mechanism",
+      "definition": "Content created by users that becomes indexable pages bringing new users."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

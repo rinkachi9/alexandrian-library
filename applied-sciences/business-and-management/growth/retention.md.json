@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "business.growth.retention",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "growth",
+      "retention",
+      "cohorts"
+    ],
+    "aliases": [
+      "retain",
+      "retention curve"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.first-thousand-users",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.startups.product-market-fit",
+      "rel": "related"
+    },
+    {
+      "to": "business.metrics.churn-rate",
+      "rel": "related"
+    },
+    {
+      "to": "skills.client-acquisition.referrals-and-retention",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2021-retention",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L.",
+        "Winters, C."
+      ],
+      "year": 2021,
+      "title": "What is good retention?",
+      "url": "https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "lenny-2022-series",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "How to kickstart and scale a consumer business (six-part series)",
+      "url": "https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cohort",
+      "anchor": "#definition",
+      "definition": "A group of users who started in the same period, tracked together over time."
+    },
+    {
+      "term": "Retention curve",
+      "anchor": "#mechanism",
+      "definition": "The share of a cohort still active plotted against time since start."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

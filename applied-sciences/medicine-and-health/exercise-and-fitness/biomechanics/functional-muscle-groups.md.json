@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "exercise.biomechanics.functional-muscle-groups",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "biomechanics",
+      "muscles"
+    ],
+    "aliases": [
+      "agonist",
+      "antagonist",
+      "synergist",
+      "reciprocal inhibition"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.classification",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.superset",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sherrington-1906",
+      "type": "book",
+      "authors": [
+        "Sherrington, C. S."
+      ],
+      "year": 1906,
+      "title": "The Integrative Action of the Nervous System"
+    },
+    {
+      "key": "robbins-2010",
+      "type": "paper",
+      "authors": [
+        "Robbins, D. W.",
+        "Young, W. B.",
+        "Behm, D. G.",
+        "Payne, W. R."
+      ],
+      "year": 2010,
+      "title": "Agonist-antagonist paired set resistance training: a brief review",
+      "url": "https://doi.org/10.1519/JSC.0b013e3181e8d7c4",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Agonist",
+      "anchor": "#definition",
+      "definition": "The muscle that produces a movement."
+    },
+    {
+      "term": "Antagonist",
+      "anchor": "#definition",
+      "definition": "A muscle whose action opposes the movement."
+    },
+    {
+      "term": "Synergist",
+      "anchor": "#definition",
+      "definition": "A muscle that assists the agonist or stabilizes the joint."
+    },
+    {
+      "term": "Reciprocal inhibition",
+      "anchor": "#definition",
+      "definition": "Reflex relaxation of the antagonist when the agonist contracts."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are chest and back often trained in the same session?",
+      "a": "They are antagonists, so their fatigue interferes little, and reciprocal inhibition may help.",
+      "anchor": "#programming-implications",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biomechanics"
+  }
+}

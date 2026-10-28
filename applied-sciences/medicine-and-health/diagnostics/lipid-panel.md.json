@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "diagnostics.lipid-panel",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "diagnostics",
+      "blood-tests"
+    ],
+    "aliases": [
+      "lipidogram",
+      "cholesterol test",
+      "lipid profile"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.cholesterol",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.lipoprotein-a",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mach-2020",
+      "type": "paper",
+      "authors": [
+        "Mach, F.",
+        "Baigent, C.",
+        "Catapano, A. L."
+      ],
+      "year": 2020,
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk",
+      "url": "https://doi.org/10.1093/eurheartj/ehz455",
+      "verified": false
+    },
+    {
+      "key": "kronenberg-2022",
+      "type": "paper",
+      "authors": [
+        "Kronenberg, F.",
+        "Mora, S.",
+        "Stroes, E. S. G."
+      ],
+      "year": 2022,
+      "title": "Lipoprotein(a) in atherosclerotic cardiovascular disease and aortic stenosis: a European Atherosclerosis Society consensus statement",
+      "url": "https://doi.org/10.1093/eurheartj/ehac361",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Non-HDL cholesterol",
+      "anchor": "#definition",
+      "definition": "Total cholesterol minus HDL cholesterol."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "diagnostics"
+  }
+}

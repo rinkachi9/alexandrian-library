@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "anatomy.muscles.transversus-abdominis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "trunk",
+      "abdominal",
+      "core"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.core",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.diaphragm",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.pelvic-floor",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "trunk-muscles"
+  }
+}

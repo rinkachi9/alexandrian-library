@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "skills.e-commerce.e-commerce-platforms",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "e-commerce",
+      "platforms",
+      "marketplaces"
+    ],
+    "aliases": [
+      "Shopify",
+      "WooCommerce",
+      "marketplace",
+      "headless commerce"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "shopify-help-center",
+      "type": "documentation",
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/",
+      "verified": false
+    },
+    {
+      "key": "woocommerce-documentation",
+      "type": "documentation",
+      "title": "WooCommerce documentation",
+      "url": "https://woocommerce.com/documentation/",
+      "verified": false
+    },
+    {
+      "key": "amazon-seller-central",
+      "type": "website",
+      "authors": [
+        "Amazon Seller Central"
+      ],
+      "title": "Selling fees",
+      "url": "https://sell.amazon.com/pricing",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "E-commerce platform",
+      "anchor": "#definition",
+      "definition": "Software that runs an online store: catalog, cart, checkout, payments and orders."
+    },
+    {
+      "term": "Marketplace",
+      "anchor": "#marketplaces",
+      "definition": "A platform where many sellers offer products to the platform's customers."
+    },
+    {
+      "term": "Headless commerce",
+      "anchor": "#headless-commerce",
+      "definition": "Separating the storefront from the commerce back end, connected through APIs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What do you gain and lose by selling only on a marketplace?",
+      "a": "You gain traffic, trust and fast start; you lose margin to fees, control, brand presentation and customer data.",
+      "anchor": "#marketplaces",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is the main operational risk of multichannel selling?",
+      "a": "Selling stock you no longer have unless inventory is synchronized across channels.",
+      "anchor": "#multichannel-selling",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Name five cost elements of a hosted store.",
+      "a": "Subscription, transaction fees, apps, themes and payment fees, plus development time.",
+      "anchor": "#choosing-a-platform",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

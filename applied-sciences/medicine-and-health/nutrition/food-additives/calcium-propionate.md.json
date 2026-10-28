@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "food-additives.calcium-propionate",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "food-additives",
+      "food-safety"
+    ],
+    "aliases": [
+      "E282",
+      "propionic acid"
+    ]
+  },
+  "links": [
+    {
+      "to": "food-additives.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.butyric-acid",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "eu-1333-2008",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2008,
+      "title": "Regulation (EC) No 1333/2008 on food additives",
+      "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Propionate",
+      "anchor": "#definition",
+      "definition": "A short-chain fatty acid used as a preservative and produced by gut bacteria."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

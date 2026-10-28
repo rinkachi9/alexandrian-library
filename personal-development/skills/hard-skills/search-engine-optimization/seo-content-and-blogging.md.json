@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.seo-content-and-blogging",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "seo",
+      "content-marketing",
+      "blogging"
+    ],
+    "aliases": [
+      "blogging",
+      "pillar page",
+      "topic cluster",
+      "content refresh"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.search-engine-optimization.keyword-research",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "applies",
+      "note": "Content marketing applied to search"
+    },
+    {
+      "to": "skills.online-research.research-with-ai-tools",
+      "rel": "related",
+      "note": "Checking AI-generated drafts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Creating helpful, reliable, people-first content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Google Search's guidance about AI-generated content",
+      "url": "https://developers.google.com/search/blog/2023/02/google-search-and-ai-content",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "google-search-central-3",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Spam policies for Google web search: scaled content abuse",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies#scaled-content",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pillar page",
+      "anchor": "#topic-clusters-and-pillar-pages",
+      "definition": "A page covering a broad subject that links to detailed cluster pages."
+    },
+    {
+      "term": "Content refresh",
+      "anchor": "#maintenance-and-updates",
+      "definition": "Updating an existing page with current facts and better structure while keeping its URL."
+    },
+    {
+      "term": "Scaled content abuse",
+      "anchor": "#ai-generated-content",
+      "definition": "Mass-producing pages mainly to manipulate rankings, prohibited since March 2024."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Where do good blog topics sit?",
+      "a": "Where search demand, business relevance and your ability to be the best answer overlap.",
+      "anchor": "#choosing-topics",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why may refreshing and merging old pages gain more than publishing new ones?",
+      "a": "Old pages already have history and links; updating them fixes decay and merging removes cannibalization.",
+      "anchor": "#maintenance-and-updates",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Which kinds of content are least exposed to AI answers on the results page?",
+      "a": "Original data and testing, expert analysis, tools, detailed comparisons with first-hand experience, and content serving a buying decision.",
+      "anchor": "#content-and-ai-summaries",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

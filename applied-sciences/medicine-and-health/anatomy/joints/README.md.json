@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.joints",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "anatomy",
+      "joints"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "joints"
+  }
+}

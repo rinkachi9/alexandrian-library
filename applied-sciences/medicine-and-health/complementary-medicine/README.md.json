@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.complementary-medicine",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "complementary-medicine"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

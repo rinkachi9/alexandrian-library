@@ -1,0 +1,121 @@
+{
+  "node": {
+    "id": "skills.online-research.source-evaluation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "research",
+      "information-literacy",
+      "fact-checking"
+    ],
+    "aliases": [
+      "lateral reading",
+      "SIFT",
+      "CRAAP test",
+      "fact checking"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.online-research.search-strategy",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wineburg-2019",
+      "type": "paper",
+      "authors": [
+        "Wineburg, S.",
+        "McGrew, S."
+      ],
+      "year": 2019,
+      "title": "Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information",
+      "url": "https://doi.org/10.1177/016146811912101102",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "caulfield-2019",
+      "type": "website",
+      "authors": [
+        "Caulfield, M."
+      ],
+      "year": 2019,
+      "title": "SIFT (The Four Moves)",
+      "url": "https://hapgood.us/2019/06/19/sift-the-four-moves/",
+      "verified": false
+    },
+    {
+      "key": "blakeslee-2004",
+      "type": "paper",
+      "authors": [
+        "Blakeslee, S."
+      ],
+      "year": 2004,
+      "title": "The CRAAP test"
+    },
+    {
+      "key": "association-of-college-2015",
+      "type": "website",
+      "authors": [
+        "Association of College and Research Libraries"
+      ],
+      "year": 2015,
+      "title": "Framework for Information Literacy for Higher Education",
+      "url": "https://www.ala.org/acrl/standards/ilframework",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lateral reading",
+      "anchor": "#vertical-and-lateral-reading",
+      "definition": "Judging an unfamiliar source by checking what independent sources say about it."
+    },
+    {
+      "term": "SIFT",
+      "anchor": "#sift",
+      "definition": "Stop, investigate the source, find better coverage, trace claims to the original."
+    },
+    {
+      "term": "Primary source",
+      "anchor": "#definition",
+      "definition": "Original material such as a study, dataset, law or first-hand account."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Who took part in the Wineburg and McGrew (2019) study, and who did best?",
+      "a": "10 fact checkers, 10 PhD historians and 25 Stanford students; the fact checkers, who read laterally.",
+      "anchor": "#vertical-and-lateral-reading",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can a checklist like CRAAP be fooled?",
+      "a": "It is usually applied by examining the site itself, which a professional-looking misleading site can satisfy.",
+      "anchor": "#craap-and-its-limits",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "Rank a meta-analysis, a single observational study and a testimonial by strength of evidence.",
+      "a": "Meta-analysis strongest, observational study weaker (association only), testimonial weakest.",
+      "anchor": "#strength-of-evidence",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "online-research"
+  }
+}

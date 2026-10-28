@@ -1,6 +1,6 @@
 # Personal development
 
-Deliberate improvement of oneself: character, habits, skills and career. The [career](career/README.md) field is written. Personal growth and skills are planned and have no notes yet.
+Deliberate improvement of oneself: character, habits, skills and career. The [career](career/README.md) field is written, and [skills](skills/README.md) has general notes on learning skills, an overview of soft skills and eight hard skills with their own directories. Personal growth is planned and has no notes yet.
 
 ## Fields
 

@@ -3,7 +3,13 @@
     "id": "applied-sciences.finance-and-investing",
     "kind": "index",
     "status": "draft",
-    "order": 5
+    "order": 5,
+    "tags": [
+      "finance"
+    ]
   },
-  "links": []
+  "links": [],
+  "map": {
+    "group": "finance-and-investing"
+  }
 }

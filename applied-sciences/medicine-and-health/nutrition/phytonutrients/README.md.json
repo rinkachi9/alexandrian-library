@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.phytonutrients",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

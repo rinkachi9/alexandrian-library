@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "biochemistry.krebs-cycle",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "biochemistry",
+      "energy",
+      "mitochondria"
+    ],
+    "aliases": [
+      "citric acid cycle",
+      "TCA cycle",
+      "tricarboxylic acid cycle"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.glycolysis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.mitochondria",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.oxidative-phosphorylation",
+      "rel": "related",
+      "note": "Uses the NADH and FADH2 from the cycle"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "lehninger-2021",
+      "type": "book",
+      "authors": [
+        "Nelson, D. L.",
+        "Cox, M. M."
+      ],
+      "year": 2021,
+      "title": "Lehninger Principles of Biochemistry (8th ed.)"
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Krebs cycle",
+      "anchor": "#definition",
+      "definition": "The cycle in the mitochondrial matrix that oxidizes acetyl groups to CO2 and produces NADH, FADH2 and GTP."
+    },
+    {
+      "term": "Anaplerotic reaction",
+      "anchor": "#a-hub-not-only-a-furnace",
+      "definition": "A reaction that refills intermediates of the Krebs cycle."
+    },
+    {
+      "term": "Pyruvate dehydrogenase",
+      "anchor": "#mechanism",
+      "definition": "The enzyme complex that converts pyruvate into acetyl-CoA before the cycle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A diet very low in thiamine impairs energy production from carbohydrate. Why?",
+      "a": "Thiamine pyrophosphate is a coenzyme of pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How many times does the cycle turn per glucose?",
+      "a": "Twice, once for each acetyl-CoA.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

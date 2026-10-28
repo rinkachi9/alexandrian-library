@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "lipids.gamma-linolenic-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "lipids",
+      "omega-6",
+      "supplements"
+    ],
+    "aliases": [
+      "GLA",
+      "evening primrose oil",
+      "borage oil"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.omega-6-fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-6-fatty-acids",
+      "rel": "part-of"
+    },
+    {
+      "to": "lipids.linoleic-acid",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bamford-2013",
+      "type": "paper",
+      "authors": [
+        "Bamford, J. T.",
+        "Ray, S.",
+        "Musekiwa, A."
+      ],
+      "year": 2013,
+      "title": "Oral evening primrose oil and borage oil for eczema",
+      "url": "https://doi.org/10.1002/14651858.CD004416.pub2",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "DGLA",
+      "anchor": "#mechanism",
+      "definition": "Dihomo-gamma-linolenic acid, the omega-6 fatty acid that forms anti-inflammatory prostaglandin E1."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does GLA mainly raise DGLA rather than arachidonic acid?",
+      "a": "Delta-5 desaturase, which converts DGLA to arachidonic acid, has low activity in humans.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

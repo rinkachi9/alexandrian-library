@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "anatomy"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "anatomy"
+  }
+}

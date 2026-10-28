@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "social-sciences.law.company-law",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "company-law",
+      "poland"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "company-law"
+  }
+}

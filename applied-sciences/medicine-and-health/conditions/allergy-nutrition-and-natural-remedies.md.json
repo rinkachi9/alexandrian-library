@@ -1,0 +1,128 @@
+{
+  "node": {
+    "id": "conditions.allergy-nutrition-and-natural-remedies",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "conditions",
+      "allergy",
+      "nutrition"
+    ],
+    "aliases": [
+      "allergy diet",
+      "natural allergy remedies",
+      "oral allergy syndrome"
+    ]
+  },
+  "links": [
+    {
+      "to": "conditions.allergy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.nutrition-and-immunity",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hermelingmeier-2012",
+      "type": "paper",
+      "authors": [
+        "Hermelingmeier, K. E.",
+        "Weber, R. K.",
+        "Hellmich, M.",
+        "Heubach, C. P.",
+        "Mösges, R."
+      ],
+      "year": 2012,
+      "title": "Nasal irrigation as an adjunctive treatment in allergic rhinitis: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.2500/ajra.2012.26.3787",
+      "verified": false
+    },
+    {
+      "key": "rajan-2002",
+      "type": "paper",
+      "authors": [
+        "Rajan, T. V.",
+        "Tennen, H.",
+        "Lindquist, R. L.",
+        "Cohen, L.",
+        "Clive, J."
+      ],
+      "year": 2002,
+      "title": "Effect of ingestion of honey on symptoms of rhinoconjunctivitis",
+      "url": "https://doi.org/10.1016/S1081-1206(10)61996-5",
+      "verified": false
+    },
+    {
+      "key": "cingi-2008",
+      "type": "paper",
+      "authors": [
+        "Cingi, C.",
+        "Conk-Dalay, M.",
+        "Cakli, H.",
+        "Bal, C."
+      ],
+      "year": 2008,
+      "title": "The effects of spirulina on allergic rhinitis",
+      "url": "https://doi.org/10.1007/s00405-008-0642-8",
+      "verified": false
+    },
+    {
+      "key": "timmer-2013",
+      "type": "paper",
+      "authors": [
+        "Timmer, A.",
+        "Günther, J.",
+        "Motschall, E."
+      ],
+      "year": 2013,
+      "title": "Pelargonium sidoides extract for treating acute respiratory tract infections",
+      "url": "https://doi.org/10.1002/14651858.CD006323.pub3",
+      "verified": false
+    },
+    {
+      "key": "calder-2020",
+      "type": "paper",
+      "authors": [
+        "Calder, P. C.",
+        "Carr, A. C.",
+        "Gombart, A. F.",
+        "Eggersdorfer, M."
+      ],
+      "year": 2020,
+      "title": "Optimal nutritional status for a well-functioning immune system is an important factor to protect against viral infections",
+      "url": "https://doi.org/10.3390/nu12041181",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pollen-food allergy syndrome",
+      "anchor": "#definition",
+      "definition": "Cross-reaction between pollen allergens and similar proteins in raw plant foods."
+    },
+    {
+      "term": "Saline nasal irrigation",
+      "anchor": "#definition",
+      "definition": "Rinsing the nasal passages with salt water."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do people with birch pollen allergy react to raw apples?",
+      "a": "Apple proteins resemble birch pollen proteins and cross-react with the same IgE.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "conditions"
+  }
+}

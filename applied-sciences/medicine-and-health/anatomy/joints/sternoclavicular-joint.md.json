@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "anatomy.joints.sternoclavicular-joint",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "anatomy",
+      "joints",
+      "shoulder"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.joints.joints-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.upper-limb-bones.clavicle",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.thorax.sternum",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "joints"
+  }
+}

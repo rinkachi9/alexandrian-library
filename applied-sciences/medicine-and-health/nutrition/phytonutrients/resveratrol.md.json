@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "phytonutrients.resveratrol",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "trans-resveratrol",
+      "French paradox"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.polyphenols",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berman-2017",
+      "type": "paper",
+      "authors": [
+        "Berman, A. Y.",
+        "Motechin, R. A.",
+        "Wiesenfeld, M. Y.",
+        "Holz, M. K."
+      ],
+      "year": 2017,
+      "title": "The therapeutic potential of resveratrol: a review of clinical trials",
+      "url": "https://doi.org/10.1038/s41698-017-0038-6",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Resveratrol",
+      "anchor": "#definition",
+      "definition": "A stilbene polyphenol found mainly in grape skins."
+    },
+    {
+      "term": "Sirtuin",
+      "anchor": "#mechanism",
+      "definition": "An NAD+-dependent enzyme linked to the effects of calorie restriction."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

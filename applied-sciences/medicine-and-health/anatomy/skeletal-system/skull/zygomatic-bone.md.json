@@ -1,0 +1,54 @@
+{
+  "node": {
+    "id": "anatomy.skull.zygomatic-bone",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 14,
+    "tags": [
+      "anatomy",
+      "bones",
+      "face"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.skull.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.masseter",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "skull"
+  }
+}

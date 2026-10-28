@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "diagnostics.complete-blood-count",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "diagnostics",
+      "blood-tests"
+    ],
+    "aliases": [
+      "CBC",
+      "full blood count",
+      "morfologia",
+      "blood count"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.iron",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b12",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tietz-2018",
+      "type": "book",
+      "authors": [
+        "Rifai, N.",
+        "Horvath, A. R.",
+        "Wittwer, C. T. (Eds.)"
+      ],
+      "year": 2018,
+      "title": "Tietz Textbook of Clinical Chemistry and Molecular Diagnostics (6th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mean cell volume",
+      "anchor": "#definition",
+      "definition": "The average size of red blood cells."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "diagnostics"
+  }
+}

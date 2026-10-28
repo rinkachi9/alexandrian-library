@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "exercise.intensification.eccentric-resistance",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "eccentric emphasis"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.negative-reps",
+      "rel": "related"
+    },
+    {
+      "to": "physiotherapy.eccentric-and-isometric-methods",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "roig-2009",
+      "type": "paper",
+      "authors": [
+        "Roig, M.",
+        "O'Brien, K.",
+        "Kirk, G."
+      ],
+      "year": 2009,
+      "title": "The effects of eccentric versus concentric resistance training on muscle strength and mass in healthy adults: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.1136/bjsm.2008.051417",
+      "verified": false
+    },
+    {
+      "key": "hill-1938",
+      "type": "paper",
+      "authors": [
+        "Hill, A. V."
+      ],
+      "year": 1938,
+      "title": "The heat of shortening and the dynamic constants of muscle",
+      "url": "https://doi.org/10.1098/rspb.1938.0050",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Eccentric resistance",
+      "anchor": "#definition",
+      "definition": "Braking the load during the lengthening phase of a repetition."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can muscles handle more load eccentrically?",
+      "a": "Cross-bridges resist being pulled apart and produce more force than in shortening.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

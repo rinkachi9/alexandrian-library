@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "business.growth.hook",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "growth",
+      "pitch",
+      "messaging"
+    ],
+    "aliases": [
+      "pitch",
+      "craft your pitch"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.super-specific-audience",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.copywriting.value-proposition-and-benefits",
+      "rel": "related"
+    },
+    {
+      "to": "skills.content-marketing.headlines",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-series",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "How to kickstart and scale a consumer business (six-part series)",
+      "url": "https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "maurya-2012",
+      "type": "book",
+      "authors": [
+        "Maurya, A."
+      ],
+      "year": 2012,
+      "title": "Running Lean: Iterate from Plan A to a Plan That Works"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hook",
+      "anchor": "#definition",
+      "definition": "A short, urgent pitch that makes someone in the niche want the product now."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

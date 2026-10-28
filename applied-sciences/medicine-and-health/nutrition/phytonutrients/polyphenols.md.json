@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "phytonutrients.polyphenols",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "flavonoids",
+      "catechins",
+      "anthocyanins",
+      "phenolic acids",
+      "tannins"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "manach-2004",
+      "type": "paper",
+      "authors": [
+        "Manach, C.",
+        "Scalbert, A.",
+        "Morand, C.",
+        "Rémésy, C.",
+        "Jiménez, L."
+      ],
+      "year": 2004,
+      "title": "Polyphenols: food sources and bioavailability",
+      "url": "https://doi.org/10.1093/ajcn/79.5.727",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Polyphenol",
+      "anchor": "#definition",
+      "definition": "A plant compound with several phenolic groups."
+    },
+    {
+      "term": "Flavonoid",
+      "anchor": "#definition",
+      "definition": "The largest group of polyphenols."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

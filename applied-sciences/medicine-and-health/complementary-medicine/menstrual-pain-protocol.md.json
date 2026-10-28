@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "complementary-medicine.menstrual-pain-protocol",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "dysmenorrhea",
+      "period pain",
+      "menstrual cramps"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "herbal-extracts.ginger",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.eicosanoids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "acog-2018",
+      "type": "paper",
+      "authors": [
+        "American College of Obstetricians and Gynecologists"
+      ],
+      "year": 2018,
+      "title": "Dysmenorrhea and endometriosis in the adolescent. ACOG Committee Opinion No. 760",
+      "url": "https://doi.org/10.1097/AOG.0000000000002978",
+      "verified": false
+    },
+    {
+      "key": "daily-2015",
+      "type": "paper",
+      "authors": [
+        "Daily, J. W.",
+        "Zhang, X.",
+        "Kim, D. S.",
+        "Park, S."
+      ],
+      "year": 2015,
+      "title": "Efficacy of ginger for alleviating the symptoms of primary dysmenorrhea: a systematic review and meta-analysis of randomized clinical trials",
+      "url": "https://doi.org/10.1111/pme.12853",
+      "verified": false
+    },
+    {
+      "key": "rahbar-2012",
+      "type": "paper",
+      "authors": [
+        "Rahbar, N.",
+        "Asgharzadeh, N.",
+        "Ghorbani, R."
+      ],
+      "year": 2012,
+      "title": "Effect of omega-3 fatty acids on intensity of primary dysmenorrhea",
+      "url": "https://doi.org/10.1016/j.ijgo.2011.11.019",
+      "verified": false
+    },
+    {
+      "key": "proctor-2001",
+      "type": "paper",
+      "authors": [
+        "Proctor, M. L.",
+        "Murphy, P. A."
+      ],
+      "year": 2001,
+      "title": "Herbal and dietary therapies for primary and secondary dysmenorrhoea",
+      "url": "https://doi.org/10.1002/14651858.CD002124",
+      "verified": false
+    },
+    {
+      "key": "porpora-2013",
+      "type": "paper",
+      "authors": [
+        "Porpora, M. G.",
+        "Brunelli, R.",
+        "Costa, G."
+      ],
+      "year": 2013,
+      "title": "A promise in the treatment of endometriosis: an observational cohort study on ovarian endometrioma reduction by N-acetylcysteine",
+      "url": "https://doi.org/10.1155/2013/240702",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Primary dysmenorrhea",
+      "anchor": "#definition",
+      "definition": "Painful menstruation without underlying disease, driven by prostaglandins."
+    },
+    {
+      "term": "PGF2-alpha",
+      "anchor": "#definition",
+      "definition": "The prostaglandin that causes strong uterine contractions."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

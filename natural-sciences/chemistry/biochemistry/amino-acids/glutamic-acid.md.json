@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "amino-acids.glutamic-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 24,
+    "tags": [
+      "amino-acids",
+      "non-essential",
+      "neurotransmitter"
+    ],
+    "aliases": [
+      "glutamate",
+      "L-glutamic acid",
+      "Glu",
+      "E",
+      "MSG"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.glutamine",
+      "rel": "related"
+    },
+    {
+      "to": "food-additives.e621-monosodium-glutamate",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Excitotoxicity",
+      "anchor": "#mechanism",
+      "definition": "Damage to neurons from excessive stimulation by glutamate."
+    },
+    {
+      "term": "Umami",
+      "anchor": "#mechanism",
+      "definition": "The savory taste triggered by free glutamate."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does glutamate in food not reach the brain?",
+      "a": "The gut uses most of it as fuel and the blood-brain barrier strictly limits glutamate entry.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

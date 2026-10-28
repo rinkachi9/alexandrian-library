@@ -1,0 +1,43 @@
+{
+  "node": {
+    "id": "environmental-health.silicones",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "dimethicone",
+      "cyclopentasiloxane",
+      "D5",
+      "siloxanes"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "eu-2018-35",
+      "type": "documentation",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2018,
+      "title": "Commission Regulation (EU) 2018/35 amending Annex XVII to REACH as regards octamethylcyclotetrasiloxane (D4) and decamethylcyclopentasiloxane (D5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2018/35/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Siloxane",
+      "anchor": "#definition",
+      "definition": "A compound with a silicon-oxygen backbone."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

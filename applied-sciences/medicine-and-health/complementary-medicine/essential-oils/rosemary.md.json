@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "essential-oils.rosemary",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Rosmarinus officinalis",
+      "camphor"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "personal-care.scalp-oil-blend",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "panahi-2015",
+      "type": "paper",
+      "authors": [
+        "Panahi, Y.",
+        "Taghizadeh, M.",
+        "Marzony, E. T.",
+        "Sahebkar, A."
+      ],
+      "year": 2015,
+      "title": "Rosemary oil vs minoxidil 2% for the treatment of androgenetic alopecia: a randomized comparative trial"
+    },
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Camphor",
+      "anchor": "#definition",
+      "definition": "A terpenoid ketone in rosemary oil that is stimulating and toxic at high doses."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

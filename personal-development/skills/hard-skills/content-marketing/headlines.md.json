@@ -1,0 +1,129 @@
+{
+  "node": {
+    "id": "skills.content-marketing.headlines",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "copywriting",
+      "headlines"
+    ],
+    "aliases": [
+      "titles",
+      "subject lines",
+      "curiosity gap"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.seven-a-framework",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.copywriting.ab-testing",
+      "rel": "related",
+      "note": "Headlines are a common A/B test"
+    },
+    {
+      "to": "skills.copywriting.copywriting-frameworks",
+      "rel": "related",
+      "note": "The headline is the attention step"
+    }
+  ],
+  "sources": [
+    {
+      "key": "loewenstein-1994",
+      "type": "paper",
+      "authors": [
+        "Loewenstein, G."
+      ],
+      "year": 1994,
+      "title": "The psychology of curiosity: A review and reinterpretation",
+      "url": "https://doi.org/10.1037/0033-2909.116.1.75",
+      "verified": false
+    },
+    {
+      "key": "matias-2021",
+      "type": "paper",
+      "authors": [
+        "Matias, J. N.",
+        "Munger, K.",
+        "Aubin Le Quere, M.",
+        "Ebersole, C."
+      ],
+      "year": 2021,
+      "title": "The Upworthy Research Archive, a time series of 32,487 experiments in U.S. media",
+      "url": "https://doi.org/10.1038/s41597-021-00934-7",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "matias-2024",
+      "type": "website",
+      "authors": [
+        "Matias, J. N."
+      ],
+      "year": 2024,
+      "title": "Upworthy Research Archive update",
+      "url": "https://upworthy.natematias.com/2024-06-upworthy-archive-update.html",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Headline",
+      "anchor": "#the-role-of-a-headline",
+      "definition": "The title text a reader sees before deciding whether to open a piece of content."
+    },
+    {
+      "term": "Information gap",
+      "anchor": "#mechanism-benefit-and-curiosity",
+      "definition": "Curiosity as a feeling of deprivation caused by noticing a gap between what one knows and wants to know."
+    },
+    {
+      "term": "Clickbait",
+      "anchor": "#promise-and-deliver",
+      "definition": "A headline that promises more than the content delivers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a curiosity headline need some prior knowledge in the reader?",
+      "a": "Under information gap theory, a gap is only felt against existing knowledge; people are not curious about topics they know nothing about.",
+      "anchor": "#mechanism-benefit-and-curiosity",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How many experiments does the Upworthy Research Archive contain, and over which period?",
+      "a": "32,487 headline and image tests run between January 2013 and April 2015.",
+      "anchor": "#what-headline-tests-show",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why should you write the headline first?",
+      "a": "It forces you to decide what the piece promises and keeps the writing focused; revise it at the end.",
+      "anchor": "#best-practices-for-writing",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

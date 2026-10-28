@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.complementary-medicine.essential-oils",
+    "kind": "index",
+    "status": "draft",
+    "order": 12,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

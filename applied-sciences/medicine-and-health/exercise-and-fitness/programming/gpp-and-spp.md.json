@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "exercise.programming.gpp-and-spp",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "exercise",
+      "programming",
+      "planning"
+    ],
+    "aliases": [
+      "GPP",
+      "SPP",
+      "general physical preparedness",
+      "specific physical preparedness"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.annual-planning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.mobility",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "issurin-2010",
+      "type": "paper",
+      "authors": [
+        "Issurin, V. B."
+      ],
+      "year": 2010,
+      "title": "New horizons for the methodology and physiology of training periodization",
+      "url": "https://doi.org/10.2165/11319770-000000000-00000",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "GPP",
+      "anchor": "#definition",
+      "definition": "General physical preparedness, a phase building broad fitness."
+    },
+    {
+      "term": "SPP",
+      "anchor": "#definition",
+      "definition": "Specific physical preparedness, a phase building sport-specific abilities."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "What might SPP look like for a powerlifter?",
+      "a": "Competition lifts at high intensity and their close variations.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

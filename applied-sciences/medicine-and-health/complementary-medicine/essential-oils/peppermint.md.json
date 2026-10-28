@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "essential-oils.peppermint",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Mentha piperita",
+      "menthol"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "phytonutrients.terpenoids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gobel-2016",
+      "type": "paper",
+      "authors": [
+        "Göbel, H.",
+        "Heinze, A.",
+        "Heinze-Kuhn, K.",
+        "Göbel, A.",
+        "Göbel, C."
+      ],
+      "year": 2016,
+      "title": "Peppermint oil in the acute treatment of tension-type headache",
+      "url": "https://doi.org/10.1007/s00482-016-0109-6",
+      "verified": false
+    },
+    {
+      "key": "khanna-2014",
+      "type": "paper",
+      "authors": [
+        "Khanna, R.",
+        "MacDonald, J. K.",
+        "Levesque, B. G."
+      ],
+      "year": 2014,
+      "title": "Peppermint oil for the treatment of irritable bowel syndrome: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1097/MCG.0b013e3182a88357",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Menthol",
+      "anchor": "#definition",
+      "definition": "A monoterpene alcohol that activates cold receptors."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

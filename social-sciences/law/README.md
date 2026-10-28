@@ -1,6 +1,10 @@
 # Law
 
-Legal systems, rules and their application. This field belongs to [Social sciences](../README.md) and is planned. It has no notes yet.
+Legal systems, rules and their application. This field belongs to [Social sciences](../README.md). The written part so far is company law, starting with the Polish limited liability company. Other topics are planned.
+
+## Subfields
+
+- [Company law](company-law/README.md): the Polish limited liability company (spółka z o.o.): formation, articles of association, registration, shareholder rights, dividends, organs, liability, dissolution and taxation.
 
 ## Planned topics
 
@@ -10,6 +14,6 @@ Legal systems, rules and their application. This field belongs to [Social scienc
 - Intellectual property
 - Data protection and privacy law
 
-## Notes
+## Navigation
 
-TODO: list notes here in recommended reading order, with one line per note.
+- Back to [Social sciences](../README.md).

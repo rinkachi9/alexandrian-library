@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "nutrition.foundations.trophology",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ],
+    "aliases": [
+      "food combining",
+      "Hay diet"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.foundations.healthy-aging-diet",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "golay-2000",
+      "type": "paper",
+      "authors": [
+        "Golay, A.",
+        "Allaz, A. F.",
+        "Ybarra, J."
+      ],
+      "year": 2000,
+      "title": "Similar weight loss with low-energy food combining or balanced diets",
+      "url": "https://doi.org/10.1038/sj.ijo.0801185",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Trophology",
+      "anchor": "#definition",
+      "definition": "Food combining rules based on the belief that foods need opposite digestive conditions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do protein and starch in one meal not neutralize each other's digestion?",
+      "a": "Digestion happens in stages, and the small intestine digests all macronutrients together at neutral pH.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

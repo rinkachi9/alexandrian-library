@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "personal-care.teeth-whitening-home-methods",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "personal-care"
+    ],
+    "aliases": [
+      "baking soda teeth",
+      "oil pulling",
+      "teeth whitening"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.coconut-oil",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "li-2008-bicarbonate",
+      "type": "paper",
+      "authors": [
+        "Li, Y."
+      ],
+      "year": 2017,
+      "title": "Review of the use of sodium bicarbonate in dentifrices for whitening and stain removal",
+      "url": "https://doi.org/10.1016/j.adaj.2017.09.002",
+      "verified": false
+    },
+    {
+      "key": "ada-oil-pulling",
+      "type": "documentation",
+      "authors": [
+        "American Dental Association"
+      ],
+      "title": "Oil pulling: ADA Science and Research Institute statement",
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/oil-pulling",
+      "verified": false
+    },
+    {
+      "key": "walsh-2019",
+      "type": "paper",
+      "authors": [
+        "Walsh, T.",
+        "Worthington, H. V.",
+        "Glenny, A. M."
+      ],
+      "year": 2019,
+      "title": "Fluoride toothpastes of different concentrations for preventing dental caries",
+      "url": "https://doi.org/10.1002/14651858.CD007868.pub3",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Extrinsic stain",
+      "anchor": "#definition",
+      "definition": "A surface stain on teeth from food, drink or tobacco."
+    },
+    {
+      "term": "Oil pulling",
+      "anchor": "#definition",
+      "definition": "Swishing oil in the mouth for 10 to 20 minutes."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "personal-care"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "cell-biology.tissues",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "cell-biology",
+      "histology",
+      "tissues"
+    ],
+    "aliases": [
+      "histology",
+      "tissue types",
+      "muscle tissue"
+    ]
+  },
+  "links": [
+    {
+      "to": "cell-biology.cell-structure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.skeletal-muscle-structure",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.skeletal.bone-tissue",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Tissue",
+      "anchor": "#definition",
+      "definition": "A group of similar cells and their extracellular matrix with a shared function."
+    },
+    {
+      "term": "Extracellular matrix",
+      "anchor": "#definition",
+      "definition": "The material outside cells: fibers and ground substance."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does smooth muscle differ from skeletal muscle?",
+      "a": "Smooth muscle has spindle cells with one nucleus, no striations and is involuntary; skeletal muscle has long multinucleated striated fibers under voluntary control.",
+      "anchor": "#the-three-muscle-tissues",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cell-biology"
+  }
+}

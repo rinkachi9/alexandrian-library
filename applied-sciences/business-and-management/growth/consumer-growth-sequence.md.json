@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "business.growth.consumer-growth-sequence",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "growth",
+      "startups",
+      "consumer"
+    ],
+    "aliases": [
+      "Lenny's playbook",
+      "six-step growth sequence"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.product-market-fit",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.growth.super-specific-audience",
+      "rel": "related"
+    },
+    {
+      "to": "business.growth.growth-engines",
+      "rel": "related"
+    },
+    {
+      "to": "business.startups.lean-startup",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-series",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "How to kickstart and scale a consumer business (six-part series)",
+      "url": "https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "graham-2013",
+      "type": "website",
+      "authors": [
+        "Graham, P."
+      ],
+      "year": 2013,
+      "title": "Do things that don't scale",
+      "url": "https://paulgraham.com/ds.html",
+      "verified": false
+    },
+    {
+      "key": "lenny-2021-retention",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L.",
+        "Winters, C."
+      ],
+      "year": 2021,
+      "title": "What is good retention?",
+      "url": "https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Leaky bucket",
+      "anchor": "#mechanism",
+      "definition": "Spending on acquisition while users do not stay, so growth burns cash without building value."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

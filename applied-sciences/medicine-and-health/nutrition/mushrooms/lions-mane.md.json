@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "mushrooms.lions-mane",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "Hericium erinaceus",
+      "Yamabushitake",
+      "NGF"
+    ]
+  },
+  "links": [
+    {
+      "to": "mushrooms.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mori-2009",
+      "type": "paper",
+      "authors": [
+        "Mori, K.",
+        "Inatomi, S.",
+        "Ouchi, K.",
+        "Azumi, Y.",
+        "Tuchida, T."
+      ],
+      "year": 2009,
+      "title": "Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial",
+      "url": "https://doi.org/10.1002/ptr.2634",
+      "verified": false
+    },
+    {
+      "key": "levi-montalcini-1987",
+      "type": "paper",
+      "authors": [
+        "Levi-Montalcini, R."
+      ],
+      "year": 1987,
+      "title": "The nerve growth factor 35 years later",
+      "url": "https://doi.org/10.1126/science.3306916",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nerve growth factor",
+      "anchor": "#definition",
+      "definition": "A neurotrophin that supports the growth and survival of neurons."
+    },
+    {
+      "term": "Erinacines",
+      "anchor": "#mechanism",
+      "definition": "Compounds in lion's mane mycelium that stimulate NGF."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

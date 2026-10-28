@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "business.growth.virality",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "growth",
+      "virality",
+      "referral"
+    ],
+    "aliases": [
+      "viral loop",
+      "K-factor",
+      "word of mouth"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.growth-engines",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.startups.pirate-metrics",
+      "rel": "related"
+    },
+    {
+      "to": "skills.client-acquisition.referrals-and-retention",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-engines",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 6: Growth engines",
+      "url": "https://www.lennysnewsletter.com/p/growth-engines",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "chen-2012-viral",
+      "type": "website",
+      "authors": [
+        "Chen, A."
+      ],
+      "year": 2008,
+      "title": "What's your viral loop? Understanding the engine of adoption",
+      "url": "https://andrewchen.com/whats-your-viral-loop-understanding-the-engine-of-adoption/",
+      "verified": false
+    },
+    {
+      "key": "chen-2021",
+      "type": "book",
+      "authors": [
+        "Chen, A."
+      ],
+      "year": 2021,
+      "title": "The Cold Start Problem: How to Start and Scale Network Effects"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Viral coefficient",
+      "anchor": "#definition",
+      "definition": "The number of new users each user brings: invitations per user times the conversion rate of invitations."
+    },
+    {
+      "term": "Viral cycle time",
+      "anchor": "#definition",
+      "definition": "The time one round of invitations takes."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

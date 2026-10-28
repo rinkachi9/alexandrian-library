@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "exercise.intensification.giant-set",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "giant series"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.triset",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "weakley-2017",
+      "type": "paper",
+      "authors": [
+        "Weakley, J. J. S.",
+        "Till, K.",
+        "Read, D. B."
+      ],
+      "year": 2017,
+      "title": "The effects of traditional, superset, and tri-set resistance training structures on perceived intensity and physiological responses",
+      "url": "https://doi.org/10.1007/s00421-017-3680-3",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Giant set",
+      "anchor": "#definition",
+      "definition": "Several consecutive exercises for one muscle without rest."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare a giant set with a triset.",
+      "a": "Both chain exercises without rest; a giant set usually has four or more.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

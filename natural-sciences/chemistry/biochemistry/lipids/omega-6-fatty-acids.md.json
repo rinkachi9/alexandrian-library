@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "lipids.omega-6-fatty-acids",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "lipids",
+      "omega-6",
+      "polyunsaturated"
+    ],
+    "aliases": [
+      "omega 6",
+      "n-6 fatty acids"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "contrasts"
+    },
+    {
+      "to": "lipids.eicosanoids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "efsa-2010-fats",
+      "type": "paper",
+      "authors": [
+        "EFSA Panel on Dietetic Products, Nutrition, and Allergies"
+      ],
+      "year": 2010,
+      "title": "Scientific Opinion on Dietary Reference Values for fats, including saturated fatty acids, polyunsaturated fatty acids, monounsaturated fatty acids, trans fatty acids, and cholesterol",
+      "url": "https://doi.org/10.2903/j.efsa.2010.1461",
+      "verified": false
+    },
+    {
+      "key": "bamford-2013",
+      "type": "paper",
+      "authors": [
+        "Bamford, J. T.",
+        "Ray, S.",
+        "Musekiwa, A."
+      ],
+      "year": 2013,
+      "title": "Oral evening primrose oil and borage oil for eczema",
+      "url": "https://doi.org/10.1002/14651858.CD004416.pub2",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Delta-6 desaturase",
+      "anchor": "#mechanism",
+      "definition": "The slow enzyme that starts conversion of LA and ALA into longer fatty acids."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does eating more linoleic acid barely raise arachidonic acid in tissues?",
+      "a": "The conversion through delta-6 desaturase is tightly regulated.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

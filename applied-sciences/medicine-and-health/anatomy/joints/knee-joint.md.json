@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "anatomy.joints.knee-joint",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "anatomy",
+      "joints",
+      "knee"
+    ],
+    "aliases": [
+      "tibiofemoral joint",
+      "ACL",
+      "menisci"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.joints.joints-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.lower-limb-bones.femur",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.lower-limb-bones.tibia",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.lower-limb-bones.patella",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.quadriceps-femoris",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.hamstrings",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "joints"
+  }
+}

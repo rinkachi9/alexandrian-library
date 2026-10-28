@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.content-marketing",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "marketing",
+      "content-marketing"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills.hard-skills.search-engine-optimization",
+      "rel": "related",
+      "note": "Search is a main distribution channel for content"
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

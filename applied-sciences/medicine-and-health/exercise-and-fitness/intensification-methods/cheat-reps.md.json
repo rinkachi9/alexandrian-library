@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "exercise.intensification.cheat-reps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 16,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "forced reps",
+      "cheating reps"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.training-to-failure",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "acsm-2009",
+      "type": "paper",
+      "authors": [
+        "American College of Sports Medicine"
+      ],
+      "year": 2009,
+      "title": "Progression models in resistance training for healthy adults",
+      "url": "https://doi.org/10.1249/MSS.0b013e3181915670",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cheat repetition",
+      "anchor": "#definition",
+      "definition": "An extra repetition with controlled momentum or partner help after strict failure."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why should the lowering stay controlled in cheat repetitions?",
+      "a": "The eccentric phase is where the muscle still works hard; dropping the weight wastes it and risks injury.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

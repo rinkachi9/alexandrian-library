@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "essential-oils.cinnamon",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 19,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Cinnamomum zeylanicum",
+      "cinnamaldehyde"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cinnamaldehyde",
+      "anchor": "#definition",
+      "definition": "The aldehyde that gives cinnamon its flavor and is a skin sensitizer."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

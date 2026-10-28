@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.capital-expenditure",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "corporate-finance",
+      "investment"
+    ],
+    "aliases": [
+      "CapEx",
+      "capital expenditures"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.operating-expenses",
+      "rel": "contrasts"
+    },
+    {
+      "to": "finance.corporate-finance.free-cash-flow",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-ias16",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "title": "IAS 16 Property, Plant and Equipment",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/",
+      "verified": false
+    },
+    {
+      "key": "ifrs-ias38",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "title": "IAS 38 Intangible Assets",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/",
+      "verified": false
+    },
+    {
+      "key": "koller-2020",
+      "type": "book",
+      "authors": [
+        "Koller, T.",
+        "Goedhart, M.",
+        "Wessels, D."
+      ],
+      "year": 2020,
+      "title": "Valuation: Measuring and Managing the Value of Companies (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Capital expenditure",
+      "anchor": "#definition",
+      "definition": "Spending on long-lived assets that is capitalized and depreciated over their life."
+    },
+    {
+      "term": "Capital intensity",
+      "anchor": "#mechanism",
+      "definition": "Capital expenditure relative to revenue."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

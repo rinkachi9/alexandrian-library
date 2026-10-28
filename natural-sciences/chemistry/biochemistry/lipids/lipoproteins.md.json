@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "lipids.lipoproteins",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 19,
+    "tags": [
+      "lipids",
+      "cardiovascular",
+      "blood-tests"
+    ],
+    "aliases": [
+      "LDL",
+      "HDL",
+      "VLDL",
+      "chylomicrons",
+      "apolipoprotein B"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.cholesterol",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.lipoprotein-a",
+      "rel": "related"
+    },
+    {
+      "to": "diagnostics.lipid-panel",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mach-2020",
+      "type": "paper",
+      "authors": [
+        "Mach, F.",
+        "Baigent, C.",
+        "Catapano, A. L."
+      ],
+      "year": 2020,
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk",
+      "url": "https://doi.org/10.1093/eurheartj/ehz455",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "aimhigh-2011",
+      "type": "paper",
+      "authors": [
+        "AIM-HIGH Investigators"
+      ],
+      "year": 2011,
+      "title": "Niacin in patients with low HDL cholesterol levels receiving intensive statin therapy",
+      "url": "https://doi.org/10.1056/NEJMoa1107579",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lipoprotein",
+      "anchor": "#definition",
+      "definition": "A particle of lipids and proteins that carries fats and cholesterol in the blood."
+    },
+    {
+      "term": "Apolipoprotein B",
+      "anchor": "#definition",
+      "definition": "The protein on VLDL, LDL and lipoprotein(a); one per particle."
+    },
+    {
+      "term": "Reverse cholesterol transport",
+      "anchor": "#mechanism",
+      "definition": "The return of excess cholesterol from tissues to the liver by HDL."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "How does LDL lead to atherosclerosis?",
+      "a": "LDL particles enter and are retained in the artery wall, their lipids oxidize, macrophages take them up and a plaque grows.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

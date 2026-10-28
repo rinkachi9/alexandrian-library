@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "essential-oils.tea-tree",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Melaleuca alternifolia",
+      "terpinen-4-ol"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "personal-care.scalp-oil-blend",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "enshaieh-2007",
+      "type": "paper",
+      "authors": [
+        "Enshaieh, S.",
+        "Jooya, A.",
+        "Siadat, A. H.",
+        "Iraji, F."
+      ],
+      "year": 2007,
+      "title": "The efficacy of 5% topical tea tree oil gel in mild to moderate acne vulgaris: a randomized, double-blind placebo-controlled study",
+      "url": "https://doi.org/10.4103/0378-6323.30646",
+      "verified": false
+    },
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Terpinen-4-ol",
+      "anchor": "#definition",
+      "definition": "The main antimicrobial monoterpene alcohol of tea tree oil."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

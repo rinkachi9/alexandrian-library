@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "law.company-law.management-board",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "company-law",
+      "poland",
+      "governance"
+    ],
+    "aliases": [
+      "zarząd",
+      "board of directors"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.limited-liability-company",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.management-board-liability",
+      "rel": "related"
+    },
+    {
+      "to": "law.company-law.supervisory-board",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Management board",
+      "anchor": "#definition",
+      "definition": "The organ that manages a company's affairs and represents it."
+    },
+    {
+      "term": "Commercial proxy",
+      "anchor": "#mechanism",
+      "definition": "A prokurent: a person authorized by the company to act in its business affairs."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

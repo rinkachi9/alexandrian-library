@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "exercise.programming.undulating-periodization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "exercise",
+      "programming",
+      "periodization"
+    ],
+    "aliases": [
+      "DUP",
+      "daily undulating periodization",
+      "wave periodization"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.periodization",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.linear-periodization",
+      "rel": "contrasts"
+    },
+    {
+      "to": "exercise.intensification.rep-range-combination",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rhea-2002",
+      "type": "paper",
+      "authors": [
+        "Rhea, M. R.",
+        "Ball, S. D.",
+        "Phillips, W. T.",
+        "Burkett, L. N."
+      ],
+      "year": 2002,
+      "title": "A comparison of linear and daily undulating periodized programs with equated volume and intensity for strength",
+      "url": "https://doi.org/10.1519/00124278-200205000-00004",
+      "verified": false
+    },
+    {
+      "key": "moesgaard-2022",
+      "type": "paper",
+      "authors": [
+        "Moesgaard, L.",
+        "Beck, M. M.",
+        "Christiansen, L.",
+        "Aagaard, P.",
+        "Lundbye-Jensen, J."
+      ],
+      "year": 2022,
+      "title": "Effects of periodization on strength and muscle hypertrophy in volume-equated resistance training programs: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-021-01636-1",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Daily undulating periodization",
+      "anchor": "#definition",
+      "definition": "Varying loads and repetitions between sessions within one week."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What did Rhea and colleagues (2002) find?",
+      "a": "Daily undulating periodization produced more strength than linear periodization with equal volume and intensity.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

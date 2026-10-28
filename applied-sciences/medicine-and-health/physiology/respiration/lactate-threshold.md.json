@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "physiology.respiration.lactate-threshold",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "physiology",
+      "endurance",
+      "lactate"
+    ],
+    "aliases": [
+      "LT",
+      "OBLA",
+      "anaerobic threshold",
+      "maximal lactate steady state"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.vo2-max",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.lactate-and-fermentation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-types.hiit",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "faude-2009",
+      "type": "paper",
+      "authors": [
+        "Faude, O.",
+        "Kindermann, W.",
+        "Meyer, T."
+      ],
+      "year": 2009,
+      "title": "Lactate threshold concepts: how valid are they?",
+      "url": "https://doi.org/10.2165/00007256-200939060-00003",
+      "verified": false
+    },
+    {
+      "key": "brooks-2018",
+      "type": "paper",
+      "authors": [
+        "Brooks, G. A."
+      ],
+      "year": 2018,
+      "title": "The science and translation of lactate shuttle theory",
+      "url": "https://doi.org/10.1016/j.cmet.2018.03.008",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lactate threshold",
+      "anchor": "#definition",
+      "definition": "The intensity at which blood lactate starts to rise faster than it is cleared."
+    },
+    {
+      "term": "OBLA",
+      "anchor": "#definition",
+      "definition": "Onset of blood lactate accumulation, a fixed reference at 4 mmol/L."
+    },
+    {
+      "term": "Maximal lactate steady state",
+      "anchor": "#definition",
+      "definition": "The highest intensity at which blood lactate stays stable."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Runner A: VO2 max 60, LT 65 percent. Runner B: VO2 max 55, LT 85 percent. Who can sustain more oxygen uptake?",
+      "a": "Runner B: about 47 versus 39 ml/kg/min.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

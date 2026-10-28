@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.foundations",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

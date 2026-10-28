@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "environmental-health.natural-cleaning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 13,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "green cleaning",
+      "vinegar cleaning",
+      "baking soda"
+    ]
+  },
+  "links": [
+    {
+      "to": "environmental-health.natural-cleaning-recipes",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "echa-borax",
+      "type": "documentation",
+      "authors": [
+        "European Chemicals Agency"
+      ],
+      "title": "Disodium tetraborate: substance information and harmonised classification (Repr. 1B)",
+      "url": "https://echa.europa.eu/substance-information/-/substanceinfo/100.110.355",
+      "verified": false
+    },
+    {
+      "key": "cdc-chlorine",
+      "type": "documentation",
+      "authors": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "title": "Facts about chlorine",
+      "url": "https://emergency.cdc.gov/agent/chlorine/basics/facts.asp",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Neutralization",
+      "anchor": "#mechanism",
+      "definition": "The reaction of an acid and a base that cancels their properties."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "physiology.cardiovascular.resting-heart-rate",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "physiology",
+      "cardiovascular",
+      "monitoring"
+    ],
+    "aliases": [
+      "RHR",
+      "resting pulse"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.cardiovascular.heart-and-circulation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.cardiovascular.heart-rate-variability",
+      "rel": "related"
+    },
+    {
+      "to": "applied-sciences.medicine-and-health.physiology.sleep",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "aune-2017",
+      "type": "paper",
+      "authors": [
+        "Aune, D.",
+        "Giovannucci, E.",
+        "Boffetta, P."
+      ],
+      "year": 2017,
+      "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality: a systematic review and dose-response meta-analysis of prospective studies",
+      "url": "https://doi.org/10.1093/ije/dyw319",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Resting heart rate",
+      "anchor": "#definition",
+      "definition": "Heartbeats per minute at complete rest, ideally after waking."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Your RHR is 7 bpm above baseline after hard training. What does that suggest?",
+      "a": "Incomplete recovery or early illness; consider an easier day.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cardiovascular"
+  }
+}

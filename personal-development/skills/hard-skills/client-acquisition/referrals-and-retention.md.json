@@ -1,0 +1,147 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.referrals-and-retention",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "sales",
+      "retention",
+      "referrals",
+      "customer-success"
+    ],
+    "aliases": [
+      "churn",
+      "Net Promoter Score",
+      "word of mouth"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.customer-service-and-returns",
+      "rel": "related"
+    },
+    {
+      "to": "career.networking",
+      "rel": "related",
+      "note": "Referrals rest on relationships"
+    }
+  ],
+  "sources": [
+    {
+      "key": "reichheld-1990",
+      "type": "paper",
+      "authors": [
+        "Reichheld, F. F.",
+        "Sasser, W. E."
+      ],
+      "year": 1990,
+      "title": "Zero defections: Quality comes to services"
+    },
+    {
+      "key": "reichheld-2003",
+      "type": "paper",
+      "authors": [
+        "Reichheld, F. F."
+      ],
+      "year": 2003,
+      "title": "The one number you need to grow"
+    },
+    {
+      "key": "keiningham-2007",
+      "type": "paper",
+      "authors": [
+        "Keiningham, T. L.",
+        "Cooil, B.",
+        "Andreassen, T. W.",
+        "Aksoy, L."
+      ],
+      "year": 2007,
+      "title": "A longitudinal examination of net promoter and firm revenue growth",
+      "url": "https://doi.org/10.1509/jmkg.71.3.39",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "reinartz-2000",
+      "type": "paper",
+      "authors": [
+        "Reinartz, W. J.",
+        "Kumar, V."
+      ],
+      "year": 2000,
+      "title": "On the profitability of long-life customers in a noncontractual setting",
+      "url": "https://doi.org/10.1509/jmkg.64.4.17.18077",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "schmitt-2011",
+      "type": "paper",
+      "authors": [
+        "Schmitt, P.",
+        "Skiera, B.",
+        "Van den Bulte, C."
+      ],
+      "year": 2011,
+      "title": "Referral programs and customer value",
+      "url": "https://doi.org/10.1509/jmkg.75.1.46",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Churn",
+      "anchor": "#definitions",
+      "definition": "The share of clients lost in a period."
+    },
+    {
+      "term": "Revenue retention",
+      "anchor": "#measuring-retention",
+      "definition": "Revenue from existing clients at the end of a period divided by their revenue at the start."
+    },
+    {
+      "term": "Net Promoter Score",
+      "anchor": "#evidence-and-its-limits",
+      "definition": "Share of promoters minus share of detractors on a 0 to 10 recommendation question."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why should the claim \"5% more retention raises profits by 25% to 95%\" be used carefully?",
+      "a": "It comes from a 1990 article whose evidence has been criticized and is often misquoted.",
+      "anchor": "#evidence-and-its-limits",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Write a specific referral request.",
+      "a": "For example: \"Do you know another e-commerce manager who is planning a platform migration this year?\"",
+      "anchor": "#getting-referrals",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Name four early warning signs that a client may leave.",
+      "a": "Slower replies, missed meetings, reduced usage, a new contact person, complaints.",
+      "anchor": "#measuring-retention",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

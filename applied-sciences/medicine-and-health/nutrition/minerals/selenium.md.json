@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "nutrition.minerals.selenium",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Se",
+      "selenocysteine",
+      "Brazil nuts"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.supplements.glutathione",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-selenium",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Selenium: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "rayman-2012",
+      "type": "paper",
+      "authors": [
+        "Rayman, M. P."
+      ],
+      "year": 2012,
+      "title": "Selenium and human health",
+      "url": "https://doi.org/10.1016/S0140-6736(11)61452-9",
+      "verified": false
+    },
+    {
+      "key": "select-2011",
+      "type": "paper",
+      "authors": [
+        "Klein, E. A.",
+        "Thompson, I. M.",
+        "Tangen, C. M."
+      ],
+      "year": 2011,
+      "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT)",
+      "url": "https://doi.org/10.1001/jama.2011.1437",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Selenocysteine",
+      "anchor": "#definition",
+      "definition": "The selenium-containing amino acid in selenoproteins."
+    },
+    {
+      "term": "Selenosis",
+      "anchor": "#worked-example",
+      "definition": "Selenium toxicity with hair and nail loss."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

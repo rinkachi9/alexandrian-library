@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "business.growth.performance-marketing-engine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "growth",
+      "paid-acquisition"
+    ],
+    "aliases": [
+      "paid acquisition"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.growth-engines",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.social-media.paid-social-advertising",
+      "rel": "related"
+    },
+    {
+      "to": "business.metrics.return-on-ad-spend",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-engines",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 6: Growth engines",
+      "url": "https://www.lennysnewsletter.com/p/growth-engines",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Performance marketing",
+      "anchor": "#definition",
+      "definition": "Paid acquisition in which spend is tied to measured results and reinvested."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "law.company-law.shareholder-liability",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 12,
+    "tags": [
+      "company-law",
+      "poland",
+      "liability"
+    ],
+    "aliases": [
+      "odpowiedzialność wspólników"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.limited-liability-company",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.management-board-liability",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "kodeks-cywilny",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1964,
+      "title": "Ustawa z dnia 23 kwietnia 1964 r. Kodeks cywilny (Civil Code)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19640160093",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Joint and several liability",
+      "anchor": "#mechanism",
+      "definition": "Liability under which a creditor can claim the whole debt from any one of the debtors."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

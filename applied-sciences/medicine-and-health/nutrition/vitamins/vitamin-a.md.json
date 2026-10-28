@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-a",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "retinol",
+      "beta-carotene",
+      "carotenoids"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.nutrition-and-immunity",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-vit-a",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin A: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "atbc-1994",
+      "type": "paper",
+      "authors": [
+        "Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group"
+      ],
+      "year": 1994,
+      "title": "The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers",
+      "url": "https://doi.org/10.1056/NEJM199404143301501",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Retinol activity equivalent",
+      "anchor": "#definition",
+      "definition": "A unit that accounts for the different vitamin A activity of retinol and carotenoids."
+    },
+    {
+      "term": "Rhodopsin",
+      "anchor": "#mechanism",
+      "definition": "The light-sensitive pigment of retinal rods formed from retinal and opsin."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

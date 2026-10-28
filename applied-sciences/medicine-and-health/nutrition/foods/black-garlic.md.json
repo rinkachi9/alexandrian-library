@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "foods.black-garlic",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "foods"
+    ],
+    "aliases": [
+      "aged garlic",
+      "S-allyl cysteine"
+    ]
+  },
+  "links": [
+    {
+      "to": "foods.garlic",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kimura-2017",
+      "type": "paper",
+      "authors": [
+        "Kimura, S.",
+        "Tung, Y. C.",
+        "Pan, M. H."
+      ],
+      "year": 2017,
+      "title": "Black garlic: a critical review of its production, bioactivity, and application",
+      "url": "https://doi.org/10.1016/j.jfda.2016.11.003",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "S-allyl cysteine",
+      "anchor": "#definition",
+      "definition": "A stable sulfur compound that increases in aged garlic."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "foods"
+  }
+}

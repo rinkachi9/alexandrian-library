@@ -1,0 +1,120 @@
+{
+  "node": {
+    "id": "biochemistry.lactate-and-fermentation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "biochemistry",
+      "energy",
+      "lactate",
+      "fermentation"
+    ],
+    "aliases": [
+      "lactic acid",
+      "Cori cycle",
+      "lactate shuttle",
+      "anaerobic glycolysis"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.glycolysis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.lactate-threshold",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.gluconeogenesis",
+      "rel": "related",
+      "note": "Liver turns lactate into glucose"
+    },
+    {
+      "to": "nutrition.foundations.fermented-foods",
+      "rel": "related",
+      "note": "Fermentation by bacteria in foods"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brooks-2018",
+      "type": "paper",
+      "authors": [
+        "Brooks, G. A."
+      ],
+      "year": 2018,
+      "title": "The science and translation of lactate shuttle theory",
+      "url": "https://doi.org/10.1016/j.cmet.2018.03.008",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "faude-2009",
+      "type": "paper",
+      "authors": [
+        "Faude, O.",
+        "Kindermann, W.",
+        "Meyer, T."
+      ],
+      "year": 2009,
+      "title": "Lactate threshold concepts: how valid are they?",
+      "url": "https://doi.org/10.2165/00007256-200939060-00003",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fermentation",
+      "anchor": "#definition",
+      "definition": "Regeneration of NAD+ by transferring electrons from NADH to an organic product of pyruvate, without oxygen."
+    },
+    {
+      "term": "Cori cycle",
+      "anchor": "#mechanism",
+      "definition": "Lactate from muscle is turned into glucose in the liver and returned to the muscle."
+    },
+    {
+      "term": "Lactate shuttle",
+      "anchor": "#mechanism",
+      "definition": "Movement of lactate between cells and tissues where it is used as fuel."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is \"lactic acid\" a misleading name for the cause of muscle acidosis?",
+      "a": "At body pH the molecule exists as lactate; the hydrogen ions come mainly from ATP hydrolysis and glycolysis, and lactate formation consumes a hydrogen ion.",
+      "anchor": "#lactate-acid-and-fatigue",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does yeast produce by fermentation?",
+      "a": "Ethanol and carbon dioxide.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

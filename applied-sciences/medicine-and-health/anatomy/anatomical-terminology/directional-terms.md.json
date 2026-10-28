@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "anatomy.terminology.directional-terms",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "anatomy",
+      "terminology"
+    ],
+    "aliases": [
+      "anatomical directions",
+      "relative position terms"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.anatomical-position",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Proximal and distal",
+      "anchor": "#mechanism",
+      "definition": "Closer to and farther from the trunk or point of origin, used for limbs."
+    },
+    {
+      "term": "Ipsilateral and contralateral",
+      "anchor": "#mechanism",
+      "definition": "On the same side and on the opposite side."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does \"dorsal\" mean on the foot?",
+      "a": "The top of the foot.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "anatomy"
+  }
+}

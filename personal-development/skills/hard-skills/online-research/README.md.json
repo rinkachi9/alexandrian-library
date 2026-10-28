@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.online-research",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "research",
+      "information-literacy"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "online-research"
+  }
+}

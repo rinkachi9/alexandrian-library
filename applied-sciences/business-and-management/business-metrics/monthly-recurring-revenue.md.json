@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "business.metrics.monthly-recurring-revenue",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "metrics",
+      "saas",
+      "revenue"
+    ],
+    "aliases": [
+      "MRR"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.annual-recurring-revenue",
+      "rel": "related"
+    },
+    {
+      "to": "business.metrics.net-revenue-retention",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    },
+    {
+      "key": "bessemer-cloud",
+      "type": "website",
+      "authors": [
+        "Bessemer Venture Partners"
+      ],
+      "title": "State of the Cloud and cloud benchmarks",
+      "url": "https://www.bvp.com/atlas",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Monthly recurring revenue",
+      "anchor": "#definition",
+      "definition": "The normalized monthly subscription revenue from all active paying customers."
+    },
+    {
+      "term": "Net new MRR",
+      "anchor": "#mechanism",
+      "definition": "New plus expansion plus reactivation minus contraction minus churn MRR."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

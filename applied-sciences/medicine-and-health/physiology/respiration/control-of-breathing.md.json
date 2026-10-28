@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "physiology.respiration.control-of-breathing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "physiology",
+      "respiration",
+      "nervous-system"
+    ],
+    "aliases": [
+      "respiratory center",
+      "chemoreceptors",
+      "hyperventilation"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.gas-exchange",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.breathing-techniques",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hyperventilation",
+      "anchor": "#definition",
+      "definition": "Ventilation beyond metabolic need, lowering CO2 and raising blood pH."
+    },
+    {
+      "term": "Chemoreceptor",
+      "anchor": "#definition",
+      "definition": "A sensor that detects CO2, pH or oxygen and adjusts breathing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does slow exhalation help in a panic attack?",
+      "a": "It reduces ventilation, letting CO2 rise back to normal and correcting alkalosis.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

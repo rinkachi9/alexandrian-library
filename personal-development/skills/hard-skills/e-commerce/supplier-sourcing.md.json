@@ -1,0 +1,114 @@
+{
+  "node": {
+    "id": "skills.e-commerce.supplier-sourcing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "e-commerce",
+      "sourcing",
+      "suppliers",
+      "quality-control"
+    ],
+    "aliases": [
+      "sourcing",
+      "Incoterms",
+      "AQL inspection",
+      "MOQ"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.product-selection",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "international-chamber-of",
+      "type": "standard",
+      "authors": [
+        "International Chamber of Commerce"
+      ],
+      "title": "Incoterms 2020",
+      "url": "https://iccwbo.org/business-solutions/incoterms-rules/",
+      "verified": false
+    },
+    {
+      "key": "iso-2859-1",
+      "type": "standard",
+      "title": "ISO 2859-1:1999. Sampling procedures for inspection by attributes, Part 1",
+      "url": "https://www.iso.org/standard/1141.html",
+      "verified": false
+    },
+    {
+      "key": "european-commission",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "Food contact materials",
+      "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sourcing",
+      "anchor": "#definition",
+      "definition": "Identifying, evaluating and selecting suppliers and agreeing terms with them."
+    },
+    {
+      "term": "Incoterms",
+      "anchor": "#key-commercial-terms",
+      "definition": "ICC trade terms that define who pays for and bears the risk of transport, insurance and customs."
+    },
+    {
+      "term": "AQL inspection",
+      "anchor": "#quality-control",
+      "definition": "A sampling inspection that accepts or rejects a batch based on defects found in a statistical sample."
+    },
+    {
+      "term": "Golden sample",
+      "anchor": "#samples",
+      "definition": "The approved reference sample that production must match."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Who bears transport risk under EXW, FOB and DDP?",
+      "a": "EXW: the buyer from the factory door; FOB: the buyer once goods are on board at the port; DDP: the seller up to delivery with duties paid.",
+      "anchor": "#key-commercial-terms",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why write a product specification before asking for quotes?",
+      "a": "Without it quotes are not comparable and samples cannot be judged.",
+      "anchor": "#requirements-before-searching",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Name six criteria for evaluating a supplier.",
+      "a": "Legitimacy, capability, quality, compliance, communication and terms.",
+      "anchor": "#evaluating-suppliers",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

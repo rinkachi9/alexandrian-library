@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "exercise.programming.annual-planning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "exercise",
+      "programming",
+      "planning"
+    ],
+    "aliases": [
+      "yearly training plan",
+      "training year"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.training-programming",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.periodization",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.programming.deloads",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "issurin-2010",
+      "type": "paper",
+      "authors": [
+        "Issurin, V. B."
+      ],
+      "year": 2010,
+      "title": "New horizons for the methodology and physiology of training periodization",
+      "url": "https://doi.org/10.2165/11319770-000000000-00000",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Annual plan",
+      "anchor": "#definition",
+      "definition": "The long-term outline of training over a year."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Where would you place deloads in a 12-week hypertrophy phase?",
+      "a": "For example at the end of each 4 to 6 week mesocycle.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

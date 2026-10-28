@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "business.metrics.churn-rate",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "metrics",
+      "churn",
+      "retention"
+    ],
+    "aliases": [
+      "churn",
+      "attrition rate",
+      "logo churn"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.monthly-recurring-revenue",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.growth.retention",
+      "rel": "related"
+    },
+    {
+      "to": "business.metrics.customer-lifetime-value",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    },
+    {
+      "key": "fader-2009",
+      "type": "paper",
+      "authors": [
+        "Fader, P. S.",
+        "Hardie, B. G. S."
+      ],
+      "year": 2009,
+      "title": "Probability models for customer-base analysis",
+      "url": "https://doi.org/10.1016/j.intmar.2008.11.003",
+      "verified": false
+    },
+    {
+      "key": "lenny-2021-retention",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L.",
+        "Winters, C."
+      ],
+      "year": 2021,
+      "title": "What is good retention?",
+      "url": "https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Churn rate",
+      "anchor": "#definition",
+      "definition": "The share of customers or recurring revenue lost in a period."
+    },
+    {
+      "term": "Dunning",
+      "anchor": "#mechanism",
+      "definition": "Automated recovery of failed subscription payments."
+    },
+    {
+      "term": "Growth ceiling",
+      "anchor": "#mechanism",
+      "definition": "The customer base level at which new customers equal churned customers, about new per month divided by churn."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

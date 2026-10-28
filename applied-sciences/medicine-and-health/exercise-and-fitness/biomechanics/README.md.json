@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.exercise-and-fitness.biomechanics",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "biomechanics"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "biomechanics"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "node": {
+    "id": "skills.copywriting.value-proposition-and-benefits",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "marketing",
+      "copywriting",
+      "value-proposition"
+    ],
+    "aliases": [
+      "unique selling proposition",
+      "USP",
+      "features and benefits",
+      "value proposition canvas"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.customer-research",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.personal-branding.positioning",
+      "rel": "related",
+      "note": "Positioning a person follows the same logic"
+    },
+    {
+      "to": "skills.e-commerce.product-selection",
+      "rel": "related",
+      "note": "The USP is a criterion of a winning product"
+    }
+  ],
+  "sources": [
+    {
+      "key": "reeves-1961",
+      "type": "book",
+      "authors": [
+        "Reeves, R."
+      ],
+      "year": 1961,
+      "title": "Reality in Advertising"
+    },
+    {
+      "key": "osterwalder-2014",
+      "type": "book",
+      "authors": [
+        "Osterwalder, A.",
+        "Pigneur, Y.",
+        "Bernarda, G.",
+        "Smith, A."
+      ],
+      "year": 2014,
+      "title": "Value Proposition Design"
+    },
+    {
+      "key": "christensen-2016",
+      "type": "paper",
+      "authors": [
+        "Christensen, C. M.",
+        "Hall, T.",
+        "Dillon, K.",
+        "Duncan, D. S."
+      ],
+      "year": 2016,
+      "title": "Know your customers' \"jobs to be done\"",
+      "url": "https://hbr.org/2016/09/know-your-customers-jobs-to-be-done",
+      "verified": false
+    },
+    {
+      "key": "directive-2006-114",
+      "type": "standard",
+      "title": "Directive 2006/114/EC concerning misleading and comparative advertising",
+      "url": "https://eur-lex.europa.eu/eli/dir/2006/114/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Value proposition",
+      "anchor": "#definition",
+      "definition": "A statement of the specific benefit a defined customer gets and why it is better for them than the alternatives."
+    },
+    {
+      "term": "Unique selling proposition",
+      "anchor": "#definition",
+      "definition": "Reeves's requirement of a specific, unique and strong proposition to the buyer."
+    },
+    {
+      "term": "Outcome",
+      "anchor": "#features-benefits-and-outcomes",
+      "definition": "The change in the user's life that a product benefit leads to."
+    },
+    {
+      "term": "Proof",
+      "anchor": "#kinds-of-proof",
+      "definition": "Evidence that makes a promise believable, from demonstrations to guarantees."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Use the \"so what?\" technique on the feature \"30 lessons\".",
+      "a": "For example: so you learn at your own pace; so you can fit learning into lunch breaks; so you finish without taking time off.",
+      "anchor": "#features-benefits-and-outcomes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is \"do nothing\" often the main competitor?",
+      "a": "Many buyers can live with the problem, so the copy must show the cost of the status quo.",
+      "anchor": "#positioning-against-alternatives",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "Which is more credible for an unknown brand, a guarantee or customer testimonials, and why?",
+      "a": "Both help; a demonstration the reader can check is strongest, testimonials show others had results, and a guarantee shifts risk without proving the claim.",
+      "anchor": "#kinds-of-proof",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

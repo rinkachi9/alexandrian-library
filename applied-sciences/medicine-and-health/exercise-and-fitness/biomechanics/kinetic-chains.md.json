@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "exercise.biomechanics.kinetic-chains",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "exercise",
+      "biomechanics"
+    ],
+    "aliases": [
+      "open kinetic chain",
+      "closed kinetic chain",
+      "kinematic chain"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.biomechanics-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.joint-by-joint-approach",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "steindler-1955",
+      "type": "book",
+      "authors": [
+        "Steindler, A."
+      ],
+      "year": 1955,
+      "title": "Kinesiology of the Human Body under Normal and Pathological Conditions"
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Open kinetic chain",
+      "anchor": "#mechanism",
+      "definition": "An exercise in which the end segment moves freely."
+    },
+    {
+      "term": "Closed kinetic chain",
+      "anchor": "#mechanism",
+      "definition": "An exercise in which the end segment is fixed against a surface."
+    },
+    {
+      "term": "Degrees of freedom",
+      "anchor": "#definition",
+      "definition": "The number of independent movements a chain can make relative to a fixed base."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare shear forces at the knee in leg extensions and squats.",
+      "a": "Leg extensions (open chain) produce more anterior shear at certain angles; squats (closed chain) more compression with co-contraction.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biomechanics"
+  }
+}

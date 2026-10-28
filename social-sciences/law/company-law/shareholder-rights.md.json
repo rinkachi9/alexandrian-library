@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "law.company-law.shareholder-rights",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "company-law",
+      "poland"
+    ],
+    "aliases": [
+      "prawa wspólników",
+      "udziały uprzywilejowane",
+      "privileged shares"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.limited-liability-company",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.dividends",
+      "rel": "related"
+    },
+    {
+      "to": "law.company-law.shareholders-meeting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Privileged share",
+      "anchor": "#mechanism",
+      "definition": "A share with preferential rights to votes, dividend or liquidation assets set in the articles."
+    },
+    {
+      "term": "Right of control",
+      "anchor": "#mechanism",
+      "definition": "A shareholder's right to inspect books and documents and request explanations from the board."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "node": {
+    "id": "carbohydrates.glycosaminoglycans",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "carbohydrates",
+      "cartilage",
+      "connective-tissue"
+    ],
+    "aliases": [
+      "GAGs",
+      "proteoglycans",
+      "hyaluronic acid",
+      "chondroitin sulfate"
+    ]
+  },
+  "links": [
+    {
+      "to": "carbohydrates.carbohydrates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.supplements.glucosamine",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.supplements.chondroitin",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.joints.joints-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glycosaminoglycan",
+      "anchor": "#definition",
+      "definition": "A long unbranched polysaccharide of repeating amino sugar and uronic acid units."
+    },
+    {
+      "term": "Proteoglycan",
+      "anchor": "#definition",
+      "definition": "A core protein carrying many glycosaminoglycan chains."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does cartilage recover its thickness after a load is removed?",
+      "a": "The negatively charged GAGs draw water back in by osmotic swelling pressure.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "carbohydrates"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.diagnostics",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "diagnostics"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "diagnostics"
+  }
+}

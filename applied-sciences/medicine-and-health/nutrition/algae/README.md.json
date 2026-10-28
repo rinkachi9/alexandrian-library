@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.algae",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "nutrition",
+      "algae"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "algae"
+  }
+}

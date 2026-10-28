@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "herbal-extracts.ashwagandha",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Withania somnifera",
+      "Indian ginseng",
+      "withanolides",
+      "KSM-66"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.rhodiola",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "chandrasekhar-2012",
+      "type": "paper",
+      "authors": [
+        "Chandrasekhar, K.",
+        "Kapoor, J.",
+        "Anishetty, S."
+      ],
+      "year": 2012,
+      "title": "A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults",
+      "url": "https://doi.org/10.4103/0253-7176.106022",
+      "verified": false
+    },
+    {
+      "key": "livertox",
+      "type": "documentation",
+      "authors": [
+        "National Institute of Diabetes and Digestive and Kidney Diseases"
+      ],
+      "title": "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547852/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Withanolides",
+      "anchor": "#definition",
+      "definition": "Steroidal lactones that are the main active compounds of ashwagandha."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

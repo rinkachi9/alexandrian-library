@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "law.company-law.management-board-liability",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 13,
+    "tags": [
+      "company-law",
+      "poland",
+      "liability",
+      "insolvency"
+    ],
+    "aliases": [
+      "odpowiedzialność członków zarządu",
+      "art. 299 KSH",
+      "art. 116 Ordynacji podatkowej"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.management-board",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.shareholder-liability",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "tax-ordinance",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1997,
+      "title": "Ustawa z dnia 29 sierpnia 1997 r. Ordynacja podatkowa (Tax Ordinance), art. 116",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971370926",
+      "verified": false
+    },
+    {
+      "key": "kks",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1999,
+      "title": "Ustawa z dnia 10 września 1999 r. Kodeks karny skarbowy (Fiscal Penal Code)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19990830930",
+      "verified": false
+    },
+    {
+      "key": "bankruptcy-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2003,
+      "title": "Ustawa z dnia 28 lutego 2003 r. Prawo upadłościowe (Bankruptcy Law), art. 21",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20030600535",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Subsidiary liability",
+      "anchor": "#mechanism",
+      "definition": "Liability that arises only after enforcement against the primary debtor has failed."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

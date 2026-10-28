@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "amino-acids.methionine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 14,
+    "tags": [
+      "amino-acids",
+      "essential",
+      "sulfur",
+      "methylation"
+    ],
+    "aliases": [
+      "L-methionine",
+      "Met",
+      "M"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.cysteine",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b12",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b9",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "ods-b12",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin B12: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "SAMe",
+      "anchor": "#mechanism",
+      "definition": "S-adenosylmethionine, the main methyl donor of the body."
+    },
+    {
+      "term": "Homocysteine",
+      "anchor": "#mechanism",
+      "definition": "A sulfur amino acid formed from methionine; high blood levels are a cardiovascular risk marker."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is transsulfuration?",
+      "a": "The conversion of homocysteine to cysteine, which needs vitamin B6.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

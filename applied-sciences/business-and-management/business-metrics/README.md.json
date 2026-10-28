@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.business-and-management.business-metrics",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "metrics"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

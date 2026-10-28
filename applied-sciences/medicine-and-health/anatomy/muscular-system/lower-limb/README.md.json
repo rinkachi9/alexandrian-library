@@ -1,0 +1,17 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.muscular-system.lower-limb",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "lower-limb"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "lower-limb-muscles"
+  }
+}

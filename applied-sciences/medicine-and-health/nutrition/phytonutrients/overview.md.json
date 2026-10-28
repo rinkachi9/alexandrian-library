@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "phytonutrients.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "phytochemicals",
+      "plant compounds"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.oxidative-stress",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "liu-2003",
+      "type": "paper",
+      "authors": [
+        "Liu, R. H."
+      ],
+      "year": 2003,
+      "title": "Health benefits of fruit and vegetables are from additive and synergistic combinations of phytochemicals",
+      "url": "https://doi.org/10.1093/ajcn/78.3.517S",
+      "verified": false
+    },
+    {
+      "key": "manach-2004",
+      "type": "paper",
+      "authors": [
+        "Manach, C.",
+        "Scalbert, A.",
+        "Morand, C.",
+        "Rémésy, C.",
+        "Jiménez, L."
+      ],
+      "year": 2004,
+      "title": "Polyphenols: food sources and bioavailability",
+      "url": "https://doi.org/10.1093/ajcn/79.5.727",
+      "verified": false
+    },
+    {
+      "key": "aune-2017",
+      "type": "paper",
+      "authors": [
+        "Aune, D.",
+        "Giovannucci, E.",
+        "Boffetta, P."
+      ],
+      "year": 2017,
+      "title": "Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality: a systematic review and dose-response meta-analysis of prospective studies",
+      "url": "https://doi.org/10.1093/ije/dyw319",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phytonutrient",
+      "anchor": "#definition",
+      "definition": "A non-essential, biologically active compound from plants."
+    },
+    {
+      "term": "Nrf2",
+      "anchor": "#mechanism",
+      "definition": "A transcription factor that switches on antioxidant and detoxifying enzymes."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might whole foods work better than isolated phytonutrients?",
+      "a": "Foods combine many compounds and fiber that act together, and isolated compounds are often poorly absorbed.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

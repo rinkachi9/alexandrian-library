@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "business.startups.building-the-first-product",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "startups",
+      "product",
+      "software"
+    ],
+    "aliases": [
+      "creating your own product"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.minimum-viable-product",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.startups.minimum-viable-product",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cagan-2017",
+      "type": "book",
+      "authors": [
+        "Cagan, M."
+      ],
+      "year": 2017,
+      "title": "Inspired: How to Create Tech Products Customers Love (2nd ed.)"
+    },
+    {
+      "key": "scrum-2020",
+      "type": "documentation",
+      "authors": [
+        "Schwaber, K.",
+        "Sutherland, J."
+      ],
+      "year": 2020,
+      "title": "The Scrum Guide",
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Product owner",
+      "anchor": "#definition",
+      "definition": "The person accountable for maximizing product value, mainly by ordering the backlog."
+    },
+    {
+      "term": "Technical debt",
+      "anchor": "#mechanism",
+      "definition": "Shortcuts in software that make later changes slower."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}

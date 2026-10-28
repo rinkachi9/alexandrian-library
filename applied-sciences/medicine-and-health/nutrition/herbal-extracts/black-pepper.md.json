@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "herbal-extracts.black-pepper",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 14,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Piper nigrum",
+      "piperine",
+      "BioPerine"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.turmeric",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "shoba-1998",
+      "type": "paper",
+      "authors": [
+        "Shoba, G.",
+        "Joy, D.",
+        "Joseph, T."
+      ],
+      "year": 1998,
+      "title": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers",
+      "url": "https://doi.org/10.1055/s-2006-957450",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Piperine",
+      "anchor": "#definition",
+      "definition": "The pungent alkaloid of black pepper that increases bioavailability of other compounds."
+    },
+    {
+      "term": "Bioavailability",
+      "anchor": "#definition",
+      "definition": "The fraction of a dose that reaches the bloodstream."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "business.startups.product-market-fit",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "startups",
+      "retention",
+      "product-market-fit"
+    ],
+    "aliases": [
+      "PMF"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.pirate-metrics",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.growth.retention",
+      "rel": "related"
+    },
+    {
+      "to": "business.startups.lean-startup",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "andreessen-2007",
+      "type": "website",
+      "authors": [
+        "Andreessen, M."
+      ],
+      "year": 2007,
+      "title": "The only thing that matters",
+      "url": "https://pmarchive.com/guide_to_startups_part4.html",
+      "verified": false
+    },
+    {
+      "key": "ellis-2017",
+      "type": "book",
+      "authors": [
+        "Ellis, S.",
+        "Brown, M."
+      ],
+      "year": 2017,
+      "title": "Hacking Growth: How Today's Fastest-Growing Companies Drive Breakout Success"
+    },
+    {
+      "key": "vohra-2018",
+      "type": "website",
+      "authors": [
+        "Vohra, R."
+      ],
+      "year": 2018,
+      "title": "How Superhuman built an engine to find product/market fit",
+      "url": "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/",
+      "verified": false
+    },
+    {
+      "key": "lenny-2021-retention",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L.",
+        "Winters, C."
+      ],
+      "year": 2021,
+      "title": "What is good retention?",
+      "url": "https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Product-market fit",
+      "anchor": "#definition",
+      "definition": "Being in a good market with a product that can satisfy that market."
+    },
+    {
+      "term": "Sean Ellis test",
+      "anchor": "#mechanism",
+      "definition": "A survey asking how disappointed users would be without the product, with 40% very disappointed as a common benchmark."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}

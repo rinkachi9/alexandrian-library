@@ -1,0 +1,138 @@
+{
+  "node": {
+    "id": "skills.online-research.specialized-sources",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "research",
+      "databases",
+      "statistics",
+      "law"
+    ],
+    "aliases": [
+      "scholarly databases",
+      "official statistics",
+      "legal databases",
+      "archives"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.online-research.search-strategy",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.online-research.source-evaluation",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "eurostat",
+      "type": "website",
+      "title": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat",
+      "verified": false
+    },
+    {
+      "key": "eur-lex",
+      "type": "standard",
+      "title": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/",
+      "verified": false
+    },
+    {
+      "key": "pubmed",
+      "type": "website",
+      "title": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "verified": false
+    },
+    {
+      "key": "unpaywall",
+      "type": "website",
+      "title": "Unpaywall",
+      "url": "https://unpaywall.org/",
+      "verified": false
+    },
+    {
+      "key": "crossref",
+      "type": "website",
+      "authors": [
+        "Crossref"
+      ],
+      "title": "Retraction Watch database",
+      "url": "https://www.crossref.org/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "polona-national-library",
+      "type": "website",
+      "title": "Polona, National Library of Poland",
+      "url": "https://polona.pl/",
+      "verified": false
+    },
+    {
+      "key": "library-of-congress",
+      "type": "website",
+      "authors": [
+        "Library of Congress"
+      ],
+      "title": "Chronicling America",
+      "url": "https://chroniclingamerica.loc.gov/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Specialized source",
+      "anchor": "#definition",
+      "definition": "A database or archive with defined coverage and quality control for one kind of information."
+    },
+    {
+      "term": "Preprint",
+      "anchor": "#research-literature",
+      "definition": "A research paper made public before peer review."
+    },
+    {
+      "term": "Retraction",
+      "anchor": "#research-literature",
+      "definition": "The formal withdrawal of a published paper, listed in the Retraction Watch database."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Where would you look first for the text of an EU regulation and its current version?",
+      "a": "EUR-Lex, using the consolidated version and checking the application date.",
+      "anchor": "#law-and-official-documents",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why read the methodology of official statistics?",
+      "a": "Definitions, revisions and seasonal adjustment change what the numbers mean.",
+      "anchor": "#official-statistics",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Name three legal ways to read a paywalled article.",
+      "a": "Unpaywall or repositories, a library, or asking the author.",
+      "anchor": "#research-literature",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "online-research"
+  }
+}

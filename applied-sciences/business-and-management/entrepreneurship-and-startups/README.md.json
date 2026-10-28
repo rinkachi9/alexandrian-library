@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.business-and-management.entrepreneurship-and-startups",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "startups"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}

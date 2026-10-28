@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "herbal-extracts.maca",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Lepidium meyenii",
+      "Peruvian ginseng",
+      "macamides"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.tribulus",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "shin-2010",
+      "type": "paper",
+      "authors": [
+        "Shin, B. C.",
+        "Lee, M. S.",
+        "Yang, E. J.",
+        "Lim, H. S.",
+        "Ernst, E."
+      ],
+      "year": 2010,
+      "title": "Maca (L. meyenii) for improving sexual function: a systematic review",
+      "url": "https://doi.org/10.1186/1472-6882-10-44",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Macamides",
+      "anchor": "#definition",
+      "definition": "Fatty acid amides specific to maca."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

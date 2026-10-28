@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "peptides.collagen-peptides",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "hydrolyzed collagen",
+      "collagen supplements"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "proteins.collagen",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "de-miranda-2021",
+      "type": "paper",
+      "authors": [
+        "de Miranda, R. B.",
+        "Weimer, P.",
+        "Rossi, R. C."
+      ],
+      "year": 2021,
+      "title": "Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1111/ijd.15518",
+      "verified": false
+    },
+    {
+      "key": "zdzieblik-2015",
+      "type": "paper",
+      "authors": [
+        "Zdzieblik, D.",
+        "Oesser, S.",
+        "Baumstark, M. W.",
+        "Gollhofer, A.",
+        "König, D."
+      ],
+      "year": 2015,
+      "title": "Collagen peptide supplementation in combination with resistance training improves body composition and increases muscle strength in elderly sarcopenic men: a randomised controlled trial",
+      "url": "https://doi.org/10.1017/S0007114515002810",
+      "verified": false
+    },
+    {
+      "key": "shaw-2017",
+      "type": "paper",
+      "authors": [
+        "Shaw, G.",
+        "Lee-Barthel, A.",
+        "Ross, M. L.",
+        "Wang, B.",
+        "Baar, K."
+      ],
+      "year": 2017,
+      "title": "Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis",
+      "url": "https://doi.org/10.3945/ajcn.116.138594",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hydrolyzed collagen",
+      "anchor": "#definition",
+      "definition": "Collagen broken down into small, easily absorbed peptides."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

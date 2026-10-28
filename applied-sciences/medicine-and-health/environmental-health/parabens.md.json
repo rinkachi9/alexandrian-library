@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "environmental-health.parabens",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "methylparaben",
+      "propylparaben",
+      "butylparaben"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "sccs-2013-parabens",
+      "type": "report",
+      "authors": [
+        "Scientific Committee on Consumer Safety"
+      ],
+      "year": 2013,
+      "title": "Opinion on parabens (SCCS/1514/13)",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en",
+      "verified": false
+    },
+    {
+      "key": "darbre-2004",
+      "type": "paper",
+      "authors": [
+        "Darbre, P. D.",
+        "Aljarrah, A.",
+        "Miller, W. R."
+      ],
+      "year": 2004,
+      "title": "Concentrations of parabens in human breast tumours",
+      "url": "https://doi.org/10.1002/jat.958",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Paraben",
+      "anchor": "#definition",
+      "definition": "An ester of para-hydroxybenzoic acid used as a preservative."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

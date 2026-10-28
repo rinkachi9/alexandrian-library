@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "food-additives.synthetic-food-colors",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "nutrition",
+      "food-additives",
+      "food-safety"
+    ],
+    "aliases": [
+      "azo dyes",
+      "tartrazine",
+      "Southampton colors",
+      "E102",
+      "E110",
+      "E120",
+      "E127",
+      "E129"
+    ]
+  },
+  "links": [
+    {
+      "to": "food-additives.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mccann-2007",
+      "type": "paper",
+      "authors": [
+        "McCann, D.",
+        "Barrett, A.",
+        "Cooper, A."
+      ],
+      "year": 2007,
+      "title": "Food additives and hyperactive behaviour in 3-year-old and 8/9-year-old children in the community: a randomised, double-blinded, placebo-controlled trial",
+      "url": "https://doi.org/10.1016/S0140-6736(07)61306-3",
+      "verified": false
+    },
+    {
+      "key": "fda-2025-red3",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2025,
+      "title": "FDA to revoke authorization for the use of Red No. 3 in food and ingested drugs",
+      "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
+      "verified": false
+    },
+    {
+      "key": "eu-1333-2008",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2008,
+      "title": "Regulation (EC) No 1333/2008 on food additives",
+      "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Azo dye",
+      "anchor": "#definition",
+      "definition": "A synthetic dye containing an N=N group."
+    },
+    {
+      "term": "Southampton colors",
+      "anchor": "#mechanism",
+      "definition": "Six colors linked to hyperactivity that require an EU warning label."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

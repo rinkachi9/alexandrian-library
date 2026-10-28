@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "nutrition.supplements.coenzyme-q10",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "supplements"
+    ],
+    "aliases": [
+      "CoQ10",
+      "ubiquinone",
+      "ubiquinol"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.oxidative-phosphorylation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.mitochondria",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mortensen-2014",
+      "type": "paper",
+      "authors": [
+        "Mortensen, S. A.",
+        "Rosenfeldt, F.",
+        "Kumar, A."
+      ],
+      "year": 2014,
+      "title": "The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure: results from Q-SYMBIO: a randomized double-blind trial",
+      "url": "https://doi.org/10.1016/j.jchf.2014.06.008",
+      "verified": false
+    },
+    {
+      "key": "qu-2018",
+      "type": "paper",
+      "authors": [
+        "Qu, H.",
+        "Guo, M.",
+        "Chai, H."
+      ],
+      "year": 2018,
+      "title": "Effects of coenzyme Q10 on statin-induced myopathy: an updated meta-analysis of randomized controlled trials",
+      "url": "https://doi.org/10.1161/JAHA.118.009835",
+      "verified": false
+    },
+    {
+      "key": "qe3-2014",
+      "type": "paper",
+      "authors": [
+        "Parkinson Study Group QE3 Investigators"
+      ],
+      "year": 2014,
+      "title": "A randomized clinical trial of high-dosage coenzyme Q10 in early Parkinson disease: no evidence of benefit",
+      "url": "https://doi.org/10.1001/jamaneurol.2014.131",
+      "verified": false
+    },
+    {
+      "key": "sandor-2005",
+      "type": "paper",
+      "authors": [
+        "Sándor, P. S.",
+        "Di Clemente, L.",
+        "Coppola, G."
+      ],
+      "year": 2005,
+      "title": "Efficacy of coenzyme Q10 in migraine prophylaxis: a randomized controlled trial",
+      "url": "https://doi.org/10.1212/01.WNL.0000151975.03598.ED",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Ubiquinol",
+      "anchor": "#definition",
+      "definition": "The reduced, antioxidant form of coenzyme Q10."
+    },
+    {
+      "term": "Mevalonate pathway",
+      "anchor": "#definition",
+      "definition": "The pathway making cholesterol and CoQ10, blocked by statins."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "supplements"
+  }
+}

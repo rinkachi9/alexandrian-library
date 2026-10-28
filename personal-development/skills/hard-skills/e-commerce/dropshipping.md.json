@@ -1,0 +1,154 @@
+{
+  "node": {
+    "id": "skills.e-commerce.dropshipping",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "e-commerce",
+      "dropshipping",
+      "fulfillment"
+    ],
+    "aliases": [
+      "drop shipping"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.product-validation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.e-commerce.supplier-sourcing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-law-and-cross-border",
+      "rel": "related",
+      "note": "Full treatment of cross-border rules"
+    }
+  ],
+  "sources": [
+    {
+      "key": "directive-2011-83",
+      "type": "standard",
+      "title": "Directive 2011/83/EU on consumer rights",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2023",
+      "type": "standard",
+      "title": "Regulation (EU) 2023/988 on general product safety",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj",
+      "verified": false
+    },
+    {
+      "key": "european-commission",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "VAT e-commerce package",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-e-commerce_en",
+      "verified": false
+    },
+    {
+      "key": "european-commission-2026",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2026,
+      "title": "Ensuring fairness and safety: 3 euro customs duty on low value parcels",
+      "url": "https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "executive-order-14324",
+      "type": "standard",
+      "title": "Executive Order 14324, Suspending duty-free de minimis treatment for all countries. Federal Register, 90(167), 2 September 2025",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-09-02/html/2025-16802.htm",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "u-s-federal",
+      "type": "standard",
+      "authors": [
+        "U.S. Federal Trade Commission"
+      ],
+      "title": "Mail, Internet, or Telephone Order Merchandise Rule",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cbp-2026",
+      "type": "standard",
+      "authors": [
+        "U.S. Customs and Border Protection"
+      ],
+      "year": 2026,
+      "title": "Indefinite suspension of the de minimis exemption for merchandise arriving through all modes other than the international postal network",
+      "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dropshipping",
+      "anchor": "#definition",
+      "definition": "A fulfillment method in which a retailer sells products that a supplier stores and ships directly to the customer."
+    },
+    {
+      "term": "Sourcing agent",
+      "anchor": "#levels-of-dropshipping",
+      "definition": "An intermediary near manufacturers who handles factory relations, quality checks and shipping."
+    },
+    {
+      "term": "Import One-Stop Shop",
+      "anchor": "#cross-border-rules",
+      "definition": "An optional EU scheme for collecting and declaring VAT on imported consignments worth up to 150 euros."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the dropshipper, not the supplier, responsible for a late delivery?",
+      "a": "The customer's contract is with the retailer, and consumer law holds the seller answerable whoever ships the goods.",
+      "anchor": "#responsibility-toward-customers",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "When was the US de minimis exemption suspended for all countries?",
+      "a": "From 29 August 2025, by Executive Order 14324.",
+      "anchor": "#cross-border-rules",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why does selling everything that trends fail to build a store?",
+      "a": "People are only briefly interested, so no loyal audience forms; a niche gives a reason to return.",
+      "anchor": "#how-to-start",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

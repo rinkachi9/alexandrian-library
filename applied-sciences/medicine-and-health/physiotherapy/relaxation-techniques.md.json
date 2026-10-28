@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "physiotherapy.relaxation-techniques",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "physiotherapy"
+    ],
+    "aliases": [
+      "relaxation",
+      "relaxation training"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.breathing-techniques",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "manzoni-2008",
+      "type": "paper",
+      "authors": [
+        "Manzoni, G. M.",
+        "Pagnini, F.",
+        "Castelnuovo, G.",
+        "Molinari, E."
+      ],
+      "year": 2008,
+      "title": "Relaxation training for anxiety: a ten-years systematic review with meta-analysis",
+      "url": "https://doi.org/10.1186/1471-244X-8-41",
+      "verified": false
+    },
+    {
+      "key": "jacobson-1938",
+      "type": "book",
+      "authors": [
+        "Jacobson, E."
+      ],
+      "year": 1938,
+      "title": "Progressive Relaxation (2nd ed.)"
+    },
+    {
+      "key": "schultz-1932",
+      "type": "book",
+      "authors": [
+        "Schultz, J. H."
+      ],
+      "year": 1932,
+      "title": "Das autogene Training: konzentrative Selbstentspannung"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Relaxation technique",
+      "anchor": "#definition",
+      "definition": "A structured method to reduce muscle tension and arousal."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Through which three routes do relaxation techniques act?",
+      "a": "Muscle tension, breathing and attention or suggestion.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

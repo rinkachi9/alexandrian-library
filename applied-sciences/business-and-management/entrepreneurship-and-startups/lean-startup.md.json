@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "business.startups.lean-startup",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "startups",
+      "lean",
+      "innovation"
+    ],
+    "aliases": [
+      "lean startup method",
+      "build-measure-learn"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.minimum-viable-product",
+      "rel": "related"
+    },
+    {
+      "to": "business.startups.lean-canvas",
+      "rel": "related"
+    },
+    {
+      "to": "skills.e-commerce.product-validation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ries-2011",
+      "type": "book",
+      "authors": [
+        "Ries, E."
+      ],
+      "year": 2011,
+      "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+    },
+    {
+      "key": "blank-2005",
+      "type": "book",
+      "authors": [
+        "Blank, S. G."
+      ],
+      "year": 2005,
+      "title": "The Four Steps to the Epiphany"
+    },
+    {
+      "key": "blank-2013",
+      "type": "paper",
+      "authors": [
+        "Blank, S."
+      ],
+      "year": 2013,
+      "title": "Why the lean start-up changes everything",
+      "url": "https://hbr.org/2013/05/why-the-lean-start-up-changes-everything",
+      "verified": false
+    },
+    {
+      "key": "camuffo-2020",
+      "type": "paper",
+      "authors": [
+        "Camuffo, A.",
+        "Cordova, A.",
+        "Gambardella, A.",
+        "Spina, C."
+      ],
+      "year": 2020,
+      "title": "A scientific approach to entrepreneurial decision making: Evidence from a randomized control trial",
+      "url": "https://doi.org/10.1287/mnsc.2018.3249",
+      "verified": false
+    },
+    {
+      "key": "ohno-1988",
+      "type": "book",
+      "authors": [
+        "Ohno, T."
+      ],
+      "year": 1988,
+      "title": "Toyota Production System: Beyond Large-Scale Production"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Validated learning",
+      "anchor": "#definition",
+      "definition": "Knowledge about customers that is backed by evidence from their behavior."
+    },
+    {
+      "term": "Build-measure-learn",
+      "anchor": "#mechanism",
+      "definition": "The feedback loop of building an MVP, measuring customer behavior and deciding to persevere or pivot."
+    },
+    {
+      "term": "Pivot",
+      "anchor": "#types-of-pivot",
+      "definition": "A change to one element of the strategy that keeps what has been learned."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}

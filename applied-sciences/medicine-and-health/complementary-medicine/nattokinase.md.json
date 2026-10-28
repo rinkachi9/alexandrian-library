@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "complementary-medicine.nattokinase",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "natto enzyme",
+      "fibrinolytic enzyme"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-k2",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kurosawa-2015",
+      "type": "paper",
+      "authors": [
+        "Kurosawa, Y.",
+        "Nirengi, S.",
+        "Homma, T."
+      ],
+      "year": 2015,
+      "title": "A single-dose of oral nattokinase potentiates thrombolysis and anti-coagulation profiles",
+      "url": "https://doi.org/10.1038/srep11601",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fibrinolysis",
+      "anchor": "#definition",
+      "definition": "The breakdown of fibrin in blood clots."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

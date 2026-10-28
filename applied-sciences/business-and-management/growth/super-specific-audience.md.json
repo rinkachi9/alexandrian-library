@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "business.growth.super-specific-audience",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "growth",
+      "niche",
+      "audience"
+    ],
+    "aliases": [
+      "super-specific who",
+      "beachhead market",
+      "initial niche"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.consumer-growth-sequence",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.growth.hook",
+      "rel": "related"
+    },
+    {
+      "to": "skills.client-acquisition.ideal-customer-profile",
+      "rel": "related"
+    },
+    {
+      "to": "skills.personal-branding.positioning",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-audience",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 2: Find your super-specific who",
+      "url": "https://www.lennysnewsletter.com/p/consumer-business-super-specific-who",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "chen-2021",
+      "type": "book",
+      "authors": [
+        "Chen, A."
+      ],
+      "year": 2021,
+      "title": "The Cold Start Problem: How to Start and Scale Network Effects"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Super-specific audience",
+      "anchor": "#definition",
+      "definition": "A narrow first group of users defined by a shared acute problem and a place where they gather."
+    },
+    {
+      "term": "Wedge strategy",
+      "anchor": "#strategic-takeaways",
+      "definition": "Winning one niche and then moving to the most logical adjacent niche."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

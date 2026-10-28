@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "business.metrics.net-revenue-retention",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "metrics",
+      "saas",
+      "retention"
+    ],
+    "aliases": [
+      "NRR",
+      "net dollar retention",
+      "negative net churn"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.churn-rate",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.arpa",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    },
+    {
+      "key": "bessemer-cloud",
+      "type": "website",
+      "authors": [
+        "Bessemer Venture Partners"
+      ],
+      "title": "State of the Cloud and cloud benchmarks",
+      "url": "https://www.bvp.com/atlas",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Net revenue retention",
+      "anchor": "#definition",
+      "definition": "Current recurring revenue from a starting cohort divided by its starting revenue, including expansion and losses."
+    },
+    {
+      "term": "Negative net churn",
+      "anchor": "#definition",
+      "definition": "Expansion revenue from existing customers exceeding revenue lost to churn and contraction."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

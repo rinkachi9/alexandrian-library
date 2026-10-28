@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "nutrition.foundations.fermented-foods",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ],
+    "aliases": [
+      "fermentation",
+      "probiotic foods",
+      "kefir",
+      "sauerkraut"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.prebiotics.inulin",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "marco-2021",
+      "type": "paper",
+      "authors": [
+        "Marco, M. L.",
+        "Sanders, M. E.",
+        "Gänzle, M."
+      ],
+      "year": 2021,
+      "title": "The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on fermented foods",
+      "url": "https://doi.org/10.1038/s41575-020-00390-5",
+      "verified": false
+    },
+    {
+      "key": "wastyk-2021",
+      "type": "paper",
+      "authors": [
+        "Wastyk, H. C.",
+        "Fragiadakis, G. K.",
+        "Perelman, D."
+      ],
+      "year": 2021,
+      "title": "Gut-microbiota-targeted diets modulate human immune status",
+      "url": "https://doi.org/10.1016/j.cell.2021.06.019",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fermented food",
+      "anchor": "#definition",
+      "definition": "Food made through desired microbial growth and enzymatic conversions."
+    },
+    {
+      "term": "Probiotic",
+      "anchor": "#definition",
+      "definition": "Live microorganisms that give a proven health benefit in adequate amounts."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does a fermented food differ from a probiotic?",
+      "a": "A probiotic must contain defined live strains with proven benefit; many fermented foods do not meet this.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

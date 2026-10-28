@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "phytonutrients.sulforaphane",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "isothiocyanate",
+      "broccoli sprouts",
+      "glucoraphanin"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.glucosinolates",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.detoxification",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "yagishita-2019",
+      "type": "paper",
+      "authors": [
+        "Yagishita, Y.",
+        "Fahey, J. W.",
+        "Dinkova-Kostova, A. T.",
+        "Kensler, T. W."
+      ],
+      "year": 2019,
+      "title": "Broccoli or sulforaphane: is it the source or dose that matters?",
+      "url": "https://doi.org/10.3390/molecules24193593",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sulforaphane",
+      "anchor": "#definition",
+      "definition": "An isothiocyanate from broccoli that activates Nrf2."
+    },
+    {
+      "term": "Keap1",
+      "anchor": "#mechanism",
+      "definition": "A protein that holds Nrf2 inactive until modified."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

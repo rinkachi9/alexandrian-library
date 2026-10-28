@@ -1,0 +1,128 @@
+{
+  "node": {
+    "id": "skills.personal-branding.reputation-management",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "personal-branding",
+      "reputation",
+      "law",
+      "reviews"
+    ],
+    "aliases": [
+      "online reputation management",
+      "right to be forgotten",
+      "negative reviews"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.personal-branding.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.personal-branding.online-presence",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.social-media.community-management",
+      "rel": "related",
+      "note": "Responding to criticism in public"
+    }
+  ],
+  "sources": [
+    {
+      "key": "regulation-eu-2016",
+      "type": "standard",
+      "title": "Regulation (EU) 2016/679 (GDPR), Article 17",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": false
+    },
+    {
+      "key": "court-of-justice-2014",
+      "type": "standard",
+      "authors": [
+        "Court of Justice of the European Union"
+      ],
+      "year": 2014,
+      "title": "Judgment in Case C-131/12, Google Spain and Google",
+      "url": "https://curia.europa.eu/juris/liste.jsf?num=C-131/12",
+      "verified": false
+    },
+    {
+      "key": "federal-trade-commission",
+      "type": "standard",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "title": "Trade regulation rule on the use of consumer reviews and testimonials (16 CFR Part 465)",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2019",
+      "type": "standard",
+      "title": "Directive (EU) 2019/2161 (Omnibus Directive)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/2161/oj",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2022",
+      "type": "standard",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Reputation",
+      "anchor": "#definition",
+      "definition": "The collective judgment others hold about a person or organization."
+    },
+    {
+      "term": "Right to be forgotten",
+      "anchor": "#legal-tools",
+      "definition": "The right, from GDPR Article 17 and the Google Spain judgment, to have certain links about oneself removed from search results."
+    },
+    {
+      "term": "Streisand effect",
+      "anchor": "#legal-tools",
+      "definition": "Attention drawn to content by attempts to suppress it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did the CJEU decide in Google Spain (C-131/12)?",
+      "a": "Search engines can be required to delist links to inadequate, irrelevant or no longer relevant information about a person, balancing public interest.",
+      "anchor": "#legal-tools",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is asking only happy clients for reviews a problem?",
+      "a": "It distorts the picture; asking all clients makes ratings fairer and more credible.",
+      "anchor": "#building-positive-accurate-presence",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Name the five steps for responding to legitimate criticism.",
+      "a": "Pause, check facts, respond briefly and politely, fix the problem, learn.",
+      "anchor": "#responding-to-criticism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "personal-branding"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "business.startups.entrepreneurship-lessons",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "entrepreneurship",
+      "sales",
+      "marketing"
+    ],
+    "aliases": [
+      "business tips",
+      "lessons and advice"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.persuasion-principles",
+      "rel": "related"
+    },
+    {
+      "to": "skills.client-acquisition.sales-conversations",
+      "rel": "related"
+    },
+    {
+      "to": "skills.copywriting.value-proposition-and-benefits",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kahneman-2011",
+      "type": "book",
+      "authors": [
+        "Kahneman, D."
+      ],
+      "year": 2011,
+      "title": "Thinking, Fast and Slow"
+    },
+    {
+      "key": "andreessen-2007",
+      "type": "website",
+      "authors": [
+        "Andreessen, M."
+      ],
+      "year": 2007,
+      "title": "The only thing that matters",
+      "url": "https://pmarchive.com/guide_to_startups_part4.html",
+      "verified": false
+    },
+    {
+      "key": "hormozi-2021",
+      "type": "book",
+      "authors": [
+        "Hormozi, A."
+      ],
+      "year": 2021,
+      "title": "$100M Offers: How to Make Offers So Good People Feel Stupid Saying No"
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}

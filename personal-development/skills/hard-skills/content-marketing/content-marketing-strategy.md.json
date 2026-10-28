@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "skills.content-marketing.content-marketing-strategy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "strategy"
+    ],
+    "aliases": [
+      "content strategy",
+      "editorial calendar",
+      "content plan"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.seven-a-framework",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.content-marketing.content-formats-and-distribution",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "content-marketing-institute",
+      "type": "website",
+      "authors": [
+        "Content Marketing Institute"
+      ],
+      "title": "What is content marketing?",
+      "url": "https://contentmarketinginstitute.com/what-is-content-marketing/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content marketing strategy",
+      "anchor": "#definition",
+      "definition": "The set of decisions that connects content to a business goal: audience, problem, form, channels, cadence and metrics."
+    },
+    {
+      "term": "Content pillars",
+      "anchor": "#components",
+      "definition": "Three to five topics where the company has expertise and the audience has need."
+    },
+    {
+      "term": "Vanity metric",
+      "anchor": "#metrics-by-stage",
+      "definition": "A number that grows without saying anything about the goal."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A program aims to generate demo requests. Which metric is primary, and which is a vanity metric?",
+      "a": "Demo requests attributed to content are primary; total page views are a vanity metric for this goal.",
+      "anchor": "#metrics-by-stage",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is a strategy described as a hypothesis?",
+      "a": "It is a bet about what the audience needs and what will work, tested against results and revised.",
+      "anchor": "#the-strategy-as-a-hypothesis",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why is a short written plan better than a long one?",
+      "a": "One or two pages get read and used; long documents are ignored.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

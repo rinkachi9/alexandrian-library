@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.internal-rate-of-return",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "corporate-finance",
+      "capital-budgeting"
+    ],
+    "aliases": [
+      "IRR",
+      "MIRR"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.net-present-value",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.capital-budgeting-methods",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    },
+    {
+      "key": "graham-harvey-2001",
+      "type": "paper",
+      "authors": [
+        "Graham, J. R.",
+        "Harvey, C. R."
+      ],
+      "year": 2001,
+      "title": "The theory and practice of corporate finance: Evidence from the field",
+      "url": "https://doi.org/10.1016/S0304-405X(01)00044-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Internal rate of return",
+      "anchor": "#definition",
+      "definition": "The discount rate at which the NPV of an investment is zero."
+    },
+    {
+      "term": "Modified IRR",
+      "anchor": "#mechanism",
+      "definition": "A return measure that uses an explicit reinvestment rate for interim cash flows."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

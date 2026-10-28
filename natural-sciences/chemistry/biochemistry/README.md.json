@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "natural-sciences.chemistry.biochemistry",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "biochemistry",
+      "metabolism"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "biochemistry"
+  }
+}

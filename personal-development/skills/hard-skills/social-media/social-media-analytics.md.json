@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "skills.social-media.social-media-analytics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "social-media",
+      "analytics",
+      "measurement"
+    ],
+    "aliases": [
+      "engagement rate",
+      "reach",
+      "social metrics"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.measuring-content-performance",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "meta-business-help",
+      "type": "documentation",
+      "authors": [
+        "Meta Business Help Center"
+      ],
+      "title": "About Meta Business Suite insights",
+      "url": "https://www.facebook.com/business/help/",
+      "verified": false
+    },
+    {
+      "key": "linkedin-help",
+      "type": "documentation",
+      "authors": [
+        "LinkedIn Help"
+      ],
+      "title": "LinkedIn page analytics",
+      "url": "https://www.linkedin.com/help/linkedin",
+      "verified": false
+    },
+    {
+      "key": "federal-trade-commission-2024",
+      "type": "standard",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "year": 2024,
+      "title": "Trade regulation rule on the use of consumer reviews and testimonials (16 CFR Part 465)",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/rule-use-consumer-reviews-testimonials",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Reach",
+      "anchor": "#core-metrics",
+      "definition": "Number of unique accounts that saw the content, usually estimated."
+    },
+    {
+      "term": "Engagement rate",
+      "anchor": "#engagement-rate-formulas",
+      "definition": "Engagements divided by a base such as reach, impressions or followers."
+    },
+    {
+      "term": "Sentiment",
+      "anchor": "#core-metrics",
+      "definition": "The share of positive, neutral and negative mentions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why must you state the engagement rate formula?",
+      "a": "Different bases (reach, impressions, followers) give very different numbers, so comparisons are only valid with the same formula.",
+      "anchor": "#engagement-rate-formulas",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does last-click attribution undervalue social media?",
+      "a": "Social often influences purchases that later happen through search or direct visits.",
+      "anchor": "#platform-analytics-and-web-analytics",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What does the US FTC rule say about fake social media indicators?",
+      "a": "Buying or selling fake indicators of social media influence, such as fake followers, is prohibited.",
+      "anchor": "#pitfalls",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

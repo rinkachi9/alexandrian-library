@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.physiotherapy",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "physiotherapy"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

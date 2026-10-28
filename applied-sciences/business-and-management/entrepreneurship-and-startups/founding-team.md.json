@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "business.startups.founding-team",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "startups",
+      "team",
+      "founders"
+    ],
+    "aliases": [
+      "dream team",
+      "co-founders"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.why-startups-fail",
+      "rel": "related"
+    },
+    {
+      "to": "law.company-law.articles-of-association",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wasserman-2012",
+      "type": "book",
+      "authors": [
+        "Wasserman, N."
+      ],
+      "year": 2012,
+      "title": "The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup"
+    },
+    {
+      "key": "gompers-2010",
+      "type": "paper",
+      "authors": [
+        "Gompers, P.",
+        "Kovner, A.",
+        "Lerner, J.",
+        "Scharfstein, D."
+      ],
+      "year": 2010,
+      "title": "Performance persistence in entrepreneurship",
+      "url": "https://doi.org/10.1016/j.jfineco.2009.11.001",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Vesting",
+      "anchor": "#mechanism",
+      "definition": "Equity that a founder earns gradually over time, often with a one-year cliff."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}

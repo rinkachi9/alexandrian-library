@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "exercise.intensification.cluster-set",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "rest-pause cluster"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.myo-reps",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tufano-2017",
+      "type": "paper",
+      "authors": [
+        "Tufano, J. J.",
+        "Brown, L. E.",
+        "Haff, G. G."
+      ],
+      "year": 2017,
+      "title": "Theoretical and practical aspects of different cluster set structures: a systematic review",
+      "url": "https://doi.org/10.1519/JSC.0000000000001581",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cluster set",
+      "anchor": "#definition",
+      "definition": "A set split into small repetition groups separated by short rests."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Plan a cluster set with your 5RM load.",
+      "a": "For example 4 clusters of 2 to 3 repetitions with 30 seconds of rest.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "anatomy.skeletal.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "skeleton"
+    ],
+    "aliases": [
+      "skeleton",
+      "axial skeleton",
+      "appendicular skeleton"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.directional-terms",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Axial skeleton",
+      "anchor": "#definition",
+      "definition": "The skull, vertebral column, ribs and sternum."
+    },
+    {
+      "term": "Appendicular skeleton",
+      "anchor": "#definition",
+      "definition": "The limbs and the girdles that attach them."
+    },
+    {
+      "term": "Hematopoiesis",
+      "anchor": "#mechanism",
+      "definition": "Production of blood cells in red bone marrow."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "How many bones does the axial skeleton contain?",
+      "a": "80.",
+      "anchor": "#counting-the-bones",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skeleton"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "nutrition.minerals.copper",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Cu",
+      "ceruloplasmin"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.minerals.zinc",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.minerals.iron",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-copper",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Copper: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Ceruloplasmin",
+      "anchor": "#definition",
+      "definition": "A copper protein that oxidizes iron for transport."
+    },
+    {
+      "term": "Lysyl oxidase",
+      "anchor": "#definition",
+      "definition": "A copper enzyme that cross-links collagen and elastin."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

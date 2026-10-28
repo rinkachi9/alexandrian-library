@@ -1,0 +1,65 @@
+{
+  "node": {
+    "id": "exercise.programming.split-training",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "programming",
+      "splits"
+    ],
+    "aliases": [
+      "body part split",
+      "push pull legs",
+      "upper lower split"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.training-programming",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.full-body-training",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2019-freq",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Krieger, J."
+      ],
+      "year": 2019,
+      "title": "Resistance training frequency and skeletal muscle hypertrophy: a review of available evidence",
+      "url": "https://doi.org/10.1016/j.jsams.2018.09.223",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Split",
+      "anchor": "#definition",
+      "definition": "A training structure in which different muscle groups are trained on different days."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare a body part split and an upper/lower split at equal volume.",
+      "a": "Similar hypertrophy, but upper/lower spreads volume over two sessions per muscle with less fatigue per session.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

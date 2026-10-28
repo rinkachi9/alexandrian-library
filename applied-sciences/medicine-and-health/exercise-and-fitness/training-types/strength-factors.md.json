@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "exercise.training-types.strength-factors",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "determinants of strength",
+      "neural adaptation"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.motor-units",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-types.strength-types",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sale-1988",
+      "type": "paper",
+      "authors": [
+        "Sale, D. G."
+      ],
+      "year": 1988,
+      "title": "Neural adaptation to resistance training",
+      "url": "https://doi.org/10.1249/00005768-198810001-00009",
+      "verified": false
+    },
+    {
+      "key": "suchomel-2018",
+      "type": "paper",
+      "authors": [
+        "Suchomel, T. J.",
+        "Nimphius, S.",
+        "Bellon, C. R.",
+        "Stone, M. H."
+      ],
+      "year": 2018,
+      "title": "The importance of muscular strength: training considerations",
+      "url": "https://doi.org/10.1007/s40279-018-0862-z",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rate coding",
+      "anchor": "#mechanism",
+      "definition": "Increasing motor unit firing frequency to summate twitches into more force."
+    },
+    {
+      "term": "Motor unit synchronization",
+      "anchor": "#mechanism",
+      "definition": "Simultaneous firing of motor units for faster force development."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "How does a second impulse before full relaxation increase force?",
+      "a": "The twitches summate, producing more force than one twitch.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

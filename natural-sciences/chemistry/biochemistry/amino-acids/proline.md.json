@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "amino-acids.proline",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 20,
+    "tags": [
+      "amino-acids",
+      "conditionally-essential",
+      "collagen"
+    ],
+    "aliases": [
+      "L-proline",
+      "Pro",
+      "P"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "proteins.collagen",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-c",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.glycine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "ods-vit-c",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin C: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hydroxyproline",
+      "anchor": "#mechanism",
+      "definition": "A modified proline in collagen, formed by a vitamin C dependent enzyme."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does scurvy cause bleeding gums?",
+      "a": "Without vitamin C, proline cannot be hydroxylated, collagen becomes unstable and blood vessels and gums weaken.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

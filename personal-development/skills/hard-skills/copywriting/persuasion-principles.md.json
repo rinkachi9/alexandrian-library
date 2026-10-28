@@ -1,0 +1,245 @@
+{
+  "node": {
+    "id": "skills.copywriting.persuasion-principles",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "marketing",
+      "copywriting",
+      "persuasion",
+      "behavioral-science",
+      "ethics"
+    ],
+    "aliases": [
+      "principles of influence",
+      "Cialdini",
+      "dark patterns",
+      "cognitive biases"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "career.salary-and-offer-negotiation",
+      "rel": "related",
+      "note": "Anchoring in negotiation"
+    },
+    {
+      "to": "skills.content-marketing.capturing-attention",
+      "rel": "related",
+      "note": "Social proof and scarcity in attention"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cialdini-2021",
+      "type": "book",
+      "authors": [
+        "Cialdini, R. B."
+      ],
+      "year": 2021,
+      "title": "Influence, New and Expanded: The Psychology of Persuasion"
+    },
+    {
+      "key": "tversky-1974",
+      "type": "paper",
+      "authors": [
+        "Tversky, A.",
+        "Kahneman, D."
+      ],
+      "year": 1974,
+      "title": "Judgment under uncertainty: Heuristics and biases",
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "verified": false
+    },
+    {
+      "key": "kahneman-1979",
+      "type": "paper",
+      "authors": [
+        "Kahneman, D.",
+        "Tversky, A."
+      ],
+      "year": 1979,
+      "title": "Prospect theory: An analysis of decision under risk",
+      "url": "https://doi.org/10.2307/1914185",
+      "verified": false
+    },
+    {
+      "key": "gal-2018",
+      "type": "paper",
+      "authors": [
+        "Gal, D.",
+        "Rucker, D. D."
+      ],
+      "year": 2018,
+      "title": "The loss of loss aversion: Will it loom larger than its gain?",
+      "url": "https://doi.org/10.1002/jcpy.1047",
+      "verified": false
+    },
+    {
+      "key": "mrkva-2020",
+      "type": "paper",
+      "authors": [
+        "Mrkva, K.",
+        "Johnson, E. J.",
+        "Gächter, S.",
+        "Herrmann, A."
+      ],
+      "year": 2020,
+      "title": "Moderating loss aversion: Loss aversion has moderators, but reports of its death are greatly exaggerated",
+      "url": "https://doi.org/10.1002/jcpy.1156",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "worchel-1975",
+      "type": "paper",
+      "authors": [
+        "Worchel, S.",
+        "Lee, J.",
+        "Adewole, A."
+      ],
+      "year": 1975,
+      "title": "Effects of supply and demand on ratings of object value",
+      "url": "https://doi.org/10.1037/0022-3514.32.5.906",
+      "verified": false
+    },
+    {
+      "key": "goldstein-2008",
+      "type": "paper",
+      "authors": [
+        "Goldstein, N. J.",
+        "Cialdini, R. B.",
+        "Griskevicius, V."
+      ],
+      "year": 2008,
+      "title": "A room with a viewpoint: Using social norms to motivate environmental conservation in hotels",
+      "url": "https://doi.org/10.1086/586910",
+      "verified": false
+    },
+    {
+      "key": "bohner-2014",
+      "type": "paper",
+      "authors": [
+        "Bohner, G.",
+        "Schlüter, L. E."
+      ],
+      "year": 2014,
+      "title": "A room with a viewpoint revisited: Descriptive norms and hotel guests' towel reuse behavior",
+      "url": "https://doi.org/10.1371/journal.pone.0104086",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "scheibehenne-2010",
+      "type": "paper",
+      "authors": [
+        "Scheibehenne, B.",
+        "Greifeneder, R.",
+        "Todd, P. M."
+      ],
+      "year": 2010,
+      "title": "Can there ever be too many options? A meta-analytic review of choice overload",
+      "url": "https://doi.org/10.1086/651235",
+      "verified": false
+    },
+    {
+      "key": "mathur-2019",
+      "type": "paper",
+      "authors": [
+        "Mathur, A.",
+        "Acar, G.",
+        "Friedman, M. J.",
+        "Lucherini, E.",
+        "Mayer, J.",
+        "Chetty, M.",
+        "Narayanan, A."
+      ],
+      "year": 2019,
+      "title": "Dark patterns at scale: Findings from a crawl of 11K shopping websites",
+      "url": "https://doi.org/10.1145/3359183",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "regulation-eu-2022",
+      "type": "standard",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Article 25",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Social proof",
+      "anchor": "#social-proof",
+      "definition": "The tendency to use other people's behavior as evidence of what is correct, especially under uncertainty."
+    },
+    {
+      "term": "Scarcity",
+      "anchor": "#scarcity",
+      "definition": "The tendency to value things more when they are rare or becoming unavailable."
+    },
+    {
+      "term": "Anchoring",
+      "anchor": "#anchoring",
+      "definition": "The influence of an initial number on a later estimate, even when the number is irrelevant."
+    },
+    {
+      "term": "Loss aversion",
+      "anchor": "#loss-aversion",
+      "definition": "The tendency for a loss to feel larger than a gain of the same size, debated in strength and generality."
+    },
+    {
+      "term": "Dark pattern",
+      "anchor": "#ethics-and-dark-patterns",
+      "definition": "An interface design that steers users into decisions they would not otherwise make."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What did the Bohner and Schlüter (2014) replication find compared with the original towel study?",
+      "a": "Both messages raised towel reuse over no message, but the descriptive norm message did not beat the standard environmental message.",
+      "anchor": "#social-proof",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "Compare Gal and Rucker (2018) with Mrkva et al. (2020) on loss aversion.",
+      "a": "Gal and Rucker argued it is much less general than claimed; Mrkva et al. replied that it is real but moderated, for example by stake size.",
+      "anchor": "#loss-aversion",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What share of shopping sites in the Mathur et al. (2019) crawl used dark patterns?",
+      "a": "About 11%, 1,254 of about 11,000 sites.",
+      "anchor": "#ethics-and-dark-patterns",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q4",
+      "type": "apply",
+      "q": "How must a price reduction be shown in the EU?",
+      "a": "Against the lowest price applied in the previous 30 days.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

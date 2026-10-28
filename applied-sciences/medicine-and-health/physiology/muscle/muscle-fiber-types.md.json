@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "physiology.muscle.muscle-fiber-types",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "physiology",
+      "muscle",
+      "fiber-types"
+    ],
+    "aliases": [
+      "slow-twitch",
+      "fast-twitch",
+      "type I fibers",
+      "type II fibers"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.motor-units",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.classification",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Type I fiber",
+      "anchor": "#mechanism",
+      "definition": "A slow-twitch, fatigue-resistant, oxidative muscle fiber."
+    },
+    {
+      "term": "Type II fiber",
+      "anchor": "#mechanism",
+      "definition": "A fast-twitch, high-power, more glycolytic muscle fiber that tires quickly."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare type I and type IIx fibers in speed and fatigue.",
+      "a": "Type I is slow and fatigue-resistant; type IIx is fastest and fatigues quickly.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

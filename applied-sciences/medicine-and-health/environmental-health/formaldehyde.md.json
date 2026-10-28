@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "environmental-health.formaldehyde",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "formalin",
+      "DMDM hydantoin",
+      "quaternium-15"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "iarc-2012-formaldehyde",
+      "type": "report",
+      "authors": [
+        "International Agency for Research on Cancer"
+      ],
+      "year": 2012,
+      "title": "Formaldehyde. In: Chemical Agents and Related Occupations. IARC Monographs, Volume 100F",
+      "url": "https://publications.iarc.who.int/123",
+      "verified": false
+    },
+    {
+      "key": "eu-1223-2009",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2009,
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Formaldehyde releaser",
+      "anchor": "#definition",
+      "definition": "A preservative that slowly releases formaldehyde."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

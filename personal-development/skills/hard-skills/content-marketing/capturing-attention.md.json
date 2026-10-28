@@ -1,0 +1,140 @@
+{
+  "node": {
+    "id": "skills.content-marketing.capturing-attention",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "web-design",
+      "credibility"
+    ],
+    "aliases": [
+      "audience attention",
+      "web credibility"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.headlines",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.search-engine-optimization.technical-seo",
+      "rel": "related",
+      "note": "Page speed and Core Web Vitals"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fogg-2003",
+      "type": "paper",
+      "authors": [
+        "Fogg, B. J.",
+        "Soohoo, C.",
+        "Danielson, D. R.",
+        "Marable, L.",
+        "Stanford, J.",
+        "Tauber, E. R."
+      ],
+      "year": 2003,
+      "title": "How do users evaluate the credibility of Web sites? A study with over 2,500 participants",
+      "url": "https://doi.org/10.1145/997078.997097",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "potter-2014",
+      "type": "paper",
+      "authors": [
+        "Potter, M. C.",
+        "Wyble, B.",
+        "Hagmann, C. E.",
+        "McCourt, E. S."
+      ],
+      "year": 2014,
+      "title": "Detecting meaning in RSVP at 13 ms per picture",
+      "url": "https://doi.org/10.3758/s13414-013-0605-z",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "alter-2009",
+      "type": "paper",
+      "authors": [
+        "Alter, A. L.",
+        "Oppenheimer, D. M."
+      ],
+      "year": 2009,
+      "title": "Uniting the tribes of fluency to form a metacognitive nation",
+      "url": "https://doi.org/10.1177/1088868309341564",
+      "verified": false
+    },
+    {
+      "key": "think-with-google",
+      "type": "report",
+      "authors": [
+        "Think with Google"
+      ],
+      "title": "Page load time statistics",
+      "url": "https://www.thinkwithgoogle.com/data/page-load-time-statistics/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bounce",
+      "anchor": "#speed",
+      "definition": "A visit in which the visitor leaves without interacting further with the site."
+    },
+    {
+      "term": "Cognitive fluency",
+      "anchor": "#psychological-principles",
+      "definition": "The ease of processing information, which makes it feel more familiar and trustworthy."
+    },
+    {
+      "term": "Design look",
+      "anchor": "#site-design-and-credibility",
+      "definition": "The visual appearance of a site, the factor mentioned most often in the Stanford credibility study."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which factor did participants in the Stanford credibility study mention most often?",
+      "a": "The design look of the site, in about 46% of comments.",
+      "anchor": "#site-design-and-credibility",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why should the claim that images are processed 60,000 times faster than text not be used?",
+      "a": "It has no known research source; studies such as Potter et al. (2014) show fast image processing but no such ratio.",
+      "anchor": "#images",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "When can social proof backfire?",
+      "a": "When the numbers are small or when it signals that an undesirable behavior is common.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

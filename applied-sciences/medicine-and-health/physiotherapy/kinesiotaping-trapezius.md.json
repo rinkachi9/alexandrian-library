@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "physiotherapy.kinesiotaping-trapezius",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "physiotherapy"
+    ],
+    "aliases": [
+      "kinesio taping",
+      "K-tape",
+      "trapezius taping"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.trapezius",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiotherapy.trapezius-self-relaxation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kase-2003",
+      "type": "book",
+      "authors": [
+        "Kase, K.",
+        "Wallis, J.",
+        "Kase, T."
+      ],
+      "year": 2003,
+      "title": "Clinical Therapeutic Applications of the Kinesio Taping Method (2nd ed.)"
+    },
+    {
+      "key": "parreira-2014",
+      "type": "paper",
+      "authors": [
+        "Parreira, P. C. S.",
+        "Costa, L. C. M.",
+        "Hespanhol, L. C.",
+        "Lopes, A. D.",
+        "Costa, L. O. P."
+      ],
+      "year": 2014,
+      "title": "Current evidence does not support the use of Kinesio Taping in clinical practice: a systematic review",
+      "url": "https://doi.org/10.1016/j.jphys.2013.12.008",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Kinesiology taping",
+      "anchor": "#definition",
+      "definition": "Applying elastic adhesive tape to the skin with defined stretch."
+    },
+    {
+      "term": "Inhibitory application",
+      "anchor": "#definition",
+      "definition": "A taping application intended to reduce muscle activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare the I-strip and Y-strip applications.",
+      "a": "The I-strip is simplest with the effect only under the tape; the Y-strip is claimed to enlarge the treated area.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

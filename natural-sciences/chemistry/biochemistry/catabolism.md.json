@@ -1,0 +1,115 @@
+{
+  "node": {
+    "id": "biochemistry.catabolism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "catabolism"
+    ],
+    "aliases": [
+      "breakdown reactions",
+      "catabolic processes"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.anabolism",
+      "rel": "contrasts"
+    },
+    {
+      "to": "biochemistry.atp",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.muscle.muscle-protein-balance",
+      "rel": "related",
+      "note": "Catabolism applied to muscle"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "lehninger-2021",
+      "type": "book",
+      "authors": [
+        "Nelson, D. L.",
+        "Cox, M. M."
+      ],
+      "year": 2021,
+      "title": "Lehninger Principles of Biochemistry (8th ed.)"
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Catabolism",
+      "anchor": "#definition",
+      "definition": "Breakdown of complex compounds into simpler ones, which releases energy."
+    },
+    {
+      "term": "Exergonic reaction",
+      "anchor": "#definition",
+      "definition": "A reaction that releases energy."
+    },
+    {
+      "term": "Cellular respiration",
+      "anchor": "#mechanism",
+      "definition": "Oxidation of fuels to carbon dioxide and water with capture of energy as ATP."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three kinds of work that cells perform with ATP?",
+      "a": "Electrical, mechanical and osmotic (transport), plus chemical work in synthesis.",
+      "anchor": "#uses-of-the-released-energy",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is the ATP yield of glucose given as a range?",
+      "a": "The number of protons per ATP and the cost of moving NADH into the mitochondria vary, giving about 30 to 32 ATP.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

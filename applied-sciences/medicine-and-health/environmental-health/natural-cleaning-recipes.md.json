@@ -1,0 +1,45 @@
+{
+  "node": {
+    "id": "environmental-health.natural-cleaning-recipes",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 14,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "homemade cleaners",
+      "DIY cleaning"
+    ]
+  },
+  "links": [
+    {
+      "to": "environmental-health.natural-cleaning",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "echa-borax",
+      "type": "documentation",
+      "authors": [
+        "European Chemicals Agency"
+      ],
+      "title": "Disodium tetraborate: substance information and harmonised classification (Repr. 1B)",
+      "url": "https://echa.europa.eu/substance-information/-/substanceinfo/100.110.355",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Castile soap",
+      "anchor": "#definition",
+      "definition": "A vegetable oil-based soap."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

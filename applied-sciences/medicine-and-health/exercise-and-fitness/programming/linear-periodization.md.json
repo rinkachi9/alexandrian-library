@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "exercise.programming.linear-periodization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "exercise",
+      "programming",
+      "periodization"
+    ],
+    "aliases": [
+      "linear progression",
+      "traditional periodization"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.periodization",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.undulating-periodization",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rhea-2002",
+      "type": "paper",
+      "authors": [
+        "Rhea, M. R.",
+        "Ball, S. D.",
+        "Phillips, W. T.",
+        "Burkett, L. N."
+      ],
+      "year": 2002,
+      "title": "A comparison of linear and daily undulating periodized programs with equated volume and intensity for strength",
+      "url": "https://doi.org/10.1519/00124278-200205000-00004",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Linear periodization",
+      "anchor": "#definition",
+      "definition": "A model with decreasing volume and increasing intensity over time."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A lifter fails to complete 3 × 8 at a new load. What now?",
+      "a": "Repeat the load or deload about 10 percent and build again.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

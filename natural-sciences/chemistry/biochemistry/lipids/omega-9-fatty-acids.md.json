@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "lipids.omega-9-fatty-acids",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "lipids",
+      "omega-9",
+      "monounsaturated"
+    ],
+    "aliases": [
+      "omega 9",
+      "n-9 fatty acids",
+      "monounsaturated fat"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.oleic-acid",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.omega-6-fatty-acids",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "estruch-2018",
+      "type": "paper",
+      "authors": [
+        "Estruch, R.",
+        "Ros, E.",
+        "Salas-Salvadó, J."
+      ],
+      "year": 2018,
+      "title": "Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts",
+      "url": "https://doi.org/10.1056/NEJMoa1800389",
+      "verified": false
+    },
+    {
+      "key": "efsa-2010-fats",
+      "type": "paper",
+      "authors": [
+        "EFSA Panel on Dietetic Products, Nutrition, and Allergies"
+      ],
+      "year": 2010,
+      "title": "Scientific Opinion on Dietary Reference Values for fats, including saturated fatty acids, polyunsaturated fatty acids, monounsaturated fatty acids, trans fatty acids, and cholesterol",
+      "url": "https://doi.org/10.2903/j.efsa.2010.1461",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Monounsaturated fatty acid",
+      "anchor": "#definition",
+      "definition": "A fatty acid with one double bond."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is mead acid and when does it appear?",
+      "a": "An omega-9 fatty acid (20:3 n-9) made when essential fatty acids are lacking; it is a marker of deficiency.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

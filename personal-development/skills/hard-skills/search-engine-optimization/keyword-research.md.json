@@ -1,0 +1,130 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.keyword-research",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "seo",
+      "keywords",
+      "search-intent"
+    ],
+    "aliases": [
+      "keyword analysis",
+      "search intent",
+      "long tail"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.customer-research",
+      "rel": "related",
+      "note": "Customer language as seed keywords"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-ads-help",
+      "type": "documentation",
+      "authors": [
+        "Google Ads Help"
+      ],
+      "title": "Use Keyword Planner",
+      "url": "https://support.google.com/google-ads/answer/7337243",
+      "verified": false
+    },
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "SEO Starter Guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "verified": false
+    },
+    {
+      "key": "schwartz-2019",
+      "type": "website",
+      "authors": [
+        "Schwartz, B."
+      ],
+      "year": 2019,
+      "title": "Google: There is no such thing as LSI keywords",
+      "url": "https://www.seroundtable.com/google-lsi-keywords-27970.html",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "backlinko-2023",
+      "type": "website",
+      "authors": [
+        "Dean, B."
+      ],
+      "year": 2023,
+      "title": "We analyzed 306M keywords. Here's what we learned",
+      "url": "https://backlinko.com/google-keyword-study",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Search intent",
+      "anchor": "#search-intent",
+      "definition": "The goal behind a query: to learn, compare, buy or reach a specific site."
+    },
+    {
+      "term": "Long-tail query",
+      "anchor": "#head-and-long-tail-queries",
+      "definition": "A longer, more specific query with low individual volume and clearer intent."
+    },
+    {
+      "term": "Keyword cannibalization",
+      "anchor": "#topic-clusters-and-the-keyword-map",
+      "definition": "Several pages of one site competing for the same intent."
+    },
+    {
+      "term": "Keyword map",
+      "anchor": "#definition",
+      "definition": "A table of target queries, their intent and the page that serves each."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What is the most reliable way to judge the intent of a query?",
+      "a": "Look at the current top results: the page types that rank show what searchers want.",
+      "anchor": "#search-intent",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why should keyword tool volumes be treated as rough estimates?",
+      "a": "Tools differ from each other and from reality, show ranges, and seasonal queries vary through the year.",
+      "anchor": "#the-four-factors",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What is useful in the advice about \"LSI keywords\" despite the name being wrong?",
+      "a": "A thorough page naturally covers related terms, attributes and sub-questions that searchers care about.",
+      "anchor": "#related-terms-and-the-lsi-myth",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "mushrooms.shiitake",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "Lentinula edodes",
+      "lentinan"
+    ]
+  },
+  "links": [
+    {
+      "to": "mushrooms.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wasser-2002",
+      "type": "paper",
+      "authors": [
+        "Wasser, S. P."
+      ],
+      "year": 2002,
+      "title": "Medicinal mushrooms as a source of antitumor and immunomodulating polysaccharides",
+      "url": "https://doi.org/10.1007/s00253-002-1076-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lentinan",
+      "anchor": "#definition",
+      "definition": "A beta-glucan from shiitake used as a cancer treatment adjunct in Japan."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

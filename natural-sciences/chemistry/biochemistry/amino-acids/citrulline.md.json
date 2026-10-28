@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "amino-acids.citrulline",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "amino-acids",
+      "nitric-oxide",
+      "supplements",
+      "sports-nutrition"
+    ],
+    "aliases": [
+      "L-citrulline",
+      "citrulline malate"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.arginine",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.urea-cycle",
+      "rel": "part-of"
+    },
+    {
+      "to": "exercise.recovery.doms",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-exercise",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Dietary Supplements for Exercise and Athletic Performance: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "gonzalez-2020",
+      "type": "paper",
+      "authors": [
+        "Gonzalez, A. M.",
+        "Trexler, E. T."
+      ],
+      "year": 2020,
+      "title": "Effects of citrulline supplementation on exercise performance in humans: a review of the current literature",
+      "url": "https://doi.org/10.1519/JSC.0000000000003426",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Citrulline malate",
+      "anchor": "#definition",
+      "definition": "Citrulline combined with malic acid, usually 2:1 by weight."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Where is citrulline converted into arginine?",
+      "a": "In the kidneys.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

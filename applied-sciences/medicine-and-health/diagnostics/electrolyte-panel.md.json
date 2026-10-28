@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "diagnostics.electrolyte-panel",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "diagnostics",
+      "blood-tests"
+    ],
+    "aliases": [
+      "ionogram",
+      "electrolytes",
+      "sodium potassium test"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.potassium",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tietz-2018",
+      "type": "book",
+      "authors": [
+        "Rifai, N.",
+        "Horvath, A. R.",
+        "Wittwer, C. T. (Eds.)"
+      ],
+      "year": 2018,
+      "title": "Tietz Textbook of Clinical Chemistry and Molecular Diagnostics (6th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anion gap",
+      "anchor": "#definition",
+      "definition": "Sodium minus the sum of chloride and bicarbonate, used in acid-base assessment."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "diagnostics"
+  }
+}

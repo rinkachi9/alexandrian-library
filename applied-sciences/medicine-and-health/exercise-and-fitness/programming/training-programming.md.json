@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "exercise.programming.training-programming",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "programming"
+    ],
+    "aliases": [
+      "program design",
+      "training plan",
+      "microcycle",
+      "mesocycle",
+      "macrocycle"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.periodization",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "acsm-2009",
+      "type": "paper",
+      "authors": [
+        "American College of Sports Medicine"
+      ],
+      "year": 2009,
+      "title": "Progression models in resistance training for healthy adults",
+      "url": "https://doi.org/10.1249/MSS.0b013e3181915670",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Microcycle",
+      "anchor": "#definition",
+      "definition": "Usually one week of training."
+    },
+    {
+      "term": "Mesocycle",
+      "anchor": "#definition",
+      "definition": "A block of several weeks with a specific focus."
+    },
+    {
+      "term": "Macrocycle",
+      "anchor": "#definition",
+      "definition": "The full training plan, often months to a year."
+    },
+    {
+      "term": "Training volume",
+      "anchor": "#mechanism",
+      "definition": "The total amount of work, often counted as hard sets per muscle per week."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Order the training units from smallest to largest.",
+      "a": "Session, microcycle, mesocycle, macrocycle.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

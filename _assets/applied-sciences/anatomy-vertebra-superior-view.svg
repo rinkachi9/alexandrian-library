@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">Typical vertebra seen from above</title>
+  <desc id="d">Schematic superior view of a lumbar vertebra. The vertebral body lies at the front. Behind it, two pedicles and two laminae form the vertebral arch around the vertebral foramen, which holds the spinal cord. Transverse processes project to the sides, superior articular processes project upward behind the pedicles, and the spinous process points backward.</desc>
+  <rect width="520" height="400" rx="14" fill="#fbfaf7" stroke="#d8d3c8"/>
+  <text x="260" y="28" font-size="13" fill="#3d4852" text-anchor="middle">Anterior (front)</text>
+  <text x="260" y="390" font-size="13" fill="#3d4852" text-anchor="middle">Posterior (back)</text>
+  <ellipse cx="260" cy="105" rx="105" ry="62" fill="#efe6d2" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M190 150 L175 205 L205 205 L215 160 Z" fill="#e3d6b8" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M330 150 L345 205 L315 205 L305 160 Z" fill="#e3d6b8" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M175 205 L205 205 L245 265 L275 265 L315 205 L345 205 L300 285 L220 285 Z" fill="#e3d6b8" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M245 265 L275 265 L285 365 L235 365 Z" fill="#e3d6b8" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M180 185 L70 175 L70 200 L182 210 Z" fill="#e3d6b8" stroke="#8a7a5c" stroke-width="2"/>
+  <path d="M340 185 L450 175 L450 200 L338 210 Z" fill="#e3d6b8" stroke="#8a7a5c" stroke-width="2"/>
+  <ellipse cx="190" cy="215" rx="16" ry="11" fill="#cfe0f2" stroke="#4f7fa8" stroke-width="1.5"/>
+  <ellipse cx="330" cy="215" rx="16" ry="11" fill="#cfe0f2" stroke="#4f7fa8" stroke-width="1.5"/>
+  <path d="M215 165 L305 165 L300 210 L270 255 L250 255 L220 210 Z" fill="#fbfaf7" stroke="#8a7a5c" stroke-width="2"/>
+  <ellipse cx="260" cy="205" rx="22" ry="20" fill="#f2c9c9" stroke="#c76b6b" stroke-width="1.5"/>
+  <g font-size="12" fill="#1f2933">
+    <text x="260" y="110" text-anchor="middle">Vertebral body</text>
+    <text x="100" y="140">Pedicle</text>
+    <line x1="145" y1="140" x2="190" y2="170" stroke="#3d4852"/>
+    <text x="20" y="168">Transverse process</text>
+    <text x="370" y="245" fill="#4f7fa8">Superior articular</text>
+    <text x="370" y="260" fill="#4f7fa8">process</text>
+    <line x1="368" y1="247" x2="344" y2="220" stroke="#4f7fa8"/>
+    <text x="330" y="310">Lamina</text>
+    <line x1="328" y1="306" x2="300" y2="278" stroke="#3d4852"/>
+    <text x="300" y="350">Spinous process</text>
+    <text x="80" y="300">Vertebral foramen</text>
+    <text x="80" y="315" fill="#c76b6b">with spinal cord</text>
+    <line x1="190" y1="300" x2="240" y2="215" stroke="#3d4852"/>
+  </g>
+</svg>

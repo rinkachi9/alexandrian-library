@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "amino-acids.n-acetylcysteine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "amino-acids",
+      "supplements",
+      "antioxidants",
+      "medicine"
+    ],
+    "aliases": [
+      "NAC",
+      "acetylcysteine"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.cysteine",
+      "rel": "extends"
+    },
+    {
+      "to": "nutrition.supplements.glutathione",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.oxidative-stress",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "smilkstein-1988",
+      "type": "paper",
+      "authors": [
+        "Smilkstein, M. J.",
+        "Knapp, G. L.",
+        "Kulig, K. W.",
+        "Rumack, B. H."
+      ],
+      "year": 1988,
+      "title": "Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose. Analysis of the national multicenter study (1976 to 1985)",
+      "url": "https://doi.org/10.1056/NEJM198812153192401",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glutathione",
+      "anchor": "#definition",
+      "definition": "A tripeptide of glutamate, cysteine and glycine that is the main antioxidant inside cells."
+    },
+    {
+      "term": "Mucolytic",
+      "anchor": "#mechanism",
+      "definition": "A substance that thins mucus."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does the acetyl group add to cysteine in NAC?",
+      "a": "Greater stability and better absorption.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

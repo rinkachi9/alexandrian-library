@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "phytonutrients.quercetin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "flavonol",
+      "rutin"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.polyphenols",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "phytonutrients.sulforaphane",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "serban-2016",
+      "type": "paper",
+      "authors": [
+        "Serban, M. C.",
+        "Sahebkar, A.",
+        "Zanchetti, A."
+      ],
+      "year": 2016,
+      "title": "Effects of quercetin on blood pressure: a systematic review and meta-analysis of randomized controlled trials",
+      "url": "https://doi.org/10.1161/JAHA.115.002713",
+      "verified": false
+    },
+    {
+      "key": "manach-2004",
+      "type": "paper",
+      "authors": [
+        "Manach, C.",
+        "Scalbert, A.",
+        "Morand, C.",
+        "Rémésy, C.",
+        "Jiménez, L."
+      ],
+      "year": 2004,
+      "title": "Polyphenols: food sources and bioavailability",
+      "url": "https://doi.org/10.1093/ajcn/79.5.727",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Quercetin",
+      "anchor": "#definition",
+      "definition": "A common dietary flavonol found in onions, apples and tea."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

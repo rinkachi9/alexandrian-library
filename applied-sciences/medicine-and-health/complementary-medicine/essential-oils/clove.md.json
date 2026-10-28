@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "essential-oils.clove",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 20,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Syzygium aromaticum",
+      "eugenol"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "personal-care.toothache-clove-oil",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "alqareer-2006",
+      "type": "paper",
+      "authors": [
+        "Alqareer, A.",
+        "Alyahya, A.",
+        "Andersson, L."
+      ],
+      "year": 2006,
+      "title": "The effect of clove and benzocaine versus placebo as topical anesthetics",
+      "url": "https://doi.org/10.1016/j.jdent.2006.01.009",
+      "verified": false
+    },
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Eugenol",
+      "anchor": "#definition",
+      "definition": "A phenylpropanoid in clove oil with local anesthetic action."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

@@ -3,7 +3,14 @@
     "id": "applied-sciences.medicine-and-health",
     "kind": "index",
     "status": "draft",
-    "order": 1
+    "order": 1,
+    "tags": [
+      "medicine",
+      "health"
+    ]
   },
-  "links": []
+  "links": [],
+  "map": {
+    "group": "medicine-and-health"
+  }
 }

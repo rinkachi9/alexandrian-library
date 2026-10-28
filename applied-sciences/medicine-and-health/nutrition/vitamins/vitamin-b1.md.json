@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b1",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "thiamin",
+      "thiamine",
+      "TPP"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.krebs-cycle",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-thiamin",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Thiamin: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Thiamin pyrophosphate",
+      "anchor": "#definition",
+      "definition": "The active coenzyme form of vitamin B1."
+    },
+    {
+      "term": "Beriberi",
+      "anchor": "#proposed-effects-and-evidence",
+      "definition": "Thiamin deficiency affecting nerves (dry) or the heart (wet)."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

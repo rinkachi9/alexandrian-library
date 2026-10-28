@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "peptides.tb-500",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "thymosin beta-4",
+      "TB4"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "peptides.bpc-157",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wada-list",
+      "type": "documentation",
+      "authors": [
+        "World Anti-Doping Agency"
+      ],
+      "title": "World Anti-Doping Code: The Prohibited List",
+      "url": "https://www.wada-ama.org/en/prohibited-list",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Thymosin beta-4",
+      "anchor": "#definition",
+      "definition": "A natural actin-binding protein involved in cell migration and repair."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

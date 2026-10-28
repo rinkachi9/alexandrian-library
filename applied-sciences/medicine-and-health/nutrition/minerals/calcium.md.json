@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "nutrition.minerals.calcium",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Ca",
+      "calcium supplements"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-d",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.skeletal.bone-tissue",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-calcium",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Calcium: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "bolland-2010",
+      "type": "paper",
+      "authors": [
+        "Bolland, M. J.",
+        "Avenell, A.",
+        "Baron, J. A."
+      ],
+      "year": 2010,
+      "title": "Effect of calcium supplements on risk of myocardial infarction and cardiovascular events: meta-analysis",
+      "url": "https://doi.org/10.1136/bmj.c3691",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hydroxyapatite",
+      "anchor": "#mechanism",
+      "definition": "The calcium phosphate crystal that hardens bone and teeth."
+    },
+    {
+      "term": "Parathyroid hormone",
+      "anchor": "#mechanism",
+      "definition": "The hormone that raises blood calcium."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

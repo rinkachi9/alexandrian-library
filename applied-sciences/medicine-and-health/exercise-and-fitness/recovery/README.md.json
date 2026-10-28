@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.exercise-and-fitness.recovery",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "exercise",
+      "recovery"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "recovery"
+  }
+}

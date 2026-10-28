@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "phytonutrients.lignans",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "enterolactone",
+      "secoisolariciresinol",
+      "flaxseed lignans"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "phytonutrients.phytoestrogens",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "adlercreutz-2007",
+      "type": "paper",
+      "authors": [
+        "Adlercreutz, H."
+      ],
+      "year": 2007,
+      "title": "Lignans and human health",
+      "url": "https://doi.org/10.1080/10408360701612942",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Enterolignan",
+      "anchor": "#definition",
+      "definition": "A lignan metabolite made by gut bacteria, such as enterolactone."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

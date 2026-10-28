@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "anatomy.muscles.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "anatomy",
+      "muscles"
+    ],
+    "aliases": [
+      "skeletal muscles",
+      "musculus",
+      "muscle anatomy"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.skeletal.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.tissues",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.muscle-contraction",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.classification",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "janssen-2000",
+      "type": "paper",
+      "authors": [
+        "Janssen, I.",
+        "Heymsfield, S. B.",
+        "Wang, Z.",
+        "Ross, R."
+      ],
+      "year": 2000,
+      "title": "Skeletal muscle mass and distribution in 468 men and women aged 18-88 yr",
+      "url": "https://doi.org/10.1152/jappl.2000.89.1.81",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Origin and insertion",
+      "anchor": "#mechanism",
+      "definition": "The usually fixed and the usually moving attachment of a muscle."
+    },
+    {
+      "term": "Fascicle",
+      "anchor": "#mechanism",
+      "definition": "A bundle of muscle fibers wrapped in perimysium."
+    },
+    {
+      "term": "Fat-free mass",
+      "anchor": "#how-much-muscle",
+      "definition": "Everything in the body except fat: muscle, bone, organs and water."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do sources give such different numbers of muscles?",
+      "a": "They count paired muscles, multi-headed muscles and tiny muscles differently.",
+      "anchor": "#how-many-muscles",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscles"
+  }
+}

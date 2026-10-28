@@ -1,0 +1,149 @@
+{
+  "node": {
+    "id": "skills.social-media.influencer-marketing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "social-media",
+      "influencers",
+      "advertising-law"
+    ],
+    "aliases": [
+      "creator marketing",
+      "sponsored posts",
+      "endorsements"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.persuasion-principles",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.content-marketing.content-formats-and-distribution",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "federal-trade-commission",
+      "type": "standard",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "title": "Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255), revised 2023",
+      "url": "https://www.ftc.gov/legal-library/browse/federal-register-notices/guides-concerning-use-endorsements-testimonials-advertising",
+      "verified": false
+    },
+    {
+      "key": "federal-trade-commission-2",
+      "type": "website",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "title": "Disclosures 101 for social media influencers",
+      "url": "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers",
+      "verified": false
+    },
+    {
+      "key": "directive-2005-29",
+      "type": "standard",
+      "title": "Directive 2005/29/EC on unfair commercial practices, Annex I point 11",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "verified": false
+    },
+    {
+      "key": "uokik-2022",
+      "type": "website",
+      "authors": [
+        "UOKiK"
+      ],
+      "year": 2022,
+      "title": "Rekomendacje Prezesa UOKiK dotyczące oznaczania treści reklamowych przez influencerów w mediach społecznościowych",
+      "url": "https://uokik.gov.pl/",
+      "verified": false
+    },
+    {
+      "key": "horton-1956",
+      "type": "paper",
+      "authors": [
+        "Horton, D.",
+        "Wohl, R. R."
+      ],
+      "year": 1956,
+      "title": "Mass communication and para-social interaction",
+      "url": "https://doi.org/10.1080/00332747.1956.11023049",
+      "verified": false
+    },
+    {
+      "key": "vrontis-2021",
+      "type": "paper",
+      "authors": [
+        "Vrontis, D.",
+        "Makrides, A.",
+        "Christofi, M.",
+        "Thrassou, A."
+      ],
+      "year": 2021,
+      "title": "Social media influencer marketing: A systematic review, integrative framework and future research agenda",
+      "url": "https://doi.org/10.1111/ijcs.12647",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Influencer",
+      "anchor": "#definition",
+      "definition": "A person with an audience on one or more platforms who can affect its opinions or purchases."
+    },
+    {
+      "term": "Material connection",
+      "anchor": "#disclosure-the-law",
+      "definition": "A relationship between endorser and brand, such as payment or free products, that must be disclosed."
+    },
+    {
+      "term": "Parasocial relationship",
+      "anchor": "#why-it-works",
+      "definition": "A one-sided sense of familiarity viewers develop with media figures."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does \"clear and conspicuous\" mean in the FTC's 2023 Endorsement Guides?",
+      "a": "Difficult to miss and easily understandable by ordinary consumers.",
+      "anchor": "#disclosure-the-law",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why are follower counts a poor basis for choosing creators?",
+      "a": "They say nothing about audience fit or genuine engagement, and can be inflated by bought followers.",
+      "anchor": "#choosing-creators",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What should an influencer agreement cover?",
+      "a": "Deliverables, creative freedom and approval, disclosure, payment, usage rights, exclusivity and reporting.",
+      "anchor": "#agreements",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

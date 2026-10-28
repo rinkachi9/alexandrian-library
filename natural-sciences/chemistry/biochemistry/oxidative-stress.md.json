@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "biochemistry.oxidative-stress",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 15,
+    "tags": [
+      "biochemistry",
+      "antioxidants",
+      "free-radicals"
+    ],
+    "aliases": [
+      "free radicals",
+      "reactive oxygen species",
+      "antioxidants"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.oxidative-phosphorylation",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.supplements.glutathione",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-e",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.minerals.selenium",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "ods-vit-e",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin E: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "ods-vit-c",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin C: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Free radical",
+      "anchor": "#definition",
+      "definition": "An atom or molecule with an unpaired electron, which makes it highly reactive."
+    },
+    {
+      "term": "Oxidative stress",
+      "anchor": "#definition",
+      "definition": "A state in which reactive oxygen species exceed the antioxidant defenses and cause damage."
+    },
+    {
+      "term": "Hormesis",
+      "anchor": "#hormesis-and-exercise",
+      "definition": "An adaptive response in which a low dose of a stressor strengthens a system."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might large doses of vitamins C and E reduce training adaptation?",
+      "a": "Exercise-induced reactive oxygen species are signals for adaptation; removing them blunts the signal.",
+      "anchor": "#hormesis-and-exercise",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does superoxide dismutase produce?",
+      "a": "Hydrogen peroxide (and oxygen) from superoxide.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

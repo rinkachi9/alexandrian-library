@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "exercise.programming.periodization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "exercise",
+      "programming",
+      "periodization"
+    ],
+    "aliases": [
+      "training periodization"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.training-programming",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.general-adaptation-syndrome",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "moesgaard-2022",
+      "type": "paper",
+      "authors": [
+        "Moesgaard, L.",
+        "Beck, M. M.",
+        "Christiansen, L.",
+        "Aagaard, P.",
+        "Lundbye-Jensen, J."
+      ],
+      "year": 2022,
+      "title": "Effects of periodization on strength and muscle hypertrophy in volume-equated resistance training programs: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-021-01636-1",
+      "verified": false
+    },
+    {
+      "key": "issurin-2010",
+      "type": "paper",
+      "authors": [
+        "Issurin, V. B."
+      ],
+      "year": 2010,
+      "title": "New horizons for the methodology and physiology of training periodization",
+      "url": "https://doi.org/10.2165/11319770-000000000-00000",
+      "verified": false
+    },
+    {
+      "key": "rhea-2002",
+      "type": "paper",
+      "authors": [
+        "Rhea, M. R.",
+        "Ball, S. D.",
+        "Phillips, W. T.",
+        "Burkett, L. N."
+      ],
+      "year": 2002,
+      "title": "A comparison of linear and daily undulating periodized programs with equated volume and intensity for strength",
+      "url": "https://doi.org/10.1519/00124278-200205000-00004",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Periodization",
+      "anchor": "#definition",
+      "definition": "Planned variation of training variables over time to maximize gains."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Which periodization model suits beginners best and why?",
+      "a": "Linear, because steady progression of load works well when adaptation is fast.",
+      "anchor": "#models",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

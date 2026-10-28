@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.ebitda",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "corporate-finance",
+      "profitability"
+    ],
+    "aliases": [
+      "earnings before interest, taxes, depreciation and amortization"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.free-cash-flow",
+      "rel": "contrasts"
+    },
+    {
+      "to": "finance.corporate-finance.operating-expenses",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "koller-2020",
+      "type": "book",
+      "authors": [
+        "Koller, T.",
+        "Goedhart, M.",
+        "Wessels, D."
+      ],
+      "year": 2020,
+      "title": "Valuation: Measuring and Managing the Value of Companies (7th ed.)"
+    },
+    {
+      "key": "damodaran-data",
+      "type": "website",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "title": "Damodaran Online: data on cost of capital, multiples and margins by industry",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+      "verified": false
+    },
+    {
+      "key": "sec-nongaap",
+      "type": "documentation",
+      "authors": [
+        "U.S. Securities and Exchange Commission"
+      ],
+      "title": "Non-GAAP Financial Measures: Compliance and Disclosure Interpretations",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/compliance-disclosure-interpretations/non-gaap-financial-measures",
+      "verified": false
+    },
+    {
+      "key": "ifrs-18",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2024,
+      "title": "IFRS 18 Presentation and Disclosure in Financial Statements",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "EBITDA",
+      "anchor": "#definition",
+      "definition": "Earnings before interest, taxes, depreciation and amortization."
+    },
+    {
+      "term": "EBITDA multiple",
+      "anchor": "#mechanism",
+      "definition": "Enterprise value divided by EBITDA, used to value businesses."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

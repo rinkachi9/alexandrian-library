@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "conditions.allergy-prevention-and-treatment",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "conditions",
+      "allergy"
+    ],
+    "aliases": [
+      "allergy treatment",
+      "immunotherapy",
+      "antihistamines",
+      "anaphylaxis"
+    ]
+  },
+  "links": [
+    {
+      "to": "conditions.allergy",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "du-toit-2015",
+      "type": "paper",
+      "authors": [
+        "Du Toit, G.",
+        "Roberts, G.",
+        "Sayre, P. H."
+      ],
+      "year": 2015,
+      "title": "Randomized trial of peanut consumption in infants at risk for peanut allergy",
+      "url": "https://doi.org/10.1056/NEJMoa1414850",
+      "verified": false
+    },
+    {
+      "key": "bousquet-2020",
+      "type": "paper",
+      "authors": [
+        "Bousquet, J.",
+        "Schünemann, H. J.",
+        "Togias, A."
+      ],
+      "year": 2020,
+      "title": "Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines: 2019 revision",
+      "url": "https://doi.org/10.1016/j.jaci.2019.06.049",
+      "verified": false
+    },
+    {
+      "key": "muraro-2014",
+      "type": "paper",
+      "authors": [
+        "Muraro, A.",
+        "Roberts, G.",
+        "Worm, M."
+      ],
+      "year": 2014,
+      "title": "Anaphylaxis: guidelines from the European Academy of Allergy and Clinical Immunology",
+      "url": "https://doi.org/10.1111/all.12437",
+      "verified": false
+    },
+    {
+      "key": "cuello-garcia-2015",
+      "type": "paper",
+      "authors": [
+        "Cuello-Garcia, C. A.",
+        "Brożek, J. L.",
+        "Fiocchi, A."
+      ],
+      "year": 2015,
+      "title": "Probiotics for the prevention of allergy: a systematic review and meta-analysis of randomized controlled trials",
+      "url": "https://doi.org/10.1016/j.jaci.2015.04.031",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Allergen immunotherapy",
+      "anchor": "#definition",
+      "definition": "Gradually increasing allergen doses to induce tolerance."
+    },
+    {
+      "term": "Primary prevention",
+      "anchor": "#definition",
+      "definition": "Preventing a disease from developing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare antihistamines and immunotherapy.",
+      "a": "Antihistamines block symptoms quickly; immunotherapy slowly induces lasting tolerance.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "conditions"
+  }
+}

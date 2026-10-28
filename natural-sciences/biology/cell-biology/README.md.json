@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "natural-sciences.biology.cell-biology",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "biology",
+      "cell-biology"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "cell-biology"
+  }
+}

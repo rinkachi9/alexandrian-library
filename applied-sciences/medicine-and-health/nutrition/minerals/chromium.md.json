@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "nutrition.minerals.chromium",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Cr",
+      "chromium picolinate"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.glycemic-index",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-chromium",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Chromium: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "costello-2016",
+      "type": "paper",
+      "authors": [
+        "Costello, R. B.",
+        "Dwyer, J. T.",
+        "Bailey, R. L."
+      ],
+      "year": 2016,
+      "title": "Chromium supplements for glycemic control in type 2 diabetes: limited evidence of effectiveness",
+      "url": "https://doi.org/10.1093/nutrit/nuw011",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Trivalent chromium",
+      "anchor": "#definition",
+      "definition": "The form of chromium in food and supplements."
+    },
+    {
+      "term": "Chromodulin",
+      "anchor": "#mechanism",
+      "definition": "A proposed chromium-binding peptide that amplifies insulin signaling."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

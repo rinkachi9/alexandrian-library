@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "business.growth.sales-and-partnerships-engine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "growth",
+      "sales",
+      "marketplaces"
+    ],
+    "aliases": [
+      "business development engine"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.growth-engines",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "personal-development.skills.hard-skills.client-acquisition",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-engines",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 6: Growth engines",
+      "url": "https://www.lennysnewsletter.com/p/growth-engines",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Annual contract value",
+      "anchor": "#mechanism",
+      "definition": "The yearly value of a customer contract, used to judge whether human selling pays."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

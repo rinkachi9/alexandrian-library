@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.search-engine-optimization",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "marketing",
+      "seo"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills.hard-skills.online-research",
+      "rel": "related",
+      "note": "Searching as a user versus optimizing for search"
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

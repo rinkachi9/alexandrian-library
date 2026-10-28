@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "skills.content-marketing.storytelling",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "storytelling",
+      "persuasion"
+    ],
+    "aliases": [
+      "narrative transportation",
+      "brand story",
+      "customer story"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.persuasion-principles",
+      "rel": "related"
+    },
+    {
+      "to": "skills.personal-branding.thought-leadership",
+      "rel": "related",
+      "note": "Stories from practice carry insight"
+    }
+  ],
+  "sources": [
+    {
+      "key": "green-2000",
+      "type": "paper",
+      "authors": [
+        "Green, M. C.",
+        "Brock, T. C."
+      ],
+      "year": 2000,
+      "title": "The role of transportation in the persuasiveness of public narratives",
+      "url": "https://doi.org/10.1037/0022-3514.79.5.701",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "van-laer-2014",
+      "type": "paper",
+      "authors": [
+        "van Laer, T.",
+        "de Ruyter, K.",
+        "Visconti, L. M.",
+        "Wetzels, M."
+      ],
+      "year": 2014,
+      "title": "The extended transportation-imagery model: A meta-analysis of the antecedents and consequences of consumers' narrative transportation",
+      "url": "https://doi.org/10.1086/673383",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "miller-2017",
+      "type": "book",
+      "authors": [
+        "Miller, D."
+      ],
+      "year": 2017,
+      "title": "Building a StoryBrand"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Story",
+      "anchor": "#definition",
+      "definition": "An account of a character who wants something, faces an obstacle and reaches a changed state."
+    },
+    {
+      "term": "Narrative transportation",
+      "anchor": "#why-stories-persuade-narrative-transportation",
+      "definition": "Absorption in a story that makes readers adopt its implied beliefs and counterargue less."
+    },
+    {
+      "term": "Verisimilitude",
+      "anchor": "#why-stories-persuade-narrative-transportation",
+      "definition": "The sense that a story is true to life, which increases transportation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why should the customer, not the company, be the hero of a marketing story?",
+      "a": "Readers are transported when they identify with the character, and they identify with someone like themselves.",
+      "anchor": "#structure-of-a-story",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How many effect sizes and articles did van Laer et al. (2014) meta-analyze?",
+      "a": "132 effect sizes from 76 articles.",
+      "anchor": "#why-stories-persuade-narrative-transportation",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What does a single case study prove and not prove?",
+      "a": "It shows that a result is possible, not that it is typical.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

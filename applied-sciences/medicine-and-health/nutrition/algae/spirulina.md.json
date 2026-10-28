@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "nutrition.algae.spirulina",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "algae"
+    ],
+    "aliases": [
+      "Arthrospira platensis",
+      "blue-green algae",
+      "phycocyanin"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.algae.chlorella",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "serban-2016-spirulina",
+      "type": "paper",
+      "authors": [
+        "Serban, M. C.",
+        "Sahebkar, A.",
+        "Dragan, S."
+      ],
+      "year": 2016,
+      "title": "A systematic review and meta-analysis of the impact of Spirulina supplementation on plasma lipid concentrations",
+      "url": "https://doi.org/10.1016/j.clnu.2015.09.007",
+      "verified": false
+    },
+    {
+      "key": "watanabe-2007",
+      "type": "paper",
+      "authors": [
+        "Watanabe, F."
+      ],
+      "year": 2007,
+      "title": "Vitamin B12 sources and bioavailability",
+      "url": "https://doi.org/10.3181/0703-MR-67",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phycocyanin",
+      "anchor": "#definition",
+      "definition": "The blue antioxidant pigment of spirulina."
+    },
+    {
+      "term": "Pseudovitamin B12",
+      "anchor": "#mechanism",
+      "definition": "An inactive B12 analog found in spirulina."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "algae"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "peptides.melanotan-ii",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "MT-II",
+      "tanning injection",
+      "alpha-MSH analog"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "habbema-2017",
+      "type": "paper",
+      "authors": [
+        "Habbema, L.",
+        "Halk, A. B.",
+        "Neumann, M.",
+        "Bergman, W."
+      ],
+      "year": 2017,
+      "title": "Risks of unregulated use of alpha-melanocyte-stimulating hormone analogues: a review",
+      "url": "https://doi.org/10.1111/ijd.13585",
+      "verified": false
+    },
+    {
+      "key": "fda-bulk-2023",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2023,
+      "title": "Certain bulk drug substances for use in compounding that may present significant safety risks",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Melanocortin receptor",
+      "anchor": "#definition",
+      "definition": "A receptor family activated by MSH that regulates pigmentation, appetite and sexual function."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

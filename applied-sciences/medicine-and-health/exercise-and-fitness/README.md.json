@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.exercise-and-fitness",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "training"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "exercise"
+  }
+}

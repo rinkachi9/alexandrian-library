@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "anatomy.spine.intervertebral-discs",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "anatomy",
+      "spine",
+      "back-pain"
+    ],
+    "aliases": [
+      "spinal discs",
+      "disc herniation",
+      "nucleus pulposus",
+      "annulus fibrosus"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.spine.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.spine.lumbar-vertebrae",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "wilke-1999",
+      "type": "paper",
+      "authors": [
+        "Wilke, H. J.",
+        "Neef, P.",
+        "Caimi, M.",
+        "Hoogland, T.",
+        "Claes, L. E."
+      ],
+      "year": 1999,
+      "title": "New in vivo measurements of pressures in the intervertebral disc in daily life",
+      "url": "https://doi.org/10.1097/00007632-199904150-00005",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nucleus pulposus",
+      "anchor": "#definition",
+      "definition": "The gel-like core of an intervertebral disc."
+    },
+    {
+      "term": "Annulus fibrosus",
+      "anchor": "#definition",
+      "definition": "The ring of collagen layers around the nucleus."
+    },
+    {
+      "term": "Disc herniation",
+      "anchor": "#mechanism",
+      "definition": "Escape of nucleus material through a crack in the annulus."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do discs heal poorly?",
+      "a": "They have almost no blood supply and are nourished by diffusion through the endplates.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "spine"
+  }
+}

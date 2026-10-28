@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "biochemistry.enzymes-and-coenzymes",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "biochemistry",
+      "enzymes",
+      "vitamins"
+    ],
+    "aliases": [
+      "catalysts",
+      "cofactors"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "applied-sciences.medicine-and-health.nutrition.vitamins",
+      "rel": "related",
+      "note": "Most coenzymes are made from vitamins"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "lehninger-2021",
+      "type": "book",
+      "authors": [
+        "Nelson, D. L.",
+        "Cox, M. M."
+      ],
+      "year": 2021,
+      "title": "Lehninger Principles of Biochemistry (8th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Enzyme",
+      "anchor": "#definition",
+      "definition": "A biological catalyst, usually a protein, that speeds up a specific reaction by lowering its activation energy."
+    },
+    {
+      "term": "Coenzyme",
+      "anchor": "#definition",
+      "definition": "A small organic cofactor that carries electrons or chemical groups between enzymes."
+    },
+    {
+      "term": "Michaelis constant",
+      "anchor": "#mechanism",
+      "definition": "The substrate concentration at which an enzyme works at half its maximum rate."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Pepsin enters the small intestine with the food. What happens to its activity and why?",
+      "a": "It drops because the pH rises from about 2 to about 8, far from its optimum.",
+      "anchor": "#factors-that-change-enzyme-activity",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which mineral is bound to almost all ATP in cells?",
+      "a": "Magnesium.",
+      "anchor": "#metal-ions",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "exercise.intensification.negative-reps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "negatives",
+      "eccentric-only reps"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.eccentric-resistance",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "roig-2009",
+      "type": "paper",
+      "authors": [
+        "Roig, M.",
+        "O'Brien, K.",
+        "Kirk, G."
+      ],
+      "year": 2009,
+      "title": "The effects of eccentric versus concentric resistance training on muscle strength and mass in healthy adults: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.1136/bjsm.2008.051417",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Negative repetition",
+      "anchor": "#definition",
+      "definition": "A repetition with only the eccentric phase."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Plan negatives for someone learning push-ups.",
+      "a": "Slow lowering from the top over 3 to 5 seconds, 3 to 5 repetitions, then reset on the knees.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

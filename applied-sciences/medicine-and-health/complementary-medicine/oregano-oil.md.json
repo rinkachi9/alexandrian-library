@@ -1,0 +1,54 @@
+{
+  "node": {
+    "id": "complementary-medicine.oregano-oil",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "Origanum vulgare",
+      "carvacrol",
+      "thymol"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "applied-sciences.medicine-and-health.complementary-medicine.essential-oils",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "leyva-lopez-2017",
+      "type": "paper",
+      "authors": [
+        "Leyva-López, N.",
+        "Gutiérrez-Grijalva, E. P.",
+        "Vazquez-Olivo, G.",
+        "Heredia, J. B."
+      ],
+      "year": 2017,
+      "title": "Essential oils of oregano: biological activity beyond their antimicrobial properties",
+      "url": "https://doi.org/10.3390/molecules22060989",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Carvacrol",
+      "anchor": "#definition",
+      "definition": "A phenolic monoterpene in oregano oil with antimicrobial action."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

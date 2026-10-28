@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "exercise.intensification.partial-reps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 14,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "partials",
+      "lengthened partials"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.force-length-velocity",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "pedrosa-2022",
+      "type": "paper",
+      "authors": [
+        "Pedrosa, G. F.",
+        "Lima, F. V.",
+        "Schoenfeld, B. J."
+      ],
+      "year": 2022,
+      "title": "Partial range of motion training elicits favorable improvements in muscular adaptations when carried out at long muscle lengths",
+      "url": "https://doi.org/10.1080/17461391.2021.1927199",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Partial repetition",
+      "anchor": "#definition",
+      "definition": "A repetition through only part of the full range of motion."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How would you add lengthened partials to a set of curls?",
+      "a": "After near failure, do partial repetitions in the bottom, stretched part of the range.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

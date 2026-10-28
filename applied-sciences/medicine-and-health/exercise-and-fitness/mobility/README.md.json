@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.exercise-and-fitness.mobility",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "exercise",
+      "mobility"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "mobility"
+  }
+}

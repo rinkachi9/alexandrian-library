@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "herbal-extracts.tribulus",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Tribulus terrestris",
+      "puncture vine",
+      "protodioscin"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.maca",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "neychev-2005",
+      "type": "paper",
+      "authors": [
+        "Neychev, V. K.",
+        "Mitev, V. I."
+      ],
+      "year": 2005,
+      "title": "The aphrodisiac herb Tribulus terrestris does not influence the androgen production in young men",
+      "url": "https://doi.org/10.1016/j.jep.2005.05.017",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Protodioscin",
+      "anchor": "#definition",
+      "definition": "A steroidal saponin in tribulus."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

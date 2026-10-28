@@ -1,0 +1,17 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.muscular-system.upper-limb",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "upper-limb"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "upper-limb-muscles"
+  }
+}

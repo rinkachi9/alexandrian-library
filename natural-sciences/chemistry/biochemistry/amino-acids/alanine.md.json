@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "amino-acids.alanine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 21,
+    "tags": [
+      "amino-acids",
+      "non-essential"
+    ],
+    "aliases": [
+      "L-alanine",
+      "Ala",
+      "A"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.beta-alanine",
+      "rel": "contrasts"
+    },
+    {
+      "to": "biochemistry.gluconeogenesis",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glucose-alanine cycle",
+      "anchor": "#mechanism",
+      "definition": "Transport of nitrogen and carbon from muscle to liver as alanine, with glucose returned to muscle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What happens to alanine in the liver?",
+      "a": "Its amino group goes to urea, and its carbon becomes pyruvate and then glucose.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

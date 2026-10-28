@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "business.growth.growth-engines",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "growth",
+      "scaling"
+    ],
+    "aliases": [
+      "racecar growth framework",
+      "scale"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.retention",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.growth.performance-marketing-engine",
+      "rel": "related"
+    },
+    {
+      "to": "business.growth.virality",
+      "rel": "related"
+    },
+    {
+      "to": "business.growth.content-engine",
+      "rel": "related"
+    },
+    {
+      "to": "business.growth.sales-and-partnerships-engine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-engines",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 6: Growth engines",
+      "url": "https://www.lennysnewsletter.com/p/growth-engines",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "balfour-2016",
+      "type": "website",
+      "authors": [
+        "Balfour, B.",
+        "Winters, C.",
+        "Kwok, K."
+      ],
+      "year": 2018,
+      "title": "Growth loops are the new funnels",
+      "url": "https://www.reforge.com/blog/growth-loops",
+      "verified": false
+    },
+    {
+      "key": "weinberg-2015",
+      "type": "book",
+      "authors": [
+        "Weinberg, G.",
+        "Mares, J."
+      ],
+      "year": 2015,
+      "title": "Traction: How Any Startup Can Achieve Explosive Customer Growth"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Growth engine",
+      "anchor": "#definition",
+      "definition": "A repeatable mechanism that turns users or money into new users without a new manual effort each time."
+    },
+    {
+      "term": "Turbo boost",
+      "anchor": "#mechanism",
+      "definition": "A one-time event that produces a spike of users but no repeatable loop."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

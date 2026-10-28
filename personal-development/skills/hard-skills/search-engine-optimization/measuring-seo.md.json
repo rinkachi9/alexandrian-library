@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.measuring-seo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "seo",
+      "analytics",
+      "measurement"
+    ],
+    "aliases": [
+      "Google Search Console",
+      "SEO reporting",
+      "rank tracking"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.measuring-content-performance",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-console",
+      "type": "documentation",
+      "authors": [
+        "Google Search Console Help"
+      ],
+      "title": "Performance report (Search results)",
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "google-search-console-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Console Help"
+      ],
+      "title": "Page indexing report",
+      "url": "https://support.google.com/webmasters/answer/7440203",
+      "verified": false
+    },
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Google Search ranking updates",
+      "url": "https://developers.google.com/search/updates/ranking",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Impressions",
+      "anchor": "#understanding-the-metrics",
+      "definition": "How often a page appeared in search results, even if not seen."
+    },
+    {
+      "term": "Click-through rate",
+      "anchor": "#google-search-console",
+      "definition": "Clicks divided by impressions."
+    },
+    {
+      "term": "Core update",
+      "anchor": "#algorithm-updates-and-volatility",
+      "definition": "A broad change to Google's ranking systems that rolls out over days or weeks."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can average position be misleading?",
+      "a": "It averages over all impressions and queries, so a mix of high and low positions produces a number that describes neither.",
+      "anchor": "#understanding-the-metrics",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the five checks when organic traffic changes.",
+      "a": "Scope, indexing problems or manual actions, timing of updates and own changes, seasonality, and SERP feature changes.",
+      "anchor": "#algorithm-updates-and-volatility",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why is the unit of randomization different in SEO tests than in A/B tests?",
+      "a": "Search engines see one version of each page, so SEO tests randomize groups of pages, not visitors.",
+      "anchor": "#estimating-the-effect-of-seo-changes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

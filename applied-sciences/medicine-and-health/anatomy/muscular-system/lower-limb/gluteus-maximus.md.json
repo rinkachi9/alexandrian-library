@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "anatomy.muscles.gluteus-maximus",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "lower-limb",
+      "hip",
+      "gluteal"
+    ],
+    "aliases": [
+      "glutes"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.joints.hip-joint",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.hamstrings",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.training-types.glute-training-by-shape",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "barbalho-2020",
+      "type": "paper",
+      "authors": [
+        "Barbalho, M.",
+        "Coswig, V.",
+        "Souza, D.",
+        "Serrão, J. C.",
+        "Hebling Campos, M.",
+        "Gentil, P."
+      ],
+      "year": 2020,
+      "title": "Back squat vs. hip thrust resistance-training programs in well-trained women",
+      "url": "https://doi.org/10.1055/a-1082-1126",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "lower-limb-muscles"
+  }
+}

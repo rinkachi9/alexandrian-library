@@ -46,7 +46,7 @@ Entries without a link are planned topics. They become notes or directories when
     - Decision theory (planned)
     - Systems thinking (planned)
     - Operations research (planned)
-- **natural-sciences/** (planned)
+- **natural-sciences/**
   - [README.md](natural-sciences/README.md): Natural sciences - Disciplines that study nature through observation and experiment.
   - **physics/** (planned)
     - [README.md](natural-sciences/physics/README.md): Physics - Matter, energy, forces, space and time.
@@ -56,23 +56,90 @@ Entries without a link are planned topics. They become notes or directories when
     - Optics and waves (planned)
     - Relativity (planned)
     - Quantum mechanics (planned)
-  - **chemistry/** (planned)
+  - **chemistry/**
     - [README.md](natural-sciences/chemistry/README.md): Chemistry - The composition, structure and reactions of substances.
-    - General chemistry (planned)
-    - Organic chemistry (planned)
-    - Inorganic chemistry (planned)
-    - Biochemistry (planned)
-    - Analytical chemistry (planned)
-  - **biology/** (planned)
+    - **biochemistry/**
+      - [README.md](natural-sciences/chemistry/biochemistry/README.md): Biochemistry - Biochemistry studies the molecules of living organisms and the reactions that build, break and convert them.
+      - **amino-acids/**
+        - [README.md](natural-sciences/chemistry/biochemistry/amino-acids/README.md): Amino acids - Amino acids are the building blocks of proteins and the starting material for many hormones, neurotransmitters and other molecules.
+        - [amino-acids-overview.md](natural-sciences/chemistry/biochemistry/amino-acids/amino-acids-overview.md): Amino acids overview - Amino acids are small organic molecules with an amino group and a carboxyl group on the same carbon.
+        - [arginine.md](natural-sciences/chemistry/biochemistry/amino-acids/arginine.md): Arginine - L-arginine is a conditionally essential amino acid: the body makes it, but in stress, illness or growth the synthesis may not cover the need.
+        - [citrulline.md](natural-sciences/chemistry/biochemistry/amino-acids/citrulline.md): Citrulline - L-citrulline is a non-protein amino acid and an intermediate of the urea cycle, which removes ammonia from the body.
+        - [theanine.md](natural-sciences/chemistry/biochemistry/amino-acids/theanine.md): Theanine - L-theanine is a non-protein amino acid found almost only in the tea plant (Camellia sinensis) and a few mushrooms.
+        - [beta-alanine.md](natural-sciences/chemistry/biochemistry/amino-acids/beta-alanine.md): Beta-alanine - Beta-alanine is a non-protein amino acid and the limiting precursor of carnosine, a buffer stored in muscle.
+        - [n-acetylcysteine.md](natural-sciences/chemistry/biochemistry/amino-acids/n-acetylcysteine.md): N-acetylcysteine - N-acetylcysteine (NAC) is a derivative of the amino acid cysteine.
+        - [tryptophan.md](natural-sciences/chemistry/biochemistry/amino-acids/tryptophan.md): Tryptophan - L-tryptophan is an essential amino acid with an aromatic indole ring.
+        - [tyrosine.md](natural-sciences/chemistry/biochemistry/amino-acids/tyrosine.md): Tyrosine - L-tyrosine is an aromatic amino acid that the body makes from phenylalanine.
+        - [lysine.md](natural-sciences/chemistry/biochemistry/amino-acids/lysine.md): Lysine - L-lysine is an essential amino acid with a positively charged side chain.
+        - [histidine.md](natural-sciences/chemistry/biochemistry/amino-acids/histidine.md): Histidine - L-histidine is an essential amino acid with an imidazole ring that can gain or lose a proton near body pH.
+        - [leucine.md](natural-sciences/chemistry/biochemistry/amino-acids/leucine.md): Leucine - L-leucine is an essential branched-chain amino acid (BCAA).
+        - [isoleucine.md](natural-sciences/chemistry/biochemistry/amino-acids/isoleucine.md): Isoleucine - L-isoleucine is an essential branched-chain amino acid.
+        - [valine.md](natural-sciences/chemistry/biochemistry/amino-acids/valine.md): Valine - L-valine is the third essential branched-chain amino acid.
+        - [methionine.md](natural-sciences/chemistry/biochemistry/amino-acids/methionine.md): Methionine - L-methionine is an essential sulfur-containing amino acid.
+        - [phenylalanine.md](natural-sciences/chemistry/biochemistry/amino-acids/phenylalanine.md): Phenylalanine - L-phenylalanine is an essential aromatic amino acid and the precursor of tyrosine, and through it of dopamine, noradrenaline, adrenaline, thyroid hormones and melanin.
+        - [threonine.md](natural-sciences/chemistry/biochemistry/amino-acids/threonine.md): Threonine - L-threonine is an essential amino acid with a hydroxyl group.
+        - [cysteine.md](natural-sciences/chemistry/biochemistry/amino-acids/cysteine.md): Cysteine - L-cysteine is a sulfur-containing amino acid whose thiol group (-SH) can link to another cysteine through a disulfide bond.
+        - [glutamine.md](natural-sciences/chemistry/biochemistry/amino-acids/glutamine.md): Glutamine - L-glutamine is the most abundant free amino acid in blood and muscle.
+        - [glycine.md](natural-sciences/chemistry/biochemistry/amino-acids/glycine.md): Glycine - Glycine is the smallest amino acid, with only a hydrogen atom as its side chain.
+        - [proline.md](natural-sciences/chemistry/biochemistry/amino-acids/proline.md): Proline - L-proline is an amino acid whose side chain loops back to its own amino group, making a rigid ring.
+        - [alanine.md](natural-sciences/chemistry/biochemistry/amino-acids/alanine.md): Alanine - L-alanine is a small non-essential amino acid.
+        - [asparagine.md](natural-sciences/chemistry/biochemistry/amino-acids/asparagine.md): Asparagine - L-asparagine is a non-essential polar amino acid, the amide of aspartic acid.
+        - [aspartic-acid.md](natural-sciences/chemistry/biochemistry/amino-acids/aspartic-acid.md): Aspartic acid - L-aspartic acid (aspartate) is a non-essential acidic amino acid.
+        - [glutamic-acid.md](natural-sciences/chemistry/biochemistry/amino-acids/glutamic-acid.md): Glutamic acid - L-glutamic acid (glutamate) is the most common excitatory neurotransmitter in the brain and a hub of amino acid metabolism, collecting and distributing amino groups.
+        - [serine.md](natural-sciences/chemistry/biochemistry/amino-acids/serine.md): Serine - L-serine is a non-essential amino acid with a hydroxyl group.
+      - [metabolism.md](natural-sciences/chemistry/biochemistry/metabolism.md): Metabolism - Metabolism is the sum of all chemical reactions in a living organism, together with the energy changes that go with them.
+      - [anabolism.md](natural-sciences/chemistry/biochemistry/anabolism.md): Anabolism - Anabolism is the half of metabolism that builds complex molecules from simple ones, such as proteins from amino acids or glycogen from glucose.
+      - [catabolism.md](natural-sciences/chemistry/biochemistry/catabolism.md): Catabolism - Catabolism is the half of metabolism that breaks complex molecules into simpler ones and releases energy.
+      - [enzymes-and-coenzymes.md](natural-sciences/chemistry/biochemistry/enzymes-and-coenzymes.md): Enzymes and coenzymes - Enzymes are biological catalysts, almost always proteins, that speed up specific reactions by lowering their activation energy without being used up.
+      - [atp.md](natural-sciences/chemistry/biochemistry/atp.md): ATP - Adenosine triphosphate (ATP) is the molecule cells use to pay for almost all work.
+      - [glycolysis.md](natural-sciences/chemistry/biochemistry/glycolysis.md): Glycolysis - Glycolysis is the ten-step pathway in the cytoplasm that splits one glucose molecule into two molecules of pyruvate.
+      - [krebs-cycle.md](natural-sciences/chemistry/biochemistry/krebs-cycle.md): Krebs cycle - The Krebs cycle, also called the citric acid cycle or tricarboxylic acid (TCA) cycle, is the central hub of energy metabolism.
+      - [oxidative-phosphorylation.md](natural-sciences/chemistry/biochemistry/oxidative-phosphorylation.md): Oxidative phosphorylation - Oxidative phosphorylation is the process in the inner mitochondrial membrane that makes most of the body's ATP.
+      - [beta-oxidation.md](natural-sciences/chemistry/biochemistry/beta-oxidation.md): Beta-oxidation - Beta-oxidation is the pathway in the mitochondria that breaks fatty acids into two-carbon acetyl-CoA units, producing NADH and FADH2 along the way.
+      - [lactate-and-fermentation.md](natural-sciences/chemistry/biochemistry/lactate-and-fermentation.md): Lactate and fermentation - When glycolysis produces pyruvate faster than the mitochondria can take it up, muscle cells convert pyruvate into lactate.
+      - [glycogen-metabolism.md](natural-sciences/chemistry/biochemistry/glycogen-metabolism.md): Glycogen metabolism - Glycogen is the storage form of glucose in animals: a large branched polymer kept mainly in the liver and the muscles.
+      - [gluconeogenesis.md](natural-sciences/chemistry/biochemistry/gluconeogenesis.md): Gluconeogenesis - Gluconeogenesis is the synthesis of new glucose from non-carbohydrate sources: lactate, glycerol and most amino acids.
+      - [urea-cycle.md](natural-sciences/chemistry/biochemistry/urea-cycle.md): Urea cycle - The urea cycle is the pathway in the liver that turns toxic ammonia, released when amino acids are broken down, into urea, which the kidneys excrete.
+      - [oxidative-stress.md](natural-sciences/chemistry/biochemistry/oxidative-stress.md): Oxidative stress - Oxidative stress is an imbalance in which reactive oxygen species (ROS), often called free radicals, outpace the body's antioxidant defenses and damage lipids, protein...
+      - **lipids/**
+        - [README.md](natural-sciences/chemistry/biochemistry/lipids/README.md): Lipids - Lipids are the fats and fat-like molecules of living things: fatty acids, triglycerides, phospholipids, sterols such as cholesterol, and the signaling molecules made f...
+        - [lipids-overview.md](natural-sciences/chemistry/biochemistry/lipids/lipids-overview.md): Lipids overview - Lipids are a diverse group of molecules defined by one property: they dissolve poorly in water and well in organic solvents.
+        - [fatty-acids.md](natural-sciences/chemistry/biochemistry/lipids/fatty-acids.md): Fatty acids - Fatty acids are chains of carbon atoms ending in a carboxyl group (-COOH).
+        - [saturated-fatty-acids.md](natural-sciences/chemistry/biochemistry/lipids/saturated-fatty-acids.md): Saturated fatty acids - Saturated fatty acids have no double bonds, so their chains are straight and pack tightly, which makes fats rich in them solid at room temperature.
+        - [trans-fatty-acids.md](natural-sciences/chemistry/biochemistry/lipids/trans-fatty-acids.md): Trans fatty acids - Trans fatty acids are unsaturated fatty acids with at least one double bond in the trans configuration.
+        - [omega-9-fatty-acids.md](natural-sciences/chemistry/biochemistry/lipids/omega-9-fatty-acids.md): Omega-9 fatty acids - Omega-9 fatty acids are monounsaturated fatty acids whose double bond sits nine carbons from the methyl end.
+        - [oleic-acid.md](natural-sciences/chemistry/biochemistry/lipids/oleic-acid.md): Oleic acid - Oleic acid (18:1 n-9) is the most common monounsaturated fatty acid in food and in the human body.
+        - [omega-6-fatty-acids.md](natural-sciences/chemistry/biochemistry/lipids/omega-6-fatty-acids.md): Omega-6 fatty acids - Omega-6 fatty acids are polyunsaturated fatty acids whose first double bond sits six carbons from the methyl end.
+        - [linoleic-acid.md](natural-sciences/chemistry/biochemistry/lipids/linoleic-acid.md): Linoleic acid - Linoleic acid (LA, 18:2 n-6) is the essential omega-6 fatty acid and the most abundant polyunsaturated fatty acid in the human diet.
+        - [gamma-linolenic-acid.md](natural-sciences/chemistry/biochemistry/lipids/gamma-linolenic-acid.md): Gamma-linolenic acid - Gamma-linolenic acid (GLA, 18:3 n-6) is an omega-6 fatty acid made from linoleic acid.
+        - [arachidonic-acid.md](natural-sciences/chemistry/biochemistry/lipids/arachidonic-acid.md): Arachidonic acid - Arachidonic acid (AA, 20:4 n-6) is a long-chain omega-6 fatty acid stored in cell membranes, especially in the brain, muscle and immune cells.
+        - [omega-3-fatty-acids.md](natural-sciences/chemistry/biochemistry/lipids/omega-3-fatty-acids.md): Omega-3 fatty acids - Omega-3 fatty acids are polyunsaturated fatty acids with the first double bond three carbons from the methyl end.
+        - [alpha-linolenic-acid.md](natural-sciences/chemistry/biochemistry/lipids/alpha-linolenic-acid.md): Alpha-linolenic acid - Alpha-linolenic acid (ALA, 18:3 n-3) is the essential omega-3 fatty acid found in plants: flaxseed, chia, walnuts, hemp and rapeseed oil.
+        - [epa.md](natural-sciences/chemistry/biochemistry/lipids/epa.md): Eicosapentaenoic acid (EPA) - Eicosapentaenoic acid (EPA, 20:5 n-3) is a long-chain omega-3 fatty acid found mainly in oily fish and fish oil.
+        - [dha.md](natural-sciences/chemistry/biochemistry/lipids/dha.md): Docosahexaenoic acid (DHA) - Docosahexaenoic acid (DHA, 22:6 n-3) is the longest common omega-3 fatty acid and a main structural fat of the brain and the retina.
+        - [eicosanoids.md](natural-sciences/chemistry/biochemistry/lipids/eicosanoids.md): Eicosanoids - Eicosanoids are short-lived signaling molecules made from 20-carbon fatty acids, mainly arachidonic acid (omega-6) and EPA (omega-3).
+        - [butyric-acid.md](natural-sciences/chemistry/biochemistry/lipids/butyric-acid.md): Butyric acid and sodium butyrate - Butyric acid (butyrate) is a short-chain fatty acid with four carbons.
+        - [phospholipids-and-lecithin.md](natural-sciences/chemistry/biochemistry/lipids/phospholipids-and-lecithin.md): Phospholipids and lecithin - Phospholipids are the lipids that form cell membranes.
+        - [cholesterol.md](natural-sciences/chemistry/biochemistry/lipids/cholesterol.md): Cholesterol - Cholesterol is a sterol, a lipid with four fused rings, that every animal cell needs.
+        - [lipoproteins.md](natural-sciences/chemistry/biochemistry/lipids/lipoproteins.md): Lipoproteins - Lipoproteins are particles that carry fats and cholesterol through the blood.
+        - [lipoprotein-a.md](natural-sciences/chemistry/biochemistry/lipids/lipoprotein-a.md): Lipoprotein(a) - Lipoprotein(a), written Lp(a), is an LDL-like particle made in the liver with an extra protein, apolipoprotein(a), attached.
+      - **proteins/**
+        - [README.md](natural-sciences/chemistry/biochemistry/proteins/README.md): Proteins - Proteins are chains of amino acids folded into precise shapes.
+        - [proteins.md](natural-sciences/chemistry/biochemistry/proteins/proteins.md): Proteins - Proteins are the basic building materials of cells and tissues.
+        - [collagen.md](natural-sciences/chemistry/biochemistry/proteins/collagen.md): Collagen - Collagen is the main structural protein of connective tissue and the most abundant protein in the human body, making up about a quarter to a third of all protein.
+      - **carbohydrates/**
+        - [README.md](natural-sciences/chemistry/biochemistry/carbohydrates/README.md): Carbohydrates - Carbohydrates are sugars and their polymers.
+        - [carbohydrates.md](natural-sciences/chemistry/biochemistry/carbohydrates/carbohydrates.md): Carbohydrates - Carbohydrates are molecules of carbon, hydrogen and oxygen, built from simple sugar units.
+        - [glycosaminoglycans.md](natural-sciences/chemistry/biochemistry/carbohydrates/glycosaminoglycans.md): Glycosaminoglycans - Glycosaminoglycans (GAGs) are long, unbranched chains of repeating sugar pairs that carry many negative charges.
+  - **biology/**
     - [README.md](natural-sciences/biology/README.md): Biology - Living organisms, from molecules to ecosystems.
-    - Cell biology (planned)
-    - Genetics (planned)
-    - Evolution (planned)
-    - Microbiology (planned)
-    - Botany (planned)
-    - Zoology (planned)
-    - Ecology (planned)
-    - Neurobiology (planned)
+    - **cell-biology/**
+      - [README.md](natural-sciences/biology/cell-biology/README.md): Cell biology - The cell is the smallest unit of life.
+      - [cell-structure.md](natural-sciences/biology/cell-biology/cell-structure.md): Cell structure - A human cell is a membrane-bound compartment filled with cytoplasm and organized by internal membranes into organelles.
+      - [cell-membrane.md](natural-sciences/biology/cell-biology/cell-membrane.md): Cell membrane and transport - The cell membrane is a double layer of phospholipids with cholesterol and proteins embedded in it.
+      - [mitochondria.md](natural-sciences/biology/cell-biology/mitochondria.md): Mitochondria - Mitochondria are organelles with two membranes that produce most of the cell's ATP through the Krebs cycle and oxidative phosphorylation.
+      - [tissues.md](natural-sciences/biology/cell-biology/tissues.md): Tissues - A tissue is a group of similar cells and the material between them, working together for a common function.
+      - [telomeres.md](natural-sciences/biology/cell-biology/telomeres.md): Telomeres - Telomeres are protective caps of repeated DNA at the ends of chromosomes.
   - **earth-sciences/** (planned)
     - [README.md](natural-sciences/earth-sciences/README.md): Earth sciences - The structure and processes of the planet.
     - Geology (planned)
@@ -84,7 +151,7 @@ Entries without a link are planned topics. They become notes or directories when
     - Solar system (planned)
     - Stars and galaxies (planned)
     - Cosmology (planned)
-- **social-sciences/** (planned)
+- **social-sciences/**
   - [README.md](social-sciences/README.md): Social sciences - Disciplines that study human behavior, societies and institutions.
   - **psychology/** (planned)
     - [README.md](social-sciences/psychology/README.md): Psychology - Mind and behavior.
@@ -113,13 +180,25 @@ Entries without a link are planned topics. They become notes or directories when
     - Comparative politics (planned)
     - International relations (planned)
     - Public policy (planned)
-  - **law/** (planned)
+  - **law/**
     - [README.md](social-sciences/law/README.md): Law - Legal systems, rules and their application.
-    - Legal theory (planned)
-    - Contract law (planned)
-    - Criminal law (planned)
-    - Intellectual property (planned)
-    - Data protection and privacy law (planned)
+    - **company-law/**
+      - [README.md](social-sciences/law/company-law/README.md): Company law - The legal rules for forming, running and closing companies.
+      - [limited-liability-company.md](social-sciences/law/company-law/limited-liability-company.md): Polish limited liability company - The limited liability company (spółka z ograniczoną odpowiedzialnością, sp.
+      - [articles-of-association.md](social-sciences/law/company-law/articles-of-association.md): Articles of association - The articles of association (umowa spółki) are the founding contract of a sp.
+      - [formation-and-registration.md](social-sciences/law/company-law/formation-and-registration.md): Formation and registration - After the articles are signed, the management board must register the company in the National Court Register (KRS), which today is done only electronically through the...
+      - [management-board.md](social-sciences/law/company-law/management-board.md): Management board - The management board (zarząd) is the mandatory organ that runs a sp.
+      - [shareholders-meeting.md](social-sciences/law/company-law/shareholders-meeting.md): Shareholders' meeting - The shareholders' meeting (zgromadzenie wspólników) is the mandatory organ of all shareholders that takes the company's most important decisions.
+      - [supervisory-board.md](social-sciences/law/company-law/supervisory-board.md): Supervisory board - The supervisory board (rada nadzorcza) is the organ that permanently supervises the company's activity in all areas: it reviews the financial statements and management...
+      - [shareholder-rights.md](social-sciences/law/company-law/shareholder-rights.md): Shareholder rights - A shareholder in a sp.
+      - [dividends.md](social-sciences/law/company-law/dividends.md): Dividends - A dividend is the shareholders' share in the company's profit.
+      - [additional-payments.md](social-sciences/law/company-law/additional-payments.md): Additional payments - Additional payments (dopłaty) are a way for shareholders to fund a sp.
+      - [transfer-of-shares.md](social-sciences/law/company-law/transfer-of-shares.md): Transfer of shares - Shares in a sp.
+      - [amending-articles-of-association.md](social-sciences/law/company-law/amending-articles-of-association.md): Amending the articles of association - Changing the articles of a sp.
+      - [shareholder-liability.md](social-sciences/law/company-law/shareholder-liability.md): Shareholder liability - Shareholders of a sp.
+      - [management-board-liability.md](social-sciences/law/company-law/management-board-liability.md): Management board liability - Members of the management board of a sp.
+      - [dissolution-and-liquidation.md](social-sciences/law/company-law/dissolution-and-liquidation.md): Dissolution and liquidation - A sp.
+      - [accounting-and-taxation.md](social-sciences/law/company-law/accounting-and-taxation.md): Accounting and taxation - A sp.
   - **anthropology/** (planned)
     - [README.md](social-sciences/anthropology/README.md): Anthropology - Human cultures and human origins.
     - Cultural anthropology (planned)
@@ -171,16 +250,494 @@ Entries without a link are planned topics. They become notes or directories when
     - [README.md](humanities/archaeology/README.md): Archaeology - Past societies studied through material remains.
     - Methods (planned)
     - Major civilizations (planned)
-- **applied-sciences/** (planned)
+- **applied-sciences/**
   - [README.md](applied-sciences/README.md): Applied sciences - Fields that use knowledge from the other domains to solve practical problems and run professions.
-  - **medicine-and-health/** (planned)
+  - **medicine-and-health/**
     - [README.md](applied-sciences/medicine-and-health/README.md): Medicine and health - The human body, its care and its performance.
-    - Anatomy (planned)
-    - Physiology (planned)
-    - Nutrition (planned)
-    - Exercise and fitness (planned)
-    - Mental health (planned)
-    - Public health (planned)
+    - **anatomy/**
+      - [README.md](applied-sciences/medicine-and-health/anatomy/README.md): Anatomy - Anatomy describes the structure of the human body: its bones, joints and muscles, and how they are arranged.
+      - **anatomical-terminology/**
+        - [README.md](applied-sciences/medicine-and-health/anatomy/anatomical-terminology/README.md): Anatomical terminology - Anatomy uses a fixed reference posture and a shared, mostly Latin vocabulary, so that every description of a structure or a movement means the same thing to every read...
+        - [anatomical-position.md](applied-sciences/medicine-and-health/anatomy/anatomical-terminology/anatomical-position.md): Anatomical position - The anatomical position is the standard posture to which all descriptions of the body refer: standing upright, head and eyes facing forward, arms hanging at the sides...
+        - [axes-and-planes.md](applied-sciences/medicine-and-health/anatomy/anatomical-terminology/axes-and-planes.md): Axes and planes of the body - Three axes and three planes, all at right angles to each other, describe positions and movements in the body.
+        - [directional-terms.md](applied-sciences/medicine-and-health/anatomy/anatomical-terminology/directional-terms.md): Directional terms - Directional terms describe where a structure lies relative to another, always assuming the anatomical position.
+        - [anatomical-movements.md](applied-sciences/medicine-and-health/anatomy/anatomical-terminology/anatomical-movements.md): Anatomical movements - Movements at joints are named in pairs of opposites and each pair belongs to one plane: flexion and extension in the sagittal plane, abduction and adduction (and later...
+      - **skeletal-system/**
+        - [README.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/README.md): Skeletal system - The skeleton is the frame of the body: about 206 bones in an adult, joined by joints and moved by muscles.
+        - [skeletal-system-overview.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skeletal-system-overview.md): Skeletal system overview - The adult human skeleton has about 206 bones, divided into the axial skeleton (skull, vertebral column, ribs and sternum, 80 bones) and the appendicular skeleton (limb...
+        - [bone-tissue.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/bone-tissue.md): Bone tissue - Bone is a living connective tissue made of cells in a matrix of collagen fibers and calcium phosphate crystals.
+        - **skull/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/README.md): Skull - The skull (cranium) is the skeleton of the head.
+          - [skull-overview.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/skull-overview.md): Skull overview - The skull (cranium) is the bony skeleton of the head and the natural shield of the brain and the other organs in the head.
+          - [frontal-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/frontal-bone.md): Frontal bone - The frontal bone forms the forehead, the roofs of the orbits and the front of the cranial floor.
+          - [parietal-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/parietal-bone.md): Parietal bone - The two parietal bones form most of the roof and sides of the skull vault.
+          - [temporal-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/temporal-bone.md): Temporal bone - The paired temporal bones form the lower sides of the skull and part of its base.
+          - [occipital-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/occipital-bone.md): Occipital bone - The occipital bone forms the back and lower part of the skull.
+          - [sphenoid-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/sphenoid-bone.md): Sphenoid bone - The sphenoid is a butterfly-shaped bone at the center of the skull base that touches all other cranial bones.
+          - [ethmoid-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/ethmoid-bone.md): Ethmoid bone - The ethmoid is a light, sponge-like bone between the orbits.
+          - [nasal-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/nasal-bone.md): Nasal bone - The two small nasal bones form the bridge of the nose.
+          - [lacrimal-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/lacrimal-bone.md): Lacrimal bone - The lacrimal bones are the smallest and most fragile bones of the face.
+          - [inferior-nasal-concha.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/inferior-nasal-concha.md): Inferior nasal concha - The inferior nasal conchae are paired, scroll-shaped bones on the side walls of the nasal cavity.
+          - [vomer.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/vomer.md): Vomer - The vomer is a thin, unpaired bone that forms the lower and back part of the nasal septum, the wall dividing the nasal cavity into left and right halves.
+          - [maxilla.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/maxilla.md): Maxilla - The two maxillae form the upper jaw.
+          - [palatine-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/palatine-bone.md): Palatine bone - The two L-shaped palatine bones form the back third of the hard palate and parts of the nasal cavity walls and the orbit floor.
+          - [zygomatic-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/zygomatic-bone.md): Zygomatic bone - The zygomatic bones are the cheekbones.
+          - [mandible.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/mandible.md): Mandible - The mandible is the lower jaw, the largest and strongest bone of the face and the only skull bone joined by a movable synovial joint.
+          - [hyoid-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/skull/hyoid-bone.md): Hyoid bone - The hyoid is a U-shaped bone in the front of the neck, just above the larynx, that touches no other bone.
+        - **vertebral-column/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/README.md): Vertebral column - The vertebral column (spine) is the central axis of the skeleton.
+          - [vertebral-column-overview.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/vertebral-column-overview.md): Vertebral column overview - The vertebral column (columna vertebralis) is the axis of the skeleton, built from 33 to 34 vertebrae that form 26 separate bones in adults.
+          - [cervical-vertebrae.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/cervical-vertebrae.md): Cervical vertebrae - The seven cervical vertebrae form the neck, the most mobile part of the spine.
+          - [atlas.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/atlas.md): Atlas (C1) - The atlas is the first cervical vertebra, a ring of bone that carries the skull.
+          - [axis.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/axis.md): Axis (C2) - The axis is the second cervical vertebra.
+          - [vertebra-prominens.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/vertebra-prominens.md): Vertebra prominens (C7) - The seventh cervical vertebra is called the vertebra prominens because its long spinous process sticks out at the base of the neck.
+          - [thoracic-vertebrae.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/thoracic-vertebrae.md): Thoracic vertebrae - The twelve thoracic vertebrae form the back of the chest.
+          - [lumbar-vertebrae.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/lumbar-vertebrae.md): Lumbar vertebrae - The five lumbar vertebrae form the lower back.
+          - [sacrum.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/sacrum.md): Sacrum - The sacrum is a triangular bone formed by five fused vertebrae.
+          - [coccyx.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/coccyx.md): Coccyx - The coccyx, or tailbone, is the small triangular end of the spine, made of four or five rudimentary vertebrae, mostly just their bodies.
+          - [intervertebral-discs.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/vertebral-column/intervertebral-discs.md): Intervertebral discs - Intervertebral discs are the fibrocartilage cushions between the bodies of neighboring vertebrae, from C2-C3 down to L5-S1.
+        - **thorax/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/thorax/README.md): Thorax - The bony thorax (rib cage) is formed by the 12 thoracic vertebrae, 12 pairs of ribs with their costal cartilages, and the sternum.
+          - [sternum.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/thorax/sternum.md): Sternum - The sternum (breastbone) is the flat, unpaired bone in the middle of the front of the chest.
+          - [ribs.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/thorax/ribs.md): Ribs - Humans have 12 pairs of ribs, curved flat bones that form most of the rib cage.
+        - **upper-limb/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/README.md): Upper limb bones - The upper limb is built for reach and manipulation rather than weight bearing.
+          - [clavicle.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/clavicle.md): Clavicle - The clavicle (collarbone) is an S-shaped long bone that connects the arm to the trunk.
+          - [scapula.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/scapula.md): Scapula - The scapula (shoulder blade) is a flat triangular bone on the back of the chest wall.
+          - [humerus.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/humerus.md): Humerus - The humerus is the long bone of the upper arm.
+          - [radius.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/radius.md): Radius - The radius is the forearm bone on the thumb side.
+          - [ulna.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/ulna.md): Ulna - The ulna is the forearm bone on the little finger side.
+          - [carpal-bones.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/carpal-bones.md): Carpal bones - The eight carpal bones form the wrist in two rows of four.
+          - [hand-bones.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/upper-limb/hand-bones.md): Metacarpals and phalanges of the hand - The hand has five metacarpals forming the palm and fourteen phalanges forming the fingers: three in each finger and two in the thumb.
+        - **lower-limb/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/README.md): Lower limb bones - The lower limb is built for weight bearing and walking.
+          - [hip-bone.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/hip-bone.md): Hip bone and pelvis - Each hip bone forms from three bones that fuse at the hip socket: the ilium, ischium and pubis.
+          - [femur.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/femur.md): Femur - The femur (thigh bone) is the longest and strongest bone of the body, about a quarter of body height.
+          - [patella.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/patella.md): Patella - The patella (kneecap) is the largest sesamoid bone in the body, embedded in the tendon of the quadriceps.
+          - [tibia.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/tibia.md): Tibia - The tibia (shinbone) is the larger, weight-bearing bone of the lower leg.
+          - [fibula.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/fibula.md): Fibula - The fibula is the thin bone on the outer side of the lower leg.
+          - [tarsal-bones.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/tarsal-bones.md): Tarsal bones - The seven tarsal bones form the back half of the foot: talus, calcaneus, navicular, cuboid and three cuneiforms.
+          - [foot-bones.md](applied-sciences/medicine-and-health/anatomy/skeletal-system/lower-limb/foot-bones.md): Metatarsals and phalanges of the foot - The five metatarsals form the front of the foot and the fourteen phalanges form the toes: two in the big toe and three in each other toe.
+      - **joints/**
+        - [README.md](applied-sciences/medicine-and-health/anatomy/joints/README.md): Joints - Joints connect bones and decide how they can move.
+        - [joints-overview.md](applied-sciences/medicine-and-health/anatomy/joints/joints-overview.md): Joints overview - A joint (articulatio) is a connection between parts of the skeleton.
+        - [temporomandibular-joint.md](applied-sciences/medicine-and-health/anatomy/joints/temporomandibular-joint.md): Temporomandibular joint - The temporomandibular joint (TMJ) connects the mandible to the temporal bone in front of each ear.
+        - [sternoclavicular-joint.md](applied-sciences/medicine-and-health/anatomy/joints/sternoclavicular-joint.md): Sternoclavicular joint - The sternoclavicular joint between the clavicle and the sternum is the only bony joint connecting the upper limb to the trunk.
+        - [shoulder-joint.md](applied-sciences/medicine-and-health/anatomy/joints/shoulder-joint.md): Shoulder joint - The shoulder (glenohumeral) joint is a ball and socket joint between the head of the humerus and the shallow glenoid cavity of the scapula.
+        - [elbow-joint.md](applied-sciences/medicine-and-health/anatomy/joints/elbow-joint.md): Elbow joint - The elbow is a compound joint where the humerus meets the ulna and radius within one capsule.
+        - [wrist-joint.md](applied-sciences/medicine-and-health/anatomy/joints/wrist-joint.md): Wrist joint - The wrist (radiocarpal) joint is an ellipsoid joint between the lower end of the radius and the proximal row of carpal bones.
+        - [sacroiliac-joint.md](applied-sciences/medicine-and-health/anatomy/joints/sacroiliac-joint.md): Sacroiliac joint - The sacroiliac joints connect the sacrum with the ilium on each side.
+        - [hip-joint.md](applied-sciences/medicine-and-health/anatomy/joints/hip-joint.md): Hip joint - The hip is a deep ball and socket joint between the head of the femur and the acetabulum of the hip bone.
+        - [knee-joint.md](applied-sciences/medicine-and-health/anatomy/joints/knee-joint.md): Knee joint - The knee is the largest joint of the body, a compound joint between the femur, tibia and patella.
+        - [ankle-joint.md](applied-sciences/medicine-and-health/anatomy/joints/ankle-joint.md): Ankle joint - The ankle (talocrural) joint is a hinge between the tibia and fibula above and the talus below.
+      - **muscular-system/**
+        - [README.md](applied-sciences/medicine-and-health/anatomy/muscular-system/README.md): Muscular system - Skeletal muscles move the skeleton, hold posture, produce heat and protect joints.
+        - **upper-limb/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/README.md): Upper limb muscles - The muscles of the upper limb position the shoulder blade, move the arm at the shoulder, bend and straighten the elbow, turn the forearm and work the wrist and fingers.
+          - [trapezius.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/trapezius.md): Trapezius - The trapezius is a large, flat, diamond-shaped muscle (together with its partner) covering the upper back and the back of the neck.
+          - [rhomboids.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/rhomboids.md): Rhomboids - The rhomboids (major and minor) lie under the trapezius and connect the spine to the inner border of the shoulder blade.
+          - [levator-scapulae.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/levator-scapulae.md): Levator scapulae - The levator scapulae runs from the upper cervical vertebrae to the upper inner corner of the shoulder blade.
+          - [serratus-anterior.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/serratus-anterior.md): Serratus anterior - The serratus anterior wraps around the side of the rib cage from the ribs to the inner border of the shoulder blade.
+          - [pectoralis-minor.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/pectoralis-minor.md): Pectoralis minor - The pectoralis minor is a thin triangular muscle under the pectoralis major.
+          - [pectoralis-major.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/pectoralis-major.md): Pectoralis major - The pectoralis major is the large fan-shaped muscle of the chest.
+          - [latissimus-dorsi.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/latissimus-dorsi.md): Latissimus dorsi - The latissimus dorsi is the broadest muscle of the back, sweeping from the lower spine and pelvis to the front of the upper humerus.
+          - [deltoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/deltoid.md): Deltoid - The deltoid is the thick, triangular muscle that caps the shoulder and gives it its round shape.
+          - [rotator-cuff.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/rotator-cuff.md): Rotator cuff - The rotator cuff is a group of four muscles (supraspinatus, infraspinatus, teres minor and subscapularis) whose tendons blend with the shoulder capsule and surround th...
+          - [supraspinatus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/supraspinatus.md): Supraspinatus - The supraspinatus is the rotator cuff muscle above the spine of the scapula.
+          - [infraspinatus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/infraspinatus.md): Infraspinatus - The infraspinatus is the rotator cuff muscle below the spine of the scapula.
+          - [teres-minor.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/teres-minor.md): Teres minor - The teres minor is a small, narrow rotator cuff muscle along the lower outer border of the scapula.
+          - [subscapularis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/subscapularis.md): Subscapularis - The subscapularis is the largest rotator cuff muscle, on the front surface of the scapula facing the ribs.
+          - [teres-major.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/teres-major.md): Teres major - The teres major is a thick muscle running from the lower angle of the scapula to the front of the humerus.
+          - [biceps-brachii.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/biceps-brachii.md): Biceps brachii - The biceps brachii is the two-headed muscle at the front of the upper arm.
+          - [brachialis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/brachialis.md): Brachialis - The brachialis lies under the biceps on the front of the lower humerus and inserts on the ulna.
+          - [triceps-brachii.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/triceps-brachii.md): Triceps brachii - The triceps brachii is the three-headed muscle at the back of the upper arm and the only major elbow extensor.
+          - [brachioradialis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/brachioradialis.md): Brachioradialis - The brachioradialis is the forearm muscle running from the lower humerus to the wrist end of the radius.
+          - [forearm-flexors.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/forearm-flexors.md): Forearm flexor muscles - The forearm flexors are a group of muscles on the palm side of the forearm, most arising from the medial epicondyle of the humerus.
+          - [forearm-extensors.md](applied-sciences/medicine-and-health/anatomy/muscular-system/upper-limb/forearm-extensors.md): Forearm extensor muscles - The forearm extensors are a group of muscles on the back of the forearm, most arising from the lateral epicondyle of the humerus.
+        - **lower-limb/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/README.md): Lower limb muscles - The lower limb muscles carry and move the body: they extend the hip and knee to stand, climb and jump, stabilize the pelvis on one leg, and push off with the foot.
+          - [gluteus-maximus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/gluteus-maximus.md): Gluteus maximus - The gluteus maximus is the largest and most superficial buttock muscle and one of the strongest muscles of the body.
+          - [gluteus-medius.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/gluteus-medius.md): Gluteus medius - The gluteus medius is a fan-shaped muscle on the outer side of the pelvis, partly under the gluteus maximus.
+          - [gluteus-minimus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/gluteus-minimus.md): Gluteus minimus - The gluteus minimus is the smallest and deepest gluteal muscle, lying under the gluteus medius.
+          - [piriformis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/piriformis.md): Piriformis - The piriformis is a pear-shaped deep hip muscle running from the front of the sacrum to the top of the greater trochanter.
+          - [iliopsoas.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/iliopsoas.md): Iliopsoas - The iliopsoas is the strongest hip flexor, made of the psoas major, which comes from the lumbar spine, and the iliacus, which lines the inside of the pelvis.
+          - [tensor-fasciae-latae.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/tensor-fasciae-latae.md): Tensor fasciae latae - The tensor fasciae latae (TFL) is a small muscle at the front of the outer hip that pulls on the iliotibial tract.
+          - [quadriceps-femoris.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/quadriceps-femoris.md): Quadriceps femoris - The quadriceps femoris is the large four-headed muscle on the front of the thigh and the main extensor of the knee.
+          - [rectus-femoris.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/rectus-femoris.md): Rectus femoris - The rectus femoris is the only quadriceps head that crosses both the hip and the knee.
+          - [vastus-lateralis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/vastus-lateralis.md): Vastus lateralis - The vastus lateralis is the largest head of the quadriceps, on the outer side of the thigh.
+          - [vastus-medialis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/vastus-medialis.md): Vastus medialis - The vastus medialis is the quadriceps head on the inner side of the thigh, forming the teardrop bulge above the knee.
+          - [vastus-intermedius.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/vastus-intermedius.md): Vastus intermedius - The vastus intermedius is the deep quadriceps head lying on the front of the femur under the rectus femoris.
+          - [hamstrings.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/hamstrings.md): Hamstrings - The hamstrings are the three muscles at the back of the thigh: biceps femoris, semitendinosus and semimembranosus.
+          - [biceps-femoris.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/biceps-femoris.md): Biceps femoris - The biceps femoris is the lateral hamstring with two heads: a long head crossing the hip and knee and a short head crossing only the knee.
+          - [semitendinosus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/semitendinosus.md): Semitendinosus - The semitendinosus is a medial hamstring with a long, cord-like tendon in its lower half.
+          - [semimembranosus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/semimembranosus.md): Semimembranosus - The semimembranosus is the deep medial hamstring, named for its broad, flat, membrane-like upper tendon.
+          - [adductors.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/adductors.md): Hip adductor muscles - The hip adductors are a group of muscles on the inner thigh: adductor magnus, adductor longus, adductor brevis, gracilis and pectineus.
+          - [sartorius.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/sartorius.md): Sartorius - The sartorius is the longest muscle of the body, a thin strap running diagonally across the front of the thigh from the hip to the inner knee.
+          - [triceps-surae.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/triceps-surae.md): Triceps surae - The triceps surae is the calf muscle group formed by the two heads of the gastrocnemius and the soleus, joined in the Achilles tendon, the thickest tendon in the body.
+          - [gastrocnemius.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/gastrocnemius.md): Gastrocnemius - The gastrocnemius is the superficial, two-headed calf muscle that forms the visible bulge at the back of the lower leg.
+          - [soleus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/soleus.md): Soleus - The soleus is the broad, flat calf muscle under the gastrocnemius.
+          - [tibialis-anterior.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/tibialis-anterior.md): Tibialis anterior - The tibialis anterior runs along the front of the shin next to the tibia.
+          - [tibialis-posterior.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/tibialis-posterior.md): Tibialis posterior - The tibialis posterior is the deepest calf muscle.
+          - [fibularis-muscles.md](applied-sciences/medicine-and-health/anatomy/muscular-system/lower-limb/fibularis-muscles.md): Fibularis muscles - The fibularis (peroneal) muscles, longus and brevis, run along the outer side of the lower leg, behind the outer ankle bone and into the foot.
+        - [muscular-system-overview.md](applied-sciences/medicine-and-health/anatomy/muscular-system/muscular-system-overview.md): Muscular system overview - A muscle (musculus) is a contractile organ, the active part of the locomotor system, made of muscle tissue.
+        - [muscle-classification.md](applied-sciences/medicine-and-health/anatomy/muscular-system/muscle-classification.md): Muscle classification - Muscles can be grouped in several ways, each useful for a different question.
+        - **head-and-neck/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/README.md): Head and neck muscles - The neck holds and moves the head, protects the airway and the great vessels, and takes part in swallowing, speech and breathing.
+          - [masseter.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/masseter.md): Masseter - The masseter is the thick, rectangular chewing muscle on the side of the jaw.
+          - [temporalis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/temporalis.md): Temporalis - The temporalis is a fan-shaped chewing muscle on the side of the head above the ear.
+          - [platysma.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/platysma.md): Platysma - The platysma is a broad, thin, flat muscle lying just under the skin of the neck.
+          - [sternocleidomastoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/sternocleidomastoid.md): Sternocleidomastoid - The sternocleidomastoid (SCM) is a strong, superficial neck muscle running from the sternum and clavicle to the mastoid process behind the ear.
+          - [sternohyoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/sternohyoid.md): Sternohyoid - The sternohyoid is a strap-like infrahyoid muscle, about 1.5 to 2 cm wide, running from the chest up to the hyoid bone.
+          - [omohyoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/omohyoid.md): Omohyoid - The omohyoid is a long, thin infrahyoid muscle with two bellies joined by an intermediate tendon.
+          - [sternothyroid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/sternothyroid.md): Sternothyroid - The sternothyroid is a flat, elongated quadrilateral infrahyoid muscle beneath the sternohyoid.
+          - [thyrohyoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/thyrohyoid.md): Thyrohyoid - The thyrohyoid is a short infrahyoid muscle that runs as a continuation of the sternothyroid from the thyroid cartilage to the hyoid bone.
+          - [digastric.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/digastric.md): Digastric - The digastric is a suprahyoid muscle with two bellies, anterior and posterior, joined by an intermediate tendon that is held to the hyoid bone by a fibrous loop.
+          - [stylohyoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/stylohyoid.md): Stylohyoid - The stylohyoid is a thin suprahyoid muscle running from the styloid process of the temporal bone to the hyoid bone.
+          - [mylohyoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/mylohyoid.md): Mylohyoid - The mylohyoid forms the muscular floor of the mouth.
+          - [geniohyoid.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/geniohyoid.md): Geniohyoid - The geniohyoid is a narrow suprahyoid muscle above the mylohyoid, running from the chin to the hyoid bone.
+          - [anterior-scalene.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/anterior-scalene.md): Anterior scalene - The anterior scalene is a deep neck muscle running from the cervical vertebrae down to the first rib.
+          - [middle-scalene.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/middle-scalene.md): Middle scalene - The middle scalene is the largest and longest of the scalenes.
+          - [posterior-scalene.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/posterior-scalene.md): Posterior scalene - The posterior scalene is the smallest and deepest scalene.
+          - [rectus-capitis-anterior.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/rectus-capitis-anterior.md): Rectus capitis anterior - The rectus capitis anterior is a small, quadrilateral prevertebral muscle that is sometimes hard to find.
+          - [longus-capitis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/longus-capitis.md): Longus capitis - The longus capitis is the most superficial of the prevertebral muscles.
+          - [longus-colli.md](applied-sciences/medicine-and-health/anatomy/muscular-system/head-and-neck/longus-colli.md): Longus colli - The longus colli is a deep prevertebral muscle lying directly on the front of the cervical and upper thoracic vertebrae.
+        - **trunk/**
+          - [README.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/README.md): Trunk muscles - The trunk muscles hold the spine upright, protect the abdominal organs, move the trunk, create the pressure needed for breathing, coughing and lifting, and close the p...
+          - [rectus-abdominis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/rectus-abdominis.md): Rectus abdominis - The rectus abdominis is the long, paired, strap-like muscle at the front of the abdomen, the "six-pack".
+          - [external-oblique.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/external-oblique.md): External oblique - The external oblique is the largest and most superficial of the flat abdominal muscles.
+          - [internal-oblique.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/internal-oblique.md): Internal oblique - The internal oblique lies under the external oblique, with fibers running up and forward, at right angles to it.
+          - [transversus-abdominis.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/transversus-abdominis.md): Transversus abdominis - The transversus abdominis is the deepest abdominal muscle, with fibers running horizontally around the abdomen like a belt.
+          - [erector-spinae.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/erector-spinae.md): Erector spinae - The erector spinae is a large group of long back muscles running beside the spine from the pelvis to the skull.
+          - [multifidus.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/multifidus.md): Multifidus - The multifidus is a series of short, deep muscle bundles running from vertebra to vertebra along the spine, thickest in the lumbar region.
+          - [quadratus-lumborum.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/quadratus-lumborum.md): Quadratus lumborum - The quadratus lumborum is a flat, four-sided muscle in the back wall of the abdomen between the iliac crest and the twelfth rib.
+          - [diaphragm.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/diaphragm.md): Diaphragm - The diaphragm is a dome-shaped sheet of muscle that separates the chest from the abdomen.
+          - [intercostal-muscles.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/intercostal-muscles.md): Intercostal muscles - The intercostal muscles fill the spaces between the ribs in three layers: external, internal and innermost.
+          - [pelvic-floor.md](applied-sciences/medicine-and-health/anatomy/muscular-system/trunk/pelvic-floor.md): Pelvic floor muscles - The pelvic floor is a hammock of muscles closing the bottom of the pelvis.
+      - **regions/**
+        - [README.md](applied-sciences/medicine-and-health/anatomy/regions/README.md): Body regions - Regional anatomy describes everything found in one part of the body together: surface landmarks, bones, muscles, vessels and nerves.
+        - [neck.md](applied-sciences/medicine-and-health/anatomy/regions/neck.md): Neck - The neck connects the head to the trunk.
+    - **physiology/**
+      - [README.md](applied-sciences/medicine-and-health/physiology/README.md): Physiology - Physiology explains how the body works: how muscles contract, how energy is supplied, how we breathe, how the heart adapts, how hormones and sleep regulate recovery, a...
+      - **muscle/**
+        - [README.md](applied-sciences/medicine-and-health/physiology/muscle/README.md): Muscle physiology - These notes explain how skeletal muscle produces force: the structure of a muscle fiber, the sliding of actin and myosin, the recruitment of motor units, the differenc...
+        - [skeletal-muscle-structure.md](applied-sciences/medicine-and-health/physiology/muscle/skeletal-muscle-structure.md): Skeletal muscle structure - A skeletal muscle fiber is a single, very long cell with hundreds of nuclei, packed with myofibrils.
+        - [muscle-contraction.md](applied-sciences/medicine-and-health/physiology/muscle/muscle-contraction.md): Muscle contraction - Muscle contraction starts with a nerve impulse that releases acetylcholine at the neuromuscular junction.
+        - [motor-units.md](applied-sciences/medicine-and-health/physiology/muscle/motor-units.md): Motor units and neural control of force - A motor unit is one motor neuron and all the muscle fibers it supplies.
+        - [muscle-fiber-types.md](applied-sciences/medicine-and-health/physiology/muscle/muscle-fiber-types.md): Muscle fiber types - Skeletal muscle fibers differ in how fast they contract and how quickly they tire.
+        - [force-length-velocity.md](applied-sciences/medicine-and-health/physiology/muscle/force-length-velocity.md): Force, length and velocity of muscle - The force a muscle can produce depends on its length and on how fast it shortens or lengthens.
+        - [hypertrophy.md](applied-sciences/medicine-and-health/physiology/muscle/hypertrophy.md): Muscle hypertrophy - Muscle hypertrophy is the increase in the size of existing muscle fibers, mainly by adding contractile proteins, so that the muscle's cross-section and force capacity...
+        - [hyperplasia.md](applied-sciences/medicine-and-health/physiology/muscle/hyperplasia.md): Muscle hyperplasia - Muscle hyperplasia is an increase in the number of muscle fibers.
+        - [muscle-protein-balance.md](applied-sciences/medicine-and-health/physiology/muscle/muscle-protein-balance.md): Muscle protein balance - Muscle proteins are built and broken down all the time.
+      - [energy-systems.md](applied-sciences/medicine-and-health/physiology/energy-systems.md): Energy systems - During exercise, muscles regenerate ATP with three energy systems that always work together but dominate at different intensities and durations.
+      - **respiration/**
+        - [README.md](applied-sciences/medicine-and-health/physiology/respiration/README.md): Respiration - Respiration covers everything from moving air into the lungs to delivering oxygen to the mitochondria.
+        - [respiratory-system.md](applied-sciences/medicine-and-health/physiology/respiration/respiratory-system.md): Respiratory system - The respiratory system brings air from the nose and mouth through branching airways to about 300 to 500 million alveoli, tiny air sacs where oxygen enters the blood an...
+        - [mechanics-of-breathing.md](applied-sciences/medicine-and-health/physiology/respiration/mechanics-of-breathing.md): Mechanics of breathing - Breathing works by changing the volume of the chest.
+        - [gas-exchange.md](applied-sciences/medicine-and-health/physiology/respiration/gas-exchange.md): Gas exchange and oxygen transport - Oxygen and carbon dioxide move between air, blood and tissues by diffusion, always from higher to lower partial pressure.
+        - [control-of-breathing.md](applied-sciences/medicine-and-health/physiology/respiration/control-of-breathing.md): Control of breathing - Breathing is controlled by the respiratory centers in the brainstem, which set the basic rhythm, and adjusted by chemoreceptors that sense carbon dioxide, pH and oxygen.
+        - [breathing-techniques.md](applied-sciences/medicine-and-health/physiology/respiration/breathing-techniques.md): Breathing techniques in training - Breathing is essential for life, but in sport it also plays a strategic role.
+        - [vo2-max.md](applied-sciences/medicine-and-health/physiology/respiration/vo2-max.md): VO2 max - VO2 max (maximal oxygen uptake) is the largest amount of oxygen the body can take up, transport and use during intense exercise, expressed in milliliters of oxygen per...
+        - [lactate-threshold.md](applied-sciences/medicine-and-health/physiology/respiration/lactate-threshold.md): Lactate threshold - The lactate threshold (LT) is the exercise intensity at which blood lactate starts to rise faster than the body can clear it.
+      - **cardiovascular/**
+        - [README.md](applied-sciences/medicine-and-health/physiology/cardiovascular/README.md): Cardiovascular system - The heart and blood vessels deliver oxygen and nutrients and remove waste.
+        - [heart-and-circulation.md](applied-sciences/medicine-and-health/physiology/cardiovascular/heart-and-circulation.md): Heart and circulation - The heart is a muscular pump with two sides: the right side sends blood through the lungs to pick up oxygen, and the left side pumps oxygenated blood to the body.
+        - [resting-heart-rate.md](applied-sciences/medicine-and-health/physiology/cardiovascular/resting-heart-rate.md): Resting heart rate - Resting heart rate (RHR) is the number of heartbeats per minute at complete rest, usually measured in the morning after waking.
+        - [heart-rate-variability.md](applied-sciences/medicine-and-health/physiology/cardiovascular/heart-rate-variability.md): Heart rate variability - Heart rate variability (HRV) is the variation in time between consecutive heartbeats (RR intervals).
+        - [heart-rate-recovery.md](applied-sciences/medicine-and-health/physiology/cardiovascular/heart-rate-recovery.md): Heart rate recovery - Heart rate recovery (HRR) is how much the heart rate falls in the first minute after stopping hard exercise.
+      - **endocrine/**
+        - [README.md](applied-sciences/medicine-and-health/physiology/endocrine/README.md): Endocrine system - Hormones are chemical messengers released into the blood that coordinate growth, metabolism, stress responses and sleep.
+        - [anabolic-and-catabolic-hormones.md](applied-sciences/medicine-and-health/physiology/endocrine/anabolic-and-catabolic-hormones.md): Anabolic and catabolic hormones - Anabolic hormones promote the building of tissue: insulin, growth hormone and IGF-1, testosterone and estrogens.
+        - [melatonin.md](applied-sciences/medicine-and-health/physiology/endocrine/melatonin.md): Melatonin - Melatonin is a hormone made mainly by the pineal gland in the brain.
+      - **sleep/**
+        - [README.md](applied-sciences/medicine-and-health/physiology/sleep/README.md): Sleep - Sleep is an active, regulated state in which the brain cycles through distinct stages that support memory, tissue repair, hormone release and clearance of waste from t...
+        - [sleep-architecture.md](applied-sciences/medicine-and-health/physiology/sleep/sleep-architecture.md): Sleep architecture - Sleep consists of cycles of about 90 minutes, repeated four to six times a night.
+        - [rem-sleep.md](applied-sciences/medicine-and-health/physiology/sleep/rem-sleep.md): REM sleep - REM (rapid eye movement) sleep is the stage associated with vivid dreams.
+        - [deep-sleep.md](applied-sciences/medicine-and-health/physiology/sleep/deep-sleep.md): Deep sleep - Deep sleep, also called slow-wave sleep or NREM stage 3, is the stage with the slowest brain waves and the highest threshold for waking.
+        - [sleep-latency.md](applied-sciences/medicine-and-health/physiology/sleep/sleep-latency.md): Sleep latency - Sleep latency is the time from going to bed with the intention to sleep to actually falling asleep.
+        - [awakenings-and-waso.md](applied-sciences/medicine-and-health/physiology/sleep/awakenings-and-waso.md): Night awakenings and wake after sleep onset - Brief awakenings during the night are normal, but frequent or long ones fragment sleep.
+        - [naps.md](applied-sciences/medicine-and-health/physiology/sleep/naps.md): Naps - Healthy adults do not need naps, but a short nap of 10 to 20 minutes can improve alertness and memory without grogginess.
+        - [military-sleep-method.md](applied-sciences/medicine-and-health/physiology/sleep/military-sleep-method.md): Military sleep method - The "military sleep method" is a relaxation routine for falling asleep quickly: slow breathing, relaxing the face, dropping the shoulders and arms, relaxing the body f...
+        - [colored-noise.md](applied-sciences/medicine-and-health/physiology/sleep/colored-noise.md): White, pink and brown noise - "White noise" is used loosely for steady background sounds that help some people sleep by masking disturbing noises.
+      - [chronobiology.md](applied-sciences/medicine-and-health/physiology/chronobiology.md): Chronobiology - Chronobiology studies the natural cycles of living things and how they are tuned to the cycles of the sun and the moon.
+      - [metabolic-age.md](applied-sciences/medicine-and-health/physiology/metabolic-age.md): Metabolic age - Metabolic age is a number shown by many bioimpedance scales and fitness apps.
+      - [detoxification.md](applied-sciences/medicine-and-health/physiology/detoxification.md): Detoxification - Detoxification is the body's continuous process of neutralizing, transforming and removing toxins and metabolic waste.
+    - **exercise-and-fitness/**
+      - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/README.md): Exercise and fitness - This field applies anatomy and physiology to training: how movement works mechanically, which variables define a training program, how programs are planned and periodi...
+      - **biomechanics/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/biomechanics/README.md): Biomechanics - Biomechanics applies the laws of mechanics to the human body.
+        - [biomechanics-overview.md](applied-sciences/medicine-and-health/exercise-and-fitness/biomechanics/biomechanics-overview.md): Biomechanics overview - Biomechanics studies how forces act on and are produced by the body.
+        - [kinetic-chains.md](applied-sciences/medicine-and-health/exercise-and-fitness/biomechanics/kinetic-chains.md): Kinetic chains - A kinetic chain is a series of body segments linked by joints, through which force and movement are transmitted.
+        - [functional-muscle-groups.md](applied-sciences/medicine-and-health/exercise-and-fitness/biomechanics/functional-muscle-groups.md): Functional muscle groups - In every movement, muscles take on three functional roles.
+        - [muscle-actions.md](applied-sciences/medicine-and-health/exercise-and-fitness/biomechanics/muscle-actions.md): Muscle actions: concentric, eccentric and isometric - Muscles act in three ways.
+      - **training-variables/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/README.md): Training variables - Training variables are the measurable settings of a training program: how heavy the load is, how hard each set is, how many repetitions, how fast each repetition is pe...
+        - [repetition-maximum.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/repetition-maximum.md): Repetition maximum - A repetition maximum (RM) is the heaviest load a person can lift a given number of times with good technique.
+        - [rpe.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/rpe.md): Rating of perceived exertion (RPE) - The rating of perceived exertion (RPE) is a subjective rating of how hard an effort feels, used to set and monitor training intensity.
+        - [rir.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/rir.md): Repetitions in reserve (RIR) - Repetitions in reserve (RIR) is the number of additional repetitions a lifter could have completed with the same load at the end of a set.
+        - [rep-ranges-and-load.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/rep-ranges-and-load.md): Repetition ranges and load - A repetition range sets how many repetitions each set should contain, and the load is chosen so the set is hard within that range.
+        - [rest-intervals.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/rest-intervals.md): Rest intervals - Rest intervals, also called metabolic recovery time, are the pauses between sets.
+        - [time-under-tension.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/time-under-tension.md): Time under tension (TUT) - Time under tension (TUT) is the total time a muscle is under load during a set, from the start of the first repetition to the end of the last, without full relaxation.
+        - [tempo.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/tempo.md): Tempo - Tempo describes how long each phase of a repetition takes, written as four numbers.
+        - [breathing-pattern-in-lifting.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-variables/breathing-pattern-in-lifting.md): Breathing pattern in lifting - The basic breathing rule in strength training is to inhale during the eccentric (lowering) phase and exhale during the concentric (lifting) phase.
+      - **programming/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/README.md): Programming - Programming is long-term planning of training.
+        - [training-programming.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/training-programming.md): Training programming - Training programming is planning training over the long term.
+        - [full-body-training.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/full-body-training.md): Full body training (FBW) - Full body workout (FBW) training works the whole body in every session, aiming at overall development.
+        - [split-training.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/split-training.md): Split training - Split training divides muscle groups across separate sessions, so each day trains only selected body parts.
+        - [annual-planning.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/annual-planning.md): Annual planning - Annual planning maps out a year of training in advance.
+        - [general-adaptation-syndrome.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/general-adaptation-syndrome.md): General adaptation syndrome - The general adaptation syndrome (GAS), described by Hans Selye in 1936, explains how the body responds to stress, including training.
+        - [gpp-and-spp.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/gpp-and-spp.md): GPP and SPP - General physical preparedness (GPP) is broad fitness preparation that comes before sport-specific work.
+        - [deloads.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/deloads.md): Deloads - A deload is a planned period of reduced training stress, usually a week, to allow recovery from accumulated fatigue.
+        - [training-to-failure.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/training-to-failure.md): Training to failure - Training to muscle failure means continuing a set in a controlled way until not a single further repetition can be completed with good technique.
+        - [periodization.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/periodization.md): Periodization - Periodization is the planned variation of training over short and long periods to maximize the gains from training.
+        - [linear-periodization.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/linear-periodization.md): Linear periodization - In classic linear periodization, a training cycle starts with high volume and low intensity, and as weeks pass, volume falls while intensity (load) rises, reversing th...
+        - [undulating-periodization.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/undulating-periodization.md): Undulating periodization - Undulating (wave) periodization varies volume and intensity frequently, for example from week to week (weekly undulating) or from session to session (daily undulating).
+        - [block-periodization.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/block-periodization.md): Block periodization - Block periodization trains one main quality in a concentrated block of time, from about a week to a month.
+        - [conjugate-periodization.md](applied-sciences/medicine-and-health/exercise-and-fitness/programming/conjugate-periodization.md): Conjugate periodization - Conjugate periodization changes several training parameters and combines several training methods at the same time within each week.
+      - **intensification-methods/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/README.md): Intensification methods - Intensification methods are techniques that make a set or a session harder without simply adding more ordinary sets.
+        - [progressive-overload.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/progressive-overload.md): Progressive overload - Progressive overload is the gradual increase of the training stimulus so that the body keeps adapting.
+        - [rep-range-combination.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/rep-range-combination.md): Rep range combination - In the rep range combination method, each session for a muscle group uses a different repetition range, often with a different exercise.
+        - [drop-set.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/drop-set.md): Drop set - A drop set is a set taken to or near failure, followed immediately by a load reduction of about 30 percent and another set to failure without rest.
+        - [cluster-set.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/cluster-set.md): Cluster set - A cluster set adds short rest periods inside a set.
+        - [myo-reps.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/myo-reps.md): Myo-reps - Myo-reps is a rest-pause technique for hypertrophy: an activation set close to failure, followed by several short "myo sets" separated by 10 to 20 second rests, all wi...
+        - [superset.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/superset.md): Superset - A superset pairs two exercises for opposing muscle groups, done one after the other with only the time to move between stations, for example leg extensions with leg cu...
+        - [compound-set.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/compound-set.md): Compound set - A compound set combines two exercises for the same muscle group without rest between them, for example squats followed by leg extensions.
+        - [triset.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/triset.md): Triset - A triset is three exercises for one muscle group performed without rest, followed by a rest period.
+        - [giant-set.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/giant-set.md): Giant set - A giant set is a sequence of three to five (sometimes more) exercises for the same muscle group performed without rest.
+        - [eccentric-resistance.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/eccentric-resistance.md): Eccentric resistance - The eccentric resistance method intensifies training by actively resisting the load during the eccentric (lowering) phase, making the lowering slow and effortful.
+        - [negative-reps.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/negative-reps.md): Negative repetitions - Negative repetitions are repetitions in which only the eccentric (lowering) phase is performed, slowly and under control.
+        - [muscle-priority.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/muscle-priority.md): Muscle priority - The muscle priority method improves a weaker muscle group by training it first in a session, when energy and focus are highest, for example shoulders before chest.
+        - [pre-exhaustion.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/pre-exhaustion.md): Pre-exhaustion - Pre-exhaustion means fatiguing a muscle with an exercise, usually an isolation movement, before a compound exercise that uses the same muscle, for example cable flies...
+        - [partial-reps.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/partial-reps.md): Partial repetitions - Partial repetitions use only part of an exercise's range of motion, often in compound exercises.
+        - [constant-tension.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/constant-tension.md): Constant tension - Constant tension means keeping the muscle loaded throughout the set, avoiding positions where it relaxes.
+        - [cheat-reps.md](applied-sciences/medicine-and-health/exercise-and-fitness/intensification-methods/cheat-reps.md): Cheat repetitions - Cheat repetitions are one or two extra repetitions at the end of a set performed with a deliberate, small deviation from strict technique (for example a little body sw...
+      - **training-types/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/README.md): Training types - Training can be classified by its main goal and structure.
+        - [strength-types.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/strength-types.md): Types of strength - Muscular strength is the ability of the neuromuscular system to overcome or resist an external resistance through muscle contraction.
+        - [strength-factors.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/strength-factors.md): Factors that determine strength - Muscular strength depends on neural and muscular factors.
+        - [hirt.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/hirt.md): High-intensity repeat training (HIRT) - High-intensity repeat training (HIRT) is a form of high-intensity strength training that uses short sets of 3 to 6 repetitions with submaximal loads and long enough re...
+        - [hiit.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/hiit.md): High-intensity interval training (HIIT) - High-intensity interval training (HIIT) alternates short bouts of very hard exercise with periods of rest or easy exercise.
+        - [circuit-training.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/circuit-training.md): Circuit training - Circuit training combines resistance and endurance training: several exercises are done one after another with little rest, forming a circuit that is repeated.
+        - [functional-training.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/functional-training.md): Functional training - Functional training aims to improve the ability to perform everyday and sport movements, rather than to develop single muscles.
+        - [occlusion-training.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/occlusion-training.md): Occlusion training (blood flow restriction) - Blood flow restriction (BFR) training, also called occlusion training, restricts blood flow to working muscles with cuffs or bands during exercise.
+        - [glute-training-by-shape.md](applied-sciences/medicine-and-health/exercise-and-fitness/training-types/glute-training-by-shape.md): Glute training by shape - A popular approach in physique training classifies buttocks into four shapes (square, round, inverted heart or "A", and inverted triangle or "V") and adjusts training...
+      - **mobility/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/README.md): Mobility and stability - The human body can be seen as a set of joints, the movable connections between parts of the skeleton: a series of stable segments moving on mobile joints.
+        - [mobility.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/mobility.md): Mobility - Mobility is the ability of the neuromuscular system to perform effective movement at a joint through its full, pain-free range.
+        - [stability.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/stability.md): Stability - Stability is active control of a joint's position that allows forces to be transferred using the elasticity of muscle tissue and the mobility of the joint.
+        - [flexibility.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/flexibility.md): Flexibility - Flexibility is the ability of a muscle and other soft tissues to lengthen, allowing a joint to move through its range of motion, usually measured passively.
+        - [joint-by-joint-approach.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/joint-by-joint-approach.md): Joint-by-joint approach - The joint-by-joint approach, popularized by Gray Cook and Mike Boyle, proposes that joints alternate between needing mainly mobility and mainly stability from the foot...
+        - [core.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/core.md): Core stability - The core is the muscular corset of the trunk that maintains posture and stabilizes the spine.
+        - [anti-movements.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/anti-movements.md): Anti-movements - Anti-movement exercises train the core to resist motion rather than create it.
+        - [lumbopelvic-hip-complex.md](applied-sciences/medicine-and-health/exercise-and-fitness/mobility/lumbopelvic-hip-complex.md): Lumbopelvic-hip complex - The lumbopelvic-hip complex (LPHC) is the real foundation of the body.
+      - **recovery/**
+        - [README.md](applied-sciences/medicine-and-health/exercise-and-fitness/recovery/README.md): Recovery - Recovery is the process through which the body repairs and adapts after training.
+        - [recovery.md](applied-sciences/medicine-and-health/exercise-and-fitness/recovery/recovery.md): Recovery and regeneration - Recovery is the process of repair and adaptation after training.
+        - [doms.md](applied-sciences/medicine-and-health/exercise-and-fitness/recovery/doms.md): Delayed onset muscle soreness (DOMS) - Delayed onset muscle soreness (DOMS) is muscle pain that appears about 6 to 8 hours after intense or unfamiliar exercise, peaks at 24 to 72 hours and fades over severa...
+    - **physiotherapy/**
+      - [README.md](applied-sciences/medicine-and-health/physiotherapy/README.md): Physiotherapy - Physiotherapy (physical therapy) uses movement, exercise, manual techniques and physical agents to restore and maintain function.
+      - [eccentric-and-isometric-methods.md](applied-sciences/medicine-and-health/physiotherapy/eccentric-and-isometric-methods.md): Eccentric and isometric methods - Eccentric and isometric methods use specific phases of muscle action as training tools.
+      - [kinesiotaping-trapezius.md](applied-sciences/medicine-and-health/physiotherapy/kinesiotaping-trapezius.md): Kinesiology taping of the upper trapezius - The descending (upper) part of the trapezius is a classic example in physiotherapy: under prolonged psychological stress, it becomes tense.
+      - [relaxation-techniques.md](applied-sciences/medicine-and-health/physiotherapy/relaxation-techniques.md): Relaxation techniques - Relaxation techniques are methods for reducing muscle tension and arousal of the nervous system.
+      - [trapezius-self-relaxation.md](applied-sciences/medicine-and-health/physiotherapy/trapezius-self-relaxation.md): Trapezius self-relaxation - This technique relaxes the descending (upper) part of the trapezius using post-isometric relaxation (PIR): a gentle contraction of the muscle against resistance for 8...
+      - [progressive-muscle-relaxation.md](applied-sciences/medicine-and-health/physiotherapy/progressive-muscle-relaxation.md): Progressive muscle relaxation (Jacobson) - Progressive muscle relaxation was developed by the American physician and psychiatrist Edmund Jacobson in the 1920s and 1930s.
+      - [autogenic-training.md](applied-sciences/medicine-and-health/physiotherapy/autogenic-training.md): Autogenic training (Schultz) - Autogenic training is a self-relaxation method developed by the German psychiatrist and psychotherapist Johannes Schultz, published in 1932, drawing on methods used in...
+    - **nutrition/**
+      - [README.md](applied-sciences/medicine-and-health/nutrition/README.md): Nutrition - Nutrition studies how food and its components affect the body.
+      - [evidence-grades.md](applied-sciences/medicine-and-health/nutrition/evidence-grades.md): Evidence grades - Notes on nutrients, supplements and remedies in this library grade every claimed effect with one of six labels: established physiology, strong, moderate, limited, very...
+      - **foundations/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/foundations/README.md): Nutrition foundations - These notes cover the foundations of a healthy diet: dietary fiber and resistant starch, the glycemic index, fermented foods, the dietary pattern associated with healt...
+        - [dietary-fiber.md](applied-sciences/medicine-and-health/nutrition/foundations/dietary-fiber.md): Dietary fiber - Dietary fiber is the part of plant foods that human enzymes cannot digest.
+        - [resistant-starch.md](applied-sciences/medicine-and-health/nutrition/foundations/resistant-starch.md): Resistant starch - Resistant starch is starch that escapes digestion in the small intestine and is fermented in the colon, acting like fiber.
+        - [glycemic-index.md](applied-sciences/medicine-and-health/nutrition/foundations/glycemic-index.md): Glycemic index - The glycemic index (GI) ranks carbohydrate foods by how much they raise blood glucose compared with pure glucose, which has a GI of 100.
+        - [fermented-foods.md](applied-sciences/medicine-and-health/nutrition/foundations/fermented-foods.md): Fermented foods - Fermented foods are made through the controlled growth of microbes that convert food components.
+        - [healthy-aging-diet.md](applied-sciences/medicine-and-health/nutrition/foundations/healthy-aging-diet.md): Healthy aging diet - A diet that supports healthy aging is rich in antioxidant-containing vegetables and fruit, nuts, seeds and olive oil, fatty fish, enough high-quality protein, eggs, he...
+        - [nutrition-and-immunity.md](applied-sciences/medicine-and-health/nutrition/foundations/nutrition-and-immunity.md): Nutrition and immunity - The immune system needs adequate nutrients to work.
+        - [foods-and-satiety.md](applied-sciences/medicine-and-health/nutrition/foundations/foods-and-satiety.md): Foods and satiety - Some foods are promoted for reducing appetite or increasing fat burning: spinach, green tea, coffee, avocado, eggs, chili pepper, ginger, natural yogurt, coconut oil,...
+        - [trophology.md](applied-sciences/medicine-and-health/nutrition/foundations/trophology.md): Trophology (food combining) - Trophology, or food combining, is the idea that foods must be combined correctly for easier digestion with less energy.
+      - **vitamins/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/vitamins/README.md): Vitamins - Vitamins are organic compounds the body needs in small amounts and cannot make in sufficient quantity.
+        - [vitamins-overview.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamins-overview.md): Vitamins overview - Vitamins are organic compounds needed in very small amounts for growth, metabolism, immunity, skin health and energy production.
+        - [vitamin-a.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-a.md): Vitamin A - Vitamin A is a fat-soluble vitamin needed for vision, immunity, skin and mucous membranes, and cell growth and differentiation.
+        - [vitamin-d.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-d.md): Vitamin D - Vitamin D (D3, cholecalciferol, and D2, ergocalciferol) is a fat-soluble vitamin made in the skin under sunlight and found in fatty fish, liver, egg yolks and fortifie...
+        - [vitamin-e.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-e.md): Vitamin E - Vitamin E is a group of fat-soluble compounds (tocopherols and tocotrienols), of which alpha-tocopherol is the form the body keeps.
+        - [vitamin-k2.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-k2.md): Vitamin K2 - Vitamin K2 (menaquinones such as MK-4 and MK-7) is one of the two main forms of vitamin K, alongside vitamin K1 (phylloquinone) from green vegetables.
+        - [vitamin-c.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-c.md): Vitamin C - Vitamin C (ascorbic acid) is a water-soluble vitamin that humans cannot make.
+        - [vitamin-b1.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b1.md): Vitamin B1 (thiamin) - Thiamin (vitamin B1) is a water-soluble B vitamin.
+        - [vitamin-b2.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b2.md): Vitamin B2 (riboflavin) - Riboflavin (vitamin B2) is a water-soluble vitamin that forms the coenzymes FMN and FAD.
+        - [vitamin-b3.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b3.md): Vitamin B3 (niacin) - Niacin (vitamin B3) is a water-soluble vitamin that exists as nicotinic acid and nicotinamide.
+        - [vitamin-b5.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b5.md): Vitamin B5 (pantothenic acid) - Pantothenic acid (vitamin B5) is a water-soluble vitamin that forms coenzyme A (CoA), central to energy metabolism and to the synthesis of fatty acids, cholesterol, st...
+        - [vitamin-b6.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b6.md): Vitamin B6 - Vitamin B6 is a group of water-soluble compounds (pyridoxine, pyridoxal, pyridoxamine) whose active form, pyridoxal 5'-phosphate (PLP), is a coenzyme for more than 100...
+        - [vitamin-b7.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b7.md): Vitamin B7 (biotin) - Biotin (vitamin B7) is a water-soluble vitamin that serves as a coenzyme for five carboxylase enzymes involved in fatty acid synthesis, gluconeogenesis and amino acid...
+        - [vitamin-b9.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b9.md): Vitamin B9 (folate) - Folate (vitamin B9) is a water-soluble vitamin needed for DNA synthesis and repair, cell division and amino acid metabolism.
+        - [vitamin-b12.md](applied-sciences/medicine-and-health/nutrition/vitamins/vitamin-b12.md): Vitamin B12 - Vitamin B12 (cobalamin) is a water-soluble vitamin containing cobalt.
+      - **minerals/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/minerals/README.md): Minerals - Minerals are inorganic elements the body needs for bones and teeth, fluid balance, nerve conduction, muscle function and as cofactors of enzymes.
+        - [minerals-overview.md](applied-sciences/medicine-and-health/nutrition/minerals/minerals-overview.md): Minerals overview - Minerals are chemical elements the body needs for many biochemical processes: fluid balance, nerve conduction, muscle contraction and the structure of bones and teeth.
+        - [calcium.md](applied-sciences/medicine-and-health/nutrition/minerals/calcium.md): Calcium - Calcium is the most abundant mineral in the body: about 99 percent is in bones and teeth as hydroxyapatite, which gives them hardness.
+        - [magnesium.md](applied-sciences/medicine-and-health/nutrition/minerals/magnesium.md): Magnesium - Magnesium is a macromineral needed for more than 300 enzymes, including all reactions that use ATP, and for muscle and nerve function, bone, blood glucose and blood pr...
+        - [potassium.md](applied-sciences/medicine-and-health/nutrition/minerals/potassium.md): Potassium - Potassium is the main positive ion inside cells.
+        - [iron.md](applied-sciences/medicine-and-health/nutrition/minerals/iron.md): Iron - Iron is a trace element that forms the core of hemoglobin, which carries oxygen in red blood cells, and myoglobin, which stores oxygen in muscle.
+        - [zinc.md](applied-sciences/medicine-and-health/nutrition/minerals/zinc.md): Zinc - Zinc is a trace element needed by more than 300 enzymes and by thousands of proteins that regulate genes.
+        - [copper.md](applied-sciences/medicine-and-health/nutrition/minerals/copper.md): Copper - Copper is a trace element that is a cofactor of enzymes involved in energy production, iron metabolism, connective tissue formation, antioxidant defense and neurotrans...
+        - [manganese.md](applied-sciences/medicine-and-health/nutrition/minerals/manganese.md): Manganese - Manganese is a trace element that is a cofactor of enzymes in carbohydrate, amino acid and cholesterol metabolism, bone and cartilage formation (synthesis of glycosami...
+        - [selenium.md](applied-sciences/medicine-and-health/nutrition/minerals/selenium.md): Selenium - Selenium is a trace element built into about 25 selenoproteins, including glutathione peroxidases (antioxidants) and deiodinases that activate thyroid hormone.
+        - [chromium.md](applied-sciences/medicine-and-health/nutrition/minerals/chromium.md): Chromium - Chromium (trivalent chromium) is a trace element thought to enhance the action of insulin, although whether it is truly essential is debated: in 2014 EFSA concluded th...
+      - **supplements/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/supplements/README.md): Supplements - These notes cover popular dietary supplements that are not vitamins or minerals: vitamin-like compounds (coenzyme Q10, choline), joint supplements (glucosamine, chondr...
+        - [creatine.md](applied-sciences/medicine-and-health/nutrition/supplements/creatine.md): Creatine - Creatine is a compound made from the amino acids arginine, glycine and methionine and stored in muscle, mostly as phosphocreatine.
+        - [coenzyme-q10.md](applied-sciences/medicine-and-health/nutrition/supplements/coenzyme-q10.md): Coenzyme Q10 - Coenzyme Q10 (CoQ10, ubiquinone) is a vitamin-like compound made by the body and found in small amounts in meat (especially heart and liver), fish, nuts and some oils.
+        - [choline.md](applied-sciences/medicine-and-health/nutrition/supplements/choline.md): Choline - Choline is an essential nutrient, usually grouped with the B vitamins, needed for the neurotransmitter acetylcholine, for cell membranes (phosphatidylcholine), for met...
+        - [glucosamine.md](applied-sciences/medicine-and-health/nutrition/supplements/glucosamine.md): Glucosamine - Glucosamine is a naturally occurring amino sugar and a building block of glycosaminoglycans and proteoglycans in joint cartilage.
+        - [chondroitin.md](applied-sciences/medicine-and-health/nutrition/supplements/chondroitin.md): Chondroitin - Chondroitin is a glycosaminoglycan found in connective tissue, especially joint cartilage, where it helps cartilage retain water and resist compression.
+        - [msm.md](applied-sciences/medicine-and-health/nutrition/supplements/msm.md): Methylsulfonylmethane (MSM) - Methylsulfonylmethane (MSM) is an organic sulfur compound present in small amounts in fruit, vegetables, grains and animal tissues.
+        - [glutathione.md](applied-sciences/medicine-and-health/nutrition/supplements/glutathione.md): Glutathione - Glutathione (GSH) is a tripeptide of glutamate, cysteine and glycine and the most important antioxidant made inside cells.
+      - **phytonutrients/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/README.md): Phytonutrients - Phytonutrients (phytochemicals) are compounds made by plants that are not essential nutrients but may affect health.
+        - [overview.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/overview.md): Phytonutrients overview - Phytonutrients are natural compounds in plants that may benefit human health.
+        - [polyphenols.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/polyphenols.md): Polyphenols - Polyphenols are a large group of plant compounds with several phenol rings.
+        - [carotenoids.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/carotenoids.md): Carotenoids - Carotenoids are yellow, orange and red plant pigments, made of 40 carbon atoms.
+        - [glucosinolates.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/glucosinolates.md): Glucosinolates - Glucosinolates are sulfur-containing compounds in cruciferous vegetables (broccoli, cauliflower, cabbage, Brussels sprouts, kale, rocket).
+        - [lignans.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/lignans.md): Lignans - Lignans are polyphenols found in seeds, whole grains, nuts and some vegetables, most abundantly in flaxseed.
+        - [phytoestrogens.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/phytoestrogens.md): Phytoestrogens - Phytoestrogens are plant compounds structurally similar to estradiol that bind estrogen receptors weakly.
+        - [saponins.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/saponins.md): Saponins - Saponins are plant compounds made of a sugar chain attached to a steroid or triterpene, named for their soap-like foaming in water.
+        - [terpenoids.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/terpenoids.md): Terpenoids - Terpenoids (terpenes) are the largest group of plant compounds, built from five-carbon isoprene units.
+        - [resveratrol.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/resveratrol.md): Resveratrol - Resveratrol is a stilbene polyphenol first isolated in 1940 from white hellebore (Veratrum grandiflorum) and since found in about 70 plant species.
+        - [quercetin.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/quercetin.md): Quercetin - Quercetin is a flavonol, one of the most common flavonoids in the diet.
+        - [astaxanthin.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/astaxanthin.md): Astaxanthin - Astaxanthin is a red xanthophyll carotenoid produced by microalgae such as Haematococcus pluvialis and accumulated by salmon, trout, shrimp, krill and crabs, which it...
+        - [sulforaphane.md](applied-sciences/medicine-and-health/nutrition/phytonutrients/sulforaphane.md): Sulforaphane - Sulforaphane is an isothiocyanate formed from glucoraphanin in cruciferous vegetables, especially broccoli and broccoli sprouts, when the enzyme myrosinase acts after...
+      - **prebiotics/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/prebiotics/README.md): Prebiotics - Prebiotics are food components that humans cannot digest but that selectively feed beneficial gut bacteria.
+        - [prebiotics-overview.md](applied-sciences/medicine-and-health/nutrition/prebiotics/prebiotics-overview.md): Prebiotics overview - Prebiotics are food components that human enzymes cannot digest and that are selectively used by beneficial gut bacteria, providing a health benefit.
+        - [inulin.md](applied-sciences/medicine-and-health/nutrition/prebiotics/inulin.md): Inulin - Inulin is a soluble fiber and prebiotic, a fructan made of fructose chains, found in chicory root, Jerusalem artichoke, artichokes, garlic, onions, leeks and bananas.
+        - [fructooligosaccharides.md](applied-sciences/medicine-and-health/nutrition/prebiotics/fructooligosaccharides.md): Fructooligosaccharides (FOS) - Fructooligosaccharides (FOS) are short chains of fructose (usually 2 to 9 units) ending in glucose, a soluble fiber and prebiotic found in onions, garlic, bananas, art...
+      - **algae/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/algae/README.md): Algae - Microalgae and cyanobacteria are sold as nutrient-dense supplements.
+        - [chlorella.md](applied-sciences/medicine-and-health/nutrition/algae/chlorella.md): Chlorella - Chlorella is a single-celled freshwater green alga sold as tablets, powder or capsules.
+        - [spirulina.md](applied-sciences/medicine-and-health/nutrition/algae/spirulina.md): Spirulina - Spirulina (Arthrospira platensis) is a cyanobacterium, often called a blue-green alga, and one of the oldest photosynthetic organisms.
+      - **herbal-extracts/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/README.md): Herbal extracts - Herbal extracts are concentrated preparations of plant parts sold as supplements, many from Ayurvedic, Chinese or European folk medicine.
+        - [tribulus.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/tribulus.md): Tribulus (Tribulus terrestris) - Tribulus terrestris (puncture vine) is a plant used in Ayurvedic and Chinese medicine.
+        - [fenugreek.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/fenugreek.md): Fenugreek (Trigonella foenum-graecum) - Fenugreek extract is a concentrated form of fenugreek seeds, rich in soluble fiber (galactomannan), steroidal saponins (diosgenin), alkaloids, flavonoids and 4-hydroxy...
+        - [maca.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/maca.md): Maca (Lepidium meyenii) - Maca is a root vegetable of the cabbage family grown in the Andes above 4,000 meters, in yellow, red and black varieties.
+        - [centella.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/centella.md): Gotu kola (Centella asiatica) - Centella asiatica (gotu kola) is a plant used in Ayurvedic and Chinese medicine.
+        - [ashwagandha.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/ashwagandha.md): Ashwagandha (Withania somnifera) - Ashwagandha is an adaptogenic plant of Ayurvedic medicine.
+        - [rhodiola.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/rhodiola.md): Rhodiola (Rhodiola rosea) - Rhodiola rosea ("golden root" or "roseroot") is an adaptogen used in folk medicine of Scandinavia, Russia and Siberia to improve physical and mental performance under...
+        - [bacopa.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/bacopa.md): Bacopa (Bacopa monnieri) - Bacopa monnieri (brahmi) is a creeping herb used in Ayurvedic medicine to improve memory and learning.
+        - [ginkgo.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/ginkgo.md): Ginkgo (Ginkgo biloba) - Ginkgo biloba is one of the oldest living tree species, used in traditional Chinese medicine.
+        - [beetroot.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/beetroot.md): Beetroot (Beta vulgaris) - Beetroot extract, powder or juice comes from red beets, a vegetable rich in nitrate, betalains, vitamins and minerals.
+        - [milk-thistle.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/milk-thistle.md): Milk thistle (Silybum marianum) - Milk thistle seed extract contains silymarin, a mixture of flavonolignans (mainly silybin).
+        - [artichoke.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/artichoke.md): Artichoke leaf (Cynara scolymus) - Artichoke leaf extract is rich in cynarin, chlorogenic acid and luteolin.
+        - [ginger.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/ginger.md): Ginger (Zingiber officinale) - Ginger root extract contains gingerols, shogaols and zingiberene, which give ginger its taste and effects.
+        - [turmeric.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/turmeric.md): Turmeric (Curcuma longa) - Turmeric rhizome extract contains curcuminoids, mainly curcumin, a polyphenol with anti-inflammatory and antioxidant effects in the laboratory.
+        - [black-pepper.md](applied-sciences/medicine-and-health/nutrition/herbal-extracts/black-pepper.md): Black pepper (Piper nigrum) - Black pepper fruit extract is standardized to piperine, the alkaloid responsible for pepper's pungent taste.
+      - **mushrooms/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/mushrooms/README.md): Medicinal mushrooms - Several fungi used in traditional Chinese and Japanese medicine are sold as supplements: cordyceps, lion's mane, maitake, reishi and shiitake.
+        - [mushrooms-overview.md](applied-sciences/medicine-and-health/nutrition/mushrooms/mushrooms-overview.md): Medicinal mushrooms overview - Medicinal mushrooms are fungi used for their health-related compounds rather than only as food.
+        - [cordyceps.md](applied-sciences/medicine-and-health/nutrition/mushrooms/cordyceps.md): Cordyceps - Cordyceps is a genus of parasitic fungi used in traditional Chinese medicine.
+        - [lions-mane.md](applied-sciences/medicine-and-health/nutrition/mushrooms/lions-mane.md): Lion's mane - Lion's mane (Hericium erinaceus) is an edible mushroom native to Asia, North America and Europe, including Poland, where it is rare and strictly protected and must not...
+        - [maitake.md](applied-sciences/medicine-and-health/nutrition/mushrooms/maitake.md): Maitake - Maitake (Grifola frondosa), the "dancing mushroom" or "hen of the woods", is an edible mushroom used in Japanese and Chinese traditional medicine and as a supplement.
+        - [reishi.md](applied-sciences/medicine-and-health/nutrition/mushrooms/reishi.md): Reishi - Reishi (Ganoderma lucidum), the "mushroom of immortality" in traditional Chinese medicine, is a woody, bitter mushroom used as dried slices, powders, extracts, capsule...
+        - [shiitake.md](applied-sciences/medicine-and-health/nutrition/mushrooms/shiitake.md): Shiitake - Shiitake (Lentinula edodes) is one of the most widely eaten mushrooms worldwide and is also used as a supplement.
+        - [oyster-mushroom.md](applied-sciences/medicine-and-health/nutrition/mushrooms/oyster-mushroom.md): Oyster mushroom - The oyster mushroom (Pleurotus ostreatus) is a common, inexpensive cultivated mushroom and one of the richest dietary sources of ergothioneine, an amino acid derivativ...
+      - **foods/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/foods/README.md): Foods - Notes on individual foods with health-related claims.
+        - [garlic.md](applied-sciences/medicine-and-health/nutrition/foods/garlic.md): Garlic - Garlic (Allium sativum) contains sulfur compounds, mainly allicin, formed when cloves are crushed.
+        - [black-garlic.md](applied-sciences/medicine-and-health/nutrition/foods/black-garlic.md): Black garlic - Black garlic is whole garlic aged for several weeks at controlled heat (about 60 to 90 °C) and high humidity.
+      - **food-additives/**
+        - [README.md](applied-sciences/medicine-and-health/nutrition/food-additives/README.md): Food additives and contaminants - Food additives are substances added to food for a technical purpose: preservation, color, sweetness, flavor or texture.
+        - [overview.md](applied-sciences/medicine-and-health/nutrition/food-additives/overview.md): Food additives overview - Food additives are substances intentionally added to food for a technical function.
+        - [sodium-benzoate.md](applied-sciences/medicine-and-health/nutrition/food-additives/sodium-benzoate.md): Sodium benzoate (E211) - Sodium benzoate (E211) is a preservative that prevents growth of yeasts, molds and some bacteria in acidic foods: soft drinks, canned foods, marinades, fruit and veget...
+        - [sulfites.md](applied-sciences/medicine-and-health/nutrition/food-additives/sulfites.md): Sulfites (E220 to E222) - Sulfites are preservatives and antioxidants: sulfur dioxide (E220), sodium sulfite (E221) and sodium bisulfite (E222), with related salts E223 to E228.
+        - [nitrites-and-nitrates.md](applied-sciences/medicine-and-health/nutrition/food-additives/nitrites-and-nitrates.md): Nitrites and nitrates (E250, E251) - Sodium nitrite (E250) and sodium nitrate (E251) are used mainly in cured meats (ham, sausages, bacon).
+        - [calcium-propionate.md](applied-sciences/medicine-and-health/nutrition/food-additives/calcium-propionate.md): Calcium propionate (E282) - Calcium propionate (E282) is a preservative used mainly in bread and baked goods to prevent mold.
+        - [carrageenan.md](applied-sciences/medicine-and-health/nutrition/food-additives/carrageenan.md): Carrageenan (E407) - Carrageenan (E407) is a thickener and stabilizer extracted from red seaweed, used in dairy products, plant milks, desserts and processed meats.
+        - [e621-monosodium-glutamate.md](applied-sciences/medicine-and-health/nutrition/food-additives/e621-monosodium-glutamate.md): Monosodium glutamate (E621) - Monosodium glutamate (MSG, E621) is a flavor enhancer that gives the savory umami taste.
+        - [sweeteners.md](applied-sciences/medicine-and-health/nutrition/food-additives/sweeteners.md): Sweeteners - Sweeteners replace sugar.
+        - [synthetic-food-colors.md](applied-sciences/medicine-and-health/nutrition/food-additives/synthetic-food-colors.md): Synthetic food colors - Synthetic food colors give foods and drinks bright, stable colors.
+        - [acrylamide.md](applied-sciences/medicine-and-health/nutrition/food-additives/acrylamide.md): Acrylamide - Acrylamide is not an additive but a contaminant that forms when starchy foods are fried, baked or roasted above about 120 °C, through the Maillard reaction between the...
+        - [bha-and-bht.md](applied-sciences/medicine-and-health/nutrition/food-additives/bha-and-bht.md): BHA and BHT (E320, E321) - Butylated hydroxyanisole (BHA, E320) and butylated hydroxytoluene (BHT, E321) are synthetic antioxidants that prevent fats from going rancid.
+    - **diagnostics/**
+      - [README.md](applied-sciences/medicine-and-health/diagnostics/README.md): Diagnostics - Laboratory tests measure substances in blood and other fluids to detect disease, assess risk and monitor treatment.
+      - [complete-blood-count.md](applied-sciences/medicine-and-health/diagnostics/complete-blood-count.md): Complete blood count - The complete blood count (CBC, in Polish "morfologia") is a basic blood test that measures hemoglobin and counts and characterizes the cellular elements of blood: red...
+      - [erythrocyte-sedimentation-rate.md](applied-sciences/medicine-and-health/diagnostics/erythrocyte-sedimentation-rate.md): Erythrocyte sedimentation rate - The erythrocyte sedimentation rate (ESR; in Polish OB, "odczyn Biernackiego", after the Polish physician Edmund Biernacki who described it in 1897) is the rate at whic...
+      - [lipid-panel.md](applied-sciences/medicine-and-health/diagnostics/lipid-panel.md): Lipid panel - A lipid panel (lipidogram) measures blood lipids to assess the risk of atherosclerosis, stroke and cardiovascular disease.
+      - [electrolyte-panel.md](applied-sciences/medicine-and-health/diagnostics/electrolyte-panel.md): Electrolyte panel - An electrolyte panel (ionogram) measures the main electrolytes in blood: sodium, potassium, chloride and often bicarbonate, sometimes calcium and magnesium.
+      - [blood-glucose.md](applied-sciences/medicine-and-health/diagnostics/blood-glucose.md): Blood glucose - Blood glucose testing is the basic test for diagnosing and monitoring diabetes and assessing the risk of developing it.
+      - [creatine-kinase.md](applied-sciences/medicine-and-health/diagnostics/creatine-kinase.md): Creatine kinase - Creatine kinase (CK, total CK or CK-NAC) is an enzyme in the cytoplasm and mitochondria that catalyzes the reversible phosphorylation of creatine.
+    - **conditions/**
+      - [README.md](applied-sciences/medicine-and-health/conditions/README.md): Conditions - Notes on specific diseases and health conditions: their mechanisms, prevention, treatment and the role of nutrition and natural remedies.
+      - [allergy.md](applied-sciences/medicine-and-health/conditions/allergy.md): Allergy - Allergy is an excessive immune reaction to substances that are harmless to most people, called allergens: plant pollen, animal dander, foods, drugs, house dust mites,...
+      - [allergy-prevention-and-treatment.md](applied-sciences/medicine-and-health/conditions/allergy-prevention-and-treatment.md): Allergy prevention and treatment - Allergy prevention works at three levels: primary (preventing allergy from developing, for example by introducing allergenic foods early in infancy), secondary (preven...
+      - [allergy-nutrition-and-natural-remedies.md](applied-sciences/medicine-and-health/conditions/allergy-nutrition-and-natural-remedies.md): Allergy: nutrition and natural remedies - Diet can support people with allergies by reducing inflammation and supporting the immune system: plenty of vegetables and fruit, omega-3 fatty acids, anti-inflammator...
+    - **complementary-medicine/**
+      - [README.md](applied-sciences/medicine-and-health/complementary-medicine/README.md): Complementary medicine - Complementary medicine covers natural remedies, herbal preparations and practices used alongside conventional medicine.
+      - [natural-remedies.md](applied-sciences/medicine-and-health/complementary-medicine/natural-remedies.md): Natural remedies overview - Natural remedies are plant, food or animal-derived products used to prevent or treat health problems.
+      - [nattokinase.md](applied-sciences/medicine-and-health/complementary-medicine/nattokinase.md): Nattokinase - Nattokinase is an enzyme produced by Bacillus subtilis var.
+      - [oregano-oil.md](applied-sciences/medicine-and-health/complementary-medicine/oregano-oil.md): Oregano oil - Oregano oil is an essential oil from Origanum vulgare and related species, rich in carvacrol and thymol.
+      - [coconut-oil.md](applied-sciences/medicine-and-health/complementary-medicine/coconut-oil.md): Coconut oil - Coconut oil is a fat pressed from coconut meat, about 90 percent saturated, rich in lauric acid (C12) and smaller amounts of caprylic (C8) and capric (C10) acids, whic...
+      - [graviola.md](applied-sciences/medicine-and-health/complementary-medicine/graviola.md): Graviola (soursop) - Graviola (Annona muricata, soursop) is a tropical tree whose leaves, seeds and fruit are promoted as natural cancer treatments.
+      - [papaya-seeds.md](applied-sciences/medicine-and-health/complementary-medicine/papaya-seeds.md): Papaya seeds - Papaya (Carica papaya) seeds contain carpaine, benzyl isothiocyanate and other compounds with antiparasitic activity.
+      - [blue-vervain.md](applied-sciences/medicine-and-health/complementary-medicine/blue-vervain.md): Blue vervain - Blue vervain (Verbena hastata) is a North American plant used in traditional herbal medicine as a calming agent and mild remedy for anxiety and low mood.
+      - [dandelion.md](applied-sciences/medicine-and-health/complementary-medicine/dandelion.md): Dandelion - Dandelion (Taraxacum officinale) root and leaf are traditional remedies for the liver and digestion.
+      - [onion-syrup.md](applied-sciences/medicine-and-health/complementary-medicine/onion-syrup.md): Onion syrup - Onion syrup is a home remedy for colds, cough and sore throat.
+      - [pineapple-peel-shots.md](applied-sciences/medicine-and-health/complementary-medicine/pineapple-peel-shots.md): Pineapple peel shots - Pineapple peel shots are a home brew made by boiling pineapple peels and core with ginger and turmeric, adding black pepper and honey after cooling, and freezing the l...
+      - [menstrual-pain-protocol.md](applied-sciences/medicine-and-health/complementary-medicine/menstrual-pain-protocol.md): Menstrual pain protocol - This protocol aims to reduce cramping menstrual pain (primary dysmenorrhea) by lowering pro-inflammatory prostaglandins (PGF2-alpha), reducing uterine smooth muscle co...
+      - **essential-oils/**
+        - [README.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/README.md): Essential oils - Essential oils are concentrated volatile oils distilled or pressed from plants.
+        - [essential-oils-overview.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/essential-oils-overview.md): Essential oils overview - Essential oils are concentrated mixtures of volatile compounds, mostly terpenes and phenylpropanoids, obtained from plants by steam distillation or cold pressing.
+        - [lavender.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/lavender.md): Lavender oil - Lavender essential oil comes from Lavandula angustifolia.
+        - [tea-tree.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/tea-tree.md): Tea tree oil - Tea tree essential oil comes from Melaleuca alternifolia.
+        - [peppermint.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/peppermint.md): Peppermint oil - Peppermint essential oil comes from Mentha piperita.
+        - [eucalyptus.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/eucalyptus.md): Eucalyptus oil - Eucalyptus essential oil comes from Eucalyptus globulus.
+        - [lemon.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/lemon.md): Lemon oil - Lemon essential oil comes from Citrus limon.
+        - [chamomile.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/chamomile.md): Chamomile oil - Chamomile essential oil comes from Matricaria chamomilla.
+        - [rosemary.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/rosemary.md): Rosemary oil - Rosemary essential oil comes from Rosmarinus officinalis.
+        - [bergamot.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/bergamot.md): Bergamot oil - Bergamot essential oil comes from Citrus bergamia.
+        - [sandalwood.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/sandalwood.md): Sandalwood oil - Sandalwood essential oil comes from Santalum album.
+        - [frankincense.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/frankincense.md): Frankincense oil - Frankincense essential oil comes from Boswellia carteri (Boswellia sacra).
+        - [jasmine.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/jasmine.md): Jasmine oil - Jasmine essential oil comes from Jasminum officinale (Jasminum grandiflorum).
+        - [ylang-ylang.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/ylang-ylang.md): Ylang-ylang oil - Ylang-ylang essential oil comes from Cananga odorata.
+        - [grapefruit.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/grapefruit.md): Grapefruit oil - Grapefruit essential oil comes from Citrus paradisi.
+        - [cypress.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/cypress.md): Cypress oil - Cypress essential oil comes from Cupressus sempervirens.
+        - [patchouli.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/patchouli.md): Patchouli oil - Patchouli essential oil comes from Pogostemon cablin.
+        - [neroli.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/neroli.md): Neroli oil - Neroli essential oil comes from Citrus aurantium (flowers).
+        - [cedarwood.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/cedarwood.md): Cedarwood oil - Cedarwood essential oil comes from Cedrus atlantica.
+        - [cinnamon.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/cinnamon.md): Cinnamon oil - Cinnamon essential oil comes from Cinnamomum zeylanicum (Cinnamomum verum).
+        - [clove.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/clove.md): Clove oil - Clove essential oil comes from Syzygium aromaticum.
+        - [anise.md](applied-sciences/medicine-and-health/complementary-medicine/essential-oils/anise.md): Anise oil - Anise essential oil comes from Pimpinella anisum.
+    - **peptides/**
+      - [README.md](applied-sciences/medicine-and-health/peptides/README.md): Peptides - Peptides are short chains of amino acids.
+      - [overview.md](applied-sciences/medicine-and-health/peptides/overview.md): Peptides overview - Peptides are short chains of amino acids linked by peptide bonds, usually 2 to 50 amino acids.
+      - [collagen-peptides.md](applied-sciences/medicine-and-health/peptides/collagen-peptides.md): Collagen peptides - Collagen is the most abundant protein in the body, essential for skin, joints, tendons and bones.
+      - [melanotan-ii.md](applied-sciences/medicine-and-health/peptides/melanotan-ii.md): Melanotan II - Melanotan II is a synthetic analog of alpha-melanocyte-stimulating hormone (alpha-MSH) that stimulates melanin production and tanning, and also increases libido and ca...
+      - [semax.md](applied-sciences/medicine-and-health/peptides/semax.md): Semax - Semax is a synthetic peptide developed in Russia, based on a fragment of adrenocorticotropic hormone (ACTH 4-10) with an added Pro-Gly-Pro sequence.
+      - [selank.md](applied-sciences/medicine-and-health/peptides/selank.md): Selank - Selank is a synthetic peptide developed in Russia from tuftsin, a fragment of immunoglobulin G, with an added Pro-Gly-Pro sequence.
+      - [dihexa.md](applied-sciences/medicine-and-health/peptides/dihexa.md): Dihexa - Dihexa is a small synthetic peptide derived from angiotensin IV, developed at Washington State University.
+      - [bpc-157.md](applied-sciences/medicine-and-health/peptides/bpc-157.md): BPC-157 - BPC-157 (body protection compound 157) is a synthetic peptide of 15 amino acids based on a sequence from a protein in human gastric juice.
+      - [tb-500.md](applied-sciences/medicine-and-health/peptides/tb-500.md): TB-500 - TB-500 is a synthetic peptide based on the active region of thymosin beta-4, a natural protein that binds actin and is involved in cell migration, wound healing and bl...
+    - **environmental-health/**
+      - [README.md](applied-sciences/medicine-and-health/environmental-health/README.md): Environmental health - Environmental health studies how chemicals and materials in our surroundings affect health.
+      - [sls-and-sles.md](applied-sciences/medicine-and-health/environmental-health/sls-and-sles.md): Sodium lauryl sulfate and sodium laureth sulfate - Sodium lauryl sulfate and sodium laureth sulfate is used in cosmetics (shampoos, shower gels, toothpaste) and cleaning products.
+      - [parabens.md](applied-sciences/medicine-and-health/environmental-health/parabens.md): Parabens - Parabens is used in cosmetics and some foods as preservatives (methylparaben, ethylparaben, propylparaben, butylparaben).
+      - [formaldehyde.md](applied-sciences/medicine-and-health/environmental-health/formaldehyde.md): Formaldehyde - Formaldehyde is used in cosmetics (as formaldehyde-releasing preservatives and in some hair-smoothing treatments), cleaning products and building materials.
+      - [triclosan.md](applied-sciences/medicine-and-health/environmental-health/triclosan.md): Triclosan - Triclosan is used in antibacterial soaps, cleaning products, toothpaste and personal care products.
+      - [phthalates.md](applied-sciences/medicine-and-health/environmental-health/phthalates.md): Phthalates - Phthalates is used in cosmetics (fragrances, nail polish), plastics (as plasticizers, especially PVC) and cleaning products.
+      - [silicones.md](applied-sciences/medicine-and-health/environmental-health/silicones.md): Silicones - Silicones is used in cosmetics and hair products (dimethicone, cyclopentasiloxane).
+      - [ammonia.md](applied-sciences/medicine-and-health/environmental-health/ammonia.md): Ammonia - Ammonia is used in cleaning products (glass cleaners) and hair dyes.
+      - [chlorine.md](applied-sciences/medicine-and-health/environmental-health/chlorine.md): Chlorine and bleach - Chlorine and bleach is used in cleaning products (bleach, sodium hypochlorite) and swimming pool water.
+      - [oxybenzone.md](applied-sciences/medicine-and-health/environmental-health/oxybenzone.md): Oxybenzone - Oxybenzone is used in chemical sunscreen filters.
+      - [hydroquinone.md](applied-sciences/medicine-and-health/environmental-health/hydroquinone.md): Hydroquinone - Hydroquinone is used in skin-lightening cosmetics.
+      - [plastic-resin-codes.md](applied-sciences/medicine-and-health/environmental-health/plastic-resin-codes.md): Plastic resin codes - The numbers 1 to 7 inside the recycling triangle on plastic products identify the type of plastic.
+      - [bisphenol-a.md](applied-sciences/medicine-and-health/environmental-health/bisphenol-a.md): Bisphenol A - Bisphenol A (BPA) is a building block of polycarbonate plastics and epoxy resins that line food cans.
+      - [natural-cleaning.md](applied-sciences/medicine-and-health/environmental-health/natural-cleaning.md): Natural cleaning ingredients - Natural cleaning products rely on a few household ingredients: white vinegar (an acid that dissolves limescale and grease), baking soda (a mild abrasive and deodorizer...
+      - [natural-cleaning-recipes.md](applied-sciences/medicine-and-health/environmental-health/natural-cleaning-recipes.md): Natural cleaning recipes - This note collects household cleaning recipes based on vinegar, baking soda, lemon, castile soap, isopropyl alcohol, hydrogen peroxide, borax and essential oils: a was...
+    - **personal-care/**
+      - [README.md](applied-sciences/medicine-and-health/personal-care/README.md): Personal care - Notes on care of teeth, skin and hair with natural methods, and what the evidence shows: clove oil for toothache, home teeth whitening with baking soda and coconut oil...
+      - [toothache-clove-oil.md](applied-sciences/medicine-and-health/personal-care/toothache-clove-oil.md): Clove oil for toothache - Clove oil is a popular natural remedy for toothache because of its analgesic, anti-inflammatory and antiseptic properties.
+      - [teeth-whitening-home-methods.md](applied-sciences/medicine-and-health/personal-care/teeth-whitening-home-methods.md): Home teeth whitening - Baking soda and coconut oil are popular natural ingredients in home teeth whitening.
+      - [scalp-oil-blend.md](applied-sciences/medicine-and-health/personal-care/scalp-oil-blend.md): Scalp oil blend - A scalp and hair oil blend combines carrier oils (coconut, jojoba, argan, castor) with essential oils (rosemary, lavender, peppermint, tea tree) chosen for their effec...
   - **computer-science/** (planned)
     - [README.md](applied-sciences/computer-science/README.md): Computer science - Building, running and securing computing systems.
     - **cybersecurity/** (planned)
@@ -214,23 +771,62 @@ Entries without a link are planned topics. They become notes or directories when
     - Mechanical (planned)
     - Civil (planned)
     - Materials (planned)
-  - **business-and-management/** (planned)
+  - **business-and-management/**
     - [README.md](applied-sciences/business-and-management/README.md): Business and management - Creating, running and growing organizations.
-    - Entrepreneurship and startups (planned)
-    - Strategy (planned)
-    - Marketing and copywriting (planned)
-    - Sales and client acquisition (planned)
-    - E-commerce (planned)
-    - Operations (planned)
-    - Leadership and management (planned)
-  - **finance-and-investing/** (planned)
+    - **entrepreneurship-and-startups/**
+      - [README.md](applied-sciences/business-and-management/entrepreneurship-and-startups/README.md): Entrepreneurship and startups - How new businesses are founded, tested and kept alive.
+      - [lean-startup.md](applied-sciences/business-and-management/entrepreneurship-and-startups/lean-startup.md): Lean startup - The lean startup is a method for building new products under high uncertainty.
+      - [minimum-viable-product.md](applied-sciences/business-and-management/entrepreneurship-and-startups/minimum-viable-product.md): Minimum viable product - A minimum viable product (MVP) is the smallest version of a product, or a substitute for it, that lets a team test its most important assumption with real customers.
+      - [lean-canvas.md](applied-sciences/business-and-management/entrepreneurship-and-startups/lean-canvas.md): Lean Canvas - The Lean Canvas is a one-page template for describing a business model as a set of testable assumptions.
+      - [pirate-metrics.md](applied-sciences/business-and-management/entrepreneurship-and-startups/pirate-metrics.md): Pirate metrics (AARRR) - Pirate metrics are a framework for choosing a startup's key metrics along the customer lifecycle: acquisition, activation, retention, referral and revenue.
+      - [product-market-fit.md](applied-sciences/business-and-management/entrepreneurship-and-startups/product-market-fit.md): Product-market fit - Product-market fit (PMF) is the point at which a product satisfies a strong demand in a specific market, so that customers keep using it, pay for it and recommend it w...
+      - [why-startups-fail.md](applied-sciences/business-and-management/entrepreneurship-and-startups/why-startups-fail.md): Why startups fail - Most startups fail, and studies of failed companies point to the same few causes: building something the market does not need, running out of money, and team problems.
+      - [founding-team.md](applied-sciences/business-and-management/entrepreneurship-and-startups/founding-team.md): Founding team - An early-stage company needs a small team that together covers selling, building, designing, solving problems and setting direction.
+      - [building-the-first-product.md](applied-sciences/business-and-management/entrepreneurship-and-startups/building-the-first-product.md): Building the first product - Getting a first software product to market quickly depends more on decisions than on coding speed.
+      - [entrepreneurship-lessons.md](applied-sciences/business-and-management/entrepreneurship-and-startups/entrepreneurship-lessons.md): Entrepreneurship lessons - Practitioners pass on their experience as short maxims: sell the transformation, state your price and stop talking, solve pains rather than desires, compete on value,...
+    - **growth/**
+      - [README.md](applied-sciences/business-and-management/growth/README.md): Growth - How a consumer product goes from an idea to its first users and then to sustained growth.
+      - [consumer-growth-sequence.md](applied-sciences/business-and-management/growth/consumer-growth-sequence.md): Consumer growth sequence - Successful consumer startups tend to grow through six steps in a fixed order: find an insight (a real pain point), choose a super-specific audience, craft a hook, manu...
+      - [super-specific-audience.md](applied-sciences/business-and-management/growth/super-specific-audience.md): Super-specific audience - In the early stage of a consumer business, "everyone" is the wrong target.
+      - [hook.md](applied-sciences/business-and-management/growth/hook.md): The hook - The hook is a simple, urgent pitch that makes someone in the target niche want the product now.
+      - [first-thousand-users.md](applied-sciences/business-and-management/growth/first-thousand-users.md): First 1,000 users - The first 1,000 users of a consumer product are almost always won by hand.
+      - [retention.md](applied-sciences/business-and-management/growth/retention.md): Retention - Retention is the share of users who keep using a product over time.
+      - [growth-engines.md](applied-sciences/business-and-management/growth/growth-engines.md): Growth engines - Once a product retains users, growth must come from a repeatable system rather than manual effort.
+      - [performance-marketing-engine.md](applied-sciences/business-and-management/growth/performance-marketing-engine.md): Performance marketing engine - Performance marketing is growth through paid acquisition: buying ads on platforms such as Meta, Google, TikTok and Apple Search Ads and reinvesting revenue into more ads.
+      - [virality.md](applied-sciences/business-and-management/growth/virality.md): Virality - Virality is growth in which existing users bring new users as part of using or talking about the product.
+      - [content-engine.md](applied-sciences/business-and-management/growth/content-engine.md): Content engine - The content engine grows a business by building a large inventory of content that people find through search or share on social media.
+      - [sales-and-partnerships-engine.md](applied-sciences/business-and-management/growth/sales-and-partnerships-engine.md): Sales and partnerships engine - The sales and partnerships engine grows a business through people: a sales or business development team signs up partners or professional suppliers who bring their own...
+    - **business-metrics/**
+      - [README.md](applied-sciences/business-and-management/business-metrics/README.md): Business metrics - The numbers that show whether a business, especially a subscription business, is healthy and growing efficiently.
+      - [monthly-recurring-revenue.md](applied-sciences/business-and-management/business-metrics/monthly-recurring-revenue.md): Monthly recurring revenue (MRR) - Monthly recurring revenue (MRR) is the predictable revenue a subscription business expects to receive every month from its active paying customers.
+      - [annual-recurring-revenue.md](applied-sciences/business-and-management/business-metrics/annual-recurring-revenue.md): Annual recurring revenue (ARR) - Annual recurring revenue (ARR) is the value of a company's recurring subscription revenue normalized to one year.
+      - [arpu.md](applied-sciences/business-and-management/business-metrics/arpu.md): Average revenue per user (ARPU) - Average revenue per user (ARPU) is the recurring revenue a business earns per paying customer in a period, usually a month.
+      - [arpa.md](applied-sciences/business-and-management/business-metrics/arpa.md): Average revenue per account (ARPA) - Average revenue per account (ARPA) is recurring revenue divided by the number of distinct paying accounts, where an account is a company or household that may have man...
+      - [churn-rate.md](applied-sciences/business-and-management/business-metrics/churn-rate.md): Churn rate - Churn rate is the share of customers or recurring revenue lost in a period.
+      - [net-revenue-retention.md](applied-sciences/business-and-management/business-metrics/net-revenue-retention.md): Net revenue retention - Net revenue retention (NRR) measures how much recurring revenue a group of existing customers generates now compared with a year (or month) ago, including expansion, c...
+      - [customer-acquisition-cost.md](applied-sciences/business-and-management/business-metrics/customer-acquisition-cost.md): Customer acquisition cost (CAC) - Customer acquisition cost (CAC) is the total cost of winning one new customer: sales and marketing spending in a period divided by the new customers won.
+      - [cac-payback-period.md](applied-sciences/business-and-management/business-metrics/cac-payback-period.md): CAC payback period - The CAC payback period is the number of months it takes for a new customer's gross margin to repay the cost of acquiring them.
+      - [customer-lifetime-value.md](applied-sciences/business-and-management/business-metrics/customer-lifetime-value.md): Customer lifetime value (LTV) - Customer lifetime value (LTV, also CLV) is the total revenue or profit a business expects from a customer over the whole relationship.
+      - [ltv-to-cac-ratio.md](applied-sciences/business-and-management/business-metrics/ltv-to-cac-ratio.md): LTV to CAC ratio - The LTV to CAC ratio compares what a customer is worth over its lifetime with what it cost to acquire.
+      - [return-on-investment.md](applied-sciences/business-and-management/business-metrics/return-on-investment.md): Return on investment (ROI) - Return on investment (ROI) measures how much net profit an investment produced for each unit of money put in: net profit divided by cost.
+      - [return-on-ad-spend.md](applied-sciences/business-and-management/business-metrics/return-on-ad-spend.md): Return on ad spend (ROAS) - Return on ad spend (ROAS) measures the revenue earned for each unit of money spent on advertising.
+      - [social-return-on-investment.md](applied-sciences/business-and-management/business-metrics/social-return-on-investment.md): Social return on investment (SROI) - Social return on investment (SROI) is a principles-based method for measuring social, environmental and economic value that does not appear in conventional financial a...
+  - **finance-and-investing/**
     - [README.md](applied-sciences/finance-and-investing/README.md): Finance and investing - Managing money, markets and risk.
-    - Personal finance (planned)
-    - Financial instruments (planned)
-    - Stocks (planned)
-    - Derivatives and options (planned)
-    - Portfolio construction (planned)
-    - Taxes and retirement (planned)
+    - **corporate-finance/**
+      - [README.md](applied-sciences/finance-and-investing/corporate-finance/README.md): Corporate finance - How a company measures profit and cash, how much it is worth and which investments it should make.
+      - [financial-statements.md](applied-sciences/finance-and-investing/corporate-finance/financial-statements.md): Financial statements - A company reports its finances in three linked statements.
+      - [time-value-of-money.md](applied-sciences/finance-and-investing/corporate-finance/time-value-of-money.md): Time value of money - A sum of money today is worth more than the same sum in the future, because money available now can be invested to earn a return and because the future is uncertain.
+      - [ebitda.md](applied-sciences/finance-and-investing/corporate-finance/ebitda.md): EBITDA - EBITDA stands for earnings before interest, taxes, depreciation and amortization.
+      - [operating-expenses.md](applied-sciences/finance-and-investing/corporate-finance/operating-expenses.md): Operating expenses (OpEx) - Operating expenses (OpEx) are the day-to-day costs of running a business, consumed within the current period: salaries, rent, software subscriptions, marketing, research.
+      - [capital-expenditure.md](applied-sciences/finance-and-investing/corporate-finance/capital-expenditure.md): Capital expenditure (CapEx) - Capital expenditure (CapEx) is money spent to acquire, upgrade or extend the life of long-lived assets such as buildings, machines, vehicles, servers and, in some case...
+      - [free-cash-flow.md](applied-sciences/finance-and-investing/corporate-finance/free-cash-flow.md): Free cash flow (FCF) - Free cash flow (FCF) is the cash a business generates from operations after paying for the investment needed to maintain and grow its assets.
+      - [discounted-cash-flow.md](applied-sciences/finance-and-investing/corporate-finance/discounted-cash-flow.md): Discounted cash flow (DCF) - Discounted cash flow (DCF) valuation estimates what a business or project is worth today from the free cash flows it is expected to produce, discounted at a rate that...
+      - [wacc.md](applied-sciences/finance-and-investing/corporate-finance/wacc.md): Weighted average cost of capital (WACC) - The weighted average cost of capital (WACC) is the average return a company must pay to its lenders and shareholders, weighted by how much of each kind of capital it u...
+      - [net-present-value.md](applied-sciences/finance-and-investing/corporate-finance/net-present-value.md): Net present value (NPV) - Net present value (NPV) is the difference between the present value of an investment's future cash inflows and the present value of its outflows, discounted at the req...
+      - [internal-rate-of-return.md](applied-sciences/finance-and-investing/corporate-finance/internal-rate-of-return.md): Internal rate of return (IRR) - The internal rate of return (IRR) is the discount rate at which an investment's net present value is zero: the annual return the project effectively pays on the money...
+      - [payback-period.md](applied-sciences/finance-and-investing/corporate-finance/payback-period.md): Payback period - The payback period is the time an investment takes to return its initial cost from the cash it generates.
+      - [capital-budgeting-methods.md](applied-sciences/finance-and-investing/corporate-finance/capital-budgeting-methods.md): Capital budgeting methods - Capital budgeting is the process of deciding which long-term investments a company should make.
 - **arts/** (planned)
   - [README.md](arts/README.md): Arts - Creative practice and the study of aesthetic works.
   - **visual-arts/** (planned)
@@ -270,22 +866,98 @@ Entries without a link are planned topics. They become notes or directories when
     - Emotional intelligence (planned)
     - Mindfulness (planned)
     - Stress management (planned)
-  - **skills/** (planned)
-    - [README.md](personal-development/skills/README.md): Skills - Abilities that can be learned and practiced.
-    - **soft-skills/** (planned)
-      - [README.md](personal-development/skills/soft-skills/README.md): Soft skills - Transferable skills that apply in most roles.
-      - Cognitive: critical thinking, problem solving, learning to learn (planned)
-      - Interpersonal: communication, teamwork, leadership, negotiation (planned)
-      - Intrapersonal: time management, self-regulation, adaptability (planned)
-    - **hard-skills/** (planned)
-      - [README.md](personal-development/skills/hard-skills/README.md): Hard skills - Skills tied to a specific task, tool or profession, and usually testable.
-      - Copywriting (planned)
-      - Social media (planned)
-      - Client acquisition (planned)
-      - Data analysis (planned)
-      - Programming (planned)
-    - Learning a skill (planned)
-    - Deliberate practice (planned)
+  - **skills/**
+    - [README.md](personal-development/skills/README.md): Skills - Abilities that can be learned and practiced, and how to learn them.
+    - [what-is-a-skill.md](personal-development/skills/what-is-a-skill.md): What is a skill - A skill is a learned ability to carry out a task to a standard, reliably and repeatedly.
+    - [skill-acquisition.md](personal-development/skills/skill-acquisition.md): Skill acquisition - Skill acquisition is the process by which slow, effortful, error-prone performance becomes fast, accurate and largely automatic through practice.
+    - [deliberate-practice.md](personal-development/skills/deliberate-practice.md): Deliberate practice - Deliberate practice is practice designed to improve a specific aspect of performance: a well-defined goal just beyond current ability, full concentration, immediate fe...
+    - [learning-techniques.md](personal-development/skills/learning-techniques.md): Learning techniques - Some study and practice methods produce much more durable learning than others, and the ones people use most are often among the weakest.
+    - **soft-skills/**
+      - [README.md](personal-development/skills/soft-skills/README.md): Soft skills - Transferable skills that govern how a person thinks, manages themselves and works with others, and that apply in almost any role.
+      - [soft-skills-fundamentals.md](personal-development/skills/soft-skills/soft-skills-fundamentals.md): Soft skills fundamentals - Soft skills are transferable skills that govern how a person thinks, manages themselves and works with others: communication, collaboration, self-regulation, problem s...
+    - **hard-skills/**
+      - [README.md](personal-development/skills/hard-skills/README.md): Hard skills - Skills tied to a specific task, tool, method or profession, whose results can be checked against a clear standard.
+      - [hard-skills-fundamentals.md](personal-development/skills/hard-skills/hard-skills-fundamentals.md): Hard skills fundamentals - Hard skills are learned abilities tied to a specific task, tool, method or field, whose results can be checked against a clear standard: writing SQL, welding, bookkeep...
+      - **copywriting/**
+        - [README.md](personal-development/skills/hard-skills/copywriting/README.md): Copywriting - Writing that makes a specific reader take a specific action, the research and strategy behind it, the principles of persuasion it relies on, and how to test whether it...
+        - [copywriting-fundamentals.md](personal-development/skills/hard-skills/copywriting/copywriting-fundamentals.md): Copywriting fundamentals - Copywriting is writing whose purpose is to make a specific reader take a specific action: buy, sign up, reply, book a call.
+        - [customer-research.md](personal-development/skills/hard-skills/copywriting/customer-research.md): Customer research for copywriting - Customer research for copywriting is the systematic collection of what buyers want, fear, compare and say, in their own words, before any copy is written.
+        - [value-proposition-and-benefits.md](personal-development/skills/hard-skills/copywriting/value-proposition-and-benefits.md): Value proposition and benefits - A value proposition is the main reason a specific customer should choose your offer over the alternatives, including doing nothing.
+        - [copywriting-frameworks.md](personal-development/skills/hard-skills/copywriting/copywriting-frameworks.md): Copywriting frameworks - Copywriting frameworks are standard orders of argument that move a reader from attention to action: AIDA (attention, interest, desire, action), PAS (problem, agitate,...
+        - [writing-for-the-web.md](personal-development/skills/hard-skills/copywriting/writing-for-the-web.md): Writing for the web - People read on screens by scanning: they look at headings, the start of paragraphs and anything that stands out, and decide quickly whether to read further.
+        - [persuasion-principles.md](personal-development/skills/hard-skills/copywriting/persuasion-principles.md): Persuasion principles - Persuasion principles are regularities in how people respond to requests and offers: they follow what others do (social proof), value what seems scarce, are influenced...
+        - [calls-to-action-and-risk-reversal.md](personal-development/skills/hard-skills/copywriting/calls-to-action-and-risk-reversal.md): Calls to action and risk reversal - A call to action (CTA) is the instruction that tells the reader exactly what to do next, such as "Start your free trial".
+        - [ab-testing.md](personal-development/skills/hard-skills/copywriting/ab-testing.md): A/B testing - An A/B test, or online controlled experiment, randomly splits visitors between two versions of a page, email or ad and compares a chosen metric, such as the share of v...
+      - **content-marketing/**
+        - [README.md](personal-development/skills/hard-skills/content-marketing/README.md): Content marketing - Creating and distributing useful content so that a defined audience pays attention, builds a relationship with a business or person, and takes action.
+        - [content-marketing-fundamentals.md](personal-development/skills/hard-skills/content-marketing/content-marketing-fundamentals.md): Content marketing fundamentals - Content marketing is the practice of creating and distributing useful text, images, audio or video so that a defined audience pays attention to a company and, over tim...
+        - [seven-a-framework.md](personal-development/skills/hard-skills/content-marketing/seven-a-framework.md): 7A framework - The 7A framework is a checklist of seven qualities for content marketing, attributed to Brian Clark, the founder of Copyblogger: agile, authentic, attention, audience,...
+        - [headlines.md](personal-development/skills/hard-skills/content-marketing/headlines.md): Headlines - A headline has one job: to make the right reader stop and start reading.
+        - [capturing-attention.md](personal-development/skills/hard-skills/content-marketing/capturing-attention.md): Capturing attention - Beyond the headline, attention depends on what the reader sees and feels in the first seconds: images, page design, speed and signs that other people trust the content.
+        - [storytelling.md](personal-development/skills/hard-skills/content-marketing/storytelling.md): Storytelling - Storytelling in marketing is the use of narrative, a character who wants something, meets an obstacle and changes, to make a message memorable and persuasive.
+        - [content-formats-and-distribution.md](personal-development/skills/hard-skills/content-marketing/content-formats-and-distribution.md): Content formats and distribution - A content format is the form a piece takes (article, video, podcast, newsletter, tool, template, case study), and distribution is how it reaches its audience: through...
+        - [email-marketing.md](personal-development/skills/hard-skills/content-marketing/email-marketing.md): Email marketing - Email marketing is the use of email to build a relationship with people who have given you permission to contact them, and to lead them to actions such as reading, buy...
+        - [content-marketing-strategy.md](personal-development/skills/hard-skills/content-marketing/content-marketing-strategy.md): Content marketing strategy - A content marketing strategy is a short written plan that answers five questions: what business goal the content serves, for which audience, with which kind of content...
+        - [measuring-content-performance.md](personal-development/skills/hard-skills/content-marketing/measuring-content-performance.md): Measuring content performance - Measuring content performance means connecting what people do with content (find it, read it, share it, sign up, buy) to the goal the content was made for.
+      - **search-engine-optimization/**
+        - [README.md](personal-development/skills/hard-skills/search-engine-optimization/README.md): Search engine optimization - Making pages easy for search engines to find, understand and rank, so that people reach them without paid ads.
+        - [how-search-engines-work.md](personal-development/skills/hard-skills/search-engine-optimization/how-search-engines-work.md): How search engines work - Search engine optimization (SEO) is the work of making pages easy for a search engine to find, understand and rank for the queries that matter to you, so that people r...
+        - [keyword-research.md](personal-development/skills/hard-skills/search-engine-optimization/keyword-research.md): Keyword research - Keyword research is finding the words people type into search engines when they look for what you offer, and deciding which of those queries a site should target with...
+        - [on-page-seo.md](personal-development/skills/hard-skills/search-engine-optimization/on-page-seo.md): On-page SEO - On-page SEO is the optimization of what a single page contains and how it is marked up, so that search engines understand what the page is about and searchers choose i...
+        - [technical-seo.md](personal-development/skills/hard-skills/search-engine-optimization/technical-seo.md): Technical SEO - Technical SEO is the work that lets search engines crawl, render and index a site, and that makes pages fast, stable and usable on every device.
+        - [link-building.md](personal-development/skills/hard-skills/search-engine-optimization/link-building.md): Link building - Links from other websites are one of the oldest signals search engines use to judge which pages are trustworthy and important, going back to Google's PageRank in 1998.
+        - [seo-content-and-blogging.md](personal-development/skills/hard-skills/search-engine-optimization/seo-content-and-blogging.md): SEO content and blogging - SEO content is content created to meet the needs behind specific search queries, so that it ranks and brings the right visitors over a long time.
+        - [e-commerce-seo.md](personal-development/skills/hard-skills/search-engine-optimization/e-commerce-seo.md): E-commerce SEO - E-commerce SEO applies search engine optimization to online shops, whose most valuable pages are category pages and product pages.
+        - [measuring-seo.md](personal-development/skills/hard-skills/search-engine-optimization/measuring-seo.md): Measuring SEO - Measuring SEO means tracking whether a site is crawled and indexed correctly, how often it appears for target queries, how many searchers click, and what those visitor...
+      - **e-commerce/**
+        - [README.md](personal-development/skills/hard-skills/e-commerce/README.md): E-commerce - Selling goods and services online: business and transaction models, platforms, choosing and validating products, sourcing them, payments, fulfillment, customer service...
+        - [e-commerce-models.md](personal-development/skills/hard-skills/e-commerce/e-commerce-models.md): E-commerce models - E-commerce (electronic commerce) is buying and selling goods or services over the internet, including the transfer of money and data that completes the transaction.
+        - [e-commerce-platforms.md](personal-development/skills/hard-skills/e-commerce/e-commerce-platforms.md): E-commerce platforms - An e-commerce platform is the software that runs an online store: product catalog, cart, checkout, payments, orders and customer accounts.
+        - [product-selection.md](personal-development/skills/hard-skills/e-commerce/product-selection.md): Product selection - Product selection is the decision of what to sell.
+        - [product-validation.md](personal-development/skills/hard-skills/e-commerce/product-validation.md): Product validation - Product validation is collecting evidence that people will actually pay for a product before investing heavily in making or stocking it.
+        - [supplier-sourcing.md](personal-development/skills/hard-skills/e-commerce/supplier-sourcing.md): Supplier sourcing - Supplier sourcing is finding, evaluating and contracting the businesses that make or supply your products.
+        - [dropshipping.md](personal-development/skills/hard-skills/e-commerce/dropshipping.md): Dropshipping - Dropshipping is a retail model in which the seller advertises and sells products without holding stock: when a customer orders, the seller passes the order to a suppli...
+        - [private-label.md](personal-development/skills/hard-skills/e-commerce/private-label.md): Private label - A private label product is made by a manufacturer but sold under your own brand, with your own design, logo and packaging.
+        - [payments-and-checkout.md](personal-development/skills/hard-skills/e-commerce/payments-and-checkout.md): Payments and checkout - The checkout is where interest becomes revenue, and where most online shoppers give up: research collected by the Baymard Institute puts the average documented cart ab...
+        - [fulfillment-and-shipping.md](personal-development/skills/hard-skills/e-commerce/fulfillment-and-shipping.md): Fulfillment and shipping - Fulfillment is everything between a paid order and a delivered parcel: receiving and storing stock, picking and packing orders, shipping them and handling what comes b...
+        - [customer-service-and-returns.md](personal-development/skills/hard-skills/e-commerce/customer-service-and-returns.md): Customer service and returns - Customer service in e-commerce is all contact with buyers before and after purchase: answering questions, solving delivery problems, handling complaints, returns and r...
+        - [e-commerce-metrics.md](personal-development/skills/hard-skills/e-commerce/e-commerce-metrics.md): E-commerce metrics - E-commerce metrics turn a shop's activity into numbers that show whether it is healthy and where to act.
+        - [e-commerce-law-and-cross-border.md](personal-development/skills/hard-skills/e-commerce/e-commerce-law-and-cross-border.md): E-commerce law and cross-border selling - An online shop is a business under consumer protection, data protection, tax, product safety and accessibility law, and selling to other countries adds their rules, pl...
+      - **social-media/**
+        - [README.md](personal-development/skills/hard-skills/social-media/README.md): Social media - Using social platforms to reach an audience, build relationships and lead people to action, through organic content, community work and paid advertising.
+        - [social-media-marketing-fundamentals.md](personal-development/skills/hard-skills/social-media/social-media-marketing-fundamentals.md): Social media marketing fundamentals - Social media marketing is the use of platforms such as Facebook, Instagram, TikTok, YouTube, LinkedIn and X to reach an audience, build relationships and lead people t...
+        - [platforms-and-algorithms.md](personal-development/skills/hard-skills/social-media/platforms-and-algorithms.md): Platforms and algorithms - Every social platform decides what each user sees with a recommendation system: software that predicts, from past behavior and the content itself, which posts a person...
+        - [social-content-creation.md](personal-development/skills/hard-skills/social-media/social-content-creation.md): Social content creation - Social content creation is planning and producing posts, videos and other formats that work in a feed: they stop the scroll in the first seconds, deliver something wor...
+        - [community-management.md](personal-development/skills/hard-skills/social-media/community-management.md): Community management - Community management is the work of building and looking after the relationships around a brand, product or person: replying to comments and messages, starting convers...
+        - [paid-social-advertising.md](personal-development/skills/hard-skills/social-media/paid-social-advertising.md): Paid social advertising - Paid social advertising means buying placements on social platforms, such as Meta (Facebook and Instagram), TikTok, LinkedIn and Pinterest, to show ads to chosen audie...
+        - [influencer-marketing.md](personal-development/skills/hard-skills/social-media/influencer-marketing.md): Influencer marketing - Influencer marketing is working with people who have the attention and trust of an audience, called creators or influencers, to reach that audience with a message abou...
+        - [linkedin-for-professionals.md](personal-development/skills/hard-skills/social-media/linkedin-for-professionals.md): LinkedIn for professionals - LinkedIn is the largest professional social network and works as a public resume, a professional network and a publishing platform at the same time.
+        - [social-media-analytics.md](personal-development/skills/hard-skills/social-media/social-media-analytics.md): Social media analytics - Social media analytics is measuring what happens with your social content and accounts, and connecting it to goals: how many people saw a post, how they reacted, wheth...
+      - **client-acquisition/**
+        - [README.md](personal-development/skills/hard-skills/client-acquisition/README.md): Client acquisition - Finding people and organizations who need what you offer and turning them into paying, returning clients: targeting, lead generation, outreach, sales conversations, pr...
+        - [client-acquisition-fundamentals.md](personal-development/skills/hard-skills/client-acquisition/client-acquisition-fundamentals.md): Client acquisition fundamentals - Client acquisition is the process of finding people or organizations who need what you offer, starting a relationship with them and turning them into paying clients.
+        - [ideal-customer-profile.md](personal-development/skills/hard-skills/client-acquisition/ideal-customer-profile.md): Ideal customer profile - An ideal customer profile (ICP) describes the kind of organization or person that gets the most value from what you sell and brings you the most value in return: they...
+        - [lead-generation.md](personal-development/skills/hard-skills/client-acquisition/lead-generation.md): Lead generation - Lead generation is creating a steady flow of potential clients who have shown interest or fit your target and can be contacted.
+        - [outreach-and-prospecting.md](personal-development/skills/hard-skills/client-acquisition/outreach-and-prospecting.md): Outreach and prospecting - Prospecting is finding and researching potential clients who match your ideal customer profile, and outreach is contacting them first, by email, phone, social messages...
+        - [sales-conversations.md](personal-development/skills/hard-skills/client-acquisition/sales-conversations.md): Sales conversations - A sales conversation, often called a discovery call, is a structured conversation in which the seller learns the buyer's situation, problems, goals and decision proces...
+        - [proposals-and-pricing.md](personal-development/skills/hard-skills/client-acquisition/proposals-and-pricing.md): Proposals and pricing - A proposal turns what you learned in discovery into a written offer: the client's situation and goals in their words, the approach, the deliverables, the timeline, the...
+        - [objections-and-closing.md](personal-development/skills/hard-skills/client-acquisition/objections-and-closing.md): Objections and closing - An objection is a reason a prospect gives for not buying, or not yet: price, timing, trust, priority, fit or the need to consult someone.
+        - [referrals-and-retention.md](personal-development/skills/hard-skills/client-acquisition/referrals-and-retention.md): Referrals and retention - Keeping clients and getting recommendations from them are usually the cheapest and most reliable ways to grow a service business.
+      - **personal-branding/**
+        - [README.md](personal-development/skills/hard-skills/personal-branding/README.md): Personal branding - Deliberately shaping what a professional is known for, by whom, and why they can be trusted: positioning, online presence, thought leadership and reputation.
+        - [personal-branding-fundamentals.md](personal-development/skills/hard-skills/personal-branding/personal-branding-fundamentals.md): Personal branding fundamentals - Personal branding is the deliberate process of shaping how a specific audience perceives you professionally: what you are known for, for whom, and why you can be trusted.
+        - [positioning.md](personal-development/skills/hard-skills/personal-branding/positioning.md): Positioning - Positioning is deciding what you want to be known for, by whom, and how you differ from others who offer something similar.
+        - [online-presence.md](personal-development/skills/hard-skills/personal-branding/online-presence.md): Online presence - Your online presence is everything people find when they look you up: search results for your name, profiles on professional and social platforms, a personal website,...
+        - [thought-leadership.md](personal-development/skills/hard-skills/personal-branding/thought-leadership.md): Thought leadership - Thought leadership means becoming a recognized source of useful ideas in a field by publishing original insight: analysis, data, frameworks, lessons from practice and...
+        - [reputation-management.md](personal-development/skills/hard-skills/personal-branding/reputation-management.md): Reputation management - Reputation management is monitoring what is said and shown about you or your business online and offline, strengthening accurate positive information, and responding t...
+      - **online-research/**
+        - [README.md](personal-development/skills/hard-skills/online-research/README.md): Online research - Finding information online efficiently and judging whether it can be trusted: search strategy, search operators, source evaluation, specialized databases, verifying im...
+        - [search-strategy.md](personal-development/skills/hard-skills/online-research/search-strategy.md): Search strategy - A search strategy is a deliberate plan for finding information: clarify the question, choose where to look, translate the question into search terms, search, assess wh...
+        - [search-operators.md](personal-development/skills/hard-skills/online-research/search-operators.md): Search operators - Search operators are special characters and words that change how a search engine interprets a query: quotation marks for an exact phrase, a minus sign to exclude a wo...
+        - [source-evaluation.md](personal-development/skills/hard-skills/online-research/source-evaluation.md): Source evaluation - Source evaluation is judging whether a piece of information can be trusted and how much weight it deserves.
+        - [specialized-sources.md](personal-development/skills/hard-skills/online-research/specialized-sources.md): Specialized sources - General search engines are the right start for many questions and the wrong place for others.
+        - [image-and-media-verification.md](personal-development/skills/hard-skills/online-research/image-and-media-verification.md): Image and media verification - Images and videos are among the most misleading content online, not usually because they are faked from scratch but because real material is shown out of context: an o...
+        - [research-with-ai-tools.md](personal-development/skills/hard-skills/online-research/research-with-ai-tools.md): Research with AI tools - AI assistants based on large language models can speed up research: they explain unfamiliar topics, suggest search terms and sources, summarize documents and draft str...
   - **career/**
     - [README.md](personal-development/career/README.md): Career - This field covers how people choose, find, build and change their work.
     - **foundations/**
@@ -319,6 +991,12 @@ Entries without a link are planned topics. They become notes or directories when
       - [coaching-techniques-for-career.md](personal-development/career/methods/coaching-techniques-for-career.md): Coaching techniques for career - Coaching is a set of conversation techniques that help a person clarify goals and find their own next steps.
       - [mentoring-process-and-relationships.md](personal-development/career/methods/mentoring-process-and-relationships.md): Mentoring process and relationships - A mentoring relationship is a developmental relationship in which a more experienced person supports a less experienced one.
 - **_assets/**
+  - **applied-sciences/**
+    - [anatomy-body-planes.svg](_assets/applied-sciences/anatomy-body-planes.svg): File.
+    - [anatomy-spinal-curves.svg](_assets/applied-sciences/anatomy-spinal-curves.svg): File.
+    - [anatomy-synovial-joint.svg](_assets/applied-sciences/anatomy-synovial-joint.svg): File.
+    - [anatomy-vertebra-superior-view.svg](_assets/applied-sciences/anatomy-vertebra-superior-view.svg): File.
+    - [physiology-sarcomere.svg](_assets/applied-sciences/physiology-sarcomere.svg): File.
   - **personal-development/**
     - [career-riasec-hexagon.svg](_assets/personal-development/career-riasec-hexagon.svg): File.
 - **_sources/**

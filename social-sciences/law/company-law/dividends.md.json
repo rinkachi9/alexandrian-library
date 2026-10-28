@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "law.company-law.dividends",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "company-law",
+      "poland",
+      "tax"
+    ],
+    "aliases": [
+      "dywidenda",
+      "zaliczka na poczet dywidendy",
+      "interim dividend"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.shareholder-rights",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.accounting-and-taxation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "pit-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1991,
+      "title": "Ustawa z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych (PIT act), art. 30a",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19910800350",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dividend",
+      "anchor": "#definition",
+      "definition": "The part of a company's net profit distributed to shareholders."
+    },
+    {
+      "term": "Interim dividend",
+      "anchor": "#mechanism",
+      "definition": "An advance on the expected dividend paid during the year under conditions set by art. 195 KSH."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

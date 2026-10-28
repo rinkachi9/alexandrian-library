@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "lipids.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "lipids",
+      "biochemistry"
+    ],
+    "aliases": [
+      "fats",
+      "lipid classes"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lipid",
+      "anchor": "#definition",
+      "definition": "A biological molecule that dissolves poorly in water and well in nonpolar solvents."
+    },
+    {
+      "term": "Amphipathic",
+      "anchor": "#definition",
+      "definition": "Having a water-loving end and a water-avoiding end."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "How many kilocalories does a gram of fat provide?",
+      "a": "About 9 kcal.",
+      "anchor": "#energy-density",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

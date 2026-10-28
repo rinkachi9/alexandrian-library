@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "nutrition.supplements.msm",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "supplements"
+    ],
+    "aliases": [
+      "MSM",
+      "methylsulfonylmethane",
+      "organic sulfur"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.supplements.glucosamine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "butawan-2017",
+      "type": "paper",
+      "authors": [
+        "Butawan, M.",
+        "Benjamin, R. L.",
+        "Bloomer, R. J."
+      ],
+      "year": 2017,
+      "title": "Methylsulfonylmethane: applications and safety of a novel dietary supplement",
+      "url": "https://doi.org/10.3390/nu9030290",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Methylsulfonylmethane",
+      "anchor": "#definition",
+      "definition": "An organic sulfur compound sold as a joint supplement."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "supplements"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "lipids.phospholipids-and-lecithin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 17,
+    "tags": [
+      "lipids",
+      "phospholipids",
+      "membranes",
+      "supplements"
+    ],
+    "aliases": [
+      "lecithin",
+      "phosphatidylcholine",
+      "E322"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.supplements.choline",
+      "rel": "related"
+    },
+    {
+      "to": "cell-biology.cell-membrane",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.lipoproteins",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-choline",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Choline: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "alberts-2002",
+      "type": "book",
+      "authors": [
+        "Alberts, B.",
+        "Johnson, A.",
+        "Lewis, J.",
+        "Raff, M.",
+        "Roberts, K.",
+        "Walter, P."
+      ],
+      "year": 2002,
+      "title": "Molecular Biology of the Cell (4th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lipid bilayer",
+      "anchor": "#analogy",
+      "definition": "The double layer of phospholipids that forms cell membranes."
+    },
+    {
+      "term": "Phosphatidylcholine",
+      "anchor": "#definition",
+      "definition": "The most common membrane phospholipid, with a choline head group."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How much choline is in 1,200 mg of commercial soy lecithin?",
+      "a": "Roughly 35 to 40 mg, because only about a fifth is phosphatidylcholine.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

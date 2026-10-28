@@ -14,7 +14,7 @@
     { "path": "arts" },
     { "path": "personal-development" }
   ],
-  "ignore": ["_sources", "_assets"],
+  "ignore": ["_assets"],
   "toc": {
     "file": "ToC.md",
     "check": true,

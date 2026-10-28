@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "exercise.programming.full-body-training",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "exercise",
+      "programming",
+      "splits"
+    ],
+    "aliases": [
+      "FBW",
+      "full body workout",
+      "whole body training"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.training-programming",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.split-training",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2019-freq",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Krieger, J."
+      ],
+      "year": 2019,
+      "title": "Resistance training frequency and skeletal muscle hypertrophy: a review of available evidence",
+      "url": "https://doi.org/10.1016/j.jsams.2018.09.223",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Full body training",
+      "anchor": "#definition",
+      "definition": "A split in which each session trains all major muscle groups."
+    },
+    {
+      "term": "Bilateral and unilateral exercises",
+      "anchor": "#definition",
+      "definition": "Exercises using both limbs or one limb at a time."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Design the order of a full body session.",
+      "a": "Squat or hinge first, then upper body press and pull, then accessories.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

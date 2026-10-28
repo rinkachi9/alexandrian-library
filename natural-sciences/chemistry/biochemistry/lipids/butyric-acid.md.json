@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "lipids.butyric-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 16,
+    "tags": [
+      "lipids",
+      "short-chain",
+      "gut",
+      "supplements"
+    ],
+    "aliases": [
+      "butyrate",
+      "sodium butyrate",
+      "SCFA"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.dietary-fiber",
+      "rel": "related",
+      "note": "Fiber is the substrate for butyrate"
+    },
+    {
+      "to": "nutrition.prebiotics.inulin",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "koh-2016",
+      "type": "paper",
+      "authors": [
+        "Koh, A.",
+        "De Vadder, F.",
+        "Kovatcheva-Datchary, P.",
+        "Bäckhed, F."
+      ],
+      "year": 2016,
+      "title": "From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites",
+      "url": "https://doi.org/10.1016/j.cell.2016.05.041",
+      "verified": false
+    },
+    {
+      "key": "reynolds-2019",
+      "type": "paper",
+      "authors": [
+        "Reynolds, A.",
+        "Mann, J.",
+        "Cummings, J."
+      ],
+      "year": 2019,
+      "title": "Carbohydrate quality and human health: a series of systematic reviews and meta-analyses",
+      "url": "https://doi.org/10.1016/S0140-6736(18)31809-9",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Short-chain fatty acid",
+      "anchor": "#definition",
+      "definition": "A fatty acid with fewer than six carbons, mainly produced by gut bacteria from fiber."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might coated butyrate capsules be preferred?",
+      "a": "Uncoated butyrate is absorbed in the upper gut and may not reach the colon.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

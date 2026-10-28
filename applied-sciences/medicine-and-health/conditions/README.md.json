@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.conditions",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "conditions"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "conditions"
+  }
+}

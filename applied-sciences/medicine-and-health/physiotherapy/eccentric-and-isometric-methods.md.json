@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "physiotherapy.eccentric-and-isometric-methods",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "physiotherapy"
+    ],
+    "aliases": [
+      "eccentric training",
+      "isometric training",
+      "negatives"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.negative-reps",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "roig-2009",
+      "type": "paper",
+      "authors": [
+        "Roig, M.",
+        "O'Brien, K.",
+        "Kirk, G."
+      ],
+      "year": 2009,
+      "title": "The effects of eccentric versus concentric resistance training on muscle strength and mass in healthy adults: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.1136/bjsm.2008.051417",
+      "verified": false
+    },
+    {
+      "key": "hortobagyi-1996",
+      "type": "paper",
+      "authors": [
+        "Hortobágyi, T.",
+        "Hill, J. P.",
+        "Houmard, J. A."
+      ],
+      "year": 1996,
+      "title": "Adaptive responses to muscle lengthening and shortening in humans",
+      "url": "https://doi.org/10.1152/jappl.1996.80.3.765",
+      "verified": false
+    },
+    {
+      "key": "alfredson-1998",
+      "type": "paper",
+      "authors": [
+        "Alfredson, H.",
+        "Pietilä, T.",
+        "Jonsson, P.",
+        "Lorentzon, R."
+      ],
+      "year": 1998,
+      "title": "Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis",
+      "url": "https://doi.org/10.1177/03635465980260030301",
+      "verified": false
+    },
+    {
+      "key": "oranchuk-2019",
+      "type": "paper",
+      "authors": [
+        "Oranchuk, D. J.",
+        "Storey, A. G.",
+        "Nelson, A. R.",
+        "Cronin, J. B."
+      ],
+      "year": 2019,
+      "title": "Isometric training and long-term adaptations: effects of muscle length, intensity, and intent: a systematic review",
+      "url": "https://doi.org/10.1111/sms.13375",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Forced eccentric repetitions",
+      "anchor": "#mechanism",
+      "definition": "Extra lowering-only repetitions after a set, with a partner lifting the load."
+    },
+    {
+      "term": "Isometric method",
+      "anchor": "#mechanism",
+      "definition": "A pause at maximal stretch to build strength in that position."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare slowed and accelerated eccentric methods.",
+      "a": "Slowed eccentrics extend time under tension; accelerated eccentrics move quickly but controlled; both can promote hypertrophy.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

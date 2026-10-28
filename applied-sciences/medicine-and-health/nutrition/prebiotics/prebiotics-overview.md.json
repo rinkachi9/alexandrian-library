@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "prebiotics.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "prebiotics",
+      "gut"
+    ],
+    "aliases": [
+      "prebiotic",
+      "synbiotic"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.foundations.dietary-fiber",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gibson-2017",
+      "type": "paper",
+      "authors": [
+        "Gibson, G. R.",
+        "Hutkins, R.",
+        "Sanders, M. E."
+      ],
+      "year": 2017,
+      "title": "Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics",
+      "url": "https://doi.org/10.1038/nrgastro.2017.75",
+      "verified": false
+    },
+    {
+      "key": "koh-2016",
+      "type": "paper",
+      "authors": [
+        "Koh, A.",
+        "De Vadder, F.",
+        "Kovatcheva-Datchary, P.",
+        "Bäckhed, F."
+      ],
+      "year": 2016,
+      "title": "From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites",
+      "url": "https://doi.org/10.1016/j.cell.2016.05.041",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Prebiotic",
+      "anchor": "#definition",
+      "definition": "A substrate selectively used by gut microorganisms that gives a health benefit."
+    },
+    {
+      "term": "Short-chain fatty acid",
+      "anchor": "#mechanism",
+      "definition": "A product of bacterial fermentation, such as butyrate."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "prebiotics"
+  }
+}

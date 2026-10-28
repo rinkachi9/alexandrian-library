@@ -1,0 +1,91 @@
+{
+  "node": {
+    "id": "lipids.cholesterol",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 18,
+    "tags": [
+      "lipids",
+      "cholesterol",
+      "cardiovascular"
+    ],
+    "aliases": [
+      "sterols",
+      "LDL cholesterol"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.lipoproteins",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-d",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mach-2020",
+      "type": "paper",
+      "authors": [
+        "Mach, F.",
+        "Baigent, C.",
+        "Catapano, A. L."
+      ],
+      "year": 2020,
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk",
+      "url": "https://doi.org/10.1093/eurheartj/ehz455",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sterol",
+      "anchor": "#definition",
+      "definition": "A lipid with four fused rings and a hydroxyl group, such as cholesterol."
+    },
+    {
+      "term": "HMG-CoA reductase",
+      "anchor": "#mechanism",
+      "definition": "The rate-limiting enzyme of cholesterol synthesis, blocked by statins."
+    },
+    {
+      "term": "Friedewald formula",
+      "anchor": "#worked-example",
+      "definition": "An estimate of LDL cholesterol from total cholesterol, HDL and triglycerides."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does dietary cholesterol affect blood cholesterol less than expected?",
+      "a": "The liver reduces its own synthesis when intake is high.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

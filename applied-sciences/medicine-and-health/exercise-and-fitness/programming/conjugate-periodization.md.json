@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "exercise.programming.conjugate-periodization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 13,
+    "tags": [
+      "exercise",
+      "programming",
+      "periodization"
+    ],
+    "aliases": [
+      "concurrent periodization",
+      "conjugate method",
+      "Westside"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.periodization",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.block-periodization",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "simmons-2007",
+      "type": "book",
+      "authors": [
+        "Simmons, L."
+      ],
+      "year": 2007,
+      "title": "Westside Barbell Book of Methods"
+    },
+    {
+      "key": "issurin-2010",
+      "type": "paper",
+      "authors": [
+        "Issurin, V. B."
+      ],
+      "year": 2010,
+      "title": "New horizons for the methodology and physiology of training periodization",
+      "url": "https://doi.org/10.2165/11319770-000000000-00000",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Conjugate periodization",
+      "anchor": "#definition",
+      "definition": "Training several abilities in parallel within each microcycle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does conjugate differ from block periodization?",
+      "a": "Conjugate trains several qualities each week; block concentrates on one quality per block.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

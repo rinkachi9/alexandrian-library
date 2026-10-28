@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "complementary-medicine.dandelion",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "Taraxacum officinale",
+      "taraxasterol"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "herbal-extracts.artichoke",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ema-taraxacum",
+      "type": "documentation",
+      "authors": [
+        "European Medicines Agency, Committee on Herbal Medicinal Products"
+      ],
+      "year": 2009,
+      "title": "Community herbal monograph on Taraxacum officinale Weber ex Wigg., radix cum herba",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-radix-cum-herba",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cholagogue",
+      "anchor": "#definition",
+      "definition": "A substance that promotes the flow of bile."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

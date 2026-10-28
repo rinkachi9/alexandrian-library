@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "exercise.intensification.triset",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "tri-set"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.giant-set",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "weakley-2017",
+      "type": "paper",
+      "authors": [
+        "Weakley, J. J. S.",
+        "Till, K.",
+        "Read, D. B."
+      ],
+      "year": 2017,
+      "title": "The effects of traditional, superset, and tri-set resistance training structures on perceived intensity and physiological responses",
+      "url": "https://doi.org/10.1007/s00421-017-3680-3",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Triset",
+      "anchor": "#definition",
+      "definition": "Three consecutive exercises without rest, usually for one muscle group."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Design a triset for the shoulders.",
+      "a": "For example overhead press, lateral raise, rear delt fly.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

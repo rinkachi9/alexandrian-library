@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "environmental-health.ammonia",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "ammonium hydroxide",
+      "chloramine"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "atsdr-ammonia",
+      "type": "documentation",
+      "authors": [
+        "Agency for Toxic Substances and Disease Registry"
+      ],
+      "year": 2004,
+      "title": "Toxicological profile for ammonia",
+      "url": "https://www.atsdr.cdc.gov/toxprofiles/tp126.pdf",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Chloramine",
+      "anchor": "#definition",
+      "definition": "A toxic gas formed when ammonia and bleach are mixed."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

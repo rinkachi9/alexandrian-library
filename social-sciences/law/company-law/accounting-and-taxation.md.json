@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "law.company-law.accounting-and-taxation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 15,
+    "tags": [
+      "company-law",
+      "poland",
+      "tax",
+      "accounting"
+    ],
+    "aliases": [
+      "rachunkowość i podatki",
+      "CIT",
+      "estoński CIT",
+      "double taxation"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.dividends",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.dividends",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "accounting-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1994,
+      "title": "Ustawa z dnia 29 września 1994 r. o rachunkowości (Accounting Act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19941210591",
+      "verified": false
+    },
+    {
+      "key": "cit-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1992,
+      "title": "Ustawa z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych (CIT act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19920210086",
+      "verified": false
+    },
+    {
+      "key": "pit-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1991,
+      "title": "Ustawa z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych (PIT act), art. 30a",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19910800350",
+      "verified": false
+    },
+    {
+      "key": "cit-limits-2026",
+      "type": "website",
+      "authors": [
+        "Akademia LTCA"
+      ],
+      "year": 2026,
+      "title": "Preferencyjna stawka CIT w 2026 r.: jakie są limity?",
+      "url": "https://akademialtca.pl/blog/preferencyjna-stawka-cit-w-2026-r-jakie-sa-limity-1",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ksef-info",
+      "type": "documentation",
+      "authors": [
+        "Ministerstwo Finansów"
+      ],
+      "title": "Krajowy System e-Faktur (KSeF)",
+      "url": "https://ksef.podatki.gov.pl/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Double taxation",
+      "anchor": "#definition",
+      "definition": "Taxing the same profit as company income and again as a shareholder's dividend."
+    },
+    {
+      "term": "Estonian CIT",
+      "anchor": "#mechanism",
+      "definition": "An optional Polish CIT regime in which tax is due mainly when profit is distributed."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

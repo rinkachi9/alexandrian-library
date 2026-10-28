@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "law.company-law.dissolution-and-liquidation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 14,
+    "tags": [
+      "company-law",
+      "poland",
+      "liquidation"
+    ],
+    "aliases": [
+      "rozwiązanie spółki",
+      "likwidacja spółki"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.shareholders-meeting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.shareholders-meeting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "ekrs",
+      "type": "documentation",
+      "authors": [
+        "Ministerstwo Sprawiedliwości"
+      ],
+      "title": "eKRS: Portal Rejestrów Sądowych, S24 and KRS search",
+      "url": "https://ekrs.ms.gov.pl/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Liquidation",
+      "anchor": "#definition",
+      "definition": "The procedure of winding up a company's business, paying creditors and distributing the rest before dissolution."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

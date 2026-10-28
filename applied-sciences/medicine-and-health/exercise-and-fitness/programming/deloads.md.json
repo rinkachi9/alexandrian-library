@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "exercise.programming.deloads",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "exercise",
+      "programming",
+      "recovery"
+    ],
+    "aliases": [
+      "deload week",
+      "recovery week"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.general-adaptation-syndrome",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.recovery.recovery",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bell-2023",
+      "type": "paper",
+      "authors": [
+        "Bell, L.",
+        "Nolan, D.",
+        "Immonen, V."
+      ],
+      "year": 2023,
+      "title": "Integrating deloading into strength and physique sports training programmes: an international Delphi consensus approach",
+      "url": "https://doi.org/10.1186/s40798-023-00633-0",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Deload",
+      "anchor": "#definition",
+      "definition": "A planned short reduction in training stress to dissipate fatigue."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Design an active deload from a week of 16 sets per muscle at RIR 1.",
+      "a": "For example 8 sets per muscle at RIR 3 to 4 with similar loads.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

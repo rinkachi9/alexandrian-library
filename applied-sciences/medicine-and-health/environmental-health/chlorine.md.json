@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "environmental-health.chlorine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "bleach",
+      "sodium hypochlorite",
+      "chlorine gas"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "cdc-chlorine",
+      "type": "documentation",
+      "authors": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "title": "Facts about chlorine",
+      "url": "https://emergency.cdc.gov/agent/chlorine/basics/facts.asp",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sodium hypochlorite",
+      "anchor": "#definition",
+      "definition": "The active disinfectant in household bleach."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

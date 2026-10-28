@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "physiology.muscle.hyperplasia",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "physiology",
+      "muscle",
+      "hyperplasia"
+    ],
+    "aliases": [
+      "fiber splitting",
+      "new muscle fibers"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.hypertrophy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.hypertrophy",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2010",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J."
+      ],
+      "year": 2010,
+      "title": "The mechanisms of muscle hypertrophy and their application to resistance training",
+      "url": "https://doi.org/10.1519/JSC.0b013e3181e840f3",
+      "verified": false
+    },
+    {
+      "key": "kreider-2017",
+      "type": "paper",
+      "authors": [
+        "Kreider, R. B.",
+        "Kalman, D. S.",
+        "Antonio, J."
+      ],
+      "year": 2017,
+      "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "url": "https://doi.org/10.1186/s12970-017-0173-z",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Muscle hyperplasia",
+      "anchor": "#definition",
+      "definition": "An increase in the number of muscle fibers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How strong is the evidence for hyperplasia in animals versus humans?",
+      "a": "Clear in some animal models with extreme loading; weak and indirect in humans.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "node": {
+    "id": "biochemistry.beta-oxidation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "biochemistry",
+      "energy",
+      "lipids",
+      "fat-metabolism"
+    ],
+    "aliases": [
+      "fatty acid oxidation",
+      "fat burning"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.krebs-cycle",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.oxidative-phosphorylation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Beta-oxidation",
+      "anchor": "#definition",
+      "definition": "Repeated removal of two-carbon units from a fatty acid in the mitochondria."
+    },
+    {
+      "term": "Carnitine shuttle",
+      "anchor": "#mechanism",
+      "definition": "The transport system that carries long fatty acids into the mitochondria."
+    },
+    {
+      "term": "Ketone bodies",
+      "anchor": "#ketone-bodies",
+      "definition": "Acetoacetate and beta-hydroxybutyrate, made in the liver from acetyl-CoA when carbohydrate is low."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Why does fat yield more energy per gram than glucose?",
+      "a": "Fat carbons are more reduced, so their oxidation releases more electrons per carbon; palmitate yields about 2.3 times more ATP per gram.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Why do sprinters rely little on fat?",
+      "a": "Beta-oxidation and fatty acid delivery are too slow to supply ATP at maximal rates.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

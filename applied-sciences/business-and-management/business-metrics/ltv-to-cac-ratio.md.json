@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "business.metrics.ltv-to-cac-ratio",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "metrics",
+      "unit-economics"
+    ],
+    "aliases": [
+      "LTV:CAC",
+      "golden ratio"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.customer-lifetime-value",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.customer-acquisition-cost",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.growth.performance-marketing-engine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "LTV to CAC ratio",
+      "anchor": "#definition",
+      "definition": "Margin lifetime value divided by customer acquisition cost."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

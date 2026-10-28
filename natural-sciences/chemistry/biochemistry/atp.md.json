@@ -1,0 +1,119 @@
+{
+  "node": {
+    "id": "biochemistry.atp",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "biochemistry",
+      "energy",
+      "atp"
+    ],
+    "aliases": [
+      "adenosine triphosphate",
+      "energy currency"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.catabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related",
+      "note": "ATP regeneration during exercise"
+    },
+    {
+      "to": "nutrition.supplements.creatine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "kreider-2017",
+      "type": "paper",
+      "authors": [
+        "Kreider, R. B.",
+        "Kalman, D. S.",
+        "Antonio, J."
+      ],
+      "year": 2017,
+      "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "url": "https://doi.org/10.1186/s12970-017-0173-z",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "ATP",
+      "anchor": "#definition",
+      "definition": "Adenosine triphosphate, the nucleotide whose hydrolysis to ADP pays for most cellular work."
+    },
+    {
+      "term": "Phosphocreatine",
+      "anchor": "#systems-that-regenerate-atp",
+      "definition": "A store of phosphate groups in muscle that regenerates ATP within seconds through creatine kinase."
+    },
+    {
+      "term": "AMPK",
+      "anchor": "#systems-that-regenerate-atp",
+      "definition": "An enzyme that senses a rise in AMP and switches the cell towards catabolism."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Compare the three ATP-regenerating systems by speed and capacity.",
+      "a": "Phosphocreatine is fastest with the smallest capacity, glycolysis is fast and limited, oxidative phosphorylation is slowest with practically unlimited capacity.",
+      "anchor": "#systems-that-regenerate-atp",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is ATP hydrolysis so favorable inside cells?",
+      "a": "The cell keeps ATP far above its equilibrium ratio with ADP, about 10 to 1, which makes the actual free energy change about -50 kJ/mol.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

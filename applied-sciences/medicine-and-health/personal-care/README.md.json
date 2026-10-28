@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.personal-care",
+    "kind": "index",
+    "status": "draft",
+    "order": 11,
+    "tags": [
+      "personal-care"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "personal-care"
+  }
+}

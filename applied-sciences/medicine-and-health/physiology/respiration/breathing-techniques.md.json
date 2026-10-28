@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "physiology.respiration.breathing-techniques",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "physiology",
+      "respiration",
+      "training"
+    ],
+    "aliases": [
+      "diaphragmatic breathing",
+      "Valsalva maneuver",
+      "nasal breathing",
+      "breathing in sport"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.control-of-breathing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.diaphragm",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.mobility.core",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "zaccaro-2018",
+      "type": "paper",
+      "authors": [
+        "Zaccaro, A.",
+        "Piarulli, A.",
+        "Laurino, M."
+      ],
+      "year": 2018,
+      "title": "How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing",
+      "url": "https://doi.org/10.3389/fnhum.2018.00353",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Diaphragmatic breathing",
+      "anchor": "#definition",
+      "definition": "Breathing that moves the abdomen and lower ribs rather than the upper chest."
+    },
+    {
+      "term": "Valsalva maneuver",
+      "anchor": "#definition",
+      "definition": "Forced exhalation against a closed glottis, which raises chest and abdominal pressure."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does the Valsalva maneuver help in heavy lifts?",
+      "a": "It raises intra-abdominal pressure, stiffening the trunk and spine.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

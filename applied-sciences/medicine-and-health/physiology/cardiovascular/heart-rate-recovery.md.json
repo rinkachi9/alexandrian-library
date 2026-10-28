@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "physiology.cardiovascular.heart-rate-recovery",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "physiology",
+      "cardiovascular",
+      "monitoring"
+    ],
+    "aliases": [
+      "HRR",
+      "heart rate recovery test"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.cardiovascular.resting-heart-rate",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.cardiovascular.heart-rate-variability",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cole-1999",
+      "type": "paper",
+      "authors": [
+        "Cole, C. R.",
+        "Blackstone, E. H.",
+        "Pashkow, F. J.",
+        "Snader, C. E.",
+        "Lauer, M. S."
+      ],
+      "year": 1999,
+      "title": "Heart-rate recovery immediately after exercise as a predictor of mortality",
+      "url": "https://doi.org/10.1056/NEJM199910283411804",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Heart rate recovery",
+      "anchor": "#definition",
+      "definition": "The fall in heart rate in the first minute after stopping hard exercise."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Peak 180, one minute later 165. Interpret the HRR.",
+      "a": "HRR1 = 15 bpm, within the normal range.",
+      "anchor": "#norms",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cardiovascular"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "physiology.respiration.mechanics-of-breathing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "physiology",
+      "respiration",
+      "breathing"
+    ],
+    "aliases": [
+      "ventilation",
+      "inspiration and expiration",
+      "Boyle's law"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.respiratory-system",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.diaphragm",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.gas-exchange",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pulmonary ventilation",
+      "anchor": "#definition",
+      "definition": "Movement of air between the atmosphere and the alveoli."
+    },
+    {
+      "term": "Elastic recoil",
+      "anchor": "#mechanism",
+      "definition": "The tendency of the stretched lungs and chest wall to return to their resting size, driving passive exhalation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which muscle does most of the work of quiet inhalation?",
+      "a": "The diaphragm.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

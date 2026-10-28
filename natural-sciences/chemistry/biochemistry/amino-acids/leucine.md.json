@@ -1,0 +1,115 @@
+{
+  "node": {
+    "id": "amino-acids.leucine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "amino-acids",
+      "essential",
+      "bcaa",
+      "muscle",
+      "sports-nutrition"
+    ],
+    "aliases": [
+      "L-leucine",
+      "Leu",
+      "BCAA"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.isoleucine",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.valine",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.muscle.muscle-protein-balance",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "jager-2017",
+      "type": "paper",
+      "authors": [
+        "Jäger, R.",
+        "Kerksick, C. M.",
+        "Campbell, B. I."
+      ],
+      "year": 2017,
+      "title": "International Society of Sports Nutrition position stand: protein and exercise",
+      "url": "https://doi.org/10.1186/s12970-017-0177-8",
+      "verified": false
+    },
+    {
+      "key": "morton-2018",
+      "type": "paper",
+      "authors": [
+        "Morton, R. W.",
+        "Murphy, K. T.",
+        "McKellar, S. R."
+      ],
+      "year": 2018,
+      "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults",
+      "url": "https://doi.org/10.1136/bjsports-2017-097608",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "mTORC1",
+      "anchor": "#mechanism",
+      "definition": "A protein complex that switches on protein synthesis in response to amino acids, insulin and exercise."
+    },
+    {
+      "term": "Anabolic resistance",
+      "anchor": "#leucine-threshold",
+      "definition": "The weaker response of muscle protein synthesis to protein in older adults."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How much pea protein gives the same leucine as 25 g of whey?",
+      "a": "About 33 g.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

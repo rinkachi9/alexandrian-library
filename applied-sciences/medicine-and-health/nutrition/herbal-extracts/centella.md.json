@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "herbal-extracts.centella",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Centella asiatica",
+      "gotu kola",
+      "asiaticoside"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "bylka-2013",
+      "type": "paper",
+      "authors": [
+        "Bylka, W.",
+        "Znajdek-Awiżeń, P.",
+        "Studzińska-Sroka, E.",
+        "Brzezińska, M."
+      ],
+      "year": 2013,
+      "title": "Centella asiatica in cosmetology",
+      "url": "https://doi.org/10.5114/pdia.2013.33378",
+      "verified": false
+    },
+    {
+      "key": "livertox",
+      "type": "documentation",
+      "authors": [
+        "National Institute of Diabetes and Digestive and Kidney Diseases"
+      ],
+      "title": "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547852/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Centelloids",
+      "anchor": "#definition",
+      "definition": "Triterpenes of Centella asiatica that stimulate collagen synthesis."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

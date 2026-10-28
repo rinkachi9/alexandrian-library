@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "amino-acids.theanine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "amino-acids",
+      "supplements",
+      "stress",
+      "sleep",
+      "tea"
+    ],
+    "aliases": [
+      "L-theanine",
+      "gamma-glutamylethylamide"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiotherapy.relaxation-techniques",
+      "rel": "related",
+      "note": "Non-drug ways to reduce stress"
+    }
+  ],
+  "sources": [
+    {
+      "key": "owen-2008",
+      "type": "paper",
+      "authors": [
+        "Owen, G. N.",
+        "Parnell, H.",
+        "De Bruin, E. A.",
+        "Rycroft, J. A."
+      ],
+      "year": 2008,
+      "title": "The combined effects of L-theanine and caffeine on cognitive performance and mood",
+      "url": "https://doi.org/10.1179/147683008X301513",
+      "verified": false
+    },
+    {
+      "key": "hidese-2019",
+      "type": "paper",
+      "authors": [
+        "Hidese, S.",
+        "Ogawa, S.",
+        "Ota, M."
+      ],
+      "year": 2019,
+      "title": "Effects of L-theanine administration on stress-related symptoms and cognitive functions in healthy adults: a randomized controlled trial",
+      "url": "https://doi.org/10.3390/nu11102362",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Alpha waves",
+      "anchor": "#mechanism",
+      "definition": "Brain waves of 8 to 12 Hz associated with relaxed wakefulness."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is theanine paired with caffeine?",
+      "a": "It may soften jitteriness from caffeine while the combination improves attention more than caffeine alone.",
+      "anchor": "#proposed-effects-and-evidence",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

@@ -3,7 +3,20 @@
     "id": "personal-development.skills",
     "kind": "index",
     "status": "draft",
-    "order": 2
+    "order": 2,
+    "tags": [
+      "skills",
+      "learning"
+    ]
   },
-  "links": []
+  "links": [
+    {
+      "to": "personal-development.career",
+      "rel": "related",
+      "note": "Skills feed career planning and job search"
+    }
+  ],
+  "map": {
+    "group": "skills"
+  }
 }

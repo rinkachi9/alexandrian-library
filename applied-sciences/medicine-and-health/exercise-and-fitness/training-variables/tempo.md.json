@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "exercise.training-variables.tempo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "exercise",
+      "training-variables"
+    ],
+    "aliases": [
+      "lifting tempo",
+      "repetition cadence"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.time-under-tension",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wilk-2021",
+      "type": "paper",
+      "authors": [
+        "Wilk, M.",
+        "Zajac, A.",
+        "Tufano, J. J."
+      ],
+      "year": 2021,
+      "title": "The influence of movement tempo during resistance training on muscular strength and hypertrophy responses: a review",
+      "url": "https://doi.org/10.1007/s40279-021-01465-2",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2015-tempo",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Ogborn, D. I.",
+        "Krieger, J. W."
+      ],
+      "year": 2015,
+      "title": "Effect of repetition duration during resistance training on muscle hypertrophy: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-015-0304-0",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Tempo",
+      "anchor": "#definition",
+      "definition": "The prescribed duration of each phase of a repetition."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a pause at the bottom of a squat reduce the load you can use?",
+      "a": "It removes the elastic rebound (stretch-shortening cycle), so the muscles must start from rest.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

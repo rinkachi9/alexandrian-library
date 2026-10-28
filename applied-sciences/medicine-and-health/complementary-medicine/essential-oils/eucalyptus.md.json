@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "essential-oils.eucalyptus",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Eucalyptus globulus",
+      "eucalyptol",
+      "cineole"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "worth-2009",
+      "type": "paper",
+      "authors": [
+        "Worth, H.",
+        "Schacher, C.",
+        "Dethlefsen, U."
+      ],
+      "year": 2009,
+      "title": "Concomitant therapy with cineole (eucalyptole) reduces exacerbations in COPD: a placebo-controlled double-blind trial",
+      "url": "https://doi.org/10.1186/1465-9921-10-69",
+      "verified": false
+    },
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "1,8-Cineole",
+      "anchor": "#definition",
+      "definition": "An oxide compound, the main constituent of eucalyptus oil."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

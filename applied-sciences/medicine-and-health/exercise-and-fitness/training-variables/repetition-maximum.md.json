@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "exercise.training-variables.repetition-maximum",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "strength",
+      "training-variables"
+    ],
+    "aliases": [
+      "1RM",
+      "one rep max",
+      "personal record",
+      "PR",
+      "maximal weight"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-variables.rpe",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "brzycki-1993",
+      "type": "paper",
+      "authors": [
+        "Brzycki, M."
+      ],
+      "year": 1993,
+      "title": "Strength testing: predicting a one-rep max from reps-to-fatigue",
+      "url": "https://doi.org/10.1080/07303084.1993.10606684",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "1RM",
+      "anchor": "#definition",
+      "definition": "The heaviest load that can be lifted once with good form."
+    },
+    {
+      "term": "%1RM",
+      "anchor": "#definition",
+      "definition": "A training load expressed as a percentage of 1RM."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A lifter squats 120 kg for 3 repetitions. Estimate 1RM with Brzycki.",
+      "a": "120 × 36 ÷ 34 ≈ 127 kg.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

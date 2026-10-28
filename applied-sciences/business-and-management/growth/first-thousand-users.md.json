@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "business.growth.first-thousand-users",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "growth",
+      "acquisition",
+      "early-users"
+    ],
+    "aliases": [
+      "reach",
+      "race to 1,000",
+      "first users"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.growth.hook",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.client-acquisition.outreach-and-prospecting",
+      "rel": "related"
+    },
+    {
+      "to": "skills.social-media.influencer-marketing",
+      "rel": "related"
+    },
+    {
+      "to": "skills.social-media.community-management",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lenny-2022-series",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "How to kickstart and scale a consumer business (six-part series)",
+      "url": "https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "graham-2013",
+      "type": "website",
+      "authors": [
+        "Graham, P."
+      ],
+      "year": 2013,
+      "title": "Do things that don't scale",
+      "url": "https://paulgraham.com/ds.html",
+      "verified": false
+    },
+    {
+      "key": "jackson-2004",
+      "type": "book",
+      "authors": [
+        "Jackson, E. M."
+      ],
+      "year": 2004,
+      "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth"
+    },
+    {
+      "key": "weinberg-2015",
+      "type": "book",
+      "authors": [
+        "Weinberg, G.",
+        "Mares, J."
+      ],
+      "year": 2015,
+      "title": "Traction: How Any Startup Can Achieve Explosive Customer Growth"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Channel-product fit",
+      "anchor": "#channel-product-fit",
+      "definition": "The match between a product type and the acquisition tactics that work for it."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "growth"
+  }
+}

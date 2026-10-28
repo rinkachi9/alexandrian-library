@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "mushrooms.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "functional mushrooms",
+      "beta-glucans"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "wasser-2002",
+      "type": "paper",
+      "authors": [
+        "Wasser, S. P."
+      ],
+      "year": 2002,
+      "title": "Medicinal mushrooms as a source of antitumor and immunomodulating polysaccharides",
+      "url": "https://doi.org/10.1007/s00253-002-1076-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Beta-glucan",
+      "anchor": "#definition",
+      "definition": "A glucose polymer from fungal cell walls that interacts with immune receptors."
+    },
+    {
+      "term": "Mycelium",
+      "anchor": "#definition",
+      "definition": "The root-like network of a fungus."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

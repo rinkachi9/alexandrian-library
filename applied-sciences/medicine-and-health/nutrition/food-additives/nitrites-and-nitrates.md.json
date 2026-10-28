@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "food-additives.nitrites-and-nitrates",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "food-additives",
+      "food-safety"
+    ],
+    "aliases": [
+      "E250",
+      "E251",
+      "sodium nitrite",
+      "sodium nitrate",
+      "nitrosamines"
+    ]
+  },
+  "links": [
+    {
+      "to": "food-additives.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bouvard-2015",
+      "type": "paper",
+      "authors": [
+        "Bouvard, V.",
+        "Loomis, D.",
+        "Guyton, K. Z."
+      ],
+      "year": 2015,
+      "title": "Carcinogenicity of consumption of red and processed meat",
+      "url": "https://doi.org/10.1016/S1470-2045(15)00444-1",
+      "verified": false
+    },
+    {
+      "key": "iarc-2010-nitrite",
+      "type": "report",
+      "authors": [
+        "International Agency for Research on Cancer"
+      ],
+      "year": 2010,
+      "title": "Ingested nitrate and nitrite, and cyanobacterial peptide toxins. IARC Monographs, Volume 94",
+      "url": "https://publications.iarc.who.int/112",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nitrosamine",
+      "anchor": "#definition",
+      "definition": "A carcinogenic N-nitroso compound formed from nitrite and amines."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

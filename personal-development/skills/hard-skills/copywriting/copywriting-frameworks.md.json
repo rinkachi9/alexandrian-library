@@ -1,0 +1,117 @@
+{
+  "node": {
+    "id": "skills.copywriting.copywriting-frameworks",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "marketing",
+      "copywriting",
+      "frameworks"
+    ],
+    "aliases": [
+      "AIDA",
+      "PAS",
+      "BAB",
+      "sales page structure"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.customer-research",
+      "rel": "prerequisite",
+      "note": "Awareness levels decide the framework"
+    },
+    {
+      "to": "skills.content-marketing.storytelling",
+      "rel": "related",
+      "note": "BAB is a compressed story"
+    }
+  ],
+  "sources": [
+    {
+      "key": "strong-1925",
+      "type": "book",
+      "authors": [
+        "Strong, E. K."
+      ],
+      "year": 1925,
+      "title": "The Psychology of Selling and Advertising"
+    },
+    {
+      "key": "vakratsas-1999",
+      "type": "paper",
+      "authors": [
+        "Vakratsas, D.",
+        "Ambler, T."
+      ],
+      "year": 1999,
+      "title": "How advertising works: What do we really know?",
+      "url": "https://doi.org/10.1177/002224299906300103",
+      "verified": false
+    },
+    {
+      "key": "schwartz-1966",
+      "type": "book",
+      "authors": [
+        "Schwartz, E. M."
+      ],
+      "year": 1966,
+      "title": "Breakthrough Advertising"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "AIDA",
+      "anchor": "#aida",
+      "definition": "Attention, interest, desire, action: a sequence that moves a reader from noticing to acting."
+    },
+    {
+      "term": "PAS",
+      "anchor": "#pas",
+      "definition": "Problem, agitate, solution: name a problem, make its cost felt, present the solution."
+    },
+    {
+      "term": "Hierarchy of effects",
+      "anchor": "#definition",
+      "definition": "Models assuming people pass through stages from awareness to action."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Where is the ethical limit of the PAS framework?",
+      "a": "In the agitate step: describing real costs is persuasion, inventing fears is manipulation and may be an aggressive practice.",
+      "anchor": "#pas",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does a long-form sales page usually end with besides the call to action?",
+      "a": "A short summary for readers who scroll to the end.",
+      "anchor": "#anatomy-of-a-long-form-sales-page",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "Why might the five step formula suit a cold B2B audience better than AIDA?",
+      "a": "It puts trust and authority first, which unknown sellers need before an offer is taken seriously.",
+      "anchor": "#the-five-step-formula",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

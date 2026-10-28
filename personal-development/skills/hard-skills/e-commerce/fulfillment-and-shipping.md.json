@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "skills.e-commerce.fulfillment-and-shipping",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "e-commerce",
+      "logistics",
+      "inventory",
+      "shipping"
+    ],
+    "aliases": [
+      "3PL",
+      "reorder point",
+      "safety stock",
+      "free shipping threshold"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-platforms",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.e-commerce.supplier-sourcing",
+      "rel": "related",
+      "note": "Lead times come from suppliers"
+    }
+  ],
+  "sources": [
+    {
+      "key": "baymard-institute",
+      "type": "report",
+      "authors": [
+        "Baymard Institute"
+      ],
+      "title": "Cart abandonment rate statistics",
+      "url": "https://baymard.com/lists/cart-abandonment-rate",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2025",
+      "type": "standard",
+      "title": "Regulation (EU) 2025/40 on packaging and packaging waste",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fulfillment",
+      "anchor": "#definition",
+      "definition": "Receiving, storing, picking, packing and shipping orders, and processing returns."
+    },
+    {
+      "term": "Third-party logistics",
+      "anchor": "#fulfillment-models",
+      "definition": "An outsourced warehouse that stores and ships orders for sellers."
+    },
+    {
+      "term": "Reorder point",
+      "anchor": "#inventory-management",
+      "definition": "Expected sales during the supplier lead time plus safety stock."
+    },
+    {
+      "term": "Dimensional weight",
+      "anchor": "#shipping-options-and-costs",
+      "definition": "A pricing method that charges large, light parcels as if they were heavier."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Calculate the reorder point for sales of 8 a day, a lead time of 25 days and 6 days of safety stock.",
+      "a": "8 x 25 + 8 x 6 = 248 units.",
+      "anchor": "#inventory-management",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How should a free shipping threshold be set to raise order value?",
+      "a": "Above the current average order value, so customers add items to reach it.",
+      "anchor": "#shipping-pricing-strategies",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "When does outsourcing fulfillment to a 3PL pay off?",
+      "a": "When volume makes in-house packing a bottleneck and the fees cost less than the owner's time.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

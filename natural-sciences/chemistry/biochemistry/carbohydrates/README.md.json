@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "natural-sciences.chemistry.biochemistry.carbohydrates",
+    "kind": "index",
+    "status": "draft",
+    "order": 18,
+    "tags": [
+      "biochemistry",
+      "carbohydrates"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "carbohydrates"
+  }
+}

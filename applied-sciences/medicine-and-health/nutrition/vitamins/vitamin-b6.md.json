@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b6",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "pyridoxine",
+      "PLP",
+      "pyridoxal phosphate"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b12",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b9",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-b6",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin B6: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "wyatt-1999",
+      "type": "paper",
+      "authors": [
+        "Wyatt, K. M.",
+        "Dimmock, P. W.",
+        "Jones, P. W.",
+        "O'Brien, P. M. S."
+      ],
+      "year": 1999,
+      "title": "Efficacy of vitamin B-6 in the treatment of premenstrual syndrome: systematic review",
+      "url": "https://doi.org/10.1136/bmj.318.7195.1375",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pyridoxal 5'-phosphate",
+      "anchor": "#definition",
+      "definition": "The active coenzyme form of vitamin B6."
+    },
+    {
+      "term": "Transamination",
+      "anchor": "#mechanism",
+      "definition": "Transfer of an amino group from an amino acid to a keto acid."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "complementary-medicine.coconut-oil",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "lauric acid",
+      "MCT",
+      "monolaurin",
+      "oil pulling"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.saturated-fatty-acids",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.foundations.foods-and-satiety",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "neelakantan-2020",
+      "type": "paper",
+      "authors": [
+        "Neelakantan, N.",
+        "Seah, J. Y. H.",
+        "van Dam, R. M."
+      ],
+      "year": 2020,
+      "title": "The effect of coconut oil consumption on cardiovascular risk factors: a systematic review and meta-analysis of clinical trials",
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.119.043052",
+      "verified": false
+    },
+    {
+      "key": "ogbolu-2007",
+      "type": "paper",
+      "authors": [
+        "Ogbolu, D. O.",
+        "Oni, A. A.",
+        "Daini, O. A.",
+        "Oloko, A. P."
+      ],
+      "year": 2007,
+      "title": "In vitro antimicrobial properties of coconut oil on Candida species in Ibadan, Nigeria",
+      "url": "https://doi.org/10.1089/jmf.2006.1209",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lauric acid",
+      "anchor": "#definition",
+      "definition": "A 12-carbon saturated fatty acid, the main fat in coconut oil."
+    },
+    {
+      "term": "Medium-chain triglyceride",
+      "anchor": "#definition",
+      "definition": "A fat made of 6 to 12 carbon fatty acids that is oxidized quickly."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

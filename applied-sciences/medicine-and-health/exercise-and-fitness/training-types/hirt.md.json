@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "exercise.training-types.hirt",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "HIRT",
+      "high intensity repeat training"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-types.strength-factors",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-types.hiit",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "paoli-2012",
+      "type": "paper",
+      "authors": [
+        "Paoli, A.",
+        "Moro, T.",
+        "Marcolin, G."
+      ],
+      "year": 2012,
+      "title": "High-Intensity Interval Resistance Training (HIRT) influences resting energy expenditure and respiratory ratio in non-dieting individuals",
+      "url": "https://doi.org/10.1186/1479-5876-10-237",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "HIRT",
+      "anchor": "#definition",
+      "definition": "Short, high-quality sets with submaximal loads and long rests."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does HIRT differ from HIIT?",
+      "a": "HIRT is resistance training with full rests and low fatigue; HIIT alternates high-intensity intervals with short recovery, usually in cardio.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

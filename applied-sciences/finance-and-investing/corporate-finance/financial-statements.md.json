@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.financial-statements",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "accounting",
+      "corporate-finance"
+    ],
+    "aliases": [
+      "income statement",
+      "balance sheet",
+      "cash flow statement",
+      "P&L"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.free-cash-flow",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-ias7",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "title": "IAS 7 Statement of Cash Flows",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+      "verified": false
+    },
+    {
+      "key": "ifrs-18",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2024,
+      "title": "IFRS 18 Presentation and Disclosure in Financial Statements",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/",
+      "verified": false
+    },
+    {
+      "key": "accounting-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1994,
+      "title": "Ustawa z dnia 29 września 1994 r. o rachunkowości (Accounting Act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19941210591",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Income statement",
+      "anchor": "#definition",
+      "definition": "A report of revenue, expenses and profit over a period."
+    },
+    {
+      "term": "Balance sheet",
+      "anchor": "#definition",
+      "definition": "A report of assets, liabilities and equity at a date."
+    },
+    {
+      "term": "Working capital",
+      "anchor": "#mechanism",
+      "definition": "Current assets such as receivables and inventory minus current liabilities such as payables."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

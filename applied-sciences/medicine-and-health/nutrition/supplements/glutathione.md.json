@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "nutrition.supplements.glutathione",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "supplements"
+    ],
+    "aliases": [
+      "GSH",
+      "L-glutathione",
+      "reduced glutathione"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.oxidative-stress",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.n-acetylcysteine",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.cysteine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "richie-2015",
+      "type": "paper",
+      "authors": [
+        "Richie, J. P.",
+        "Nichenametla, S.",
+        "Neidig, W."
+      ],
+      "year": 2015,
+      "title": "Randomized controlled trial of oral glutathione supplementation on body stores of glutathione",
+      "url": "https://doi.org/10.1007/s00394-014-0706-z",
+      "verified": false
+    },
+    {
+      "key": "smilkstein-1988",
+      "type": "paper",
+      "authors": [
+        "Smilkstein, M. J.",
+        "Knapp, G. L.",
+        "Kulig, K. W.",
+        "Rumack, B. H."
+      ],
+      "year": 1988,
+      "title": "Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose. Analysis of the national multicenter study (1976 to 1985)",
+      "url": "https://doi.org/10.1056/NEJM198812153192401",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glutathione",
+      "anchor": "#definition",
+      "definition": "A tripeptide of glutamate, cysteine and glycine that is the main intracellular antioxidant."
+    },
+    {
+      "term": "Glutathione S-transferase",
+      "anchor": "#mechanism",
+      "definition": "An enzyme that attaches glutathione to toxins for excretion."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "supplements"
+  }
+}

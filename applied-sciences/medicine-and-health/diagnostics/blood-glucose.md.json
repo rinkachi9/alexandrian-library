@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "diagnostics.blood-glucose",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "diagnostics",
+      "blood-tests"
+    ],
+    "aliases": [
+      "fasting glucose",
+      "HbA1c",
+      "OGTT",
+      "blood sugar"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.foundations.glycemic-index",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ada-2024",
+      "type": "paper",
+      "authors": [
+        "American Diabetes Association Professional Practice Committee"
+      ],
+      "year": 2024,
+      "title": "Diagnosis and classification of diabetes: Standards of Care in Diabetes 2024",
+      "url": "https://doi.org/10.2337/dc24-S002",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "HbA1c",
+      "anchor": "#definition",
+      "definition": "Glycated hemoglobin reflecting average glucose over 2 to 3 months."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "diagnostics"
+  }
+}

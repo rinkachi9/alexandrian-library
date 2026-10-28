@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "anatomy.muscles.classification",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "anatomy",
+      "muscles"
+    ],
+    "aliases": [
+      "types of muscles",
+      "muscle fiber arrangement",
+      "pennate muscle"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.muscle-fiber-types",
+      "rel": "related"
+    },
+    {
+      "to": "cell-biology.tissues",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "maeo-2021",
+      "type": "paper",
+      "authors": [
+        "Maeo, S.",
+        "Huang, M.",
+        "Wu, Y."
+      ],
+      "year": 2021,
+      "title": "Greater hamstrings muscle hypertrophy but similar damage protection after training at long versus short muscle lengths",
+      "url": "https://doi.org/10.1249/MSS.0000000000002523",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Two-joint muscle",
+      "anchor": "#mechanism",
+      "definition": "A muscle that crosses and moves two joints."
+    },
+    {
+      "term": "Pennate muscle",
+      "anchor": "#mechanism",
+      "definition": "A muscle whose fibers attach obliquely to a tendon."
+    },
+    {
+      "term": "Physiological cross-sectional area",
+      "anchor": "#why-fiber-arrangement-matters",
+      "definition": "The area perpendicular to the fibers, which determines maximal force."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why might seated leg curls build the hamstrings more than lying leg curls?",
+      "a": "The flexed hip lengthens the two-joint hamstrings, so they work at longer lengths.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscles"
+  }
+}

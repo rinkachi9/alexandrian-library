@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "skills.social-media.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "marketing",
+      "social-media"
+    ],
+    "aliases": [
+      "social media marketing",
+      "organic social",
+      "social listening"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "pew-research-center",
+      "type": "report",
+      "authors": [
+        "Pew Research Center"
+      ],
+      "title": "Social media fact sheet",
+      "url": "https://www.pewresearch.org/internet/fact-sheet/social-media/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kaplan-2010",
+      "type": "paper",
+      "authors": [
+        "Kaplan, A. M.",
+        "Haenlein, M."
+      ],
+      "year": 2010,
+      "title": "Users of the world, unite! The challenges and opportunities of social media",
+      "url": "https://doi.org/10.1016/j.bushor.2009.09.003",
+      "verified": false
+    },
+    {
+      "key": "university-of-california",
+      "type": "course",
+      "authors": [
+        "University of California, Davis"
+      ],
+      "title": "Content Marketing (Coursera)",
+      "url": "https://www.coursera.org/learn/content-marketing",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Social media marketing",
+      "anchor": "#definition",
+      "definition": "The planned use of social platforms to achieve business or professional goals."
+    },
+    {
+      "term": "Social listening",
+      "anchor": "#listening-not-only-broadcasting",
+      "definition": "Systematic monitoring of conversations about a brand, competitors and topics."
+    },
+    {
+      "term": "Rented audience",
+      "anchor": "#owned-versus-rented-audience",
+      "definition": "A following on a platform that owns the relationship and can change reach or rules."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why has the follower count become a weaker measure of reach?",
+      "a": "Platforms recommend content from accounts users do not follow and show each post to only part of the followers.",
+      "anchor": "#organic-reach-and-the-role-of-algorithms",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How many platforms should a small business start with, and how should it choose?",
+      "a": "One or two, chosen by where the audience spends time and which formats the team can produce well.",
+      "anchor": "#strategy-in-brief",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "Compare organic and paid social media.",
+      "a": "Organic builds trust slowly at low money cost but high time cost; paid gives speed and targeting at a cost and stops with the budget.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

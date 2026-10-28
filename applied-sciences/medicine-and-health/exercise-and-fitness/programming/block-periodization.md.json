@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "exercise.programming.block-periodization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 12,
+    "tags": [
+      "exercise",
+      "programming",
+      "periodization"
+    ],
+    "aliases": [
+      "block training",
+      "Issurin blocks"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.periodization",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "issurin-2010",
+      "type": "paper",
+      "authors": [
+        "Issurin, V. B."
+      ],
+      "year": 2010,
+      "title": "New horizons for the methodology and physiology of training periodization",
+      "url": "https://doi.org/10.2165/11319770-000000000-00000",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Block periodization",
+      "anchor": "#definition",
+      "definition": "Training organized in concentrated blocks each targeting few abilities."
+    },
+    {
+      "term": "Residual training effect",
+      "anchor": "#mechanism",
+      "definition": "How long a trained quality persists after its training stops."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Order blocks for a meet in 10 weeks.",
+      "a": "Hypertrophy and work capacity, then maximal strength, then peaking.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

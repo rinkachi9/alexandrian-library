@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "exercise.mobility.flexibility",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "mobility"
+    ],
+    "aliases": [
+      "stretching",
+      "range of motion"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.mobility.mobility",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.mobility",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "behm-2016",
+      "type": "paper",
+      "authors": [
+        "Behm, D. G.",
+        "Blazevich, A. J.",
+        "Kay, A. D.",
+        "McHugh, M."
+      ],
+      "year": 2016,
+      "title": "Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: a systematic review",
+      "url": "https://doi.org/10.1139/apnm-2015-0235",
+      "verified": false
+    },
+    {
+      "key": "page-2012",
+      "type": "paper",
+      "authors": [
+        "Page, P."
+      ],
+      "year": 2012,
+      "title": "Current concepts in muscle stretching for exercise and rehabilitation"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Flexibility",
+      "anchor": "#definition",
+      "definition": "The passive range of motion at a joint, set by tissue extensibility."
+    },
+    {
+      "term": "Stretch tolerance",
+      "anchor": "#definition",
+      "definition": "How much stretch a person tolerates before discomfort."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does stretching seem to work in days, before tissue could change?",
+      "a": "Early gains come from increased stretch tolerance.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "mobility"
+  }
+}

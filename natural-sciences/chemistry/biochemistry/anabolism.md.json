@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "biochemistry.anabolism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "anabolism"
+    ],
+    "aliases": [
+      "biosynthesis",
+      "anabolic processes"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.catabolism",
+      "rel": "contrasts"
+    },
+    {
+      "to": "biochemistry.atp",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.muscle.muscle-protein-balance",
+      "rel": "related",
+      "note": "Anabolism applied to muscle"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anabolism",
+      "anchor": "#definition",
+      "definition": "Synthesis of complex compounds from simpler substrates, which consumes energy."
+    },
+    {
+      "term": "Endergonic reaction",
+      "anchor": "#definition",
+      "definition": "A reaction that needs an input of energy to proceed."
+    },
+    {
+      "term": "Reducing power",
+      "anchor": "#mechanism",
+      "definition": "Electrons carried by NADPH and used to build molecules such as fatty acids."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name four anabolic hormones.",
+      "a": "Insulin, growth hormone, testosterone and estrogens (also IGF-1).",
+      "anchor": "#anabolic-hormones",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Is fat storage anabolic?",
+      "a": "Yes. Triglyceride synthesis builds complex molecules and consumes energy.",
+      "anchor": "#examples-of-anabolic-processes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.net-present-value",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "corporate-finance",
+      "capital-budgeting"
+    ],
+    "aliases": [
+      "NPV"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.wacc",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.internal-rate-of-return",
+      "rel": "contrasts"
+    },
+    {
+      "to": "finance.corporate-finance.capital-budgeting-methods",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    },
+    {
+      "key": "graham-harvey-2001",
+      "type": "paper",
+      "authors": [
+        "Graham, J. R.",
+        "Harvey, C. R."
+      ],
+      "year": 2001,
+      "title": "The theory and practice of corporate finance: Evidence from the field",
+      "url": "https://doi.org/10.1016/S0304-405X(01)00044-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Net present value",
+      "anchor": "#definition",
+      "definition": "The present value of inflows minus the present value of outflows of an investment."
+    },
+    {
+      "term": "Sunk cost",
+      "anchor": "#common-mistakes",
+      "definition": "Money already spent that cannot be recovered and should not affect decisions."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

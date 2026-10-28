@@ -1,0 +1,117 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.proposals-and-pricing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "sales",
+      "pricing",
+      "proposals",
+      "negotiation"
+    ],
+    "aliases": [
+      "value-based pricing",
+      "statement of work",
+      "scope creep"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.client-acquisition.sales-conversations",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.copywriting.value-proposition-and-benefits",
+      "rel": "related"
+    },
+    {
+      "to": "career.salary-and-offer-negotiation",
+      "rel": "related",
+      "note": "Negotiation principles"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fisher-2011",
+      "type": "book",
+      "authors": [
+        "Fisher, R.",
+        "Ury, W.",
+        "Patton, B."
+      ],
+      "year": 2011,
+      "title": "Getting to Yes"
+    },
+    {
+      "key": "directive-2011-7",
+      "type": "standard",
+      "title": "Directive 2011/7/EU on combating late payment in commercial transactions",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/7/oj",
+      "verified": false
+    },
+    {
+      "key": "baker-2011",
+      "type": "book",
+      "authors": [
+        "Baker, R. J."
+      ],
+      "year": 2011,
+      "title": "Implementing Value Pricing"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Value-based pricing",
+      "anchor": "#pricing-approaches",
+      "definition": "Setting a price as a share of the economic value the client gets."
+    },
+    {
+      "term": "Scope creep",
+      "anchor": "#definitions",
+      "definition": "Gradual expansion of work beyond the agreed scope without matching changes in price or time."
+    },
+    {
+      "term": "BATNA",
+      "anchor": "#negotiation",
+      "definition": "Best alternative to a negotiated agreement, your walk-away reference."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why should the proposal never be the first time a client hears the price?",
+      "a": "Price surprises cause rejection; a range discussed in the call lets the proposal confirm expectations.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "A client asks for a lower price. What do you do?",
+      "a": "Trade rather than cave: reduce scope, change timing or terms, and discuss value.",
+      "anchor": "#negotiation",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What default B2B payment period does the EU Late Payment Directive set?",
+      "a": "30 days unless otherwise agreed, generally capped at 60 days.",
+      "anchor": "#payment-terms",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

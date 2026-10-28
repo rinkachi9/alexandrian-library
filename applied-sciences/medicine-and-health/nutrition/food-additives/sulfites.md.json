@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "food-additives.sulfites",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "food-additives",
+      "food-safety"
+    ],
+    "aliases": [
+      "E220",
+      "E221",
+      "E222",
+      "sulfur dioxide",
+      "sodium sulfite",
+      "sodium bisulfite"
+    ]
+  },
+  "links": [
+    {
+      "to": "food-additives.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "efsa-2022-sulfites",
+      "type": "paper",
+      "authors": [
+        "EFSA FAF Panel"
+      ],
+      "year": 2022,
+      "title": "Follow-up of the re-evaluation of sulfur dioxide (E 220), sodium sulfite (E 221), sodium bisulfite (E 222), sodium metabisulfite (E 223), potassium metabisulfite (E 224), calcium sulfite (E 226), calcium bisulfite (E 227) and potassium bisulfite (E 228)",
+      "url": "https://doi.org/10.2903/j.efsa.2022.7594",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sulfite sensitivity",
+      "anchor": "#mechanism",
+      "definition": "Reactions such as bronchospasm to sulfites, mainly in people with asthma."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

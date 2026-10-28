@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">Structure of a sarcomere</title>
+  <desc id="d">A sarcomere runs from one Z disc to the next. Thin actin filaments are anchored to the Z discs and point toward the center. Thick myosin filaments sit in the middle, anchored at the M line. The A band is the length of the myosin filaments, the I band contains only actin, and the H zone contains only myosin. During contraction the filaments slide past each other, so the I band and H zone shorten while the A band keeps its length.</desc>
+  <rect width="600" height="300" rx="14" fill="#fbfaf7" stroke="#d8d3c8"/>
+  <line x1="60" y1="50" x2="60" y2="200" stroke="#1f2933" stroke-width="5"/>
+  <line x1="540" y1="50" x2="540" y2="200" stroke="#1f2933" stroke-width="5"/>
+  <line x1="300" y1="60" x2="300" y2="190" stroke="#7a4fa3" stroke-width="2" stroke-dasharray="4 3"/>
+  <g stroke="#2f7d5b" stroke-width="3">
+    <line x1="60" y1="75" x2="250" y2="75"/><line x1="60" y1="110" x2="250" y2="110"/><line x1="60" y1="145" x2="250" y2="145"/><line x1="60" y1="180" x2="250" y2="180"/>
+    <line x1="350" y1="75" x2="540" y2="75"/><line x1="350" y1="110" x2="540" y2="110"/><line x1="350" y1="145" x2="540" y2="145"/><line x1="350" y1="180" x2="540" y2="180"/>
+  </g>
+  <g stroke="#b9761a" stroke-width="7" stroke-linecap="round">
+    <line x1="160" y1="92" x2="440" y2="92"/><line x1="160" y1="127" x2="440" y2="127"/><line x1="160" y1="162" x2="440" y2="162"/>
+  </g>
+  <g stroke="#b9761a" stroke-width="2">
+    <line x1="180" y1="92" x2="172" y2="82"/><line x1="200" y1="92" x2="192" y2="82"/><line x1="220" y1="92" x2="212" y2="82"/><line x1="380" y1="92" x2="388" y2="82"/><line x1="400" y1="92" x2="408" y2="82"/><line x1="420" y1="92" x2="428" y2="82"/>
+  </g>
+  <g font-size="12" fill="#1f2933" text-anchor="middle">
+    <text x="60" y="40">Z disc</text><text x="540" y="40">Z disc</text><text x="300" y="50" fill="#7a4fa3">M line</text>
+    <text x="110" y="62" fill="#2f7d5b">Actin (thin)</text><text x="300" y="215" fill="#b9761a">Myosin (thick) with heads</text>
+  </g>
+  <g stroke="#3d4852" stroke-width="1.5" fill="none">
+    <path d="M160 235 L160 245 L440 245 L440 235"/><path d="M60 265 L60 275 L160 275 L160 265"/><path d="M440 265 L440 275 L540 275 L540 265"/><path d="M250 265 L250 275 L350 275 L350 265"/>
+  </g>
+  <g font-size="12" fill="#1f2933" text-anchor="middle">
+    <text x="300" y="240">A band (length of myosin)</text><text x="110" y="292">half I band</text><text x="490" y="292">half I band</text><text x="300" y="292">H zone</text>
+  </g>
+</svg>

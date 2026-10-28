@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "physiology.muscle.skeletal-muscle-structure",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "physiology",
+      "muscle",
+      "sarcomere"
+    ],
+    "aliases": [
+      "sarcomere",
+      "myofibril",
+      "muscle fiber"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.tissues",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.muscle-contraction",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "huxley-hanson-1954",
+      "type": "paper",
+      "authors": [
+        "Huxley, H.",
+        "Hanson, J."
+      ],
+      "year": 1954,
+      "title": "Changes in the cross-striations of muscle during contraction and stretch and their structural interpretation",
+      "url": "https://doi.org/10.1038/173973a0",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sarcomere",
+      "anchor": "#definition",
+      "definition": "The repeating contractile unit of a myofibril between two Z discs."
+    },
+    {
+      "term": "T-tubule",
+      "anchor": "#mechanism",
+      "definition": "An inward fold of the muscle cell membrane that carries the action potential into the fiber."
+    },
+    {
+      "term": "Sarcoplasmic reticulum",
+      "anchor": "#mechanism",
+      "definition": "The membrane network that stores and releases calcium in muscle fibers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can long muscle fibers shorten more?",
+      "a": "They contain more sarcomeres in series, and each sarcomere shortens by a similar amount.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

@@ -1,6 +1,6 @@
 # Natural sciences
 
-Disciplines that study nature through observation and experiment. This area is planned and has no notes yet.
+Disciplines that study nature through observation and experiment. Chemistry (biochemistry) and biology (cell biology) have notes; the other fields are planned.
 
 ## Fields
 

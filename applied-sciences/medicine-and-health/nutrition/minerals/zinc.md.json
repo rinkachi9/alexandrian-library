@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "nutrition.minerals.zinc",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Zn",
+      "zinc lozenges"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.minerals.copper",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.foundations.nutrition-and-immunity",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-zinc",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Zinc: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "science-2013-zinc",
+      "type": "paper",
+      "authors": [
+        "Singh, M.",
+        "Das, R. R."
+      ],
+      "year": 2013,
+      "title": "Zinc for the common cold",
+      "url": "https://doi.org/10.1002/14651858.CD001364.pub4",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Zinc finger",
+      "anchor": "#definition",
+      "definition": "A protein domain folded around zinc that binds DNA."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

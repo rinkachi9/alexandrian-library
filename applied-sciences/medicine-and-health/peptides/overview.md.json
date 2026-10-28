@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "peptides.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "research peptides",
+      "peptide drugs"
+    ]
+  },
+  "links": [
+    {
+      "to": "proteins.proteins",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fda-bulk-2023",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2023,
+      "title": "Certain bulk drug substances for use in compounding that may present significant safety risks",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+      "verified": false
+    },
+    {
+      "key": "wada-list",
+      "type": "documentation",
+      "authors": [
+        "World Anti-Doping Agency"
+      ],
+      "title": "World Anti-Doping Code: The Prohibited List",
+      "url": "https://www.wada-ama.org/en/prohibited-list",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Peptide",
+      "anchor": "#definition",
+      "definition": "A short chain of amino acids."
+    },
+    {
+      "term": "Research peptide",
+      "anchor": "#definition",
+      "definition": "An unapproved synthetic peptide sold for research use only."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

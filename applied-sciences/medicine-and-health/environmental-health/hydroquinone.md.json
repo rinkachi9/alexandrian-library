@@ -1,0 +1,41 @@
+{
+  "node": {
+    "id": "environmental-health.hydroquinone",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "skin lightening",
+      "tyrosinase inhibitor"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "eu-1223-2009",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2009,
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Exogenous ochronosis",
+      "anchor": "#definition",
+      "definition": "Blue-black skin pigmentation from long-term hydroquinone use."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

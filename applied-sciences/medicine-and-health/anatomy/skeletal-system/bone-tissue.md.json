@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "anatomy.skeletal.bone-tissue",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "anatomy",
+      "bone",
+      "histology"
+    ],
+    "aliases": [
+      "osseous tissue",
+      "bone remodeling",
+      "osteoporosis"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.skeletal.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.tissues",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "proteins.collagen",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.minerals.calcium",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-d",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "ods-calcium",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Calcium: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Osteoblast",
+      "anchor": "#mechanism",
+      "definition": "The cell that builds bone matrix."
+    },
+    {
+      "term": "Osteoclast",
+      "anchor": "#mechanism",
+      "definition": "The cell that resorbs bone."
+    },
+    {
+      "term": "Wolff's law",
+      "anchor": "#mechanism",
+      "definition": "The principle that bone adapts its structure to the loads placed on it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does bone need both collagen and mineral?",
+      "a": "Collagen gives flexibility and tensile strength; mineral gives hardness and compressive strength.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skeleton"
+  }
+}

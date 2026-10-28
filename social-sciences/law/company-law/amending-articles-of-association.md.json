@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "law.company-law.amending-articles-of-association",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "company-law",
+      "poland"
+    ],
+    "aliases": [
+      "zmiana umowy spółki",
+      "podwyższenie kapitału",
+      "capital increase"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.shareholders-meeting",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.shareholders-meeting",
+      "rel": "related"
+    },
+    {
+      "to": "law.company-law.articles-of-association",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "krs-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1997,
+      "title": "Ustawa z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym (National Court Register Act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971210769",
+      "verified": false
+    },
+    {
+      "key": "sn-iii-czp-75-22",
+      "type": "standard",
+      "authors": [
+        "Sąd Najwyższy"
+      ],
+      "year": 2022,
+      "title": "Uchwała Sądu Najwyższego z dnia 29 kwietnia 2022 r., III CZP 75/22 (resolution on unregistered amendments)"
+    },
+    {
+      "key": "msig-change-2025",
+      "type": "website",
+      "authors": [
+        "Rzeczpospolita"
+      ],
+      "year": 2025,
+      "title": "Czy spółki nadal muszą publikować ogłoszenia w MSiG?",
+      "url": "https://pro.rp.pl/biznes/art43605401-czy-spolki-nadal-musza-publikowac-ogloszenia-w-msig",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Amendment of the articles",
+      "anchor": "#definition",
+      "definition": "A change to the articles requiring a notarial shareholders' resolution and KRS registration."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

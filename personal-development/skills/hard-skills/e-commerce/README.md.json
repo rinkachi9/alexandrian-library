@@ -1,0 +1,26 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.e-commerce",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "e-commerce"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills.hard-skills.copywriting",
+      "rel": "related",
+      "note": "Product pages are copy"
+    },
+    {
+      "to": "personal-development.skills.hard-skills.search-engine-optimization",
+      "rel": "related",
+      "note": "Shops depend on search"
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

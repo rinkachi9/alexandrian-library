@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "business.metrics.customer-acquisition-cost",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "metrics",
+      "unit-economics",
+      "marketing"
+    ],
+    "aliases": [
+      "CAC",
+      "cost per acquisition"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.arpu",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-metrics",
+      "rel": "related"
+    },
+    {
+      "to": "business.growth.performance-marketing-engine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Customer acquisition cost",
+      "anchor": "#definition",
+      "definition": "Total sales and marketing cost in a period divided by new customers acquired."
+    },
+    {
+      "term": "Fully loaded CAC",
+      "anchor": "#definition",
+      "definition": "CAC including ad spend, salaries, tools, agencies and an overhead share."
+    },
+    {
+      "term": "Blended CAC",
+      "anchor": "#mechanism",
+      "definition": "CAC averaged across all channels."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

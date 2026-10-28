@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "lipids.arachidonic-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "lipids",
+      "omega-6",
+      "eicosanoids"
+    ],
+    "aliases": [
+      "AA",
+      "20:4 n-6"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.omega-6-fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-6-fatty-acids",
+      "rel": "part-of"
+    },
+    {
+      "to": "lipids.eicosanoids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cyclooxygenase",
+      "anchor": "#mechanism",
+      "definition": "The enzyme that makes prostaglandins and thromboxanes from arachidonic acid; the target of aspirin and ibuprofen."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which class of eicosanoids causes bronchial constriction in asthma?",
+      "a": "Leukotrienes.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "anatomy.joints.sacroiliac-joint",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "anatomy",
+      "joints",
+      "pelvis"
+    ],
+    "aliases": [
+      "SI joint"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.joints.joints-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.spine.sacrum",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.lower-limb-bones.hip-bone",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "joints"
+  }
+}

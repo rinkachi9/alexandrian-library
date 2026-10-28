@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "amino-acids.beta-alanine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "amino-acids",
+      "supplements",
+      "sports-nutrition",
+      "carnosine"
+    ],
+    "aliases": [
+      "3-aminopropanoic acid"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.lactate-and-fermentation",
+      "rel": "related",
+      "note": "The acid that carnosine buffers"
+    },
+    {
+      "to": "amino-acids.histidine",
+      "rel": "related",
+      "note": "The other half of carnosine"
+    },
+    {
+      "to": "nutrition.supplements.creatine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "trexler-2015",
+      "type": "paper",
+      "authors": [
+        "Trexler, E. T.",
+        "Smith-Ryan, A. E.",
+        "Stout, J. R."
+      ],
+      "year": 2015,
+      "title": "International society of sports nutrition position stand: Beta-Alanine",
+      "url": "https://doi.org/10.1186/s12970-015-0090-y",
+      "verified": false
+    },
+    {
+      "key": "ods-exercise",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Dietary Supplements for Exercise and Athletic Performance: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Carnosine",
+      "anchor": "#definition",
+      "definition": "A dipeptide of beta-alanine and histidine that buffers acid in muscle."
+    },
+    {
+      "term": "Paresthesia",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "definition": "A harmless tingling of the skin after larger doses of beta-alanine."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A rower racing 2,000 m (about 6 to 7 minutes) asks if beta-alanine could help. What do you answer?",
+      "a": "Possibly a small benefit; the event is longer than the best window but includes high acid load, and the evidence for rowing is moderate.",
+      "anchor": "#proposed-effects-and-evidence",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

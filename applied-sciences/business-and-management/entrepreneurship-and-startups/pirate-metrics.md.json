@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "business.startups.pirate-metrics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "startups",
+      "metrics",
+      "funnel"
+    ],
+    "aliases": [
+      "AARRR",
+      "AAARRR"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.lean-canvas",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.churn-rate",
+      "rel": "related"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-metrics",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mcclure-2007",
+      "type": "website",
+      "authors": [
+        "McClure, D."
+      ],
+      "year": 2007,
+      "title": "Startup Metrics for Pirates: AARRR",
+      "url": "https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version",
+      "verified": false
+    },
+    {
+      "key": "ellis-2017",
+      "type": "book",
+      "authors": [
+        "Ellis, S.",
+        "Brown, M."
+      ],
+      "year": 2017,
+      "title": "Hacking Growth: How Today's Fastest-Growing Companies Drive Breakout Success"
+    },
+    {
+      "key": "ries-2011",
+      "type": "book",
+      "authors": [
+        "Ries, E."
+      ],
+      "year": 2011,
+      "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pirate metrics",
+      "anchor": "#definition",
+      "definition": "Five customer lifecycle stages (acquisition, activation, retention, referral, revenue) used to choose key metrics."
+    },
+    {
+      "term": "Activation",
+      "anchor": "#definition",
+      "definition": "The first good experience with a product, defined by a specific event."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}
