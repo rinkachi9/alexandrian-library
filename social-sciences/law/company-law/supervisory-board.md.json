@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "law.company-law.supervisory-board",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "company-law",
+      "poland",
+      "governance"
+    ],
+    "aliases": [
+      "rada nadzorcza",
+      "audit committee",
+      "komisja rewizyjna"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.management-board",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.shareholders-meeting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Supervisory board",
+      "anchor": "#definition",
+      "definition": "A collegial organ that permanently supervises the company's activity."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

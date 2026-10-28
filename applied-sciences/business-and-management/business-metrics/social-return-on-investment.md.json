@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "business.metrics.social-return-on-investment",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 13,
+    "tags": [
+      "metrics",
+      "impact",
+      "esg"
+    ],
+    "aliases": [
+      "SROI",
+      "social value"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.return-on-investment",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.return-on-investment",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sroi-guide-2012",
+      "type": "report",
+      "authors": [
+        "Nicholls, J.",
+        "Lawlor, E.",
+        "Neitzert, E.",
+        "Goodspeed, T."
+      ],
+      "year": 2012,
+      "title": "A Guide to Social Return on Investment (2nd ed.)"
+    },
+    {
+      "key": "social-value-principles",
+      "type": "website",
+      "authors": [
+        "Social Value UK"
+      ],
+      "title": "The Principles of Social Value",
+      "url": "https://socialvalueuk.org/principles-of-social-value",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "uk-social-value-act",
+      "type": "standard",
+      "authors": [
+        "UK Parliament"
+      ],
+      "year": 2012,
+      "title": "Public Services (Social Value) Act 2012",
+      "url": "https://www.legislation.gov.uk/ukpga/2012/3/enacted",
+      "verified": false
+    },
+    {
+      "key": "eu-procurement-2014",
+      "type": "standard",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2014,
+      "title": "Directive 2014/24/EU on public procurement",
+      "url": "https://eur-lex.europa.eu/eli/dir/2014/24/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Social return on investment",
+      "anchor": "#definition",
+      "definition": "Monetized social value created divided by the value invested."
+    },
+    {
+      "term": "Deadweight",
+      "anchor": "#mechanism",
+      "definition": "The part of an outcome that would have happened without the intervention."
+    },
+    {
+      "term": "Financial proxy",
+      "anchor": "#mechanism",
+      "definition": "A monetary value used to represent a non-market outcome."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

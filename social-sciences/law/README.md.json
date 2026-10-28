@@ -3,7 +3,13 @@
     "id": "social-sciences.law",
     "kind": "index",
     "status": "draft",
-    "order": 5
+    "order": 5,
+    "tags": [
+      "law"
+    ]
   },
-  "links": []
+  "links": [],
+  "map": {
+    "group": "law"
+  }
 }

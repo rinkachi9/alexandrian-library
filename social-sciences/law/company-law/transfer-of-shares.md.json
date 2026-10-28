@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "law.company-law.transfer-of-shares",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "company-law",
+      "poland"
+    ],
+    "aliases": [
+      "zbycie udziałów",
+      "share sale"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.shareholder-rights",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.shareholder-rights",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "pcc-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych (tax on civil law transactions act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000860959",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Right of first refusal",
+      "anchor": "#mechanism",
+      "definition": "A shareholder's right to buy shares on the same terms before an outside buyer."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

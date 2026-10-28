@@ -1,6 +1,6 @@
 # Social sciences
 
-Disciplines that study human behavior, societies and institutions. This area is planned and has no notes yet.
+Disciplines that study human behavior, societies and institutions. Law has notes (Polish company law); the other fields are planned.
 
 ## Fields
 

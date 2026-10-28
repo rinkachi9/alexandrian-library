@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.discounted-cash-flow",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "corporate-finance",
+      "valuation"
+    ],
+    "aliases": [
+      "DCF",
+      "discounted cash flow valuation"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.free-cash-flow",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.wacc",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.net-present-value",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "koller-2020",
+      "type": "book",
+      "authors": [
+        "Koller, T.",
+        "Goedhart, M.",
+        "Wessels, D."
+      ],
+      "year": 2020,
+      "title": "Valuation: Measuring and Managing the Value of Companies (7th ed.)"
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "title": "Investment Valuation (3rd ed.)"
+    },
+    {
+      "key": "gordon-1959",
+      "type": "paper",
+      "authors": [
+        "Gordon, M. J."
+      ],
+      "year": 1959,
+      "title": "Dividends, earnings, and stock prices",
+      "url": "https://doi.org/10.2307/1927792",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Discounted cash flow",
+      "anchor": "#definition",
+      "definition": "A valuation that discounts expected free cash flows and a terminal value to the present."
+    },
+    {
+      "term": "Terminal value",
+      "anchor": "#definition",
+      "definition": "The value of all cash flows after the forecast period."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

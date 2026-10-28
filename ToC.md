@@ -151,7 +151,7 @@ Entries without a link are planned topics. They become notes or directories when
     - Solar system (planned)
     - Stars and galaxies (planned)
     - Cosmology (planned)
-- **social-sciences/** (planned)
+- **social-sciences/**
   - [README.md](social-sciences/README.md): Social sciences - Disciplines that study human behavior, societies and institutions.
   - **psychology/** (planned)
     - [README.md](social-sciences/psychology/README.md): Psychology - Mind and behavior.
@@ -180,13 +180,25 @@ Entries without a link are planned topics. They become notes or directories when
     - Comparative politics (planned)
     - International relations (planned)
     - Public policy (planned)
-  - **law/** (planned)
+  - **law/**
     - [README.md](social-sciences/law/README.md): Law - Legal systems, rules and their application.
-    - Legal theory (planned)
-    - Contract law (planned)
-    - Criminal law (planned)
-    - Intellectual property (planned)
-    - Data protection and privacy law (planned)
+    - **company-law/**
+      - [README.md](social-sciences/law/company-law/README.md): Company law - The legal rules for forming, running and closing companies.
+      - [limited-liability-company.md](social-sciences/law/company-law/limited-liability-company.md): Polish limited liability company - The limited liability company (spółka z ograniczoną odpowiedzialnością, sp.
+      - [articles-of-association.md](social-sciences/law/company-law/articles-of-association.md): Articles of association - The articles of association (umowa spółki) are the founding contract of a sp.
+      - [formation-and-registration.md](social-sciences/law/company-law/formation-and-registration.md): Formation and registration - After the articles are signed, the management board must register the company in the National Court Register (KRS), which today is done only electronically through the...
+      - [management-board.md](social-sciences/law/company-law/management-board.md): Management board - The management board (zarząd) is the mandatory organ that runs a sp.
+      - [shareholders-meeting.md](social-sciences/law/company-law/shareholders-meeting.md): Shareholders' meeting - The shareholders' meeting (zgromadzenie wspólników) is the mandatory organ of all shareholders that takes the company's most important decisions.
+      - [supervisory-board.md](social-sciences/law/company-law/supervisory-board.md): Supervisory board - The supervisory board (rada nadzorcza) is the organ that permanently supervises the company's activity in all areas: it reviews the financial statements and management...
+      - [shareholder-rights.md](social-sciences/law/company-law/shareholder-rights.md): Shareholder rights - A shareholder in a sp.
+      - [dividends.md](social-sciences/law/company-law/dividends.md): Dividends - A dividend is the shareholders' share in the company's profit.
+      - [additional-payments.md](social-sciences/law/company-law/additional-payments.md): Additional payments - Additional payments (dopłaty) are a way for shareholders to fund a sp.
+      - [transfer-of-shares.md](social-sciences/law/company-law/transfer-of-shares.md): Transfer of shares - Shares in a sp.
+      - [amending-articles-of-association.md](social-sciences/law/company-law/amending-articles-of-association.md): Amending the articles of association - Changing the articles of a sp.
+      - [shareholder-liability.md](social-sciences/law/company-law/shareholder-liability.md): Shareholder liability - Shareholders of a sp.
+      - [management-board-liability.md](social-sciences/law/company-law/management-board-liability.md): Management board liability - Members of the management board of a sp.
+      - [dissolution-and-liquidation.md](social-sciences/law/company-law/dissolution-and-liquidation.md): Dissolution and liquidation - A sp.
+      - [accounting-and-taxation.md](social-sciences/law/company-law/accounting-and-taxation.md): Accounting and taxation - A sp.
   - **anthropology/** (planned)
     - [README.md](social-sciences/anthropology/README.md): Anthropology - Human cultures and human origins.
     - Cultural anthropology (planned)
@@ -759,23 +771,62 @@ Entries without a link are planned topics. They become notes or directories when
     - Mechanical (planned)
     - Civil (planned)
     - Materials (planned)
-  - **business-and-management/** (planned)
+  - **business-and-management/**
     - [README.md](applied-sciences/business-and-management/README.md): Business and management - Creating, running and growing organizations.
-    - Entrepreneurship and startups (planned)
-    - Strategy (planned)
-    - Marketing and copywriting (planned)
-    - Sales and client acquisition (planned)
-    - E-commerce (planned)
-    - Operations (planned)
-    - Leadership and management (planned)
-  - **finance-and-investing/** (planned)
+    - **entrepreneurship-and-startups/**
+      - [README.md](applied-sciences/business-and-management/entrepreneurship-and-startups/README.md): Entrepreneurship and startups - How new businesses are founded, tested and kept alive.
+      - [lean-startup.md](applied-sciences/business-and-management/entrepreneurship-and-startups/lean-startup.md): Lean startup - The lean startup is a method for building new products under high uncertainty.
+      - [minimum-viable-product.md](applied-sciences/business-and-management/entrepreneurship-and-startups/minimum-viable-product.md): Minimum viable product - A minimum viable product (MVP) is the smallest version of a product, or a substitute for it, that lets a team test its most important assumption with real customers.
+      - [lean-canvas.md](applied-sciences/business-and-management/entrepreneurship-and-startups/lean-canvas.md): Lean Canvas - The Lean Canvas is a one-page template for describing a business model as a set of testable assumptions.
+      - [pirate-metrics.md](applied-sciences/business-and-management/entrepreneurship-and-startups/pirate-metrics.md): Pirate metrics (AARRR) - Pirate metrics are a framework for choosing a startup's key metrics along the customer lifecycle: acquisition, activation, retention, referral and revenue.
+      - [product-market-fit.md](applied-sciences/business-and-management/entrepreneurship-and-startups/product-market-fit.md): Product-market fit - Product-market fit (PMF) is the point at which a product satisfies a strong demand in a specific market, so that customers keep using it, pay for it and recommend it w...
+      - [why-startups-fail.md](applied-sciences/business-and-management/entrepreneurship-and-startups/why-startups-fail.md): Why startups fail - Most startups fail, and studies of failed companies point to the same few causes: building something the market does not need, running out of money, and team problems.
+      - [founding-team.md](applied-sciences/business-and-management/entrepreneurship-and-startups/founding-team.md): Founding team - An early-stage company needs a small team that together covers selling, building, designing, solving problems and setting direction.
+      - [building-the-first-product.md](applied-sciences/business-and-management/entrepreneurship-and-startups/building-the-first-product.md): Building the first product - Getting a first software product to market quickly depends more on decisions than on coding speed.
+      - [entrepreneurship-lessons.md](applied-sciences/business-and-management/entrepreneurship-and-startups/entrepreneurship-lessons.md): Entrepreneurship lessons - Practitioners pass on their experience as short maxims: sell the transformation, state your price and stop talking, solve pains rather than desires, compete on value,...
+    - **growth/**
+      - [README.md](applied-sciences/business-and-management/growth/README.md): Growth - How a consumer product goes from an idea to its first users and then to sustained growth.
+      - [consumer-growth-sequence.md](applied-sciences/business-and-management/growth/consumer-growth-sequence.md): Consumer growth sequence - Successful consumer startups tend to grow through six steps in a fixed order: find an insight (a real pain point), choose a super-specific audience, craft a hook, manu...
+      - [super-specific-audience.md](applied-sciences/business-and-management/growth/super-specific-audience.md): Super-specific audience - In the early stage of a consumer business, "everyone" is the wrong target.
+      - [hook.md](applied-sciences/business-and-management/growth/hook.md): The hook - The hook is a simple, urgent pitch that makes someone in the target niche want the product now.
+      - [first-thousand-users.md](applied-sciences/business-and-management/growth/first-thousand-users.md): First 1,000 users - The first 1,000 users of a consumer product are almost always won by hand.
+      - [retention.md](applied-sciences/business-and-management/growth/retention.md): Retention - Retention is the share of users who keep using a product over time.
+      - [growth-engines.md](applied-sciences/business-and-management/growth/growth-engines.md): Growth engines - Once a product retains users, growth must come from a repeatable system rather than manual effort.
+      - [performance-marketing-engine.md](applied-sciences/business-and-management/growth/performance-marketing-engine.md): Performance marketing engine - Performance marketing is growth through paid acquisition: buying ads on platforms such as Meta, Google, TikTok and Apple Search Ads and reinvesting revenue into more ads.
+      - [virality.md](applied-sciences/business-and-management/growth/virality.md): Virality - Virality is growth in which existing users bring new users as part of using or talking about the product.
+      - [content-engine.md](applied-sciences/business-and-management/growth/content-engine.md): Content engine - The content engine grows a business by building a large inventory of content that people find through search or share on social media.
+      - [sales-and-partnerships-engine.md](applied-sciences/business-and-management/growth/sales-and-partnerships-engine.md): Sales and partnerships engine - The sales and partnerships engine grows a business through people: a sales or business development team signs up partners or professional suppliers who bring their own...
+    - **business-metrics/**
+      - [README.md](applied-sciences/business-and-management/business-metrics/README.md): Business metrics - The numbers that show whether a business, especially a subscription business, is healthy and growing efficiently.
+      - [monthly-recurring-revenue.md](applied-sciences/business-and-management/business-metrics/monthly-recurring-revenue.md): Monthly recurring revenue (MRR) - Monthly recurring revenue (MRR) is the predictable revenue a subscription business expects to receive every month from its active paying customers.
+      - [annual-recurring-revenue.md](applied-sciences/business-and-management/business-metrics/annual-recurring-revenue.md): Annual recurring revenue (ARR) - Annual recurring revenue (ARR) is the value of a company's recurring subscription revenue normalized to one year.
+      - [arpu.md](applied-sciences/business-and-management/business-metrics/arpu.md): Average revenue per user (ARPU) - Average revenue per user (ARPU) is the recurring revenue a business earns per paying customer in a period, usually a month.
+      - [arpa.md](applied-sciences/business-and-management/business-metrics/arpa.md): Average revenue per account (ARPA) - Average revenue per account (ARPA) is recurring revenue divided by the number of distinct paying accounts, where an account is a company or household that may have man...
+      - [churn-rate.md](applied-sciences/business-and-management/business-metrics/churn-rate.md): Churn rate - Churn rate is the share of customers or recurring revenue lost in a period.
+      - [net-revenue-retention.md](applied-sciences/business-and-management/business-metrics/net-revenue-retention.md): Net revenue retention - Net revenue retention (NRR) measures how much recurring revenue a group of existing customers generates now compared with a year (or month) ago, including expansion, c...
+      - [customer-acquisition-cost.md](applied-sciences/business-and-management/business-metrics/customer-acquisition-cost.md): Customer acquisition cost (CAC) - Customer acquisition cost (CAC) is the total cost of winning one new customer: sales and marketing spending in a period divided by the new customers won.
+      - [cac-payback-period.md](applied-sciences/business-and-management/business-metrics/cac-payback-period.md): CAC payback period - The CAC payback period is the number of months it takes for a new customer's gross margin to repay the cost of acquiring them.
+      - [customer-lifetime-value.md](applied-sciences/business-and-management/business-metrics/customer-lifetime-value.md): Customer lifetime value (LTV) - Customer lifetime value (LTV, also CLV) is the total revenue or profit a business expects from a customer over the whole relationship.
+      - [ltv-to-cac-ratio.md](applied-sciences/business-and-management/business-metrics/ltv-to-cac-ratio.md): LTV to CAC ratio - The LTV to CAC ratio compares what a customer is worth over its lifetime with what it cost to acquire.
+      - [return-on-investment.md](applied-sciences/business-and-management/business-metrics/return-on-investment.md): Return on investment (ROI) - Return on investment (ROI) measures how much net profit an investment produced for each unit of money put in: net profit divided by cost.
+      - [return-on-ad-spend.md](applied-sciences/business-and-management/business-metrics/return-on-ad-spend.md): Return on ad spend (ROAS) - Return on ad spend (ROAS) measures the revenue earned for each unit of money spent on advertising.
+      - [social-return-on-investment.md](applied-sciences/business-and-management/business-metrics/social-return-on-investment.md): Social return on investment (SROI) - Social return on investment (SROI) is a principles-based method for measuring social, environmental and economic value that does not appear in conventional financial a...
+  - **finance-and-investing/**
     - [README.md](applied-sciences/finance-and-investing/README.md): Finance and investing - Managing money, markets and risk.
-    - Personal finance (planned)
-    - Financial instruments (planned)
-    - Stocks (planned)
-    - Derivatives and options (planned)
-    - Portfolio construction (planned)
-    - Taxes and retirement (planned)
+    - **corporate-finance/**
+      - [README.md](applied-sciences/finance-and-investing/corporate-finance/README.md): Corporate finance - How a company measures profit and cash, how much it is worth and which investments it should make.
+      - [financial-statements.md](applied-sciences/finance-and-investing/corporate-finance/financial-statements.md): Financial statements - A company reports its finances in three linked statements.
+      - [time-value-of-money.md](applied-sciences/finance-and-investing/corporate-finance/time-value-of-money.md): Time value of money - A sum of money today is worth more than the same sum in the future, because money available now can be invested to earn a return and because the future is uncertain.
+      - [ebitda.md](applied-sciences/finance-and-investing/corporate-finance/ebitda.md): EBITDA - EBITDA stands for earnings before interest, taxes, depreciation and amortization.
+      - [operating-expenses.md](applied-sciences/finance-and-investing/corporate-finance/operating-expenses.md): Operating expenses (OpEx) - Operating expenses (OpEx) are the day-to-day costs of running a business, consumed within the current period: salaries, rent, software subscriptions, marketing, research.
+      - [capital-expenditure.md](applied-sciences/finance-and-investing/corporate-finance/capital-expenditure.md): Capital expenditure (CapEx) - Capital expenditure (CapEx) is money spent to acquire, upgrade or extend the life of long-lived assets such as buildings, machines, vehicles, servers and, in some case...
+      - [free-cash-flow.md](applied-sciences/finance-and-investing/corporate-finance/free-cash-flow.md): Free cash flow (FCF) - Free cash flow (FCF) is the cash a business generates from operations after paying for the investment needed to maintain and grow its assets.
+      - [discounted-cash-flow.md](applied-sciences/finance-and-investing/corporate-finance/discounted-cash-flow.md): Discounted cash flow (DCF) - Discounted cash flow (DCF) valuation estimates what a business or project is worth today from the free cash flows it is expected to produce, discounted at a rate that...
+      - [wacc.md](applied-sciences/finance-and-investing/corporate-finance/wacc.md): Weighted average cost of capital (WACC) - The weighted average cost of capital (WACC) is the average return a company must pay to its lenders and shareholders, weighted by how much of each kind of capital it u...
+      - [net-present-value.md](applied-sciences/finance-and-investing/corporate-finance/net-present-value.md): Net present value (NPV) - Net present value (NPV) is the difference between the present value of an investment's future cash inflows and the present value of its outflows, discounted at the req...
+      - [internal-rate-of-return.md](applied-sciences/finance-and-investing/corporate-finance/internal-rate-of-return.md): Internal rate of return (IRR) - The internal rate of return (IRR) is the discount rate at which an investment's net present value is zero: the annual return the project effectively pays on the money...
+      - [payback-period.md](applied-sciences/finance-and-investing/corporate-finance/payback-period.md): Payback period - The payback period is the time an investment takes to return its initial cost from the cash it generates.
+      - [capital-budgeting-methods.md](applied-sciences/finance-and-investing/corporate-finance/capital-budgeting-methods.md): Capital budgeting methods - Capital budgeting is the process of deciding which long-term investments a company should make.
 - **arts/** (planned)
   - [README.md](arts/README.md): Arts - Creative practice and the study of aesthetic works.
   - **visual-arts/** (planned)

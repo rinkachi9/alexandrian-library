@@ -1,0 +1,65 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.time-value-of-money",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "corporate-finance",
+      "discounting"
+    ],
+    "aliases": [
+      "TVM",
+      "present value",
+      "discounting"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.discounted-cash-flow",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    },
+    {
+      "key": "gordon-1959",
+      "type": "paper",
+      "authors": [
+        "Gordon, M. J."
+      ],
+      "year": 1959,
+      "title": "Dividends, earnings, and stock prices",
+      "url": "https://doi.org/10.2307/1927792",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Present value",
+      "anchor": "#definition",
+      "definition": "The value today of a future sum, found by discounting at the opportunity cost of capital."
+    },
+    {
+      "term": "Growing perpetuity",
+      "anchor": "#mechanism",
+      "definition": "A cash flow growing forever at g, worth C / (r - g) today."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

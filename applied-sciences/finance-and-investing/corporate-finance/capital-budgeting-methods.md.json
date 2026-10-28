@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.capital-budgeting-methods",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 12,
+    "tags": [
+      "corporate-finance",
+      "capital-budgeting"
+    ],
+    "aliases": [
+      "investment appraisal",
+      "PP vs NPV vs IRR"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.net-present-value",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.internal-rate-of-return",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.payback-period",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.return-on-investment",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "graham-harvey-2001",
+      "type": "paper",
+      "authors": [
+        "Graham, J. R.",
+        "Harvey, C. R."
+      ],
+      "year": 2001,
+      "title": "The theory and practice of corporate finance: Evidence from the field",
+      "url": "https://doi.org/10.1016/S0304-405X(01)00044-7",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Capital budgeting",
+      "anchor": "#definition",
+      "definition": "The evaluation and selection of long-term investments."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

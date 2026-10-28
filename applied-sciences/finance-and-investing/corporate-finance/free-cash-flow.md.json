@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.free-cash-flow",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "corporate-finance",
+      "cash-flow"
+    ],
+    "aliases": [
+      "FCF",
+      "FCFF",
+      "FCFE"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.capital-expenditure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.ebitda",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.ebitda",
+      "rel": "contrasts"
+    },
+    {
+      "to": "finance.corporate-finance.discounted-cash-flow",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ifrs-ias7",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "title": "IAS 7 Statement of Cash Flows",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+      "verified": false
+    },
+    {
+      "key": "koller-2020",
+      "type": "book",
+      "authors": [
+        "Koller, T.",
+        "Goedhart, M.",
+        "Wessels, D."
+      ],
+      "year": 2020,
+      "title": "Valuation: Measuring and Managing the Value of Companies (7th ed.)"
+    },
+    {
+      "key": "damodaran-2012",
+      "type": "book",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "year": 2012,
+      "title": "Investment Valuation (3rd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Free cash flow",
+      "anchor": "#definition",
+      "definition": "Cash flow from operations minus capital expenditure."
+    },
+    {
+      "term": "Free cash flow to the firm",
+      "anchor": "#definition",
+      "definition": "Free cash flow before interest, available to all investors, discounted at WACC."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

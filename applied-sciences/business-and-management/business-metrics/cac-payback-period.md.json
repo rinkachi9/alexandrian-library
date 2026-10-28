@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "business.metrics.cac-payback-period",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "metrics",
+      "cash-flow",
+      "unit-economics"
+    ],
+    "aliases": [
+      "CAC payback",
+      "months to recover CAC"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.customer-acquisition-cost",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.ltv-to-cac-ratio",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    },
+    {
+      "key": "lenny-2022-engines",
+      "type": "website",
+      "authors": [
+        "Rachitsky, L."
+      ],
+      "year": 2022,
+      "title": "Step 6: Growth engines",
+      "url": "https://www.lennysnewsletter.com/p/growth-engines",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "CAC payback period",
+      "anchor": "#definition",
+      "definition": "Months until a customer's gross margin repays the cost of acquiring them."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

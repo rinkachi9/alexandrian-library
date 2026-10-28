@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "law.company-law.limited-liability-company",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "company-law",
+      "poland",
+      "llc"
+    ],
+    "aliases": [
+      "spółka z o.o.",
+      "sp. z o.o.",
+      "spółka z ograniczoną odpowiedzialnością",
+      "LLC"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.articles-of-association",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "biznes-gov-spzoo",
+      "type": "documentation",
+      "authors": [
+        "biznes.gov.pl"
+      ],
+      "title": "Założenie spółki z ograniczoną odpowiedzialnością",
+      "url": "https://www.biznes.gov.pl/pl/portal/00186",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Legal personality",
+      "anchor": "#definition",
+      "definition": "The capacity of a company to own property, incur obligations and sue in its own name."
+    },
+    {
+      "term": "Share capital",
+      "anchor": "#mechanism",
+      "definition": "The capital of at least 5,000 zł divided into shares of at least 50 zł."
+    },
+    {
+      "term": "Contribution in kind",
+      "anchor": "#mechanism",
+      "definition": "A non-cash asset contributed to pay for shares."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

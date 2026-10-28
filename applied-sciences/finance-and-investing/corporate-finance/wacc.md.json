@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.wacc",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "corporate-finance",
+      "cost-of-capital"
+    ],
+    "aliases": [
+      "WACC",
+      "hurdle rate",
+      "cost of capital"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.discounted-cash-flow",
+      "rel": "related"
+    },
+    {
+      "to": "finance.corporate-finance.net-present-value",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "modigliani-miller-1958",
+      "type": "paper",
+      "authors": [
+        "Modigliani, F.",
+        "Miller, M. H."
+      ],
+      "year": 1958,
+      "title": "The cost of capital, corporation finance and the theory of investment"
+    },
+    {
+      "key": "modigliani-miller-1963",
+      "type": "paper",
+      "authors": [
+        "Modigliani, F.",
+        "Miller, M. H."
+      ],
+      "year": 1963,
+      "title": "Corporate income taxes and the cost of capital: A correction"
+    },
+    {
+      "key": "sharpe-1964",
+      "type": "paper",
+      "authors": [
+        "Sharpe, W. F."
+      ],
+      "year": 1964,
+      "title": "Capital asset prices: A theory of market equilibrium under conditions of risk",
+      "url": "https://doi.org/10.1111/j.1540-6261.1964.tb02865.x",
+      "verified": false
+    },
+    {
+      "key": "damodaran-data",
+      "type": "website",
+      "authors": [
+        "Damodaran, A."
+      ],
+      "title": "Damodaran Online: data on cost of capital, multiples and margins by industry",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+      "verified": false
+    },
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "WACC",
+      "anchor": "#definition",
+      "definition": "The market-value-weighted average of the after-tax cost of debt and the cost of equity."
+    },
+    {
+      "term": "Tax shield",
+      "anchor": "#mechanism",
+      "definition": "The reduction in tax from deductible interest, which lowers the effective cost of debt."
+    },
+    {
+      "term": "CAPM",
+      "anchor": "#definition",
+      "definition": "A model estimating the cost of equity as the risk-free rate plus beta times the market risk premium."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

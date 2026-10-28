@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.finance-and-investing.corporate-finance",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "corporate-finance"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

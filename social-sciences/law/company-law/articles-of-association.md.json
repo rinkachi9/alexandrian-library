@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "law.company-law.articles-of-association",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "company-law",
+      "poland"
+    ],
+    "aliases": [
+      "umowa spółki",
+      "akt założycielski",
+      "S24"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.limited-liability-company",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.formation-and-registration",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "ekrs",
+      "type": "documentation",
+      "authors": [
+        "Ministerstwo Sprawiedliwości"
+      ],
+      "title": "eKRS: Portal Rejestrów Sądowych, S24 and KRS search",
+      "url": "https://ekrs.ms.gov.pl/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "biznes-gov-pkd",
+      "type": "documentation",
+      "authors": [
+        "biznes.gov.pl"
+      ],
+      "title": "Tabela kodów PKD (Polish Classification of Activities)",
+      "url": "https://www.biznes.gov.pl/pl/tabela-pkd",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Articles of association",
+      "anchor": "#definition",
+      "definition": "The founding contract of a company setting its name, seat, activities, capital and internal rules."
+    },
+    {
+      "term": "Company in organization",
+      "anchor": "#mechanism",
+      "definition": "The company as it exists between signing the articles and registration."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

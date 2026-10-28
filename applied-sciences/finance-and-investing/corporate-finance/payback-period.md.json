@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.payback-period",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "corporate-finance",
+      "capital-budgeting"
+    ],
+    "aliases": [
+      "PP",
+      "discounted payback"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.time-value-of-money",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.capital-budgeting-methods",
+      "rel": "part-of"
+    },
+    {
+      "to": "business.metrics.cac-payback-period",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    },
+    {
+      "key": "graham-harvey-2001",
+      "type": "paper",
+      "authors": [
+        "Graham, J. R.",
+        "Harvey, C. R."
+      ],
+      "year": 2001,
+      "title": "The theory and practice of corporate finance: Evidence from the field",
+      "url": "https://doi.org/10.1016/S0304-405X(01)00044-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Payback period",
+      "anchor": "#definition",
+      "definition": "The time an investment takes to return its initial cost from the cash it generates."
+    },
+    {
+      "term": "Discounted payback period",
+      "anchor": "#definition",
+      "definition": "Payback computed from cash flows discounted at the cost of capital."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

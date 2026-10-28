@@ -3,7 +3,13 @@
     "id": "applied-sciences.business-and-management",
     "kind": "index",
     "status": "draft",
-    "order": 4
+    "order": 4,
+    "tags": [
+      "business"
+    ]
   },
-  "links": []
+  "links": [],
+  "map": {
+    "group": "business-and-management"
+  }
 }

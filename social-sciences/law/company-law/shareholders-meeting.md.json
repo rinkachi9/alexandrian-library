@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "law.company-law.shareholders-meeting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "company-law",
+      "poland",
+      "governance"
+    ],
+    "aliases": [
+      "zgromadzenie wspólników",
+      "general meeting"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.limited-liability-company",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.amending-articles-of-association",
+      "rel": "related"
+    },
+    {
+      "to": "law.company-law.dividends",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ksh",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 15 września 2000 r. Kodeks spółek handlowych (Commercial Companies Code), consolidated text",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000941037",
+      "verified": false
+    },
+    {
+      "key": "ksh-2026-project",
+      "type": "website",
+      "authors": [
+        "adviser.law"
+      ],
+      "year": 2026,
+      "title": "Projekt zmiany KSH w 2026 r.: nowe zasady zwoływania zgromadzeń wspólników i udzielania pełnomocnictw",
+      "url": "https://adviser.law/prawo-spolek-handlowych-projekt-zmiany-k-s-h-w-2026-r-nowe-zasady-zwolywania-zgromadzen-wspolnikow-i-udzielania-pelnomocnictw",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Shareholders' meeting",
+      "anchor": "#definition",
+      "definition": "The organ of all shareholders that takes the company's main decisions."
+    },
+    {
+      "term": "Discharge",
+      "anchor": "#mechanism",
+      "definition": "Absolutorium: the meeting's approval of how an organ member performed their duties."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

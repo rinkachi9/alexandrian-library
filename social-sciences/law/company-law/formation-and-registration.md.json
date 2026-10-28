@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "law.company-law.formation-and-registration",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "company-law",
+      "poland",
+      "registration"
+    ],
+    "aliases": [
+      "wpis do KRS",
+      "CRBR",
+      "rejestracja spółki"
+    ]
+  },
+  "links": [
+    {
+      "to": "law.company-law.articles-of-association",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "law.company-law.limited-liability-company",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "krs-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 1997,
+      "title": "Ustawa z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym (National Court Register Act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971210769",
+      "verified": false
+    },
+    {
+      "key": "aml-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2018,
+      "title": "Ustawa z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (AML act, CRBR rules)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000723",
+      "verified": false
+    },
+    {
+      "key": "crbr-portal",
+      "type": "documentation",
+      "authors": [
+        "Ministerstwo Finansów"
+      ],
+      "title": "Centralny Rejestr Beneficjentów Rzeczywistych",
+      "url": "https://www.podatki.gov.pl/crbr/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "pcc-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2000,
+      "title": "Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych (tax on civil law transactions act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000860959",
+      "verified": false
+    },
+    {
+      "key": "krs-fees-2026",
+      "type": "website",
+      "authors": [
+        "Poradnik Przedsiębiorcy"
+      ],
+      "year": 2026,
+      "title": "Opłaty sądowe w postępowaniu rejestrowym 2026",
+      "url": "https://poradnikprzedsiebiorcy.pl/-oplaty-sadowe-w-postepowaniu-rejestrowym",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "msig-change-2025",
+      "type": "website",
+      "authors": [
+        "Rzeczpospolita"
+      ],
+      "year": 2025,
+      "title": "Czy spółki nadal muszą publikować ogłoszenia w MSiG?",
+      "url": "https://pro.rp.pl/biznes/art43605401-czy-spolki-nadal-musza-publikowac-ogloszenia-w-msig",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "court-fees-act",
+      "type": "standard",
+      "authors": [
+        "Sejm RP"
+      ],
+      "year": 2005,
+      "title": "Ustawa z dnia 28 lipca 2005 r. o kosztach sądowych w sprawach cywilnych (court fees act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20051671398",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "National Court Register",
+      "anchor": "#definition",
+      "definition": "The Polish public register in which companies are entered; entry gives a sp. z o.o. legal personality."
+    },
+    {
+      "term": "Beneficial owner",
+      "anchor": "#mechanism",
+      "definition": "The natural person who ultimately controls a company, directly or indirectly."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "company-law"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "node": {
+    "id": "business.metrics.arpa",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "metrics",
+      "saas",
+      "b2b"
+    ],
+    "aliases": [
+      "ARPA",
+      "ARPAC"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.arpu",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.metrics.net-revenue-retention",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "skok-saas-metrics",
+      "type": "website",
+      "authors": [
+        "Skok, D."
+      ],
+      "year": 2013,
+      "title": "SaaS Metrics 2.0: A guide to measuring and improving what matters",
+      "url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Average revenue per account",
+      "anchor": "#definition",
+      "definition": "Recurring revenue divided by the number of unique paying accounts."
+    },
+    {
+      "term": "Land and expand",
+      "anchor": "#mechanism",
+      "definition": "Winning an account small and growing its spending over time."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

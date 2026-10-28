@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "finance.corporate-finance.operating-expenses",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "corporate-finance",
+      "costs"
+    ],
+    "aliases": [
+      "OpEx",
+      "operating expenditure",
+      "operating leverage"
+    ]
+  },
+  "links": [
+    {
+      "to": "finance.corporate-finance.financial-statements",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "finance.corporate-finance.capital-expenditure",
+      "rel": "contrasts"
+    },
+    {
+      "to": "finance.corporate-finance.ebitda",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    },
+    {
+      "key": "ifrs-16",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "year": 2016,
+      "title": "IFRS 16 Leases",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/",
+      "verified": false
+    },
+    {
+      "key": "ifrs-ias38",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "title": "IAS 38 Intangible Assets",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Operating expenditure",
+      "anchor": "#definition",
+      "definition": "Spending on running the business that is expensed in the current period."
+    },
+    {
+      "term": "Operating leverage",
+      "anchor": "#mechanism",
+      "definition": "The sensitivity of operating profit to changes in revenue, driven by the share of fixed costs."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "corporate-finance"
+  }
+}

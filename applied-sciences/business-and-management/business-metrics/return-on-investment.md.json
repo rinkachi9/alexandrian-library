@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "business.metrics.return-on-investment",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "metrics",
+      "returns",
+      "investment"
+    ],
+    "aliases": [
+      "ROI"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.metrics.return-on-ad-spend",
+      "rel": "contrasts"
+    },
+    {
+      "to": "finance.corporate-finance.net-present-value",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brealey-2023",
+      "type": "book",
+      "authors": [
+        "Brealey, R. A.",
+        "Myers, S. C.",
+        "Allen, F.",
+        "Edmans, A."
+      ],
+      "year": 2023,
+      "title": "Principles of Corporate Finance (14th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Return on investment",
+      "anchor": "#definition",
+      "definition": "Net profit from an investment divided by its cost."
+    },
+    {
+      "term": "Annualized ROI",
+      "anchor": "#mechanism",
+      "definition": "ROI converted to an annual rate: (1 + ROI) raised to 1/n, minus 1."
+    },
+    {
+      "term": "Opportunity cost",
+      "anchor": "#mechanism",
+      "definition": "The return given up by choosing one option over the best alternative."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "business-metrics"
+  }
+}

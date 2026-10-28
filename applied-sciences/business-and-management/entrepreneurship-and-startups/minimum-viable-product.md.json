@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "business.startups.minimum-viable-product",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "startups",
+      "mvp",
+      "validation"
+    ],
+    "aliases": [
+      "MVP"
+    ]
+  },
+  "links": [
+    {
+      "to": "business.startups.lean-startup",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "business.startups.lean-canvas",
+      "rel": "related"
+    },
+    {
+      "to": "skills.e-commerce.product-validation",
+      "rel": "related"
+    },
+    {
+      "to": "business.startups.building-the-first-product",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ries-2011",
+      "type": "book",
+      "authors": [
+        "Ries, E."
+      ],
+      "year": 2011,
+      "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+    },
+    {
+      "key": "maurya-2012",
+      "type": "book",
+      "authors": [
+        "Maurya, A."
+      ],
+      "year": 2012,
+      "title": "Running Lean: Iterate from Plan A to a Plan That Works"
+    },
+    {
+      "key": "fitzpatrick-2013",
+      "type": "book",
+      "authors": [
+        "Fitzpatrick, R."
+      ],
+      "year": 2013,
+      "title": "The Mom Test"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Minimum viable product",
+      "anchor": "#definition",
+      "definition": "The version of a product that yields the most validated learning for the least effort."
+    },
+    {
+      "term": "Wizard of Oz MVP",
+      "anchor": "#mechanism",
+      "definition": "An MVP where customers see a product while humans do the work behind it."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "entrepreneurship-and-startups"
+  }
+}
