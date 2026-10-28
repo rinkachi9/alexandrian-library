@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "amino-acids.lysine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "amino-acids",
+      "essential",
+      "supplements",
+      "herpes",
+      "collagen"
+    ],
+    "aliases": [
+      "L-lysine",
+      "Lys",
+      "K"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.arginine",
+      "rel": "contrasts"
+    },
+    {
+      "to": "proteins.collagen",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Herpes simplex virus",
+      "anchor": "#mechanism",
+      "definition": "The virus that causes cold sores and genital herpes."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is lysine the limiting amino acid of cereals important for plant-based diets?",
+      "a": "Cereal protein supplies too little lysine for human needs, so legumes or other lysine-rich foods must complement it.",
+      "anchor": "#requirement-and-food-sources",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

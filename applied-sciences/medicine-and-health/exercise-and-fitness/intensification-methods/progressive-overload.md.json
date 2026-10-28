@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "exercise.intensification.progressive-overload",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "overload principle",
+      "double progression"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.general-adaptation-syndrome",
+      "rel": "applies"
+    }
+  ],
+  "sources": [
+    {
+      "key": "plotkin-2022",
+      "type": "paper",
+      "authors": [
+        "Plotkin, D.",
+        "Coleman, M.",
+        "Van Every, D."
+      ],
+      "year": 2022,
+      "title": "Progressive overload without progressing load? The effects of load or repetition progression on muscular adaptations",
+      "url": "https://doi.org/10.7717/peerj.14142",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2021-continuum",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Van Every, D. W.",
+        "Plotkin, D. L."
+      ],
+      "year": 2021,
+      "title": "Loading recommendations for muscle strength, hypertrophy, and local endurance: a re-examination of the repetition continuum",
+      "url": "https://doi.org/10.3390/sports9020032",
+      "verified": false
+    },
+    {
+      "key": "acsm-2009",
+      "type": "paper",
+      "authors": [
+        "American College of Sports Medicine"
+      ],
+      "year": 2009,
+      "title": "Progression models in resistance training for healthy adults",
+      "url": "https://doi.org/10.1249/MSS.0b013e3181915670",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Progressive overload",
+      "anchor": "#definition",
+      "definition": "Gradually increasing the training stimulus so the body keeps adapting."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "You did 3 × 12 at the top of an 8 to 12 range. What next?",
+      "a": "Increase the load and drop back to the lower end of the range.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "exercise.training-variables.rep-ranges-and-load",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "exercise",
+      "training-variables",
+      "hypertrophy"
+    ],
+    "aliases": [
+      "rep range",
+      "double progression",
+      "training load"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rir",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.hypertrophy",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.intensification.progressive-overload",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2017-load",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Ogborn, D.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1519/JSC.0000000000002200",
+      "verified": false
+    },
+    {
+      "key": "acsm-2009",
+      "type": "paper",
+      "authors": [
+        "American College of Sports Medicine"
+      ],
+      "year": 2009,
+      "title": "Progression models in resistance training for healthy adults",
+      "url": "https://doi.org/10.1249/MSS.0b013e3181915670",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Repetition range",
+      "anchor": "#definition",
+      "definition": "The target number of repetitions per set."
+    },
+    {
+      "term": "Double progression",
+      "anchor": "#definition",
+      "definition": "Increasing repetitions within a range, then load once the top is reached."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A lifter rows 50 kg for 12, 12 and 12. What next?",
+      "a": "Increase the load (for example to 52.5 or 55 kg) and work back up from about 8 repetitions.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

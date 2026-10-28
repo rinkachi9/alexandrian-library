@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "physiology.chronobiology",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "physiology",
+      "circadian",
+      "sleep"
+    ],
+    "aliases": [
+      "circadian rhythm",
+      "body clock",
+      "biological clock"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.endocrine.melatonin",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.sleep.sleep-architecture",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nobel-2017",
+      "type": "website",
+      "authors": [
+        "Nobel Assembly at Karolinska Institutet"
+      ],
+      "year": 2017,
+      "title": "The Nobel Prize in Physiology or Medicine 2017: press release",
+      "url": "https://www.nobelprize.org/prizes/medicine/2017/press-release/",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Circadian rhythm",
+      "anchor": "#definition",
+      "definition": "An internal rhythm of about 24 hours entrained by light and other cues."
+    },
+    {
+      "term": "Zeitgeber",
+      "anchor": "#definition",
+      "definition": "An external cue, mainly light, that synchronizes the circadian clock."
+    },
+    {
+      "term": "Chronotype",
+      "anchor": "#chronotypes",
+      "definition": "A person's preferred timing of sleep and activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does morning daylight help sleep at night?",
+      "a": "It entrains the master clock so that melatonin rises at the right time in the evening.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiology"
+  }
+}

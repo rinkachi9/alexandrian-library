@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "exercise.mobility.anti-movements",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "exercise",
+      "mobility"
+    ],
+    "aliases": [
+      "anti-extension",
+      "anti-rotation",
+      "anti-flexion",
+      "anti-lateral flexion"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.mobility.core",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.core",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mcgill-2015",
+      "type": "book",
+      "authors": [
+        "McGill, S."
+      ],
+      "year": 2015,
+      "title": "Low Back Disorders: Evidence-Based Prevention and Rehabilitation (3rd ed.)"
+    },
+    {
+      "key": "boyle-2016",
+      "type": "book",
+      "authors": [
+        "Boyle, M."
+      ],
+      "year": 2016,
+      "title": "New Functional Training for Sports (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anti-movement training",
+      "anchor": "#definition",
+      "definition": "Core training in which the trunk resists forces that try to move the spine."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Which anti-movement does a suitcase carry train?",
+      "a": "Anti-lateral flexion.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "mobility"
+  }
+}

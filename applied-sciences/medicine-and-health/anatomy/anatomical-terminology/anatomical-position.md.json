@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "anatomy.terminology.anatomical-position",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "terminology"
+    ],
+    "aliases": [
+      "standard anatomical position",
+      "reference position"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.axes-and-planes",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anatomical position",
+      "anchor": "#definition",
+      "definition": "Standing upright, facing forward, arms at the sides with palms forward, feet together."
+    },
+    {
+      "term": "Supine and prone",
+      "anchor": "#related-reference-positions",
+      "definition": "Lying face up and lying face down."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are positions recorded relative to the anatomical position rather than the patient's actual posture?",
+      "a": "So that the description stays the same whatever the patient's position, avoiding confusion.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "anatomy"
+  }
+}

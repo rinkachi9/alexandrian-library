@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "exercise.biomechanics.biomechanics-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "biomechanics",
+      "physics"
+    ],
+    "aliases": [
+      "kinematics",
+      "dynamics",
+      "levers",
+      "torque"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.axes-and-planes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.force-length-velocity",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.biomechanics.kinetic-chains",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "hill-1938",
+      "type": "paper",
+      "authors": [
+        "Hill, A. V."
+      ],
+      "year": 1938,
+      "title": "The heat of shortening and the dynamic constants of muscle",
+      "url": "https://doi.org/10.1098/rspb.1938.0050",
+      "verified": false
+    },
+    {
+      "key": "simmons-2007",
+      "type": "book",
+      "authors": [
+        "Simmons, L."
+      ],
+      "year": 2007,
+      "title": "Westside Barbell Book of Methods"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Kinematics",
+      "anchor": "#definition",
+      "definition": "The description of motion without regard to its causes."
+    },
+    {
+      "term": "Torque",
+      "anchor": "#torque-in-a-lift",
+      "definition": "Force times the perpendicular distance from the axis of rotation."
+    },
+    {
+      "term": "Third-class lever",
+      "anchor": "#mechanism",
+      "definition": "A lever with the effort between the pivot and the load, favoring speed and range."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why should the bar stay close to the body in a deadlift?",
+      "a": "A shorter moment arm means less torque at the hips and lower back for the same weight.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biomechanics"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "phytonutrients.astaxanthin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "xanthophyll",
+      "Haematococcus pluvialis"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.carotenoids",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ambati-2014",
+      "type": "paper",
+      "authors": [
+        "Ambati, R. R.",
+        "Phang, S. M.",
+        "Ravi, S.",
+        "Aswathanarayana, R. G."
+      ],
+      "year": 2014,
+      "title": "Astaxanthin: sources, extraction, stability, biological activities and its commercial applications: a review",
+      "url": "https://doi.org/10.3390/md12010128",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Astaxanthin",
+      "anchor": "#definition",
+      "definition": "A red xanthophyll carotenoid from microalgae and seafood."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

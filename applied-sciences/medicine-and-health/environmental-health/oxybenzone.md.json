@@ -1,0 +1,54 @@
+{
+  "node": {
+    "id": "environmental-health.oxybenzone",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "benzophenone-3",
+      "UV filter"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "matta-2020",
+      "type": "paper",
+      "authors": [
+        "Matta, M. K.",
+        "Florian, J.",
+        "Zusterzeel, R."
+      ],
+      "year": 2020,
+      "title": "Effect of sunscreen application on plasma concentration of sunscreen active ingredients: a randomized clinical trial",
+      "url": "https://doi.org/10.1001/jama.2019.20747",
+      "verified": false
+    },
+    {
+      "key": "eu-1223-2009",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2009,
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Photoallergy",
+      "anchor": "#definition",
+      "definition": "An allergic reaction triggered by a substance together with light."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

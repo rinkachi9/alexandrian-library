@@ -1,0 +1,43 @@
+{
+  "node": {
+    "id": "essential-oils.cedarwood",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 18,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Cedrus atlantica",
+      "cedrol"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hay-1998",
+      "type": "paper",
+      "authors": [
+        "Hay, I. C.",
+        "Jamieson, M.",
+        "Ormerod, A. D."
+      ],
+      "year": 1998,
+      "title": "Randomized trial of aromatherapy: successful treatment for alopecia areata",
+      "url": "https://doi.org/10.1001/archderm.134.11.1349",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

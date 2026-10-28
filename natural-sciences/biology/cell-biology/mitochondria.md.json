@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "cell-biology.mitochondria",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "cell-biology",
+      "mitochondria",
+      "energy"
+    ],
+    "aliases": [
+      "mitochondrion",
+      "powerhouse of the cell"
+    ]
+  },
+  "links": [
+    {
+      "to": "cell-biology.cell-structure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.krebs-cycle",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.oxidative-phosphorylation",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "alberts-2002",
+      "type": "book",
+      "authors": [
+        "Alberts, B.",
+        "Johnson, A.",
+        "Lewis, J.",
+        "Raff, M.",
+        "Roberts, K.",
+        "Walter, P."
+      ],
+      "year": 2002,
+      "title": "Molecular Biology of the Cell (4th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cristae",
+      "anchor": "#definition",
+      "definition": "Folds of the inner mitochondrial membrane that hold the respiratory chain."
+    },
+    {
+      "term": "Endosymbiotic theory",
+      "anchor": "#definition",
+      "definition": "The theory that mitochondria descend from bacteria taken up by an ancestral cell."
+    },
+    {
+      "term": "Mitochondrial biogenesis",
+      "anchor": "#training-adaptations",
+      "definition": "The formation of new mitochondria, stimulated by endurance training."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does endurance training lower blood lactate at a given pace?",
+      "a": "More mitochondria oxidize more pyruvate, so less is turned into lactate.",
+      "anchor": "#training-adaptations",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cell-biology"
+  }
+}

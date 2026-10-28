@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "biochemistry.metabolism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "energy"
+    ],
+    "aliases": [
+      "metabolic processes",
+      "intermediary metabolism"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.atp",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.respiration.respiratory-system",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Metabolism",
+      "anchor": "#definition",
+      "definition": "The complete set of chemical reactions and energy conversions in the cells of an organism."
+    },
+    {
+      "term": "Feedback inhibition",
+      "anchor": "#how-metabolism-is-controlled",
+      "definition": "Slowing of a pathway by its own product, which inhibits an earlier enzyme."
+    },
+    {
+      "term": "Thermoregulation",
+      "anchor": "#definition",
+      "definition": "Keeping body temperature stable, partly with the heat released by metabolism."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do anabolism and catabolism differ in energy?",
+      "a": "Anabolism needs energy and raises the energy level of its products; catabolism releases energy and its products have a lower energy level.",
+      "anchor": "#anabolism-and-catabolism-compared",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How can a nerve impulse change metabolism?",
+      "a": "It changes the ion composition around the cell, for example calcium release in muscle, and ions change enzyme activity.",
+      "anchor": "#how-metabolism-is-controlled",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

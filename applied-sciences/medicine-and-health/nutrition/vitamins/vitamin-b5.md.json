@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b5",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "pantothenic acid",
+      "panthenol",
+      "coenzyme A"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-pantothenic",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Pantothenic Acid: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Coenzyme A",
+      "anchor": "#definition",
+      "definition": "A coenzyme made from pantothenic acid that carries acyl groups."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

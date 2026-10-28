@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "environmental-health.phthalates",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "DEHP",
+      "DBP",
+      "plasticizers"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "echa-phthalates",
+      "type": "documentation",
+      "authors": [
+        "European Chemicals Agency"
+      ],
+      "year": 2018,
+      "title": "Restriction of four phthalates (DEHP, BBP, DBP, DIBP) under REACH Annex XVII, entry 51",
+      "url": "https://echa.europa.eu/hot-topics/phthalates",
+      "verified": false
+    },
+    {
+      "key": "eu-1223-2009",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2009,
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Plasticizer",
+      "anchor": "#definition",
+      "definition": "A substance added to make plastics flexible."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

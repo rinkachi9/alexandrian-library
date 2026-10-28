@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "amino-acids.tryptophan",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "amino-acids",
+      "essential",
+      "serotonin",
+      "sleep",
+      "supplements"
+    ],
+    "aliases": [
+      "L-tryptophan",
+      "Trp",
+      "W"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.endocrine.melatonin",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b3",
+      "rel": "related",
+      "note": "Tryptophan is a niacin source"
+    },
+    {
+      "to": "amino-acids.tyrosine",
+      "rel": "related",
+      "note": "Competes for brain entry"
+    }
+  ],
+  "sources": [
+    {
+      "key": "richard-2009",
+      "type": "paper",
+      "authors": [
+        "Richard, D. M.",
+        "Dawes, M. A.",
+        "Mathias, C. W."
+      ],
+      "year": 2009,
+      "title": "L-Tryptophan: basic metabolic functions, behavioral research and therapeutic indications",
+      "url": "https://doi.org/10.4137/ijtr.s2129",
+      "verified": false
+    },
+    {
+      "key": "slutsker-1990",
+      "type": "paper",
+      "authors": [
+        "Slutsker, L.",
+        "Hoesly, F. C.",
+        "Miller, L."
+      ],
+      "year": 1990,
+      "title": "Eosinophilia-myalgia syndrome associated with exposure to tryptophan from a single manufacturer",
+      "url": "https://doi.org/10.1001/jama.1990.03450020065029",
+      "verified": false
+    },
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Large neutral amino acid transporter",
+      "anchor": "#mechanism",
+      "definition": "The carrier that moves tryptophan, tyrosine and the branched-chain amino acids into the brain."
+    },
+    {
+      "term": "Serotonin syndrome",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "definition": "A dangerous excess of serotonin activity, often from combining serotonergic substances."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does most serotonin in the body not affect mood directly?",
+      "a": "About 90 percent is in the gut, and serotonin does not cross the blood-brain barrier; brain serotonin is made in the brain from tryptophan.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

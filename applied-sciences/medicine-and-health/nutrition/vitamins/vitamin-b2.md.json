@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b2",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "riboflavin",
+      "FAD",
+      "FMN"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.supplements.glutathione",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-riboflavin",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Riboflavin: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "schoenen-1998",
+      "type": "paper",
+      "authors": [
+        "Schoenen, J.",
+        "Jacquy, J.",
+        "Lenaerts, M."
+      ],
+      "year": 1998,
+      "title": "Effectiveness of high-dose riboflavin in migraine prophylaxis. A randomized controlled trial",
+      "url": "https://doi.org/10.1212/wnl.50.2.466",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "FAD",
+      "anchor": "#definition",
+      "definition": "Flavin adenine dinucleotide, an electron-carrying coenzyme made from riboflavin."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

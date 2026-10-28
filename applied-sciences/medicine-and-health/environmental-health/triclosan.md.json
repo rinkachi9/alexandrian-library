@@ -1,0 +1,40 @@
+{
+  "node": {
+    "id": "environmental-health.triclosan",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "antibacterial soap"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "fda-2016-triclosan",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2016,
+      "title": "Safety and effectiveness of consumer antiseptics; topical antimicrobial drug products for over-the-counter human use (final rule, 81 FR 61106)",
+      "url": "https://www.federalregister.gov/documents/2016/09/06/2016-21337",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cross-resistance",
+      "anchor": "#mechanism",
+      "definition": "Resistance to one agent that also gives resistance to another."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

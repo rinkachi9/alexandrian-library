@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.minerals",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "minerals"
+  }
+}

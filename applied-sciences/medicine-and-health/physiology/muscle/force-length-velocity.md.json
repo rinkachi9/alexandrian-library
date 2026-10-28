@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "physiology.muscle.force-length-velocity",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "physiology",
+      "muscle",
+      "biomechanics"
+    ],
+    "aliases": [
+      "Hill curve",
+      "force-velocity curve",
+      "length-tension relationship"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.muscle-contraction",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.biomechanics.biomechanics-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hill-1938",
+      "type": "paper",
+      "authors": [
+        "Hill, A. V."
+      ],
+      "year": 1938,
+      "title": "The heat of shortening and the dynamic constants of muscle",
+      "url": "https://doi.org/10.1098/rspb.1938.0050",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Force-velocity relationship",
+      "anchor": "#definition",
+      "definition": "Muscle force falls with shortening speed and rises above isometric force during lengthening."
+    },
+    {
+      "term": "Length-tension relationship",
+      "anchor": "#definition",
+      "definition": "Active force is highest at the sarcomere length with optimal filament overlap."
+    },
+    {
+      "term": "Power",
+      "anchor": "#definition",
+      "definition": "Force multiplied by velocity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why is power training done with moderate loads?",
+      "a": "Power is force times velocity, and it peaks at moderate loads moved quickly.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.skeletal-system.upper-limb",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "anatomy",
+      "upper-limb"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "upper-limb-bones"
+  }
+}

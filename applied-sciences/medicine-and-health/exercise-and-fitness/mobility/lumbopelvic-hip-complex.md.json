@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "exercise.mobility.lumbopelvic-hip-complex",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "exercise",
+      "mobility"
+    ],
+    "aliases": [
+      "LPHC",
+      "lumbo-pelvic-hip complex"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.mobility.core",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.core",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "panjabi-1992",
+      "type": "paper",
+      "authors": [
+        "Panjabi, M. M."
+      ],
+      "year": 1992,
+      "title": "The stabilizing system of the spine. Part I. Function, dysfunction, adaptation, and enhancement",
+      "url": "https://doi.org/10.1097/00002517-199212000-00001",
+      "verified": false
+    },
+    {
+      "key": "mcgill-2015",
+      "type": "book",
+      "authors": [
+        "McGill, S."
+      ],
+      "year": 2015,
+      "title": "Low Back Disorders: Evidence-Based Prevention and Rehabilitation (3rd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lumbopelvic-hip complex",
+      "anchor": "#definition",
+      "definition": "The functional unit of the lumbar spine, pelvis and hip joints."
+    },
+    {
+      "term": "Panjabi subsystems",
+      "anchor": "#mechanism",
+      "definition": "Passive, active and neural control systems of spinal stability."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does the lumbar spine need three systems of protection?",
+      "a": "It is relatively mobile, so passive structures alone cannot keep it stable.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "mobility"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "phytonutrients.terpenoids",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "terpenes",
+      "limonene",
+      "menthol",
+      "linalool"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "phytonutrients.carotenoids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "khanna-2014",
+      "type": "paper",
+      "authors": [
+        "Khanna, R.",
+        "MacDonald, J. K.",
+        "Levesque, B. G."
+      ],
+      "year": 2014,
+      "title": "Peppermint oil for the treatment of irritable bowel syndrome: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1097/MCG.0b013e3182a88357",
+      "verified": false
+    },
+    {
+      "key": "liu-2003",
+      "type": "paper",
+      "authors": [
+        "Liu, R. H."
+      ],
+      "year": 2003,
+      "title": "Health benefits of fruit and vegetables are from additive and synergistic combinations of phytochemicals",
+      "url": "https://doi.org/10.1093/ajcn/78.3.517S",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Terpenoid",
+      "anchor": "#definition",
+      "definition": "A compound built from five-carbon isoprene units."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

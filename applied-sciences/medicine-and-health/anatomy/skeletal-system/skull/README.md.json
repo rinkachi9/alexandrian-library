@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.skeletal-system.skull",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "anatomy",
+      "skull"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "skull"
+  }
+}

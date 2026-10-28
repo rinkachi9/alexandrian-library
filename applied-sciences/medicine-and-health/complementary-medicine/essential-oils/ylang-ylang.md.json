@@ -1,0 +1,45 @@
+{
+  "node": {
+    "id": "essential-oils.ylang-ylang",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 13,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Cananga odorata"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Germacrene D",
+      "anchor": "#definition",
+      "definition": "A sesquiterpene in ylang-ylang oil."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

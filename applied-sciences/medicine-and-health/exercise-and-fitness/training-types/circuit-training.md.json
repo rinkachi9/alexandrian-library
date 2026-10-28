@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "exercise.training-types.circuit-training",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "circuit",
+      "station training"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-types.functional-training",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "munoz-martinez-2017",
+      "type": "paper",
+      "authors": [
+        "Muñoz-Martínez, F. A.",
+        "Rubio-Arias, J. A.",
+        "Ramos-Campo, D. J.",
+        "Alcaraz, P. E."
+      ],
+      "year": 2017,
+      "title": "Effectiveness of resistance circuit-based training for maximum oxygen uptake and upper-body one-repetition maximum improvements: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-017-0773-4",
+      "verified": false
+    },
+    {
+      "key": "acsm-2009",
+      "type": "paper",
+      "authors": [
+        "American College of Sports Medicine"
+      ],
+      "year": 2009,
+      "title": "Progression models in resistance training for healthy adults",
+      "url": "https://doi.org/10.1249/MSS.0b013e3181915670",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Circuit training",
+      "anchor": "#definition",
+      "definition": "A series of exercises performed in sequence with short rests and repeated."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Design a 5-station circuit for someone with only bodyweight.",
+      "a": "For example squat, push-up, lunge, plank and burpee, 40 seconds each.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

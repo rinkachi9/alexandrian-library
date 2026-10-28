@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "cell-biology.cell-membrane",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "cell-biology",
+      "membranes",
+      "transport"
+    ],
+    "aliases": [
+      "plasma membrane",
+      "membrane transport",
+      "osmosis",
+      "sodium-potassium pump"
+    ]
+  },
+  "links": [
+    {
+      "to": "cell-biology.cell-structure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.phospholipids-and-lecithin",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.atp",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "alberts-2002",
+      "type": "book",
+      "authors": [
+        "Alberts, B.",
+        "Johnson, A.",
+        "Lewis, J.",
+        "Raff, M.",
+        "Roberts, K.",
+        "Walter, P."
+      ],
+      "year": 2002,
+      "title": "Molecular Biology of the Cell (4th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fluid mosaic model",
+      "anchor": "#definition",
+      "definition": "The description of the membrane as a fluid bilayer with mobile proteins."
+    },
+    {
+      "term": "Active transport",
+      "anchor": "#mechanism",
+      "definition": "Movement of a substance against its concentration gradient using energy."
+    },
+    {
+      "term": "Membrane potential",
+      "anchor": "#membrane-potential",
+      "definition": "The voltage across the membrane, negative inside at rest."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why does a walk after a meal lower blood glucose?",
+      "a": "Muscle contraction moves GLUT4 to the membrane independently of insulin, letting glucose into muscle.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cell-biology"
+  }
+}

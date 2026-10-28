@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "exercise.intensification.pre-exhaustion",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 13,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "pre-fatigue"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.compound-set",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "augustsson-2003",
+      "type": "paper",
+      "authors": [
+        "Augustsson, J.",
+        "Thomeé, R.",
+        "Hörnstedt, P."
+      ],
+      "year": 2003,
+      "title": "Effect of pre-exhaustion exercise on lower-extremity muscle activation during a leg press exercise"
+    },
+    {
+      "key": "simao-2012",
+      "type": "paper",
+      "authors": [
+        "Simão, R.",
+        "de Salles, B. F.",
+        "Figueiredo, T.",
+        "Dias, I.",
+        "Willardson, J. M."
+      ],
+      "year": 2012,
+      "title": "Exercise order in resistance training",
+      "url": "https://doi.org/10.2165/11597240-000000000-00000",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pre-exhaustion",
+      "anchor": "#definition",
+      "definition": "An isolation exercise performed right before a compound exercise for the same muscle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might pre-exhaustion reduce target-muscle activation?",
+      "a": "The fatigued target muscle contributes less, and other muscles take over.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "herbal-extracts.bacopa",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Bacopa monnieri",
+      "brahmi",
+      "bacosides"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.ginkgo",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kongkeaw-2014",
+      "type": "paper",
+      "authors": [
+        "Kongkeaw, C.",
+        "Dilokthornsakul, P.",
+        "Thanarangsarit, P.",
+        "Limpeanchob, N.",
+        "Scholfield, C. N."
+      ],
+      "year": 2014,
+      "title": "Meta-analysis of randomized controlled trials on cognitive effects of Bacopa monnieri extract",
+      "url": "https://doi.org/10.1016/j.jep.2013.11.008",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bacosides",
+      "anchor": "#definition",
+      "definition": "Triterpenoid saponins of bacopa."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "nutrition.foundations.nutrition-and-immunity",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ],
+    "aliases": [
+      "immune nutrition",
+      "nutritional immunology"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.vitamin-d",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.healthy-aging-diet",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "calder-2020",
+      "type": "paper",
+      "authors": [
+        "Calder, P. C.",
+        "Carr, A. C.",
+        "Gombart, A. F.",
+        "Eggersdorfer, M."
+      ],
+      "year": 2020,
+      "title": "Optimal nutritional status for a well-functioning immune system is an important factor to protect against viral infections",
+      "url": "https://doi.org/10.3390/nu12041181",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Natural killer cell",
+      "anchor": "#definition",
+      "definition": "An immune cell that destroys infected and tumor cells."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does correcting a deficiency help immunity while megadoses do not?",
+      "a": "Immune cells need adequate nutrients; beyond adequacy there is no further benefit and some nutrients become harmful.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

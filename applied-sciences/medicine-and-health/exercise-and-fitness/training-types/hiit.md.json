@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "exercise.training-types.hiit",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "HIIT",
+      "interval training",
+      "Tabata",
+      "sprint interval training"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.energy-systems",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.vo2-max",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-types.hirt",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gibala-2012",
+      "type": "paper",
+      "authors": [
+        "Gibala, M. J.",
+        "Little, J. P.",
+        "Macdonald, M. J.",
+        "Hawley, J. A."
+      ],
+      "year": 2012,
+      "title": "Physiological adaptations to low-volume, high-intensity interval training in health and disease",
+      "url": "https://doi.org/10.1113/jphysiol.2011.224725",
+      "verified": false
+    },
+    {
+      "key": "tabata-1996",
+      "type": "paper",
+      "authors": [
+        "Tabata, I.",
+        "Nishimura, K.",
+        "Kouzaki, M."
+      ],
+      "year": 1996,
+      "title": "Effects of moderate-intensity endurance and high-intensity intermittent training on anaerobic capacity and VO2max",
+      "url": "https://doi.org/10.1097/00005768-199610000-00018",
+      "verified": false
+    },
+    {
+      "key": "weston-2014",
+      "type": "paper",
+      "authors": [
+        "Weston, K. S.",
+        "Wisløff, U.",
+        "Coombes, J. S."
+      ],
+      "year": 2014,
+      "title": "High-intensity interval training in patients with lifestyle-induced cardiometabolic disease: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1136/bjsports-2013-092576",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "HIIT",
+      "anchor": "#definition",
+      "definition": "Repeated high-intensity efforts separated by recovery periods."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does HIIT allow more time at high intensity than a continuous effort?",
+      "a": "Recovery periods allow partial recovery, so hard intervals can be repeated.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

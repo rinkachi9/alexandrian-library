@@ -1,0 +1,44 @@
+{
+  "node": {
+    "id": "diagnostics.erythrocyte-sedimentation-rate",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "diagnostics",
+      "blood-tests"
+    ],
+    "aliases": [
+      "ESR",
+      "OB",
+      "Biernacki reaction",
+      "sed rate"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "tietz-2018",
+      "type": "book",
+      "authors": [
+        "Rifai, N.",
+        "Horvath, A. R.",
+        "Wittwer, C. T. (Eds.)"
+      ],
+      "year": 2018,
+      "title": "Tietz Textbook of Clinical Chemistry and Molecular Diagnostics (6th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rouleaux",
+      "anchor": "#definition",
+      "definition": "Stacks of red blood cells that sediment faster."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "diagnostics"
+  }
+}

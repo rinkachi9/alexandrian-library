@@ -1,0 +1,40 @@
+{
+  "node": {
+    "id": "essential-oils.neroli",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 17,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Citrus aurantium",
+      "orange blossom"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

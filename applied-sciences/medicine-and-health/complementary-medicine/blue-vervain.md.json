@@ -1,0 +1,44 @@
+{
+  "node": {
+    "id": "complementary-medicine.blue-vervain",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "Verbena hastata",
+      "vervain"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wichtl-2004",
+      "type": "book",
+      "authors": [
+        "Wichtl, M. (Ed.)"
+      ],
+      "year": 2004,
+      "title": "Herbal Drugs and Phytopharmaceuticals (3rd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Verbenalin",
+      "anchor": "#definition",
+      "definition": "An iridoid glycoside in Verbena species."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

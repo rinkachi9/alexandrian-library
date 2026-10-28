@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.skeletal-system",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "anatomy",
+      "skeleton"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "skeleton"
+  }
+}

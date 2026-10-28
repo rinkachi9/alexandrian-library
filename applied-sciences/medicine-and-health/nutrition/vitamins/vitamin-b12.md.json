@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b12",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 14,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "cobalamin",
+      "methylcobalamin",
+      "cyanocobalamin"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b9",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.algae.spirulina",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-b12",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin B12: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Intrinsic factor",
+      "anchor": "#definition",
+      "definition": "A stomach protein required for B12 absorption."
+    },
+    {
+      "term": "Methyl trap",
+      "anchor": "#analogy",
+      "definition": "Folate trapped as 5-methyl-THF when B12 is lacking."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

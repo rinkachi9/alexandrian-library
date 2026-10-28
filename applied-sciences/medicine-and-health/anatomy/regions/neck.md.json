@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "anatomy.regions.neck",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "neck",
+      "surface-anatomy"
+    ],
+    "aliases": [
+      "cervical region",
+      "nape",
+      "triangles of the neck"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.directional-terms",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.sternocleidomastoid",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.skull.hyoid-bone",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anterior triangle of the neck",
+      "anchor": "#mechanism",
+      "definition": "The region of the neck in front of the sternocleidomastoid."
+    },
+    {
+      "term": "Lateral triangle of the neck",
+      "anchor": "#mechanism",
+      "definition": "The region behind the sternocleidomastoid and above the clavicle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How do you find the cricothyroid membrane?",
+      "a": "Slide a finger down from the thyroid prominence to the soft gap above the cricoid ring.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "regions"
+  }
+}

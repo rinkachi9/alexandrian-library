@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.foods",
+    "kind": "index",
+    "status": "draft",
+    "order": 11,
+    "tags": [
+      "nutrition",
+      "foods"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "foods"
+  }
+}

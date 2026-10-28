@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "physiology.sleep.military-sleep-method",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "sleep",
+      "relaxation",
+      "techniques"
+    ],
+    "aliases": [
+      "fall asleep in two minutes",
+      "Bud Winter method"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.sleep.sleep-latency",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiotherapy.progressive-muscle-relaxation",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.respiration.breathing-techniques",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "winter-1981",
+      "type": "book",
+      "authors": [
+        "Winter, L. (Bud)"
+      ],
+      "year": 1981,
+      "title": "Relax and Win: Championship Performance in Whatever You Do"
+    },
+    {
+      "key": "zaccaro-2018",
+      "type": "paper",
+      "authors": [
+        "Zaccaro, A.",
+        "Piarulli, A.",
+        "Laurino, M."
+      ],
+      "year": 2018,
+      "title": "How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing",
+      "url": "https://doi.org/10.3389/fnhum.2018.00353",
+      "verified": false
+    },
+    {
+      "key": "qaseem-2016",
+      "type": "paper",
+      "authors": [
+        "Qaseem, A.",
+        "Kansagara, D.",
+        "Forciea, M. A."
+      ],
+      "year": 2016,
+      "title": "Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians",
+      "url": "https://doi.org/10.7326/M15-2175",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Visualization",
+      "anchor": "#mechanism",
+      "definition": "A relaxation technique using calming mental images."
+    },
+    {
+      "term": "Biofeedback",
+      "anchor": "#mechanism",
+      "definition": "Using measurements of body functions to learn to control them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What should you do when thoughts intrude during the last step?",
+      "a": "Set them aside and return to the calming image or the phrase.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "sleep"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "anatomy.muscles.gluteus-minimus",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "lower-limb",
+      "hip",
+      "gluteal"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.gluteus-medius",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "mellor-2018",
+      "type": "paper",
+      "authors": [
+        "Mellor, R.",
+        "Bennell, K.",
+        "Grimaldi, A."
+      ],
+      "year": 2018,
+      "title": "Education plus exercise versus corticosteroid injection use versus a wait and see approach on global outcome and pain from gluteal tendinopathy: prospective, single blinded, randomised clinical trial",
+      "url": "https://doi.org/10.1136/bmj.k1662",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "lower-limb-muscles"
+  }
+}

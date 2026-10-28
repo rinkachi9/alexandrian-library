@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "amino-acids.phenylalanine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 15,
+    "tags": [
+      "amino-acids",
+      "essential",
+      "aromatic"
+    ],
+    "aliases": [
+      "L-phenylalanine",
+      "Phe",
+      "F",
+      "PKU"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.tyrosine",
+      "rel": "related"
+    },
+    {
+      "to": "food-additives.sweeteners",
+      "rel": "related",
+      "note": "Aspartame"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phenylketonuria",
+      "anchor": "#mechanism",
+      "definition": "An inherited lack of phenylalanine hydroxylase that causes phenylalanine to build up."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does untreated PKU harm the brain?",
+      "a": "High phenylalanine and its byproducts accumulate and phenylalanine blocks the entry of other large neutral amino acids into the brain.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

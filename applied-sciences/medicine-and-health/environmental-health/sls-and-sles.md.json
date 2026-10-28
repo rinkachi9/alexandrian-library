@@ -1,0 +1,54 @@
+{
+  "node": {
+    "id": "environmental-health.sls-and-sles",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "SLS",
+      "SLES",
+      "surfactant",
+      "1,4-dioxane"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "cir-1983-sls",
+      "type": "paper",
+      "authors": [
+        "Cosmetic Ingredient Review Expert Panel"
+      ],
+      "year": 1983,
+      "title": "Final report on the safety assessment of sodium lauryl sulfate and ammonium lauryl sulfate",
+      "url": "https://doi.org/10.3109/10915818309142005",
+      "verified": false
+    },
+    {
+      "key": "eu-1223-2009",
+      "type": "documentation",
+      "authors": [
+        "European Parliament and Council"
+      ],
+      "year": 2009,
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Surfactant",
+      "anchor": "#definition",
+      "definition": "A compound with water-loving and oil-loving ends that removes oils."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

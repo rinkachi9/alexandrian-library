@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.regions",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "anatomy",
+      "regions"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "regions"
+  }
+}

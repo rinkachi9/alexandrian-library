@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "peptides.dihexa",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "angiotensin IV analog",
+      "PNB-0408"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "benoist-2011",
+      "type": "paper",
+      "authors": [
+        "Benoist, C. C.",
+        "Wright, J. W.",
+        "Zhang, M."
+      ],
+      "year": 2011,
+      "title": "Facilitation of hippocampal synaptogenesis and spatial memory by C-terminal truncated Nle1-angiotensin IV analogs",
+      "url": "https://doi.org/10.1124/jpet.111.180802",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Synaptogenesis",
+      "anchor": "#definition",
+      "definition": "The formation of new synapses between neurons."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

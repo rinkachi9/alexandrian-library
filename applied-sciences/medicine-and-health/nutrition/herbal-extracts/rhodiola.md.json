@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "herbal-extracts.rhodiola",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Rhodiola rosea",
+      "golden root",
+      "roseroot",
+      "salidroside"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.ashwagandha",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ishaque-2012",
+      "type": "paper",
+      "authors": [
+        "Ishaque, S.",
+        "Shamseer, L.",
+        "Bukutu, C.",
+        "Vohra, S."
+      ],
+      "year": 2012,
+      "title": "Rhodiola rosea for physical and mental fatigue: a systematic review",
+      "url": "https://doi.org/10.1186/1472-6882-12-70",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Salidroside",
+      "anchor": "#definition",
+      "definition": "A phenylethanoid glycoside of rhodiola."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

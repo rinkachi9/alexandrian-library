@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "physiology.sleep.awakenings-and-waso",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "physiology",
+      "sleep"
+    ],
+    "aliases": [
+      "WASO",
+      "wake after sleep onset",
+      "sleep efficiency",
+      "sleep fragmentation"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.sleep.sleep-architecture",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.sleep.deep-sleep",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ohayon-2004",
+      "type": "paper",
+      "authors": [
+        "Ohayon, M. M.",
+        "Carskadon, M. A.",
+        "Guilleminault, C.",
+        "Vitiello, M. V."
+      ],
+      "year": 2004,
+      "title": "Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals",
+      "url": "https://doi.org/10.1093/sleep/27.7.1255",
+      "verified": false
+    },
+    {
+      "key": "qaseem-2016",
+      "type": "paper",
+      "authors": [
+        "Qaseem, A.",
+        "Kansagara, D.",
+        "Forciea, M. A."
+      ],
+      "year": 2016,
+      "title": "Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians",
+      "url": "https://doi.org/10.7326/M15-2175",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "WASO",
+      "anchor": "#definition",
+      "definition": "Total time awake after first falling asleep."
+    },
+    {
+      "term": "Sleep efficiency",
+      "anchor": "#definition",
+      "definition": "Total sleep time divided by time in bed."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Calculate sleep efficiency: 7.5 h in bed, 6.5 h asleep.",
+      "a": "About 87 percent.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "sleep"
+  }
+}

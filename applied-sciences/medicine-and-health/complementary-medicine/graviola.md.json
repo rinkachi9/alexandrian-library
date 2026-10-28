@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "complementary-medicine.graviola",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "Annona muricata",
+      "soursop",
+      "annonacin",
+      "acetogenins"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "champy-2004",
+      "type": "paper",
+      "authors": [
+        "Champy, P.",
+        "Höglinger, G. U.",
+        "Féger, J."
+      ],
+      "year": 2004,
+      "title": "Annonacin, a lipophilic inhibitor of mitochondrial complex I, induces nigral and striatal neurodegeneration in rats: possible relevance for atypical parkinsonism in Guadeloupe",
+      "url": "https://doi.org/10.1046/j.1471-4159.2003.02138.x",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Annonaceous acetogenins",
+      "anchor": "#definition",
+      "definition": "Graviola compounds that inhibit mitochondrial complex I."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

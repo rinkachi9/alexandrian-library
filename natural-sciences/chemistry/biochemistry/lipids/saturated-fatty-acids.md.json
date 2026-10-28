@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "lipids.saturated-fatty-acids",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "lipids",
+      "saturated"
+    ],
+    "aliases": [
+      "SFA",
+      "palmitic acid",
+      "stearic acid",
+      "lauric acid",
+      "caprylic acid"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.cholesterol",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.trans-fatty-acids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2023-sfa",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2023,
+      "title": "Saturated fatty acid and trans-fatty acid intake for adults and children: WHO guideline"
+    },
+    {
+      "key": "hooper-2020",
+      "type": "paper",
+      "authors": [
+        "Hooper, L.",
+        "Martin, N.",
+        "Jimoh, O. F."
+      ],
+      "year": 2020,
+      "title": "Reduction in saturated fat intake for cardiovascular disease"
+    },
+    {
+      "key": "mach-2020",
+      "type": "paper",
+      "authors": [
+        "Mach, F.",
+        "Baigent, C.",
+        "Catapano, A. L."
+      ],
+      "year": 2020,
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk",
+      "url": "https://doi.org/10.1093/eurheartj/ehz455",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Medium-chain triglycerides",
+      "anchor": "#mechanism",
+      "definition": "Fats made of 8 to 12 carbon fatty acids that go straight to the liver and are oxidized quickly."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does replacing saturated fat with refined carbohydrate not lower heart risk?",
+      "a": "Refined carbohydrate does not lower LDL as unsaturated fat does and can raise triglycerides.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

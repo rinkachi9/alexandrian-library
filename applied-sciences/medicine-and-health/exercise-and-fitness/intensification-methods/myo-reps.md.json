@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "exercise.intensification.myo-reps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "myo reps",
+      "rest-pause"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rpe",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.motor-units",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.drop-set",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "prestes-2019",
+      "type": "paper",
+      "authors": [
+        "Prestes, J.",
+        "Tibana, R. A.",
+        "de Araujo Sousa, E."
+      ],
+      "year": 2019,
+      "title": "Strength and muscular adaptations after 6 weeks of rest-pause vs. traditional multiple-sets resistance training in trained subjects",
+      "url": "https://doi.org/10.1519/JSC.0000000000001923",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2021-continuum",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Van Every, D. W.",
+        "Plotkin, D. L."
+      ],
+      "year": 2021,
+      "title": "Loading recommendations for muscle strength, hypertrophy, and local endurance: a re-examination of the repetition continuum",
+      "url": "https://doi.org/10.3390/sports9020032",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Activation set",
+      "anchor": "#mechanism",
+      "definition": "The first set near failure that recruits high-threshold motor units."
+    },
+    {
+      "term": "Myo set",
+      "anchor": "#mechanism",
+      "definition": "A short set after 10 to 20 seconds of rest with the same load."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "You did 15, 11, 9 and 7 push-ups. What are your options to reach 50?",
+      "a": "One last maximal set with lower total volume, or regress the exercise to keep volume.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

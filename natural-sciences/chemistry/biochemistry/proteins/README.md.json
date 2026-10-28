@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "natural-sciences.chemistry.biochemistry.proteins",
+    "kind": "index",
+    "status": "draft",
+    "order": 17,
+    "tags": [
+      "biochemistry",
+      "proteins"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "proteins"
+  }
+}

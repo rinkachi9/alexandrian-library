@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "exercise.mobility.core",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "exercise",
+      "mobility"
+    ],
+    "aliases": [
+      "core",
+      "core stability",
+      "trunk stability"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.transversus-abdominis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.mobility.lumbopelvic-hip-complex",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hodges-1996",
+      "type": "paper",
+      "authors": [
+        "Hodges, P. W.",
+        "Richardson, C. A."
+      ],
+      "year": 1996,
+      "title": "Inefficient muscular stabilization of the lumbar spine associated with low back pain: a motor control evaluation of transversus abdominis",
+      "url": "https://doi.org/10.1097/00007632-199611150-00014",
+      "verified": false
+    },
+    {
+      "key": "mcgill-2015",
+      "type": "book",
+      "authors": [
+        "McGill, S."
+      ],
+      "year": 2015,
+      "title": "Low Back Disorders: Evidence-Based Prevention and Rehabilitation (3rd ed.)"
+    },
+    {
+      "key": "panjabi-1992",
+      "type": "paper",
+      "authors": [
+        "Panjabi, M. M."
+      ],
+      "year": 1992,
+      "title": "The stabilizing system of the spine. Part I. Function, dysfunction, adaptation, and enhancement",
+      "url": "https://doi.org/10.1097/00002517-199212000-00001",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Core stability",
+      "anchor": "#definition",
+      "definition": "The capacity of deep trunk muscles to control the lumbar spine, pelvis and hips."
+    },
+    {
+      "term": "Intra-abdominal pressure",
+      "anchor": "#mechanism",
+      "definition": "Pressure in the abdominal cavity that stabilizes the lumbar spine."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the core pictured as a cylinder?",
+      "a": "Deep muscles surround the abdominal cavity on all sides, with the diaphragm on top and pelvic floor below.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "mobility"
+  }
+}

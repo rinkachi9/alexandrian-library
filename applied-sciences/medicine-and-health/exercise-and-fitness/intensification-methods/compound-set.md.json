@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "exercise.intensification.compound-set",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "same-muscle superset"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.superset",
+      "rel": "contrasts"
+    },
+    {
+      "to": "exercise.intensification.pre-exhaustion",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "weakley-2017",
+      "type": "paper",
+      "authors": [
+        "Weakley, J. J. S.",
+        "Till, K.",
+        "Read, D. B."
+      ],
+      "year": 2017,
+      "title": "The effects of traditional, superset, and tri-set resistance training structures on perceived intensity and physiological responses",
+      "url": "https://doi.org/10.1007/s00421-017-3680-3",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Compound set",
+      "anchor": "#definition",
+      "definition": "Two exercises for the same muscle done consecutively without rest."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is the load on the second exercise of a compound set lower?",
+      "a": "The target muscle is already fatigued from the first exercise.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

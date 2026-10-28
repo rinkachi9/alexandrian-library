@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "physiotherapy.progressive-muscle-relaxation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "physiotherapy"
+    ],
+    "aliases": [
+      "PMR",
+      "Jacobson relaxation",
+      "Jacobson training"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiotherapy.relaxation-techniques",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "jacobson-1938",
+      "type": "book",
+      "authors": [
+        "Jacobson, E."
+      ],
+      "year": 1938,
+      "title": "Progressive Relaxation (2nd ed.)"
+    },
+    {
+      "key": "manzoni-2008",
+      "type": "paper",
+      "authors": [
+        "Manzoni, G. M.",
+        "Pagnini, F.",
+        "Castelnuovo, G.",
+        "Molinari, E."
+      ],
+      "year": 2008,
+      "title": "Relaxation training for anxiety: a ten-years systematic review with meta-analysis",
+      "url": "https://doi.org/10.1186/1471-244X-8-41",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Progressive muscle relaxation",
+      "anchor": "#definition",
+      "definition": "Tensing and relaxing muscle groups in order to learn to release tension."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does PMR start by tensing muscles?",
+      "a": "The contrast makes relaxation easier to notice and learn.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

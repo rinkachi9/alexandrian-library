@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "herbal-extracts.turmeric",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 13,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Curcuma longa",
+      "curcumin",
+      "curcuminoids"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.black-pepper",
+      "rel": "related"
+    },
+    {
+      "to": "herbal-extracts.ginger",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "daily-2016",
+      "type": "paper",
+      "authors": [
+        "Daily, J. W.",
+        "Yang, M.",
+        "Park, S."
+      ],
+      "year": 2016,
+      "title": "Efficacy of turmeric extracts and curcumin for alleviating the symptoms of joint arthritis: a systematic review and meta-analysis of randomized clinical trials",
+      "url": "https://doi.org/10.1089/jmf.2016.3705",
+      "verified": false
+    },
+    {
+      "key": "shoba-1998",
+      "type": "paper",
+      "authors": [
+        "Shoba, G.",
+        "Joy, D.",
+        "Joseph, T."
+      ],
+      "year": 1998,
+      "title": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers",
+      "url": "https://doi.org/10.1055/s-2006-957450",
+      "verified": false
+    },
+    {
+      "key": "livertox",
+      "type": "documentation",
+      "authors": [
+        "National Institute of Diabetes and Digestive and Kidney Diseases"
+      ],
+      "title": "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547852/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Curcumin",
+      "anchor": "#definition",
+      "definition": "The main curcuminoid of turmeric."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

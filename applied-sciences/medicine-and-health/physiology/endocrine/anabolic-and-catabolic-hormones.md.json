@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "physiology.endocrine.anabolic-and-catabolic-hormones",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "physiology",
+      "hormones",
+      "metabolism"
+    ],
+    "aliases": [
+      "anabolic hormones",
+      "cortisol",
+      "testosterone",
+      "growth hormone",
+      "insulin"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.anabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.muscle-protein-balance",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.gluconeogenesis",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "west-2010",
+      "type": "paper",
+      "authors": [
+        "West, D. W.",
+        "Burd, N. A.",
+        "Tang, J. E."
+      ],
+      "year": 2010,
+      "title": "Elevations in ostensibly anabolic hormones with resistance exercise enhance neither training-induced muscle hypertrophy nor strength of the elbow flexors",
+      "url": "https://doi.org/10.1152/japplphysiol.01147.2009",
+      "verified": false
+    },
+    {
+      "key": "leproult-2011",
+      "type": "paper",
+      "authors": [
+        "Leproult, R.",
+        "Van Cauter, E."
+      ],
+      "year": 2011,
+      "title": "Effect of 1 week of sleep restriction on testosterone levels in young healthy men",
+      "url": "https://doi.org/10.1001/jama.2011.710",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Anabolic hormone",
+      "anchor": "#definition",
+      "definition": "A hormone that stimulates synthesis and tissue growth."
+    },
+    {
+      "term": "Catabolic hormone",
+      "anchor": "#definition",
+      "definition": "A hormone that stimulates the breakdown of stored molecules."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does chronic stress favor muscle loss?",
+      "a": "Chronically high cortisol increases muscle protein breakdown.",
+      "anchor": "#hormones-and-training",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "endocrine"
+  }
+}

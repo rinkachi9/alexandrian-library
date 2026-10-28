@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "physiology.sleep.naps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "physiology",
+      "sleep"
+    ],
+    "aliases": [
+      "napping",
+      "power nap",
+      "sleep inertia"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.sleep.sleep-architecture",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.sleep.deep-sleep",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brooks-2006",
+      "type": "paper",
+      "authors": [
+        "Brooks, A.",
+        "Lack, L."
+      ],
+      "year": 2006,
+      "title": "A brief afternoon nap following nocturnal sleep restriction: which nap duration is most recuperative?",
+      "url": "https://doi.org/10.1093/sleep/29.6.831",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sleep inertia",
+      "anchor": "#definition",
+      "definition": "Grogginess and impaired performance after waking, strongest from deep sleep."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A shift worker must stay alert in 30 minutes. What nap would you suggest?",
+      "a": "A 10 to 20 minute nap, possibly with a coffee just before.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "sleep"
+  }
+}

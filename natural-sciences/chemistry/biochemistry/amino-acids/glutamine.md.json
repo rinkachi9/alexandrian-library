@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "amino-acids.glutamine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 18,
+    "tags": [
+      "amino-acids",
+      "conditionally-essential",
+      "supplements",
+      "gut"
+    ],
+    "aliases": [
+      "L-glutamine",
+      "Gln",
+      "Q"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.glutamic-acid",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.urea-cycle",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "ods-exercise",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Dietary Supplements for Exercise and Athletic Performance: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Conditionally essential",
+      "anchor": "#summary",
+      "definition": "Made in the body in normal conditions but needed from outside in illness or growth."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did the REDOXS trial find?",
+      "a": "High-dose glutamine in critically ill patients with organ failure increased mortality.",
+      "anchor": "#proposed-effects-and-evidence",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "mushrooms.oyster-mushroom",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "Pleurotus ostreatus",
+      "ergothioneine"
+    ]
+  },
+  "links": [
+    {
+      "to": "mushrooms.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cheah-2012",
+      "type": "paper",
+      "authors": [
+        "Cheah, I. K.",
+        "Halliwell, B."
+      ],
+      "year": 2012,
+      "title": "Ergothioneine; antioxidant potential, physiological function and role in disease",
+      "url": "https://doi.org/10.1016/j.bbadis.2011.09.017",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Ergothioneine",
+      "anchor": "#definition",
+      "definition": "A fungal antioxidant concentrated in human tissues by the OCTN1 transporter."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "personal-care.toothache-clove-oil",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "personal-care"
+    ],
+    "aliases": [
+      "eugenol",
+      "toothache remedy"
+    ]
+  },
+  "links": [
+    {
+      "to": "essential-oils.clove",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "alqareer-2006",
+      "type": "paper",
+      "authors": [
+        "Alqareer, A.",
+        "Alyahya, A.",
+        "Andersson, L."
+      ],
+      "year": 2006,
+      "title": "The effect of clove and benzocaine versus placebo as topical anesthetics",
+      "url": "https://doi.org/10.1016/j.jdent.2006.01.009",
+      "verified": false
+    },
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Eugenol",
+      "anchor": "#definition",
+      "definition": "The local anesthetic compound of clove oil."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "personal-care"
+  }
+}

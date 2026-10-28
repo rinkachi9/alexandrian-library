@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.skeletal-system.vertebral-column",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "anatomy",
+      "spine"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "spine"
+  }
+}

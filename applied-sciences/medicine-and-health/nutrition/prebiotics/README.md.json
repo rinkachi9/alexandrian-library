@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.prebiotics",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "prebiotics"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "prebiotics"
+  }
+}

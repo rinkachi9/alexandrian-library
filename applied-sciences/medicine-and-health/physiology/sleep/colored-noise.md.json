@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "physiology.sleep.colored-noise",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "sleep",
+      "environment"
+    ],
+    "aliases": [
+      "white noise",
+      "pink noise",
+      "brown noise"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.sleep.awakenings-and-waso",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "riedy-2021",
+      "type": "paper",
+      "authors": [
+        "Riedy, S. M.",
+        "Smith, M. G.",
+        "Rocha, S.",
+        "Basner, M."
+      ],
+      "year": 2021,
+      "title": "Noise as a sleep aid: a systematic review",
+      "url": "https://doi.org/10.1016/j.smrv.2020.101385",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pink noise",
+      "anchor": "#definition",
+      "definition": "Noise whose power falls with frequency so each octave has equal energy."
+    },
+    {
+      "term": "Sound masking",
+      "anchor": "#mechanism",
+      "definition": "Reducing the noticeability of sudden noises by adding steady background sound."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might earplugs be better than a noise machine on a busy street?",
+      "a": "They reduce the disturbing noise directly instead of adding sound.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "sleep"
+  }
+}

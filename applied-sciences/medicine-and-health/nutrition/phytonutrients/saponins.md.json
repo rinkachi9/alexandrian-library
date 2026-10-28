@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "phytonutrients.saponins",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "ginsenosides",
+      "soy saponins"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "guclu-ustundag-2007",
+      "type": "paper",
+      "authors": [
+        "Güçlü-Üstündağ, Ö.",
+        "Mazza, G."
+      ],
+      "year": 2007,
+      "title": "Saponins: properties, applications and processing",
+      "url": "https://doi.org/10.1080/10408390600698197",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Saponin",
+      "anchor": "#definition",
+      "definition": "A plant glycoside with soap-like properties."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

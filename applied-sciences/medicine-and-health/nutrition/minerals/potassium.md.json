@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "nutrition.minerals.potassium",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "K",
+      "potassium chloride",
+      "electrolyte"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.cardiovascular.heart-and-circulation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-potassium",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Potassium: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "aburto-2013",
+      "type": "paper",
+      "authors": [
+        "Aburto, N. J.",
+        "Hanson, S.",
+        "Gutierrez, H."
+      ],
+      "year": 2013,
+      "title": "Effect of increased potassium intake on cardiovascular risk factors and disease: systematic review and meta-analyses",
+      "url": "https://doi.org/10.1136/bmj.f1378",
+      "verified": false
+    },
+    {
+      "key": "neal-2021",
+      "type": "paper",
+      "authors": [
+        "Neal, B.",
+        "Wu, Y.",
+        "Feng, X."
+      ],
+      "year": 2021,
+      "title": "Effect of salt substitution on cardiovascular events and death",
+      "url": "https://doi.org/10.1056/NEJMoa2105675",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sodium-potassium pump",
+      "anchor": "#definition",
+      "definition": "Membrane enzyme that moves 3 sodium out and 2 potassium in per ATP."
+    },
+    {
+      "term": "Resting membrane potential",
+      "anchor": "#mechanism",
+      "definition": "The voltage across a cell membrane at rest, set mainly by potassium."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

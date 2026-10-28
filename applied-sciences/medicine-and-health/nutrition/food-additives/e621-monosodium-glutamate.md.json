@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "food-additives.e621-monosodium-glutamate",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "nutrition",
+      "food-additives",
+      "food-safety"
+    ],
+    "aliases": [
+      "MSG",
+      "E621",
+      "umami",
+      "Chinese restaurant syndrome"
+    ]
+  },
+  "links": [
+    {
+      "to": "food-additives.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.glutamic-acid",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "efsa-2017-glutamate",
+      "type": "paper",
+      "authors": [
+        "EFSA ANS Panel"
+      ],
+      "year": 2017,
+      "title": "Re-evaluation of glutamic acid (E 620), sodium glutamate (E 621), potassium glutamate (E 622), calcium glutamate (E 623), ammonium glutamate (E 624) and magnesium glutamate (E 625) as food additives",
+      "url": "https://doi.org/10.2903/j.efsa.2017.4910",
+      "verified": false
+    },
+    {
+      "key": "geha-2000",
+      "type": "paper",
+      "authors": [
+        "Geha, R. S.",
+        "Beiser, A.",
+        "Ren, C."
+      ],
+      "year": 2000,
+      "title": "Multicenter, double-blind, placebo-controlled, multiple-challenge evaluation of reported reactions to monosodium glutamate",
+      "url": "https://doi.org/10.1093/jn/130.4.1058S",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Umami",
+      "anchor": "#definition",
+      "definition": "The savory taste of glutamate, one of five basic tastes."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

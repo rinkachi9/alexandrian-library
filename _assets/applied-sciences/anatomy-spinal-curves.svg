@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">Curves of the vertebral column seen from the side</title>
+  <desc id="d">Side view of the vertebral column with the front of the body on the left. From top to bottom: 7 cervical vertebrae forming a lordosis that is convex to the front, 12 thoracic vertebrae forming a kyphosis that is convex to the back, 5 lumbar vertebrae forming a lordosis, the sacrum from 5 fused vertebrae curving backward, and the coccyx at the tip.</desc>
+  <rect width="440" height="520" rx="14" fill="#fbfaf7" stroke="#d8d3c8"/>
+  <text x="40" y="30" font-size="12" fill="#3d4852">Anterior</text>
+  <text x="340" y="30" font-size="12" fill="#3d4852">Posterior</text>
+  <g fill="#efe6d2" stroke="#8a7a5c" stroke-width="1.5">
+    <rect x="182" y="40" width="26" height="14" rx="3"/><rect x="178" y="57" width="26" height="14" rx="3"/><rect x="175" y="74" width="26" height="14" rx="3"/>
+    <rect x="174" y="91" width="27" height="14" rx="3"/><rect x="175" y="108" width="27" height="14" rx="3"/><rect x="178" y="125" width="28" height="14" rx="3"/><rect x="182" y="142" width="28" height="14" rx="3"/>
+  </g>
+  <g fill="#e3d6b8" stroke="#8a7a5c" stroke-width="1.5">
+    <rect x="188" y="160" width="30" height="16" rx="3"/><rect x="194" y="179" width="30" height="16" rx="3"/><rect x="199" y="198" width="31" height="16" rx="3"/>
+    <rect x="203" y="217" width="31" height="16" rx="3"/><rect x="205" y="236" width="32" height="16" rx="3"/><rect x="206" y="255" width="32" height="16" rx="3"/>
+    <rect x="205" y="274" width="33" height="16" rx="3"/><rect x="203" y="293" width="33" height="16" rx="3"/><rect x="199" y="312" width="34" height="16" rx="3"/>
+    <rect x="195" y="331" width="34" height="16" rx="3"/><rect x="190" y="350" width="35" height="16" rx="3"/><rect x="186" y="369" width="35" height="16" rx="3"/>
+  </g>
+  <g fill="#efe6d2" stroke="#8a7a5c" stroke-width="1.5">
+    <rect x="180" y="389" width="38" height="18" rx="4"/><rect x="176" y="410" width="39" height="18" rx="4"/><rect x="175" y="431" width="40" height="18" rx="4"/>
+    <rect x="177" y="452" width="40" height="18" rx="4"/><rect x="182" y="473" width="40" height="18" rx="4"/>
+  </g>
+  <path d="M226 494 Q262 470 268 520" fill="none" stroke="#8a7a5c" stroke-width="0"/>
+  <path d="M222 492 Q250 480 252 455 L262 470 Q262 495 236 505 Z" fill="#d9c9a6" stroke="#8a7a5c" stroke-width="1.5"/>
+  <g font-size="12" fill="#1f2933">
+    <text x="240" y="100">Cervical lordosis, C1 to C7</text>
+    <text x="250" y="270">Thoracic kyphosis, T1 to T12</text>
+    <text x="40" y="440">Lumbar lordosis,</text>
+    <text x="40" y="455">L1 to L5</text>
+    <text x="275" y="470">Sacrum (S1 to S5)</text>
+    <text x="275" y="500">and coccyx</text>
+  </g>
+</svg>

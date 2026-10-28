@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "exercise.training-types.glute-training-by-shape",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "glute shapes",
+      "buttock shape"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.gluteus-maximus",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.lower-limb-bones.hip-bone",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.muscle-priority",
+      "rel": "applies"
+    }
+  ],
+  "sources": [
+    {
+      "key": "contreras-2019",
+      "type": "book",
+      "authors": [
+        "Contreras, B.",
+        "Cordoza, G."
+      ],
+      "year": 2019,
+      "title": "Glute Lab: The Art and Science of Strength and Physique Training"
+    },
+    {
+      "key": "schoenfeld-2017",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Ogborn, D.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Dose-response relationship between weekly resistance training volume and increases in muscle mass: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1080/02640414.2016.1210197",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glute shape typology",
+      "anchor": "#definition",
+      "definition": "A coaching classification of buttock shapes into square, round, inverted heart and inverted triangle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A client has high body fat and a V shape. What comes first?",
+      "a": "Fat loss and glute activation, then glute-focused training.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

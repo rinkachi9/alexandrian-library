@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "exercise.intensification.muscle-priority",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "priority principle"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "simao-2012",
+      "type": "paper",
+      "authors": [
+        "Simão, R.",
+        "de Salles, B. F.",
+        "Figueiredo, T.",
+        "Dias, I.",
+        "Willardson, J. M."
+      ],
+      "year": 2012,
+      "title": "Exercise order in resistance training",
+      "url": "https://doi.org/10.2165/11597240-000000000-00000",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Muscle priority",
+      "anchor": "#definition",
+      "definition": "Putting a lagging muscle first in a session or training it more often."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Your hamstrings lag. How would you prioritize them?",
+      "a": "Train them first on leg day and add a second hamstring session per week.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

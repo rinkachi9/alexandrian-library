@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.physiology.endocrine",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "physiology",
+      "endocrine"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "endocrine"
+  }
+}

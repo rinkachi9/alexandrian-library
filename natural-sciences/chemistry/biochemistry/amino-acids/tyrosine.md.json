@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "amino-acids.tyrosine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "amino-acids",
+      "catecholamines",
+      "stress",
+      "supplements"
+    ],
+    "aliases": [
+      "L-tyrosine",
+      "Tyr",
+      "Y"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.phenylalanine",
+      "rel": "extends"
+    },
+    {
+      "to": "amino-acids.tryptophan",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "jongkees-2015",
+      "type": "paper",
+      "authors": [
+        "Jongkees, B. J.",
+        "Hommel, B.",
+        "Kühn, S.",
+        "Colzato, L. S."
+      ],
+      "year": 2015,
+      "title": "Effect of tyrosine supplementation on clinical and healthy populations under stress or cognitive demands: a review",
+      "url": "https://doi.org/10.1016/j.jpsychires.2015.08.014",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Catecholamines",
+      "anchor": "#mechanism",
+      "definition": "Dopamine, noradrenaline and adrenaline, made from tyrosine."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A soldier faces a short, cold, sleepless mission. Why might tyrosine help more there than in daily life?",
+      "a": "Acute stress depletes catecholamines, and extra precursor helps only when stores run low.",
+      "anchor": "#proposed-effects-and-evidence",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

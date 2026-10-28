@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.environmental-health",
+    "kind": "index",
+    "status": "draft",
+    "order": 10,
+    "tags": [
+      "environmental-health"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

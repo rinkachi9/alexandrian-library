@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-e",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "tocopherol",
+      "alpha-tocopherol"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.oxidative-stress",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-c",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-vit-e",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin E: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "select-2011",
+      "type": "paper",
+      "authors": [
+        "Klein, E. A.",
+        "Thompson, I. M.",
+        "Tangen, C. M."
+      ],
+      "year": 2011,
+      "title": "Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT)",
+      "url": "https://doi.org/10.1001/jama.2011.1437",
+      "verified": false
+    },
+    {
+      "key": "areds-2001",
+      "type": "paper",
+      "authors": [
+        "Age-Related Eye Disease Study Research Group"
+      ],
+      "year": 2001,
+      "title": "A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E, beta carotene, and zinc for age-related macular degeneration and vision loss: AREDS report no. 8",
+      "url": "https://doi.org/10.1001/archopht.119.10.1417",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Alpha-tocopherol",
+      "anchor": "#definition",
+      "definition": "The main active form of vitamin E kept in human blood."
+    },
+    {
+      "term": "Lipid peroxidation",
+      "anchor": "#mechanism",
+      "definition": "A chain reaction of oxidation of fatty acids in membranes."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "exercise.training-variables.time-under-tension",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "exercise",
+      "training-variables",
+      "hypertrophy"
+    ],
+    "aliases": [
+      "TUT",
+      "time under load"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.biomechanics.muscle-actions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-variables.tempo",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2015-tempo",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Ogborn, D. I.",
+        "Krieger, J. W."
+      ],
+      "year": 2015,
+      "title": "Effect of repetition duration during resistance training on muscle hypertrophy: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-015-0304-0",
+      "verified": false
+    },
+    {
+      "key": "wilk-2021",
+      "type": "paper",
+      "authors": [
+        "Wilk, M.",
+        "Zajac, A.",
+        "Tufano, J. J."
+      ],
+      "year": 2021,
+      "title": "The influence of movement tempo during resistance training on muscular strength and hypertrophy responses: a review",
+      "url": "https://doi.org/10.1007/s40279-021-01465-2",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Time under tension",
+      "anchor": "#definition",
+      "definition": "Total time a muscle is under load in a set."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A set of 8 repetitions at 4-0-1-0 lasts how long?",
+      "a": "40 seconds.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "biochemistry.oxidative-phosphorylation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "biochemistry",
+      "energy",
+      "mitochondria",
+      "respiration"
+    ],
+    "aliases": [
+      "electron transport chain",
+      "respiratory chain",
+      "chemiosmosis"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.krebs-cycle",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.mitochondria",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.vo2-max",
+      "rel": "related",
+      "note": "Whole-body oxygen use reflects this process"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mitchell-1961",
+      "type": "paper",
+      "authors": [
+        "Mitchell, P."
+      ],
+      "year": 1961,
+      "title": "Coupling of phosphorylation to electron and hydrogen transfer by a chemi-osmotic type of mechanism",
+      "url": "https://doi.org/10.1038/191144a0",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "lehninger-2021",
+      "type": "book",
+      "authors": [
+        "Nelson, D. L.",
+        "Cox, M. M."
+      ],
+      "year": 2021,
+      "title": "Lehninger Principles of Biochemistry (8th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Electron transport chain",
+      "anchor": "#mechanism",
+      "definition": "The four protein complexes and two carriers in the inner mitochondrial membrane that pass electrons to oxygen."
+    },
+    {
+      "term": "Chemiosmotic theory",
+      "anchor": "#definition",
+      "definition": "The idea that a proton gradient couples electron transport to ATP synthesis."
+    },
+    {
+      "term": "Uncoupling",
+      "anchor": "#what-stops-it",
+      "definition": "Proton leak across the membrane that bypasses ATP synthase and releases the energy as heat."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "How does brown fat produce heat?",
+      "a": "Uncoupling protein 1 lets protons flow back without ATP synthase, so the gradient energy becomes heat.",
+      "anchor": "#what-stops-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "About how many ATP are made per NADH by current estimates?",
+      "a": "About 2.5.",
+      "anchor": "#yield",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "physiology.cardiovascular.heart-and-circulation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "physiology",
+      "cardiovascular",
+      "heart"
+    ],
+    "aliases": [
+      "heart",
+      "cardiac output",
+      "circulation",
+      "stroke volume"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.gas-exchange",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.cardiovascular.resting-heart-rate",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cardiac output",
+      "anchor": "#definition",
+      "definition": "The volume of blood pumped per minute, heart rate times stroke volume."
+    },
+    {
+      "term": "Frank-Starling mechanism",
+      "anchor": "#mechanism",
+      "definition": "Greater filling of the ventricle increases stroke volume."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A person has HR 60 and SV 80 ml. What is the cardiac output?",
+      "a": "4.8 L per minute.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cardiovascular"
+  }
+}

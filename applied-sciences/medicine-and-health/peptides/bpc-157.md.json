@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "peptides.bpc-157",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "BPC 157",
+      "body protection compound",
+      "pentadecapeptide"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "peptides.tb-500",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gwyer-2019",
+      "type": "paper",
+      "authors": [
+        "Gwyer, D.",
+        "Wragg, N. M.",
+        "Wilson, S. L."
+      ],
+      "year": 2019,
+      "title": "Gastric pentadecapeptide body protection compound BPC 157 and its role in accelerating musculoskeletal soft tissue healing",
+      "url": "https://doi.org/10.1007/s00441-019-03016-8",
+      "verified": false
+    },
+    {
+      "key": "fda-bulk-2023",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2023,
+      "title": "Certain bulk drug substances for use in compounding that may present significant safety risks",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+      "verified": false
+    },
+    {
+      "key": "wada-list",
+      "type": "documentation",
+      "authors": [
+        "World Anti-Doping Agency"
+      ],
+      "title": "World Anti-Doping Code: The Prohibited List",
+      "url": "https://www.wada-ama.org/en/prohibited-list",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Angiogenesis",
+      "anchor": "#mechanism",
+      "definition": "The formation of new blood vessels."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

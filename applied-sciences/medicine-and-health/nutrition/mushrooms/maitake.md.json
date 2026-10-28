@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "mushrooms.maitake",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "Grifola frondosa",
+      "hen of the woods",
+      "dancing mushroom"
+    ]
+  },
+  "links": [
+    {
+      "to": "mushrooms.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wasser-2002",
+      "type": "paper",
+      "authors": [
+        "Wasser, S. P."
+      ],
+      "year": 2002,
+      "title": "Medicinal mushrooms as a source of antitumor and immunomodulating polysaccharides",
+      "url": "https://doi.org/10.1007/s00253-002-1076-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "D-fraction",
+      "anchor": "#definition",
+      "definition": "A protein-bound beta-glucan extract from maitake."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

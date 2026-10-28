@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "anatomy.muscles.adductors",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 16,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "lower-limb",
+      "thigh",
+      "hip"
+    ],
+    "aliases": [
+      "adductor magnus",
+      "adductor longus",
+      "gracilis",
+      "pectineus",
+      "groin muscles"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.joints.hip-joint",
+      "rel": "related"
+    },
+    {
+      "to": "anatomy.muscles.sartorius",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "haroy-2019",
+      "type": "paper",
+      "authors": [
+        "Harøy, J.",
+        "Clarsen, B.",
+        "Wiger, E. G."
+      ],
+      "year": 2019,
+      "title": "The Adductor Strengthening Programme prevents groin problems among male football players: a cluster-randomised controlled trial",
+      "url": "https://doi.org/10.1136/bjsports-2017-098937",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "lower-limb-muscles"
+  }
+}

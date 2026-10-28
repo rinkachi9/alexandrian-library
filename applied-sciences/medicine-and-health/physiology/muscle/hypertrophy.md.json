@@ -1,0 +1,127 @@
+{
+  "node": {
+    "id": "physiology.muscle.hypertrophy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "physiology",
+      "muscle",
+      "hypertrophy",
+      "training"
+    ],
+    "aliases": [
+      "muscle growth",
+      "myofibrillar hypertrophy",
+      "sarcoplasmic hypertrophy",
+      "muscle memory"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.muscle-fiber-types",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.motor-units",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.hyperplasia",
+      "rel": "contrasts"
+    },
+    {
+      "to": "physiology.muscle.muscle-protein-balance",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.recovery.recovery",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schoenfeld-2010",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J."
+      ],
+      "year": 2010,
+      "title": "The mechanisms of muscle hypertrophy and their application to resistance training",
+      "url": "https://doi.org/10.1519/JSC.0b013e3181e840f3",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2017",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Ogborn, D.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Dose-response relationship between weekly resistance training volume and increases in muscle mass: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1080/02640414.2016.1210197",
+      "verified": false
+    },
+    {
+      "key": "jorgenson-2020",
+      "type": "paper",
+      "authors": [
+        "Jorgenson, K. W.",
+        "Phillips, S. M.",
+        "Hornberger, T. A."
+      ],
+      "year": 2020,
+      "title": "Identifying the structural adaptations that drive the mechanical load-induced growth of skeletal muscle: a scoping review",
+      "url": "https://doi.org/10.3390/cells9071658",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2017-load",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Ogborn, D.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1519/JSC.0000000000002200",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Muscle hypertrophy",
+      "anchor": "#definition",
+      "definition": "Increase in the size of existing muscle fibers."
+    },
+    {
+      "term": "Satellite cells",
+      "anchor": "#mechanism",
+      "definition": "Muscle stem cells that add nuclei to fibers during growth and repair."
+    },
+    {
+      "term": "Mechanical tension",
+      "anchor": "#mechanism",
+      "definition": "Force on muscle fibers, the main stimulus for growth."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do strength gains exceed size gains early in training?",
+      "a": "Neural adaptations improve recruitment and coordination in addition to growth.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

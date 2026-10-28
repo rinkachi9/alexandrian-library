@@ -1,0 +1,54 @@
+{
+  "node": {
+    "id": "complementary-medicine.natural-remedies",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "natural medicine",
+      "home remedies"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.evidence-grades",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wichtl-2004",
+      "type": "book",
+      "authors": [
+        "Wichtl, M. (Ed.)"
+      ],
+      "year": 2004,
+      "title": "Herbal Drugs and Phytopharmaceuticals (3rd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Natural remedy",
+      "anchor": "#definition",
+      "definition": "A product of natural origin used for health purposes."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How should you evaluate a new natural remedy?",
+      "a": "Check for human trials, shown benefit and safety with your medicines.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

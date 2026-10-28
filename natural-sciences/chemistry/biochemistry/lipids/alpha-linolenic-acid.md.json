@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "lipids.alpha-linolenic-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "lipids",
+      "omega-3",
+      "essential"
+    ],
+    "aliases": [
+      "ALA",
+      "18:3 n-3"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "part-of"
+    },
+    {
+      "to": "lipids.linoleic-acid",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-omega3",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Omega-3 Fatty Acids: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "iom-2005",
+      "type": "report",
+      "authors": [
+        "Institute of Medicine"
+      ],
+      "year": 2005,
+      "title": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+      "url": "https://doi.org/10.17226/10490",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Conversion efficiency",
+      "anchor": "#mechanism",
+      "definition": "The share of ALA turned into EPA and DHA, which is low in humans."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why may a diet very high in linoleic acid reduce ALA conversion?",
+      "a": "Both compete for delta-6 desaturase.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

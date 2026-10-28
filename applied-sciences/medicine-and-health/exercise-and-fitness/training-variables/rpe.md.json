@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "exercise.training-variables.rpe",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "exercise",
+      "training-variables",
+      "intensity"
+    ],
+    "aliases": [
+      "RPE",
+      "Borg scale",
+      "perceived exertion"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.repetition-maximum",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-variables.rir",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "borg-1982",
+      "type": "paper",
+      "authors": [
+        "Borg, G. A."
+      ],
+      "year": 1982,
+      "title": "Psychophysical bases of perceived exertion",
+      "url": "https://doi.org/10.1249/00005768-198205000-00012",
+      "verified": false
+    },
+    {
+      "key": "zourdos-2016",
+      "type": "paper",
+      "authors": [
+        "Zourdos, M. C.",
+        "Klemp, A.",
+        "Dolan, C."
+      ],
+      "year": 2016,
+      "title": "Novel resistance training-specific rating of perceived exertion scale measuring repetitions in reserve",
+      "url": "https://doi.org/10.1519/JSC.0000000000001049",
+      "verified": false
+    },
+    {
+      "key": "helms-2016",
+      "type": "paper",
+      "authors": [
+        "Helms, E. R.",
+        "Cronin, J.",
+        "Storey, A.",
+        "Zourdos, M. C."
+      ],
+      "year": 2016,
+      "title": "Application of the repetitions in reserve-based rating of perceived exertion scale for resistance training",
+      "url": "https://doi.org/10.1519/SSC.0000000000000218",
+      "verified": false
+    },
+    {
+      "key": "tuchscherer-2008",
+      "type": "book",
+      "authors": [
+        "Tuchscherer, M."
+      ],
+      "year": 2008,
+      "title": "The Reactive Training Manual"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "RPE",
+      "anchor": "#definition",
+      "definition": "A subjective rating of effort; in strength training, 10 minus repetitions in reserve."
+    },
+    {
+      "term": "Borg scale",
+      "anchor": "#definition",
+      "definition": "A 6 to 20 scale of perceived exertion for endurance exercise."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Convert RPE 8.5 into repetitions in reserve.",
+      "a": "One to two repetitions in reserve.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

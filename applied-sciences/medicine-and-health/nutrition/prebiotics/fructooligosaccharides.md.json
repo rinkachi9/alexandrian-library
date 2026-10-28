@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "nutrition.prebiotics.fructooligosaccharides",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "prebiotics",
+      "gut"
+    ],
+    "aliases": [
+      "FOS",
+      "oligofructose",
+      "FODMAP"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.prebiotics.inulin",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gibson-2017",
+      "type": "paper",
+      "authors": [
+        "Gibson, G. R.",
+        "Hutkins, R.",
+        "Sanders, M. E."
+      ],
+      "year": 2017,
+      "title": "Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics",
+      "url": "https://doi.org/10.1038/nrgastro.2017.75",
+      "verified": false
+    },
+    {
+      "key": "halmos-2014",
+      "type": "paper",
+      "authors": [
+        "Halmos, E. P.",
+        "Power, V. A.",
+        "Shepherd, S. J.",
+        "Gibson, P. R.",
+        "Muir, J. G."
+      ],
+      "year": 2014,
+      "title": "A diet low in FODMAPs reduces symptoms of irritable bowel syndrome",
+      "url": "https://doi.org/10.1053/j.gastro.2013.09.046",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fructooligosaccharides",
+      "anchor": "#definition",
+      "definition": "Short fructose chains with a degree of polymerization of about 2 to 9."
+    },
+    {
+      "term": "FODMAP",
+      "anchor": "#worked-example",
+      "definition": "Fermentable short-chain carbohydrates that can trigger IBS symptoms."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "prebiotics"
+  }
+}

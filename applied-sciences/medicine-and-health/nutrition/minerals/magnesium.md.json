@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "nutrition.minerals.magnesium",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Mg",
+      "magnesium citrate",
+      "magnesium glycinate"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.minerals.calcium",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.atp",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-magnesium",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Magnesium: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "zhang-2016-mg",
+      "type": "paper",
+      "authors": [
+        "Zhang, X.",
+        "Li, Y.",
+        "Del Gobbo, L. C."
+      ],
+      "year": 2016,
+      "title": "Effects of magnesium supplementation on blood pressure: a meta-analysis of randomized double-blind placebo-controlled trials",
+      "url": "https://doi.org/10.1161/HYPERTENSIONAHA.116.07664",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Magnesium citrate",
+      "anchor": "#definition",
+      "definition": "A well-absorbed magnesium salt that also acts as a laxative."
+    },
+    {
+      "term": "Mg-ATP",
+      "anchor": "#mechanism",
+      "definition": "The magnesium-ATP complex used by enzymes."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

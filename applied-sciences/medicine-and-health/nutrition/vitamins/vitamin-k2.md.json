@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-k2",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "menaquinone",
+      "MK-7",
+      "MK-4",
+      "vitamin K"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-d",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.foundations.fermented-foods",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-vit-k",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin K: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "knapen-2013",
+      "type": "paper",
+      "authors": [
+        "Knapen, M. H. J.",
+        "Drummen, N. E.",
+        "Smit, E.",
+        "Vermeer, C.",
+        "Theuwissen, E."
+      ],
+      "year": 2013,
+      "title": "Three-year low-dose menaquinone-7 supplementation helps decrease bone loss in healthy postmenopausal women",
+      "url": "https://doi.org/10.1007/s00198-013-2325-6",
+      "verified": false
+    },
+    {
+      "key": "geleijnse-2004",
+      "type": "paper",
+      "authors": [
+        "Geleijnse, J. M.",
+        "Vermeer, C.",
+        "Grobbee, D. E."
+      ],
+      "year": 2004,
+      "title": "Dietary intake of menaquinone is associated with a reduced risk of coronary heart disease: the Rotterdam Study",
+      "url": "https://doi.org/10.1093/jn/134.11.3100",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Menaquinone",
+      "anchor": "#definition",
+      "definition": "Vitamin K2, made by bacteria and found in fermented and animal foods."
+    },
+    {
+      "term": "Gla protein",
+      "anchor": "#mechanism",
+      "definition": "A protein with carboxylated glutamate residues that bind calcium."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

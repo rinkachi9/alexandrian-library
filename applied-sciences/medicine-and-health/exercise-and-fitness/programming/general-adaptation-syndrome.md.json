@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "exercise.programming.general-adaptation-syndrome",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "exercise",
+      "programming",
+      "adaptation"
+    ],
+    "aliases": [
+      "GAS",
+      "Selye",
+      "progressive overload",
+      "supercompensation"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.programming.training-programming",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.deloads",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.intensification.progressive-overload",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "selye-1936",
+      "type": "paper",
+      "authors": [
+        "Selye, H."
+      ],
+      "year": 1936,
+      "title": "A syndrome produced by diverse nocuous agents",
+      "url": "https://doi.org/10.1038/138032a0",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "General adaptation syndrome",
+      "anchor": "#definition",
+      "definition": "A model of the stress response with alarm, resistance and exhaustion stages."
+    },
+    {
+      "term": "Progressive overload",
+      "anchor": "#definition",
+      "definition": "Gradual increase of training stress to keep stimulating adaptation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do training plans include easier weeks?",
+      "a": "To allow recovery and adaptation and avoid the exhaustion stage.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

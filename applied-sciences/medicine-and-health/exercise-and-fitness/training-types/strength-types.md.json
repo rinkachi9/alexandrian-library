@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "exercise.training-types.strength-types",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "muscular strength",
+      "maximal strength",
+      "relative strength",
+      "explosive strength"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.repetition-maximum",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "suchomel-2018",
+      "type": "paper",
+      "authors": [
+        "Suchomel, T. J.",
+        "Nimphius, S.",
+        "Bellon, C. R.",
+        "Stone, M. H."
+      ],
+      "year": 2018,
+      "title": "The importance of muscular strength: training considerations",
+      "url": "https://doi.org/10.1007/s40279-018-0862-z",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Muscular strength",
+      "anchor": "#definition",
+      "definition": "The ability of the neuromuscular system to overcome or resist external resistance."
+    },
+    {
+      "term": "Relative strength",
+      "anchor": "#definition",
+      "definition": "Maximal strength divided by body mass."
+    },
+    {
+      "term": "Speed strength",
+      "anchor": "#definition",
+      "definition": "The ability to develop force quickly at high velocities."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Which type of strength matters most for a gymnast?",
+      "a": "Relative strength.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

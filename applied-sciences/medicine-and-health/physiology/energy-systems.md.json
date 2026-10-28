@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "physiology.energy-systems",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "physiology",
+      "energy",
+      "exercise"
+    ],
+    "aliases": [
+      "ATP-PCr system",
+      "aerobic and anaerobic metabolism",
+      "energy pathways"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.atp",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.glycolysis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.oxidative-phosphorylation",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.supplements.creatine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    },
+    {
+      "key": "kreider-2017",
+      "type": "paper",
+      "authors": [
+        "Kreider, R. B.",
+        "Kalman, D. S.",
+        "Antonio, J."
+      ],
+      "year": 2017,
+      "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "url": "https://doi.org/10.1186/s12970-017-0173-z",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phosphagen system",
+      "anchor": "#mechanism",
+      "definition": "ATP regeneration from phosphocreatine, the fastest but smallest energy system."
+    },
+    {
+      "term": "Oxidative system",
+      "anchor": "#mechanism",
+      "definition": "Aerobic ATP production in mitochondria from carbohydrate and fat."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why are 3 to 5 minute rests used between heavy strength sets?",
+      "a": "Phosphocreatine needs about 3 to 5 minutes to be nearly fully restored.",
+      "anchor": "#recovery-between-efforts",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiology"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.food-additives",
+    "kind": "index",
+    "status": "draft",
+    "order": 12,
+    "tags": [
+      "nutrition",
+      "food-additives"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "food-additives"
+  }
+}

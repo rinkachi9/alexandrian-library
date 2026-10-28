@@ -1,0 +1,66 @@
+{
+  "node": {
+    "id": "nutrition.minerals.iron",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "Fe",
+      "ferritin",
+      "heme iron",
+      "non-heme iron"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.minerals.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-c",
+      "rel": "related"
+    },
+    {
+      "to": "diagnostics.complete-blood-count",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-iron",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Iron: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Heme iron",
+      "anchor": "#definition",
+      "definition": "Iron in meat and fish, absorbed well."
+    },
+    {
+      "term": "Ferritin",
+      "anchor": "#definition",
+      "definition": "The iron storage protein; its blood level reflects stores."
+    },
+    {
+      "term": "Hepcidin",
+      "anchor": "#mechanism",
+      "definition": "The hormone that controls iron absorption."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "minerals"
+  }
+}

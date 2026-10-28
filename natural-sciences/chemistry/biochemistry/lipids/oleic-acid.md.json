@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "lipids.oleic-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "lipids",
+      "omega-9"
+    ],
+    "aliases": [
+      "18:1 n-9",
+      "cis-9-octadecenoic acid"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.omega-9-fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-9-fatty-acids",
+      "rel": "part-of"
+    },
+    {
+      "to": "lipids.trans-fatty-acids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Stearoyl-CoA desaturase",
+      "anchor": "#definition",
+      "definition": "The enzyme that makes oleic acid from stearic acid."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the shorthand of oleic acid?",
+      "a": "18:1 n-9.",
+      "anchor": "#summary",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

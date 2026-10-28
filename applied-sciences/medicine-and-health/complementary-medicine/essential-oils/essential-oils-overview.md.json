@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "complementary-medicine.essential-oils",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "aromatherapy",
+      "carrier oil"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.terpenoids",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Essential oil",
+      "anchor": "#definition",
+      "definition": "A concentrated volatile plant oil obtained by distillation or pressing."
+    },
+    {
+      "term": "Carrier oil",
+      "anchor": "#definition",
+      "definition": "A fatty oil used to dilute essential oils for skin use."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might inhaled essential oils affect mood?",
+      "a": "Odor signals reach the limbic system involved in emotion.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "essential-oils"
+  }
+}

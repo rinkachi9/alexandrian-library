@@ -1,0 +1,45 @@
+{
+  "node": {
+    "id": "herbal-extracts.fenugreek",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Trigonella foenum-graecum",
+      "methi"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "neelakantan-2014",
+      "type": "paper",
+      "authors": [
+        "Neelakantan, N.",
+        "Narayanan, M.",
+        "de Souza, R. J.",
+        "van Dam, R. M."
+      ],
+      "year": 2014,
+      "title": "Effect of fenugreek (Trigonella foenum-graecum L.) intake on glycemia: a meta-analysis of clinical trials",
+      "url": "https://doi.org/10.1186/1475-2891-13-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "4-Hydroxyisoleucine",
+      "anchor": "#definition",
+      "definition": "An amino acid in fenugreek that stimulates insulin secretion."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

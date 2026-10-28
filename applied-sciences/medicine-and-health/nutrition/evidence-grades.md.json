@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "nutrition.evidence-grades",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "evidence",
+      "methodology"
+    ],
+    "aliases": [
+      "evidence levels",
+      "strength of evidence",
+      "GRADE"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "guyatt-2008",
+      "type": "paper",
+      "authors": [
+        "Guyatt, G. H.",
+        "Oxman, A. D.",
+        "Vist, G. E."
+      ],
+      "year": 2008,
+      "title": "GRADE: an emerging consensus on rating quality of evidence and strength of recommendations",
+      "url": "https://doi.org/10.1136/bmj.39489.470347.AD",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Evidence grade",
+      "anchor": "#definition",
+      "definition": "A label stating how confident one can be that a claimed effect is real in humans."
+    },
+    {
+      "term": "Randomized controlled trial",
+      "anchor": "#definition",
+      "definition": "A study that assigns people to an intervention or control by chance."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A herb lowers inflammation in mice. What is the grade for \"reduces inflammation in humans\"?",
+      "a": "Very limited.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition"
+  }
+}

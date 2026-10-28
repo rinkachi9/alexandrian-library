@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "lipids.eicosanoids",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 15,
+    "tags": [
+      "lipids",
+      "eicosanoids",
+      "inflammation"
+    ],
+    "aliases": [
+      "prostaglandins",
+      "leukotrienes",
+      "thromboxanes"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.arachidonic-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.epa",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.omega-6-fatty-acids",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Eicosanoid",
+      "anchor": "#definition",
+      "definition": "A local signaling molecule made from a 20-carbon polyunsaturated fatty acid."
+    },
+    {
+      "term": "Prostacyclin",
+      "anchor": "#mechanism",
+      "definition": "An eicosanoid that dilates vessels and prevents platelet clumping."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do thromboxane A2 and prostacyclin balance each other?",
+      "a": "Thromboxane A2 makes platelets clump and vessels constrict; prostacyclin does the opposite.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

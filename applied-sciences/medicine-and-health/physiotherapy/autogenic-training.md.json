@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "physiotherapy.autogenic-training",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "physiotherapy"
+    ],
+    "aliases": [
+      "autogenic training",
+      "Schultz training"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiotherapy.relaxation-techniques",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schultz-1932",
+      "type": "book",
+      "authors": [
+        "Schultz, J. H."
+      ],
+      "year": 1932,
+      "title": "Das autogene Training: konzentrative Selbstentspannung"
+    },
+    {
+      "key": "stetter-2002",
+      "type": "paper",
+      "authors": [
+        "Stetter, F.",
+        "Kupper, S."
+      ],
+      "year": 2002,
+      "title": "Autogenic training: a meta-analysis of clinical outcome studies",
+      "url": "https://doi.org/10.1023/A:1014584822567",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Autogenic training",
+      "anchor": "#definition",
+      "definition": "A self-relaxation method using formulas focused on bodily sensations."
+    },
+    {
+      "term": "Intention formula",
+      "anchor": "#mechanism",
+      "definition": "A self-suggestion added after the basic course to support a goal."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is passivity emphasized in autogenic training?",
+      "a": "Trying hard to relax activates the sympathetic system; passive attention allows relaxation.",
+      "anchor": "#analogy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

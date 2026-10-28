@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "nutrition.prebiotics.inulin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "prebiotics",
+      "gut"
+    ],
+    "aliases": [
+      "chicory inulin",
+      "fructan"
+    ]
+  },
+  "links": [
+    {
+      "to": "prebiotics.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.prebiotics.fructooligosaccharides",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gibson-2017",
+      "type": "paper",
+      "authors": [
+        "Gibson, G. R.",
+        "Hutkins, R.",
+        "Sanders, M. E."
+      ],
+      "year": 2017,
+      "title": "Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics",
+      "url": "https://doi.org/10.1038/nrgastro.2017.75",
+      "verified": false
+    },
+    {
+      "key": "abrams-2005",
+      "type": "paper",
+      "authors": [
+        "Abrams, S. A.",
+        "Griffin, I. J.",
+        "Hawthorne, K. M."
+      ],
+      "year": 2005,
+      "title": "A combination of prebiotic short- and long-chain inulin-type fructans enhances calcium absorption and bone mineralization in young adolescents",
+      "url": "https://doi.org/10.1093/ajcn/82.2.471",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fructan",
+      "anchor": "#definition",
+      "definition": "A carbohydrate made of fructose chains."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "prebiotics"
+  }
+}

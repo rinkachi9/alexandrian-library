@@ -1,6 +1,6 @@
 # Applied sciences
 
-Fields that use knowledge from the other domains to solve practical problems and run professions. This area is planned and has no notes yet.
+Fields that use knowledge from the other domains to solve practical problems and run professions. Medicine and health has notes; the other fields are planned.
 
 ## Fields
 

@@ -1,0 +1,116 @@
+{
+  "node": {
+    "id": "amino-acids.arginine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "amino-acids",
+      "nitric-oxide",
+      "supplements"
+    ],
+    "aliases": [
+      "L-arginine",
+      "Arg"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.citrulline",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.urea-cycle",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.lysine",
+      "rel": "contrasts",
+      "note": "Lysine competes with arginine"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-exercise",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Dietary Supplements for Exercise and Athletic Performance: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "viribay-2020",
+      "type": "paper",
+      "authors": [
+        "Viribay, A.",
+        "Burgos, J.",
+        "Fernández-Landa, J.",
+        "Seco-Calvo, J.",
+        "Mielgo-Ayuso, J."
+      ],
+      "year": 2020,
+      "title": "Effects of arginine supplementation on athletic performance based on energy metabolism: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.3390/nu12051300",
+      "verified": false
+    },
+    {
+      "key": "schulman-2006",
+      "type": "paper",
+      "authors": [
+        "Schulman, S. P.",
+        "Becker, L. C.",
+        "Kass, D. A."
+      ],
+      "year": 2006,
+      "title": "L-arginine therapy in acute myocardial infarction: the Vascular Interaction With Age in Myocardial Infarction (VINTAGE MI) randomized clinical trial",
+      "url": "https://doi.org/10.1001/jama.295.1.58",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nitric oxide",
+      "anchor": "#mechanism",
+      "definition": "A gas made from arginine that relaxes smooth muscle in vessel walls."
+    },
+    {
+      "term": "First-pass metabolism",
+      "anchor": "#mechanism",
+      "definition": "Breakdown of an oral substance in the gut and liver before it reaches the circulation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are the effects of arginine supplements small in healthy people?",
+      "a": "Arginine is rarely limiting for nitric oxide synthase in healthy people, and much of an oral dose is broken down before reaching the circulation.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

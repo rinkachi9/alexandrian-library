@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "physiology.sleep.deep-sleep",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "physiology",
+      "sleep",
+      "recovery"
+    ],
+    "aliases": [
+      "slow-wave sleep",
+      "N3",
+      "NREM stage 3"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.sleep.sleep-architecture",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.endocrine.anabolic-and-catabolic-hormones",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "xie-2013",
+      "type": "paper",
+      "authors": [
+        "Xie, L.",
+        "Kang, H.",
+        "Xu, Q."
+      ],
+      "year": 2013,
+      "title": "Sleep drives metabolite clearance from the adult brain",
+      "url": "https://doi.org/10.1126/science.1241224",
+      "verified": false
+    },
+    {
+      "key": "ohayon-2004",
+      "type": "paper",
+      "authors": [
+        "Ohayon, M. M.",
+        "Carskadon, M. A.",
+        "Guilleminault, C.",
+        "Vitiello, M. V."
+      ],
+      "year": 2004,
+      "title": "Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals",
+      "url": "https://doi.org/10.1093/sleep/27.7.1255",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Slow-wave sleep",
+      "anchor": "#definition",
+      "definition": "NREM stage 3, with high-amplitude delta waves."
+    },
+    {
+      "term": "Glymphatic system",
+      "anchor": "#mechanism",
+      "definition": "A proposed brain waste-clearance system driven by cerebrospinal fluid flow, more active in sleep."
+    },
+    {
+      "term": "Sleep inertia",
+      "anchor": "#worked-example",
+      "definition": "Grogginess after waking, especially from deep sleep."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why can a 50-minute nap leave you groggier than a 15-minute nap?",
+      "a": "The longer nap often ends in deep sleep, causing sleep inertia.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "sleep"
+  }
+}

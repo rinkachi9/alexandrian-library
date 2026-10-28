@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "lipids.dha",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 14,
+    "tags": [
+      "lipids",
+      "omega-3",
+      "brain",
+      "pregnancy"
+    ],
+    "aliases": [
+      "DHA",
+      "22:6 n-3"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "part-of"
+    },
+    {
+      "to": "lipids.epa",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "middleton-2018",
+      "type": "paper",
+      "authors": [
+        "Middleton, P.",
+        "Gomersall, J. C.",
+        "Gould, J. F."
+      ],
+      "year": 2018,
+      "title": "Omega-3 fatty acid addition during pregnancy",
+      "url": "https://doi.org/10.1002/14651858.CD003402.pub3",
+      "verified": false
+    },
+    {
+      "key": "efsa-2010-fats",
+      "type": "paper",
+      "authors": [
+        "EFSA Panel on Dietetic Products, Nutrition, and Allergies"
+      ],
+      "year": 2010,
+      "title": "Scientific Opinion on Dietary Reference Values for fats, including saturated fatty acids, polyunsaturated fatty acids, monounsaturated fatty acids, trans fatty acids, and cholesterol",
+      "url": "https://doi.org/10.2903/j.efsa.2010.1461",
+      "verified": false
+    },
+    {
+      "key": "ods-omega3",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Omega-3 Fatty Acids: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rhodopsin",
+      "anchor": "#analogy",
+      "definition": "The light-sensitive protein of rod cells, embedded in DHA-rich membranes."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Which fish would you suggest to a pregnant woman for DHA?",
+      "a": "Low-mercury oily fish such as salmon, sardines, herring or trout.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

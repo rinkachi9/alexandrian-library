@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "lipids.epa",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 13,
+    "tags": [
+      "lipids",
+      "omega-3"
+    ],
+    "aliases": [
+      "EPA",
+      "20:5 n-3",
+      "icosapent"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.omega-3-fatty-acids",
+      "rel": "part-of"
+    },
+    {
+      "to": "lipids.arachidonic-acid",
+      "rel": "contrasts"
+    },
+    {
+      "to": "lipids.dha",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bhatt-2019",
+      "type": "paper",
+      "authors": [
+        "Bhatt, D. L.",
+        "Steg, P. G.",
+        "Miller, M."
+      ],
+      "year": 2019,
+      "title": "Cardiovascular risk reduction with icosapent ethyl for hypertriglyceridemia",
+      "url": "https://doi.org/10.1056/NEJMoa1812792",
+      "verified": false
+    },
+    {
+      "key": "ods-omega3",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Omega-3 Fatty Acids: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Resolvins",
+      "anchor": "#mechanism",
+      "definition": "Signals made from EPA and DHA that help end inflammation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does EPA differ from DHA in its effect on LDL cholesterol?",
+      "a": "EPA does not raise LDL; DHA can raise it slightly.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

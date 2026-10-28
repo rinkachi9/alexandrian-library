@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "exercise.programming.training-to-failure",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "exercise",
+      "programming",
+      "intensity"
+    ],
+    "aliases": [
+      "muscle failure",
+      "training to failure"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rir",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.hypertrophy",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "refalo-2023",
+      "type": "paper",
+      "authors": [
+        "Refalo, M. C.",
+        "Helms, E. R.",
+        "Trexler, E. T.",
+        "Hamilton, D. L.",
+        "Fyfe, J. J."
+      ],
+      "year": 2023,
+      "title": "Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-022-01784-y",
+      "verified": false
+    },
+    {
+      "key": "zourdos-2016",
+      "type": "paper",
+      "authors": [
+        "Zourdos, M. C.",
+        "Klemp, A.",
+        "Dolan, C."
+      ],
+      "year": 2016,
+      "title": "Novel resistance training-specific rating of perceived exertion scale measuring repetitions in reserve",
+      "url": "https://doi.org/10.1519/JSC.0000000000001049",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Momentary muscle failure",
+      "anchor": "#definition",
+      "definition": "Inability to complete another repetition despite maximal effort."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does stopping a few repetitions short of failure often work as well?",
+      "a": "Most high-threshold motor units are already recruited near failure, while the last repetitions mostly add fatigue.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "programming"
+  }
+}

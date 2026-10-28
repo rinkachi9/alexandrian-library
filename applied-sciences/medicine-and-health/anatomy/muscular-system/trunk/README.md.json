@@ -1,0 +1,17 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.muscular-system.trunk",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "trunk"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "trunk-muscles"
+  }
+}

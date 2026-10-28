@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "physiology.muscle.muscle-contraction",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "physiology",
+      "muscle",
+      "contraction"
+    ],
+    "aliases": [
+      "sliding filament theory",
+      "excitation-contraction coupling",
+      "cross-bridge cycle"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.skeletal-muscle-structure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.atp",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.muscle.motor-units",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "huxley-1954",
+      "type": "paper",
+      "authors": [
+        "Huxley, A. F.",
+        "Niedergerke, R."
+      ],
+      "year": 1954,
+      "title": "Structural changes in muscle during contraction: interference microscopy of living muscle fibres",
+      "url": "https://doi.org/10.1038/173971a0",
+      "verified": false
+    },
+    {
+      "key": "huxley-hanson-1954",
+      "type": "paper",
+      "authors": [
+        "Huxley, H.",
+        "Hanson, J."
+      ],
+      "year": 1954,
+      "title": "Changes in the cross-striations of muscle during contraction and stretch and their structural interpretation",
+      "url": "https://doi.org/10.1038/173973a0",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sliding filament theory",
+      "anchor": "#definition",
+      "definition": "Muscles shorten because actin and myosin filaments slide past each other."
+    },
+    {
+      "term": "Cross-bridge cycle",
+      "anchor": "#mechanism",
+      "definition": "The repeated binding, power stroke and release of myosin heads on actin, powered by ATP."
+    },
+    {
+      "term": "Excitation-contraction coupling",
+      "anchor": "#definition",
+      "definition": "The sequence linking the muscle action potential to calcium release and contraction."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Why does botulinum toxin paralyze muscle?",
+      "a": "It blocks acetylcholine release, so no action potential is triggered in the muscle fiber.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

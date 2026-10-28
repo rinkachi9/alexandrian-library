@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "conditions.allergy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "conditions",
+      "allergy",
+      "immunology"
+    ],
+    "aliases": [
+      "allergies",
+      "IgE",
+      "hypersensitivity",
+      "atopy"
+    ]
+  },
+  "links": [
+    {
+      "to": "conditions.allergy-prevention-and-treatment",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "janeway-2022",
+      "type": "book",
+      "authors": [
+        "Murphy, K.",
+        "Weaver, C.",
+        "Berg, L."
+      ],
+      "year": 2022,
+      "title": "Janeway's Immunobiology (10th ed.)"
+    },
+    {
+      "key": "strachan-1989",
+      "type": "paper",
+      "authors": [
+        "Strachan, D. P."
+      ],
+      "year": 1989,
+      "title": "Hay fever, hygiene, and household size",
+      "url": "https://doi.org/10.1136/bmj.299.6710.1259",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Allergen",
+      "anchor": "#definition",
+      "definition": "A normally harmless substance that triggers an allergic reaction."
+    },
+    {
+      "term": "IgE",
+      "anchor": "#mechanism",
+      "definition": "The antibody class that binds mast cells and triggers allergic reactions."
+    },
+    {
+      "term": "Anaphylaxis",
+      "anchor": "#definition",
+      "definition": "A severe, potentially fatal systemic allergic reaction."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does an allergic reaction happen only after a previous exposure?",
+      "a": "The first exposure produces IgE that arms mast cells; the next exposure triggers them.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "conditions"
+  }
+}

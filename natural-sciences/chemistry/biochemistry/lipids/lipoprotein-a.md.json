@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "lipids.lipoprotein-a",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 20,
+    "tags": [
+      "lipids",
+      "cardiovascular",
+      "blood-tests"
+    ],
+    "aliases": [
+      "Lp(a)",
+      "lipoprotein little a"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.lipoproteins",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "lipids.lipoproteins",
+      "rel": "part-of"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-b3",
+      "rel": "related",
+      "note": "Niacin lowers Lp(a) but without benefit"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kronenberg-2022",
+      "type": "paper",
+      "authors": [
+        "Kronenberg, F.",
+        "Mora, S.",
+        "Stroes, E. S. G."
+      ],
+      "year": 2022,
+      "title": "Lipoprotein(a) in atherosclerotic cardiovascular disease and aortic stenosis: a European Atherosclerosis Society consensus statement",
+      "url": "https://doi.org/10.1093/eurheartj/ehac361",
+      "verified": false
+    },
+    {
+      "key": "aimhigh-2011",
+      "type": "paper",
+      "authors": [
+        "AIM-HIGH Investigators"
+      ],
+      "year": 2011,
+      "title": "Niacin in patients with low HDL cholesterol levels receiving intensive statin therapy",
+      "url": "https://doi.org/10.1056/NEJMoa1107579",
+      "verified": false
+    },
+    {
+      "key": "hps2-2014",
+      "type": "paper",
+      "authors": [
+        "HPS2-THRIVE Collaborative Group"
+      ],
+      "year": 2014,
+      "title": "Effects of extended-release niacin with laropiprant in high-risk patients",
+      "url": "https://doi.org/10.1056/NEJMoa1300955",
+      "verified": false
+    },
+    {
+      "key": "mach-2020",
+      "type": "paper",
+      "authors": [
+        "Mach, F.",
+        "Baigent, C.",
+        "Catapano, A. L."
+      ],
+      "year": 2020,
+      "title": "2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk",
+      "url": "https://doi.org/10.1093/eurheartj/ehz455",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Apolipoprotein(a)",
+      "anchor": "#definition",
+      "definition": "A plasminogen-like protein attached to apoB in lipoprotein(a)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a high Lp(a) change LDL targets?",
+      "a": "Lp(a) adds independent risk, so overall risk is higher and LDL must be lowered further to compensate.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "lipids"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "essential-oils.jasmine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Jasminum",
+      "jasmine absolute"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Absolute",
+      "anchor": "#worked-example",
+      "definition": "An aromatic extract obtained with solvents rather than distillation."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

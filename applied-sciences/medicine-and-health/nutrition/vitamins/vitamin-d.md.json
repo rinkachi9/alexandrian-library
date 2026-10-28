@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-d",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "vitamin D3",
+      "cholecalciferol",
+      "calcitriol",
+      "25(OH)D"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.minerals.calcium",
+      "rel": "related"
+    },
+    {
+      "to": "nutrition.vitamins.vitamin-k2",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-vit-d",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin D: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "vital-2019",
+      "type": "paper",
+      "authors": [
+        "Manson, J. E.",
+        "Cook, N. R.",
+        "Lee, I. M."
+      ],
+      "year": 2019,
+      "title": "Vitamin D supplements and prevention of cancer and cardiovascular disease",
+      "url": "https://doi.org/10.1056/NEJMoa1809944",
+      "verified": false
+    },
+    {
+      "key": "leboff-2022",
+      "type": "paper",
+      "authors": [
+        "LeBoff, M. S.",
+        "Chou, S. H.",
+        "Ratliff, K. A."
+      ],
+      "year": 2022,
+      "title": "Supplemental vitamin D and incident fractures in midlife and older adults",
+      "url": "https://doi.org/10.1056/NEJMoa2202106",
+      "verified": false
+    },
+    {
+      "key": "martineau-2017",
+      "type": "paper",
+      "authors": [
+        "Martineau, A. R.",
+        "Jolliffe, D. A.",
+        "Hooper, R. L."
+      ],
+      "year": 2017,
+      "title": "Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis of individual participant data",
+      "url": "https://doi.org/10.1136/bmj.i6583",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Calcitriol",
+      "anchor": "#definition",
+      "definition": "The active hormone form of vitamin D made in the kidney."
+    },
+    {
+      "term": "25-hydroxyvitamin D",
+      "anchor": "#definition",
+      "definition": "The blood marker of vitamin D status."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is vitamin D synthesis low in winter at high latitudes?",
+      "a": "The sun is too low for enough UVB to reach the skin.",
+      "anchor": "#intake-and-food-sources",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "vitamins"
+  }
+}

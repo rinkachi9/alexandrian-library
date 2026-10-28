@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "nutrition.minerals.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "minerals"
+    ],
+    "aliases": [
+      "mineral",
+      "trace elements",
+      "electrolytes"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.enzymes-and-coenzymes",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "efsa-drv-2017",
+      "type": "report",
+      "authors": [
+        "European Food Safety Authority"
+      ],
+      "year": 2017,
+      "title": "Dietary Reference Values for nutrients: summary report",
+      "url": "https://doi.org/10.2903/sp.efsa.2017.e15121",
+      "verified": false
+    },
+    {
+      "key": "ods-iron",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Iron: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Macromineral",
+      "anchor": "#definition",
+      "definition": "A mineral needed in amounts over 100 mg per day."
+    },
+    {
+      "term": "Trace element",
+      "anchor": "#definition",
+      "definition": "A mineral needed in amounts under 100 mg per day."
+    },
+    {
+      "term": "Electrolyte",
+      "anchor": "#definition",
+      "definition": "A mineral that dissolves into charged ions in body fluids."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three roles of minerals.",
+      "a": "Structure, electrolytes and enzyme cofactors.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "minerals"
+  }
+}

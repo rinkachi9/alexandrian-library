@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "exercise.biomechanics.muscle-actions",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "exercise",
+      "biomechanics",
+      "muscles"
+    ],
+    "aliases": [
+      "concentric",
+      "eccentric",
+      "isometric",
+      "negatives",
+      "muscle work"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.force-length-velocity",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiotherapy.eccentric-and-isometric-methods",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.intensification.negative-reps",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hortobagyi-1996",
+      "type": "paper",
+      "authors": [
+        "Hortobágyi, T.",
+        "Hill, J. P.",
+        "Houmard, J. A."
+      ],
+      "year": 1996,
+      "title": "Adaptive responses to muscle lengthening and shortening in humans",
+      "url": "https://doi.org/10.1152/jappl.1996.80.3.765",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2017-ecc",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Ogborn, D. I.",
+        "Vigotsky, A. D.",
+        "Franchi, M. V.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Hypertrophic effects of concentric vs. eccentric muscle actions: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1519/JSC.0000000000001983",
+      "verified": false
+    },
+    {
+      "key": "hill-1938",
+      "type": "paper",
+      "authors": [
+        "Hill, A. V."
+      ],
+      "year": 1938,
+      "title": "The heat of shortening and the dynamic constants of muscle",
+      "url": "https://doi.org/10.1098/rspb.1938.0050",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Concentric action",
+      "anchor": "#definition",
+      "definition": "Muscle shortening while producing force."
+    },
+    {
+      "term": "Eccentric action",
+      "anchor": "#definition",
+      "definition": "Muscle lengthening while producing force."
+    },
+    {
+      "term": "Isometric action",
+      "anchor": "#definition",
+      "definition": "Force without change in muscle length."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What did the 2017 meta-analysis find about concentric versus eccentric training for hypertrophy?",
+      "a": "Both build muscle, with a small, non-significant advantage for eccentric training.",
+      "anchor": "#effects-on-muscle-and-strength",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biomechanics"
+  }
+}

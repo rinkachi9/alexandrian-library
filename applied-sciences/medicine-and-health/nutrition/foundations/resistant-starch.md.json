@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "nutrition.foundations.resistant-starch",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ],
+    "aliases": [
+      "RS",
+      "retrograded starch"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.foundations.dietary-fiber",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.glycemic-index",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "englyst-1992",
+      "type": "paper",
+      "authors": [
+        "Englyst, H. N.",
+        "Kingman, S. M.",
+        "Cummings, J. H."
+      ],
+      "year": 1992,
+      "title": "Classification and measurement of nutritionally important starch fractions"
+    },
+    {
+      "key": "fernandes-2005",
+      "type": "paper",
+      "authors": [
+        "Fernandes, G.",
+        "Velangi, A.",
+        "Wolever, T. M. S."
+      ],
+      "year": 2005,
+      "title": "Glycemic index of potatoes commonly consumed in North America",
+      "url": "https://doi.org/10.1016/j.jada.2005.01.003",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Resistant starch",
+      "anchor": "#definition",
+      "definition": "Starch that escapes digestion in the small intestine."
+    },
+    {
+      "term": "Retrogradation",
+      "anchor": "#mechanism",
+      "definition": "Recrystallization of cooked starch on cooling."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How would you increase resistant starch in a rice dish?",
+      "a": "Cook it, cool it in the refrigerator for at least an hour and reheat it.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "herbal-extracts.ginkgo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Ginkgo biloba",
+      "EGb 761",
+      "ginkgolides"
+    ]
+  },
+  "links": [
+    {
+      "to": "herbal-extracts.bacopa",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dekosky-2008",
+      "type": "paper",
+      "authors": [
+        "DeKosky, S. T.",
+        "Williamson, J. D.",
+        "Fitzpatrick, A. L."
+      ],
+      "year": 2008,
+      "title": "Ginkgo biloba for prevention of dementia: a randomized controlled trial",
+      "url": "https://doi.org/10.1001/jama.2008.683",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Ginkgolide",
+      "anchor": "#definition",
+      "definition": "A terpene lactone of ginkgo that inhibits platelet-activating factor."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

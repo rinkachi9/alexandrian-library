@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "anatomy.spine.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "spine"
+    ],
+    "aliases": [
+      "spine",
+      "spinal column",
+      "backbone",
+      "vertebra structure"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.skeletal.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.spine.intervertebral-discs",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.mobility.core",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Vertebral canal",
+      "anchor": "#mechanism",
+      "definition": "The channel formed by the vertebral foramina that holds the spinal cord."
+    },
+    {
+      "term": "Lordosis",
+      "anchor": "#mechanism",
+      "definition": "A curve of the spine that is convex forward, normal in the neck and lower back."
+    },
+    {
+      "term": "Kyphosis",
+      "anchor": "#mechanism",
+      "definition": "A curve of the spine that is convex backward, normal in the thoracic and sacral regions."
+    },
+    {
+      "term": "Scoliosis",
+      "anchor": "#mechanism",
+      "definition": "A sideways curvature of the spine."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "How many bones form the adult vertebral column?",
+      "a": "26: 24 vertebrae, the sacrum and the coccyx.",
+      "anchor": "#summary",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "spine"
+  }
+}

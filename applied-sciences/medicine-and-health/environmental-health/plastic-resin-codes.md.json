@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "environmental-health.plastic-resin-codes",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "recycling codes",
+      "PET",
+      "HDPE",
+      "PVC",
+      "PP",
+      "polystyrene"
+    ]
+  },
+  "links": [
+    {
+      "to": "environmental-health.phthalates",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "astm-d7611",
+      "type": "documentation",
+      "authors": [
+        "ASTM International"
+      ],
+      "year": 2020,
+      "title": "ASTM D7611: Standard practice for coding plastic manufactured articles for resin identification",
+      "url": "https://www.astm.org/d7611_d7611m-20.html",
+      "verified": false
+    },
+    {
+      "key": "iarc-2019-styrene",
+      "type": "report",
+      "authors": [
+        "International Agency for Research on Cancer"
+      ],
+      "year": 2019,
+      "title": "Styrene, styrene-7,8-oxide, and quinoline. IARC Monographs, Volume 121",
+      "url": "https://publications.iarc.who.int/582",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Resin identification code",
+      "anchor": "#definition",
+      "definition": "A number from 1 to 7 identifying the polymer of a plastic."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

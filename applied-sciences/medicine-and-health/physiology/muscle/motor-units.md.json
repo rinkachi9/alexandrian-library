@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "physiology.muscle.motor-units",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "physiology",
+      "muscle",
+      "nervous-system",
+      "strength"
+    ],
+    "aliases": [
+      "size principle",
+      "rate coding",
+      "recruitment",
+      "neuromuscular inhibition"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.muscle-contraction",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.training-types.strength-factors",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "henneman-1957",
+      "type": "paper",
+      "authors": [
+        "Henneman, E."
+      ],
+      "year": 1957,
+      "title": "Relation between size of neurons and their susceptibility to discharge",
+      "url": "https://doi.org/10.1126/science.126.3287.1345",
+      "verified": false
+    },
+    {
+      "key": "schoenfeld-2017-load",
+      "type": "paper",
+      "authors": [
+        "Schoenfeld, B. J.",
+        "Grgic, J.",
+        "Ogborn, D.",
+        "Krieger, J. W."
+      ],
+      "year": 2017,
+      "title": "Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1519/JSC.0000000000002200",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Motor unit",
+      "anchor": "#definition",
+      "definition": "A motor neuron and all the muscle fibers it innervates."
+    },
+    {
+      "term": "Size principle",
+      "anchor": "#definition",
+      "definition": "Motor units are recruited in order of increasing size."
+    },
+    {
+      "term": "Rate coding",
+      "anchor": "#mechanism",
+      "definition": "Grading force by changing the firing frequency of motor units."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can light loads to failure build muscle like heavy loads?",
+      "a": "Fatigue forces recruitment of larger motor units, so most units are active near failure.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "muscle-physiology"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "nutrition.supplements.creatine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "supplements"
+    ],
+    "aliases": [
+      "creatine monohydrate",
+      "phosphocreatine"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.energy-systems",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "diagnostics.creatine-kinase",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.muscle.hypertrophy",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kreider-2017",
+      "type": "paper",
+      "authors": [
+        "Kreider, R. B.",
+        "Kalman, D. S.",
+        "Antonio, J."
+      ],
+      "year": 2017,
+      "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "url": "https://doi.org/10.1186/s12970-017-0173-z",
+      "verified": false
+    },
+    {
+      "key": "ods-exercise",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Dietary Supplements for Exercise and Athletic Performance: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Phosphocreatine",
+      "anchor": "#definition",
+      "definition": "Creatine bound to phosphate, used to regenerate ATP quickly."
+    },
+    {
+      "term": "Creatine kinase",
+      "anchor": "#mechanism",
+      "definition": "The enzyme that transfers phosphate from phosphocreatine to ADP."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does creatine help in a 5-second sprint but not a marathon?",
+      "a": "Phosphocreatine supplies ATP only for short maximal efforts.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "supplements"
+  }
+}

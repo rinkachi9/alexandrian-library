@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "nutrition.supplements.choline",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "nutrition",
+      "supplements"
+    ],
+    "aliases": [
+      "choline bitartrate",
+      "alpha-GPC",
+      "citicoline"
+    ]
+  },
+  "links": [
+    {
+      "to": "lipids.phospholipids-and-lecithin",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-choline",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Choline: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "zeisel-2009",
+      "type": "paper",
+      "authors": [
+        "Zeisel, S. H.",
+        "da Costa, K. A."
+      ],
+      "year": 2009,
+      "title": "Choline: an essential nutrient for public health",
+      "url": "https://doi.org/10.1111/j.1753-4887.2009.00246.x",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Choline",
+      "anchor": "#definition",
+      "definition": "An essential nutrient used for acetylcholine, membranes and methylation."
+    },
+    {
+      "term": "Betaine",
+      "anchor": "#mechanism",
+      "definition": "A choline metabolite that donates methyl groups."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "supplements"
+  }
+}

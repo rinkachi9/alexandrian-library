@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "exercise.training-types.occlusion-training",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "exercise",
+      "training-types"
+    ],
+    "aliases": [
+      "BFR",
+      "blood flow restriction",
+      "occlusion training",
+      "KAATSU"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.hypertrophy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.constant-tension",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "patterson-2019",
+      "type": "paper",
+      "authors": [
+        "Patterson, S. D.",
+        "Hughes, L.",
+        "Warmington, S."
+      ],
+      "year": 2019,
+      "title": "Blood flow restriction exercise: considerations of methodology, application, and safety",
+      "url": "https://doi.org/10.3389/fphys.2019.00533",
+      "verified": false
+    },
+    {
+      "key": "hughes-2017",
+      "type": "paper",
+      "authors": [
+        "Hughes, L.",
+        "Paton, B.",
+        "Rosenblatt, B.",
+        "Gissane, C.",
+        "Patterson, S. D."
+      ],
+      "year": 2017,
+      "title": "Blood flow restriction training in clinical musculoskeletal rehabilitation: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1136/bjsports-2016-097071",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Blood flow restriction",
+      "anchor": "#definition",
+      "definition": "Exercise with a cuff that restricts venous outflow while preserving arterial inflow."
+    },
+    {
+      "term": "Limb occlusion pressure",
+      "anchor": "#worked-example",
+      "definition": "The cuff pressure that fully stops arterial blood flow in a limb."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does BFR allow hypertrophy with light loads?",
+      "a": "Restricted outflow causes metabolite accumulation and recruitment of type II fibers.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-types"
+  }
+}

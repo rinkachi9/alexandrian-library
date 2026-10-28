@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "anatomy.joints.joints-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "anatomy",
+      "joints"
+    ],
+    "aliases": [
+      "articulations",
+      "synovial joint",
+      "joint classification"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.skeletal.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.terminology.anatomical-movements",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "carbohydrates.glycosaminoglycans",
+      "rel": "related",
+      "note": "Cartilage matrix chemistry"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Synovial joint",
+      "anchor": "#mechanism",
+      "definition": "A movable joint with a fluid-filled capsule and cartilage-covered bone ends."
+    },
+    {
+      "term": "Compound joint",
+      "anchor": "#mechanism",
+      "definition": "A joint formed by more than two bones."
+    },
+    {
+      "term": "Hinge joint",
+      "anchor": "#mechanism",
+      "definition": "A uniaxial joint allowing flexion and extension only."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do simple and compound joints differ?",
+      "a": "A simple joint involves two bones, a compound joint more than two.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "joints"
+  }
+}

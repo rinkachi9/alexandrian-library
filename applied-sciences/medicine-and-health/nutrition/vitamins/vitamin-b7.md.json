@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.vitamin-b7",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "biotin",
+      "vitamin H"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.vitamins.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ods-biotin",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Biotin: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "verified": false
+    },
+    {
+      "key": "fda-biotin-2017",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2017,
+      "title": "The FDA warns that biotin may interfere with lab tests: FDA safety communication",
+      "url": "https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Carboxylase",
+      "anchor": "#definition",
+      "definition": "An enzyme that adds a carboxyl group, using biotin as coenzyme."
+    },
+    {
+      "term": "Avidin",
+      "anchor": "#mechanism",
+      "definition": "An egg white protein that binds biotin."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "vitamins"
+  }
+}

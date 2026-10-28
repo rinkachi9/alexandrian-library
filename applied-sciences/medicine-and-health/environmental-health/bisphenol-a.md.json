@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "environmental-health.bisphenol-a",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "environmental-health"
+    ],
+    "aliases": [
+      "BPA",
+      "BPS",
+      "polycarbonate"
+    ]
+  },
+  "links": [
+    {
+      "to": "environmental-health.plastic-resin-codes",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "efsa-2023-bpa",
+      "type": "paper",
+      "authors": [
+        "EFSA CEP Panel"
+      ],
+      "year": 2023,
+      "title": "Re-evaluation of the risks to public health related to the presence of bisphenol A (BPA) in foodstuffs",
+      "url": "https://doi.org/10.2903/j.efsa.2023.6857",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Tolerable daily intake",
+      "anchor": "#definition",
+      "definition": "The amount of a contaminant that can be ingested daily over a lifetime without appreciable risk."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "environmental-health"
+  }
+}

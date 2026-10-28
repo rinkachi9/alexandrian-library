@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.peptides",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "peptides"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "peptides"
+  }
+}

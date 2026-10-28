@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "anatomy.terminology.axes-and-planes",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "anatomy",
+      "terminology",
+      "biomechanics"
+    ],
+    "aliases": [
+      "body planes",
+      "sagittal plane",
+      "frontal plane",
+      "transverse plane",
+      "cardinal planes"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.anatomical-position",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.terminology.anatomical-movements",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sagittal plane",
+      "anchor": "#definition",
+      "definition": "A vertical plane dividing the body into right and left parts."
+    },
+    {
+      "term": "Frontal plane",
+      "anchor": "#definition",
+      "definition": "A vertical plane dividing the body into front and back parts."
+    },
+    {
+      "term": "Transverse plane",
+      "anchor": "#definition",
+      "definition": "A horizontal plane dividing the body into upper and lower parts."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Which plane does a lateral raise use, and around which axis?",
+      "a": "The frontal plane, around a sagittal axis.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "anatomy"
+  }
+}

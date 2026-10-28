@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.anatomy.skeletal-system.thorax",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "anatomy",
+      "thorax"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "thorax"
+  }
+}

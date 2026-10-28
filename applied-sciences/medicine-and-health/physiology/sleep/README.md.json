@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.physiology.sleep",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "physiology",
+      "sleep"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "sleep"
+  }
+}

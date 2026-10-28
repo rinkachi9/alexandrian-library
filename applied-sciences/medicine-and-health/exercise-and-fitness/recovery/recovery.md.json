@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "exercise.recovery.recovery",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "exercise",
+      "recovery"
+    ],
+    "aliases": [
+      "regeneration",
+      "muscle memory",
+      "satellite cells",
+      "myonuclei"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.muscle.skeletal-muscle-structure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.deloads",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bruusgaard-2010",
+      "type": "paper",
+      "authors": [
+        "Bruusgaard, J. C.",
+        "Johansen, I. B.",
+        "Egner, I. M.",
+        "Rana, Z. A.",
+        "Gundersen, K."
+      ],
+      "year": 2010,
+      "title": "Myonuclei acquired by overload exercise precede hypertrophy and are not lost on detraining",
+      "url": "https://doi.org/10.1073/pnas.0913935107",
+      "verified": false
+    },
+    {
+      "key": "dupuy-2018",
+      "type": "paper",
+      "authors": [
+        "Dupuy, O.",
+        "Douzi, W.",
+        "Theurot, D.",
+        "Bosquet, L.",
+        "Dugué, B."
+      ],
+      "year": 2018,
+      "title": "An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.3389/fphys.2018.00403",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Satellite cell",
+      "anchor": "#definition",
+      "definition": "A muscle stem cell that supports repair and growth."
+    },
+    {
+      "term": "Myonuclear domain",
+      "anchor": "#mechanism",
+      "definition": "The volume of cytoplasm controlled by one nucleus in a muscle fiber."
+    },
+    {
+      "term": "Muscle memory",
+      "anchor": "#definition",
+      "definition": "Faster regain of muscle size and strength after detraining."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might retained myonuclei speed up regaining muscle?",
+      "a": "More nuclei allow more protein synthesis, so fibers can grow faster.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "recovery"
+  }
+}

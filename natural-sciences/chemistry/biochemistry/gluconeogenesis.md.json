@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "biochemistry.gluconeogenesis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 13,
+    "tags": [
+      "biochemistry",
+      "carbohydrates",
+      "fasting"
+    ],
+    "aliases": [
+      "glucose synthesis"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.glycolysis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.anabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.lactate-and-fermentation",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.endocrine.anabolic-and-catabolic-hormones",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gluconeogenesis",
+      "anchor": "#definition",
+      "definition": "Synthesis of glucose from lactate, glycerol and amino acids, mainly in the liver."
+    },
+    {
+      "term": "Glucogenic amino acid",
+      "anchor": "#mechanism",
+      "definition": "An amino acid whose carbon skeleton can be turned into glucose."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does gluconeogenesis need different enzymes than glycolysis at three points?",
+      "a": "Three glycolysis steps are irreversible in the cell, so separate bypass enzymes are needed, which also allows separate control.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which organs perform gluconeogenesis?",
+      "a": "Mainly the liver, and to a smaller extent the kidneys.",
+      "anchor": "#summary",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

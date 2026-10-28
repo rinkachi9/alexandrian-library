@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "physiology.respiration.gas-exchange",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "physiology",
+      "respiration",
+      "blood"
+    ],
+    "aliases": [
+      "oxygen transport",
+      "hemoglobin",
+      "Bohr effect",
+      "partial pressure"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.mechanics-of-breathing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.histidine",
+      "rel": "related"
+    },
+    {
+      "to": "diagnostics.complete-blood-count",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Partial pressure",
+      "anchor": "#definition",
+      "definition": "The pressure contributed by one gas in a mixture."
+    },
+    {
+      "term": "Bohr effect",
+      "anchor": "#mechanism",
+      "definition": "Hemoglobin releases more oxygen when CO2, acidity or temperature rise."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How much oxygen does a liter of blood with 140 g hemoglobin carry when fully saturated?",
+      "a": "About 140 × 1.34 ≈ 188 ml.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "amino-acids.serine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 25,
+    "tags": [
+      "amino-acids",
+      "non-essential"
+    ],
+    "aliases": [
+      "L-serine",
+      "Ser",
+      "S"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.glycine",
+      "rel": "related"
+    },
+    {
+      "to": "lipids.phospholipids-and-lecithin",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "One-carbon metabolism",
+      "anchor": "#mechanism",
+      "definition": "Transfer of single carbon units by folate coenzymes for DNA synthesis and methylation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name two lipid classes made from serine.",
+      "a": "Phosphatidylserine and sphingolipids.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

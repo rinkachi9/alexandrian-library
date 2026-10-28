@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "peptides.semax",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "peptides"
+    ],
+    "aliases": [
+      "ACTH 4-10",
+      "nootropic peptide"
+    ]
+  },
+  "links": [
+    {
+      "to": "peptides.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "peptides.selank",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fda-bulk-2023",
+      "type": "documentation",
+      "authors": [
+        "US Food and Drug Administration"
+      ],
+      "year": 2023,
+      "title": "Certain bulk drug substances for use in compounding that may present significant safety risks",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nootropic",
+      "anchor": "#definition",
+      "definition": "A substance claimed to enhance cognitive function."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "peptides"
+  }
+}

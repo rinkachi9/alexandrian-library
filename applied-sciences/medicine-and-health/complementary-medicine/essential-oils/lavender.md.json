@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "essential-oils.lavender",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "complementary-medicine",
+      "essential-oils"
+    ],
+    "aliases": [
+      "Lavandula angustifolia",
+      "Silexan",
+      "linalool"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.essential-oils",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kasper-2010",
+      "type": "paper",
+      "authors": [
+        "Kasper, S.",
+        "Gastpar, M.",
+        "Müller, W. E."
+      ],
+      "year": 2010,
+      "title": "Silexan, an orally administered Lavandula oil preparation, is effective in the treatment of subsyndromal anxiety disorder: a randomized, double-blind, placebo controlled trial",
+      "url": "https://doi.org/10.1097/YIC.0b013e32833b3242",
+      "verified": false
+    },
+    {
+      "key": "tisserand-2014",
+      "type": "book",
+      "authors": [
+        "Tisserand, R.",
+        "Young, R."
+      ],
+      "year": 2014,
+      "title": "Essential Oil Safety: A Guide for Health Care Professionals (2nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Linalool",
+      "anchor": "#definition",
+      "definition": "A monoterpene alcohol with calming effects, found in lavender."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "essential-oils"
+  }
+}

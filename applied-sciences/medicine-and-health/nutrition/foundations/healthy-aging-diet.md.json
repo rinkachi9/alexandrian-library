@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "nutrition.foundations.healthy-aging-diet",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "foundations"
+    ],
+    "aliases": [
+      "anti-aging diet",
+      "longevity diet",
+      "anti-inflammatory diet",
+      "ORAC"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.foundations.dietary-fiber",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "cell-biology.telomeres",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.oxidative-stress",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "estruch-2018",
+      "type": "paper",
+      "authors": [
+        "Estruch, R.",
+        "Ros, E.",
+        "Salas-Salvadó, J."
+      ],
+      "year": 2018,
+      "title": "Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts",
+      "url": "https://doi.org/10.1056/NEJMoa1800389",
+      "verified": false
+    },
+    {
+      "key": "pagliai-2021",
+      "type": "paper",
+      "authors": [
+        "Pagliai, G.",
+        "Dinu, M.",
+        "Madarena, M. P."
+      ],
+      "year": 2021,
+      "title": "Consumption of ultra-processed foods and health status: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1017/S0007114520002688",
+      "verified": false
+    },
+    {
+      "key": "peou-2016",
+      "type": "paper",
+      "authors": [
+        "Peou, S.",
+        "Milliard-Hasting, B.",
+        "Shah, S. A."
+      ],
+      "year": 2016,
+      "title": "Impact of avocado-enriched diets on plasma lipoproteins: a meta-analysis",
+      "url": "https://doi.org/10.1016/j.jacl.2015.10.011",
+      "verified": false
+    },
+    {
+      "key": "evenepoel-1998",
+      "type": "paper",
+      "authors": [
+        "Evenepoel, P.",
+        "Geypens, B.",
+        "Luypaerts, A."
+      ],
+      "year": 1998,
+      "title": "Digestibility of cooked and raw egg protein in humans as assessed by stable isotope techniques",
+      "url": "https://doi.org/10.1093/jn/128.10.1716",
+      "verified": false
+    },
+    {
+      "key": "blackburn-2015",
+      "type": "paper",
+      "authors": [
+        "Blackburn, E. H.",
+        "Epel, E. S.",
+        "Lin, J."
+      ],
+      "year": 2015,
+      "title": "Human telomere biology: a contributory and interactive factor in aging, disease risks, and protection",
+      "url": "https://doi.org/10.1126/science.aab3389",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Healthy aging diet",
+      "anchor": "#definition",
+      "definition": "A dietary pattern associated with lower chronic disease and disability in older age."
+    },
+    {
+      "term": "ORAC",
+      "anchor": "#mechanism",
+      "definition": "A test tube measure of antioxidant capacity, not a measure of effect in the body."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do antioxidant-rich foods help while antioxidant supplements do not?",
+      "a": "Foods work as a pattern with fiber and other compounds; isolated high-dose antioxidants did not reduce disease in trials.",
+      "anchor": "#claimed-effects-and-evidence",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "nutrition-foundations"
+  }
+}

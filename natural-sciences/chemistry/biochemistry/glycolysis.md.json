@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "biochemistry.glycolysis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "biochemistry",
+      "energy",
+      "carbohydrates"
+    ],
+    "aliases": [
+      "Embden-Meyerhof pathway",
+      "glucose breakdown"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.atp",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.enzymes-and-coenzymes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "biochemistry.krebs-cycle",
+      "rel": "related",
+      "note": "Next step for pyruvate"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Glycolysis",
+      "anchor": "#definition",
+      "definition": "The ten-step pathway in the cytoplasm that splits glucose into two pyruvate with a net gain of 2 ATP."
+    },
+    {
+      "term": "Substrate-level phosphorylation",
+      "anchor": "#mechanism",
+      "definition": "Direct transfer of a phosphate from a substrate to ADP, without the respiratory chain."
+    },
+    {
+      "term": "Phosphofructokinase-1",
+      "anchor": "#regulation",
+      "definition": "The enzyme that controls the rate of glycolysis."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does glycolysis stop if NAD+ is not regenerated?",
+      "a": "Glyceraldehyde-3-phosphate dehydrogenase needs NAD+ to accept electrons; without it the payoff phase stops.",
+      "anchor": "#what-happens-to-pyruvate",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Where in the cell does glycolysis take place?",
+      "a": "In the cytoplasm.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "biochemistry"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "amino-acids.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "biochemistry",
+      "amino-acids",
+      "protein"
+    ],
+    "aliases": [
+      "amino acid classification",
+      "essential amino acids"
+    ]
+  },
+  "links": [
+    {
+      "to": "proteins.proteins",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.urea-cycle",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    },
+    {
+      "key": "iom-2005",
+      "type": "report",
+      "authors": [
+        "Institute of Medicine"
+      ],
+      "year": 2005,
+      "title": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+      "url": "https://doi.org/10.17226/10490",
+      "verified": false
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Amino acid",
+      "anchor": "#definition",
+      "definition": "A molecule with an amino group, a carboxyl group, a hydrogen and a side chain on one carbon."
+    },
+    {
+      "term": "Essential amino acid",
+      "anchor": "#classification-by-nutritional-need",
+      "definition": "An amino acid the body cannot make in sufficient amounts, so it must come from food."
+    },
+    {
+      "term": "Limiting amino acid",
+      "anchor": "#protein-quality",
+      "definition": "The essential amino acid in shortest supply in a protein relative to human need."
+    },
+    {
+      "term": "Branched-chain amino acids",
+      "anchor": "#classification-by-side-chain",
+      "definition": "Leucine, isoleucine and valine, which have branched side chains."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do supplement labels say \"L-arginine\"?",
+      "a": "Proteins and most enzymes use the L form of amino acids; the label names the form found in the body.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Why does rice with beans give better protein quality than either alone?",
+      "a": "Rice is limited in lysine and beans in sulfur amino acids, so together they complement each other.",
+      "anchor": "#protein-quality",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

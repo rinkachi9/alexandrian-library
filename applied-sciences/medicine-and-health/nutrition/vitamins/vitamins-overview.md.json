@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "nutrition.vitamins.overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "vitamins"
+    ],
+    "aliases": [
+      "vitamin",
+      "RDA",
+      "micronutrients"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.enzymes-and-coenzymes",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "efsa-drv-2017",
+      "type": "report",
+      "authors": [
+        "European Food Safety Authority"
+      ],
+      "year": 2017,
+      "title": "Dietary Reference Values for nutrients: summary report",
+      "url": "https://doi.org/10.2903/sp.efsa.2017.e15121",
+      "verified": false
+    },
+    {
+      "key": "ods-vit-d",
+      "type": "documentation",
+      "authors": [
+        "NIH Office of Dietary Supplements"
+      ],
+      "title": "Vitamin D: Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Vitamin",
+      "anchor": "#definition",
+      "definition": "An organic compound needed in small amounts that the body cannot make in sufficient quantity."
+    },
+    {
+      "term": "Recommended Dietary Allowance",
+      "anchor": "#definition",
+      "definition": "Intake that meets the needs of 97 to 98 percent of healthy people."
+    },
+    {
+      "term": "Tolerable Upper Intake Level",
+      "anchor": "#definition",
+      "definition": "The highest daily intake unlikely to cause harm."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can fat-soluble vitamins become toxic more easily?",
+      "a": "They are stored in the liver and fat tissue, so excess accumulates.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "vitamins"
+  }
+}

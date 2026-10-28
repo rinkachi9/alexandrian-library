@@ -1,0 +1,51 @@
+{
+  "node": {
+    "id": "mushrooms.reishi",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "Ganoderma lucidum",
+      "lingzhi",
+      "mushroom of immortality"
+    ]
+  },
+  "links": [
+    {
+      "to": "mushrooms.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "jin-2016",
+      "type": "paper",
+      "authors": [
+        "Jin, X.",
+        "Ruiz Beguerie, J.",
+        "Sze, D. M.",
+        "Chan, G. C."
+      ],
+      "year": 2016,
+      "title": "Ganoderma lucidum (Reishi mushroom) for cancer treatment",
+      "url": "https://doi.org/10.1002/14651858.CD007731.pub3",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Ganoderic acid",
+      "anchor": "#definition",
+      "definition": "A bitter triterpene from reishi."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

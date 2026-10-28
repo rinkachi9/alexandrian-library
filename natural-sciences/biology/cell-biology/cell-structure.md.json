@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "cell-biology.cell-structure",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "cell-biology",
+      "organelles"
+    ],
+    "aliases": [
+      "organelles",
+      "eukaryotic cell"
+    ]
+  },
+  "links": [
+    {
+      "to": "cell-biology.cell-membrane",
+      "rel": "related"
+    },
+    {
+      "to": "cell-biology.mitochondria",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "alberts-2002",
+      "type": "book",
+      "authors": [
+        "Alberts, B.",
+        "Johnson, A.",
+        "Lewis, J.",
+        "Raff, M.",
+        "Roberts, K.",
+        "Walter, P."
+      ],
+      "year": 2002,
+      "title": "Molecular Biology of the Cell (4th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "openstax-bio",
+      "type": "book",
+      "authors": [
+        "Clark, M. A.",
+        "Douglas, M.",
+        "Choi, J."
+      ],
+      "year": 2018,
+      "title": "Biology 2e",
+      "url": "https://openstax.org/details/books/biology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Organelle",
+      "anchor": "#definition",
+      "definition": "A specialized structure inside a cell with a specific function."
+    },
+    {
+      "term": "Eukaryotic cell",
+      "anchor": "#definition",
+      "definition": "A cell with a nucleus and membrane-bound organelles."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the role of the Golgi apparatus?",
+      "a": "It modifies, sorts and packages proteins for their destinations.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cell-biology"
+  }
+}

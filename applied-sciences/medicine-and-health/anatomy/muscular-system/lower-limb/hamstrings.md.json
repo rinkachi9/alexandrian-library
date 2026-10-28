@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "anatomy.muscles.hamstrings",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "anatomy",
+      "muscles",
+      "lower-limb",
+      "thigh",
+      "knee",
+      "hip"
+    ],
+    "aliases": [
+      "hamstring muscles"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.quadriceps-femoris",
+      "rel": "contrasts"
+    },
+    {
+      "to": "anatomy.joints.knee-joint",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "petersen-2011",
+      "type": "paper",
+      "authors": [
+        "Petersen, J.",
+        "Thorborg, K.",
+        "Nielsen, M. B.",
+        "Budtz-Jørgensen, E.",
+        "Hölmich, P."
+      ],
+      "year": 2011,
+      "title": "Preventive effect of eccentric training on acute hamstring injuries in men's soccer: a cluster-randomized controlled trial",
+      "url": "https://doi.org/10.1177/0363546511419277",
+      "verified": false
+    }
+  ],
+  "concepts": [],
+  "questions": [],
+  "map": {
+    "group": "lower-limb-muscles"
+  }
+}

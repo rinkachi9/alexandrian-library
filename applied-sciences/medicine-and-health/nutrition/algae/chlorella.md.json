@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "nutrition.algae.chlorella",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "nutrition",
+      "algae"
+    ],
+    "aliases": [
+      "Chlorella vulgaris",
+      "Chlorella pyrenoidosa"
+    ]
+  },
+  "links": [
+    {
+      "to": "nutrition.algae.spirulina",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bito-2020",
+      "type": "paper",
+      "authors": [
+        "Bito, T.",
+        "Okumura, E.",
+        "Fujishima, M.",
+        "Watanabe, F."
+      ],
+      "year": 2020,
+      "title": "Potential of Chlorella as a dietary supplement to promote human health",
+      "url": "https://doi.org/10.3390/nu12092524",
+      "verified": false
+    },
+    {
+      "key": "watanabe-2007",
+      "type": "paper",
+      "authors": [
+        "Watanabe, F."
+      ],
+      "year": 2007,
+      "title": "Vitamin B12 sources and bioavailability",
+      "url": "https://doi.org/10.3181/0703-MR-67",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Chlorella",
+      "anchor": "#definition",
+      "definition": "A single-celled freshwater green alga used as a supplement."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "algae"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "physiology.respiration.vo2-max",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "physiology",
+      "respiration",
+      "endurance",
+      "fitness"
+    ],
+    "aliases": [
+      "maximal oxygen uptake",
+      "aerobic capacity",
+      "VO2max"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.gas-exchange",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.lactate-threshold",
+      "rel": "related"
+    },
+    {
+      "to": "exercise.training-types.hiit",
+      "rel": "related"
+    },
+    {
+      "to": "physiology.cardiovascular.heart-and-circulation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bassett-2000",
+      "type": "paper",
+      "authors": [
+        "Bassett, D. R.",
+        "Howley, E. T."
+      ],
+      "year": 2000,
+      "title": "Limiting factors for maximum oxygen uptake and determinants of endurance performance",
+      "url": "https://doi.org/10.1097/00005768-200001000-00012",
+      "verified": false
+    },
+    {
+      "key": "helgerud-2007",
+      "type": "paper",
+      "authors": [
+        "Helgerud, J.",
+        "Høydal, K.",
+        "Wang, E."
+      ],
+      "year": 2007,
+      "title": "Aerobic high-intensity intervals improve VO2max more than moderate training",
+      "url": "https://doi.org/10.1249/mss.0b013e3180304570",
+      "verified": false
+    },
+    {
+      "key": "kodama-2009",
+      "type": "paper",
+      "authors": [
+        "Kodama, S.",
+        "Saito, K.",
+        "Tanaka, S."
+      ],
+      "year": 2009,
+      "title": "Cardiorespiratory fitness as a quantitative predictor of all-cause mortality and cardiovascular events in healthy men and women: a meta-analysis",
+      "url": "https://doi.org/10.1001/jama.2009.681",
+      "verified": false
+    },
+    {
+      "key": "bouchard-1999",
+      "type": "paper",
+      "authors": [
+        "Bouchard, C.",
+        "An, P.",
+        "Rice, T."
+      ],
+      "year": 1999,
+      "title": "Familial aggregation of VO2max response to exercise training: results from the HERITAGE Family Study",
+      "url": "https://doi.org/10.1152/jappl.1999.87.3.1003",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "VO2 max",
+      "anchor": "#definition",
+      "definition": "The maximal rate of oxygen uptake and use during exhaustive exercise."
+    },
+    {
+      "term": "Fick equation",
+      "anchor": "#definition",
+      "definition": "Oxygen uptake equals cardiac output times the arteriovenous oxygen difference."
+    },
+    {
+      "term": "Cardiac output",
+      "anchor": "#mechanism",
+      "definition": "Heart rate times stroke volume, the amount of blood pumped per minute."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Why can two athletes with the same VO2 max race differently?",
+      "a": "Lactate threshold, economy, mental factors and tactics also determine performance.",
+      "anchor": "#limits-of-vo2-max-as-a-predictor",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

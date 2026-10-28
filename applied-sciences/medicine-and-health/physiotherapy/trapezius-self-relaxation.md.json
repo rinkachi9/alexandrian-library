@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "physiotherapy.trapezius-self-relaxation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "physiotherapy"
+    ],
+    "aliases": [
+      "PIR",
+      "post-isometric relaxation",
+      "trapezius relaxation"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.muscles.trapezius",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiotherapy.relaxation-techniques",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lewit-1984",
+      "type": "paper",
+      "authors": [
+        "Lewit, K.",
+        "Simons, D. G."
+      ],
+      "year": 1984,
+      "title": "Postisometric relaxation in combination with other methods of muscular facilitation and inhibition"
+    },
+    {
+      "key": "gray-2020",
+      "type": "book",
+      "authors": [
+        "Standring, S. (Ed.)"
+      ],
+      "year": 2020,
+      "title": "Gray's Anatomy: The Anatomical Basis of Clinical Practice (42nd ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Post-isometric relaxation",
+      "anchor": "#definition",
+      "definition": "A gentle contraction followed by relaxation and a slightly larger stretch."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Describe one PIR cycle for the right upper trapezius.",
+      "a": "Side-bend left, fix the right shoulder, push up gently for 8 to 10 seconds, relax and move further.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "physiotherapy"
+  }
+}

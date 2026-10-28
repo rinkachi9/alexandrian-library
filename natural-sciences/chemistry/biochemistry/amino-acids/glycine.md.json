@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "amino-acids.glycine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 19,
+    "tags": [
+      "amino-acids",
+      "conditionally-essential",
+      "collagen",
+      "sleep"
+    ],
+    "aliases": [
+      "Gly",
+      "G"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "proteins.collagen",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.serine",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.proline",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Triple helix",
+      "anchor": "#analogy",
+      "definition": "The structure of collagen, in which three chains wind around each other."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the repeating sequence pattern of collagen?",
+      "a": "Gly-X-Y, with X often proline and Y often hydroxyproline.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

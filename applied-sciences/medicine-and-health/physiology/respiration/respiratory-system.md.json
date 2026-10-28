@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "physiology.respiration.respiratory-system",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "physiology",
+      "respiration",
+      "lungs"
+    ],
+    "aliases": [
+      "lungs",
+      "airways",
+      "alveoli"
+    ]
+  },
+  "links": [
+    {
+      "to": "anatomy.terminology.directional-terms",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.mechanics-of-breathing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    },
+    {
+      "key": "kenney-2020",
+      "type": "book",
+      "authors": [
+        "Kenney, W. L.",
+        "Wilmore, J. H.",
+        "Costill, D. L."
+      ],
+      "year": 2020,
+      "title": "Physiology of Sport and Exercise (7th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Alveoli",
+      "anchor": "#definition",
+      "definition": "Tiny air sacs where oxygen and carbon dioxide are exchanged."
+    },
+    {
+      "term": "Dead space",
+      "anchor": "#mechanism",
+      "definition": "Air in the conducting airways that does not take part in gas exchange."
+    },
+    {
+      "term": "Surfactant",
+      "anchor": "#mechanism",
+      "definition": "A substance that lowers surface tension in the alveoli."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is slow, deep breathing more efficient than fast, shallow breathing?",
+      "a": "A smaller share of each breath is dead space, so more air reaches the alveoli for the same minute ventilation.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "respiration"
+  }
+}

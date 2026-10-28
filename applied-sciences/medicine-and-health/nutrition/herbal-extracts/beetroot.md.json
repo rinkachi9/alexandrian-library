@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "herbal-extracts.beetroot",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ],
+    "aliases": [
+      "Beta vulgaris",
+      "beet juice",
+      "dietary nitrate"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.vo2-max",
+      "rel": "related"
+    },
+    {
+      "to": "amino-acids.arginine",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "jones-2018",
+      "type": "paper",
+      "authors": [
+        "Jones, A. M.",
+        "Thompson, C.",
+        "Wylie, L. J.",
+        "Vanhatalo, A."
+      ],
+      "year": 2018,
+      "title": "Dietary nitrate and physical performance",
+      "url": "https://doi.org/10.1146/annurev-nutr-082117-051622",
+      "verified": false
+    },
+    {
+      "key": "siervo-2013",
+      "type": "paper",
+      "authors": [
+        "Siervo, M.",
+        "Lara, J.",
+        "Ogbonmwan, I.",
+        "Mathers, J. C."
+      ],
+      "year": 2013,
+      "title": "Inorganic nitrate and beetroot juice supplementation reduces blood pressure in adults: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.3945/jn.112.170233",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dietary nitrate",
+      "anchor": "#definition",
+      "definition": "Nitrate from vegetables that the body converts to nitric oxide."
+    },
+    {
+      "term": "Beeturia",
+      "anchor": "#worked-example",
+      "definition": "Harmless pink urine after eating beets."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

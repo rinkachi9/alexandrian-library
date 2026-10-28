@@ -1,0 +1,51 @@
+{
+  "node": {
+    "id": "phytonutrients.glucosinolates",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "nutrition",
+      "phytonutrients"
+    ],
+    "aliases": [
+      "isothiocyanates",
+      "indole-3-carbinol",
+      "cruciferous vegetables"
+    ]
+  },
+  "links": [
+    {
+      "to": "phytonutrients.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "yagishita-2019",
+      "type": "paper",
+      "authors": [
+        "Yagishita, Y.",
+        "Fahey, J. W.",
+        "Dinkova-Kostova, A. T.",
+        "Kensler, T. W."
+      ],
+      "year": 2019,
+      "title": "Broccoli or sulforaphane: is it the source or dose that matters?",
+      "url": "https://doi.org/10.3390/molecules24193593",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Myrosinase",
+      "anchor": "#definition",
+      "definition": "The plant enzyme that converts glucosinolates into active compounds."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "phytonutrients"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.exercise-and-fitness.training-types",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "exercise",
+      "training-types"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "training-types"
+  }
+}

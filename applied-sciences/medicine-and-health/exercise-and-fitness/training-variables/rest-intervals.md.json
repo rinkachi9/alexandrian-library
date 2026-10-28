@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "exercise.training-variables.rest-intervals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "exercise",
+      "training-variables"
+    ],
+    "aliases": [
+      "rest between sets",
+      "metabolic recovery time"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.energy-systems",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "grgic-2018-rest",
+      "type": "paper",
+      "authors": [
+        "Grgic, J.",
+        "Schoenfeld, B. J.",
+        "Skrepnik, M.",
+        "Davies, T. B.",
+        "Mikulic, P."
+      ],
+      "year": 2018,
+      "title": "Effects of rest interval duration in resistance training on measures of muscular strength: a systematic review",
+      "url": "https://doi.org/10.1007/s40279-017-0788-x",
+      "verified": false
+    },
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rest interval",
+      "anchor": "#definition",
+      "definition": "The time between the end of one set and the start of the next."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "You have little time. How can you keep adequate rest for each muscle?",
+      "a": "Use supersets of opposing muscles or alternate upper and lower body exercises.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

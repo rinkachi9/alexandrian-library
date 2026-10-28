@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "applied-sciences.medicine-and-health.nutrition.herbal-extracts",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "nutrition",
+      "herbal-extracts"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "herbal-extracts"
+  }
+}

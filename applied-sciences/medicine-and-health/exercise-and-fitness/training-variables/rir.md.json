@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "exercise.training-variables.rir",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "training-variables",
+      "intensity"
+    ],
+    "aliases": [
+      "RIR",
+      "reps in reserve"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rpe",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.programming.training-to-failure",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "zourdos-2016",
+      "type": "paper",
+      "authors": [
+        "Zourdos, M. C.",
+        "Klemp, A.",
+        "Dolan, C."
+      ],
+      "year": 2016,
+      "title": "Novel resistance training-specific rating of perceived exertion scale measuring repetitions in reserve",
+      "url": "https://doi.org/10.1519/JSC.0000000000001049",
+      "verified": false
+    },
+    {
+      "key": "refalo-2023",
+      "type": "paper",
+      "authors": [
+        "Refalo, M. C.",
+        "Helms, E. R.",
+        "Trexler, E. T.",
+        "Hamilton, D. L.",
+        "Fyfe, J. J."
+      ],
+      "year": 2023,
+      "title": "Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy: a systematic review with meta-analysis",
+      "url": "https://doi.org/10.1007/s40279-022-01784-y",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Repetitions in reserve",
+      "anchor": "#definition",
+      "definition": "The number of additional repetitions possible at the end of a set."
+    },
+    {
+      "term": "Muscle failure",
+      "anchor": "#definition",
+      "definition": "The point at which another repetition cannot be completed with good form."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are heavy compound lifts usually kept at 1 to 3 RIR?",
+      "a": "Failure on heavy compounds causes large fatigue and technique breakdown with little extra benefit.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}

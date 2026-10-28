@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "physiology.cardiovascular.heart-rate-variability",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "physiology",
+      "cardiovascular",
+      "monitoring",
+      "recovery"
+    ],
+    "aliases": [
+      "HRV",
+      "RMSSD",
+      "RR interval variability"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.cardiovascular.resting-heart-rate",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.respiration.breathing-techniques",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "taskforce-1996",
+      "type": "paper",
+      "authors": [
+        "Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology"
+      ],
+      "year": 1996,
+      "title": "Heart rate variability: standards of measurement, physiological interpretation and clinical use",
+      "url": "https://doi.org/10.1161/01.CIR.93.5.1043",
+      "verified": false
+    },
+    {
+      "key": "plews-2013",
+      "type": "paper",
+      "authors": [
+        "Plews, D. J.",
+        "Laursen, P. B.",
+        "Stanley, J.",
+        "Kilding, A. E.",
+        "Buchheit, M."
+      ],
+      "year": 2013,
+      "title": "Training adaptation and heart rate variability in elite endurance athletes: opening the door to effective monitoring",
+      "url": "https://doi.org/10.1007/s40279-013-0071-8",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Heart rate variability",
+      "anchor": "#definition",
+      "definition": "Variation in the time between consecutive heartbeats."
+    },
+    {
+      "term": "RMSSD",
+      "anchor": "#definition",
+      "definition": "A time-domain HRV measure that reflects parasympathetic activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does slow breathing raise HRV?",
+      "a": "It enlarges respiratory sinus arrhythmia by increasing vagal modulation of the heart.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cardiovascular"
+  }
+}

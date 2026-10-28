@@ -1,0 +1,16 @@
+{
+  "node": {
+    "id": "natural-sciences.chemistry.biochemistry.amino-acids",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "biochemistry",
+      "amino-acids"
+    ]
+  },
+  "links": [],
+  "map": {
+    "group": "amino-acids"
+  }
+}

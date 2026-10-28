@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "mushrooms.cordyceps",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "nutrition",
+      "mushrooms"
+    ],
+    "aliases": [
+      "Cordyceps militaris",
+      "Cordyceps sinensis",
+      "Ophiocordyceps",
+      "cordycepin"
+    ]
+  },
+  "links": [
+    {
+      "to": "mushrooms.overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hirsch-2017",
+      "type": "paper",
+      "authors": [
+        "Hirsch, K. R.",
+        "Smith-Ryan, A. E.",
+        "Roelofs, E. J.",
+        "Trexler, E. T.",
+        "Mock, M. G."
+      ],
+      "year": 2017,
+      "title": "Cordyceps militaris improves tolerance to high-intensity exercise after acute and chronic supplementation",
+      "url": "https://doi.org/10.1080/19390211.2016.1203386",
+      "verified": false
+    },
+    {
+      "key": "wasser-2002",
+      "type": "paper",
+      "authors": [
+        "Wasser, S. P."
+      ],
+      "year": 2002,
+      "title": "Medicinal mushrooms as a source of antitumor and immunomodulating polysaccharides",
+      "url": "https://doi.org/10.1007/s00253-002-1076-7",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Adaptogen",
+      "anchor": "#definition",
+      "definition": "A substance claimed to increase resistance to stress, without a clear pharmacological definition."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "mushrooms"
+  }
+}

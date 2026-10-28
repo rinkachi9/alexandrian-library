@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "amino-acids.histidine",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "amino-acids",
+      "essential"
+    ],
+    "aliases": [
+      "L-histidine",
+      "His",
+      "H"
+    ]
+  },
+  "links": [
+    {
+      "to": "amino-acids.overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "amino-acids.beta-alanine",
+      "rel": "related"
+    },
+    {
+      "to": "conditions.allergy",
+      "rel": "related",
+      "note": "Histamine in allergic reactions"
+    }
+  ],
+  "sources": [
+    {
+      "key": "who-2007-protein",
+      "type": "report",
+      "authors": [
+        "World Health Organization"
+      ],
+      "year": 2007,
+      "title": "Protein and amino acid requirements in human nutrition: report of a joint WHO/FAO/UNU expert consultation (WHO Technical Report Series 935)"
+    },
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Histamine",
+      "anchor": "#mechanism",
+      "definition": "A signaling molecule made from histidine, involved in allergy, stomach acid and wakefulness."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which dipeptide does histidine form with beta-alanine?",
+      "a": "Carnosine.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "amino-acids"
+  }
+}

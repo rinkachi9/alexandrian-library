@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "exercise.intensification.drop-set",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "exercise",
+      "intensification"
+    ],
+    "aliases": [
+      "descending set",
+      "strip set"
+    ]
+  },
+  "links": [
+    {
+      "to": "exercise.training-variables.rep-ranges-and-load",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "exercise.intensification.myo-reps",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sodal-2023",
+      "type": "paper",
+      "authors": [
+        "Sødal, L. K.",
+        "Kristiansen, E.",
+        "Larsen, S.",
+        "van den Tillaar, R."
+      ],
+      "year": 2023,
+      "title": "Effects of drop sets on skeletal muscle hypertrophy: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1186/s40798-023-00620-5",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Drop set",
+      "anchor": "#definition",
+      "definition": "Consecutive sets with decreasing loads and no rest, each near failure."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does reducing the load after failure allow more repetitions?",
+      "a": "The fatigued motor units can still produce the lower force needed.",
+      "anchor": "#mechanism",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "intensification-methods"
+  }
+}

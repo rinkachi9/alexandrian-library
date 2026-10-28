@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "physiology.sleep.rem-sleep",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "physiology",
+      "sleep",
+      "memory"
+    ],
+    "aliases": [
+      "rapid eye movement sleep",
+      "dream sleep"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.sleep.sleep-architecture",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "physiology.sleep.deep-sleep",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ohayon-2004",
+      "type": "paper",
+      "authors": [
+        "Ohayon, M. M.",
+        "Carskadon, M. A.",
+        "Guilleminault, C.",
+        "Vitiello, M. V."
+      ],
+      "year": 2004,
+      "title": "Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals",
+      "url": "https://doi.org/10.1093/sleep/27.7.1255",
+      "verified": false
+    },
+    {
+      "key": "berry-2020",
+      "type": "book",
+      "authors": [
+        "Berry, R. B."
+      ],
+      "year": 2020,
+      "title": "The AASM Manual for the Scoring of Sleep and Associated Events (version 2.6)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "REM sleep",
+      "anchor": "#definition",
+      "definition": "The sleep stage with rapid eye movements, muscle atonia and vivid dreams."
+    },
+    {
+      "term": "Atonia",
+      "anchor": "#definition",
+      "definition": "Loss of muscle tone during REM sleep."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does alcohol worsen sleep quality despite making people fall asleep faster?",
+      "a": "It suppresses REM and fragments the second half of the night.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "sleep"
+  }
+}

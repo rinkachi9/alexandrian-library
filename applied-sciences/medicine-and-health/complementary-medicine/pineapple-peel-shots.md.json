@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "complementary-medicine.pineapple-peel-shots",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "complementary-medicine"
+    ],
+    "aliases": [
+      "pineapple peel tea",
+      "bromelain shot"
+    ]
+  },
+  "links": [
+    {
+      "to": "complementary-medicine.natural-remedies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "herbal-extracts.ginger",
+      "rel": "related"
+    },
+    {
+      "to": "herbal-extracts.turmeric",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "pavan-2012",
+      "type": "paper",
+      "authors": [
+        "Pavan, R.",
+        "Jain, S.",
+        "Shraddha",
+        "Kumar, A."
+      ],
+      "year": 2012,
+      "title": "Properties and therapeutic application of bromelain: a review",
+      "url": "https://doi.org/10.1155/2012/976203",
+      "verified": false
+    },
+    {
+      "key": "yang-2017",
+      "type": "paper",
+      "authors": [
+        "Yang, T.",
+        "Doherty, J.",
+        "Zhao, B."
+      ],
+      "year": 2017,
+      "title": "Effectiveness of commercial and homemade washing agents in removing pesticide residues on and in apples",
+      "url": "https://doi.org/10.1021/acs.jafc.7b03118",
+      "verified": false
+    },
+    {
+      "key": "shoba-1998",
+      "type": "paper",
+      "authors": [
+        "Shoba, G.",
+        "Joy, D.",
+        "Joseph, T."
+      ],
+      "year": 1998,
+      "title": "Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers",
+      "url": "https://doi.org/10.1055/s-2006-957450",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bromelain",
+      "anchor": "#definition",
+      "definition": "A protein-digesting enzyme mixture from pineapple."
+    }
+  ],
+  "questions": [],
+  "map": {
+    "group": "complementary-medicine"
+  }
+}

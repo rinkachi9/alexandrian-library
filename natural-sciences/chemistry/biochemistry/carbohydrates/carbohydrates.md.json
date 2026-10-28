@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "carbohydrates.carbohydrates",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "carbohydrates",
+      "biochemistry",
+      "nutrition"
+    ],
+    "aliases": [
+      "sugars",
+      "saccharides",
+      "starch"
+    ]
+  },
+  "links": [
+    {
+      "to": "biochemistry.metabolism",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "nutrition.foundations.dietary-fiber",
+      "rel": "related"
+    },
+    {
+      "to": "biochemistry.glycogen-metabolism",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "berg-2002",
+      "type": "book",
+      "authors": [
+        "Berg, J. M.",
+        "Tymoczko, J. L.",
+        "Stryer, L."
+      ],
+      "year": 2002,
+      "title": "Biochemistry (5th ed.)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+      "verified": false
+    },
+    {
+      "key": "openstax-ap",
+      "type": "book",
+      "authors": [
+        "Betts, J. G.",
+        "Young, K. A.",
+        "Wise, J. A.",
+        "Johnson, E."
+      ],
+      "year": 2022,
+      "title": "Anatomy and Physiology 2e",
+      "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Monosaccharide",
+      "anchor": "#definition",
+      "definition": "A single sugar unit such as glucose or fructose."
+    },
+    {
+      "term": "Glycosidic bond",
+      "anchor": "#definition",
+      "definition": "The bond linking sugar units in di- and polysaccharides."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a large fructose intake promote fat synthesis in the liver?",
+      "a": "Fructose is taken up mainly by the liver and enters glycolysis below the main control point, so its flow into acetyl-CoA is less regulated.",
+      "anchor": "#fate-in-the-body",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "carbohydrates"
+  }
+}

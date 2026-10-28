@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "exercise.training-variables.breathing-pattern-in-lifting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "exercise",
+      "training-variables",
+      "breathing"
+    ],
+    "aliases": [
+      "breathing during lifting",
+      "bracing"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.respiration.breathing-techniques",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "anatomy.muscles.transversus-abdominis",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "haff-2016",
+      "type": "book",
+      "authors": [
+        "Haff, G. G.",
+        "Triplett, N. T. (Eds.)"
+      ],
+      "year": 2016,
+      "title": "Essentials of Strength Training and Conditioning (4th ed.)"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bracing",
+      "anchor": "#definition",
+      "definition": "Co-contraction of trunk muscles against a held breath to stiffen the trunk."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why exhale between repetitions in a heavy set?",
+      "a": "To avoid prolonged high blood pressure and dizziness from a long breath hold.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training-variables"
+  }
+}
