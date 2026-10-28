@@ -1,0 +1,114 @@
+{
+  "node": {
+    "id": "skills.personal-branding.online-presence",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "personal-branding",
+      "online-presence",
+      "privacy"
+    ],
+    "aliases": [
+      "digital footprint",
+      "personal website",
+      "portfolio"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.personal-branding.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.personal-branding.positioning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.professional-profile",
+      "rel": "related"
+    },
+    {
+      "to": "skills.search-engine-optimization.on-page-seo",
+      "rel": "related",
+      "note": "Making a personal site findable"
+    }
+  ],
+  "sources": [
+    {
+      "key": "roulin-2019",
+      "type": "paper",
+      "authors": [
+        "Roulin, N.",
+        "Levashina, J."
+      ],
+      "year": 2019,
+      "title": "LinkedIn as a new selection method: Psychometric properties and assessment approach",
+      "url": "https://doi.org/10.1111/peps.12296",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "SEO Starter Guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2016",
+      "type": "standard",
+      "title": "Regulation (EU) 2016/679 (GDPR)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Online presence",
+      "anchor": "#definition",
+      "definition": "All information about a person that others can find online."
+    },
+    {
+      "term": "Digital footprint",
+      "anchor": "#definition",
+      "definition": "The trail of data a person leaves online, including unintended content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is a personal website on your own domain valuable?",
+      "a": "It is the only part of your presence you fully control, and it often ranks for your name.",
+      "anchor": "#the-personal-website",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the five steps of an online presence audit.",
+      "a": "Search your name, list results, classify them, fix what you control, and check privacy settings.",
+      "anchor": "#auditing-your-presence",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Name three pieces of personal information to keep off public profiles.",
+      "a": "Home address, personal phone number, date of birth or family details.",
+      "anchor": "#privacy-and-security",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "personal-branding"
+  }
+}

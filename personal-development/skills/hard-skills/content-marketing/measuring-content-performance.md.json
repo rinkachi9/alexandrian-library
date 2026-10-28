@@ -1,0 +1,137 @@
+{
+  "node": {
+    "id": "skills.content-marketing.measuring-content-performance",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "marketing",
+      "analytics",
+      "attribution",
+      "measurement"
+    ],
+    "aliases": [
+      "content analytics",
+      "attribution",
+      "UTM parameters",
+      "incrementality"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.content-marketing-strategy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.copywriting.ab-testing",
+      "rel": "prerequisite",
+      "note": "Controlled comparisons"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-metrics",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-analytics-help",
+      "type": "documentation",
+      "authors": [
+        "Google Analytics Help"
+      ],
+      "title": "[GA4] Get started with attribution",
+      "url": "https://support.google.com/analytics/answer/10596866",
+      "verified": false
+    },
+    {
+      "key": "google-ads-help",
+      "type": "documentation",
+      "authors": [
+        "Google Ads Help"
+      ],
+      "title": "First click, linear, time decay, and position-based attribution models are going away",
+      "url": "https://support.google.com/google-ads/answer/13427716",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kohavi-2020",
+      "type": "book",
+      "authors": [
+        "Kohavi, R.",
+        "Tang, D.",
+        "Xu, Y."
+      ],
+      "year": 2020,
+      "title": "Trustworthy Online Controlled Experiments",
+      "url": "https://doi.org/10.1017/9781108653985",
+      "verified": false
+    },
+    {
+      "key": "directive-2002-58",
+      "type": "standard",
+      "title": "Directive 2002/58/EC (ePrivacy Directive), Article 5(3)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Attribution",
+      "anchor": "#definition",
+      "definition": "The assignment of credit for a conversion to the touchpoints that preceded it."
+    },
+    {
+      "term": "Campaign parameters",
+      "anchor": "#tracking-basics",
+      "definition": "UTM tags on links that tell analytics where a visit came from."
+    },
+    {
+      "term": "Incrementality",
+      "anchor": "#incrementality",
+      "definition": "The conversions that happened because of the content and would not have happened otherwise."
+    },
+    {
+      "term": "Leading indicator",
+      "anchor": "#leading-and-lagging-indicators",
+      "definition": "An early signal such as impressions or subscribers that predicts later results."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which attribution models remained in GA4 after the 2023 change?",
+      "a": "Data-driven and last click.",
+      "anchor": "#attribution-models",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can no attribution model prove that content caused a sale?",
+      "a": "Models only assign credit among observed touchpoints; buyers who would have bought anyway still credit the content they saw.",
+      "anchor": "#attribution-models",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "How would you estimate the effect of a newsletter on demo requests?",
+      "a": "Run a holdout test: randomly withhold it from a share of subscribers and compare their demo request rate.",
+      "anchor": "#incrementality",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

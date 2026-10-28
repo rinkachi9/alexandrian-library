@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.on-page-seo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "seo",
+      "content",
+      "html"
+    ],
+    "aliases": [
+      "title tag",
+      "meta description",
+      "internal links",
+      "structured data"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.search-engine-optimization.keyword-research",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "SEO Starter Guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Influencing your title links in search results",
+      "url": "https://developers.google.com/search/docs/appearance/title-link",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-3",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Control your snippets in search results",
+      "url": "https://developers.google.com/search/docs/appearance/snippet",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-4",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Introduction to structured data markup in Google Search",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "On-page SEO",
+      "anchor": "#definition",
+      "definition": "Optimization of a page's visible content and HTML elements."
+    },
+    {
+      "term": "Title link",
+      "anchor": "#title-tag",
+      "definition": "The clickable headline in search results, usually generated from the title tag."
+    },
+    {
+      "term": "Anchor text",
+      "anchor": "#internal-links-and-anchor-text",
+      "definition": "The clickable text of a link, which describes the target to readers and search engines."
+    },
+    {
+      "term": "Structured data",
+      "anchor": "#structured-data",
+      "definition": "Machine-readable information, usually JSON-LD with schema.org, describing a page's content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Does the meta description affect ranking?",
+      "a": "Not directly, but a clear description can raise the share of searchers who click, and Google often rewrites it.",
+      "anchor": "#meta-description",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name three things that do not help on-page SEO.",
+      "a": "The meta keywords tag, keyword stuffing, and fixed word count targets.",
+      "anchor": "#what-does-not-help",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Write alt text for a photo of the same tea brewed at three temperatures.",
+      "a": "For example: \"The same sencha brewed at 70, 85 and 100 degrees, the hottest brew is darkest.\"",
+      "anchor": "#images",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

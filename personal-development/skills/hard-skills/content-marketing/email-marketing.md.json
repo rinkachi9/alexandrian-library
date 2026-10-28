@@ -1,0 +1,143 @@
+{
+  "node": {
+    "id": "skills.content-marketing.email-marketing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "marketing",
+      "email",
+      "deliverability",
+      "consent"
+    ],
+    "aliases": [
+      "newsletter",
+      "email list",
+      "DMARC",
+      "double opt-in"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.client-acquisition.lead-generation",
+      "rel": "related",
+      "note": "Lead magnets build email lists"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-law-and-cross-border",
+      "rel": "related",
+      "note": "Consent and data protection"
+    }
+  ],
+  "sources": [
+    {
+      "key": "directive-2002-58",
+      "type": "standard",
+      "title": "Directive 2002/58/EC (ePrivacy Directive), Article 13",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2016",
+      "type": "standard",
+      "title": "Regulation (EU) 2016/679 (GDPR), Articles 4(11) and 7",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": false
+    },
+    {
+      "key": "federal-trade-commission",
+      "type": "website",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "title": "CAN-SPAM Act: A compliance guide for business",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "verified": false
+    },
+    {
+      "key": "google",
+      "type": "documentation",
+      "authors": [
+        "Google"
+      ],
+      "title": "Email sender guidelines",
+      "url": "https://support.google.com/a/answer/81126",
+      "verified": false
+    },
+    {
+      "key": "rfc-8058-signaling-2017",
+      "type": "standard",
+      "year": 2017,
+      "title": "RFC 8058: Signaling one-click functionality for list email headers",
+      "url": "https://www.rfc-editor.org/rfc/rfc8058",
+      "verified": false
+    },
+    {
+      "key": "rfc-7489-domain-2015",
+      "type": "standard",
+      "year": 2015,
+      "title": "RFC 7489: Domain-based Message Authentication, Reporting, and Conformance (DMARC)",
+      "url": "https://www.rfc-editor.org/rfc/rfc7489",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Double opt-in",
+      "anchor": "#building-a-list",
+      "definition": "Confirmation of a subscription by clicking a link in a confirmation email."
+    },
+    {
+      "term": "Deliverability",
+      "anchor": "#deliverability",
+      "definition": "The share of emails that reach the inbox rather than spam or nowhere."
+    },
+    {
+      "term": "DMARC",
+      "anchor": "#deliverability",
+      "definition": "A policy that tells providers what to do when SPF or DKIM checks fail and requires alignment with the From domain."
+    },
+    {
+      "term": "Mail Privacy Protection",
+      "anchor": "#metrics",
+      "definition": "Apple's 2021 feature that preloads email content and inflates open rates."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What spam complaint rate must bulk senders stay below under the 2024 Gmail and Yahoo rules?",
+      "a": "0.3%, with 0.1% recommended.",
+      "anchor": "#deliverability",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why are automated sequences often the most effective emails?",
+      "a": "They arrive when the reader is most interested, triggered by an action such as sign-up or an abandoned cart.",
+      "anchor": "#automations",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "compare",
+      "q": "How do EU and US rules differ on consent for marketing email?",
+      "a": "The EU generally requires prior consent, with a narrow existing-customer exception; the US CAN-SPAM Act requires opt-out and accurate information but not prior consent.",
+      "anchor": "#consent-and-law",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

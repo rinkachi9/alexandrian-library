@@ -83,7 +83,7 @@ The source notes use these tools to check demand when selecting a product for dr
 - **Marketplace listings** (for example AliExpress): reviews, prices and order counts. Reviews matter most for unfamiliar products, because they reveal quality problems.
 - **Ad libraries and ad spy tools.** Tools that collect social media ads (the source names AdSpy) show which products are being advertised and how people react. Meta's public Ad Library shows ads currently running on its platforms.
 - **Google Trends** shows whether interest in a product is rising or falling. Avoid products whose popularity has already peaked.
-- **A test ad** checks real demand. See [product validation](product-validation.md).
+- **A test ad** checks real demand. See [product validation](product-validation.md) and [paid social advertising](../social-media/paid-social-advertising.md#testing-products-with-ads).
 
 ## Worked example
 

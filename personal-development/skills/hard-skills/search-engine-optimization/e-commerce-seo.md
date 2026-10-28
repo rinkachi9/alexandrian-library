@@ -6,7 +6,7 @@ E-commerce SEO applies search engine optimization to online shops, whose most va
 
 ## Prerequisites
 
-[SEO fundamentals](seo-fundamentals.md) for crawling, indexing, keywords and links. [E-commerce models](../e-commerce/e-commerce-models.md) for the business context.
+[how search engines work](how-search-engines-work.md) for crawling, indexing, keywords and links. [E-commerce models](../e-commerce/e-commerce-models.md) for the business context.
 
 ## Core concepts
 
@@ -40,7 +40,7 @@ Search engines use a page's content to decide what it is about and how high it s
 
 A strong product page has:
 
-- an original description written for the buyer, with benefits and specifications (see [copywriting](../copywriting/copywriting.md#features-and-benefits)),
+- an original description written for the buyer, with benefits and specifications (see [copywriting](../copywriting/value-proposition-and-benefits.md#features-benefits-and-outcomes)),
 - several good photos with descriptive alt text and file names,
 - a specification table,
 - genuine customer reviews and questions,

@@ -6,7 +6,7 @@ A headline has one job: to make the right reader stop and start reading. It does
 
 ## Prerequisites
 
-[Content marketing](content-marketing.md), and the attention step of the [7A framework](seven-a-framework.md#attention).
+[Content marketing](content-marketing-fundamentals.md), and the attention step of the [7A framework](seven-a-framework.md#attention).
 
 ## Core concepts
 
@@ -71,7 +71,7 @@ The last two are both honest. An A/B test on the email subject line would decide
 ## Trade offs and when to use it
 
 - **Curiosity versus clarity.** Curiosity gaps can raise clicks but annoy readers if overused. Clear benefit headlines are safer for search, where the reader typed a question and wants a direct answer.
-- **Channel matters.** Search results reward headlines that match the query (see [SEO fundamentals](../search-engine-optimization/seo-fundamentals.md)). Social feeds reward headlines that stand out. Email subject lines compete with the inbox.
+- **Channel matters.** Search results reward headlines that match the query (see [keyword research](../search-engine-optimization/keyword-research.md)). Social feeds reward headlines that stand out. Email subject lines compete with the inbox.
 - **Testing needs traffic.** With a small audience, differences between headlines are buried in noise. Use judgment and principles until you have enough traffic.
 
 ## Common mistakes

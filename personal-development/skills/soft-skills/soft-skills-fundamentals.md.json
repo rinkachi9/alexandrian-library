@@ -1,0 +1,186 @@
+{
+  "node": {
+    "id": "skills.soft-skills.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "skills",
+      "soft-skills",
+      "personality",
+      "employability"
+    ],
+    "aliases": [
+      "transferable skills",
+      "non-cognitive skills",
+      "21st century skills"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.what-is-a-skill",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.skill-acquisition",
+      "rel": "applies",
+      "note": "Soft skills develop through practice with feedback"
+    },
+    {
+      "to": "career.coaching-techniques-for-career",
+      "rel": "related",
+      "note": "Coaching as a way to develop soft skills"
+    },
+    {
+      "to": "career.feedback-and-promotion",
+      "rel": "related"
+    },
+    {
+      "to": "career.job-interview",
+      "rel": "related",
+      "note": "Behavioral interviews assess soft skills"
+    }
+  ],
+  "sources": [
+    {
+      "key": "national-research-council-2012",
+      "type": "report",
+      "authors": [
+        "National Research Council"
+      ],
+      "year": 2012,
+      "title": "Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century",
+      "url": "https://doi.org/10.17226/13398",
+      "verified": false
+    },
+    {
+      "key": "heckman-2012",
+      "type": "paper",
+      "authors": [
+        "Heckman, J. J.",
+        "Kautz, T."
+      ],
+      "year": 2012,
+      "title": "Hard evidence on soft skills",
+      "url": "https://doi.org/10.1016/j.labeco.2012.05.014",
+      "verified": false
+    },
+    {
+      "key": "deming-2017",
+      "type": "paper",
+      "authors": [
+        "Deming, D. J."
+      ],
+      "year": 2017,
+      "title": "The growing importance of social skills in the labor market",
+      "url": "https://doi.org/10.1093/qje/qjx022",
+      "verified": false
+    },
+    {
+      "key": "barrick-1991",
+      "type": "paper",
+      "authors": [
+        "Barrick, M. R.",
+        "Mount, M. K."
+      ],
+      "year": 1991,
+      "title": "The Big Five personality dimensions and job performance: A meta-analysis",
+      "url": "https://doi.org/10.1111/j.1744-6570.1991.tb00688.x",
+      "verified": false
+    },
+    {
+      "key": "durlak-2011",
+      "type": "paper",
+      "authors": [
+        "Durlak, J. A.",
+        "Weissberg, R. P.",
+        "Dymnicki, A. B.",
+        "Taylor, R. D.",
+        "Schellinger, K. B."
+      ],
+      "year": 2011,
+      "title": "The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions",
+      "url": "https://doi.org/10.1111/j.1467-8624.2010.01564.x",
+      "verified": false
+    },
+    {
+      "key": "roberts-2017",
+      "type": "paper",
+      "authors": [
+        "Roberts, B. W.",
+        "Luo, J.",
+        "Briley, D. A.",
+        "Chow, P. I.",
+        "Su, R.",
+        "Hill, P. L."
+      ],
+      "year": 2017,
+      "title": "A systematic review of personality trait change through intervention",
+      "url": "https://doi.org/10.1037/bul0000088",
+      "verified": false
+    },
+    {
+      "key": "theeboom-2014",
+      "type": "paper",
+      "authors": [
+        "Theeboom, T.",
+        "Beersma, B.",
+        "van Vianen, A. E. M."
+      ],
+      "year": 2014,
+      "title": "Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context",
+      "url": "https://doi.org/10.1080/17439760.2013.837499",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Soft skills",
+      "anchor": "#definition",
+      "definition": "Learned, transferable patterns of thinking, feeling and behaving that help across many situations."
+    },
+    {
+      "term": "Intrapersonal domain",
+      "anchor": "#three-domains",
+      "definition": "Competencies for managing oneself, such as self-regulation and conscientiousness."
+    },
+    {
+      "term": "Reference bias",
+      "anchor": "#measurement",
+      "definition": "Distortion in self-reports because people compare themselves with different standards."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between a personality trait and a soft skill?",
+      "a": "A trait describes typical tendencies; a skill describes what a person can do when the situation requires it.",
+      "anchor": "#relation-to-personality",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which Big Five trait relates most consistently to job performance according to Barrick and Mount (1991)?",
+      "a": "Conscientiousness.",
+      "anchor": "#evidence-of-importance",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Rewrite \"be a better communicator\" as a practicable behavior.",
+      "a": "For example: summarize the decision and next steps in two sentences at the end of every meeting.",
+      "anchor": "#how-soft-skills-develop",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "soft-skills"
+  }
+}

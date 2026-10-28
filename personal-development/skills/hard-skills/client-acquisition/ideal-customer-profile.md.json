@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.ideal-customer-profile",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "sales",
+      "client-acquisition",
+      "segmentation"
+    ],
+    "aliases": [
+      "ICP",
+      "buyer persona",
+      "target client"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.customer-research",
+      "rel": "related"
+    },
+    {
+      "to": "skills.personal-branding.positioning",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "revella-2015",
+      "type": "book",
+      "authors": [
+        "Revella, A."
+      ],
+      "year": 2015,
+      "title": "Buyer Personas"
+    },
+    {
+      "key": "gartner",
+      "type": "report",
+      "authors": [
+        "Gartner"
+      ],
+      "title": "The B2B buying journey",
+      "url": "https://www.gartner.com/en/sales/insights/b2b-buying-journey",
+      "verified": false
+    },
+    {
+      "key": "christensen-2016",
+      "type": "paper",
+      "authors": [
+        "Christensen, C. M.",
+        "Hall, T.",
+        "Dillon, K.",
+        "Duncan, D. S."
+      ],
+      "year": 2016,
+      "title": "Know your customers' \"jobs to be done\"",
+      "url": "https://hbr.org/2016/09/know-your-customers-jobs-to-be-done",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Ideal customer profile",
+      "anchor": "#definitions",
+      "definition": "A description of the type of account that is the best fit for an offer."
+    },
+    {
+      "term": "Buyer persona",
+      "anchor": "#definitions",
+      "definition": "A research-based description of a person involved in buying."
+    },
+    {
+      "term": "Trigger event",
+      "anchor": "#jobs-and-triggers",
+      "definition": "A change such as funding or a new regulation that creates the need for an offer."
+    },
+    {
+      "term": "Buying group",
+      "anchor": "#buyer-personas",
+      "definition": "The several people involved in a B2B purchase decision."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How do you build an ICP from existing clients?",
+      "a": "Score clients on value, fit and advocacy, compare the best and worst, interview the best, and write the profile and disqualifiers.",
+      "anchor": "#building-an-icp-from-your-clients",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why write a negative profile?",
+      "a": "To recognize and decline clients who cost more than they bring.",
+      "anchor": "#negative-profile",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Name four roles in a B2B buying group.",
+      "a": "User, manager or champion, budget holder, technical evaluator, procurement or legal.",
+      "anchor": "#buyer-personas",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

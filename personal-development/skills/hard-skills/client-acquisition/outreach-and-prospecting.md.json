@@ -1,0 +1,125 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.outreach-and-prospecting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "sales",
+      "outreach",
+      "prospecting",
+      "law"
+    ],
+    "aliases": [
+      "cold email",
+      "cold outreach",
+      "prospecting",
+      "warm introduction"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.client-acquisition.ideal-customer-profile",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.content-marketing.email-marketing",
+      "rel": "related",
+      "note": "Consent and deliverability"
+    }
+  ],
+  "sources": [
+    {
+      "key": "directive-2002-58",
+      "type": "standard",
+      "title": "Directive 2002/58/EC (ePrivacy Directive), Article 13",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2016",
+      "type": "standard",
+      "title": "Regulation (EU) 2016/679 (GDPR), Articles 6, 14 and 21",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": false
+    },
+    {
+      "key": "ustawa-z-dnia",
+      "type": "standard",
+      "title": "Ustawa z dnia 12 lipca 2024 r. Prawo komunikacji elektronicznej (Dz. U. 2024 poz. 1221), art. 398",
+      "url": "https://isap.sejm.gov.pl/",
+      "verified": false
+    },
+    {
+      "key": "federal-trade-commission",
+      "type": "website",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "title": "CAN-SPAM Act: A compliance guide for business",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "verified": false
+    },
+    {
+      "key": "gesetz-gegen-den",
+      "type": "standard",
+      "title": "Gesetz gegen den unlauteren Wettbewerb (UWG), § 7",
+      "url": "https://www.gesetze-im-internet.de/uwg_2004/__7.html",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Prospecting",
+      "anchor": "#definitions",
+      "definition": "Identifying and researching organizations and people who fit the ideal customer profile."
+    },
+    {
+      "term": "Warm outreach",
+      "anchor": "#warm-paths-first",
+      "definition": "Contact through a prior connection such as a referral or interaction."
+    },
+    {
+      "term": "Unsolicited communication",
+      "anchor": "#law-and-consent",
+      "definition": "Marketing messages sent without prior consent, restricted by the ePrivacy Directive."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Since when and under which article does Polish law require prior consent for electronic direct marketing?",
+      "a": "Since 10 November 2024, under Article 398 of the Electronic Communications Law.",
+      "anchor": "#law-and-consent",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What are the five parts of a respectful outreach message?",
+      "a": "Relevance, problem or insight, credibility, small ask, easy exit.",
+      "anchor": "#writing-an-outreach-message",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why are bought lists a bad idea?",
+      "a": "They are often outdated, may be illegal to use without consent, and harm email deliverability.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

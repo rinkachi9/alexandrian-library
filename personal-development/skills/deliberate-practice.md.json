@@ -1,0 +1,139 @@
+{
+  "node": {
+    "id": "skills.deliberate-practice",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "skills",
+      "learning",
+      "expertise",
+      "practice"
+    ],
+    "aliases": [
+      "10,000 hour rule",
+      "expert performance"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.skill-acquisition",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.coaching-techniques-for-career",
+      "rel": "related",
+      "note": "A coach can design practice and give feedback"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ericsson-1993",
+      "type": "paper",
+      "authors": [
+        "Ericsson, K. A.",
+        "Krampe, R. T.",
+        "Tesch-Römer, C."
+      ],
+      "year": 1993,
+      "title": "The role of deliberate practice in the acquisition of expert performance",
+      "url": "https://doi.org/10.1037/0033-295X.100.3.363",
+      "verified": false
+    },
+    {
+      "key": "macnamara-2014",
+      "type": "paper",
+      "authors": [
+        "Macnamara, B. N.",
+        "Hambrick, D. Z.",
+        "Oswald, F. L."
+      ],
+      "year": 2014,
+      "title": "Deliberate practice and performance in music, games, sports, education, and professions: A meta-analysis",
+      "url": "https://doi.org/10.1177/0956797614535810",
+      "verified": false
+    },
+    {
+      "key": "macnamara-2019",
+      "type": "paper",
+      "authors": [
+        "Macnamara, B. N.",
+        "Maitra, M."
+      ],
+      "year": 2019,
+      "title": "The role of deliberate practice in expert performance: Revisiting Ericsson, Krampe & Tesch-Römer (1993)",
+      "url": "https://doi.org/10.1098/rsos.190327",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ericsson-2016",
+      "type": "book",
+      "authors": [
+        "Ericsson, A.",
+        "Pool, R."
+      ],
+      "year": 2016,
+      "title": "Peak: Secrets from the New Science of Expertise"
+    },
+    {
+      "key": "gladwell-2008",
+      "type": "book",
+      "authors": [
+        "Gladwell, M."
+      ],
+      "year": 2008,
+      "title": "Outliers: The Story of Success"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Deliberate practice",
+      "anchor": "#definition",
+      "definition": "Effortful practice designed to improve a specific aspect of performance, with a goal just beyond current ability and immediate feedback."
+    },
+    {
+      "term": "Naive practice",
+      "anchor": "#definition",
+      "definition": "Repetition without specific goals or feedback."
+    },
+    {
+      "term": "10,000 hour rule",
+      "anchor": "#the-10000-hour-rule",
+      "definition": "A popular claim that a fixed number of hours makes an expert, which the original research does not support."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might deliberate practice explain so little variance in professional performance?",
+      "a": "Professional performance is hard to measure, tasks vary, feedback is late, and few professionals practice deliberately at all.",
+      "anchor": "#why-the-effect-is-small-in-professions",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How did the 2019 replication of the violin study differ from the original result?",
+      "a": "Practice still explained about a quarter of the variance, but the best violinists had not practiced more than the good ones, unlike the 1993 claim.",
+      "anchor": "#what-later-research-found",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Turn \"get better at writing\" into a deliberate practice task.",
+      "a": "For example: rewrite ten headlines for one article in 20 minutes, compare with expert examples and get comments on two weaknesses.",
+      "anchor": "#designing-deliberate-practice-for-knowledge-work",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skills"
+  }
+}

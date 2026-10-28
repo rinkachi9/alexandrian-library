@@ -1,0 +1,173 @@
+{
+  "node": {
+    "id": "skills.e-commerce.e-commerce-law-and-cross-border",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 12,
+    "tags": [
+      "e-commerce",
+      "law",
+      "vat",
+      "consumer-law",
+      "product-safety"
+    ],
+    "aliases": [
+      "OSS",
+      "IOSS",
+      "GPSR",
+      "European Accessibility Act",
+      "de minimis"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.persuasion-principles",
+      "rel": "related",
+      "note": "Dark patterns and fair practices"
+    }
+  ],
+  "sources": [
+    {
+      "key": "directive-2011-83",
+      "type": "standard",
+      "title": "Directive 2011/83/EU on consumer rights",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2019",
+      "type": "standard",
+      "title": "Directive (EU) 2019/771 on contracts for the sale of goods",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/771/oj",
+      "verified": false
+    },
+    {
+      "key": "directive-2005-29",
+      "type": "standard",
+      "title": "Directive 2005/29/EC on unfair commercial practices",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2023",
+      "type": "standard",
+      "title": "Regulation (EU) 2023/988 on general product safety",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2019-2",
+      "type": "standard",
+      "title": "Directive (EU) 2019/882 (European Accessibility Act)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2022",
+      "type": "standard",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "verified": false
+    },
+    {
+      "key": "european-commission",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "VAT e-commerce package",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-e-commerce_en",
+      "verified": false
+    },
+    {
+      "key": "european-commission-2026",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2026,
+      "title": "Ensuring fairness and safety: 3 euro customs duty on low value parcels",
+      "url": "https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "executive-order-14324",
+      "type": "standard",
+      "title": "Executive Order 14324. Federal Register, 90(167), 2 September 2025",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-09-02/html/2025-16802.htm",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "u-s-federal",
+      "type": "standard",
+      "authors": [
+        "U.S. Federal Trade Commission"
+      ],
+      "title": "Mail, Internet, or Telephone Order Merchandise Rule",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "One-Stop Shop",
+      "anchor": "#vat-on-cross-border-sales",
+      "definition": "An EU scheme for declaring VAT on cross-border sales in one member state."
+    },
+    {
+      "term": "General Product Safety Regulation",
+      "anchor": "#product-safety-and-compliance",
+      "definition": "EU Regulation 2023/988, applying since 13 December 2024, on the safety of consumer products."
+    },
+    {
+      "term": "European Accessibility Act",
+      "anchor": "#accessibility",
+      "definition": "EU Directive 2019/882, applying since 28 June 2025 to e-commerce services offered to consumers."
+    },
+    {
+      "term": "De minimis exemption",
+      "anchor": "#selling-to-the-united-states",
+      "definition": "Duty-free entry for low-value imports, suspended in the US for all countries from August 2025."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Above what level of cross-border EU sales must a seller charge the customer's country VAT?",
+      "a": "10,000 euros a year in total cross-border B2C sales.",
+      "anchor": "#vat-on-cross-border-sales",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What changed for low-value imports into the EU on 1 July 2026?",
+      "a": "A temporary flat customs duty of 3 euros per item category in low-value consignments began to apply.",
+      "anchor": "#vat-on-cross-border-sales",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why is a business selling under its own brand treated more strictly in product safety law?",
+      "a": "It is generally treated as the manufacturer, with obligations for documentation, conformity and labeling.",
+      "anchor": "#product-safety-and-compliance",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

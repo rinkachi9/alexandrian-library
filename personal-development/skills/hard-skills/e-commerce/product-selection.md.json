@@ -1,10 +1,10 @@
 {
   "node": {
-    "id": "skills.product-selection",
+    "id": "skills.e-commerce.product-selection",
     "kind": "note",
     "status": "draft",
     "level": "intro",
-    "order": 2,
+    "order": 3,
     "tags": [
       "e-commerce",
       "product",
@@ -12,33 +12,27 @@
     ],
     "aliases": [
       "winning product",
-      "niche selection"
+      "niche selection",
+      "break-even ROAS"
     ]
   },
   "links": [
     {
-      "to": "skills.e-commerce-models",
-      "rel": "prerequisite"
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
     }
   ],
   "sources": [
     {
       "key": "google-trends",
       "type": "website",
-      "authors": [
-        "Google"
-      ],
       "title": "Google Trends",
       "url": "https://trends.google.com/",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     },
     {
       "key": "meta-ad-library",
       "type": "website",
-      "authors": [
-        "Meta"
-      ],
       "title": "Meta Ad Library",
       "url": "https://www.facebook.com/ads/library/",
       "verified": false
@@ -56,9 +50,14 @@
       "definition": "A clear reason to buy from you rather than from competitors."
     },
     {
+      "term": "Contribution margin",
+      "anchor": "#unit-economics",
+      "definition": "Price minus product, shipping, payment and other per-order costs, before advertising."
+    },
+    {
       "term": "Break-even ROAS",
       "anchor": "#unit-economics",
-      "definition": "The return on ad spend at which advertising consumes the whole margin: price divided by contribution margin before ads."
+      "definition": "Price divided by contribution margin before advertising: the ROAS at which ads consume the whole margin."
     }
   ],
   "questions": [
@@ -74,8 +73,17 @@
     {
       "id": "q2",
       "type": "explain",
-      "q": "Why is a popular product not necessarily a winning product?",
-      "a": "Because if its margin cannot pay for the advertising needed to sell it, each sale loses money.",
+      "q": "Why is demonstrability important for products sold through social ads?",
+      "a": "The benefit must be visible in a short video or photo to stop people scrolling and convince them.",
+      "anchor": "#additional-criteria-from-practice",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why must margins in the EU be calculated on the price without VAT?",
+      "a": "Consumer prices include VAT, which is passed to the tax authority and is not revenue for the seller.",
       "anchor": "#unit-economics",
       "origin": "ai",
       "reviewed": false

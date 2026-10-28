@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "skills.e-commerce.customer-service-and-returns",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "e-commerce",
+      "customer-service",
+      "returns",
+      "consumer-law"
+    ],
+    "aliases": [
+      "returns policy",
+      "right of withdrawal",
+      "service recovery"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.fulfillment-and-shipping",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.social-media.community-management",
+      "rel": "related",
+      "note": "Public complaints on social media"
+    }
+  ],
+  "sources": [
+    {
+      "key": "directive-2011-83",
+      "type": "standard",
+      "title": "Directive 2011/83/EU on consumer rights, Articles 9 to 16",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2019",
+      "type": "standard",
+      "title": "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/771/oj",
+      "verified": false
+    },
+    {
+      "key": "european-commission",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "Your Europe: Guarantees and returns",
+      "url": "https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm",
+      "verified": false
+    },
+    {
+      "key": "de-matos-2007",
+      "type": "paper",
+      "authors": [
+        "de Matos, C. A.",
+        "Henrique, J. L.",
+        "Rossi, C. A. V."
+      ],
+      "year": 2007,
+      "title": "Service recovery paradox: A meta-analysis",
+      "url": "https://doi.org/10.1177/1094670507303012",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Right of withdrawal",
+      "anchor": "#legal-framework-in-the-eu",
+      "definition": "The EU consumer right to withdraw from a distance purchase within 14 days without a reason."
+    },
+    {
+      "term": "Service recovery paradox",
+      "anchor": "#the-service-recovery-idea",
+      "definition": "The contested claim that customers whose problem is solved well become more loyal than those without problems."
+    },
+    {
+      "term": "Reverse logistics",
+      "anchor": "#definition",
+      "definition": "Receiving returned products, checking them, refunding and deciding what happens to them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Within how many days must an EU seller refund after a withdrawal, and when may it withhold the refund?",
+      "a": "Within 14 days of being informed; it may withhold until it receives the goods back or proof of return.",
+      "anchor": "#legal-framework-in-the-eu",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why should return reasons be recorded?",
+      "a": "They reveal fixable causes such as poor size information, which reduces future returns.",
+      "anchor": "#returns-economics",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Name three ways to reduce returns without restricting legal rights.",
+      "a": "Precise size guides, accurate photos and descriptions, and reviews mentioning fit and quality.",
+      "anchor": "#returns-economics",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.social-media",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "marketing",
+      "social-media"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills.hard-skills.content-marketing",
+      "rel": "related",
+      "note": "Social content is part of content marketing"
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

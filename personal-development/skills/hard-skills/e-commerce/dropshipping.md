@@ -6,7 +6,7 @@ Dropshipping is a retail model in which the seller advertises and sells products
 
 ## Prerequisites
 
-[Product selection](product-selection.md) and [product validation](product-validation.md).
+[Product selection](product-selection.md), [product validation](product-validation.md) and [supplier sourcing](supplier-sourcing.md).
 
 ## Core concepts
 
@@ -63,7 +63,7 @@ This note is educational and is not legal advice.
 
 ### Cross-border rules
 
-Classic dropshipping relied on cheap parcels shipped from Asia to consumers. Several rule changes made that harder:
+Classic dropshipping relied on cheap parcels shipped from Asia to consumers. Several rule changes made that harder. The full treatment of cross-border law is in [e-commerce law and cross-border](e-commerce-law-and-cross-border.md); the points that matter most for dropshipping are:
 
 - **EU VAT, July 2021.** The exemption from import VAT for goods worth up to 22 euros was abolished on 1 July 2021. VAT is now due on all imported goods. The optional *Import One-Stop Shop* (IOSS) lets sellers of consignments worth up to 150 euros collect VAT at checkout and declare it in one EU country. Non-EU sellers generally need an EU intermediary to use it.
 - **EU customs duty, July 2026.** Goods under 150 euros were exempt from customs duty. Since 1 July 2026 a temporary flat duty of 3 euros applies per item category in a low-value parcel, until the exemption is removed permanently as part of the EU customs reform (expected around 2028).

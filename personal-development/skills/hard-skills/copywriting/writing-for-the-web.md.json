@@ -1,0 +1,151 @@
+{
+  "node": {
+    "id": "skills.copywriting.writing-for-the-web",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "writing",
+      "copywriting",
+      "usability",
+      "accessibility"
+    ],
+    "aliases": [
+      "web writing",
+      "plain language",
+      "microcopy",
+      "readability"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.search-engine-optimization.on-page-seo",
+      "rel": "related",
+      "note": "Headings and clear content help search engines too"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-law-and-cross-border",
+      "rel": "related",
+      "note": "The European Accessibility Act"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nielsen-1997",
+      "type": "website",
+      "authors": [
+        "Nielsen, J."
+      ],
+      "year": 1997,
+      "title": "How users read on the web",
+      "url": "https://www.nngroup.com/articles/how-users-read-on-the-web/",
+      "verified": false
+    },
+    {
+      "key": "nielsen-2006",
+      "type": "website",
+      "authors": [
+        "Nielsen, J."
+      ],
+      "year": 2006,
+      "title": "F-shaped pattern for reading web content",
+      "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/",
+      "verified": false
+    },
+    {
+      "key": "flesch-1948",
+      "type": "paper",
+      "authors": [
+        "Flesch, R."
+      ],
+      "year": 1948,
+      "title": "A new readability yardstick",
+      "url": "https://doi.org/10.1037/h0057532",
+      "verified": false
+    },
+    {
+      "key": "iso-24495-1",
+      "type": "standard",
+      "title": "ISO 24495-1:2023. Plain language, Part 1: Governing principles and guidelines",
+      "url": "https://www.iso.org/standard/78907.html",
+      "verified": false
+    },
+    {
+      "key": "w3c-2023",
+      "type": "standard",
+      "authors": [
+        "W3C"
+      ],
+      "year": 2023,
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2019",
+      "type": "standard",
+      "title": "Directive (EU) 2019/882 on the accessibility requirements for products and services (European Accessibility Act)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Inverted pyramid",
+      "anchor": "#structure-conclusion-first",
+      "definition": "Putting the most important information first and details later."
+    },
+    {
+      "term": "Flesch Reading Ease",
+      "anchor": "#readability",
+      "definition": "A readability score computed from average sentence length and syllables per word."
+    },
+    {
+      "term": "Plain language",
+      "anchor": "#plain-language",
+      "definition": "Writing that the intended reader can find, understand and use."
+    },
+    {
+      "term": "Microcopy",
+      "anchor": "#microcopy",
+      "definition": "Short interface text such as buttons, form hints and error messages."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What do readability formulas fail to measure?",
+      "a": "Whether the text is clear, correct and logically organized; they only measure surface features such as sentence and word length.",
+      "anchor": "#readability",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Rewrite the error message \"Invalid input\" for a card number field.",
+      "a": "For example: \"The card number has 15 digits. Please check the last digit.\"",
+      "anchor": "#microcopy",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Name four focuses of separate editing passes.",
+      "a": "Purpose, structure, claims, sentences, words, reading aloud and proofreading.",
+      "anchor": "#editing-process",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

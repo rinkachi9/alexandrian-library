@@ -39,7 +39,7 @@ Key elements:
 
 ### Speed
 
-A slow page loses readers before they see the content. Google reported in 2017 that the probability of a visitor leaving (a *bounce*) increases by 32% as page load time goes from 1 second to 3 seconds, based on its analysis of mobile sites. Google also uses page experience signals, measured by the *Core Web Vitals*, in search (see [SEO fundamentals](../search-engine-optimization/seo-fundamentals.md#technical-seo)).
+A slow page loses readers before they see the content. Google reported in 2017 that the probability of a visitor leaving (a *bounce*) increases by 32% as page load time goes from 1 second to 3 seconds, based on its analysis of mobile sites. Google also uses page experience signals, measured by the *Core Web Vitals*, in search (see [technical SEO](../search-engine-optimization/technical-seo.md#core-web-vitals)).
 
 ### Promotion and social proof
 

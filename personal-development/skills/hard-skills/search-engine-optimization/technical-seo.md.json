@@ -1,0 +1,147 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.technical-seo",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "seo",
+      "web-performance",
+      "crawling",
+      "indexing"
+    ],
+    "aliases": [
+      "Core Web Vitals",
+      "robots.txt",
+      "canonical tag",
+      "site migration"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Introduction to robots.txt",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Consolidate duplicate URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-3",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Understand the JavaScript SEO basics",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "verified": false
+    },
+    {
+      "key": "web-dev",
+      "type": "documentation",
+      "authors": [
+        "web.dev"
+      ],
+      "title": "Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "verified": false
+    },
+    {
+      "key": "web-dev-2024",
+      "type": "documentation",
+      "authors": [
+        "web.dev"
+      ],
+      "year": 2024,
+      "title": "Interaction to Next Paint becomes a Core Web Vital on March 12",
+      "url": "https://web.dev/blog/inp-cwv-march-12",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "google-search-central-2024",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central Blog"
+      ],
+      "year": 2024,
+      "title": "Mobile indexing vLast final final",
+      "url": "https://developers.google.com/search/blog/2024/06/mobile-indexing-vlast-final-final.doc",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Technical SEO",
+      "anchor": "#definition",
+      "definition": "Site and server optimizations that affect how search engines access, understand and evaluate a website."
+    },
+    {
+      "term": "Canonical URL",
+      "anchor": "#indexing-control",
+      "definition": "The main version of a set of duplicate URLs, named with a rel=\"canonical\" link."
+    },
+    {
+      "term": "Core Web Vitals",
+      "anchor": "#core-web-vitals",
+      "definition": "Google's page experience metrics: LCP, INP and CLS."
+    },
+    {
+      "term": "Redirect chain",
+      "anchor": "#http-status-codes-and-redirects",
+      "definition": "A sequence of redirects from one URL through others to the final URL."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the \"good\" thresholds for LCP, INP and CLS?",
+      "a": "LCP 2.5 seconds or less, INP 200 milliseconds or less, CLS 0.1 or less, at the 75th percentile.",
+      "anchor": "#core-web-vitals",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is server-side rendering safer for important content than client-side JavaScript?",
+      "a": "The content is in the HTML response, so it does not depend on rendering that can be delayed or fail.",
+      "anchor": "#javascript-and-rendering",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "What must be prepared before changing a site's URL structure?",
+      "a": "A map of every old URL to its new URL, with direct 301 redirects, updated internal links, canonicals and sitemaps.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

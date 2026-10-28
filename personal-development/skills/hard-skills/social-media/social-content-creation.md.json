@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "skills.social-media.social-content-creation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "social-media",
+      "content",
+      "video"
+    ],
+    "aliases": [
+      "content pillars",
+      "hooks",
+      "short video"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.social-media.platforms-and-algorithms",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.content-marketing.storytelling",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "w3c-web-accessibility",
+      "type": "website",
+      "authors": [
+        "W3C Web Accessibility Initiative"
+      ],
+      "title": "Making audio and video media accessible",
+      "url": "https://www.w3.org/WAI/media/av/",
+      "verified": false
+    },
+    {
+      "key": "meta-for-business",
+      "type": "documentation",
+      "authors": [
+        "Meta for Business"
+      ],
+      "title": "Best practices for Reels",
+      "url": "https://www.facebook.com/business/help/",
+      "verified": false
+    },
+    {
+      "key": "tiktok-creator-academy",
+      "type": "website",
+      "title": "TikTok Creator Academy",
+      "url": "https://www.tiktok.com/creator-academy",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content pillars",
+      "anchor": "#content-pillars",
+      "definition": "Three to five recurring themes that connect audience needs with what the business offers."
+    },
+    {
+      "term": "Hook",
+      "anchor": "#the-hook",
+      "definition": "The first line or seconds of a post designed to make someone stop scrolling."
+    },
+    {
+      "term": "Batching",
+      "anchor": "#production-routine",
+      "definition": "Planning, filming and editing several pieces of content in one session."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the five parts of a short video structure.",
+      "a": "Hook, context or promise, content, payoff, call to action.",
+      "anchor": "#structure-of-a-short-video",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why write hashtags in camel case?",
+      "a": "Screen readers read #MorningRun correctly as two words, which makes content accessible.",
+      "anchor": "#accessibility",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why does content cross-posted unchanged usually perform worse?",
+      "a": "Each platform has its own formats and conventions, and watermarks or wrong formats look out of place.",
+      "anchor": "#native-formats",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

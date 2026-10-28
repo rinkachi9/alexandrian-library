@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "skills.e-commerce.e-commerce-metrics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 11,
+    "tags": [
+      "e-commerce",
+      "analytics",
+      "unit-economics"
+    ],
+    "aliases": [
+      "conversion rate",
+      "average order value",
+      "CAC",
+      "LTV",
+      "cohort analysis"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.product-selection",
+      "rel": "prerequisite",
+      "note": "Unit economics"
+    },
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "related",
+      "note": "CAC and LTV for service businesses"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fader-2009",
+      "type": "paper",
+      "authors": [
+        "Fader, P. S.",
+        "Hardie, B. G. S."
+      ],
+      "year": 2009,
+      "title": "Probability models for customer-base analysis",
+      "url": "https://doi.org/10.1016/j.intmar.2008.11.003",
+      "verified": false
+    },
+    {
+      "key": "gupta-2006",
+      "type": "paper",
+      "authors": [
+        "Gupta, S.",
+        "Hanssens, D.",
+        "Hardie, B.",
+        "Kahn, W.",
+        "Kumar, V.",
+        "Lin, N.",
+        "Ravishanker, N.",
+        "Sriram, S."
+      ],
+      "year": 2006,
+      "title": "Modeling customer lifetime value",
+      "url": "https://doi.org/10.1177/1094670506293810",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Average order value",
+      "anchor": "#the-revenue-equation",
+      "definition": "Revenue divided by the number of orders."
+    },
+    {
+      "term": "Customer acquisition cost",
+      "anchor": "#customer-metrics",
+      "definition": "Marketing and sales spend divided by new customers in the same period."
+    },
+    {
+      "term": "Customer lifetime value",
+      "anchor": "#customer-metrics",
+      "definition": "The contribution a customer brings over the relationship."
+    },
+    {
+      "term": "Cohort",
+      "anchor": "#cohort-analysis",
+      "definition": "A group of customers who share a starting point, such as the month of their first order."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Write the revenue equation of an online shop.",
+      "a": "Revenue = sessions x conversion rate x average order value.",
+      "anchor": "#the-revenue-equation",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can ad platform ROAS overstate results?",
+      "a": "Platforms use their own attribution and several channels may claim the same conversion.",
+      "anchor": "#pitfalls",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What does a cohort table reveal that an average repeat rate hides?",
+      "a": "Whether newer customers behave differently from older ones, for example after a discount campaign.",
+      "anchor": "#cohort-analysis",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

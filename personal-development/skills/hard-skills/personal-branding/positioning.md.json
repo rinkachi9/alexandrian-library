@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "skills.personal-branding.positioning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "personal-branding",
+      "positioning",
+      "marketing"
+    ],
+    "aliases": [
+      "niche",
+      "positioning statement",
+      "differentiation"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.personal-branding.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "career.interests-values-and-strengths",
+      "rel": "related",
+      "note": "Strengths as an input to positioning"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ries-1981",
+      "type": "book",
+      "authors": [
+        "Ries, A.",
+        "Trout, J."
+      ],
+      "year": 1981,
+      "title": "Positioning: The Battle for Your Mind"
+    },
+    {
+      "key": "gorbatov-2018",
+      "type": "paper",
+      "authors": [
+        "Gorbatov, S.",
+        "Khapova, S. N.",
+        "Lysova, E. I."
+      ],
+      "year": 2018,
+      "title": "Personal branding: Interdisciplinary systematic review and research agenda",
+      "url": "https://doi.org/10.3389/fpsyg.2018.02238",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Positioning",
+      "anchor": "#definition",
+      "definition": "Designing an offer and image to occupy a distinct, valued place in the minds of a target audience."
+    },
+    {
+      "term": "Positioning statement",
+      "anchor": "#positioning-statement",
+      "definition": "An internal sentence naming audience, need, category, benefit and proof."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What three circles overlap in a good personal position?",
+      "a": "Strengths, audience need and difference.",
+      "anchor": "#the-three-circles",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is positioning on price fragile?",
+      "a": "Someone can always be cheaper.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "How can you test a position?",
+      "a": "Describe it to people in the target audience, search for others with the same position, check demand and watch who contacts you.",
+      "anchor": "#testing-a-position",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "personal-branding"
+  }
+}

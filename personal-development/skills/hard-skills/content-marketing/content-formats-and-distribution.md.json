@@ -1,0 +1,103 @@
+{
+  "node": {
+    "id": "skills.content-marketing.content-formats-and-distribution",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "distribution"
+    ],
+    "aliases": [
+      "content distribution",
+      "repurposing",
+      "content formats"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.social-media.social-content-creation",
+      "rel": "related"
+    },
+    {
+      "to": "skills.social-media.influencer-marketing",
+      "rel": "related",
+      "note": "Paid distribution through creators"
+    }
+  ],
+  "sources": [
+    {
+      "key": "content-marketing-institute",
+      "type": "website",
+      "authors": [
+        "Content Marketing Institute"
+      ],
+      "title": "What is content marketing?",
+      "url": "https://contentmarketinginstitute.com/what-is-content-marketing/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "directive-2005-29",
+      "type": "standard",
+      "title": "Directive 2005/29/EC on unfair business-to-consumer commercial practices, Annex I",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content format",
+      "anchor": "#definitions",
+      "definition": "The type and shape of a piece of content, such as an article, video or tool."
+    },
+    {
+      "term": "Distribution",
+      "anchor": "#definitions",
+      "definition": "The planned activity of getting content in front of the intended audience through channels."
+    },
+    {
+      "term": "Repurposing",
+      "anchor": "#repurposing",
+      "definition": "Adapting one piece of content into other formats for other channels."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the six questions of a distribution plan.",
+      "a": "Who should see it, primary channel, secondary channels, who could share it, whether to boost it with paid, and the follow-up.",
+      "anchor": "#distribution-plan-for-a-piece",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "When does repurposing fail?",
+      "a": "When content is copied unchanged instead of adapted to each channel's format and length.",
+      "anchor": "#repurposing",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What is the common pattern for combining owned, earned and paid channels?",
+      "a": "Use paid and earned channels to reach new people, move them to owned channels, and build the relationship there.",
+      "anchor": "#owned-earned-and-paid-distribution",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

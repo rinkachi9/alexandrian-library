@@ -1,10 +1,10 @@
 {
   "node": {
-    "id": "skills.content-marketing-strategy",
+    "id": "skills.content-marketing.content-marketing-strategy",
     "kind": "note",
     "status": "draft",
     "level": "intermediate",
-    "order": 5,
+    "order": 8,
     "tags": [
       "marketing",
       "content-marketing",
@@ -12,27 +12,27 @@
     ],
     "aliases": [
       "content strategy",
-      "editorial strategy"
+      "editorial calendar",
+      "content plan"
     ]
   },
   "links": [
     {
-      "to": "skills.content-marketing",
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.seven-a-framework",
       "rel": "prerequisite"
     },
     {
-      "to": "skills.seven-a-framework",
-      "rel": "extends"
-    },
-    {
-      "to": "skills.ab-testing",
-      "rel": "related",
-      "note": "Measuring and testing content"
+      "to": "skills.content-marketing.content-formats-and-distribution",
+      "rel": "prerequisite"
     }
   ],
   "sources": [
     {
-      "key": "cmi-definition",
+      "key": "content-marketing-institute",
       "type": "website",
       "authors": [
         "Content Marketing Institute"
@@ -48,6 +48,11 @@
       "term": "Content marketing strategy",
       "anchor": "#definition",
       "definition": "The set of decisions that connects content to a business goal: audience, problem, form, channels, cadence and metrics."
+    },
+    {
+      "term": "Content pillars",
+      "anchor": "#components",
+      "definition": "Three to five topics where the company has expertise and the audience has need."
     },
     {
       "term": "Vanity metric",
@@ -69,8 +74,17 @@
       "id": "q2",
       "type": "explain",
       "q": "Why is a strategy described as a hypothesis?",
-      "a": "Because it is a bet about what the audience needs and what will work, which must be tested against results and revised.",
+      "a": "It is a bet about what the audience needs and what will work, tested against results and revised.",
       "anchor": "#the-strategy-as-a-hypothesis",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why is a short written plan better than a long one?",
+      "a": "One or two pages get read and used; long documents are ignored.",
+      "anchor": "#trade-offs-and-when-to-use-it",
       "origin": "ai",
       "reviewed": false
     }

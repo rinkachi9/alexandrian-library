@@ -1,29 +1,42 @@
 # Hard skills
 
-Skills tied to a specific task, tool or profession, and usually testable. This field belongs to [Skills](../README.md). The written notes come from the Skills export (content marketing, copywriting, SEO, e-commerce and web search) and were extended with sources.
+Skills tied to a specific task, tool, method or profession, whose results can be checked against a clear standard. This subfield belongs to [Skills](../README.md). It opens with a general note that applies to any hard skill (from welding and accounting to programming and marketing), followed by one directory per skill. The written skills come from the Skills export (marketing, sales and online research) and were extended with sources. Other hard skills are planned.
 
-## Subfields
+## General note
 
-- [Content marketing](content-marketing/README.md): creating and distributing useful content that earns attention and leads to action.
-- [Copywriting](copywriting/README.md): persuasive writing, the principles of influence, calls to action and A/B testing.
-- [Search engine optimization](search-engine-optimization/README.md): how search engines crawl, index and rank pages, and SEO for online shops.
-- [E-commerce](e-commerce/README.md): transaction models, product selection and validation, dropshipping and private label.
+1. [Hard skills fundamentals](hard-skills-fundamentals.md): definition, categories of hard skills, how they are learned and assessed, depth and breadth, obsolescence and how to choose which to learn.
 
-## Notes in reading order
+## Skills
 
-1. [Web search techniques](web-search-techniques.md): search operators, image search and lateral reading to evaluate sources.
+Each skill has its own directory with a README, a fundamentals note and deeper notes in reading order.
 
-A suggested path for someone starting an online shop: [e-commerce](e-commerce/README.md), then [copywriting](copywriting/README.md), then [content marketing](content-marketing/README.md) and [search engine optimization](search-engine-optimization/README.md).
+| Skill | What it covers | Notes |
+| --- | --- | --- |
+| [Copywriting](copywriting/README.md) | Persuasive writing that leads a reader to act | 8 |
+| [Content marketing](content-marketing/README.md) | Useful content that earns attention and builds an audience | 9 |
+| [Search engine optimization](search-engine-optimization/README.md) | Being found in search engines | 8 |
+| [E-commerce](e-commerce/README.md) | Running an online store, from product to delivery | 12 |
+| [Social media](social-media/README.md) | Organic and paid presence on social platforms | 8 |
+| [Client acquisition](client-acquisition/README.md) | Finding and winning clients for services and B2B | 8 |
+| [Personal branding](personal-branding/README.md) | Being known for something, by the right people | 5 |
+| [Online research](online-research/README.md) | Finding and verifying information online | 6 |
+
+## Suggested paths
+
+- **Freelancer or consultant:** [personal branding](personal-branding/README.md), [client acquisition](client-acquisition/README.md), [copywriting](copywriting/README.md), then [content marketing](content-marketing/README.md) or [social media](social-media/README.md).
+- **Online shop owner:** [e-commerce](e-commerce/README.md), [copywriting](copywriting/README.md), [search engine optimization](search-engine-optimization/README.md), then [social media](social-media/README.md) and [content marketing](content-marketing/README.md).
+- **Marketer:** [copywriting](copywriting/README.md), [content marketing](content-marketing/README.md), [search engine optimization](search-engine-optimization/README.md), [social media](social-media/README.md).
+- **Everyone:** [online research](online-research/README.md) supports every other skill.
 
 ## Planned topics
 
-- Social media
-- Client acquisition
-- Personal brand
 - Data analysis
 - Programming
+- Foreign languages
+- Graphic design
+- Project management
 
-The LinkedIn part of the Skills export is in [professional profile](../../career/job-search/professional-profile.md) in the career field.
+The LinkedIn profile part of the Skills export is in [professional profile](../../career/job-search/professional-profile.md) in the career field, and the platform side in [LinkedIn for professionals](social-media/linkedin-for-professionals.md).
 
 ## Navigation
 

@@ -1,0 +1,166 @@
+{
+  "node": {
+    "id": "skills.learning-techniques",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "skills",
+      "learning",
+      "memory",
+      "study"
+    ],
+    "aliases": [
+      "study techniques",
+      "retrieval practice",
+      "spaced repetition"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.skill-acquisition",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.deliberate-practice",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dunlosky-2013",
+      "type": "paper",
+      "authors": [
+        "Dunlosky, J.",
+        "Rawson, K. A.",
+        "Marsh, E. J.",
+        "Nathan, M. J.",
+        "Willingham, D. T."
+      ],
+      "year": 2013,
+      "title": "Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology",
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "verified": false
+    },
+    {
+      "key": "roediger-2006",
+      "type": "paper",
+      "authors": [
+        "Roediger, H. L.",
+        "Karpicke, J. D."
+      ],
+      "year": 2006,
+      "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+      "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "verified": false
+    },
+    {
+      "key": "cepeda-2006",
+      "type": "paper",
+      "authors": [
+        "Cepeda, N. J.",
+        "Pashler, H.",
+        "Vul, E.",
+        "Wixted, J. T.",
+        "Rohrer, D."
+      ],
+      "year": 2006,
+      "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis",
+      "url": "https://doi.org/10.1037/0033-2909.132.3.354",
+      "verified": false
+    },
+    {
+      "key": "cepeda-2008",
+      "type": "paper",
+      "authors": [
+        "Cepeda, N. J.",
+        "Vul, E.",
+        "Rohrer, D.",
+        "Wixted, J. T.",
+        "Pashler, H."
+      ],
+      "year": 2008,
+      "title": "Spacing effects in learning: A temporal ridgeline of optimal retention",
+      "url": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+      "verified": false
+    },
+    {
+      "key": "bjork-1994",
+      "type": "book",
+      "authors": [
+        "Bjork, R. A."
+      ],
+      "year": 1994,
+      "title": "Memory and metamemory considerations in the training of human beings"
+    },
+    {
+      "key": "kalyuga-2003",
+      "type": "paper",
+      "authors": [
+        "Kalyuga, S.",
+        "Ayres, P.",
+        "Chandler, P.",
+        "Sweller, J."
+      ],
+      "year": 2003,
+      "title": "The expertise reversal effect",
+      "url": "https://doi.org/10.1207/S15326985EP3801_4",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Desirable difficulties",
+      "anchor": "#desirable-difficulties",
+      "definition": "Conditions that slow apparent progress but improve long-term retention and transfer."
+    },
+    {
+      "term": "Retrieval practice",
+      "anchor": "#retrieval-practice",
+      "definition": "Bringing information or a procedure back from memory instead of re-reading it."
+    },
+    {
+      "term": "Interleaving",
+      "anchor": "#interleaving",
+      "definition": "Mixing different problem types in one practice session."
+    },
+    {
+      "term": "Expertise reversal effect",
+      "anchor": "#worked-examples-and-the-expertise-reversal-effect",
+      "definition": "Worked examples help beginners but stop helping, or hurt, learners who already have expertise."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do learners prefer rereading even though it is less effective?",
+      "a": "It feels fluent and easy, and learners judge learning by how easy study feels.",
+      "anchor": "#desirable-difficulties",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How should the gap between study sessions change with the desired retention period?",
+      "a": "It should grow: for retention over months, gaps of days to weeks work better than hours.",
+      "anchor": "#distributed-practice",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "How would you apply interleaving when learning to audit web pages?",
+      "a": "Audit different page types, such as product, category and blog pages, in one session instead of one type per week.",
+      "anchor": "#interleaving",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skills"
+  }
+}

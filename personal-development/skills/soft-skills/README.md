@@ -1,6 +1,10 @@
 # Soft skills
 
-Transferable skills that apply in most roles. Planned grouping follows the three domains of the US National Research Council report on 21st century skills (2012): cognitive, interpersonal and intrapersonal. TODO: verify against the report. This field belongs to [Skills](../README.md) and is planned. It has no notes yet.
+Transferable skills that govern how a person thinks, manages themselves and works with others, and that apply in almost any role. This subfield belongs to [Skills](../README.md). Planned notes follow the three domains of the US National Research Council report *Education for Life and Work* (2012): cognitive, intrapersonal and interpersonal (verified against the report's summary, 2026-10).
+
+## Notes in reading order
+
+1. [Soft skills fundamentals](soft-skills-fundamentals.md): definitions, origin of the term, the three domains, relation to personality, evidence of importance, measurement and how soft skills develop.
 
 ## Planned topics
 
@@ -8,6 +12,8 @@ Transferable skills that apply in most roles. Planned grouping follows the three
 - Interpersonal: communication, teamwork, leadership, negotiation
 - Intrapersonal: time management, self-regulation, adaptability
 
-## Notes
+Related notes elsewhere: negotiation of pay in [salary and offer negotiation](../../career/job-search/salary-and-offer-negotiation.md), relationships in [networking](../../career/job-search/networking.md), coaching in [coaching techniques for career](../../career/methods/coaching-techniques-for-career.md).
 
-TODO: list notes here in recommended reading order, with one line per note.
+## Navigation
+
+- Back to [Skills](../README.md).

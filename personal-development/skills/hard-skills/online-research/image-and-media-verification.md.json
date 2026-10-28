@@ -1,0 +1,136 @@
+{
+  "node": {
+    "id": "skills.online-research.image-and-media-verification",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "research",
+      "verification",
+      "images",
+      "misinformation"
+    ],
+    "aliases": [
+      "reverse image search",
+      "Google Lens",
+      "C2PA",
+      "deepfake"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.online-research.search-strategy",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.online-research.source-evaluation",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "coalition-for-content",
+      "type": "website",
+      "title": "Coalition for Content Provenance and Authenticity (C2PA)",
+      "url": "https://c2pa.org/",
+      "verified": false
+    },
+    {
+      "key": "invid-weverify-verification",
+      "type": "website",
+      "title": "InVID-WeVerify verification plugin",
+      "url": "https://weverify.eu/verification-plugin/",
+      "verified": false
+    },
+    {
+      "key": "bellingcat",
+      "type": "website",
+      "authors": [
+        "Bellingcat"
+      ],
+      "title": "Guides and resources",
+      "url": "https://www.bellingcat.com/category/resources/",
+      "verified": false
+    },
+    {
+      "key": "tineye",
+      "type": "website",
+      "title": "TinEye",
+      "url": "https://tineye.com/",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2024",
+      "type": "standard",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Article 50",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "verified": false
+    },
+    {
+      "key": "silverman-2014",
+      "type": "book",
+      "authors": [
+        "Silverman, C. (Ed.)"
+      ],
+      "year": 2014,
+      "title": "Verification Handbook",
+      "url": "https://datajournalism.com/read/handbook/verification-1",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Provenance",
+      "anchor": "#definition",
+      "definition": "The documented history of a piece of media: who created it, when and how it was edited."
+    },
+    {
+      "term": "Reverse image search",
+      "anchor": "#reverse-image-search",
+      "definition": "Finding where an image or similar images appear online."
+    },
+    {
+      "term": "Geolocation",
+      "anchor": "#geolocation-and-chronolocation",
+      "definition": "Determining where an image was taken from visible clues."
+    },
+    {
+      "term": "Content Credentials",
+      "anchor": "#provenance-standards",
+      "definition": "C2PA provenance information attached to media and shown to users."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does missing EXIF metadata not prove manipulation?",
+      "a": "Most social platforms strip metadata on upload.",
+      "anchor": "#metadata",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why are provenance and corroboration more reliable than spotting AI artifacts?",
+      "a": "Generation quality improves and detectors make errors, while origin and independent sources can be checked.",
+      "anchor": "#ai-generated-media",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What is the most common form of visual misinformation?",
+      "a": "Real images shown out of context, such as an old photo presented as new.",
+      "anchor": "#common-forms-of-visual-misinformation",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "online-research"
+  }
+}

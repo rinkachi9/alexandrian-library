@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "skills.personal-branding.thought-leadership",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "personal-branding",
+      "thought-leadership",
+      "content"
+    ],
+    "aliases": [
+      "expert content",
+      "industry expert"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.personal-branding.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.personal-branding.positioning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "applies",
+      "note": "Content marketing applied to a personal brand"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gorbatov-2018",
+      "type": "paper",
+      "authors": [
+        "Gorbatov, S.",
+        "Khapova, S. N.",
+        "Lysova, E. I."
+      ],
+      "year": 2018,
+      "title": "Personal branding: Interdisciplinary systematic review and research agenda",
+      "url": "https://doi.org/10.3389/fpsyg.2018.02238",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "content-marketing-institute",
+      "type": "website",
+      "authors": [
+        "Content Marketing Institute"
+      ],
+      "title": "What is content marketing?",
+      "url": "https://contentmarketinginstitute.com/what-is-content-marketing/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Thought leadership",
+      "anchor": "#definition",
+      "definition": "Content and activity offering original, expert insight that makes the author a trusted reference."
+    },
+    {
+      "term": "Original insight",
+      "anchor": "#sources-of-original-insight",
+      "definition": "A new lesson, data or framework that others have not published."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What separates thought leadership from ordinary content?",
+      "a": "It adds new insight with evidence and a point of view, instead of summarizing others.",
+      "anchor": "#what-makes-content-thought-leadership",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name four sources of original insight.",
+      "a": "First-hand experience, original data, synthesis, frameworks and evidence-based contrarian views.",
+      "anchor": "#sources-of-original-insight",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why disclose interests when writing about vendors?",
+      "a": "Readers need to know about employer, client or sponsor relationships to judge credibility.",
+      "anchor": "#credibility-and-ethics",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "personal-branding"
+  }
+}

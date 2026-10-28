@@ -6,7 +6,7 @@ A call to action (CTA) is the instruction that tells the reader exactly what to 
 
 ## Prerequisites
 
-[Copywriting](copywriting.md) for the five step formula, and [persuasion principles](persuasion-principles.md) for the psychology behind it.
+[Copywriting fundamentals](copywriting-fundamentals.md) for the five step formula, and [persuasion principles](persuasion-principles.md) for the psychology behind it.
 
 ## Core concepts
 

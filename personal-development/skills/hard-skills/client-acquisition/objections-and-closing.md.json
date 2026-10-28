@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.objections-and-closing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "sales",
+      "objections",
+      "closing"
+    ],
+    "aliases": [
+      "objection handling",
+      "closing techniques",
+      "advance"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.client-acquisition.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.client-acquisition.proposals-and-pricing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.copywriting.calls-to-action-and-risk-reversal",
+      "rel": "related",
+      "note": "Risk reversal answers fear-based objections"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rackham-1988",
+      "type": "book",
+      "authors": [
+        "Rackham, N."
+      ],
+      "year": 1988,
+      "title": "SPIN Selling"
+    },
+    {
+      "key": "fisher-2011",
+      "type": "book",
+      "authors": [
+        "Fisher, R.",
+        "Ury, W.",
+        "Patton, B."
+      ],
+      "year": 2011,
+      "title": "Getting to Yes"
+    },
+    {
+      "key": "directive-2005-29",
+      "type": "standard",
+      "title": "Directive 2005/29/EC on unfair commercial practices",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Objection",
+      "anchor": "#definitions",
+      "definition": "A stated concern or reason not to proceed."
+    },
+    {
+      "term": "Stall",
+      "anchor": "#definitions",
+      "definition": "A delay without a clear reason that often hides an unstated objection."
+    },
+    {
+      "term": "Advance",
+      "anchor": "#definitions",
+      "definition": "An action that moves a sale forward, such as agreeing to a pilot."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the five steps of handling an objection.",
+      "a": "Listen, acknowledge, clarify, answer, check.",
+      "anchor": "#a-method-for-handling-objections",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does \"We need to think about it\" often mean, and how do you respond?",
+      "a": "An unstated objection or someone else involved; ask what they would be weighing up.",
+      "anchor": "#common-objections-and-responses",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why do classic closing techniques backfire in large sales?",
+      "a": "Buyers in large purchases recognize and resent pressure; Rackham found such techniques negatively related to success there.",
+      "anchor": "#closing",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

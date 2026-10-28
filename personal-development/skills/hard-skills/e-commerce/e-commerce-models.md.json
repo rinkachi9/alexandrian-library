@@ -1,6 +1,6 @@
 {
   "node": {
-    "id": "skills.e-commerce-models",
+    "id": "skills.e-commerce.e-commerce-models",
     "kind": "note",
     "status": "draft",
     "level": "intro",
@@ -12,18 +12,23 @@
     "aliases": [
       "electronic commerce",
       "B2B",
-      "B2C"
+      "B2C",
+      "C2C"
     ]
   },
-  "links": [],
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    }
+  ],
   "sources": [
     {
-      "key": "census-ecommerce-2026q2",
+      "key": "u-s-census",
       "type": "report",
       "authors": [
         "U.S. Census Bureau"
       ],
-      "year": 2026,
       "title": "Quarterly Retail E-Commerce Sales, 2nd Quarter 2026",
       "url": "https://www.census.gov/retail/ecommerce.html",
       "verified": false
@@ -36,8 +41,7 @@
         "Pigneur, Y."
       ],
       "year": 2010,
-      "title": "Business Model Generation",
-      "publisher": "Wiley"
+      "title": "Business Model Generation"
     },
     {
       "key": "teece-2010",
@@ -51,16 +55,11 @@
       "verified": false
     },
     {
-      "key": "eu-2016-679",
+      "key": "regulation-eu-2016",
       "type": "standard",
-      "authors": [
-        "European Parliament and Council of the European Union"
-      ],
-      "year": 2016,
       "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
       "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     }
   ],
   "concepts": [
@@ -96,6 +95,15 @@
       "q": "What share of US retail sales was e-commerce in the second quarter of 2026?",
       "a": "About 17.1%, seasonally adjusted, according to the US Census Bureau.",
       "anchor": "#size-of-the-market",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why does the transaction model matter in practice?",
+      "a": "It decides which rules apply, such as consumer protection and VAT, and what buyers expect.",
+      "anchor": "#worked-example",
       "origin": "ai",
       "reviewed": false
     }

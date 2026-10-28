@@ -1,33 +1,44 @@
 {
   "node": {
-    "id": "skills.e-commerce-seo",
+    "id": "skills.search-engine-optimization.e-commerce-seo",
     "kind": "note",
     "status": "draft",
     "level": "intermediate",
-    "order": 2,
+    "order": 7,
     "tags": [
-      "marketing",
       "seo",
-      "e-commerce"
+      "e-commerce",
+      "structured-data"
     ],
     "aliases": [
       "ecommerce SEO",
-      "store SEO"
+      "faceted navigation",
+      "product structured data"
     ]
   },
   "links": [
     {
-      "to": "skills.seo-fundamentals",
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.search-engine-optimization.technical-seo",
       "rel": "prerequisite"
     },
     {
-      "to": "skills.e-commerce-models",
-      "rel": "applies"
+      "to": "skills.search-engine-optimization.on-page-seo",
+      "rel": "applies",
+      "note": "On-page SEO applied to category and product pages"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-platforms",
+      "rel": "related",
+      "note": "Platform features and limits"
     }
   ],
   "sources": [
     {
-      "key": "google-faceted-navigation",
+      "key": "google-search-central",
       "type": "documentation",
       "authors": [
         "Google Search Central"
@@ -37,7 +48,7 @@
       "verified": false
     },
     {
-      "key": "google-product-structured-data",
+      "key": "google-search-central-2",
       "type": "documentation",
       "authors": [
         "Google Search Central"
@@ -47,7 +58,7 @@
       "verified": false
     },
     {
-      "key": "google-canonical",
+      "key": "google-search-central-3",
       "type": "documentation",
       "authors": [
         "Google Search Central"
@@ -57,8 +68,8 @@
       "verified": false
     },
     {
-      "key": "schema-product",
-      "type": "documentation",
+      "key": "schema-org",
+      "type": "website",
       "authors": [
         "schema.org"
       ],
@@ -74,9 +85,14 @@
       "definition": "Filters on a category page whose combinations can each create a separate URL."
     },
     {
-      "term": "Structured data",
+      "term": "Duplicate content",
+      "anchor": "#product-pages",
+      "definition": "The same text on many pages or sites, such as manufacturer descriptions copied by many shops."
+    },
+    {
+      "term": "Product structured data",
       "anchor": "#structured-data",
-      "definition": "Machine readable information added to a page, usually in JSON-LD with the schema.org vocabulary."
+      "definition": "schema.org Product and Offer markup with price and availability."
     }
   ],
   "questions": [
@@ -84,7 +100,7 @@
       "id": "q1",
       "type": "explain",
       "q": "Why is copying the manufacturer's product description bad for SEO?",
-      "a": "Many shops publish the same text, so it is duplicate content and gives the search engine no reason to prefer your page.",
+      "a": "Many shops publish the same text, so search engines have no reason to prefer your page.",
       "anchor": "#product-pages",
       "origin": "ai",
       "reviewed": false
@@ -93,8 +109,17 @@
       "id": "q2",
       "type": "apply",
       "q": "What should happen to the URL of a permanently discontinued product?",
-      "a": "Redirect it with a 301 to the closest replacement or category, or return 404 or 410 if nothing fits; avoid redirecting everything to the home page.",
+      "a": "Redirect it with a 301 to the closest replacement or category, or return 404 or 410 if nothing fits.",
       "anchor": "#product-variants-and-out-of-stock-items",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Which filter pages should be indexable?",
+      "a": "Only a few that match real searches with demand, each with its own title and introduction.",
+      "anchor": "#duplicate-urls-and-faceted-navigation",
       "origin": "ai",
       "reviewed": false
     }

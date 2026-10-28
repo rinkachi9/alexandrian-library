@@ -1,0 +1,140 @@
+{
+  "node": {
+    "id": "skills.personal-branding.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "personal-branding",
+      "reputation",
+      "impression-management"
+    ],
+    "aliases": [
+      "personal brand",
+      "brand called you"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "career.professional-profile",
+      "rel": "related"
+    },
+    {
+      "to": "career.networking",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gorbatov-2018",
+      "type": "paper",
+      "authors": [
+        "Gorbatov, S.",
+        "Khapova, S. N.",
+        "Lysova, E. I."
+      ],
+      "year": 2018,
+      "title": "Personal branding: Interdisciplinary systematic review and research agenda",
+      "url": "https://doi.org/10.3389/fpsyg.2018.02238",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "peters-1997",
+      "type": "paper",
+      "authors": [
+        "Peters, T."
+      ],
+      "year": 1997,
+      "title": "The brand called you",
+      "url": "https://www.fastcompany.com/28905/brand-called-you",
+      "verified": false
+    },
+    {
+      "key": "goffman-1959",
+      "type": "book",
+      "authors": [
+        "Goffman, E."
+      ],
+      "year": 1959,
+      "title": "The Presentation of Self in Everyday Life"
+    },
+    {
+      "key": "jones-1982",
+      "type": "book",
+      "authors": [
+        "Jones, E. E.",
+        "Pittman, T. S."
+      ],
+      "year": 1982,
+      "title": "Toward a general theory of strategic self-presentation"
+    },
+    {
+      "key": "bolino-2016",
+      "type": "paper",
+      "authors": [
+        "Bolino, M.",
+        "Long, D.",
+        "Turnley, W."
+      ],
+      "year": 2016,
+      "title": "Impression management in organizations: Critical questions, answers, and areas for future research",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-041015-062337",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Personal brand",
+      "anchor": "#definition",
+      "definition": "The set of associations a target audience holds about a person in a professional context."
+    },
+    {
+      "term": "Impression management",
+      "anchor": "#impression-management-research",
+      "definition": "The process of influencing the impressions others form of oneself."
+    },
+    {
+      "term": "Self-promotion",
+      "anchor": "#impression-management-research",
+      "definition": "An impression management strategy aimed at being seen as competent, which can reduce likeability."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Who popularized the idea of personal branding, and when?",
+      "a": "Tom Peters in the 1997 Fast Company article \"The Brand Called You\".",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does evidence of results work better than claims?",
+      "a": "Claims risk being seen as insincere self-promotion, while evidence lets others judge competence themselves.",
+      "anchor": "#impression-management-research",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What does authenticity mean in practice for a personal brand?",
+      "a": "The brand describes what you actually do and value, you can sustain it, and your behavior matches it.",
+      "anchor": "#authenticity",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "personal-branding"
+  }
+}

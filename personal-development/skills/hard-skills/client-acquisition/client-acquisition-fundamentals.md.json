@@ -1,0 +1,115 @@
+{
+  "node": {
+    "id": "skills.client-acquisition.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "sales",
+      "client-acquisition",
+      "b2b",
+      "freelancing"
+    ],
+    "aliases": [
+      "customer acquisition",
+      "sales funnel",
+      "business development"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "skills.copywriting.fundamentals",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rackham-1988",
+      "type": "book",
+      "authors": [
+        "Rackham, N."
+      ],
+      "year": 1988,
+      "title": "SPIN Selling"
+    },
+    {
+      "key": "gartner",
+      "type": "report",
+      "authors": [
+        "Gartner"
+      ],
+      "title": "The B2B buying journey",
+      "url": "https://www.gartner.com/en/sales/insights/b2b-buying-journey",
+      "verified": false
+    },
+    {
+      "key": "blank-2012",
+      "type": "book",
+      "authors": [
+        "Blank, S.",
+        "Dorf, B."
+      ],
+      "year": 2012,
+      "title": "The Startup Owner's Manual"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lead",
+      "anchor": "#definition",
+      "definition": "A contactable person or organization that has shown interest or fits the target."
+    },
+    {
+      "term": "Pipeline",
+      "anchor": "#definition",
+      "definition": "The set of opportunities at different stages of the sales process."
+    },
+    {
+      "term": "Customer acquisition cost",
+      "anchor": "#unit-economics",
+      "definition": "Acquisition spend in a period divided by new clients won in that period."
+    },
+    {
+      "term": "Inbound and outbound",
+      "anchor": "#inbound-and-outbound",
+      "definition": "Prospects finding you versus you contacting prospects first."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do many service businesses alternate between feast and famine?",
+      "a": "They stop prospecting while busy delivering; the remedy is a fixed weekly acquisition routine.",
+      "anchor": "#activity-and-consistency",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What share of the B2B buying process does Gartner say buyers spend meeting potential suppliers?",
+      "a": "About 17%.",
+      "anchor": "#the-funnel",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Name the seven steps of the acquisition process.",
+      "a": "Define the ideal client, generate leads, qualify, discover needs, propose, handle objections and close, then onboard, retain and earn referrals.",
+      "anchor": "#the-acquisition-process",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

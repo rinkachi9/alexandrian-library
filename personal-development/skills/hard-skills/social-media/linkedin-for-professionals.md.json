@@ -1,0 +1,131 @@
+{
+  "node": {
+    "id": "skills.social-media.linkedin-for-professionals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "social-media",
+      "linkedin",
+      "career",
+      "b2b"
+    ],
+    "aliases": [
+      "LinkedIn",
+      "social selling"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "career.professional-profile",
+      "rel": "prerequisite",
+      "note": "The profile itself"
+    },
+    {
+      "to": "career.networking",
+      "rel": "related"
+    },
+    {
+      "to": "skills.client-acquisition.outreach-and-prospecting",
+      "rel": "related",
+      "note": "Social selling"
+    }
+  ],
+  "sources": [
+    {
+      "key": "linkedin-help",
+      "type": "documentation",
+      "title": "LinkedIn Help",
+      "url": "https://www.linkedin.com/help/linkedin",
+      "verified": false
+    },
+    {
+      "key": "granovetter-1973",
+      "type": "paper",
+      "authors": [
+        "Granovetter, M. S."
+      ],
+      "year": 1973,
+      "title": "The strength of weak ties",
+      "url": "https://doi.org/10.1086/225469",
+      "verified": false
+    },
+    {
+      "key": "rajkumar-2022",
+      "type": "paper",
+      "authors": [
+        "Rajkumar, K.",
+        "Saint-Jacques, G.",
+        "Bojinov, I.",
+        "Brynjolfsson, E.",
+        "Aral, S."
+      ],
+      "year": 2022,
+      "title": "A causal test of the strength of weak ties",
+      "url": "https://doi.org/10.1126/science.abl4476",
+      "verified": false
+    },
+    {
+      "key": "roulin-2019",
+      "type": "paper",
+      "authors": [
+        "Roulin, N.",
+        "Levashina, J."
+      ],
+      "year": 2019,
+      "title": "LinkedIn as a new selection method: Psychometric properties and assessment approach",
+      "url": "https://doi.org/10.1111/peps.12296",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Social selling",
+      "anchor": "#social-selling",
+      "definition": "Using social networks to find, understand and build relationships with potential customers before selling."
+    },
+    {
+      "term": "Weak ties",
+      "anchor": "#networking-and-invitations",
+      "definition": "Acquaintances, often the source of new information such as job openings."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What three common LinkedIn mistakes do the source notes name?",
+      "a": "Not writing your own summary, a bad or missing photo, and generic invitations.",
+      "anchor": "#core-concepts",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What makes a comment on someone's post valuable?",
+      "a": "It adds an example, a question or a different angle rather than generic praise.",
+      "anchor": "#commenting",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What did Rajkumar et al. (2022) find on LinkedIn?",
+      "a": "In a large experiment, moderately weak ties were the most useful for job mobility.",
+      "anchor": "#networking-and-invitations",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

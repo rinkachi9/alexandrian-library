@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.personal-branding",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "personal-branding",
+      "reputation"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.career.job-search",
+      "rel": "related",
+      "note": "Profile and networking for job search"
+    }
+  ],
+  "map": {
+    "group": "personal-branding"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.how-search-engines-work",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "seo",
+      "search",
+      "marketing"
+    ],
+    "aliases": [
+      "SEO",
+      "search engine optimization",
+      "crawling and indexing"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "related",
+      "note": "Search is a main channel for content"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "In-depth guide to how Google Search works",
+      "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "SEO Starter Guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-3",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Spam policies for Google web search",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-4",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Creating helpful, reliable, people-first content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2024",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central Blog"
+      ],
+      "year": 2024,
+      "title": "Mobile indexing vLast final final (June 3, 2024)",
+      "url": "https://developers.google.com/search/blog/2024/06/mobile-indexing-vlast-final-final.doc",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "brin-1998",
+      "type": "paper",
+      "authors": [
+        "Brin, S.",
+        "Page, L."
+      ],
+      "year": 1998,
+      "title": "The anatomy of a large-scale hypertextual Web search engine",
+      "url": "https://doi.org/10.1016/S0169-7552(98)00110-X",
+      "verified": false
+    },
+    {
+      "key": "pew-research-center-2025",
+      "type": "report",
+      "authors": [
+        "Pew Research Center"
+      ],
+      "year": 2025,
+      "title": "Google users are less likely to click on links when an AI summary appears in the results",
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Search engine optimization",
+      "anchor": "#definition-of-seo",
+      "definition": "Improving a site and its content so that it appears higher and more often in unpaid search results."
+    },
+    {
+      "term": "Crawling",
+      "anchor": "#stage-1-crawling",
+      "definition": "Discovering and downloading pages by following links and reading sitemaps."
+    },
+    {
+      "term": "Index",
+      "anchor": "#stage-2-rendering-and-indexing",
+      "definition": "The search engine's database of pages it has processed and may show in results."
+    },
+    {
+      "term": "E-E-A-T",
+      "anchor": "#quality-guidelines-and-spam-policies",
+      "definition": "Experience, expertise, authoritativeness and trustworthiness, concepts from Google's quality rater guidelines."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why can a URL blocked in robots.txt still appear in results?",
+      "a": "Robots.txt controls crawling, not indexing; if other pages link to the URL, it can be indexed without its content.",
+      "anchor": "#stage-1-crawling",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which three spam policies did Google add in March 2024?",
+      "a": "Scaled content abuse, site reputation abuse and expired domain abuse.",
+      "anchor": "#quality-guidelines-and-spam-policies",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "Since when does Google crawl all sites only with its smartphone crawler?",
+      "a": "Since July 2024 (after 5 July 2024).",
+      "anchor": "#stage-1-crawling",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "node": {
-    "id": "skills.product-validation",
+    "id": "skills.e-commerce.product-validation",
     "kind": "note",
     "status": "draft",
     "level": "intro",
-    "order": 3,
+    "order": 4,
     "tags": [
       "e-commerce",
       "product",
@@ -13,16 +13,21 @@
     ],
     "aliases": [
       "demand testing",
-      "idea validation"
+      "idea validation",
+      "MVP"
     ]
   },
   "links": [
     {
-      "to": "skills.product-selection",
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.product-selection",
       "rel": "prerequisite"
     },
     {
-      "to": "skills.ab-testing",
+      "to": "skills.copywriting.ab-testing",
       "rel": "related"
     }
   ],
@@ -58,7 +63,7 @@
         "Fitzpatrick, R."
       ],
       "year": 2013,
-      "title": "The Mom Test"
+      "title": "The Mom Test: How to Talk to Customers and Learn If Your Business Is a Good Idea When Everyone Is Lying to You"
     },
     {
       "key": "ries-2011",
@@ -67,21 +72,20 @@
         "Ries, E."
       ],
       "year": 2011,
-      "title": "The Lean Startup",
-      "publisher": "Crown Business"
+      "title": "The Lean Startup"
     },
     {
-      "key": "google-trends-faq",
+      "key": "google-trends-help",
       "type": "documentation",
       "authors": [
-        "Google"
+        "Google Trends Help"
       ],
       "title": "FAQ about Google Trends data",
       "url": "https://support.google.com/trends/answer/4365533",
       "verified": false
     },
     {
-      "key": "ftc-mail-order-rule",
+      "key": "u-s-federal",
       "type": "standard",
       "authors": [
         "U.S. Federal Trade Commission"
@@ -96,7 +100,7 @@
     {
       "term": "Minimum viable product",
       "anchor": "#definition",
-      "definition": "The smallest version of a product that lets you learn whether the assumptions behind it hold."
+      "definition": "The smallest version of a product that lets you learn whether its assumptions hold."
     },
     {
       "term": "Intention-behavior gap",
@@ -114,7 +118,7 @@
       "id": "q1",
       "type": "explain",
       "q": "Why are pre-orders stronger evidence than landing page sign-ups?",
-      "a": "Because they require payment, a real commitment, while a sign-up costs only an email address.",
+      "a": "They require payment, a real commitment, while a sign-up costs only an email address.",
       "anchor": "#methods-ordered-by-strength-of-evidence",
       "origin": "ai",
       "reviewed": false
@@ -122,9 +126,18 @@
     {
       "id": "q2",
       "type": "apply",
-      "q": "Rewrite 'Would you buy a smart water bottle?' as a question about past behavior.",
-      "a": "For example: 'Tell me about the last time you tried to drink more water. What did you use?'",
+      "q": "Rewrite \"Would you buy a smart water bottle?\" as a question about past behavior.",
+      "a": "For example: \"Tell me about the last time you tried to drink more water. What did you use?\"",
       "anchor": "#customer-interviews",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What can cause a false negative in a validation test?",
+      "a": "A bad ad or landing page rather than a bad product; test the message too.",
+      "anchor": "#trade-offs-and-when-to-use-it",
       "origin": "ai",
       "reviewed": false
     }

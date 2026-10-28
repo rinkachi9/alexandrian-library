@@ -1,0 +1,140 @@
+{
+  "node": {
+    "id": "skills.copywriting.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "marketing",
+      "copywriting",
+      "writing",
+      "advertising"
+    ],
+    "aliases": [
+      "copywriting",
+      "direct response copywriting",
+      "sales copy"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "related",
+      "note": "Content informs first, copy persuades first"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hopkins-1923",
+      "type": "book",
+      "authors": [
+        "Hopkins, C. C."
+      ],
+      "year": 1923,
+      "title": "Scientific Advertising"
+    },
+    {
+      "key": "caples-1932",
+      "type": "book",
+      "authors": [
+        "Caples, J."
+      ],
+      "year": 1932,
+      "title": "Tested Advertising Methods"
+    },
+    {
+      "key": "schwartz-1966",
+      "type": "book",
+      "authors": [
+        "Schwartz, E. M."
+      ],
+      "year": 1966,
+      "title": "Breakthrough Advertising"
+    },
+    {
+      "key": "ogilvy-1983",
+      "type": "book",
+      "authors": [
+        "Ogilvy, D."
+      ],
+      "year": 1983,
+      "title": "Ogilvy on Advertising"
+    },
+    {
+      "key": "directive-2005-29",
+      "type": "standard",
+      "title": "Directive 2005/29/EC on unfair business-to-consumer commercial practices",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "verified": false
+    },
+    {
+      "key": "federal-trade-commission",
+      "type": "website",
+      "authors": [
+        "Federal Trade Commission"
+      ],
+      "title": "Advertising FAQs: A guide for small business",
+      "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Copywriting",
+      "anchor": "#definition",
+      "definition": "Writing persuasive text whose purpose is to make a specific reader take a specific action."
+    },
+    {
+      "term": "Direct response copywriting",
+      "anchor": "#definition",
+      "definition": "Copy that asks for an immediate, measurable action and is judged by the response rate."
+    },
+    {
+      "term": "Voice",
+      "anchor": "#voice",
+      "definition": "The stable character of a brand's writing, such as formal or casual, serious or playful."
+    },
+    {
+      "term": "Substantiation",
+      "anchor": "#legal-limits",
+      "definition": "Having a reasonable basis for objective advertising claims before making them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do most weak pieces of copy fail before the sentence level?",
+      "a": "Because the research or strategy is wrong: the copy targets the wrong reader, promise or action.",
+      "anchor": "#the-copywriting-process",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What did Eugene Schwartz argue copy can and cannot do?",
+      "a": "Copy cannot create desire, only channel desire that already exists.",
+      "anchor": "#a-short-history-of-measured-persuasion",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Name the seven elements of persuasive copy.",
+      "a": "Headline, lead, promise, proof, offer, objection handling, call to action.",
+      "anchor": "#elements-of-persuasive-copy",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "copywriting"
+  }
+}

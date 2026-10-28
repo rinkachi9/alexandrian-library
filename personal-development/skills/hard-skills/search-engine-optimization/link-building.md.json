@@ -1,0 +1,134 @@
+{
+  "node": {
+    "id": "skills.search-engine-optimization.link-building",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "seo",
+      "links",
+      "digital-pr"
+    ],
+    "aliases": [
+      "backlinks",
+      "PageRank",
+      "link schemes",
+      "digital PR"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.search-engine-optimization.how-search-engines-work",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.search-engine-optimization.on-page-seo",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.client-acquisition.outreach-and-prospecting",
+      "rel": "related",
+      "note": "Outreach for links follows the same rules"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brin-1998",
+      "type": "paper",
+      "authors": [
+        "Brin, S.",
+        "Page, L."
+      ],
+      "year": 1998,
+      "title": "The anatomy of a large-scale hypertextual Web search engine",
+      "url": "https://doi.org/10.1016/S0169-7552(98)00110-X",
+      "verified": false
+    },
+    {
+      "key": "google-search-central",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Spam policies for Google web search: link spam",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies#link-spam",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central"
+      ],
+      "title": "Qualify your outbound links to Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+      "verified": false
+    },
+    {
+      "key": "google-search-central-2019",
+      "type": "documentation",
+      "authors": [
+        "Google Search Central Blog"
+      ],
+      "year": 2019,
+      "title": "Evolving \"nofollow\": new ways to identify the nature of links",
+      "url": "https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Backlink",
+      "anchor": "#definition",
+      "definition": "A link from another website to yours."
+    },
+    {
+      "term": "PageRank",
+      "anchor": "#pagerank",
+      "definition": "An estimate of a page's importance from the number and importance of pages linking to it."
+    },
+    {
+      "term": "Link scheme",
+      "anchor": "#link-schemes",
+      "definition": "Practices intended to manipulate ranking through links, prohibited by search engine policies."
+    },
+    {
+      "term": "rel=\"sponsored\"",
+      "anchor": "#link-attributes",
+      "definition": "A link attribute marking paid or advertising links."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is ten links from one site worth less than ten links from ten relevant sites?",
+      "a": "Ten links from one site count as one referring domain, and independent editorial links are stronger signals.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "When did Google start treating nofollow as a hint for crawling and indexing?",
+      "a": "In March 2020, after announcing the change for ranking in September 2019.",
+      "anchor": "#link-attributes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "What makes an outreach pitch for a link likely to succeed?",
+      "a": "It is short, specific and shows what the recipient's readers gain, not what the sender wants.",
+      "anchor": "#outreach",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "seo"
+  }
+}

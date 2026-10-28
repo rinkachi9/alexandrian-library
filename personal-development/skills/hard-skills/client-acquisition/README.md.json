@@ -1,0 +1,22 @@
+{
+  "node": {
+    "id": "personal-development.skills.hard-skills.client-acquisition",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "sales",
+      "client-acquisition"
+    ]
+  },
+  "links": [
+    {
+      "to": "personal-development.skills.hard-skills.personal-branding",
+      "rel": "related",
+      "note": "Reputation brings clients"
+    }
+  ],
+  "map": {
+    "group": "client-acquisition"
+  }
+}

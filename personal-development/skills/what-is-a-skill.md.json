@@ -1,0 +1,195 @@
+{
+  "node": {
+    "id": "skills.what-is-a-skill",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "skills",
+      "learning",
+      "competence"
+    ],
+    "aliases": [
+      "skill definition",
+      "knowledge skills abilities"
+    ]
+  },
+  "links": [
+    {
+      "to": "career.skills-inventory-and-gap-analysis",
+      "rel": "related",
+      "note": "Applying skill concepts to your own inventory"
+    },
+    {
+      "to": "career.labor-market-and-work-trends",
+      "rel": "related",
+      "note": "How the value of skills changes on the labor market"
+    }
+  ],
+  "sources": [
+    {
+      "key": "council-of-the-2017",
+      "type": "standard",
+      "authors": [
+        "Council of the European Union"
+      ],
+      "year": 2017,
+      "title": "Recommendation of 22 May 2017 on the European Qualifications Framework for lifelong learning",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017H0615(01)",
+      "verified": false
+    },
+    {
+      "key": "o-net-resource",
+      "type": "documentation",
+      "authors": [
+        "O*NET Resource Center"
+      ],
+      "title": "The O*NET Content Model",
+      "url": "https://www.onetcenter.org/content.html",
+      "verified": false
+    },
+    {
+      "key": "european-commission",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "ESCO, European Skills, Competences, Qualifications and Occupations",
+      "url": "https://esco.ec.europa.eu/",
+      "verified": false
+    },
+    {
+      "key": "anderson-1982",
+      "type": "paper",
+      "authors": [
+        "Anderson, J. R."
+      ],
+      "year": 1982,
+      "title": "Acquisition of cognitive skill",
+      "url": "https://doi.org/10.1037/0033-295X.89.4.369",
+      "verified": false
+    },
+    {
+      "key": "polanyi-1966",
+      "type": "book",
+      "authors": [
+        "Polanyi, M."
+      ],
+      "year": 1966,
+      "title": "The Tacit Dimension"
+    },
+    {
+      "key": "dreyfus-1986",
+      "type": "book",
+      "authors": [
+        "Dreyfus, H. L.",
+        "Dreyfus, S. E."
+      ],
+      "year": 1986,
+      "title": "Mind over Machine"
+    },
+    {
+      "key": "national-research-council-2012",
+      "type": "report",
+      "authors": [
+        "National Research Council"
+      ],
+      "year": 2012,
+      "title": "Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century",
+      "url": "https://doi.org/10.17226/13398",
+      "verified": false
+    },
+    {
+      "key": "sala-2017",
+      "type": "paper",
+      "authors": [
+        "Sala, G.",
+        "Gobet, F."
+      ],
+      "year": 2017,
+      "title": "Does far transfer exist? Negative evidence from chess, music, and working memory training",
+      "url": "https://doi.org/10.1177/0963721417712760",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "world-economic-forum-2025",
+      "type": "report",
+      "authors": [
+        "World Economic Forum"
+      ],
+      "year": 2025,
+      "title": "The Future of Jobs Report 2025",
+      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+      "verified": false
+    },
+    {
+      "key": "deming-2020",
+      "type": "paper",
+      "authors": [
+        "Deming, D. J.",
+        "Noray, K."
+      ],
+      "year": 2020,
+      "title": "Earnings dynamics, changing job skills, and STEM careers",
+      "url": "https://doi.org/10.1093/qje/qjaa021",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Skill",
+      "anchor": "#definition",
+      "definition": "A learned ability to perform a task to a standard, reliably and repeatedly."
+    },
+    {
+      "term": "Competence",
+      "anchor": "#knowledge-skills-abilities-and-competences",
+      "definition": "The proven use of knowledge, skills and personal abilities in a real context, with responsibility and autonomy."
+    },
+    {
+      "term": "Tacit knowledge",
+      "anchor": "#declarative-and-procedural-knowledge",
+      "definition": "Knowledge that shows in performance but is hard to put into words."
+    },
+    {
+      "term": "Far transfer",
+      "anchor": "#transfer",
+      "definition": "Use of a skill learned in one context in a very different one, which research finds to be rare."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How does an ability differ from a skill?",
+      "a": "An ability is a relatively stable capacity such as working memory; a skill is learned for a specific task and improves with practice.",
+      "anchor": "#knowledge-skills-abilities-and-competences",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Where does the term soft skills come from?",
+      "a": "From US Army training research, including a 1972 CONARC conference that defined soft skills as job skills with little interaction with machines.",
+      "anchor": "#hard-and-soft-skills",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why do tool-specific skills lose value faster than foundational ones?",
+      "a": "Tools and their procedures change with technology, while foundations such as writing or reasoning apply across tools; Deming and Noray found fast skill change in technology-intensive jobs.",
+      "anchor": "#how-skills-change-in-value",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "skills"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "skills.online-research.search-operators",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "research",
+      "search",
+      "google"
+    ],
+    "aliases": [
+      "Google search operators",
+      "advanced search",
+      "site operator"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.online-research.search-strategy",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-search-help",
+      "type": "documentation",
+      "authors": [
+        "Google Search Help"
+      ],
+      "title": "Refine Google searches",
+      "url": "https://support.google.com/websearch/answer/2466433",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "schwartz-2024",
+      "type": "website",
+      "authors": [
+        "Schwartz, B."
+      ],
+      "year": 2024,
+      "title": "Google cache is dead",
+      "url": "https://www.seroundtable.com/google-cache-dead-38112.html",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "internet-archive",
+      "type": "website",
+      "authors": [
+        "Internet Archive"
+      ],
+      "title": "Wayback Machine",
+      "url": "https://web.archive.org/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Search operator",
+      "anchor": "#definition",
+      "definition": "A character or keyword that modifies a query, such as quotes for an exact phrase."
+    },
+    {
+      "term": "Verbatim mode",
+      "anchor": "#other-search-engines-and-tools",
+      "definition": "A Google setting that reduces automatic synonyms and spelling corrections."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which operator stopped working in Google in September 2024, and what replaces it?",
+      "a": "cache:; the Internet Archive's Wayback Machine.",
+      "anchor": "#operators-that-no-longer-work",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does site: nytimes.com with a space fail?",
+      "a": "Operators must be attached directly to the term without a space.",
+      "anchor": "#operators-that-work-in-google",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What happened to the Google News Archive in 2011?",
+      "a": "Google stopped adding newspapers; the scanned papers remain searchable.",
+      "anchor": "#tips-from-the-source-notes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "online-research"
+  }
+}

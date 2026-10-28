@@ -6,7 +6,7 @@ A private label product is made by a manufacturer but sold under your own brand,
 
 ## Prerequisites
 
-[Dropshipping](dropshipping.md) for the contrast, and [product validation](product-validation.md).
+[Dropshipping](dropshipping.md) for the contrast, [supplier sourcing](supplier-sourcing.md) for finding and checking manufacturers, and [product validation](product-validation.md).
 
 ## Core concepts
 
@@ -44,7 +44,7 @@ Additional points from the source: design and test the product, locate suppliers
 
 ### Testing with ads
 
-The source notes stress that ads are needed to see whether there is real demand, and that the test should run longer than a dropshipping test, because the money at stake is larger. The course they follow recommends running ads for at least 7 days at 50 dollars per day (350 dollars in total) to get solid proof that the product is wanted. The key metric is whether the ROAS is above the break-even level (see [product selection](product-selection.md#unit-economics)).
+The source notes stress that ads are needed to see whether there is real demand, and that the test should run longer than a dropshipping test, because the money at stake is larger. The course they follow recommends running ads for at least 7 days at 50 dollars per day (350 dollars in total) to get solid proof that the product is wanted. The key metric is whether the ROAS is above the break-even level (see [product selection](product-selection.md#unit-economics)). How such ad tests are set up and read is covered in [paid social advertising](../social-media/paid-social-advertising.md#testing-products-with-ads).
 
 The source notes then suggest that if the test is profitable, you can tell the customers who ordered during the test that there is a delay and proceed with the bulk order, or refund them. This needs care:
 

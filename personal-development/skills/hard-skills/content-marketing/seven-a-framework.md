@@ -6,7 +6,7 @@ The 7A framework is a checklist of seven qualities for content marketing, attrib
 
 ## Prerequisites
 
-[Content marketing](content-marketing.md) for the definition and the audience groups.
+[Content marketing](content-marketing-fundamentals.md) for the definition and the audience groups.
 
 ## Core concepts
 
@@ -50,7 +50,7 @@ The audience is the core of the strategy. It is a mix of leads, customers, advoc
 
 ### Action
 
-*Action* is the point where the audience does something measurable because of the content: subscribes, buys or donates. Every piece needs a clear purpose and a clear call to action. The framework sends the reader to direct response copywriting for this step. In this library that is covered by [copywriting](../copywriting/copywriting.md) and [calls to action and risk reversal](../copywriting/calls-to-action-and-risk-reversal.md).
+*Action* is the point where the audience does something measurable because of the content: subscribes, buys or donates. Every piece needs a clear purpose and a clear call to action. The framework sends the reader to direct response copywriting for this step. In this library that is covered by [copywriting](../copywriting/copywriting-fundamentals.md) and [calls to action and risk reversal](../copywriting/calls-to-action-and-risk-reversal.md).
 
 ### Acceleration
 

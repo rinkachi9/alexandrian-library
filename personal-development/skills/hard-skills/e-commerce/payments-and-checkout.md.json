@@ -1,0 +1,129 @@
+{
+  "node": {
+    "id": "skills.e-commerce.payments-and-checkout",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "e-commerce",
+      "payments",
+      "checkout",
+      "conversion",
+      "security"
+    ],
+    "aliases": [
+      "cart abandonment",
+      "PSD2",
+      "PCI DSS",
+      "payment gateway"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.e-commerce.e-commerce-models",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.e-commerce-platforms",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "baymard-institute",
+      "type": "report",
+      "authors": [
+        "Baymard Institute"
+      ],
+      "title": "Cart abandonment rate statistics",
+      "url": "https://baymard.com/lists/cart-abandonment-rate",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2015",
+      "type": "standard",
+      "title": "Directive (EU) 2015/2366 (PSD2)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2015/2366/oj",
+      "verified": false
+    },
+    {
+      "key": "pci-security-standards",
+      "type": "website",
+      "authors": [
+        "PCI Security Standards Council"
+      ],
+      "title": "PCI DSS v4.0.1 and guidance on requirements 6.4.3 and 11.6.1",
+      "url": "https://www.pcisecuritystandards.org/",
+      "verified": false
+    },
+    {
+      "key": "directive-2011-83",
+      "type": "standard",
+      "title": "Directive 2011/83/EU on consumer rights, Article 8",
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "verified": false
+    },
+    {
+      "key": "directive-eu-2023",
+      "type": "standard",
+      "title": "Directive (EU) 2023/2225 on credit agreements for consumers",
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/2225/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Payment gateway",
+      "anchor": "#definitions",
+      "definition": "The service that captures payment details on a site and passes them on for authorization."
+    },
+    {
+      "term": "Cart abandonment",
+      "anchor": "#definitions",
+      "definition": "Adding items to the cart and leaving without buying."
+    },
+    {
+      "term": "Strong customer authentication",
+      "anchor": "#strong-customer-authentication",
+      "definition": "PSD2 requirement of two of three factors: knowledge, possession, inherence."
+    },
+    {
+      "term": "Chargeback",
+      "anchor": "#fees-fraud-and-chargebacks",
+      "definition": "A reversal of a card payment initiated by the cardholder's bank."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the most common stated reason for abandoning checkout in Baymard's 2023 survey?",
+      "a": "Extra costs too high (shipping, tax, fees), about 47%.",
+      "anchor": "#why-shoppers-abandon",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How can a small shop reduce its PCI DSS scope?",
+      "a": "Use hosted payment pages or embedded fields from the payment provider, so card numbers never touch its servers.",
+      "anchor": "#card-data-security-pci-dss",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "recall",
+      "q": "What must the EU order button say?",
+      "a": "\"Order with obligation to pay\" or an equally unambiguous phrase.",
+      "anchor": "#checkout-design-principles",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "e-commerce"
+  }
+}

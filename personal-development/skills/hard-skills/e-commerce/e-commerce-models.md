@@ -39,15 +39,15 @@ Marketplaces such as Amazon and eBay host several models at once: Amazon sells i
 
 The source notes list the areas a seller has to understand. Each is a field of its own:
 
-1. **Platforms.** Hosted store builders (Shopify), plugins for a website (WooCommerce on WordPress), and marketplaces (Amazon, eBay, Allegro, Etsy). The choice trades control against reach and fees.
-2. **Traffic and marketing.** Search engine optimization (see [SEO fundamentals](../search-engine-optimization/seo-fundamentals.md)), paid ads such as pay per click, email marketing and [content marketing](../content-marketing/content-marketing.md).
+1. **Platforms.** Hosted store builders (Shopify), plugins for a website (WooCommerce on WordPress), and marketplaces (Amazon, eBay, Allegro, Etsy). The choice trades control against reach and fees (see [e-commerce platforms](e-commerce-platforms.md)).
+2. **Traffic and marketing.** Search engine optimization (see [e-commerce SEO](../search-engine-optimization/e-commerce-seo.md)), paid ads (see [paid social advertising](../social-media/paid-social-advertising.md)), [email marketing](../content-marketing/email-marketing.md) and [content marketing](../content-marketing/content-marketing-fundamentals.md).
 3. **Mobile commerce.** Most consumer browsing is on phones, so the store must work well on small screens.
-4. **Payment gateways.** Services that accept cards, wallets (PayPal, Apple Pay, Google Pay), bank transfers and local methods (BLIK in Poland, iDEAL in the Netherlands). Card data security is governed by the industry standard PCI DSS, and in the EU most online card payments need strong customer authentication under the second Payment Services Directive (PSD2).
-5. **Shipping and fulfillment.** Storing, packing and delivering, done by the seller, a fulfillment provider or the supplier (see [dropshipping](dropshipping.md)).
-6. **Customer service.** Answering questions, handling complaints, returns and refunds.
-7. **Data privacy and security.** In the EU the General Data Protection Regulation (GDPR, Regulation 2016/679) governs personal data, and the ePrivacy rules govern cookies.
-8. **Analytics.** Measuring traffic, conversion rate, average order value and customer lifetime value to improve sales.
-9. **International e-commerce.** Currency, language, delivery, returns, VAT and customs (see the cross-border section of [dropshipping](dropshipping.md#cross-border-rules)).
+4. **Payment gateways.** Services that accept cards, wallets (PayPal, Apple Pay, Google Pay), bank transfers and local methods (BLIK in Poland, iDEAL in the Netherlands). Card data security is governed by the industry standard PCI DSS, and in the EU most online card payments need strong customer authentication under the second Payment Services Directive (PSD2) (see [payments and checkout](payments-and-checkout.md)).
+5. **Shipping and fulfillment.** Storing, packing and delivering, done by the seller, a fulfillment provider or the supplier (see [fulfillment and shipping](fulfillment-and-shipping.md) and [dropshipping](dropshipping.md)).
+6. **Customer service.** Answering questions, handling complaints, returns and refunds (see [customer service and returns](customer-service-and-returns.md)).
+7. **Data privacy and security.** In the EU the General Data Protection Regulation (GDPR, Regulation 2016/679) governs personal data, and the ePrivacy rules govern cookies (see [e-commerce law and cross-border](e-commerce-law-and-cross-border.md)).
+8. **Analytics.** Measuring traffic, conversion rate, average order value and customer lifetime value to improve sales (see [e-commerce metrics](e-commerce-metrics.md)).
+9. **International e-commerce.** Currency, language, delivery, returns, VAT and customs (see [e-commerce law and cross-border](e-commerce-law-and-cross-border.md)).
 
 ### Size of the market
 

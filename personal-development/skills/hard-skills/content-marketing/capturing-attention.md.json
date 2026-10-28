@@ -1,6 +1,6 @@
 {
   "node": {
-    "id": "skills.capturing-attention",
+    "id": "skills.content-marketing.capturing-attention",
     "kind": "note",
     "status": "draft",
     "level": "intro",
@@ -12,18 +12,23 @@
       "credibility"
     ],
     "aliases": [
-      "audience attention"
+      "audience attention",
+      "web credibility"
     ]
   },
   "links": [
     {
-      "to": "skills.headlines",
+      "to": "skills.content-marketing.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.content-marketing.headlines",
       "rel": "prerequisite"
     },
     {
-      "to": "skills.persuasion-principles",
+      "to": "skills.search-engine-optimization.technical-seo",
       "rel": "related",
-      "note": "Social proof and scarcity"
+      "note": "Page speed and Core Web Vitals"
     }
   ],
   "sources": [
@@ -71,26 +76,13 @@
       "verified": false
     },
     {
-      "key": "google-page-load",
-      "type": "website",
+      "key": "think-with-google",
+      "type": "report",
       "authors": [
         "Think with Google"
       ],
-      "year": 2017,
       "title": "Page load time statistics",
       "url": "https://www.thinkwithgoogle.com/data/page-load-time-statistics/",
-      "verified": true,
-      "checked": "2026-10"
-    },
-    {
-      "key": "loewenstein-1994",
-      "type": "paper",
-      "authors": [
-        "Loewenstein, G."
-      ],
-      "year": 1994,
-      "title": "The psychology of curiosity: A review and reinterpretation",
-      "url": "https://doi.org/10.1037/0033-2909.116.1.75",
       "verified": true,
       "checked": "2026-10"
     }
@@ -105,6 +97,11 @@
       "term": "Cognitive fluency",
       "anchor": "#psychological-principles-from-the-source-notes",
       "definition": "The ease of processing information, which makes it feel more familiar and trustworthy."
+    },
+    {
+      "term": "Design look",
+      "anchor": "#site-design-and-credibility",
+      "definition": "The visual appearance of a site, the factor mentioned most often in the Stanford credibility study."
     }
   ],
   "questions": [
@@ -121,8 +118,17 @@
       "id": "q2",
       "type": "explain",
       "q": "Why should the claim that images are processed 60,000 times faster than text not be used?",
-      "a": "It has no known research source; studies such as Potter et al. (2014) show fast image processing but give no such ratio.",
+      "a": "It has no known research source; studies such as Potter et al. (2014) show fast image processing but no such ratio.",
       "anchor": "#images",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "When can social proof backfire?",
+      "a": "When the numbers are small or when it signals that an undesirable behavior is common.",
+      "anchor": "#trade-offs-and-when-to-use-it",
       "origin": "ai",
       "reviewed": false
     }

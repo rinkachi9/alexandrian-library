@@ -41,7 +41,7 @@ Study the market: who the target audience is, what they need, which competitors 
 
 ### Search and trend data
 
-Google Trends shows the relative popularity of a search term over time and by region, on a scale from 0 to 100 where 100 is the peak in the selected period and region. The numbers are relative and based on a sample of searches, not absolute counts. A falling curve warns against a product whose popularity has passed. Keyword tools give approximate absolute volumes (see [SEO fundamentals](../search-engine-optimization/seo-fundamentals.md#keyword-research)).
+Google Trends shows the relative popularity of a search term over time and by region, on a scale from 0 to 100 where 100 is the peak in the selected period and region. The numbers are relative and based on a sample of searches, not absolute counts. A falling curve warns against a product whose popularity has passed. Keyword tools give approximate absolute volumes (see [keyword research](../search-engine-optimization/keyword-research.md)).
 
 ### Surveys
 

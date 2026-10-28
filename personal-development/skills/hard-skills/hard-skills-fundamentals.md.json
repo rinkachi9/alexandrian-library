@@ -1,0 +1,163 @@
+{
+  "node": {
+    "id": "skills.hard-skills.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "skills",
+      "hard-skills",
+      "assessment",
+      "labor-market"
+    ],
+    "aliases": [
+      "technical skills",
+      "task-specific skills"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.what-is-a-skill",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.skill-acquisition",
+      "rel": "applies",
+      "note": "Hard skills follow the general stages of skill acquisition"
+    },
+    {
+      "to": "skills.soft-skills.fundamentals",
+      "rel": "contrasts"
+    },
+    {
+      "to": "career.skills-inventory-and-gap-analysis",
+      "rel": "related"
+    },
+    {
+      "to": "career.labor-market-and-work-trends",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sackett-2022",
+      "type": "paper",
+      "authors": [
+        "Sackett, P. R.",
+        "Zhang, C.",
+        "Berry, C. M.",
+        "Lievens, F."
+      ],
+      "year": 2022,
+      "title": "Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range",
+      "url": "https://doi.org/10.1037/apl0000994",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "deming-2020",
+      "type": "paper",
+      "authors": [
+        "Deming, D. J.",
+        "Noray, K."
+      ],
+      "year": 2020,
+      "title": "Earnings dynamics, changing job skills, and STEM careers",
+      "url": "https://doi.org/10.1093/qje/qjaa021",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "world-economic-forum-2025",
+      "type": "report",
+      "authors": [
+        "World Economic Forum"
+      ],
+      "year": 2025,
+      "title": "The Future of Jobs Report 2025",
+      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "o-net-resource",
+      "type": "documentation",
+      "authors": [
+        "O*NET Resource Center"
+      ],
+      "title": "The O*NET Content Model",
+      "url": "https://www.onetcenter.org/content.html",
+      "verified": false
+    },
+    {
+      "key": "european-commission",
+      "type": "website",
+      "authors": [
+        "European Commission"
+      ],
+      "title": "ESCO",
+      "url": "https://esco.ec.europa.eu/",
+      "verified": false
+    },
+    {
+      "key": "council-of-europe",
+      "type": "website",
+      "authors": [
+        "Council of Europe"
+      ],
+      "title": "Common European Framework of Reference for Languages (CEFR)",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hard skill",
+      "anchor": "#definition",
+      "definition": "A learned, task-specific ability whose correct performance can be described by explicit criteria and tested."
+    },
+    {
+      "term": "T-shaped profile",
+      "anchor": "#depth-and-breadth",
+      "definition": "One deep skill combined with a broad working knowledge of neighboring ones."
+    },
+    {
+      "term": "Skill obsolescence",
+      "anchor": "#skill-obsolescence",
+      "definition": "The loss of value of a skill as tools, methods or rules change."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is a portfolio often stronger evidence than a certificate in digital fields?",
+      "a": "A portfolio shows real work and current ability, while a certificate shows that a standard was met once.",
+      "anchor": "#how-hard-skills-are-assessed",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Which four sources would you combine to choose a hard skill to learn?",
+      "a": "Labor market data, your goals and strengths, complementarity with existing skills, and durability.",
+      "anchor": "#choosing-which-hard-skills-to-learn",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "What is the tutorial loop and how do you escape it?",
+      "a": "Following tutorials without building anything alone; escape by producing work products without step-by-step instructions.",
+      "anchor": "#how-hard-skills-are-learned",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "hard-skills"
+  }
+}

@@ -3,7 +3,14 @@
     "id": "personal-development.skills.soft-skills",
     "kind": "index",
     "status": "draft",
-    "order": 1
+    "order": 5,
+    "tags": [
+      "skills",
+      "soft-skills"
+    ]
   },
-  "links": []
+  "links": [],
+  "map": {
+    "group": "soft-skills"
+  }
 }

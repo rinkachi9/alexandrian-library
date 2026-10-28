@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "skills.social-media.community-management",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "social-media",
+      "community",
+      "moderation",
+      "crisis-communication"
+    ],
+    "aliases": [
+      "community manager",
+      "moderation",
+      "social media crisis"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.customer-service-and-returns",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nielsen-2006",
+      "type": "website",
+      "authors": [
+        "Nielsen, J."
+      ],
+      "year": 2006,
+      "title": "The 90-9-1 rule for participation inequality in social media and online communities",
+      "url": "https://www.nngroup.com/articles/participation-inequality/",
+      "verified": false
+    },
+    {
+      "key": "kraut-2012",
+      "type": "book",
+      "authors": [
+        "Kraut, R. E.",
+        "Resnick, P."
+      ],
+      "year": 2012,
+      "title": "Building Successful Online Communities: Evidence-Based Social Design"
+    },
+    {
+      "key": "regulation-eu-2022",
+      "type": "standard",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Community management",
+      "anchor": "#definition",
+      "definition": "Planned activity of growing, engaging, moderating and supporting a group around a brand or person."
+    },
+    {
+      "term": "Participation inequality",
+      "anchor": "#participation-inequality",
+      "definition": "The pattern in which a small share of members creates most of the content."
+    },
+    {
+      "term": "Community guidelines",
+      "anchor": "#community-guidelines",
+      "definition": "Written rules that set expectations and make moderation fair."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the \"90-9-1 rule\"?",
+      "a": "A heuristic that about 90% of members only read, 9% contribute occasionally and 1% create most content.",
+      "anchor": "#participation-inequality",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why should legitimate criticism not be deleted?",
+      "a": "Deleting it usually makes things worse; responding and solving the problem shows care to all readers.",
+      "anchor": "#handling-negative-comments-and-complaints",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "What three things should be prepared before a social media crisis?",
+      "a": "Who decides and speaks, fast approval paths, and holding statements, plus pausing scheduled posts and ads.",
+      "anchor": "#crisis-management",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

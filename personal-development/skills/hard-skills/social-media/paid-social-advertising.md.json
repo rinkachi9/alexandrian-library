@@ -1,0 +1,130 @@
+{
+  "node": {
+    "id": "skills.social-media.paid-social-advertising",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "social-media",
+      "advertising",
+      "performance-marketing"
+    ],
+    "aliases": [
+      "Facebook ads",
+      "Meta ads",
+      "TikTok ads",
+      "learning phase",
+      "App Tracking Transparency"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.e-commerce.product-selection",
+      "rel": "prerequisite",
+      "note": "Break-even ROAS"
+    },
+    {
+      "to": "skills.content-marketing.measuring-content-performance",
+      "rel": "related",
+      "note": "Attribution and incrementality"
+    }
+  ],
+  "sources": [
+    {
+      "key": "meta-business-help",
+      "type": "documentation",
+      "authors": [
+        "Meta Business Help Center"
+      ],
+      "title": "About the learning phase",
+      "url": "https://www.facebook.com/business/help/112167992830700",
+      "verified": false
+    },
+    {
+      "key": "meta-business-help-2",
+      "type": "documentation",
+      "authors": [
+        "Meta Business Help Center"
+      ],
+      "title": "About Conversions API",
+      "url": "https://www.facebook.com/business/help/2041148702652965",
+      "verified": false
+    },
+    {
+      "key": "apple",
+      "type": "documentation",
+      "authors": [
+        "Apple"
+      ],
+      "title": "User privacy and data use: App Tracking Transparency",
+      "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/",
+      "verified": false
+    },
+    {
+      "key": "regulation-eu-2022",
+      "type": "standard",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Articles 26 and 28",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Campaign objective",
+      "anchor": "#objectives-and-optimization",
+      "definition": "The result the platform optimizes delivery for, such as purchases or clicks."
+    },
+    {
+      "term": "Lookalike audience",
+      "anchor": "#audiences",
+      "definition": "People similar to an advertiser's existing customers."
+    },
+    {
+      "term": "Conversions API",
+      "anchor": "#measurement-and-tracking",
+      "definition": "Server-side sending of conversion events from a shop to an ad platform."
+    },
+    {
+      "term": "App Tracking Transparency",
+      "anchor": "#measurement-and-tracking",
+      "definition": "Apple's 2021 requirement that apps ask permission to track users across other companies' apps and sites."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does choosing a traffic objective usually produce poor sales?",
+      "a": "The system finds people likely to click, not people likely to buy.",
+      "anchor": "#objectives-and-optimization",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is creative often the most important lever in paid social?",
+      "a": "The algorithm finds audiences itself but cannot improve a weak ad.",
+      "anchor": "#creative",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "A 350 budget test produces 13 purchases with a total ROAS of 1.49 against break-even 1.70. What next?",
+      "a": "Do not conclude yet: keep the creatives above break-even, add variations, run another week and check sales against own data.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "social-media"
+  }
+}

@@ -6,7 +6,7 @@ Persuasion principles are regularities in how people respond to requests and off
 
 ## Prerequisites
 
-[Copywriting](copywriting.md). Anchoring is also discussed for salaries in [salary and offer negotiation](../../../career/job-search/salary-and-offer-negotiation.md).
+[Copywriting fundamentals](copywriting-fundamentals.md). Anchoring is also discussed for salaries in [salary and offer negotiation](../../../career/job-search/salary-and-offer-negotiation.md).
 
 ## Core concepts
 

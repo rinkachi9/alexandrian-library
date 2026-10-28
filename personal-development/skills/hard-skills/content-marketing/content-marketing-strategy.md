@@ -6,7 +6,7 @@ A content marketing strategy is a short written plan that answers five questions
 
 ## Prerequisites
 
-[Content marketing](content-marketing.md) and the [7A framework](seven-a-framework.md). The measurement part uses [A/B testing](../copywriting/ab-testing.md).
+[Content marketing](content-marketing-fundamentals.md) and the [7A framework](seven-a-framework.md). The measurement part uses [A/B testing](../copywriting/ab-testing.md).
 
 ## Core concepts
 
@@ -26,7 +26,7 @@ Teams without a strategy tend to publish what is easy to make or what a manager 
 2. **Audience.** A specific group with a specific problem. Many teams write a short *persona*, a description of a typical reader built from interviews and data, not from imagination.
 3. **Audience journey.** What the reader needs at each stage: discovering a problem, comparing solutions, deciding, and using the product. Content for each stage differs. A guide to a problem serves discovery. A comparison serves the decision. A tutorial serves use.
 4. **Content pillars.** Three to five topics where the company has real expertise and the audience has real need. Pillars keep the program focused.
-5. **Formats and channels.** Articles, videos, podcasts, newsletters, tools or templates, published on owned media and distributed through search, social networks, partners and paid promotion (see [owned, earned and paid media](content-marketing.md#owned-earned-and-paid-media)).
+5. **Formats and channels.** Articles, videos, podcasts, newsletters, tools or templates, published on owned media and distributed through search, social networks, partners and paid promotion (see [owned, earned and paid media](content-marketing-fundamentals.md#owned-earned-and-paid-media)).
 6. **Resources and cadence.** Who writes, edits, designs and promotes, and how often. A cadence that the team can keep for a year is better than an ambitious one it abandons in a month.
 7. **Measurement.** A small set of metrics tied to the goal, defined before publishing.
 

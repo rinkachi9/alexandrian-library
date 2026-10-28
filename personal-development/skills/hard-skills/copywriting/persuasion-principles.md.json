@@ -1,30 +1,38 @@
 {
   "node": {
-    "id": "skills.persuasion-principles",
+    "id": "skills.copywriting.persuasion-principles",
     "kind": "note",
     "status": "draft",
     "level": "intermediate",
-    "order": 2,
+    "order": 6,
     "tags": [
       "marketing",
       "copywriting",
       "persuasion",
-      "behavioral-science"
+      "behavioral-science",
+      "ethics"
     ],
     "aliases": [
       "principles of influence",
-      "dark patterns"
+      "Cialdini",
+      "dark patterns",
+      "cognitive biases"
     ]
   },
   "links": [
     {
-      "to": "skills.copywriting",
-      "rel": "prerequisite"
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
     },
     {
       "to": "career.salary-and-offer-negotiation",
       "rel": "related",
       "note": "Anchoring in negotiation"
+    },
+    {
+      "to": "skills.content-marketing.capturing-attention",
+      "rel": "related",
+      "note": "Social proof and scarcity in attention"
     }
   ],
   "sources": [
@@ -35,11 +43,10 @@
         "Cialdini, R. B."
       ],
       "year": 2021,
-      "title": "Influence, New and Expanded: The Psychology of Persuasion",
-      "publisher": "Harper Business"
+      "title": "Influence, New and Expanded: The Psychology of Persuasion"
     },
     {
-      "key": "tversky-kahneman-1974",
+      "key": "tversky-1974",
       "type": "paper",
       "authors": [
         "Tversky, A.",
@@ -51,7 +58,7 @@
       "verified": false
     },
     {
-      "key": "kahneman-tversky-1979",
+      "key": "kahneman-1979",
       "type": "paper",
       "authors": [
         "Kahneman, D.",
@@ -63,7 +70,7 @@
       "verified": false
     },
     {
-      "key": "gal-rucker-2018",
+      "key": "gal-2018",
       "type": "paper",
       "authors": [
         "Gal, D.",
@@ -100,8 +107,7 @@
       "year": 1975,
       "title": "Effects of supply and demand on ratings of object value",
       "url": "https://doi.org/10.1037/0022-3514.32.5.906",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     },
     {
       "key": "goldstein-2008",
@@ -161,16 +167,11 @@
       "checked": "2026-10"
     },
     {
-      "key": "eu-2022-2065",
+      "key": "regulation-eu-2022",
       "type": "standard",
-      "authors": [
-        "European Parliament and Council of the European Union"
-      ],
-      "year": 2022,
-      "title": "Regulation (EU) 2022/2065 (Digital Services Act)",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Article 25",
       "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     }
   ],
   "concepts": [
@@ -190,6 +191,11 @@
       "definition": "The influence of an initial number on a later estimate, even when the number is irrelevant."
     },
     {
+      "term": "Loss aversion",
+      "anchor": "#loss-aversion",
+      "definition": "The tendency for a loss to feel larger than a gain of the same size, debated in strength and generality."
+    },
+    {
       "term": "Dark pattern",
       "anchor": "#ethics-and-dark-patterns",
       "definition": "An interface design that steers users into decisions they would not otherwise make."
@@ -200,7 +206,7 @@
       "id": "q1",
       "type": "explain",
       "q": "What did the Bohner and Schlüter (2014) replication find compared with the original towel study?",
-      "a": "Both message types raised towel reuse over no message, but the descriptive norm message did not beat the standard environmental message.",
+      "a": "Both messages raised towel reuse over no message, but the descriptive norm message did not beat the standard environmental message.",
       "anchor": "#social-proof",
       "origin": "ai",
       "reviewed": false
@@ -208,8 +214,8 @@
     {
       "id": "q2",
       "type": "compare",
-      "q": "Compare the positions of Gal and Rucker (2018) and Mrkva et al. (2020) on loss aversion.",
-      "a": "Gal and Rucker argued loss aversion is much less general than claimed; Mrkva et al. replied that it is real but moderated by factors such as stake size.",
+      "q": "Compare Gal and Rucker (2018) with Mrkva et al. (2020) on loss aversion.",
+      "a": "Gal and Rucker argued it is much less general than claimed; Mrkva et al. replied that it is real but moderated, for example by stake size.",
       "anchor": "#loss-aversion",
       "origin": "ai",
       "reviewed": false
@@ -217,9 +223,18 @@
     {
       "id": "q3",
       "type": "recall",
-      "q": "What share of shopping sites in the Mathur et al. (2019) crawl had dark patterns?",
+      "q": "What share of shopping sites in the Mathur et al. (2019) crawl used dark patterns?",
       "a": "About 11%, 1,254 of about 11,000 sites.",
       "anchor": "#ethics-and-dark-patterns",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q4",
+      "type": "apply",
+      "q": "How must a price reduction be shown in the EU?",
+      "a": "Against the lowest price applied in the previous 30 days.",
+      "anchor": "#worked-example",
       "origin": "ai",
       "reviewed": false
     }

@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "skills.content-marketing.fundamentals",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "marketing",
+      "content-marketing",
+      "audience"
+    ],
+    "aliases": [
+      "content marketing",
+      "inbound marketing"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "skills.social-media.fundamentals",
+      "rel": "related",
+      "note": "Social platforms as channels for content"
+    }
+  ],
+  "sources": [
+    {
+      "key": "content-marketing-institute",
+      "type": "website",
+      "authors": [
+        "Content Marketing Institute"
+      ],
+      "title": "What is content marketing?",
+      "url": "https://contentmarketinginstitute.com/what-is-content-marketing/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "halligan-2009",
+      "type": "book",
+      "authors": [
+        "Halligan, B.",
+        "Shah, D."
+      ],
+      "year": 2009,
+      "title": "Inbound Marketing: Get Found Using Google, Social Media, and Blogs"
+    },
+    {
+      "key": "pew-research-center-2025",
+      "type": "report",
+      "authors": [
+        "Pew Research Center"
+      ],
+      "year": 2025,
+      "title": "Google users are less likely to click on links when an AI summary appears in the results",
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "university-of-california",
+      "type": "course",
+      "authors": [
+        "University of California, Davis"
+      ],
+      "title": "Content Marketing (online course on Coursera)",
+      "url": "https://www.coursera.org/learn/content-marketing",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Content marketing",
+      "anchor": "#definition",
+      "definition": "Creating and distributing valuable, relevant content for a defined audience to support a business goal."
+    },
+    {
+      "term": "Owned media",
+      "anchor": "#owned-earned-and-paid-media",
+      "definition": "Channels a company controls, such as its website and email list."
+    },
+    {
+      "term": "Buyer journey",
+      "anchor": "#content-across-the-buyer-journey",
+      "definition": "The stages from awareness to decision, retention and advocacy, each needing different content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does content marketing aim to move an audience to owned media?",
+      "a": "Because platforms can change rules and reach, while an owned channel such as an email list stays reachable.",
+      "anchor": "#owned-earned-and-paid-media",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "In the 2025 Pew analysis, how often did users click a result link with and without an AI summary?",
+      "a": "On 8% of visits with an AI summary and on 15% without one.",
+      "anchor": "#search-ai-summaries-and-platform-risk",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "apply",
+      "q": "Name one piece of content for each journey stage for a tea shop.",
+      "a": "Awareness: why green tea is bitter; consideration: sencha vs matcha; decision: tasting set page; retention: monthly tea email; advocacy: gift guide.",
+      "anchor": "#content-across-the-buyer-journey",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "content-marketing"
+  }
+}

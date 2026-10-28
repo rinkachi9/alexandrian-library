@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "skills.online-research.search-strategy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "research",
+      "search",
+      "information-literacy"
+    ],
+    "aliases": [
+      "online research",
+      "Boolean search",
+      "information foraging"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.hard-skills.fundamentals",
+      "rel": "example-of"
+    },
+    {
+      "to": "skills.learning-techniques",
+      "rel": "related",
+      "note": "Research supports learning new topics"
+    }
+  ],
+  "sources": [
+    {
+      "key": "pirolli-1999",
+      "type": "paper",
+      "authors": [
+        "Pirolli, P.",
+        "Card, S."
+      ],
+      "year": 1999,
+      "title": "Information foraging",
+      "url": "https://doi.org/10.1037/0033-295X.106.4.643",
+      "verified": false
+    },
+    {
+      "key": "association-of-college-2015",
+      "type": "website",
+      "authors": [
+        "Association of College and Research Libraries"
+      ],
+      "year": 2015,
+      "title": "Framework for Information Literacy for Higher Education",
+      "url": "https://www.ala.org/acrl/standards/ilframework",
+      "verified": false
+    },
+    {
+      "key": "zotero",
+      "type": "website",
+      "title": "Zotero",
+      "url": "https://www.zotero.org/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Search strategy",
+      "anchor": "#definition",
+      "definition": "A structured approach to finding information that answers a defined question."
+    },
+    {
+      "term": "Information foraging",
+      "anchor": "#information-foraging",
+      "definition": "Searching by following cues to valuable information and leaving a source when gains drop."
+    },
+    {
+      "term": "Boolean logic",
+      "anchor": "#building-search-terms",
+      "definition": "Combining terms with AND, OR and NOT."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Turn \"Is intermittent fasting good?\" into a researchable question.",
+      "a": "For example: in adults with overweight, does time-restricted eating lead to more weight loss than calorie restriction over 12 weeks?",
+      "anchor": "#the-research-process",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "When should you stop researching?",
+      "a": "When independent good sources agree and keep reappearing, when remaining uncertainty would not change the decision, or when cost exceeds value.",
+      "anchor": "#when-to-stop",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why learn the experts' vocabulary early in a search?",
+      "a": "Professionals use specific terms that retrieve better sources than everyday words.",
+      "anchor": "#building-search-terms",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "online-research"
+  }
+}

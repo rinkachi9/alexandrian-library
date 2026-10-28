@@ -1,60 +1,57 @@
 {
   "node": {
-    "id": "skills.calls-to-action-and-risk-reversal",
+    "id": "skills.copywriting.calls-to-action-and-risk-reversal",
     "kind": "note",
     "status": "draft",
     "level": "intro",
-    "order": 3,
+    "order": 7,
     "tags": [
       "marketing",
       "copywriting",
-      "conversion"
+      "conversion",
+      "guarantees"
     ],
     "aliases": [
       "CTA",
       "call to action",
-      "risk reversal"
+      "risk reversal",
+      "money-back guarantee"
     ]
   },
   "links": [
     {
-      "to": "skills.copywriting",
+      "to": "skills.copywriting.fundamentals",
+      "rel": "part-of"
+    },
+    {
+      "to": "skills.copywriting.persuasion-principles",
       "rel": "prerequisite"
     },
     {
-      "to": "skills.persuasion-principles",
-      "rel": "related"
+      "to": "skills.e-commerce.customer-service-and-returns",
+      "rel": "related",
+      "note": "Legal return rights and guarantees"
     },
     {
-      "to": "skills.ab-testing",
+      "to": "skills.e-commerce.payments-and-checkout",
       "rel": "related",
-      "note": "Testing CTAs"
+      "note": "Trust signals at checkout"
     }
   ],
   "sources": [
     {
-      "key": "eu-2011-83",
+      "key": "directive-2011-83",
       "type": "standard",
-      "authors": [
-        "European Parliament and Council of the European Union"
-      ],
-      "year": 2011,
       "title": "Directive 2011/83/EU on consumer rights",
       "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     },
     {
-      "key": "eu-2019-771",
+      "key": "directive-eu-2019",
       "type": "standard",
-      "authors": [
-        "European Parliament and Council of the European Union"
-      ],
-      "year": 2019,
       "title": "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods",
       "url": "https://eur-lex.europa.eu/eli/dir/2019/771/oj",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     },
     {
       "key": "kohavi-2020",
@@ -66,10 +63,8 @@
       ],
       "year": 2020,
       "title": "Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing",
-      "publisher": "Cambridge University Press",
       "url": "https://doi.org/10.1017/9781108653985",
-      "verified": true,
-      "checked": "2026-10"
+      "verified": false
     }
   ],
   "concepts": [
@@ -81,15 +76,20 @@
     {
       "term": "Risk reversal",
       "anchor": "#risk-reversal",
-      "definition": "Moving the risk of a bad purchase from the buyer to the seller, or reducing it, so fear no longer blocks the decision."
+      "definition": "Moving the risk of a bad purchase from the buyer to the seller, or reducing it."
+    },
+    {
+      "term": "Legal guarantee of conformity",
+      "anchor": "#guarantees-and-the-law",
+      "definition": "The seller's liability in the EU for goods that do not conform to the contract, for at least two years."
     }
   ],
   "questions": [
     {
       "id": "q1",
       "type": "apply",
-      "q": "Rewrite the CTA 'Submit' for a free budgeting template.",
-      "a": "For example: 'Get the free budget template'.",
+      "q": "Rewrite the CTA \"Submit\" for a free budgeting template.",
+      "a": "For example: \"Get the free budget template\".",
       "anchor": "#call-to-action",
       "origin": "ai",
       "reviewed": false
@@ -98,8 +98,17 @@
       "id": "q2",
       "type": "explain",
       "q": "Why is a 14 day return option not a real risk reversal for EU consumers buying online?",
-      "a": "Because the 14 day right of withdrawal is already required by law; only an offer beyond the legal minimum reduces the buyer's risk further.",
+      "a": "The 14 day right of withdrawal is already required by law, so only an offer beyond it reduces risk further.",
       "anchor": "#guarantees-and-the-law",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q3",
+      "type": "explain",
+      "q": "Why can a generous guarantee be unprofitable for some products?",
+      "a": "It can raise refunds as well as conversions, so the net effect depends on the product; measure both.",
+      "anchor": "#trade-offs-and-when-to-use-it",
       "origin": "ai",
       "reviewed": false
     }
