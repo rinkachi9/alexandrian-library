@@ -9,6 +9,20 @@ Abilities that can be learned and practiced, and how to learn them. This field b
 3. [Deliberate practice](deliberate-practice.md): what it is, what the research does and does not show, and the 10,000 hour myth.
 4. [Learning techniques](learning-techniques.md): retrieval practice, spacing, interleaving, worked examples and desirable difficulties.
 
+## Map of the field
+
+The general notes form a sequence, and both subfields build on them.
+
+```mermaid
+flowchart LR
+  A[What is a skill] --> B[Skill acquisition]
+  B --> C[Deliberate practice]
+  C --> D[Learning techniques]
+  D --> E[Soft skills]
+  D --> F[Hard skills]
+  F --> G[Eight skill directories]
+```
+
 ## Subfields
 
 - [Soft skills](soft-skills/README.md): transferable skills of thinking, self-management and working with others, grouped by the National Research Council's cognitive, intrapersonal and interpersonal domains.

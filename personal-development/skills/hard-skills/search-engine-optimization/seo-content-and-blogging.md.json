@@ -56,7 +56,8 @@
       ],
       "title": "Google Search's guidance about AI-generated content",
       "url": "https://developers.google.com/search/blog/2023/02/google-search-and-ai-content",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-central-3",
@@ -66,7 +67,8 @@
       ],
       "title": "Spam policies for Google web search: scaled content abuse",
       "url": "https://developers.google.com/search/docs/essentials/spam-policies#scaled-content",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     }
   ],
   "concepts": [

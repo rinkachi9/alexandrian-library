@@ -12,7 +12,7 @@ E-commerce SEO applies search engine optimization to online shops, whose most va
 
 ### Definition
 
-*E-commerce SEO* is the process of increasing the visibility of an online store in search engine results, so that people searching for products, product types or product problems find the store without paid ads. The source notes describe it as fine-tuning the site to search engine best practices and updating content to reflect what customers search for. Its benefits are more visitors, brand awareness and sales, at the cost of continuous work as products and search engines change.
+*E-commerce SEO* is the process of increasing the visibility of an online store in search engine results, so that people searching for products, product types or product problems find the store without paid ads. In practice it means fine-tuning the site to search engine best practices and updating content to reflect what customers search for. Its benefits are more visitors, brand awareness and sales, at the cost of continuous work as products and search engines change.
 
 *Analogy.* A shop's SEO is like the layout and signage of a large department store. Category pages are the floor directory and the department signs. Product pages are the labels on the shelves. Filters are the store staff who can show "only blue shirts in size M", useful for a customer but not something you print on the floor directory for every combination. The analogy breaks because in a real store a customer can always walk the aisles, while a search engine sees only the pages you let it crawl and index.
 
@@ -21,9 +21,20 @@ E-commerce SEO applies search engine optimization to online shops, whose most va
 Most content sites target *informational* queries ("how to fold a t-shirt"). A shop needs a mix:
 
 - **Commercial and transactional queries** for category and product pages: "linen shirts men", "glass jar blender 450w".
-- **Informational queries** for guides and blog posts that lead to products: the source's example is a t-shirt shop writing about how to fold t-shirts without wrinkles.
+- **Informational queries** for guides and blog posts that lead to products: for example, a t-shirt shop writing about how to fold t-shirts without wrinkles.
 
 Autocomplete in Amazon is particularly useful for shops because its suggestions are product oriented and include attributes buyers filter by.
+
+Query types map to page types in a shop. Informational pages pass visitors and links on to commercial pages.
+
+```mermaid
+flowchart LR
+  I[Informational queries] --> G[Guides and blog posts]
+  C[Commercial and transactional queries] --> K[Category pages]
+  C --> P[Product pages]
+  G --> K
+  K --> P
+```
 
 ### Category pages
 
@@ -49,7 +60,7 @@ A strong product page has:
 
 ### Duplicate URLs and faceted navigation
 
-*Faceted navigation* is the set of filters on a category page: color, size, price, brand, sort order. Each combination can produce a separate URL, so a category with ten filters can generate a very large number of near-identical pages. Google's documentation on faceted navigation (made official guidance in December 2024) notes that such duplicate URLs waste crawling and server resources. Common approaches:
+*Faceted navigation* is the set of filters on a category page: color, size, price, brand, sort order. Each combination can produce a separate URL, so a category with ten filters can generate a very large number of near-identical pages. Google's documentation on faceted navigation (published as official documentation on 17 December 2024, and moved to Google's crawling infrastructure site in December 2025) notes that such duplicate URLs waste crawling and server resources. Common approaches:
 
 - Let a few valuable filter pages that match real searches ("black running shoes") be indexable, with their own title and introduction.
 - Point the canonical URL of other filter combinations to the main category page.
@@ -64,9 +75,20 @@ The same product listed under several category paths should have one canonical U
 - **Temporarily out of stock:** keep the page, show the status, offer a notification and keep availability in the structured data up to date.
 - **Permanently discontinued:** redirect (HTTP 301) to the closest replacement or the category, or return a 404 or 410 status if nothing fits. Avoid redirecting everything to the home page.
 
+What to do with a product page depends on its stock status:
+
+```mermaid
+flowchart TB
+  S{Stock status} -->|In stock| A[Normal page]
+  S -->|Temporarily out| B[Keep page, show status, offer alert]
+  S -->|Discontinued| C{Close replacement?}
+  C -->|Yes| D[301 to replacement or category]
+  C -->|No| E[404 or 410]
+```
+
 ### Structured data
 
-*Structured data* is machine readable information added to a page, usually with the schema.org vocabulary in JSON-LD format. For shops, the `Product` type with `Offer` (price, currency, availability) and, where they exist, `AggregateRating` and `Review` lets Google show price, availability and ratings in results and in shopping surfaces. A product feed in Google Merchant Center is another way to supply the same data. Structured data must match what the page shows. Marking up reviews that are not on the page violates Google's guidelines.
+*Structured data* is machine readable information added to a page, usually with the schema.org vocabulary in JSON-LD format. For shops, the `Product` type with `Offer` (price, currency, availability) and, where they exist, `AggregateRating` and `Review` lets Google show price, availability and ratings in results and in shopping surfaces. Google requires at least one of `offers`, `review` or `aggregateRating` for a product snippet, and an `Offer` (not an `AggregateOffer`) with a currency for a merchant listing, because the merchant must be the seller (checked against Google Search Central, 2026-10). A product feed in Google Merchant Center is another way to supply the same data. Structured data must match what the page shows. Marking up reviews that are not on the page violates Google's guidelines.
 
 ```html
 <script type="application/ld+json">
@@ -90,7 +112,7 @@ The example is untested against Google's Rich Results Test. Run it through the t
 
 ### Platform features
 
-The source notes list what Shopify handles automatically: canonical tags, `sitemap.xml` and `robots.txt` files, title tags that include the store name, and social sharing options. What remains manual: titles, meta descriptions, image alt text, file names and the URLs of products, collections and blog posts. Other platforms (WooCommerce, Magento, marketplaces) differ, so check what yours generates. Checked against the source notes only, not against current Shopify documentation.
+Shopify handles some of this automatically (checked against the Shopify Help Center, 2026-10): canonical tags, `sitemap.xml` and `robots.txt` files, title tags that include the store name, and social sharing options. What remains manual: titles, meta descriptions, image alt text, file names and the URLs of products, collections and blog posts. Other platforms (WooCommerce, Magento, marketplaces) differ, so check what yours generates.
 
 ### Content and links for shops
 
@@ -139,6 +161,4 @@ All numbers are invented to show the process.
 - Google Search Central. Product structured data. [developers.google.com](https://developers.google.com/search/docs/appearance/structured-data/product). Required and recommended properties.
 - Google Search Central. Consolidate duplicate URLs. [developers.google.com](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls). How canonicalization works.
 - schema.org. Product. [schema.org](https://schema.org/Product). The vocabulary used for product data.
-
-TODO: The Google Search Central pages were not reachable from the working environment. Read them and confirm the faceted navigation recommendations, the December 2024 date and the current Product structured data requirements.
-TODO: Verify the list of automatic SEO features against current Shopify documentation.
+- Shopify Help Center. Search engine optimization overview. [help.shopify.com](https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview). What Shopify generates automatically.

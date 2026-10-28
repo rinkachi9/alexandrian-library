@@ -1,6 +1,6 @@
 # Copywriting
 
-Writing that makes a specific reader take a specific action, the research and strategy behind it, the principles of persuasion it relies on, and how to test whether it works. This skill belongs to [Hard skills](../README.md). The source export contains only a heading and the value "Obsessed" for copywriting, plus a lesson on prompting action, so most of the material was added from sources.
+Writing that makes a specific reader take a specific action, the research and strategy behind it, the principles of persuasion it relies on, and how to test whether it works. This skill belongs to [Hard skills](../README.md).
 
 ## Notes in reading order
 
@@ -12,6 +12,22 @@ Writing that makes a specific reader take a specific action, the research and st
 6. [Persuasion principles](persuasion-principles.md): Cialdini's principles, anchoring, loss aversion, the strength of the evidence and dark patterns.
 7. [Calls to action and risk reversal](calls-to-action-and-risk-reversal.md): the last step of the formula, guarantees and what the law already requires.
 8. [A/B testing](ab-testing.md): online controlled experiments, sample size and peeking.
+
+## Map of the skill
+
+Research comes first, writing follows, and testing closes the loop back to research.
+
+```mermaid
+flowchart LR
+  A[Fundamentals] --> B[Customer research]
+  B --> C[Value proposition]
+  C --> D[Frameworks]
+  D --> E[Writing for the web]
+  E --> F[Persuasion principles]
+  F --> G[Calls to action]
+  G --> H[A/B testing]
+  H -.-> B
+```
 
 ## How to learn it
 

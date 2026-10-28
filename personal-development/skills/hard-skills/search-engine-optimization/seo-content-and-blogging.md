@@ -12,7 +12,7 @@ SEO content is content created to meet the needs behind specific search queries,
 
 ### Definition
 
-*SEO content* is any content (articles, guides, comparisons, glossaries, tools, videos with transcripts) planned around the queries of a target audience and built to rank in search. *Blogging*, in the source notes, is described as a form of content marketing that uses on-page and technical SEO to increase a site's search visibility and credibility for specific keywords. Every published post has the potential to build reputation as a credible source, improve the site's authority and increase organic visibility.
+*SEO content* is any content (articles, guides, comparisons, glossaries, tools, videos with transcripts) planned around the queries of a target audience and built to rank in search. *Blogging* is a form of content marketing that uses on-page and technical SEO to increase a site's search visibility and credibility for specific keywords. Every published post has the potential to build reputation as a credible source, improve the site's authority and increase organic visibility.
 
 *Analogy.* An SEO blog is like a well-stocked reference section in a shop. Each pamphlet answers one question customers often ask. Customers who come in for an answer see the products on the way out, and the shop becomes known as the place that knows. The analogy breaks because in a shop the pamphlets sit in one place, while online each article competes separately with every other answer to the same question.
 
@@ -54,7 +54,21 @@ The diagram shows one pillar with five cluster pages, each linking back to the p
 5. **Show who wrote it** and why they know: author name, experience, sources.
 6. **Optimize** title, headings, URL, images and structured data (see [on-page SEO](on-page-seo.md)).
 7. **Link** to the pillar, related pieces and relevant products.
-8. **Present the product as a solution** where it genuinely helps, as the source notes advise: not every post must be about products, but linking to a product page or two when appropriate is fine.
+8. **Present the product as a solution** where it genuinely helps: not every post must be about products, but linking to a product page or two when appropriate is fine.
+
+The writing steps form a sequence, and maintenance sends published pieces back to the start:
+
+```mermaid
+flowchart LR
+  A[Study the SERP] --> B[Outline]
+  B --> C[Answer first]
+  C --> D[Add original value]
+  D --> E[Show the author]
+  E --> F[Optimize]
+  F --> G[Link]
+  G --> H[Publish]
+  H -. "review and update" .-> A
+```
 
 ### Maintenance and updates
 
@@ -62,7 +76,7 @@ Content decays: facts change, competitors publish better pages, and rankings sli
 
 ### AI-generated content
 
-Google's guidance states that it rewards helpful content however it is produced, and that using automation, including generative AI, primarily to manipulate rankings violates its spam policies (*scaled content abuse*, since March 2024). In practice:
+Google's guidance states that it rewards helpful content however it is produced, and that using automation, including generative AI, primarily to manipulate rankings violates its spam policies (*scaled content abuse*, a policy announced on 5 March 2024 that applies whether pages come from automation, people or both). In practice:
 
 - AI tools can help with outlines, summaries and drafts.
 - Facts, citations and claims must be checked by a person (see [research with AI tools](../online-research/research-with-ai-tools.md)).
@@ -110,5 +124,3 @@ A small accounting firm for freelancers plans a blog.
 - Google Search Central. Creating helpful, reliable, people-first content. [developers.google.com](https://developers.google.com/search/docs/fundamentals/creating-helpful-content). Google's self-assessment questions for content.
 - Google Search Central. Google Search's guidance about AI-generated content. [developers.google.com](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content). How Google treats AI-generated content.
 - Google Search Central. Spam policies for Google web search: scaled content abuse. [developers.google.com](https://developers.google.com/search/docs/essentials/spam-policies#scaled-content). The 2024 policy.
-
-TODO: Read the Google pages directly to confirm the current wording of the AI content guidance.

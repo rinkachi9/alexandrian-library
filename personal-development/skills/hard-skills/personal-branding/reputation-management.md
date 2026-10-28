@@ -41,6 +41,16 @@ For legitimate criticism (a bad review, a public complaint):
 
 Do not argue, reveal private details of the person, or threaten. Readers judge the response as much as the complaint.
 
+The response to criticism as a sequence:
+
+```mermaid
+flowchart LR
+  A[Pause] --> B[Check the facts]
+  B --> C[Respond publicly and briefly]
+  C --> D[Fix the problem]
+  D --> E[Learn]
+```
+
 ### Fake reviews and manipulation
 
 Writing or buying fake positive reviews, or fake negative reviews of competitors, is illegal in the EU under the Unfair Commercial Practices Directive as amended by the Omnibus Directive (2019/2161), and in the US under the FTC rule on consumer reviews and testimonials (16 CFR Part 465, in force since October 2024), which also covers review suppression and fake social media indicators. Platforms remove fake reviews and can penalize accounts. Offering incentives only for positive reviews is also prohibited.

@@ -63,7 +63,8 @@
       ],
       "title": "Web Vitals",
       "url": "https://web.dev/articles/vitals",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "web-dev-2024",

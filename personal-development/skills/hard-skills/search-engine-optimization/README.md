@@ -1,6 +1,6 @@
 # Search engine optimization
 
-Making pages easy for search engines to find, understand and rank, so that people reach them without paid ads. This skill belongs to [Hard skills](../README.md). The notes were migrated from the SEO section of the Skills export (keyword research, site architecture, indexing, technical and on-page SEO, blogging, link building) and extended with Google's documentation and research.
+Making pages easy for search engines to find, understand and rank, so that people reach them without paid ads. This skill belongs to [Hard skills](../README.md). The notes draw on Google's documentation and on research.
 
 ## Notes in reading order
 
@@ -12,6 +12,22 @@ Making pages easy for search engines to find, understand and rank, so that peopl
 6. [SEO content and blogging](seo-content-and-blogging.md): topic selection, pillar pages, maintenance and AI-generated content.
 7. [E-commerce SEO](e-commerce-seo.md): category and product pages, faceted navigation and structured product data.
 8. [Measuring SEO](measuring-seo.md): Search Console, organic conversions, volatility and testing SEO changes.
+
+## Map of the skill
+
+The notes follow the path of a page through search: the engine finds it, the page matches a query, and the result is measured.
+
+```mermaid
+flowchart LR
+  A[How search engines work] --> B[Keyword research]
+  B --> C[On-page SEO]
+  A --> D[Technical SEO]
+  C --> E[SEO content and blogging]
+  D --> E
+  F[Link building] --> E
+  E --> G[E-commerce SEO]
+  G --> H[Measuring SEO]
+```
 
 ## How to learn it
 

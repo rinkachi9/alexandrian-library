@@ -100,7 +100,7 @@
     {
       "id": "q1",
       "type": "recall",
-      "q": "What three common LinkedIn mistakes do the source notes name?",
+      "q": "What are three common LinkedIn profile and outreach mistakes?",
       "a": "Not writing your own summary, a bad or missing photo, and generic invitations.",
       "anchor": "#core-concepts",
       "origin": "ai",

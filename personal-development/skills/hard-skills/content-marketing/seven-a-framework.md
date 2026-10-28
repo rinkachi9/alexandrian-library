@@ -12,9 +12,23 @@ The 7A framework is a checklist of seven qualities for content marketing, attrib
 
 ### Origin and status
 
-The framework appears in an ebook by Brian Clark, *The 7 A Framework for Effective Content Marketing*, published by Rainmaker Digital, and in the University of California, Davis content marketing course on Coursera, which asks students to apply it to their own content. The source notes of this library follow that course. The framework is a teaching device. Each "A" is a reminder, not a measured variable, and the order is not a strict sequence.
+The framework appears in an ebook by Brian Clark, *The 7 A Framework for Effective Content Marketing*, published by Rainmaker Digital, and in the University of California, Davis content marketing course on Coursera, which asks students to apply it to their own content. The framework is a teaching device. Each "A" is a reminder, not a measured variable, and the order is not a strict sequence.
 
 *Analogy.* The seven A's work like a pilot's preflight checklist. The checklist does not fly the plane, but it stops you from forgetting something that every good flight needs. The analogy breaks because a preflight checklist is backed by accident data, while the 7A list is backed by one practitioner's experience.
+
+The seven qualities of the framework:
+
+```mermaid
+mindmap
+  root((7A framework))
+    Agile
+    Authentic
+    Attention
+    Audience
+    Authority
+    Action
+    Acceleration
+```
 
 ### Agile
 
@@ -26,7 +40,7 @@ The framework appears in an ebook by Brian Clark, *The 7 A Framework for Effecti
 
 ### Authentic
 
-*Authentic* content has a real, human voice and is true to the values of the person or brand behind it. It replaces shallow corporate messaging with real stories and a recognizable point of view. The source notes describe this as "artisanal" content made with care.
+*Authentic* content has a real, human voice and is true to the values of the person or brand behind it. It replaces shallow corporate messaging with real stories and a recognizable point of view. The course describes this as "artisanal" content made with care.
 
 A common misconception is that authenticity means oversharing personal details. It does not. It means being consistent with your values and voice.
 
@@ -107,6 +121,6 @@ Hints: question 2 relates to who controls the channel.
 ## Further reading
 
 - Clark, B. *The 7 A Framework for Effective Content Marketing*. Rainmaker Digital (ebook, about 40 pages). The original description of the framework (not read for this note).
-- University of California, Davis. Content Marketing (online course on Coursera). [coursera.org](https://www.coursera.org/learn/content-marketing). The course module that teaches the framework and that the source notes follow.
+- University of California, Davis. Content Marketing (online course on Coursera). [coursera.org](https://www.coursera.org/learn/content-marketing). The course module that teaches the framework.
 
-TODO: Find the publication year of the Rainmaker Digital ebook and read it to confirm the definition of each A. The definitions here come from the source notes.
+TODO: Find the publication year of the Rainmaker Digital ebook and read it to confirm the definition of each A. The definitions here follow the course.

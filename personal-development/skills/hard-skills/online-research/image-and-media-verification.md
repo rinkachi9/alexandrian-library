@@ -55,7 +55,7 @@ The *Coalition for Content Provenance and Authenticity* (C2PA), founded by compa
 
 ### AI-generated media
 
-Generated images, video and voice are increasingly realistic. Signs once used to spot them (malformed hands, garbled text) are becoming less reliable as models improve, and automated detectors have error rates. A more reliable approach is provenance and context: who first published it, is there independent footage from the same event, do credible outlets report it, does the scene match known facts. In the EU, the AI Act (Regulation (EU) 2024/1689) requires deployers of AI systems that generate deepfakes to disclose that the content is artificially generated or manipulated, with obligations applying in stages.
+Generated images, video and voice are increasingly realistic. Signs once used to spot them (malformed hands, garbled text) are becoming less reliable as models improve, and automated detectors have error rates. A more reliable approach is provenance and context: who first published it, is there independent footage from the same event, do credible outlets report it, does the scene match known facts. In the EU, the AI Act (Regulation (EU) 2024/1689) requires deployers of AI systems that generate deepfakes to disclose that the content is artificially generated or manipulated. These Article 50 duties apply from 2 August 2026. For the separate duty to mark generated content in a machine-readable way, a 2026 amendment (the Digital Omnibus) gives systems already on the market until 2 December 2026 (checked 2026-10 in secondary legal summaries).
 
 ### Verification workflow
 
@@ -66,6 +66,18 @@ Generated images, video and voice are increasingly realistic. Signs once used to
 5. **Check for alteration:** compare versions, look for inconsistencies.
 6. **Find corroboration:** other images or reports of the same event.
 7. **Conclude** and say how confident you are.
+
+The workflow ends with a confidence level, not a yes or no:
+
+```mermaid
+flowchart LR
+  A[Stop] --> B[Find earliest version]
+  B --> C[Identify original source]
+  C --> D[Check date and location]
+  D --> E[Check for alteration]
+  E --> F[Find corroboration]
+  F --> G[Conclude with confidence level]
+```
 
 ## Worked example
 
@@ -107,4 +119,4 @@ The example is invented to illustrate the method.
 - Regulation (EU) 2024/1689 (AI Act), Article 50. [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/oj). Transparency obligations for AI-generated content.
 - Silverman, C. (Ed.) (2014). *Verification Handbook*. European Journalism Centre. [datajournalism.com](https://datajournalism.com/read/handbook/verification-1). A practical handbook for journalists.
 
-TODO: Confirm the URLs of the InVID-WeVerify plugin and the Verification Handbook, and the application date of Article 50 of the AI Act.
+TODO: Confirm the URL of the Verification Handbook and the formal adoption of the Digital Omnibus amendment in the Official Journal.

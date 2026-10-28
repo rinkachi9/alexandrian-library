@@ -40,6 +40,15 @@ Bing Webmaster Tools provides similar data for Bing.
 - **CTR** depends strongly on position and on SERP features: an AI summary or ads above the result reduce clicks even if the position is unchanged.
 - **Clicks** are the most direct measure of search traffic.
 
+The Search Console metrics form a funnel, while average position describes where impressions happened:
+
+```mermaid
+flowchart LR
+  I[Impressions] -->|CTR| C[Clicks]
+  C --> V[Sessions in analytics]
+  V --> O[Conversions]
+```
+
 ### Organic traffic and conversions in analytics
 
 In web analytics (for example GA4), filter sessions by the channel "Organic Search" and track:
@@ -74,6 +83,17 @@ SEO changes often coincide with other changes, so before and after comparisons m
 - **SEO split tests** on large sites, using statistical methods designed for page groups rather than users.
 
 These follow the logic of [A/B testing](../copywriting/ab-testing.md), with the difference that the unit of randomization is the page, not the visitor.
+
+A control group comparison isolates the effect of a change from seasonal and algorithm changes that affect all pages:
+
+```mermaid
+flowchart LR
+  P[Similar pages] --> T[Test group: changed]
+  P --> C[Control group: unchanged]
+  T --> M[Compare trends]
+  C --> M
+  M --> E[Estimated effect]
+```
 
 ### Reporting
 
@@ -124,5 +144,3 @@ The numbers are invented. The method (seasonality, scope, health, cause, fix, ve
 - Google Search Console Help. Performance report (Search results). [support.google.com](https://support.google.com/webmasters/answer/7576553). Definitions of impressions, clicks, CTR and position.
 - Google Search Console Help. Page indexing report. [support.google.com](https://support.google.com/webmasters/answer/7440203). Why pages are or are not indexed.
 - Google Search Central. Google Search ranking updates. [developers.google.com](https://developers.google.com/search/updates/ranking). The list of announced updates.
-
-TODO: Confirm the 16 month data retention in Search Console and the help article URLs.

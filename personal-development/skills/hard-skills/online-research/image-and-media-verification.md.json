@@ -41,7 +41,8 @@
       "type": "website",
       "title": "InVID-WeVerify verification plugin",
       "url": "https://weverify.eu/verification-plugin/",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "bellingcat",

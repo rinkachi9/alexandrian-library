@@ -51,6 +51,16 @@ The *hook* is the first line or first seconds that make someone stop. Effective 
 
 Text on screen and captions matter: many people watch without sound, and captions make video accessible to people who are deaf or hard of hearing.
 
+The five parts of a short video in order:
+
+```mermaid
+flowchart LR
+  H["Hook, 0 to 3 s"] --> C[Context or promise]
+  C --> B[Content in quick steps]
+  B --> P[Payoff]
+  P --> A[Call to action]
+```
+
 ### Writing for the feed
 
 - First line works as a headline.

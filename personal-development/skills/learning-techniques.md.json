@@ -83,7 +83,8 @@
       "year": 2008,
       "title": "Spacing effects in learning: A temporal ridgeline of optimal retention",
       "url": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "bjork-1994",
@@ -92,7 +93,9 @@
         "Bjork, R. A."
       ],
       "year": 1994,
-      "title": "Memory and metamemory considerations in the training of human beings"
+      "title": "Memory and metamemory considerations in the training of human beings",
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "kalyuga-2003",
@@ -106,7 +109,8 @@
       "year": 2003,
       "title": "The expertise reversal effect",
       "url": "https://doi.org/10.1207/S15326985EP3801_4",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     }
   ],
   "concepts": [

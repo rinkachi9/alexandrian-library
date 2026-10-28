@@ -31,6 +31,20 @@ Before controlled experiments, marketers compared periods ("conversion went up a
 7. **Analysis.** Compare the metric with a statistical test. A *p-value* below the chosen threshold (commonly 0.05) means a difference this large would be unlikely if the change had no effect.
 8. **Decision.** Ship, drop or iterate. Record the result.
 
+The steps of the mechanism. Checks come before analysis, because a broken split makes any result meaningless.
+
+```mermaid
+flowchart LR
+  H[Hypothesis] --> M[Metric]
+  M --> U[Randomization unit]
+  U --> S[Sample size]
+  S --> R[Run]
+  R --> C{Sample ratio OK?}
+  C -- no --> X[Fix and rerun]
+  C -- yes --> A[Analysis]
+  A --> D[Decision and record]
+```
+
 ### Sample size
 
 The number of visitors needed depends on the baseline rate and the smallest difference you want to detect. A common approximation for 80% power and a 5% significance level is:
@@ -104,6 +118,6 @@ Hints: for question 2, δ = 0.01 and σ² = 0.05 × 0.95. The answer is 7,600 pe
 ## Further reading
 
 - Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing*. Cambridge University Press. [doi:10.1017/9781108653985](https://doi.org/10.1017/9781108653985). The standard practical reference, including sample ratio mismatch.
-- Fabijan, A., et al. (2019). Diagnosing sample ratio mismatch in online controlled experiments. *Proceedings of the 25th ACM SIGKDD Conference*. [doi:10.1145/3292500.3330722](https://doi.org/10.1145/3292500.3330722). How to detect and diagnose a broken split.
+- Fabijan, A., Gupchup, J., Gupta, S., Omhover, J., Qin, W., Vermeer, L., & Dmitriev, P. (2019). Diagnosing sample ratio mismatch in online controlled experiments: A taxonomy and rules of thumb for practitioners. *Proceedings of the 25th ACM SIGKDD Conference*, 2156-2164. [doi:10.1145/3292500.3330722](https://doi.org/10.1145/3292500.3330722). How to detect and diagnose a broken split.
 
-TODO: Confirm in the Kohavi et al. book the statement that most tested ideas fail to improve their metric, and the chapter numbers for peeking and the 16σ²/δ² rule. Verify the author list and DOI of Fabijan et al. (2019).
+TODO: Confirm in the Kohavi et al. book the statement that most tested ideas fail to improve their metric, and the chapter numbers for peeking and the 16σ²/δ² rule.

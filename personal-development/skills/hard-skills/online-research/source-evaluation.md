@@ -36,6 +36,18 @@ Mike Caulfield's *SIFT* method turns lateral reading into four moves:
 3. **Find better coverage.** Look for trusted reporting or analysis of the same claim, and ignore the original if better sources exist.
 4. **Trace claims, quotes and media to the original context.** Follow statistics, quotes and images back to where they first appeared, and check whether they are represented accurately.
 
+Vertical reading stays on the page. Lateral reading, the core of SIFT, leaves it to check the source elsewhere first.
+
+```mermaid
+flowchart LR
+  S[Stop] --> I[Investigate the source]
+  I --> F[Find better coverage]
+  F --> T[Trace to the original]
+  T --> J{Trustworthy?}
+  J -- yes --> U[Use with citation]
+  J -- no --> D[Discard or flag]
+```
+
 ### CRAAP and its limits
 
 The *CRAAP test*, created by Sarah Blakeslee and colleagues at California State University, Chico in 2004, asks about:

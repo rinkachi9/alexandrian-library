@@ -38,6 +38,18 @@ Many story models describe the same core. A simple one for marketing:
 
 Donald Miller's practitioner framework *StoryBrand* (2017) popularized the advice that the customer should be the hero and the brand the guide. The underlying point is consistent with the transportation research: readers are transported when they can identify with the character.
 
+The seven parts of a story in order:
+
+```mermaid
+flowchart LR
+  C[Character] --> D[Desire]
+  D --> O[Obstacle]
+  O --> G[Guide]
+  G --> A[Action and turning point]
+  A --> R[Resolution]
+  R --> M[Meaning]
+```
+
 ### Types of marketing stories
 
 | Type | Purpose | Example |
@@ -108,5 +120,3 @@ Check: character (Anna), desire (time for her work), obstacle (receipts, penalty
 - Green, M. C., & Brock, T. C. (2000). The role of transportation in the persuasiveness of public narratives. *Journal of Personality and Social Psychology*, 79(5), 701-721. [doi:10.1037/0022-3514.79.5.701](https://doi.org/10.1037/0022-3514.79.5.701). The original transportation studies.
 - van Laer, T., de Ruyter, K., Visconti, L. M., & Wetzels, M. (2014). The extended transportation-imagery model: A meta-analysis of the antecedents and consequences of consumers' narrative transportation. *Journal of Consumer Research*, 40(5), 797-817. [doi:10.1086/673383](https://doi.org/10.1086/673383). Meta-analysis for consumer contexts.
 - Miller, D. (2017). *Building a StoryBrand*. HarperCollins Leadership. A practitioner framework with the customer as hero.
-
-TODO: Read Green and Brock (2000) in full to confirm the number of experiments and the main measures.

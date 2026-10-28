@@ -23,11 +23,24 @@ Two forces make people open content:
 - **Expected benefit.** The reader expects to gain something: save money, solve a problem, avoid a mistake. "How to save 500 dollars a month with five habits" states the benefit directly.
 - **Curiosity.** George Loewenstein's information gap theory (1994) describes curiosity as a feeling of deprivation that arises when attention is drawn to a gap between what one knows and what one wants to know. Curiosity needs some prior knowledge: people are not curious about a topic they know nothing about. A headline such as "Are you making these common grammar mistakes?" opens a gap for anyone who writes.
 
-The source notes call the combination *meaning plus fascination*: the content solves a problem or meets a desire (meaning), and the headline adds intrigue (fascination). What counts as meaningful is decided by the audience, not by the marketer, which is why audience research comes before headline writing.
+Content marketing courses call the combination *meaning plus fascination*: the content solves a problem or meets a desire (meaning), and the headline adds intrigue (fascination). What counts as meaningful is decided by the audience, not by the marketer, which is why audience research comes before headline writing.
 
-### Techniques from the source notes
+Benefit and curiosity work together: the gap makes the reader want to close it, and the benefit says why it is worth closing.
 
-- **Numbers.** "7 ways to..." signals a concrete, scannable structure. The source suggests that precise numbers (such as 70.42%) add credibility. This is practitioner advice without a research source here.
+```mermaid
+flowchart LR
+  H[Headline] --> B[Expected benefit]
+  H --> G[Information gap]
+  B --> C[Click and read]
+  G --> C
+  C --> D{Content delivers?}
+  D -- yes --> T[Trust grows]
+  D -- no --> L[Trust lost]
+```
+
+### Headline techniques
+
+- **Numbers.** "7 ways to..." signals a concrete, scannable structure. Some guides suggest that precise numbers (such as 70.42%) add credibility. This is practitioner advice without a research source here.
 - **Clear benefit.** Say what the reader gets.
 - **Clarity over cleverness.** Puns and wordplay can hide the value. The reader should understand the offer at a glance.
 - **Curiosity with a purpose.** Pair the gap with a benefit, so the reader knows why closing the gap is worth it.
@@ -53,7 +66,7 @@ In 2024 the authors reported possible randomization problems in about 22% of the
 
 ### Promise and deliver
 
-*Clickbait* is a headline that promises more than the content delivers. It can raise clicks once, but it teaches readers that your headlines are not trustworthy. The source notes put it this way: make sure your headline is not writing a check that your content cannot cash.
+*Clickbait* is a headline that promises more than the content delivers. It can raise clicks once, but it teaches readers that your headlines are not trustworthy. Put another way: make sure your headline is not writing a check that your content cannot cash.
 
 ## Worked example
 

@@ -18,9 +18,9 @@ A *niche* is a specific segment of a market defined by an audience and a need, s
 
 *Analogy.* Choosing a product is like choosing a dish for a food stall at a busy market. It has to be something people want to eat today (demand), something you can make well and consistently (quality and supply), something the stall next door does not already sell cheaper (competition), and something whose ingredients cost much less than the price (margin). A dish that everyone loves but that costs more to make than people will pay ruins the stall. The analogy breaks because an online seller pays for every passer-by through advertising, while the market stall gets foot traffic for the price of the pitch.
 
-### Criteria from the source notes
+### Criteria of a winning product
 
-The source notes list the criteria of a winning product in ten groups:
+Practitioner guides list the criteria of a winning product in ten groups:
 
 1. **Market demand.** A niche with enough demand and less saturation. A product in line with current trends has a better chance, but trends fade.
 2. **Quality and value.** The product meets or exceeds quality expectations, and customers see good value for the price.
@@ -32,6 +32,26 @@ The source notes list the criteria of a winning product in ten groups:
 8. **Logistics and fulfillment.** Reliable, reasonably fast shipping and inventory management that avoids stockouts.
 9. **User experience.** A reliable, simple and secure store that works on mobile.
 10. **Legal and compliance.** The product meets safety, labeling and other regulations in the countries where you sell.
+
+The ten criteria grouped by the question they answer:
+
+```mermaid
+mindmap
+  root((Winning product))
+    Will people buy it
+      Market demand
+      Target audience
+      Effective marketing
+      Competition and USP
+    Will it satisfy them
+      Quality and value
+      Customer feedback
+      User experience
+    Can you deliver it
+      Scalability
+      Logistics and fulfillment
+      Legal and compliance
+```
 
 ### Additional criteria from practice
 
@@ -78,10 +98,10 @@ The example leaves out returns, refunds, chargebacks, customer service time, pla
 
 ### Research tools
 
-The source notes use these tools to check demand when selecting a product for dropshipping:
+These tools help check demand when selecting a product for dropshipping:
 
 - **Marketplace listings** (for example AliExpress): reviews, prices and order counts. Reviews matter most for unfamiliar products, because they reveal quality problems.
-- **Ad libraries and ad spy tools.** Tools that collect social media ads (the source names AdSpy) show which products are being advertised and how people react. Meta's public Ad Library shows ads currently running on its platforms.
+- **Ad libraries and ad spy tools.** Tools that collect social media ads (for example AdSpy) show which products are being advertised and how people react. Meta's public Ad Library shows ads currently running on its platforms.
 - **Google Trends** shows whether interest in a product is rising or falling. Avoid products whose popularity has already peaked.
 - **A test ad** checks real demand. See [product validation](product-validation.md) and [paid social advertising](../social-media/paid-social-advertising.md#testing-products-with-ads).
 
@@ -108,7 +128,7 @@ All numbers are invented. Break-even ROAS is calculated without payment fees for
 - **Trending products** can sell fast and die fast. A niche with steady demand builds a lasting store.
 - **Low competition** sometimes means low demand. Check both.
 - **Cheap products** are easy to sell but leave little margin for advertising. Many practitioners prefer prices that leave room for an acquisition cost.
-- **Familiarity helps.** Knowing the niche helps you predict what the audience likes, as the source notes point out, but it can also make you overestimate demand.
+- **Familiarity helps.** Knowing the niche helps you predict what the audience likes, but it can also make you overestimate demand.
 
 ## Common mistakes
 
@@ -131,4 +151,4 @@ Hints: question 2: the margin is 16.80 euros, so break-even ROAS is about 1.79.
 - Google Trends. [trends.google.com](https://trends.google.com/). Relative search interest over time and by region.
 - Meta Ad Library. [facebook.com/ads/library](https://www.facebook.com/ads/library/). Public archive of ads running on Meta platforms.
 
-TODO: The criteria come from the source notes and practitioner advice. Add a research source on product success factors, for example the new product development literature.
+TODO: The criteria come from practitioner advice. Add a research source on product success factors, for example the new product development literature.

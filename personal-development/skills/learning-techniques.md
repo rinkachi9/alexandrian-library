@@ -39,6 +39,26 @@ Dunlosky, Rawson, Marsh, Nathan and Willingham (2013) reviewed the evidence for 
 
 "Low" does not mean useless. It means the evidence for benefit is weak, limited to some conditions, or the gains are small compared with the time spent.
 
+The ten techniques grouped by the utility rating in the table:
+
+```mermaid
+mindmap
+  root((Study techniques))
+    High utility
+      Practice testing
+      Distributed practice
+    Moderate utility
+      Elaborative interrogation
+      Self-explanation
+      Interleaved practice
+    Low utility
+      Summarization
+      Highlighting
+      Keyword mnemonic
+      Imagery for text
+      Rereading
+```
+
 ### Retrieval practice
 
 *Retrieval practice* means bringing information or a procedure back from memory instead of re-reading it. In an influential experiment, Roediger and Karpicke (2006) had students study prose passages. Students who studied once and then took recall tests forgot less after one week than students who studied the passage repeatedly, although the repeated-study group did better on a test five minutes later. That reversal is the testing effect in a nutshell: the method that feels better now is worse later.
@@ -114,5 +134,3 @@ Hints: question 2 concerns the test after five minutes compared with the test af
 - Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. *Psychological Science*, 19(11), 1095-1102. [doi:10.1111/j.1467-9280.2008.02209.x](https://doi.org/10.1111/j.1467-9280.2008.02209.x). Optimal gaps for different retention intervals.
 - Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In J. Metcalfe & A. Shimamura (Eds.), *Metacognition: Knowing about Knowing* (pp. 185-205). MIT Press. The idea of desirable difficulties.
 - Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist*, 38(1), 23-31. [doi:10.1207/S15326985EP3801_4](https://doi.org/10.1207/S15326985EP3801_4). Why worked examples stop helping experts.
-
-TODO: Verify the DOIs of Cepeda et al. (2008) and Kalyuga et al. (2003), and the page range of Bjork (1994).

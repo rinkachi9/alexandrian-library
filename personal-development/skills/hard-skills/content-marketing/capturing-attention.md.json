@@ -46,7 +46,8 @@
       "year": 2003,
       "title": "How do users evaluate the credibility of Web sites? A study with over 2,500 participants",
       "url": "https://doi.org/10.1145/997078.997097",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "potter-2014",
@@ -95,7 +96,7 @@
     },
     {
       "term": "Cognitive fluency",
-      "anchor": "#psychological-principles-from-the-source-notes",
+      "anchor": "#psychological-principles",
       "definition": "The ease of processing information, which makes it feel more familiar and trustworthy."
     },
     {

@@ -35,6 +35,22 @@ Peter Pirolli and Stuart Card (1999) described *information foraging theory*: pe
 7. **Record** what you found, where and when.
 8. **Stop** when new searches return the same sources and answers, or when the answer is good enough for the decision.
 
+The research process. Evaluation can send you back to refine the search, and the stop rule ends the loop.
+
+```mermaid
+flowchart LR
+  Q[Define the question] --> K[Kind of answer]
+  K --> S[Choose sources]
+  S --> T[Build search terms]
+  T --> R[Search and refine]
+  R --> E[Evaluate sources]
+  E -->|gaps| R
+  E --> C[Record]
+  C --> X{Same sources keep returning?}
+  X -- no --> R
+  X -- yes --> D[Stop]
+```
+
 ### Building search terms
 
 - **Identify concepts:** split the question into two to four core concepts.
@@ -102,5 +118,3 @@ Question from a shop owner: "Do I need to register for VAT in Germany if I sell 
 - Pirolli, P., & Card, S. (1999). Information foraging. *Psychological Review*, 106(4), 643-675. [doi:10.1037/0033-295X.106.4.643](https://doi.org/10.1037/0033-295X.106.4.643). The theory of information foraging.
 - Association of College and Research Libraries (2015). Framework for Information Literacy for Higher Education. [ala.org](https://www.ala.org/acrl/standards/ilframework). A framework for research as inquiry and searching as strategic exploration.
 - Zotero. [zotero.org](https://www.zotero.org/). A free reference manager.
-
-TODO: Confirm the DOI of Pirolli and Card (1999).

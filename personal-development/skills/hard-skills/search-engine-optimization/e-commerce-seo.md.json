@@ -45,7 +45,8 @@
       ],
       "title": "Managing crawling of faceted navigation URLs",
       "url": "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-central-2",
@@ -55,7 +56,8 @@
       ],
       "title": "Product structured data",
       "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-central-3",
@@ -76,6 +78,18 @@
       "title": "Product",
       "url": "https://schema.org/Product",
       "verified": false
+    },
+    {
+      "key": "shopify-seo",
+      "type": "documentation",
+      "authors": [
+        "Shopify"
+      ],
+      "year": 2026,
+      "title": "Search engine optimization overview",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview",
+      "verified": true,
+      "checked": "2026-10"
     }
   ],
   "concepts": [

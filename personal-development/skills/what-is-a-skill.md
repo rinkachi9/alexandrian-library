@@ -33,9 +33,21 @@ Occupational research and education policy use four related terms. They are ofte
 | Ability | A relatively stable capacity that helps learn and perform many tasks | Verbal fluency, working memory |
 | Competence | The proven use of knowledge, skills and personal attitudes in a real context, with responsibility and autonomy | Delivering a sales page on deadline that converts and passes legal review |
 
-The O*NET database of the US Department of Labor, which describes over 900 occupations, keeps these apart in its content model. It separates *knowledge* (organized sets of principles and facts), *abilities* (enduring attributes of the person) and *skills*, which it divides into *basic skills* (developed capacities that make learning easier, such as reading comprehension, writing and active learning) and *cross-functional skills* (capacities that help perform activities that occur across jobs, such as complex problem solving and social skills). The EU's ESCO classification (European Skills, Competences, Qualifications and Occupations) does the same for European labor markets. Its version 1.2, released in May 2024, describes thousands of skills and knowledge concepts linked to occupations.
+The O*NET database of the US Department of Labor, which describes 923 occupations at its data-collection level (O*NET 30.1, December 2025, checked 2026-10), keeps these apart in its content model. It separates *knowledge* (organized sets of principles and facts), *abilities* (enduring attributes of the person) and *skills*, which it divides into *basic skills* (developed capacities that make learning easier, such as reading comprehension, writing and active learning) and *cross-functional skills* (capacities that help perform activities that occur across jobs, such as complex problem solving and social skills). The EU's ESCO classification (European Skills, Competences, Qualifications and Occupations) does the same for European labor markets. Its version 1.2, released in May 2024, describes thousands of skills and knowledge concepts linked to occupations.
 
 The practical consequence: when you plan to "learn SEO", separate what you need to *know* (how search engines rank pages) from what you need to *be able to do* (run a keyword analysis, fix a crawling problem). Knowledge can be read. Skill has to be practiced.
+
+The diagram shows how the four terms build on each other: knowledge and skills rest on abilities, and competence is their proven use in a real context.
+
+```mermaid
+flowchart BT
+  A[Abilities] --> K[Knowledge]
+  A --> S[Skills]
+  K --> C[Competence]
+  S --> C
+  P[Attitudes] --> C
+  C --> R[Real context with responsibility]
+```
 
 ### Declarative and procedural knowledge
 
@@ -121,5 +133,3 @@ Hints: question 4 concerns far transfer and study quality.
 - Sala, G., & Gobet, F. (2017). Does far transfer exist? Negative evidence from chess, music, and working memory training. *Current Directions in Psychological Science*, 26(6), 515-520. [doi:10.1177/0963721417712760](https://doi.org/10.1177/0963721417712760). Meta-analytic evidence on far transfer.
 - World Economic Forum (2025). *The Future of Jobs Report 2025*. [weforum.org](https://www.weforum.org/publications/the-future-of-jobs-report-2025/). Employer expectations of skill change to 2030.
 - Deming, D. J., & Noray, K. (2020). Earnings dynamics, changing job skills, and STEM careers. *Quarterly Journal of Economics*, 135(4), 1965-2005. [doi:10.1093/qje/qjaa021](https://doi.org/10.1093/qje/qjaa021). How fast-changing skills affect careers.
-
-TODO: Confirm the number of occupations in O*NET and the number of skill concepts in ESCO v1.2 on the official sites.

@@ -1,6 +1,6 @@
 # Client acquisition
 
-Finding people and organizations who need what you offer and turning them into paying, returning clients: targeting, lead generation, outreach, sales conversations, proposals, closing and retention. This skill belongs to [Hard skills](../README.md). The "Client acquisition" heading in the source export has no content, so the notes were written from sales research, law and practice. They focus on services, freelancing and B2B. Retail customers are covered in [e-commerce](../e-commerce/README.md).
+Finding people and organizations who need what you offer and turning them into paying, returning clients: targeting, lead generation, outreach, sales conversations, proposals, closing and retention. This skill belongs to [Hard skills](../README.md). The notes focus on services, freelancing and B2B. Retail customers are covered in [e-commerce](../e-commerce/README.md).
 
 ## Notes in reading order
 
@@ -12,6 +12,21 @@ Finding people and organizations who need what you offer and turning them into p
 6. [Proposals and pricing](proposals-and-pricing.md): proposal structure, cost-plus, market and value-based pricing, options, scope and payment terms.
 7. [Objections and closing](objections-and-closing.md): handling objections, advances and closing without pressure.
 8. [Referrals and retention](referrals-and-retention.md): drivers of retention, measuring churn, getting referrals, and the evidence behind popular retention claims.
+
+## Map of the skill
+
+The notes follow a client from first contact to repeat work and referrals, which feed new leads.
+
+```mermaid
+flowchart LR
+  A[Ideal customer profile] --> B[Lead generation]
+  B --> C[Outreach and prospecting]
+  C --> D[Sales conversations]
+  D --> E[Proposals and pricing]
+  E --> F[Objections and closing]
+  F --> G[Referrals and retention]
+  G -.-> B
+```
 
 ## How to learn it
 

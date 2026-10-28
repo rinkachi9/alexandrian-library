@@ -34,6 +34,19 @@ A *community* in this context is a group of people who interact with each other 
 5. **Recognizing:** highlighting helpful members, sharing user content (with permission).
 6. **Listening and reporting:** passing insights to product, marketing and service teams.
 
+The six core activities:
+
+```mermaid
+mindmap
+  root((Community management))
+    Responding
+    Initiating
+    Moderating
+    Supporting
+    Recognizing
+    Listening and reporting
+```
+
 ### Participation inequality
 
 In many online communities a small share of members create most of the content, while most only read. Jakob Nielsen (2006) summarized this as the "90-9-1 rule": about 90% lurk, 9% contribute occasionally and 1% contribute most of the content. The exact proportions vary and the rule is a heuristic, but skewed participation is consistently observed. Implications:
@@ -63,6 +76,18 @@ A practical approach:
 3. **Solve the problem,** then, where appropriate, report back publicly.
 4. **Do not delete legitimate criticism.** Deleting it usually makes things worse. Remove only content that breaks the guidelines.
 5. **Do not argue with trolls.** Apply the rules calmly.
+
+Handling a negative comment, with the two branches from the list above:
+
+```mermaid
+flowchart TB
+  N[Negative comment] --> T{Troll or rule break?}
+  T -- yes --> R[Apply rules calmly]
+  T -- no --> A[Acknowledge quickly]
+  A --> P[Move details to private channel]
+  P --> S[Solve the problem]
+  S --> B[Report back publicly]
+```
 
 ### Crisis management
 

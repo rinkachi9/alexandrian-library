@@ -47,7 +47,23 @@ In the EU, analytics cookies and similar tracking generally require prior consen
 | Position-based | Most credit to first and last, rest shared | Arbitrary weights |
 | Data-driven | Credit estimated statistically from paths with and without each touchpoint | Opaque, needs volume, still based on observed paths only |
 
-In 2023 Google removed the first click, linear, time decay and position-based models from GA4 and Google Ads, leaving data-driven and last click (paid and organic) as the available models. All models only see tracked touchpoints and cannot prove that a piece caused a conversion. A visitor who would have bought anyway still gives credit to the content they happened to see.
+In 2023 Google removed (announced in April 2023, completed later that year) the first click, linear, time decay and position-based models from GA4 and Google Ads, leaving data-driven and last click (paid and organic) as the available models. All models only see tracked touchpoints and cannot prove that a piece caused a conversion. A visitor who would have bought anyway still gives credit to the content they happened to see.
+
+The attribution models differ in which touchpoints get credit:
+
+```mermaid
+mindmap
+  root((Attribution models))
+    Single touch
+      Last click
+      First click
+    Rule-based multi-touch
+      Linear
+      Time decay
+      Position-based
+    Statistical
+      Data-driven
+```
 
 ### Incrementality
 
@@ -128,5 +144,3 @@ A software company publishes a monthly guide for small agencies. Goal: demo requ
 - Google Ads Help. First click, linear, time decay, and position-based attribution models are going away. [support.google.com](https://support.google.com/google-ads/answer/13427716). The 2023 change to attribution models.
 - Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy Online Controlled Experiments*. Cambridge University Press. [doi:10.1017/9781108653985](https://doi.org/10.1017/9781108653985). Controlled experiments as the basis for causal claims.
 - Directive 2002/58/EC (ePrivacy Directive), Article 5(3). [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2002/58/oj). Consent for storing information on users' devices.
-
-TODO: Verify the URL of the GA4 attribution help article and the exact date the rules-based models disappeared from GA4.

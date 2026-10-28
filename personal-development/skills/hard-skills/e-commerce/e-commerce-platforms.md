@@ -47,6 +47,17 @@ A *hosted* (software as a service, SaaS) platform runs the store on the provider
 
 *Headless* commerce separates the front end (what customers see) from the commerce back end (catalog, cart, orders), connected through APIs. It allows custom front ends, multiple channels and high performance, at the cost of more development. It suits larger stores with development teams.
 
+The three platform types trade control against convenience. Headless commerce sits at the far end of control.
+
+```mermaid
+flowchart LR
+  M[Marketplace] --> H[Hosted platform]
+  H --> S[Self-hosted open source]
+  S --> X[Headless commerce]
+  L["Less control, faster start"] -.-> M
+  R["More control, more responsibility"] -.-> X
+```
+
 ### Choosing a platform
 
 | Criterion | Questions |
@@ -66,7 +77,7 @@ Many sellers combine an own store with one or two marketplaces and social shops.
 
 ### Mobile
 
-Most consumer browsing happens on phones, so the store must be designed mobile-first: fast pages, large tap targets, simple navigation and a short checkout. The source notes stress mobile responsiveness as a criterion of a good store.
+Most consumer browsing happens on phones, so the store must be designed mobile-first: fast pages, large tap targets, simple navigation and a short checkout. Mobile responsiveness is a basic criterion of a good store.
 
 ## Worked example
 

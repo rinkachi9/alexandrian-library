@@ -2,7 +2,7 @@
 
 ## Summary
 
-LinkedIn is the largest professional social network and works as a public resume, a professional network and a publishing platform at the same time. For individuals it supports job search, networking, client acquisition and building a reputation in a field. For companies it is the main social channel for B2B marketing and employer branding. The profile is the foundation (its home note in this library is [professional profile](../../../career/job-search/professional-profile.md)). On top of it, value comes from posting useful content regularly, engaging thoughtfully with others, and personal outreach that gives a reason to connect. The source notes list three common mistakes: not writing your own summary, a bad photo, and generic invitations.
+LinkedIn is the largest professional social network and works as a public resume, a professional network and a publishing platform at the same time. For individuals it supports job search, networking, client acquisition and building a reputation in a field. For companies it is the main social channel for B2B marketing and employer branding. The profile is the foundation (its home note in this library is [professional profile](../../../career/job-search/professional-profile.md)). On top of it, value comes from posting useful content regularly, engaging thoughtfully with others, and personal outreach that gives a reason to connect. Three mistakes are common: not writing your own summary, a bad photo, and generic invitations.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ LinkedIn is the largest professional social network and works as a public resume
 
 ### Definition
 
-*LinkedIn* is a social network owned by Microsoft since 2016, focused on professional identity and relationships. LinkedIn states that it has more than one billion members worldwide (its own figure, checked 2026-10). Its main elements:
+*LinkedIn* is a social network owned by Microsoft since 2016, focused on professional identity and relationships. LinkedIn states that it has more than one billion members in more than 200 countries and territories, and Microsoft reported about 1.3 billion in 2026 (checked 2026-10 in secondary summaries). Members are registered accounts, not active users. Its main elements:
 
 - **Personal profile:** headline, photo, about section, experience, skills, recommendations.
 - **Network:** connections (mutual) and followers (one-way).
@@ -28,14 +28,14 @@ LinkedIn is the largest professional social network and works as a public resume
 The full treatment is in [professional profile](../../../career/job-search/professional-profile.md). In brief:
 
 - **Headline** that says what you do and for whom, not only a job title.
-- **Photo** that is clear, recent and authentic. The source notes list a bad photo or no photo as a common mistake.
-- **About section** written in your own voice, in the first person. The source notes advise writing the summary as your genuine self, because the third person creates distance from the audience.
+- **Photo** that is clear, recent and authentic. A bad photo or no photo is a common mistake.
+- **About section** written in your own voice, in the first person. Write the summary as your genuine self, because the third person creates distance from the audience.
 - **Experience** with results, consistent with your resume.
 - **Recommendations** from others, which carry more weight than self-description.
 
 ### Networking and invitations
 
-The source notes list generic invitations as the third common mistake. A personal note with a reason to connect gets more acceptances and starts a real relationship:
+Generic invitations are the third common mistake. A personal note with a reason to connect gets more acceptances and starts a real relationship:
 
 > "Hello Marta, I enjoyed your post on reducing returns in fashion e-commerce. I run a small shop with the same problem and would like to follow your work."
 
@@ -44,6 +44,15 @@ Principles from networking research and practice (see [networking](../../../care
 - **Give before asking:** share, comment, introduce.
 - **Weak ties** (acquaintances) are often the source of new information, such as job openings (Granovetter, 1973). A large-scale experiment on LinkedIn by Rajkumar and colleagues (2022) found that moderately weak ties were the most useful for job mobility.
 - **Quality over quantity:** a smaller network of relevant people beats thousands of random connections.
+
+A profile, a network and regular activity work together. Each layer depends on the one below it.
+
+```mermaid
+flowchart BT
+  P[Profile] --> N[Network and invitations]
+  N --> C[Posting and commenting]
+  C --> S[Social selling and opportunities]
+```
 
 ### Posting
 
@@ -106,7 +115,7 @@ All targets and activities are an illustrative plan.
 
 ## Practice
 
-1. What are the three common mistakes on LinkedIn named in the source notes, and how do you fix each?
+1. What are the three common mistakes on LinkedIn named in this note, and how do you fix each?
 2. Write a connection invitation with a specific reason to someone in your field.
 3. Draft a LinkedIn post that teaches one lesson from your work in under 150 words.
 4. What did the Rajkumar et al. (2022) experiment find about tie strength and job mobility?
@@ -118,4 +127,4 @@ All targets and activities are an illustrative plan.
 - Rajkumar, K., Saint-Jacques, G., Bojinov, I., Brynjolfsson, E., & Aral, S. (2022). A causal test of the strength of weak ties. *Science*, 377(6612), 1304-1310. [doi:10.1126/science.abl4476](https://doi.org/10.1126/science.abl4476). A large experiment on LinkedIn.
 - Roulin, N., & Levashina, J. (2019). LinkedIn as a new selection method: Psychometric properties and assessment approach. *Personnel Psychology*, 72(2), 187-211. [doi:10.1111/peps.12296](https://doi.org/10.1111/peps.12296). Profiles as an assessment tool.
 
-TODO: Confirm LinkedIn's current member figure on its about page.
+TODO: Confirm the 1.3 billion figure in Microsoft's investor materials.

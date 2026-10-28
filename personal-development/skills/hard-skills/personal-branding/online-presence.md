@@ -19,7 +19,7 @@ Your online presence is everything people find when they look you up: search res
 ### Why it matters
 
 - People search names before hiring, buying, meeting or partnering.
-- Profiles are used as selection material: research by Roulin and Levashina (2019) examined LinkedIn profiles as an assessment tool and found that recruiters' ratings of some skills from profiles were related to other measures, showing that profiles are actively judged.
+- Profiles are used as selection material: Roulin and Levashina (2019) found that raters judging LinkedIn profiles agreed with each other on visible skills (such as leadership, communication and planning), extraversion and cognitive ability, and that ratings were stable a year later. Less visible traits, such as conscientiousness or emotional stability, could not be judged well from profiles. Profiles are actively judged, and what they show must be visible.
 - For freelancers and consultants, the website and profiles do part of the sales work (see [lead generation](../client-acquisition/lead-generation.md)).
 
 ### Core elements
@@ -44,6 +44,18 @@ A personal website on your own domain is the only part of the presence you fully
 5. **Contact:** a simple way to reach you.
 
 Search engines often show a personal website near the top for searches of a person's name, especially when the name appears in the title and the site is linked from profiles (see [on-page SEO](../search-engine-optimization/on-page-seo.md)).
+
+The personal website at the center of the other elements from the table:
+
+```mermaid
+flowchart LR
+  L[Professional profile] --> W[Personal website]
+  S[Social channels] --> W
+  D[Directory profiles] --> W
+  P[Publications and talks] --> W
+  W --> K[Work samples]
+  W --> C[Contact]
+```
 
 ### Consistency
 
@@ -110,4 +122,4 @@ An independent translator (Polish and German, legal texts) audits and rebuilds h
 - Google Search Central. SEO Starter Guide. [developers.google.com](https://developers.google.com/search/docs/fundamentals/seo-starter-guide). Making a personal site findable.
 - Regulation (EU) 2016/679 (GDPR). [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj). Rights over personal data.
 
-TODO: Read Roulin and Levashina (2019) and confirm the description of its findings. Add a dated source on how often recruiters search candidates online.
+TODO: Add a dated source on how often recruiters search candidates online.

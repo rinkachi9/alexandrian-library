@@ -24,7 +24,7 @@ Fulfillment is everything between a paid order and a delivered parcel: receiving
 | Third-party logistics (3PL) | A specialist warehouse | Growing volume, multiple channels | Professional and scalable, fees per order and storage, less direct control |
 | Marketplace fulfillment | The marketplace (for example Fulfillment by Amazon) | Selling mainly on that marketplace | Fast delivery badges, but fees, strict inbound rules and dependence |
 | Dropshipping | The supplier | Testing products, no stock | No inventory risk, little control over speed and quality (see [dropshipping](dropshipping.md)) |
-| Local fulfillment from a sourcing agent or local warehouse | Agent or warehouse near customers | The third level of dropshipping in the source notes | Faster delivery, requires buying stock |
+| Local fulfillment from a sourcing agent or local warehouse | Agent or warehouse near customers | The third level of [dropshipping](dropshipping.md) | Faster delivery, requires buying stock |
 
 ### The order-to-delivery process
 
@@ -36,6 +36,20 @@ Fulfillment is everything between a paid order and a delivered parcel: receiving
 6. **Tracking:** the customer receives a tracking link.
 7. **Delivery:** to the address, a parcel locker or a pick-up point.
 8. **Returns processing:** checking returned items, restocking or disposing (see [customer service and returns](customer-service-and-returns.md)).
+
+The order-to-delivery process, with returns feeding back into stock:
+
+```mermaid
+flowchart LR
+  A[Receiving] --> B[Storage]
+  B --> C[Picking]
+  C --> D[Packing]
+  D --> E[Labeling and handover]
+  E --> F[Tracking]
+  F --> G[Delivery]
+  G -.-> H[Returns processing]
+  H -.-> B
+```
 
 ### Shipping options and costs
 
@@ -57,7 +71,7 @@ Unexpected extra costs, including shipping, are the most common stated reason fo
 
 ### Packaging
 
-Packaging protects the product, affects shipping cost (size and weight), and is part of the customer experience. Over-sized boxes raise costs and annoy customers. EU rules on packaging and packaging waste (Regulation (EU) 2025/40, applying in stages from 2026) set requirements on minimizing packaging, empty space and recyclability. National rules on extended producer responsibility can require registration and fees for packaging placed on the market.
+Packaging protects the product, affects shipping cost (size and weight), and is part of the customer experience. Over-sized boxes raise costs and annoy customers. EU rules on packaging and packaging waste (Regulation (EU) 2025/40, in force since February 2025 and applying generally from 12 August 2026, with later dates for some rules, such as a maximum empty space ratio of 50% for e-commerce packaging from 2030) set requirements on minimizing packaging, empty space and recyclability. National rules on extended producer responsibility can require registration and fees for packaging placed on the market.
 
 ### Inventory management
 
@@ -74,7 +88,7 @@ A simple reorder point:
 
 reorder point = average daily sales × lead time in days + safety stock
 
-The source notes list effective inventory management, avoiding stockouts and backorders, as a criterion of a winning product.
+Effective inventory management, avoiding stockouts and backorders, is one of the criteria of a winning product.
 
 ## Worked example
 
@@ -118,4 +132,4 @@ Hints: question 2: 5 × 20 + 5 × 7 = 135 units.
 - Baymard Institute. Cart abandonment rate statistics. [baymard.com](https://baymard.com/lists/cart-abandonment-rate). The role of shipping costs and speed in abandonment.
 - Regulation (EU) 2025/40 on packaging and packaging waste. [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2025/40/oj). EU packaging rules.
 
-TODO: Verify the application dates of Regulation (EU) 2025/40 and add a logistics textbook source for reorder point and safety stock calculations.
+TODO: Add a logistics textbook source for reorder point and safety stock calculations.

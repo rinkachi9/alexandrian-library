@@ -32,6 +32,20 @@ Writers naturally describe products the way the company sees them: features, int
 | Search queries and autocomplete | How people phrase problems before they know solutions | Unprompted language | No context about the person |
 | Forums and communities | Unfiltered discussion of problems and alternatives | Honest, detailed | Not representative |
 
+The sources from the table feed one research brief, described in the section on turning research into copy:
+
+```mermaid
+flowchart LR
+  A[Reviews] --> B[Research brief]
+  C[Support tickets] --> B
+  D[Sales calls] --> B
+  E[Interviews] --> B
+  F[Surveys] --> B
+  G[Search queries] --> B
+  H[Forums] --> B
+  B --> I[Copy]
+```
+
 ### Review mining
 
 *Review mining* is a structured reading of reviews to extract recurring themes and phrases.
@@ -75,6 +89,16 @@ Eugene Schwartz (*Breakthrough Advertising*, 1966) described five stages of read
 | Most aware | Knows and wants it | The offer | "Annual plan, 30% off until Friday." |
 
 The billable hour figure is invented for the example. Schwartz also described market *sophistication*: in markets where buyers have seen many similar promises, a bigger claim no longer works, and copy must explain a new mechanism or approach instead.
+
+The awareness levels run from no knowledge of the problem to readiness to buy. Copy starts at the reader's current level.
+
+```mermaid
+flowchart LR
+  U[Unaware] --> P[Problem aware]
+  P --> S[Solution aware]
+  S --> R[Product aware]
+  R --> M[Most aware]
+```
 
 ### From research to copy
 

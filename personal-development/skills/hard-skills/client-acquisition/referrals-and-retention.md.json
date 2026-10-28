@@ -77,7 +77,8 @@
       "year": 2000,
       "title": "On the profitability of long-life customers in a noncontractual setting",
       "url": "https://doi.org/10.1509/jmkg.64.4.17.18077",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "schmitt-2011",
@@ -90,7 +91,8 @@
       "year": 2011,
       "title": "Referral programs and customer value",
       "url": "https://doi.org/10.1509/jmkg.75.1.46",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     }
   ],
   "concepts": [

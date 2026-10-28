@@ -20,7 +20,7 @@ Beyond the headline, attention depends on what the reader sees and feels in the 
 
 People extract meaning from images very quickly. In a study by Potter, Wyble, Hagmann and McCourt (2014), participants could detect whether a picture matched a description (such as "picnic") even when pictures were shown for only 13 milliseconds each in a rapid sequence. This supports the general idea that images are processed fast. It does not support the often repeated claim that the brain processes images "60,000 times faster than text". That figure has no known research source and should not be used.
 
-Practical guidance from the source notes:
+Practical guidance:
 
 - Use images that support the message and fit its tone.
 - Avoid graphic or repulsive images. They draw the eye but push readers away.
@@ -29,7 +29,7 @@ Practical guidance from the source notes:
 
 ### Site design and credibility
 
-In a Stanford study of how people judge the credibility of websites (Fogg and colleagues, 2002 and 2003), 2,684 participants compared live sites and wrote comments. The most frequently mentioned factor was the "design look" of the site, in 46.1% of the comments, followed by information design and structure (about 28.5%). People said they cared about expertise and accuracy, but what they actually commented on first was appearance. A cluttered or dated page signals that the content is not maintained, even when it is good.
+In a Stanford study of how people judge the credibility of websites (Fogg and colleagues, 2002 and 2003), 2,684 participants compared live sites and wrote comments. The most frequently mentioned factor was the "design look" of the site, in 46.1% of the comments, followed by comments on information structure and information focus. People said they cared about expertise and accuracy, but what they actually commented on first was appearance. A cluttered or dated page signals that the content is not maintained, even when it is good.
 
 Key elements:
 
@@ -43,7 +43,7 @@ A slow page loses readers before they see the content. Google reported in 2017 t
 
 ### Promotion and social proof
 
-Good content does not spread by itself. The source notes list three levers:
+Good content does not spread by itself. Three levers help it spread:
 
 - **Collaboration with influencers**, people who already have the attention of your audience.
 - **Making sharing easy**, and asking for it.
@@ -51,9 +51,26 @@ Good content does not spread by itself. The source notes list three levers:
 
 Social proof is one of the persuasion principles described in [persuasion principles](../copywriting/persuasion-principles.md#social-proof), where its evidence and limits are discussed.
 
-### Psychological principles from the source notes
+The levers from this note, grouped:
 
-The source lists four principles. Their status differs:
+```mermaid
+mindmap
+  root((Capturing attention))
+    Images
+    Design and credibility
+      Visual quality
+      Usability
+      Mobile layout
+    Speed
+    Promotion
+      Influencers
+      Easy sharing
+      Social proof
+```
+
+### Psychological principles
+
+Four principles are often cited. Their status differs:
 
 | Principle | Idea | Evidence |
 | --- | --- | --- |
@@ -114,4 +131,4 @@ After the changes, the team compares the share of visitors who scroll past the f
 - Alter, A. L., & Oppenheimer, D. M. (2009). Uniting the tribes of fluency to form a metacognitive nation. *Personality and Social Psychology Review*, 13(3), 219-235. [doi:10.1177/1088868309341564](https://doi.org/10.1177/1088868309341564). Review of processing fluency research.
 - Think with Google. Page load time statistics. [thinkwithgoogle.com](https://www.thinkwithgoogle.com/data/page-load-time-statistics/). The 1 to 3 second bounce figure.
 
-TODO: Read Fogg et al. (2003) in full. The 46.1% and 28.5% figures come from summaries of the study. Confirm the method behind the Think with Google figure.
+TODO: Confirm the method behind the Think with Google figure.

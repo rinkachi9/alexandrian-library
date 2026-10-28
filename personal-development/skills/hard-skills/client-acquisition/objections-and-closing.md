@@ -41,6 +41,18 @@ Distinguishing these decides the response. A misfit should be accepted. The othe
 
 Practitioner variants include LAER (listen, acknowledge, explore, respond) and "feel, felt, found". They share the same logic.
 
+The five steps for handling an objection. If the check fails, clarify again.
+
+```mermaid
+flowchart LR
+  L[Listen fully] --> A[Acknowledge]
+  A --> C[Clarify]
+  C --> N[Answer]
+  N --> K{Concern addressed?}
+  K -- no --> C
+  K -- yes --> X[Next step]
+```
+
 ### Common objections and responses
 
 | Objection | What it may mean | Possible response |

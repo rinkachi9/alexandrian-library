@@ -53,6 +53,16 @@ Start with the reader's question and the place they ask it:
 
 A common pattern: use paid and earned channels to reach new people, move them to owned channels (subscribe, follow, create an account), and use owned channels to build the relationship.
 
+Owned, earned and paid channels support each other: paid and earned reach bring people to owned channels, where the relationship continues.
+
+```mermaid
+flowchart LR
+  P[Paid] --> O[Owned]
+  E[Earned] --> O
+  O --> E
+  P --> E
+```
+
 ### Distribution plan for a piece
 
 Before publishing, answer:

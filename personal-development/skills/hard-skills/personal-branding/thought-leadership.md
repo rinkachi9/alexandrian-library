@@ -55,6 +55,18 @@ Thought leadership means becoming a recognized source of useful ideas in a field
 5. **Build on proof points:** a talk leads to an article, an article leads to an invitation, a report leads to press.
 6. **Review** what resonates and deepen it.
 
+The path from expertise to visibility is a loop. Each proof point leads to the next opportunity.
+
+```mermaid
+flowchart LR
+  T[Narrow topic] --> I[Collect insights]
+  I --> P[Publish regularly]
+  P --> E[Engage with others]
+  E --> B[Build on proof points]
+  B --> R[Review what resonates]
+  R -.-> I
+```
+
 ### Credibility and ethics
 
 - **Cite sources** and distinguish data from opinion (see the library's [GUIDELINE](../../../../GUIDELINE.md#8-sources-references-and-verification) for the same principle).

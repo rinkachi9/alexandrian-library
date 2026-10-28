@@ -57,6 +57,18 @@ Qualification decides which leads deserve sales time. Common frameworks:
 
 For small service businesses a simple version works: Do they have the problem we solve? Can they afford the solution? Is the person we talk to involved in the decision? Do they want to solve it soon?
 
+Leads from both kinds of sources pass through qualification before they get sales time:
+
+```mermaid
+flowchart LR
+  I[Inbound sources] --> L[Leads]
+  O[Outbound sources] --> L
+  L --> Q{Qualified?}
+  Q -- yes --> S[Sales conversation]
+  Q -- not yet --> N[Nurture]
+  Q -- no --> D[Disqualify]
+```
+
 ### Lead scoring
 
 *Lead scoring* assigns points to leads based on fit (industry, size, role) and behavior (pages visited, content downloaded, emails clicked) to prioritize follow-up. It needs enough data and periodic checks that high scores actually predict sales.

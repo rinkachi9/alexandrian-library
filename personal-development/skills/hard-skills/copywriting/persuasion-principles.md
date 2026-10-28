@@ -30,6 +30,20 @@ Robert Cialdini described six principles in *Influence* (first edition 1984) and
 | Scarcity | People value what is rare or disappearing | Limited stock, a real deadline |
 | Unity | People favor those who share their identity | "For runners, by runners" |
 
+Cialdini's seven principles:
+
+```mermaid
+mindmap
+  root((Influence))
+    Reciprocity
+    Commitment and consistency
+    Social proof
+    Liking
+    Authority
+    Scarcity
+    Unity
+```
+
 ### Social proof
 
 *Social proof* is the tendency to use other people's behavior as evidence of what is correct, especially under uncertainty. In a field experiment in a hotel, Goldstein, Cialdini and Griskevicius (2008) found that a card saying most guests reused their towels led to more towel reuse than a card with a standard environmental message. A replication in two German hotels (Bohner and Schlüter, 2014) found that both kinds of message raised towel reuse compared with no message, but the descriptive norm message did not beat the standard environmental message. The general principle is well established, but the size of the effect of a single message varies a lot between settings.
@@ -40,15 +54,15 @@ Use in marketing: reviews and ratings, customer counts, case studies and testimo
 
 *Scarcity* is the tendency to value things more when they are rare or becoming unavailable. In a classic experiment, Worchel, Lee and Adewole (1975) found that cookies from a jar with few cookies were rated as more desirable than identical cookies from a jar with many. Cookies that became scarce were rated higher than those that were always scarce, and scarcity caused by demand from others raised ratings more than scarcity caused by an accident.
 
-Use in marketing: real limited editions, real deadlines, real stock levels. A countdown timer that resets, or "only 2 left" when stock is not limited, is a deceptive practice. The source notes claim that urgency "increases dopamine levels". That is a loose reading of neuroscience and is not a basis for writing copy.
+Use in marketing: real limited editions, real deadlines, real stock levels. A countdown timer that resets, or "only 2 left" when stock is not limited, is a deceptive practice. A popular claim says that urgency "increases dopamine levels". That is a loose reading of neuroscience and is not a basis for writing copy.
 
 ### Anchoring
 
-*Anchoring* is the influence of an initial number on a later estimate, even when the number is irrelevant. Tversky and Kahneman (1974) described it in their work on heuristics and biases. In pricing, showing a premium option first makes the standard option look cheaper. The source notes describe this as presenting a high-value option first. The effect replicates well in laboratory studies, but its size depends on how plausible the anchor is and how much the buyer knows about prices.
+*Anchoring* is the influence of an initial number on a later estimate, even when the number is irrelevant. Tversky and Kahneman (1974) described it in their work on heuristics and biases. In pricing, showing a premium option first makes the standard option look cheaper. The effect replicates well in laboratory studies, but its size depends on how plausible the anchor is and how much the buyer knows about prices.
 
 ### Loss aversion
 
-*Loss aversion* is the tendency for a loss to feel larger than a gain of the same size. It is part of prospect theory (Kahneman and Tversky, 1979). The source notes suggest framing benefits as avoiding a loss ("Don't miss out"). The evidence is debated: Gal and Rucker (2018) argued that loss aversion is much less general than textbooks claim, and Mrkva, Johnson, Gächter and Herrmann (2020) replied that it is real but depends on factors such as the size of the stakes. A fair summary is that loss framing can help, especially with larger stakes, but it is not a reliable two-to-one multiplier.
+*Loss aversion* is the tendency for a loss to feel larger than a gain of the same size. It is part of prospect theory (Kahneman and Tversky, 1979). Copywriters often frame benefits as avoiding a loss ("Don't miss out"). The evidence is debated: Gal and Rucker (2018) argued that loss aversion is much less general than textbooks claim, and Mrkva, Johnson, Gächter and Herrmann (2020) replied that it is real but depends on factors such as the size of the stakes. A fair summary is that loss framing can help, especially with larger stakes, but it is not a reliable two-to-one multiplier.
 
 ### Choice overload
 
@@ -66,11 +80,28 @@ The source advises against overloading the audience with information. A related 
 | Urgency works by raising dopamine | Not supported as stated |
 | People decide emotionally and justify logically | Simplification of research on emotion in decisions |
 
+The claims from the table, grouped by the strength of the evidence:
+
+```mermaid
+mindmap
+  root((Evidence))
+    Established
+      Social proof
+      Scarcity, context dependent
+      Anchoring, size varies
+    Debated
+      Loss aversion strength
+      Choice overload
+    Simplified or unsupported
+      Emotion first, logic later
+      Urgency raises dopamine
+```
+
 ### Ethics and dark patterns
 
 *Dark patterns* are interface designs that steer users into decisions they would not otherwise make, for example fake countdown timers, hidden costs, pre-ticked boxes or cancellation flows that are much harder than signing up. Mathur and colleagues (2019) crawled about 53,000 product pages from about 11,000 shopping sites and found 1,818 instances of dark patterns on 1,254 sites (about 11%), with more popular sites more likely to use them. In the EU, Article 25 of the Digital Services Act (Regulation 2022/2065) prohibits online platforms from designing interfaces that deceive or manipulate users, alongside the Unfair Commercial Practices Directive. In the US, the FTC treats many such designs as deceptive practices.
 
-The source notes make the point that ethical persuasion informs and empowers people to make decisions that are right for them. A useful test: would the customer feel fine if they saw exactly how and why the page was designed this way?
+Ethical persuasion informs and empowers people to make decisions that are right for them. A useful test: would the customer feel fine if they saw exactly how and why the page was designed this way?
 
 ## Worked example
 
@@ -123,4 +154,4 @@ Hints: question 3 concerns the size of the stakes.
 - Mathur, A., Acar, G., Friedman, M. J., Lucherini, E., Mayer, J., Chetty, M., & Narayanan, A. (2019). Dark patterns at scale: Findings from a crawl of 11K shopping websites. *Proceedings of the ACM on Human-Computer Interaction*, 3(CSCW), 81. [doi:10.1145/3359183](https://doi.org/10.1145/3359183). Prevalence of dark patterns.
 - Regulation (EU) 2022/2065 (Digital Services Act), Article 25. [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2022/2065/oj). The EU prohibition of manipulative interface design.
 
-TODO: Verify the page ranges of Gal and Rucker (2018) and Mrkva et al. (2020) against the original papers. The descriptions of most studies here come from abstracts and secondary summaries.
+TODO: Verify the page range of Gal and Rucker (2018) against the original paper. The descriptions of most studies here come from abstracts and secondary summaries.

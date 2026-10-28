@@ -28,7 +28,7 @@ Before the web, a company that wanted attention mostly rented it: it paid a news
 
 ### A short history
 
-Publishing to earn customers is older than the web. Frequently cited examples are John Deere's farming magazine *The Furrow*, first published in 1895, and the *Michelin Guide*, first published in 1900 to encourage motorists to drive more (and so to buy more tires). The terms *inbound marketing* (popularized by HubSpot's founders, Halligan and Shah, in 2009) and *content marketing* (popularized by the Content Marketing Institute from about 2010) named the online version: attract people with useful content instead of interrupting them.
+Publishing to earn customers is older than the web. Frequently cited examples are John Deere's farming magazine *The Furrow*, which Deere dates to 1895 (no copy of the first issue has been located), and the *Michelin Guide*, first published in 1900 to encourage motorists to drive more (and so to buy more tires). The terms *inbound marketing* (popularized by HubSpot's founders, Halligan and Shah, in 2009) and *content marketing* (popularized by the Content Marketing Institute from about 2010) named the online version: attract people with useful content instead of interrupting them.
 
 ### Audience groups
 
@@ -39,7 +39,7 @@ The audience is wider than current buyers. It includes:
 - **customers**, who buy and can be kept,
 - **influencers and advocates**, who do not necessarily buy but recommend.
 
-Each group is at a different stage of its relationship with the company, so each needs different content. The source notes stress that the audience includes all of them, not only buyers.
+Each group is at a different stage of its relationship with the company, so each needs different content. The audience includes all of them, not only buyers.
 
 ### Content across the buyer journey
 
@@ -51,13 +51,24 @@ Each group is at a different stage of its relationship with the company, so each
 | Retention | "How do I get more from what I bought?" | Tutorials, newsletters, community | Monthly email with one new tea and recipe |
 | Advocacy | "Would I recommend it?" | Shareable content, referral programs | Gift guide that customers forward |
 
+The buyer journey stages from the table. Advocacy brings new readers into awareness.
+
+```mermaid
+flowchart LR
+  A[Awareness] --> C[Consideration]
+  C --> D[Decision]
+  D --> R[Retention]
+  R --> V[Advocacy]
+  V -.-> A
+```
+
 ### Earning attention
 
-A company is not entitled to attention. The source notes put it this way: it must be earned through engaging and valuable content, and even "boring" fields such as dentistry or accounting are interesting to the people who need them. The techniques named in the source are storytelling, humor and addressing the audience's frustrations directly. How attention is captured in practice is covered in [headlines](headlines.md), [capturing attention](capturing-attention.md) and [storytelling](storytelling.md).
+A company is not entitled to attention. Attention must be earned through engaging and valuable content, and even "boring" fields such as dentistry or accounting are interesting to the people who need them. The usual techniques are storytelling, humor and addressing the audience's frustrations directly. How attention is captured in practice is covered in [headlines](headlines.md), [capturing attention](capturing-attention.md) and [storytelling](storytelling.md).
 
 ### Creativity and passion
 
-Formulaic, "cookie-cutter" content is easy to produce and easy to ignore. The source notes advise finding people inside the organization (founders, salespeople, support staff) or among customers who care about the mission and building content around what they know. If nobody in the organization cares, the lack of good content is a symptom of a deeper problem, not a writing problem.
+Formulaic, "cookie-cutter" content is easy to produce and easy to ignore. A better approach is to find people inside the organization (founders, salespeople, support staff) or among customers who care about the mission, and to build content around what they know. If nobody in the organization cares, the lack of good content is a symptom of a deeper problem, not a writing problem.
 
 ### Role of the content marketer
 
@@ -72,7 +83,7 @@ The content marketer acts as the scribe or voice of the organization. In practic
 
 A distinction from marketing practice separates *owned* media (channels the company controls, such as its website and email list), *earned* media (attention given by others, such as shares, reviews and press) and *paid* media (advertising). Content marketing is built on owned media, uses earned media to spread and may use paid media to start. Moving an audience to owned media gives control: a platform can change its algorithm, but an email list stays yours (see [email marketing](email-marketing.md) and the "content home base" in the [7A framework](seven-a-framework.md#attention)).
 
-### Core principles from the source notes
+### Core principles
 
 - Earn attention rather than assume it.
 - Serve every audience group, with content matched to its stage.
@@ -125,6 +136,6 @@ Hints: question 3 concerns owned media and platform dependence.
 - Content Marketing Institute. What is content marketing? [contentmarketinginstitute.com](https://contentmarketinginstitute.com/what-is-content-marketing/). The industry definition used in this note.
 - Halligan, B., & Shah, D. (2009). *Inbound Marketing: Get Found Using Google, Social Media, and Blogs*. Wiley. The inbound approach.
 - Pew Research Center (2025). Google users are less likely to click on links when an AI summary appears in the results. [pewresearch.org](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/). Browsing data on AI summaries and clicks.
-- University of California, Davis. Content Marketing (online course on Coursera). [coursera.org](https://www.coursera.org/learn/content-marketing). The course the source notes appear to follow.
+- University of California, Davis. Content Marketing (online course on Coursera). [coursera.org](https://www.coursera.org/learn/content-marketing). A course that teaches these principles.
 
-TODO: Confirm the first publication years of The Furrow (1895) and the Michelin Guide (1900) from primary or archival sources. Confirm the exact 8% and 15% figures on the Pew page itself. The owned, earned and paid distinction is practitioner vocabulary and needs a primary source.
+TODO: Confirm the first edition year of the Michelin Guide (1900) from an archival source. The owned, earned and paid distinction is practitioner vocabulary and needs a primary source.

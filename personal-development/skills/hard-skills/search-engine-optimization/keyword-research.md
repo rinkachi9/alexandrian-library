@@ -27,20 +27,32 @@ A *keyword* (or *query*) is a word or phrase a person types or speaks into a sea
 | Transactional | Buy or act now | "buy sencha 100g" | Product or category page |
 | Navigational | Reach a specific site | "shopname login" | The site's own page |
 
-The most reliable way to judge intent is to look at the current top results: if they are all product pages, an article will struggle, and vice versa. The source notes give the example of a bridal shop: "ball gown wedding dresses" fits its intent, "work dresses" does not.
+The most reliable way to judge intent is to look at the current top results: if they are all product pages, an article will struggle, and vice versa. Take a bridal shop as an example: "ball gown wedding dresses" fits its intent, "work dresses" does not.
 
 ### The four factors
 
 1. **Volume.** How many searches per month. Tools such as Google Keyword Planner (free with a Google Ads account, often showing ranges), Ahrefs and Semrush (paid) give estimates. They differ from each other and from reality, and seasonal queries vary through the year.
 2. **Competition.** How hard it is to rank. Tools show a *keyword difficulty* score based mostly on the links of top-ranking pages. Check manually: are the top results from very strong sites? Do they answer the query well?
-3. **Relevance.** Would your page genuinely satisfy the query? The source notes put it plainly: stick to keywords your products would genuinely satisfy.
+3. **Relevance.** Would your page genuinely satisfy the query? The rule is simple: stick to keywords your products would genuinely satisfy.
 4. **Intent.** Does the query show the kind of intent your page can serve?
 
 A query with a lower volume but exact relevance and intent is usually worth more than a large, vague one.
 
+Relevance and intent act as filters, while volume and competition set the priority among the keywords that pass.
+
+```mermaid
+flowchart LR
+  I[Keyword ideas] --> R{Relevant to your page?}
+  R -- no --> X[Drop]
+  R -- yes --> N{Intent matches page type?}
+  N -- no --> X
+  N -- yes --> P[Prioritize by volume and competition]
+  P --> M[Keyword map]
+```
+
 ### Head and long-tail queries
 
-*Head terms* are short, broad, high-volume queries ("tea"). *Long-tail queries* are longer and more specific ("loose leaf green tea for cold brew"). Individually they have low volume, but together they make up a large share of searches, they are easier to rank for, and they often show clearer intent. New sites usually start with long-tail queries.
+*Head terms* are short, broad, high-volume queries ("tea"). *Long-tail queries* are longer and more specific ("loose leaf green tea for cold brew"). Individually they have low volume. In a 2023 Backlinko analysis of 306 million keywords from keyword tools, 91.8% of distinct queries were long-tail, but they accounted for only 3.3% of total search volume, because keyword tools miss most rare queries. So long-tail queries are the large majority of distinct searches, while head terms still carry much of the measured volume. Long-tail queries are easier to rank for and often show clearer intent. New sites usually start with long-tail queries.
 
 ### Sources of keyword ideas
 
@@ -53,13 +65,23 @@ A query with a lower volume but exact relevance and intent is usually worth more
 
 ### Related terms and the LSI myth
 
-The source notes recommend "LSI keywords". *Latent semantic indexing* (LSI) is an information retrieval method from the late 1980s. Google's John Mueller stated in 2019 that there is no such thing as LSI keywords in Google. The useful idea behind the advice remains: a thorough page naturally covers the related terms, attributes and sub-questions that searchers care about. For a blender, terms such as "14 speeds", "450 W" and "1.4 l glass jar" that appear across many listings show what buyers compare. Include them because they describe the product, not because of a supposed algorithm.
+Many SEO guides recommend "LSI keywords". *Latent semantic indexing* (LSI) is an information retrieval method from the late 1980s. Google's John Mueller stated in 2019 that there is no such thing as LSI keywords in Google. The useful idea behind the advice remains: a thorough page naturally covers the related terms, attributes and sub-questions that searchers care about. For a blender, terms such as "14 speeds", "450 W" and "1.4 l glass jar" that appear across many listings show what buyers compare. Include them because they describe the product, not because of a supposed algorithm.
 
 ### Topic clusters and the keyword map
 
 Related queries are grouped into *topics*. One page should serve a cluster of queries with the same intent ("green tea bitter", "why does green tea taste bitter", "green tea too bitter fix"). Two pages targeting the same intent compete with each other, a problem known as *keyword cannibalization*.
 
 A *topic cluster* is a set of pages around one subject: a broad *pillar page* linked to several detailed pages, each linking back. It helps readers and search engines understand the structure (see [SEO content and blogging](seo-content-and-blogging.md)).
+
+A topic cluster on a tea shop example: one pillar page for the broad topic, linked both ways with pages for narrower queries.
+
+```mermaid
+flowchart TB
+  P[Pillar: green tea guide] --- A[Why green tea turns bitter]
+  P --- B[Sencha vs matcha]
+  P --- C[Category: green tea]
+  C --- D[Product: sencha 100g]
+```
 
 ### Prioritization
 
@@ -124,5 +146,4 @@ A shop selling loose leaf tea builds a keyword map for its green tea section.
 - Google Ads Help. Use Keyword Planner. [support.google.com](https://support.google.com/google-ads/answer/7337243). The free keyword tool and its estimates.
 - Google Search Central. SEO Starter Guide. [developers.google.com](https://developers.google.com/search/docs/fundamentals/seo-starter-guide). Thinking about the words users search for.
 - Schwartz, B. (2019). Google: There is no such thing as LSI keywords. Search Engine Roundtable. [seroundtable.com](https://www.seroundtable.com/google-lsi-keywords-27970.html). John Mueller's statement.
-
-TODO: Find a research source on the share of long-tail queries in total search volume. The claim here is widely repeated practitioner knowledge.
+- Dean, B. (2023). We analyzed 306M keywords. Backlinko. [backlinko.com](https://backlinko.com/google-keyword-study). Share of long-tail queries in keyword tool data. Vendor data based on keyword tools, not raw search logs.

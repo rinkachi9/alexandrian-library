@@ -36,6 +36,17 @@ An ideal customer profile (ICP) describes the kind of organization or person tha
 
 New businesses without clients start with a hypothesis from market research and interviews, then revise it after the first clients.
 
+Building an ICP from your own client list:
+
+```mermaid
+flowchart LR
+  L[List clients] --> S[Score on value and fit]
+  S --> B[Best and worst 20%]
+  B --> C[Compare characteristics]
+  C --> I[Interview best clients]
+  I --> W[Write profile and disqualifiers]
+```
+
 ### ICP template (B2B)
 
 | Dimension | Example: bookkeeping service for creatives |
@@ -51,7 +62,7 @@ New businesses without clients start with a hypothesis from market research and 
 
 ### Buyer personas
 
-In B2B, a purchase often involves a *buying group*: the person who feels the problem, the decision maker, the budget holder, technical evaluators and sometimes procurement or legal. Gartner has described buying groups of typically six to ten people for complex B2B solutions. Each role has different questions:
+In B2B, a purchase often involves a *buying group*: the person who feels the problem, the decision maker, the budget holder, technical evaluators and sometimes procurement or legal. Gartner has described buying groups of typically six to ten people for complex B2B solutions (a figure repeated widely in secondary summaries; other studies count more people). Each role has different questions:
 
 | Role | Main concern |
 | --- | --- |
@@ -123,5 +134,3 @@ A small web development agency analyzes its 24 clients from three years (invente
 - Revella, A. (2015). *Buyer Personas*. Wiley. Building personas from interviews.
 - Gartner. The B2B buying journey. [gartner.com](https://www.gartner.com/en/sales/insights/b2b-buying-journey). Buying groups in B2B.
 - Christensen, C. M., Hall, T., Dillon, K., & Duncan, D. S. (2016). Know your customers' "jobs to be done". *Harvard Business Review*. [hbr.org](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done). Jobs as a basis for segmentation.
-
-TODO: Confirm the Gartner figure of six to ten people in a buying group on Gartner's page.

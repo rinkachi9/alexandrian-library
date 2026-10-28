@@ -29,6 +29,20 @@ Technical SEO is the work that lets search engines crawl, render and index a sit
 - **Canonical URL** (`<link rel="canonical" href="...">`) names the main version of a set of duplicate or near-duplicate URLs. Google treats it as a strong hint, alongside redirects, internal links and sitemaps.
 - **Duplicates** arise from URL variants (with and without `www`, trailing slashes, parameters, upper and lower case), printer versions, and products in several categories. Pick one canonical form and make all signals point to it.
 
+Crawling control and indexing control act at different steps, which is why a page blocked in robots.txt cannot show its noindex tag.
+
+```mermaid
+flowchart LR
+  S[Sitemap and internal links] --> C{robots.txt allows?}
+  C -- no --> N[Not fetched]
+  C -- yes --> F[Fetched]
+  F --> X{noindex?}
+  X -- yes --> O[Kept out of index]
+  X -- no --> K{Canonical points elsewhere?}
+  K -- yes --> D[Signals go to canonical]
+  K -- no --> I[Indexed]
+```
+
 ### HTTP status codes and redirects
 
 | Code | Meaning | SEO use |
@@ -67,6 +81,16 @@ Common fixes:
 - LCP: compress and correctly size images, serve them in modern formats, preload the main image, reduce server response time, use a content delivery network.
 - INP: reduce and split long JavaScript tasks, remove unnecessary third-party scripts.
 - CLS: reserve space for images, ads and embeds with explicit dimensions, avoid inserting content above existing content.
+
+The chart shows the "good" thresholds of the two time-based Core Web Vitals from the table. CLS has no time unit and is left out.
+
+```mermaid
+xychart-beta
+  title "Core Web Vitals: good thresholds (ms)"
+  x-axis [LCP, INP]
+  y-axis "Milliseconds" 0 --> 3000
+  bar [2500, 200]
+```
 
 ### Security and international sites
 
@@ -128,5 +152,3 @@ Common results of such migrations are a temporary dip in traffic while signals m
 - web.dev. Web Vitals. [web.dev](https://web.dev/articles/vitals). Definitions and thresholds of the Core Web Vitals.
 - web.dev (2024). Interaction to Next Paint becomes a Core Web Vital on March 12. [web.dev](https://web.dev/blog/inp-cwv-march-12). The change from FID to INP.
 - Google Search Central Blog (2024). Mobile indexing vLast final final. [developers.google.com](https://developers.google.com/search/blog/2024/06/mobile-indexing-vlast-final-final.doc). The end of desktop crawling.
-
-TODO: Confirm the Core Web Vitals thresholds and the 75th percentile rule on web.dev directly (not reachable from the working environment).

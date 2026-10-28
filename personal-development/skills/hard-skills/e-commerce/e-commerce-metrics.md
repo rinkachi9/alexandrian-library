@@ -12,7 +12,7 @@ E-commerce metrics turn a shop's activity into numbers that show whether it is h
 
 ### Definition
 
-An *e-commerce metric* is a defined, repeatable measure of some part of an online business: visitors, orders, revenue, costs, customers. A *key performance indicator* (KPI) is a metric chosen to judge progress toward a goal. The source notes describe e-commerce analytics as using data to improve sales and customer experience.
+An *e-commerce metric* is a defined, repeatable measure of some part of an online business: visitors, orders, revenue, costs, customers. A *key performance indicator* (KPI) is a metric chosen to judge progress toward a goal. *E-commerce analytics* is the use of these data to improve sales and customer experience.
 
 *Analogy.* Metrics are the instruments in a car. The speedometer (revenue) tells you how fast you go, the fuel gauge (cash and margin) whether you can keep going, the engine temperature (returns, complaints) whether something is about to break. Watching only the speedometer can drive you into a breakdown. The analogy breaks because car instruments are calibrated by the manufacturer, while business metrics are defined by you, and a badly defined metric shows a wrong reading without any warning light.
 
@@ -25,6 +25,18 @@ revenue = sessions × conversion rate × average order value
 - *Average order value* (AOV): revenue divided by orders.
 
 The equation shows three separate levers: more traffic (marketing), more of it buying (product pages, checkout, trust), and larger orders (bundles, thresholds, cross-selling).
+
+The equation as a tree. Each lever has its own set of actions:
+
+```mermaid
+flowchart TB
+  R[Revenue] --> S[Sessions]
+  R --> C[Conversion rate]
+  R --> A[Average order value]
+  S --> S1[Marketing]
+  C --> C1[Product pages, checkout, trust]
+  A --> A1[Bundles, thresholds, cross-selling]
+```
 
 ### Funnel metrics
 
@@ -142,4 +154,4 @@ Hints: question 2: CAC 20, MER 5, contribution 13,500 (27 per order).
 - Fader, P. S., & Hardie, B. G. S. (2009). Probability models for customer-base analysis. *Journal of Interactive Marketing*, 23(1), 61-69. [doi:10.1016/j.intmar.2008.11.003](https://doi.org/10.1016/j.intmar.2008.11.003). An introduction to models of customer lifetime value.
 - Gupta, S., Hanssens, D., Hardie, B., Kahn, W., Kumar, V., Lin, N., Ravishanker, N., & Sriram, S. (2006). Modeling customer lifetime value. *Journal of Service Research*, 9(2), 139-155. [doi:10.1177/1094670506293810](https://doi.org/10.1177/1094670506293810). Review of CLV modeling approaches.
 
-TODO: Verify the DOIs of Fader and Hardie (2009) and Gupta et al. (2006). Find a source for the origin of the 3:1 LTV to CAC rule of thumb, or keep it marked as practitioner convention.
+TODO: Verify the DOIs of Fader and Hardie (2009) and Gupta et al. (2006) (the volume and pages of Fader and Hardie are confirmed). Find a source for the origin of the 3:1 LTV to CAC rule of thumb, or keep it marked as practitioner convention.

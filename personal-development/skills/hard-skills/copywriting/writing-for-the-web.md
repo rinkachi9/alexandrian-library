@@ -22,6 +22,16 @@ People read on screens by scanning: they look at headings, the start of paragrap
 - **The F-pattern.** Eye-tracking studies by the Nielsen Norman Group (2006) found that on text-heavy pages many users read across the top, then across a shorter line below, then scan down the left side, forming a rough F. Later work stressed that the pattern appears when pages are poorly formatted, and that good headings and lists change it.
 - **Concise, scannable, objective.** In the companion study by Morkes and Nielsen (1997), a sample site rewritten to be concise, scannable and objective measured 124% better usability than the original. The study used one site and one text, so the size of the gain is an illustration, not a law.
 
+The chart shows the two shares from Nielsen's 1997 tests.
+
+```mermaid
+xychart-beta
+  title "Reading behavior in Nielsen's 1997 tests (%)"
+  x-axis ["Always scanned", "Read word by word"]
+  y-axis "Percent of users" 0 --> 100
+  bar [79, 16]
+```
+
 ### Structure: conclusion first
 
 The *inverted pyramid*, taken from news writing, puts the most important information first and details later. For copy this means: the benefit or the answer in the first sentence, the supporting detail after. A reader who stops after one paragraph should still have the main message.
@@ -106,9 +116,21 @@ Most good copy is rewritten several times. A practical sequence of editing passe
 6. **Read aloud.** Awkward rhythm and missing words show up when spoken.
 7. **Proofread** last, preferably after a break or by someone else.
 
+The editing passes go from the largest unit to the smallest:
+
+```mermaid
+flowchart LR
+  A[Purpose] --> B[Structure]
+  B --> C[Claims]
+  C --> D[Sentences]
+  D --> E[Words]
+  E --> F[Read aloud]
+  F --> G[Proofread]
+```
+
 ### Accessibility
 
-Accessible copy can be used by people with disabilities, including people using screen readers, people with cognitive disabilities and people reading in a second language. The Web Content Accessibility Guidelines (WCAG 2.2, W3C, 2023) include requirements that concern text: meaningful link text, descriptive headings and labels, text alternatives for images, and clear error identification. In the EU, the European Accessibility Act (Directive (EU) 2019/882) applies since 28 June 2025 to e-commerce services offered to consumers, with exemptions for microenterprises providing services. Clear writing is therefore partly a legal requirement for many online shops.
+Accessible copy can be used by people with disabilities, including people using screen readers, people with cognitive disabilities and people reading in a second language. The Web Content Accessibility Guidelines (WCAG 2.2, W3C, 2023) include requirements that concern text: meaningful link text, descriptive headings and labels, text alternatives for images, and clear error identification. In the EU, the European Accessibility Act (Directive (EU) 2019/882) applies since 28 June 2025 to e-commerce services offered to consumers, with an exemption for microenterprises (fewer than 10 employees and annual turnover or balance sheet total of at most 2 million euros) that provide services. Products sold by microenterprises are still covered. Clear writing is therefore partly a legal requirement for many online shops.
 
 ## Worked example
 
@@ -160,5 +182,3 @@ The edited version answers the three questions buyers ask (when, how long, how m
 - ISO 24495-1:2023. Plain language, Part 1: Governing principles and guidelines. [iso.org](https://www.iso.org/standard/78907.html). The international plain language standard.
 - W3C (2023). Web Content Accessibility Guidelines (WCAG) 2.2. [w3.org](https://www.w3.org/TR/WCAG22/). Accessibility requirements for web content.
 - Directive (EU) 2019/882 on the accessibility requirements for products and services (European Accessibility Act). [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2019/882/oj). Accessibility of e-commerce services in the EU.
-
-TODO: Verify the URLs of the 2006 F-pattern article and the ISO 24495-1 catalog page, and the exact scope of the microenterprise exemption in the European Accessibility Act.

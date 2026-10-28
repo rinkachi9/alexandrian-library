@@ -32,20 +32,20 @@ sequenceDiagram
 
 The diagram shows that the retailer never touches the product, but stays the customer's only contact.
 
-The source notes describe the process in six steps: research and select reliable suppliers, choose products that fit the brand and audience, negotiate terms (price, delivery time, returns), list the products with good descriptions and photos, forward orders for fulfillment, and handle customer service, including complaints and returns. Good communication with suppliers is what the model depends on.
+The process has six steps: research and select reliable suppliers, choose products that fit the brand and audience, negotiate terms (price, delivery time, returns), list the products with good descriptions and photos, forward orders for fulfillment, and handle customer service, including complaints and returns. Good communication with suppliers is what the model depends on.
 
 ### Levels of dropshipping
 
-The source notes describe three levels, which correspond to growing control and cost:
+Dropshipping suppliers fall into three levels, which correspond to growing control and cost:
 
-1. **Common suppliers.** Products from general marketplaces and dropshipping platforms (the source lists AliExpress, Zendrop, Spocket and dropshipping.com). Easy to start, but delivery from overseas warehouses can take weeks, products are generic and competitors sell the same items.
+1. **Common suppliers.** Products from general marketplaces and dropshipping platforms (for example AliExpress, Zendrop, Spocket and dropshipping.com). Easy to start, but delivery from overseas warehouses can take weeks, products are generic and competitors sell the same items.
 2. **Sourcing agent.** Once the store has steady customers, an agent near the manufacturers (often in China) handles relations with factories, quality checks and shipping. This allows branded packaging, lower costs and faster, consolidated shipping.
 3. **Local fulfillment.** Stock is held in or near the customers' country, in your own warehouse or with a third-party logistics provider. Products are more expensive and you must buy stock in advance, but delivery is faster and quality is easier to control. At this level the business is close to ordinary retail or to [private label](private-label.md).
 
 ### How to start
 
-1. **Pick a niche.** A store that sells whatever is trending does not build a loyal audience, because people are only briefly interested. A specific category (the source's example is beauty and self-care) lets you understand the audience and offer related products. Familiarity with the niche helps predict tastes.
-2. **Pick a target country.** The source notes list target markets used in the course they follow: the United States and Canada, the United Kingdom, Australia and New Zealand, Germany, Austria and Switzerland, France, the Netherlands, Belgium, Italy, Mexico, Spain, Portugal, Poland, Sweden, Norway, Denmark and Finland. The list has no stated criteria. Useful criteria are purchasing power, the cost of advertising, language, delivery times from your suppliers, and the consumer, tax and customs rules of the country.
+1. **Pick a niche.** A store that sells whatever is trending does not build a loyal audience, because people are only briefly interested. A specific category (for example beauty and self-care) lets you understand the audience and offer related products. Familiarity with the niche helps predict tastes.
+2. **Pick a target country.** Dropshipping courses commonly target these markets: the United States and Canada, the United Kingdom, Australia and New Zealand, Germany, Austria and Switzerland, France, the Netherlands, Belgium, Italy, Mexico, Spain, Portugal, Poland, Sweden, Norway, Denmark and Finland. The list has no stated criteria. Useful criteria are purchasing power, the cost of advertising, language, delivery times from your suppliers, and the consumer, tax and customs rules of the country.
 3. **Choose products and suppliers,** validate demand with test ads, then build the store.
 
 ### Unit economics
@@ -66,8 +66,8 @@ This note is educational and is not legal advice.
 Classic dropshipping relied on cheap parcels shipped from Asia to consumers. Several rule changes made that harder. The full treatment of cross-border law is in [e-commerce law and cross-border](e-commerce-law-and-cross-border.md); the points that matter most for dropshipping are:
 
 - **EU VAT, July 2021.** The exemption from import VAT for goods worth up to 22 euros was abolished on 1 July 2021. VAT is now due on all imported goods. The optional *Import One-Stop Shop* (IOSS) lets sellers of consignments worth up to 150 euros collect VAT at checkout and declare it in one EU country. Non-EU sellers generally need an EU intermediary to use it.
-- **EU customs duty, July 2026.** Goods under 150 euros were exempt from customs duty. Since 1 July 2026 a temporary flat duty of 3 euros applies per item category in a low-value parcel, until the exemption is removed permanently as part of the EU customs reform (expected around 2028).
-- **US de minimis, 2025.** The United States allowed duty-free entry of shipments worth up to 800 dollars. The exemption was suspended for goods from China and Hong Kong from 2 May 2025 and for all countries from 29 August 2025 (Executive Order 14324), so duties now apply to small parcels.
+- **EU customs duty, July 2026.** Goods under 150 euros were exempt from customs duty. Since 1 July 2026 a temporary flat duty of 3 euros applies per item category in a low-value parcel, until 1 July 2028, when the exemption is to be removed permanently as part of the EU customs reform (checked 2026-10).
+- **US de minimis, 2025.** The United States allowed duty-free entry of shipments worth up to 800 dollars. The exemption was suspended for goods from China and Hong Kong from 2 May 2025 and for all countries from 29 August 2025 (Executive Order 14324). CBP made the suspension indefinite by rules of 24 June 2026, and by statute the exemption ends on 1 July 2027, so duties apply to small parcels (checked 2026-10).
 
 Checked 2026-10 through search summaries of official and professional sources. These rules change often.
 
@@ -116,7 +116,7 @@ Hints: question 4: the margin falls to 9.37 euros and the break-even ROAS rises 
 - European Commission. VAT e-commerce package. [taxation-customs.ec.europa.eu](https://taxation-customs.ec.europa.eu/taxation/vat/vat-e-commerce_en). The 2021 VAT rules and IOSS.
 - European Commission (2026). Ensuring fairness and safety: 3 euro customs duty on low value parcels. [commission.europa.eu](https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en). The temporary duty from July 2026.
 - Executive Order 14324, Suspending duty-free de minimis treatment for all countries. *Federal Register*, 90(167), 2 September 2025. [govinfo.gov](https://www.govinfo.gov/content/pkg/FR-2025-09-02/html/2025-16802.htm). The end of the US de minimis exemption.
+- U.S. Customs and Border Protection (2026). Indefinite suspension of the de minimis exemption. *Federal Register*, 24 June 2026. [federalregister.gov](https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other). The 2026 rule.
 - U.S. Federal Trade Commission. Mail, Internet, or Telephone Order Merchandise Rule. [ftc.gov](https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule). Shipping time obligations in the US.
 
-TODO: Verify the 2026 status of the US de minimis suspension (one secondary source mentions further executive orders in February 2026) and the planned end date of the EU 150 euro duty exemption, against official sources.
-TODO: The supplier platforms and target countries come from the source notes. Check that the platforms still operate before relying on the list.
+TODO: Check that the platforms still operate before relying on the list.

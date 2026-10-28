@@ -41,6 +41,15 @@ Keep it as short as the decision allows. Executives often read the first page an
 
 *Value-based pricing* starts from the economic value of the result to the client: revenue gained, costs saved, risk reduced. If a project is expected to recover 40,000 PLN a month in lost sales, a price of 30,000 is easy to justify, while the same work priced at hours × rate might be 12,000. Value is estimated in discovery (see the implication questions in [sales conversations](sales-conversations.md#spin-questions)).
 
+The three approaches start from different reference points:
+
+```mermaid
+flowchart TB
+  P{Price set from} -->|Your costs| C[Cost-plus]
+  P -->|Competitors| M[Market-based]
+  P -->|Client's value| V[Value-based]
+```
+
 ### Pricing models for services
 
 - **Hourly or daily rate:** flexible, transparent, and caps your income at your hours. Clients bear the risk of overruns.

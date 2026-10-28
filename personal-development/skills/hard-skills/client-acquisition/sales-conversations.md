@@ -18,7 +18,7 @@ A *sales conversation* is any conversation between a seller and a potential buye
 
 ### Research behind consultative selling
 
-Neil Rackham's *SPIN Selling* (1988) is based on research by the Huthwaite company that observed a large number of sales calls (the publisher describes 35,000) in many industries over about twelve years. The main findings concerned large, complex sales:
+Neil Rackham's *SPIN Selling* (1988) is based on research by the Huthwaite company that observed a large number of sales calls (the publisher describes more than 35,000 calls by 10,000 salespeople in 23 countries) over about twelve years. The main findings concerned large, complex sales:
 
 - Closing techniques that work in small, one-call sales tend to reduce success in large sales.
 - Successful salespeople asked more questions, and specifically more questions about implications of problems and about the value of solving them.
@@ -36,6 +36,15 @@ The study predates modern online buying, and its data were collected and analyze
 | Need-payoff | Let the buyer state the value of solving it | "If receipts were captured the moment you got them, what would that change for you?" |
 
 Rackham observed that situation questions are necessary but overused, and that implication and need-payoff questions were most associated with success in large sales. Need-payoff questions let the buyer describe the benefit in their own words, which is more persuasive than the seller saying it.
+
+The four SPIN question types move from facts to value:
+
+```mermaid
+flowchart LR
+  S[Situation] --> P[Problem]
+  P --> I[Implication]
+  I --> N[Need-payoff]
+```
 
 ### Structure of a discovery call
 
@@ -105,5 +114,3 @@ A web agency's discovery call with an online shop owner (abbreviated, invented).
 - Rackham, N. (1988). *SPIN Selling*. McGraw-Hill. The research and the SPIN model.
 - Dixon, M., & Adamson, B. (2011). *The Challenger Sale*. Portfolio/Penguin. CEB research on sales representatives.
 - Fisher, R., Ury, W., & Patton, B. (2011). *Getting to Yes* (3rd ed.). Penguin. Interest-based negotiation, useful for the later stages of a sale.
-
-TODO: Confirm the size and duration of the Huthwaite research from the book itself (sources differ between 35,000 calls and 35,000 transactions, and 10 or 12 years).

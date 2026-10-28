@@ -67,6 +67,15 @@ Social media often influences purchases that later happen through other channels
 
 Look for patterns across several posts, not single outliers. One viral post says little about what will work next.
 
+The analysis routine on three time scales:
+
+```mermaid
+flowchart LR
+  W["Weekly: top and bottom posts"] --> M["Monthly: trends by platform and format"]
+  M --> Q["Quarterly: goals, platform mix, content plan"]
+  Q -.-> W
+```
+
 ### Pitfalls
 
 - **Vanity metrics:** likes and followers that do not lead to goals.

@@ -22,7 +22,7 @@ A *backlink* (inbound link) is a link from another website to yours. *Link build
 
 ### PageRank
 
-Sergey Brin and Larry Page described *PageRank* in 1998: a page's importance is estimated from the number and importance of the pages linking to it, computed recursively, as if a "random surfer" clicked links forever and the score were the share of time spent on each page. A link from an important page passes more value than a link from an obscure one, and value is divided among a page's outgoing links. Google states that PageRank is still one of its signals, combined with many others, and the original formula has been refined over time.
+Sergey Brin and Larry Page described *PageRank* in 1998: a page's importance is estimated from the number and importance of the pages linking to it, computed recursively, as if a "random surfer" clicked links forever and the score were the share of time spent on each page. A link from an important page passes more value than a link from an obscure one, and value is divided among a page's outgoing links. Google's guide to its ranking systems states that PageRank has evolved a lot since launch and continues to be part of its core ranking systems, combined with many other signals (checked 2026-10).
 
 ### What makes a link valuable
 
@@ -31,6 +31,18 @@ Sergey Brin and Larry Page described *PageRank* in 1998: a page's importance is 
 - **Editorial independence:** the linking site chose to link because the content is useful.
 - **Placement:** links within the main content count more than links in footers or sidebars, by most practitioners' observation.
 - **Traffic:** links that real people click bring visitors as well as ranking signals.
+
+PageRank in a nutshell: each page passes a share of its score through its outgoing links, so a link from a page with many inbound links carries more weight.
+
+```mermaid
+flowchart LR
+  A[Page A] --> C[Page C]
+  B[Page B] --> C
+  D[Page D] --> C
+  C --> E[Your page]
+  F[Page F] --> G[Page G with few inbound links]
+  G --> E
+```
 
 ### Link attributes
 
@@ -62,7 +74,25 @@ Consequences range from links being ignored to manual actions that lower a site'
 | Unlinked mentions | Ask sites that mention you without a link to add one | Low | Polite request, no payment |
 | Broken link replacement | Find broken links on relevant pages and suggest your equivalent resource | Medium | Works when your resource is genuinely equivalent |
 
-The source notes mention guest posts and press mentions as the two main methods, and suggest analyzing backlinks with tools such as Ahrefs to find sites in your niche that accept guest posts. The source also mentions a "simple growth hack" for press mentions without describing it.
+Guest posts and press mentions are the two methods most often recommended. A practical way to find guest post opportunities is to analyze backlinks with tools such as Ahrefs to find sites in your niche that accept guest posts.
+
+The approaches from the table, grouped by effort:
+
+```mermaid
+mindmap
+  root((Ways to earn links))
+    High effort
+      Original research and data
+    Medium effort
+      Tools and resources
+      Expert content
+      Digital PR
+      Guest articles
+      Broken link replacement
+    Low effort
+      Partnerships and suppliers
+      Unlinked mentions
+```
 
 ### Outreach
 
@@ -112,5 +142,4 @@ The panel of five people is too small for strong claims, and the published metho
 - Google Search Central. Spam policies for Google web search: link spam. [developers.google.com](https://developers.google.com/search/docs/essentials/spam-policies#link-spam). Prohibited link practices.
 - Google Search Central. Qualify your outbound links to Google. [developers.google.com](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links). The nofollow, sponsored and ugc attributes.
 - Google Search Central Blog (2019). Evolving "nofollow": new ways to identify the nature of links. [developers.google.com](https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify). The 2019 change.
-
-TODO: Verify the URL of the 2019 Google blog post and the statement that PageRank remains a current signal, against Google's documentation.
+- Google Search Central. A guide to Google Search ranking systems. [developers.google.com](https://developers.google.com/search/docs/appearance/ranking-systems-guide). Lists PageRank among the core ranking systems.

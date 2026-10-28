@@ -32,7 +32,7 @@ Pre-sale questions reveal what the product page fails to explain. Useful practic
 - **Product questions:** how to use, care, assemble.
 - **Complaints and returns.**
 
-The source notes stress that even in dropshipping, where the supplier ships, the seller is responsible for customer service, including queries, complaints and returns.
+Even in dropshipping, where the supplier ships, the seller is responsible for customer service, including queries, complaints and returns.
 
 ### Service standards
 
@@ -50,7 +50,7 @@ Example targets are illustrative.
 
 ### The service recovery idea
 
-The *service recovery paradox* is the claim that customers whose problem is solved well can end up more satisfied and loyal than customers who never had a problem. Meta-analyses have found mixed evidence: some find a positive effect on satisfaction but not on repurchase intentions or loyalty, and the effect depends on the severity of the failure and the quality of the recovery (de Matos, Henrique and Rossi, 2007). The safe lesson is narrower: when something goes wrong, fast and fair recovery limits the damage. It does not justify failing on purpose.
+The *service recovery paradox* is the claim that customers whose problem is solved well can end up more satisfied and loyal than customers who never had a problem. The evidence is mixed. A meta-analysis by de Matos, Henrique and Rossi (2007) found a positive average effect on satisfaction, but no significant effect on repurchase intentions, word of mouth or corporate image. The effect on satisfaction varied with study design, the kind of participants and the service category. The safe lesson is narrower: when something goes wrong, fast and fair recovery limits the damage. It does not justify failing on purpose.
 
 ### Legal framework in the EU
 
@@ -82,6 +82,18 @@ Some retailers have started charging for returns beyond the legal minimum or for
 4. Refund or replacement within the legal deadline.
 5. Item restocked, refurbished, sold as returned stock, donated or recycled.
 6. Return reason recorded and analyzed.
+
+The returns process ends with recording the reason, so that patterns can be acted on.
+
+```mermaid
+flowchart LR
+  A[Return request] --> B[Instructions or label]
+  B --> C[Receive and inspect]
+  C --> D[Refund or replacement]
+  D --> E[Restock, resell, donate or recycle]
+  E --> F[Record and analyze reason]
+  F -.-> G[Act on patterns]
+```
 
 ## Worked example
 
@@ -134,4 +146,4 @@ A clothing shop has a 28% return rate (invented numbers). Return reasons recorde
 - European Commission. Your Europe: Guarantees and returns. [europa.eu](https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm). A plain language summary for consumers.
 - de Matos, C. A., Henrique, J. L., & Rossi, C. A. V. (2007). Service recovery paradox: A meta-analysis. *Journal of Service Research*, 10(1), 60-77. [doi:10.1177/1094670507303012](https://doi.org/10.1177/1094670507303012). Evidence on the paradox.
 
-TODO: Verify the findings and DOI of de Matos et al. (2007). Add a source on return rates by category with a date.
+TODO: Add a source on return rates by category with a date.

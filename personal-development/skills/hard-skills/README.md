@@ -1,6 +1,6 @@
 # Hard skills
 
-Skills tied to a specific task, tool, method or profession, whose results can be checked against a clear standard. This subfield belongs to [Skills](../README.md). It opens with a general note that applies to any hard skill (from welding and accounting to programming and marketing), followed by one directory per skill. The written skills come from the Skills export (marketing, sales and online research) and were extended with sources. Other hard skills are planned.
+Skills tied to a specific task, tool, method or profession, whose results can be checked against a clear standard. This subfield belongs to [Skills](../README.md). It opens with a general note that applies to any hard skill (from welding and accounting to programming and marketing), followed by one directory per skill. The written skills cover marketing, sales and online research. Other hard skills are planned.
 
 ## General note
 
@@ -21,6 +21,28 @@ Each skill has its own directory with a README, a fundamentals note and deeper n
 | [Personal branding](personal-branding/README.md) | Being known for something, by the right people | 5 |
 | [Online research](online-research/README.md) | Finding and verifying information online | 6 |
 
+## Map of the subfield
+
+The map groups the eight skills by the job they do. Online research supports all of them.
+
+```mermaid
+mindmap
+  root((Hard skills))
+    Writing and content
+      Copywriting
+      Content marketing
+    Being found
+      Search engine optimization
+      Social media
+    Selling
+      E-commerce
+      Client acquisition
+    Reputation
+      Personal branding
+    Information
+      Online research
+```
+
 ## Suggested paths
 
 - **Freelancer or consultant:** [personal branding](personal-branding/README.md), [client acquisition](client-acquisition/README.md), [copywriting](copywriting/README.md), then [content marketing](content-marketing/README.md) or [social media](social-media/README.md).
@@ -36,7 +58,7 @@ Each skill has its own directory with a README, a fundamentals note and deeper n
 - Graphic design
 - Project management
 
-The LinkedIn profile part of the Skills export is in [professional profile](../../career/job-search/professional-profile.md) in the career field, and the platform side in [LinkedIn for professionals](social-media/linkedin-for-professionals.md).
+LinkedIn profile advice is in [professional profile](../../career/job-search/professional-profile.md) in the career field, and the platform side in [LinkedIn for professionals](social-media/linkedin-for-professionals.md).
 
 ## Navigation
 

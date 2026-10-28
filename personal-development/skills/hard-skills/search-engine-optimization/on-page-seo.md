@@ -24,6 +24,28 @@ On-page SEO is the optimization of what a single page contains and how it is mar
 - **Add original value.** First-hand experience, original photos, data, examples and expert input distinguish a page from the many that summarize the same sources. Google's guidance on helpful content asks whether a page offers original information or analysis beyond the obvious.
 - **Keep it accurate and current.** Update facts, prices and dates.
 
+The parts of a page that on-page SEO works on, as covered in this note:
+
+```mermaid
+mindmap
+  root((On-page SEO))
+    Content
+      Intent
+      Answer early
+      Original value
+    Snippet
+      Title tag
+      Meta description
+    Structure
+      Headings
+      URL
+    Media
+      Images and alt text
+    Connections
+      Internal links
+      Structured data
+```
+
 ### Title tag
 
 The *title tag* (`<title>`) defines the page title. Search engines often use it as the clickable headline in results (Google calls this the *title link*).
@@ -33,7 +55,7 @@ The *title tag* (`<title>`) defines the page title. Search engines often use it 
 - Keep it short enough to display fully (often about 50 to 60 characters, but display is measured in pixels).
 - Make each title unique on the site.
 
-Since 2021 Google has generated title links from other page elements (such as the main heading) more often when it judges the title tag unhelpful, for example when it is too long, stuffed with keywords or the same on many pages.
+Since August 2021 Google has generated title links from other page elements (such as the main heading) more often when it judges the title tag unhelpful, for example when it is too long, stuffed with keywords, missing or the same on many pages. The title tag is still used most of the time: about 87% of the time after a refinement in September 2021, according to Google.
 
 ### Meta description
 
@@ -57,7 +79,7 @@ Readable, descriptive URLs (`/guides/green-tea-bitter`) are easier to understand
 
 *Internal links* connect pages within the site. They help readers find related content, help crawlers discover pages and signal which pages are important. *Anchor text* is the clickable text of a link and tells readers and search engines what the target is about.
 
-The source notes advise using the target keyword verbatim in anchor text. Descriptive anchor text is good practice, but using the identical exact phrase on every link looks unnatural. Describe the target page and vary the wording.
+A common piece of advice is to use the target keyword verbatim in anchor text. Descriptive anchor text is good practice, but using the identical exact phrase on every link looks unnatural. Describe the target page and vary the wording.
 
 ### Structured data
 
@@ -124,5 +146,4 @@ The changes make the page match the informational intent, answer at once, add or
 - Google Search Central. Influencing your title links in search results. [developers.google.com](https://developers.google.com/search/docs/appearance/title-link). How Google generates title links.
 - Google Search Central. Control your snippets in search results. [developers.google.com](https://developers.google.com/search/docs/appearance/snippet). Meta descriptions and snippets.
 - Google Search Central. Introduction to structured data markup in Google Search. [developers.google.com](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data). Structured data and rich results.
-
-TODO: Read the Google pages above directly (not reachable from the working environment) and confirm the 2021 change to title link generation.
+- Google Search Central Blog (2021). More information on how Google generates titles for web page results. [developers.google.com](https://developers.google.com/search/blog/2021/09/more-info-about-titles). How often the title tag is used.

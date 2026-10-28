@@ -54,7 +54,8 @@
       "year": 2002,
       "title": "Intention-behavior relations: A conceptual and empirical review",
       "url": "https://doi.org/10.1080/14792772143000003",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "fitzpatrick-2013",
@@ -63,7 +64,9 @@
         "Fitzpatrick, R."
       ],
       "year": 2013,
-      "title": "The Mom Test: How to Talk to Customers and Learn If Your Business Is a Good Idea When Everyone Is Lying to You"
+      "title": "The Mom Test: How to Talk to Customers and Learn If Your Business Is a Good Idea When Everyone Is Lying to You",
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "ries-2011",

@@ -39,6 +39,20 @@ Hard skills cover a very wide range. A useful grouping:
 
 The notes in this library currently cover the marketing and sales group (see [Hard skills](README.md)). Other groups are planned or belong to other fields, for example programming practice to computer science.
 
+The seven categories at a glance:
+
+```mermaid
+mindmap
+  root((Hard skills))
+    Manual and technical crafts
+    Quantitative and analytical
+    Digital and programming
+    Language
+    Professional methods
+    Marketing and sales
+    Creative and design
+```
+
 ### How hard skills are learned
 
 Hard skills follow the general path of [skill acquisition](../skill-acquisition.md): understanding the rules, practicing with feedback, then automatic performance. Their specific advantages for learning:
@@ -63,6 +77,18 @@ Common traps:
 | Track record and references | Results over time | Hard to compare across contexts |
 
 Validity figures from the revision by Sackett, Zhang, Berry and Lievens (2022) as reported in secondary summaries. They describe average predictive power across many jobs and studies, not the value of one test.
+
+The four criteria from the section on choosing skills below feed one decision. Assessment methods then turn the learned skill into evidence.
+
+```mermaid
+flowchart LR
+  M[Labor market data] --> D{Which skill to learn}
+  G[Goals and strengths] --> D
+  C[Complementarity] --> D
+  U[Durability] --> D
+  D --> L[Learn with clear standards]
+  L --> E[Evidence: work samples, portfolio, certificate]
+```
 
 ### Depth and breadth
 
@@ -146,5 +172,3 @@ Hints: question 3 concerns traceable sources and differences between kinds of sk
 - O*NET Resource Center. The O*NET Content Model. [onetcenter.org](https://www.onetcenter.org/content.html). Skills and knowledge by occupation in the US.
 - European Commission. ESCO. [esco.ec.europa.eu](https://esco.ec.europa.eu/). Skills and occupations in the EU.
 - Council of Europe. Common European Framework of Reference for Languages (CEFR). [coe.int](https://www.coe.int/en/web/common-european-framework-reference-languages). An example of a standard scale for a hard skill.
-
-TODO: The validity figures of Sackett et al. (2022) come from secondary summaries. Check them against Table 3 of the paper.

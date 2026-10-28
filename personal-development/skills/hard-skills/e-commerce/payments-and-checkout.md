@@ -33,7 +33,17 @@ The Baymard Institute aggregates studies of cart abandonment. Its average across
 | Too long or complicated checkout | about 18% |
 | I could not see or calculate the total cost up front | about 17% |
 
-Figures from secondary summaries of Baymard's research, checked 2026-10. They are survey answers, so they show stated reasons, not measured causes.
+Figures from secondary summaries of Baymard's 2023 survey, checked 2026-10. Baymard's later surveys report lower shares for the top reasons (about 39% to 40% for extra costs and 18% to 19% for forced account creation), so the order matters more than the exact values. They are survey answers, so they show stated reasons, not measured causes.
+
+The chart shows the shares from the table above.
+
+```mermaid
+xychart-beta
+  title "Reasons for abandoning checkout (% of respondents)"
+  x-axis ["Extra costs", "Account required", "Slow delivery", "Card trust", "Long checkout", "Total unclear"]
+  y-axis "Percent" 0 --> 50
+  bar [47, 25, 24, 19, 18, 17]
+```
 
 ### Checkout design principles
 
@@ -55,7 +65,7 @@ Preferences differ strongly by country:
 | Cards | Visa, Mastercard, American Express | Universal, chargeback risk, authentication rules |
 | Digital wallets | Apple Pay, Google Pay, PayPal | Fast on mobile, often fewer fields |
 | Local bank and instant payment methods | BLIK (Poland), iDEAL (Netherlands), Bancontact (Belgium), Przelewy24 | Dominant in some markets |
-| Buy now, pay later (BNPL) | Klarna, PayPo, Afterpay | Can raise conversion and order value. Regulated as consumer credit in the EU under the new Consumer Credit Directive (EU) 2023/2225 |
+| Buy now, pay later (BNPL) | Klarna, PayPo, Afterpay | Can raise conversion and order value. Regulated as consumer credit in the EU under the new Consumer Credit Directive (EU) 2023/2225, which applies from 20 November 2026 |
 | Cash on delivery | Common in some markets | Higher return and refusal risk, handling costs |
 | Bank transfer and invoice | B2B orders | Payment delay and credit risk |
 
@@ -128,4 +138,4 @@ A shop selling sports nutrition in Poland reviews its checkout (invented data).
 - Directive 2011/83/EU on consumer rights, Article 8. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2011/83/oj). Price information and the order button.
 - Directive (EU) 2023/2225 on credit agreements for consumers. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2023/2225/oj). New EU consumer credit rules that cover many BNPL products.
 
-TODO: Confirm the Baymard figures on baymard.com directly (they come from secondary summaries) and the application date of Directive (EU) 2023/2225.
+TODO: Confirm the Baymard figures on baymard.com directly (they come from secondary summaries).

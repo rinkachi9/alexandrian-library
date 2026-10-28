@@ -23,7 +23,7 @@ Keeping clients and getting recommendations from them are usually the cheapest a
 
 - **Reichheld and Sasser (1990),** "Zero defections: Quality comes to services" (Harvard Business Review), argued that reducing customer defections by 5% could raise profits by 25% to 85% in the service businesses they examined, because long-term customers buy more, cost less to serve and refer others. The figures are widely repeated, often as "25% to 95%". Critics, such as Byron Sharp, have argued that the article did not show empirically that lower defection causes such profit increases, and Reinartz and Kumar (2000) found that long-lived customers are not always the most profitable.
 - **Net Promoter Score (NPS),** introduced by Reichheld in 2003, asks how likely a customer is to recommend the company on a scale of 0 to 10, and subtracts the share of detractors (0 to 6) from the share of promoters (9 to 10). Keiningham and colleagues (2007) tried to replicate the claim that NPS is the single best predictor of growth using Norwegian data and did not find it superior to other satisfaction measures. NPS is useful as a simple tracking question and as a prompt for follow-up, not as a proven predictor.
-- **Referred customers:** a study of a German bank by Schmitt, Skiera and Van den Bulte (2011) found that customers acquired through a referral program were more loyal and more valuable over the period studied than other customers. One study in one industry, but consistent with practice.
+- **Referred customers:** a study of a German bank by Schmitt, Skiera and Van den Bulte (2011) followed about 10,000 customers for almost three years. Customers acquired through a referral program had a higher contribution margin at first (the gap shrank over time), a higher retention rate (the gap persisted), and an average value at least 16% higher than comparable non-referred customers. One study in one industry, but consistent with practice.
 
 ### Drivers of retention
 
@@ -33,6 +33,19 @@ Keeping clients and getting recommendations from them are usually the cheapest a
 4. **Relationship:** knowing the client's goals and people.
 5. **Continued value:** new ideas, proactive suggestions, sharing relevant information.
 6. **Handling problems:** fast, fair recovery when something goes wrong.
+
+The six drivers of retention:
+
+```mermaid
+mindmap
+  root((Retention))
+    Results
+    Expectations
+    Communication
+    Relationship
+    Continued value
+    Handling problems
+```
 
 ### Onboarding
 
@@ -103,4 +116,4 @@ The improvement cannot be attributed with certainty to each action, and market c
 - Reinartz, W. J., & Kumar, V. (2000). On the profitability of long-life customers in a noncontractual setting. *Journal of Marketing*, 64(4), 17-35. [doi:10.1509/jmkg.64.4.17.18077](https://doi.org/10.1509/jmkg.64.4.17.18077). Long-lived customers are not always the most profitable.
 - Schmitt, P., Skiera, B., & Van den Bulte, C. (2011). Referral programs and customer value. *Journal of Marketing*, 75(1), 46-59. [doi:10.1509/jmkg.75.1.46](https://doi.org/10.1509/jmkg.75.1.46). Value of referred customers.
 
-TODO: Verify the page ranges and DOIs of Reinartz and Kumar (2000) and Schmitt et al. (2011), and read Reichheld and Sasser (1990) to confirm the exact figures.
+TODO: Read Reichheld and Sasser (1990) to confirm the exact figures, which secondary sources quote differently.

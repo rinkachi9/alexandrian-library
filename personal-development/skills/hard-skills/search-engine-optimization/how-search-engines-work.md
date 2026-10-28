@@ -40,6 +40,18 @@ Not every crawled page is indexed. Common reasons:
 - the content depends on JavaScript that failed to render,
 - the server returned an error or a redirect.
 
+The three stages run as a pipeline. A page that fails an earlier stage never reaches the later ones.
+
+```mermaid
+flowchart LR
+  U[URL discovered] --> C[Crawling]
+  C --> R[Rendering]
+  R --> I[Indexing]
+  I --> S[Ranking and serving]
+  Q[User query] --> S
+  S --> P[Results page]
+```
+
 ### Stage 3: ranking and serving
 
 For each query, the engine retrieves candidate pages from the index and orders them. Google states that its ranking systems consider, among others:
@@ -51,6 +63,18 @@ For each query, the engine retrieves candidate pages from the index and orders t
 - **Context.** The user's location, language and settings.
 
 The exact signals and their weights are not public. Claims about "the 200 ranking factors" circulate widely but are not confirmed lists.
+
+The five groups of ranking factors in the list above:
+
+```mermaid
+mindmap
+  root((Ranking))
+    Meaning of the query
+    Relevance
+    Quality
+    Usability
+    Context
+```
 
 ### Search features on the results page
 
@@ -126,5 +150,3 @@ The steps and numbers are invented to illustrate the diagnosis.
 - Google Search Central Blog (2024). Mobile indexing vLast final final (June 3, 2024). [developers.google.com](https://developers.google.com/search/blog/2024/06/mobile-indexing-vlast-final-final.doc). The completion of mobile-first indexing.
 - Brin, S., & Page, L. (1998). The anatomy of a large-scale hypertextual Web search engine. *Computer Networks and ISDN Systems*, 30(1-7), 107-117. [doi:10.1016/S0169-7552(98)00110-X](https://doi.org/10.1016/S0169-7552(98)00110-X). The original description of Google.
 - Pew Research Center (2025). Google users are less likely to click on links when an AI summary appears in the results. [pewresearch.org](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/). AI summaries and clicks.
-
-TODO: The Google Search Central pages could not be opened from the working environment. Read them and confirm the description of ranking systems and spam policies.

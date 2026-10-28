@@ -30,6 +30,19 @@ Teams without a strategy tend to publish what is easy to make or what a manager 
 6. **Resources and cadence.** Who writes, edits, designs and promotes, and how often. A cadence that the team can keep for a year is better than an ambitious one it abandons in a month.
 7. **Measurement.** A small set of metrics tied to the goal, defined before publishing.
 
+The seven components build on each other. Measurement feeds the next revision of the plan.
+
+```mermaid
+flowchart LR
+  G[Business goal] --> A[Audience]
+  A --> J[Audience journey]
+  J --> P[Content pillars]
+  P --> F[Formats and channels]
+  F --> R[Resources and cadence]
+  R --> M[Measurement]
+  M -.-> G
+```
+
 ### Metrics by stage
 
 | Stage | Question | Example metrics |
@@ -88,4 +101,4 @@ Hints: question 2 asks for a number that grows without saying anything about sub
 
 - Content Marketing Institute. What is content marketing? [contentmarketinginstitute.com](https://contentmarketinginstitute.com/what-is-content-marketing/). Definition and introductory material on documented strategy.
 
-TODO: The source export has only the heading "Crafting content marketing strategy". This note was written from general practitioner knowledge. Add primary sources, for example the CMI annual benchmark research on documented strategies, and check the components against them.
+TODO: This note is based on practitioner knowledge. Add primary sources, for example the CMI annual benchmark research on documented strategies, and check the components against them.

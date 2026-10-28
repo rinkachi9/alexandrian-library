@@ -55,7 +55,8 @@
       "year": 2006,
       "title": "F-shaped pattern for reading web content",
       "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "flesch-1948",
@@ -73,7 +74,8 @@
       "type": "standard",
       "title": "ISO 24495-1:2023. Plain language, Part 1: Governing principles and guidelines",
       "url": "https://www.iso.org/standard/78907.html",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "w3c-2023",

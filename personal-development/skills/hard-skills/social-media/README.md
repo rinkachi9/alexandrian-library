@@ -1,6 +1,6 @@
 # Social media
 
-Using social platforms to reach an audience, build relationships and lead people to action, through organic content, community work and paid advertising. This skill belongs to [Hard skills](../README.md). The source export has a "Social media" heading with only LinkedIn profile tips, so the notes were written from platform documentation, law and research, and the LinkedIn tips were kept in [LinkedIn for professionals](linkedin-for-professionals.md) and [professional profile](../../../career/job-search/professional-profile.md).
+Using social platforms to reach an audience, build relationships and lead people to action, through organic content, community work and paid advertising. This skill belongs to [Hard skills](../README.md). LinkedIn profile advice lives in [LinkedIn for professionals](linkedin-for-professionals.md) and [professional profile](../../../career/job-search/professional-profile.md).
 
 ## Notes in reading order
 
@@ -12,6 +12,27 @@ Using social platforms to reach an audience, build relationships and lead people
 6. [Influencer marketing](influencer-marketing.md): choosing creators, agreements, disclosure law in the EU and US, and measurement.
 7. [LinkedIn for professionals](linkedin-for-professionals.md): profile, networking, posting, company pages and social selling.
 8. [Social media analytics](social-media-analytics.md): metrics, engagement rate formulas, matching metrics to goals and pitfalls.
+
+## Map of the skill
+
+The map groups the notes into organic work, paid reach and measurement.
+
+```mermaid
+mindmap
+  root((Social media))
+    Foundations
+      Marketing fundamentals
+      Platforms and algorithms
+    Organic
+      Content creation
+      Community management
+      LinkedIn for professionals
+    Paid
+      Paid social advertising
+      Influencer marketing
+    Measurement
+      Analytics
+```
 
 ## How to learn it
 

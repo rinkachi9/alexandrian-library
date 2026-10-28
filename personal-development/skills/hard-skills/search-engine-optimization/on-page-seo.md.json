@@ -46,7 +46,8 @@
       ],
       "title": "Influencing your title links in search results",
       "url": "https://developers.google.com/search/docs/appearance/title-link",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-central-3",
@@ -67,6 +68,18 @@
       "title": "Introduction to structured data markup in Google Search",
       "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
       "verified": false
+    },
+    {
+      "key": "google-search-central-2021",
+      "type": "website",
+      "authors": [
+        "Google Search Central"
+      ],
+      "year": 2021,
+      "title": "More information on how Google generates titles for web page results",
+      "url": "https://developers.google.com/search/blog/2021/09/more-info-about-titles",
+      "verified": true,
+      "checked": "2026-10"
     }
   ],
   "concepts": [

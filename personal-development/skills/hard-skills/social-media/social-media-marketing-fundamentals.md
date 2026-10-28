@@ -57,7 +57,7 @@ Feeds are ranked by algorithms that predict what each user is most likely to eng
 
 ### Listening, not only broadcasting
 
-The source notes on the 7A framework describe social media as a listening tool first: a way to learn the audience's concerns, triumphs and needs (see [7A framework](../content-marketing/seven-a-framework.md#audience)). *Social listening* is the systematic monitoring of conversations about your brand, competitors and topics. It feeds content ideas, product improvements and early warning of problems.
+The 7A framework treats social media as a listening tool first: a way to learn the audience's concerns, triumphs and needs (see [7A framework](../content-marketing/seven-a-framework.md#audience)). *Social listening* is the systematic monitoring of conversations about your brand, competitors and topics. It feeds content ideas, product improvements and early warning of problems.
 
 ### Owned versus rented audience
 
@@ -73,6 +73,19 @@ A following on a platform is *rented*: the platform owns the relationship and ca
 6. **Community:** how you will respond and engage (see [community management](community-management.md)).
 7. **Paid support:** whether and how to use ads.
 8. **Measurement:** a few metrics per goal.
+
+The eight elements of a strategy, in the order they are decided:
+
+```mermaid
+flowchart LR
+  G[Goal] --> A[Audience]
+  A --> P[Platforms]
+  P --> C[Content pillars]
+  C --> D[Cadence]
+  D --> Y[Community]
+  Y --> Z[Paid support]
+  Z --> M[Measurement]
+```
 
 ### Rules and responsibilities
 
@@ -122,4 +135,4 @@ Health information on social media must be general and must not replace individu
 - Kaplan, A. M., & Haenlein, M. (2010). Users of the world, unite! The challenges and opportunities of social media. *Business Horizons*, 53(1), 59-68. [doi:10.1016/j.bushor.2009.09.003](https://doi.org/10.1016/j.bushor.2009.09.003). An early, widely cited classification of social media.
 - University of California, Davis. Content Marketing (Coursera). [coursera.org](https://www.coursera.org/learn/content-marketing). The 7A framework's view of social media as a listening tool.
 
-TODO: The "Social media" section of the source export contains only the LinkedIn profile notes. This note was written from general knowledge and the sources listed. Add current platform usage figures with exact numbers from the Pew fact sheet.
+TODO: Add current platform usage figures with exact numbers from the Pew fact sheet.

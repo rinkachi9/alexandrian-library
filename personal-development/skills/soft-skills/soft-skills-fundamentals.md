@@ -38,6 +38,24 @@ The National Research Council report *Education for Life and Work* (2012) groupe
 
 This grouping is used in this library to organize planned soft skill notes. Note that the cognitive domain includes skills such as critical thinking that are not "soft" in the everyday sense, which shows how loose the label is.
 
+The three domains and their clusters, as in the table:
+
+```mermaid
+mindmap
+  root((Soft skills))
+    Cognitive
+      Processes and strategies
+      Knowledge
+      Creativity
+    Intrapersonal
+      Intellectual openness
+      Work ethic and conscientiousness
+      Positive core self-evaluation
+    Interpersonal
+      Teamwork and collaboration
+      Leadership
+```
+
 ### Relation to personality
 
 Many soft skills overlap with personality traits, especially the Big Five (openness, conscientiousness, extraversion, agreeableness, emotional stability). The difference is one of emphasis:
@@ -49,9 +67,9 @@ An introvert (a trait) can be skilled at presenting to a large audience (a skill
 
 ### Evidence of importance
 
-- **Conscientiousness and job performance.** Barrick and Mount (1991), in a meta-analysis of 117 studies, found that conscientiousness was the Big Five trait most consistently related to job performance across occupational groups.
+- **Conscientiousness and job performance.** Barrick and Mount (1991), in a meta-analysis across five occupational groups, found that conscientiousness was the Big Five trait most consistently related to job performance across occupational groups.
 - **Life outcomes.** Heckman and Kautz (2012), reviewing economic and psychological research, argued that character skills predict schooling, earnings, health and crime about as well as cognitive ability in many studies, and that they can be developed, especially in childhood and adolescence.
-- **Social skills in the labor market.** Deming (2017) showed that US jobs requiring high levels of both social and mathematical skills grew strongly between 1980 and 2012, while jobs high in math but low in social skills grew less, and he argued that social skills are hard to automate.
+- **Social skills in the labor market.** Deming (2017) showed that between 1980 and 2012 jobs requiring high levels of social interaction grew by nearly 12 percentage points as a share of the US labor force, while math-intensive but less social jobs shrank by 3.3 points. Employment and wage growth were strongest in jobs that need both math and social skills, and he argued that social skills are hard to automate.
 - **Education programs.** A meta-analysis of 213 school-based social and emotional learning programs (Durlak et al., 2011) found improvements in social and emotional skills, behavior and an average 11 percentile point gain in academic achievement.
 - **Employer demand.** Employer surveys such as the World Economic Forum's *Future of Jobs Report 2025* rank analytical thinking, resilience, flexibility and agility, and leadership and social influence among the most important skills. Employer surveys measure stated priorities, not proven effects.
 
@@ -80,6 +98,16 @@ Soft skills develop like other skills, through practice with feedback (see [skil
 3. **Feedback is social and often absent.** People rarely tell a colleague that they interrupt too often. Ask for specific feedback (see [feedback and promotion](../../career/growth/feedback-and-promotion.md)).
 
 Coaching is one structured way to develop soft skills at work. A meta-analysis by Theeboom, Beersma and van Vianen (2014) found positive effects of workplace coaching on performance, well-being, coping and goal attainment (see [coaching techniques for career](../../career/methods/coaching-techniques-for-career.md)).
+
+The development loop has the same shape as deliberate practice, but it runs in real situations:
+
+```mermaid
+flowchart LR
+  B[Define one behavior] --> P[Practice in real situations]
+  P --> F[Ask for specific feedback]
+  F --> R[Review and adjust]
+  R --> B
+```
 
 ## Worked example
 
@@ -126,5 +154,3 @@ Hints: question 3 concerns faking and reference bias.
 - Durlak, J. A., Weissberg, R. P., Dymnicki, A. B., Taylor, R. D., & Schellinger, K. B. (2011). The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions. *Child Development*, 82(1), 405-432. [doi:10.1111/j.1467-8624.2010.01564.x](https://doi.org/10.1111/j.1467-8624.2010.01564.x). Effects of school programs.
 - Roberts, B. W., Luo, J., Briley, D. A., Chow, P. I., Su, R., & Hill, P. L. (2017). A systematic review of personality trait change through intervention. *Psychological Bulletin*, 143(2), 117-141. [doi:10.1037/bul0000088](https://doi.org/10.1037/bul0000088). Traits can change.
 - Theeboom, T., Beersma, B., & van Vianen, A. E. M. (2014). Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context. *The Journal of Positive Psychology*, 9(1), 1-18. [doi:10.1080/17439760.2013.837499](https://doi.org/10.1080/17439760.2013.837499). Effects of workplace coaching.
-
-TODO: Confirm the study counts in Barrick and Mount (1991), Durlak et al. (2011) and Roberts et al. (2017), and Deming's (2017) exact findings on job growth, against the papers.

@@ -75,7 +75,8 @@
       "year": 2017,
       "title": "The growing importance of social skills in the labor market",
       "url": "https://doi.org/10.1093/qje/qjx022",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "barrick-1991",
@@ -87,7 +88,8 @@
       "year": 1991,
       "title": "The Big Five personality dimensions and job performance: A meta-analysis",
       "url": "https://doi.org/10.1111/j.1744-6570.1991.tb00688.x",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "durlak-2011",
@@ -102,7 +104,8 @@
       "year": 2011,
       "title": "The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions",
       "url": "https://doi.org/10.1111/j.1467-8624.2010.01564.x",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "roberts-2017",
@@ -118,7 +121,8 @@
       "year": 2017,
       "title": "A systematic review of personality trait change through intervention",
       "url": "https://doi.org/10.1037/bul0000088",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "theeboom-2014",

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Copywriting frameworks are standard orders of argument that move a reader from attention to action: AIDA (attention, interest, desire, action), PAS (problem, agitate, solution), BAB (before, after, bridge), the 4Ps and the five step formula from the source notes. They are checklists distilled from practice, not scientific models, and none has been shown to beat the others in general. Their value is that they prevent common gaps, such as asking for action before the reader understands the offer. The right framework depends on the reader's awareness, the length of the piece and the price and risk of the decision.
+Copywriting frameworks are standard orders of argument that move a reader from attention to action: AIDA (attention, interest, desire, action), PAS (problem, agitate, solution), BAB (before, after, bridge), the 4Ps and a five step formula for prompting action. They are checklists distilled from practice, not scientific models, and none has been shown to beat the others in general. Their value is that they prevent common gaps, such as asking for action before the reader understands the offer. The right framework depends on the reader's awareness, the length of the piece and the price and risk of the decision.
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ PAS suits problem-aware readers and short formats (ads, emails). The ethical lim
 2. **After.** The situation once the problem is solved.
 3. **Bridge.** How the offer gets them from before to after.
 
-BAB is a compact form of the transformation step in the source notes and works well in social posts and case studies.
+BAB is a compact form of the transformation step of the five step formula and works well in social posts and case studies.
 
 ### The 4Ps
 
@@ -62,9 +62,9 @@ A common practitioner framework, attributed in various forms to direct mail copy
 
 Another version uses Problem, Promise, Proof, Proposal. The origin is unclear, so treat the name as a convention.
 
-### The five step formula from the source notes
+### The five step formula
 
-The source notes, following a content marketing course, describe a formula for prompting action:
+A formula taught in content marketing courses describes how to prompt action:
 
 1. **Establish trust and authority.** Who you are and why the reader should listen.
 2. **Describe the product or service.** Clear, concrete features.
@@ -73,6 +73,24 @@ The source notes, following a content marketing course, describe a formula for p
 5. **Call to action** with risk reversal (see [calls to action and risk reversal](calls-to-action-and-risk-reversal.md)).
 
 Compared with AIDA, it puts trust first, which suits readers who do not yet know the seller, for example in B2B or for expensive services.
+
+The four short frameworks side by side. Each moves from the reader's situation to an action.
+
+```mermaid
+flowchart LR
+  subgraph AIDA
+    A1[Attention] --> A2[Interest] --> A3[Desire] --> A4[Action]
+  end
+  subgraph PAS
+    P1[Problem] --> P2[Agitate] --> P3[Solution]
+  end
+  subgraph BAB
+    B1[Before] --> B2[After] --> B3[Bridge]
+  end
+  subgraph 4Ps
+    F1[Promise] --> F2[Picture] --> F3[Proof] --> F4[Push]
+  end
+```
 
 ### Choosing a framework
 
@@ -83,6 +101,17 @@ Compared with AIDA, it puts trust first, which suits readers who do not yet know
 | Expensive or unfamiliar service, unknown seller | Five step formula | Trust must come before the offer |
 | Long sales letter or landing page | Combination (see below) | Many objections to handle |
 | Case study | BAB | The story is the proof |
+
+The table as a decision:
+
+```mermaid
+flowchart TB
+  Q{Situation} -->|Short ad, problem-aware reader| PAS[PAS or BAB]
+  Q -->|Familiar product page| AIDA[AIDA or 4Ps]
+  Q -->|Expensive service, unknown seller| F[Five step formula]
+  Q -->|Long sales page| C[Combination]
+  Q -->|Case study| BAB[BAB]
+```
 
 ### Anatomy of a long-form sales page
 
@@ -157,4 +186,4 @@ The "80%" and other figures are invented and would need evidence before publishi
 - Vakratsas, D., & Ambler, T. (1999). How advertising works: What do we really know? *Journal of Marketing*, 63(1), 26-43. [doi:10.1177/002224299906300103](https://doi.org/10.1177/002224299906300103). Review of hierarchy of effects models.
 - Schwartz, E. M. (1966). *Breakthrough Advertising*. Prentice-Hall. Matching structure to awareness.
 
-TODO: Verify the DOI of Vakratsas and Ambler (1999). Find a documented origin of the 4Ps framework, or keep it marked as convention.
+TODO: Verify the DOI of Vakratsas and Ambler (1999) on the journal page (the volume and pages are confirmed). Find a documented origin of the 4Ps framework, or keep it marked as convention.

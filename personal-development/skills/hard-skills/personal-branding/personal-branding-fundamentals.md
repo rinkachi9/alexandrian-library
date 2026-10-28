@@ -14,7 +14,7 @@ None. This note is the entry point to [personal branding](README.md). Related: [
 
 A *personal brand* is the set of associations a target audience holds about a person in a professional context: their expertise, values, style and the value they promise. *Personal branding* is the deliberate effort to shape those associations through positioning, communication and behavior.
 
-The term was popularized by Tom Peters in his 1997 Fast Company article "The Brand Called You". Academic research grew later. Gorbatov, Khapova and Lysova (2018) reviewed 100 publications across marketing, management, psychology and other fields, found the area fragmented, and proposed definitions of personal branding and personal brand that emphasize strategy, positioning, a differentiated narrative and a promise to a target audience.
+The term was popularized by Tom Peters in his 1997 Fast Company article "The Brand Called You". Academic research grew later. Gorbatov, Khapova and Lysova (2018) reviewed this literature, which they describe as more than 100 scholarly papers across marketing, management, psychology and other fields, found the area fragmented, and proposed definitions of personal branding and personal brand that emphasize strategy, positioning, a differentiated narrative and a promise to a target audience.
 
 *Analogy.* A personal brand is like the reputation of a craftsperson in a small town. People know that one carpenter is the person for old staircases, reliable but slow, and another is quick and cheap for simple jobs. Nobody created these reputations with a slogan. They grew from work done, what customers said, and how each carpenter talked about their work. Personal branding is the craftsperson deciding which work to take, showing it, and telling the story clearly. The analogy breaks because online the "town" is global and searchable, so a reputation travels far beyond the people who experienced the work, including the mistakes.
 
@@ -41,6 +41,20 @@ Erving Goffman (*The Presentation of Self in Everyday Life*, 1959) described soc
 5. **Consistency:** the same message and behavior across channels and over time.
 6. **Relationships:** what others say about you, which counts more than what you say (see [networking](../../../career/job-search/networking.md)).
 7. **Reputation care:** monitoring and protecting it (see [reputation management](reputation-management.md)).
+
+The seven components of a personal brand:
+
+```mermaid
+mindmap
+  root((Personal brand))
+    Positioning
+    Evidence
+    Story
+    Visibility
+    Consistency
+    Relationships
+    Reputation care
+```
 
 ### Authenticity
 
@@ -92,4 +106,4 @@ A data analyst in a logistics company wants to move into a consulting role withi
 - Jones, E. E., & Pittman, T. S. (1982). Toward a general theory of strategic self-presentation. In J. Suls (Ed.), *Psychological Perspectives on the Self* (Vol. 1, pp. 231-262). Erlbaum. The five strategies.
 - Bolino, M., Long, D., & Turnley, W. (2016). Impression management in organizations: Critical questions, answers, and areas for future research. *Annual Review of Organizational Psychology and Organizational Behavior*, 3, 377-406. [doi:10.1146/annurev-orgpsych-041015-062337](https://doi.org/10.1146/annurev-orgpsych-041015-062337). Review of impression management at work.
 
-TODO: Read Gorbatov et al. (2018) to quote the exact definitions and confirm the number of publications reviewed. Confirm what Bolino et al. (2016) say about self-promotion backfiring. The "Personal brand" heading in the source export has no content.
+TODO: Read Gorbatov et al. (2018) to quote the exact definitions. Confirm what Bolino et al. (2016) say about self-promotion backfiring.

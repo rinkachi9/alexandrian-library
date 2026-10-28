@@ -65,7 +65,8 @@
       ],
       "title": "Retraction Watch database",
       "url": "https://www.crossref.org/",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "polona-national-library",

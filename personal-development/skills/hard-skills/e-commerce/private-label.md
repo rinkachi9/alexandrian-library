@@ -32,21 +32,33 @@ The last row matters: in the EU, a business that puts its own name or trademark 
 
 ### Strategy in five steps
 
-The source notes describe this process:
+The process runs as follows:
 
 1. **Pick a niche and a product.** Hire a product designer if you need help turning your idea into a specification, and create mockups.
 2. **Find about five suppliers** on a sourcing platform such as Alibaba. If your exact product does not exist, search for similar ones that a factory could adapt.
-3. **Negotiate with the suppliers and order samples.** Samples for an existing product with your branding are cheap. The source notes say that samples for a truly custom product can cost anywhere from 50 to 100,000 dollars, because custom molds and tooling may be needed.
+3. **Negotiate with the suppliers and order samples.** Samples for an existing product with your branding are cheap. Practitioner courses put samples for a truly custom product anywhere from 50 to 100,000 dollars, because custom molds and tooling may be needed. The range is a rough practitioner figure, not a measured one.
 4. **Evaluate the samples.** If you are satisfied, get custom ad content made (photos, video).
 5. **Run paid ads** to see whether people want the product before placing the bulk order.
 
-Additional points from the source: design and test the product, locate suppliers and manufacturers, and start marketing early.
+Additional points: design and test the product, locate suppliers and manufacturers, and start marketing early.
+
+The five steps, with the ad test as the gate before the bulk order:
+
+```mermaid
+flowchart LR
+  A[Niche and product] --> B[About five suppliers]
+  B --> C[Negotiate and order samples]
+  C --> D[Evaluate samples, make ad content]
+  D --> E{Ad test profitable?}
+  E -- yes --> F[Bulk order]
+  E -- no --> G[Change product or stop]
+```
 
 ### Testing with ads
 
-The source notes stress that ads are needed to see whether there is real demand, and that the test should run longer than a dropshipping test, because the money at stake is larger. The course they follow recommends running ads for at least 7 days at 50 dollars per day (350 dollars in total) to get solid proof that the product is wanted. The key metric is whether the ROAS is above the break-even level (see [product selection](product-selection.md#unit-economics)). How such ad tests are set up and read is covered in [paid social advertising](../social-media/paid-social-advertising.md#testing-products-with-ads).
+Ads are needed to see whether there is real demand. The test should run longer than a dropshipping test, because the money at stake is larger. A common course recommendation is to run ads for at least 7 days at 50 dollars per day (350 dollars in total) to get solid proof that the product is wanted. The key metric is whether the ROAS is above the break-even level (see [product selection](product-selection.md#unit-economics)). How such ad tests are set up and read is covered in [paid social advertising](../social-media/paid-social-advertising.md#testing-products-with-ads).
 
-The source notes then suggest that if the test is profitable, you can tell the customers who ordered during the test that there is a delay and proceed with the bulk order, or refund them. This needs care:
+A common suggestion is that if the test is profitable, you can tell the customers who ordered during the test that there is a delay and proceed with the bulk order, or refund them. This needs care:
 
 - **Taking orders for stock you do not have** is legal only under conditions. In the US, the FTC mail order rule requires a reasonable basis for the shipping time you state when you take the order, and when you cannot meet it, you must offer the buyer the choice to accept the delay or cancel for a prompt refund. In the EU, the trader must deliver within the agreed time or within 30 days, and the consumer can terminate the contract if the trader fails to deliver after an additional period.
 - **Honest alternatives:** label the product as a pre-order with a realistic delivery date, collect sign-ups for a waiting list, or show a "coming soon" page with a price and measure clicks on the buy button. These test demand without misleading anyone.
@@ -111,4 +123,4 @@ Hints: question 3: revenue is 360 dollars, so ROAS is about 1.03, and break-even
 - U.S. Federal Trade Commission. Mail, Internet, or Telephone Order Merchandise Rule. [ftc.gov](https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule). Shipping times, delays and refunds for orders.
 - Directive 2011/83/EU on consumer rights, Article 18. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2011/83/oj). Delivery obligations in the EU.
 
-TODO: The sample cost range (50 to 100,000 dollars) and the 7 day, 50 dollar per day ad test come from the course the source notes follow. Check them against other sources. Confirm the rule that a business that puts its brand on a product is treated as the manufacturer, with the article reference in Regulation (EU) 2023/988.
+TODO: Find a second source for the 7 day, 50 dollar per day ad test, which comes from practitioner courses.

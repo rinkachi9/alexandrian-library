@@ -35,7 +35,8 @@
       ],
       "title": "Performance report (Search results)",
       "url": "https://support.google.com/webmasters/answer/7576553",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-console-2",

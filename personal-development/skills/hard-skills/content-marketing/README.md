@@ -1,6 +1,6 @@
 # Content marketing
 
-Creating and distributing useful content so that a defined audience pays attention, builds a relationship with a business or person, and takes action. This skill belongs to [Hard skills](../README.md). The notes were migrated from the content marketing section of the Skills export (definition, the 7A framework, headlines, audience attention, taking action) and extended with research and sources.
+Creating and distributing useful content so that a defined audience pays attention, builds a relationship with a business or person, and takes action. This skill belongs to [Hard skills](../README.md).
 
 ## Notes in reading order
 
@@ -13,6 +13,25 @@ Creating and distributing useful content so that a defined audience pays attenti
 7. [Email marketing](email-marketing.md): list building, consent, deliverability, automations and metrics.
 8. [Content marketing strategy](content-marketing-strategy.md): goal, audience, pillars, channels and metrics in one plan.
 9. [Measuring content performance](measuring-content-performance.md): metrics by goal, tracking, attribution and incrementality.
+
+## Map of the skill
+
+The notes move from principles to a single piece of content, then to distribution, strategy and measurement.
+
+```mermaid
+flowchart LR
+  A[Fundamentals] --> B[7A framework]
+  B --> C[Headlines]
+  B --> D[Capturing attention]
+  B --> E[Storytelling]
+  C --> F[Formats and distribution]
+  D --> F
+  E --> F
+  F --> G[Email marketing]
+  F --> H[Strategy]
+  G --> I[Measuring performance]
+  H --> I
+```
 
 ## How to learn it
 

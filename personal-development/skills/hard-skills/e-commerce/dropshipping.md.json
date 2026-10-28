@@ -88,6 +88,18 @@
       "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
       "verified": true,
       "checked": "2026-10"
+    },
+    {
+      "key": "cbp-2026",
+      "type": "standard",
+      "authors": [
+        "U.S. Customs and Border Protection"
+      ],
+      "year": 2026,
+      "title": "Indefinite suspension of the de minimis exemption for merchandise arriving through all modes other than the international postal network",
+      "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other",
+      "verified": true,
+      "checked": "2026-10"
     }
   ],
   "concepts": [

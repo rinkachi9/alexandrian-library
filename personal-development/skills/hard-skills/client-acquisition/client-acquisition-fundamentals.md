@@ -39,7 +39,7 @@ flowchart TD
 
 The diagram shows the stages from the whole target market to clients and referrals. At each stage fewer people remain. Improving the conversion at any stage, or the number entering the top, increases the number of clients.
 
-The funnel is a simplification. B2B purchases involve several people and non-linear research. Gartner's research on B2B buying, often cited, found that buyers spend only about 17% of the buying process meeting potential suppliers, and much of the rest researching independently. Being findable and credible during that independent research matters.
+The funnel is a simplification. B2B purchases involve several people and non-linear research. Gartner's research on B2B buying, often cited (checked 2026-10 only through secondary summaries), found that buyers spend only about 17% of the buying process meeting potential suppliers, and much of the rest researching independently. Being findable and credible during that independent research matters.
 
 ### Inbound and outbound
 
@@ -131,5 +131,3 @@ Hints: question 3: CAC 2,000, LTV 7,500.
 - Rackham, N. (1988). *SPIN Selling*. McGraw-Hill. Research on what distinguishes successful large sales.
 - Gartner. The B2B buying journey. [gartner.com](https://www.gartner.com/en/sales/insights/b2b-buying-journey). B2B buyers' time with suppliers (source of the 17% figure).
 - Blank, S., & Dorf, B. (2012). *The Startup Owner's Manual*. K&S Ranch. Customer development and acquisition for new businesses.
-
-TODO: The "Client acquisition" heading in the source export has no content. This note is written from the sources listed and general practice. Confirm the Gartner figure from Gartner's own page.

@@ -36,7 +36,8 @@
       ],
       "title": "In-depth guide to how Google Search works",
       "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-central-2",
@@ -56,7 +57,8 @@
       ],
       "title": "Spam policies for Google web search",
       "url": "https://developers.google.com/search/docs/essentials/spam-policies",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "google-search-central-4",

@@ -67,7 +67,9 @@
         "Rosenbloom, P. S."
       ],
       "year": 1981,
-      "title": "Mechanisms of skill acquisition and the law of practice"
+      "title": "Mechanisms of skill acquisition and the law of practice",
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "heathcote-2000",
@@ -101,7 +103,9 @@
         "Ericsson, K. A."
       ],
       "year": 2006,
-      "title": "The influence of experience and deliberate practice on the development of superior expert performance"
+      "title": "The influence of experience and deliberate practice on the development of superior expert performance",
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "choudhry-2005",
@@ -114,7 +118,8 @@
       "year": 2005,
       "title": "Systematic review: The relationship between clinical experience and quality of health care",
       "url": "https://doi.org/10.7326/0003-4819-142-4-200502150-00008",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "benner-1984",

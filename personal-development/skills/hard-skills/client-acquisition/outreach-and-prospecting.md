@@ -71,6 +71,16 @@ Keep it short, personal and free of hype. Avoid fake familiarity ("Hope you're w
 
 The client and result must be real and shareable. Note the legal context: in Poland, sending this without prior consent may be unlawful, so a warm path (introduction, prior interaction) or a different channel may be needed.
 
+The five parts of an outreach message:
+
+```mermaid
+flowchart LR
+  R[Relevance] --> P[Problem or insight]
+  P --> C[Credibility]
+  C --> A[Small ask]
+  A --> E[Easy exit]
+```
+
 ### Follow-up
 
 Many replies come after a follow-up. A sequence of two or three follow-ups over two to three weeks, each adding something useful (a resource, a relevant example) rather than "just checking in", is common practice. Stop when the person asks or does not respond after the sequence. Honor opt-outs immediately.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Paid social advertising means buying placements on social platforms, such as Meta (Facebook and Instagram), TikTok, LinkedIn and Pinterest, to show ads to chosen audiences and optimize for an objective such as purchases or leads. Platforms run auctions and use machine learning to find the people most likely to take the action you pay for, so the advertiser's main levers are the objective, the creative, the offer, the budget and the measurement setup. Since Apple's App Tracking Transparency in 2021, tracking is less complete and results rely more on server-side data and modeling. Testing whether a product sells with ads, as the source notes describe for dropshipping and private label, works only with a clear break-even calculation and enough data.
+Paid social advertising means buying placements on social platforms, such as Meta (Facebook and Instagram), TikTok, LinkedIn and Pinterest, to show ads to chosen audiences and optimize for an objective such as purchases or leads. Platforms run auctions and use machine learning to find the people most likely to take the action you pay for, so the advertiser's main levers are the objective, the creative, the offer, the budget and the measurement setup. Since Apple's App Tracking Transparency in 2021, tracking is less complete and results rely more on server-side data and modeling. Testing whether a product sells with ads, as is common for dropshipping and private label, works only with a clear break-even calculation and enough data.
 
 ## Prerequisites
 
@@ -25,6 +25,17 @@ Most platforms use three levels:
 | Campaign | Objective | Sales (conversions), leads, traffic, awareness, engagement |
 | Ad set (ad group) | Audience, budget, schedule, placements, optimization event | Women 25 to 45 in Poland interested in running, optimize for purchases |
 | Ad | Creative and copy | Video, image or carousel with text, headline and call to action |
+
+The three levels of a campaign, as in the table:
+
+```mermaid
+flowchart TB
+  C["Campaign: objective"] --> S1["Ad set: audience, budget, placements"]
+  C --> S2["Ad set: another audience"]
+  S1 --> A1["Ad: creative and copy"]
+  S1 --> A2["Ad: another creative"]
+  S2 --> A3["Ad: creative and copy"]
+```
 
 ### Objectives and optimization
 
@@ -53,7 +64,7 @@ In the EU, placing pixels and similar trackers generally requires prior consent 
 
 ### Testing products with ads
 
-The source notes describe a test for private label products: run ads for at least seven days at 50 dollars per day (350 dollars) to get "solid proof" of demand, and compare return on ad spend (ROAS) with what is needed to be profitable. To make such a test meaningful:
+A common test for private label products is to run ads for at least seven days at 50 dollars per day (350 dollars) to get "solid proof" of demand, and compare return on ad spend (ROAS) with what is needed to be profitable. To make such a test meaningful:
 
 1. **Calculate break-even ROAS first** (see [product selection](../e-commerce/product-selection.md#unit-economics)).
 2. **Use a conversion objective** if possible, with tracking verified.
@@ -118,4 +129,4 @@ Hints: question 3: 60 / 24 = 2.5.
 - Apple. User privacy and data use: App Tracking Transparency. [developer.apple.com](https://developer.apple.com/app-store/user-privacy-and-data-use/). The ATT framework.
 - Regulation (EU) 2022/2065 (Digital Services Act), Articles 26 and 28. [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2022/2065/oj). Ad transparency and protection of minors.
 
-TODO: Verify the Meta help article URLs and the current learning phase guidance (the 50 events figure comes from practitioner summaries of Meta's guidance).
+TODO: Verify the Meta help article URLs and the current learning phase guidance on Meta's own pages (the 50 events in 7 days figure is consistent across practitioner summaries, checked 2026-10).

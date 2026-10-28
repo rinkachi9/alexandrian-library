@@ -29,9 +29,22 @@ Deliberate practice is different from:
 
 *Analogy.* A football player who plays a match every weekend gets experience. One who spends an hour after training taking 50 free kicks from the same spot, with a coach commenting on each one, and moving the ball further when 40 of 50 hit the target, is doing deliberate practice. The analogy holds for the narrow focus and feedback. It breaks for knowledge work, where the "spot" and the "target" are often unclear and feedback comes late, so designing deliberate practice there takes more effort.
 
+The elements form a loop that repeats within each session.
+
+```mermaid
+flowchart LR
+  G[Specific goal] --> T[Task just beyond current level]
+  T --> A[Attempt with full concentration]
+  A --> F[Immediate feedback]
+  F --> R[Refine the method]
+  R --> T
+  C[Teacher or coach] -.-> T
+  C -.-> F
+```
+
 ### The original study
 
-Ericsson, Krampe and Tesch-Römer (1993) studied violinists at the Music Academy of West Berlin. Students judged by their teachers as the best had accumulated more hours of solitary practice by age 18 (on average about 7,400 hours in their retrospective estimates) than students judged good (about 5,300 hours) or students training to be music teachers (about 3,400 hours). The authors argued that individual differences in expert performance largely reflect differences in accumulated deliberate practice, not innate talent.
+Ericsson, Krampe and Tesch-Römer (1993) studied violinists at the Music Academy of West Berlin. Students judged by their teachers as the best had accumulated more hours of solitary practice by age 18 (on average about 7,400 hours in their retrospective estimates, as reported in later reviews) than students judged good (about 5,300 hours) or students training to be music teachers (about 3,400 hours). The authors argued that individual differences in expert performance largely reflect differences in accumulated deliberate practice, not innate talent.
 
 ### The 10,000 hour rule
 
@@ -54,6 +67,16 @@ Their conclusion: deliberate practice is important, but not as important as has 
 A replication of the violin study by Macnamara and Maitra (2019), with 39 violinists and a double-blind procedure, found that practice still explained a substantial share of differences (about 26% of the variance) but much less than the original study implied. The best violinists had not practiced more than the good ones.
 
 The debate continues. Ericsson argued that many studies in the meta-analysis did not measure deliberate practice as he defined it, which would underestimate its effect. His critics answered that a narrow definition makes the claim hard to test. A fair summary as of 2026: practice is necessary for high performance in every field studied, and its structure matters, but practice hours alone do not explain who becomes an expert.
+
+The chart shows the shares from the table for the four domains above 1%. Professions (less than 1%) are left out because the exact value is not given.
+
+```mermaid
+xychart-beta
+  title "Variance in performance explained by deliberate practice (%)"
+  x-axis [Games, Music, Sports, Education]
+  y-axis "Percent" 0 --> 30
+  bar [26, 21, 18, 4]
+```
 
 ### Why the effect is small in professions
 
@@ -122,5 +145,3 @@ Hints: question 3 concerns averages, variation between people and the type of pr
 - Macnamara, B. N., & Maitra, M. (2019). The role of deliberate practice in expert performance: Revisiting Ericsson, Krampe & Tesch-Römer (1993). *Royal Society Open Science*, 6(8), 190327. [doi:10.1098/rsos.190327](https://doi.org/10.1098/rsos.190327). The replication.
 - Ericsson, A., & Pool, R. (2016). *Peak: Secrets from the New Science of Expertise*. Houghton Mifflin Harcourt. Ericsson's popular account, including his critique of the 10,000 hour rule.
 - Gladwell, M. (2008). *Outliers: The Story of Success*. Little, Brown. The source of the 10,000 hour rule.
-
-TODO: Confirm the average practice hours of the three violin groups in Ericsson et al. (1993) against Table 1 of the paper. The figures here come from secondary accounts.

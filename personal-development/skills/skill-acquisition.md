@@ -24,6 +24,15 @@ Paul Fitts and Michael Posner (*Human Performance*, 1967) described three overla
 2. **Associative stage.** The learner has a working method and refines it. Errors fall, steps link into larger units, and the learner starts to detect their own mistakes. Practice with specific feedback helps most here.
 3. **Autonomous stage.** Performance is fast, consistent and needs little attention, which frees the mind for other things (strategy, the audience, the unusual case). Improvement continues but slowly. Further gains need deliberately harder practice.
 
+The three stages run in order, and attention demand falls at each step.
+
+```mermaid
+flowchart LR
+  C["Cognitive: understand the task"] --> A["Associative: refine a method"]
+  A --> U["Autonomous: fast, little attention"]
+  U -. "new demands or changed environment" .-> C
+```
+
 ### Proceduralization in ACT theory
 
 John Anderson's ACT theory (1982) explains the mechanism behind the stages. At first, skill rests on *declarative knowledge*: facts and instructions you hold in working memory and apply step by step, like following a recipe. With practice, these are converted into *procedural knowledge*: condition-action rules ("if the headline has no benefit, add one") that fire directly. Two processes do this:
@@ -46,6 +55,16 @@ Hubert and Stuart Dreyfus (1980, 1986) described five stages from the learner's 
 | Expert | Sees and acts intuitively, analyzes only when needed | Responds naturally, steps back only when surprised |
 
 The model is descriptive and has been influential in nursing and professional education (Benner, 1984). It is less tested as a predictive model than the cognitive theories above. Use it to understand why rules help beginners and hinder experts.
+
+The Dreyfus stages, from rule following to intuition:
+
+```mermaid
+flowchart LR
+  N[Novice] --> AB[Advanced beginner]
+  AB --> C[Competent]
+  C --> P[Proficient]
+  P --> E[Expert]
+```
 
 ### The learning curve
 
@@ -128,8 +147,6 @@ Hints: question 4 concerns attention drawn to the self instead of the task.
 - Newell, A., & Rosenbloom, P. S. (1981). Mechanisms of skill acquisition and the law of practice. In J. R. Anderson (Ed.), *Cognitive Skills and Their Acquisition* (pp. 1-55). Erlbaum. The power law of practice.
 - Heathcote, A., Brown, S., & Mewhort, D. J. K. (2000). The power law repealed: The case for an exponential law of practice. *Psychonomic Bulletin & Review*, 7(2), 185-207. [doi:10.3758/BF03212979](https://doi.org/10.3758/BF03212979). Why averaged curves look like power functions.
 - Kluger, A. N., & DeNisi, A. (1996). The effects of feedback interventions on performance. *Psychological Bulletin*, 119(2), 254-284. [doi:10.1037/0033-2909.119.2.254](https://doi.org/10.1037/0033-2909.119.2.254). When feedback helps and when it hurts.
-- Ericsson, K. A. (2006). The influence of experience and deliberate practice on the development of superior expert performance. In K. A. Ericsson et al. (Eds.), *The Cambridge Handbook of Expertise and Expert Performance* (pp. 683-703). Cambridge University Press. Arrested development and automaticity.
+- Ericsson, K. A. (2006). The influence of experience and deliberate practice on the development of superior expert performance. In K. A. Ericsson et al. (Eds.), *The Cambridge Handbook of Expertise and Expert Performance* (pp. 685-706). Cambridge University Press. Arrested development and automaticity.
 - Choudhry, N. K., Fletcher, R. H., & Soumerai, S. B. (2005). Systematic review: The relationship between clinical experience and quality of health care. *Annals of Internal Medicine*, 142(4), 260-273. [doi:10.7326/0003-4819-142-4-200502150-00008](https://doi.org/10.7326/0003-4819-142-4-200502150-00008). Experience does not always mean better performance.
 - Benner, P. (1984). *From Novice to Expert*. Addison-Wesley. The Dreyfus model applied to nursing.
-
-TODO: Check the page ranges of Newell and Rosenbloom (1981) and Ericsson (2006), and the DOI of Choudhry et al. (2005), against the publications.

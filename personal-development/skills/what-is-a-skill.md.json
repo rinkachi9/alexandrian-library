@@ -47,7 +47,8 @@
       ],
       "title": "The O*NET Content Model",
       "url": "https://www.onetcenter.org/content.html",
-      "verified": false
+      "verified": true,
+      "checked": "2026-10"
     },
     {
       "key": "european-commission",

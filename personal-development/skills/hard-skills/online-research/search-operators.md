@@ -2,7 +2,7 @@
 
 ## Summary
 
-Search operators are special characters and words that change how a search engine interprets a query: quotation marks for an exact phrase, a minus sign to exclude a word, `site:` to search one website, `filetype:` for documents, `before:` and `after:` for dates. They turn a vague search into a precise one and are the fastest practical improvement most people can make to their searching. Search engines change their features often: some operators described in older guides, such as `+`, `~` and `cache:`, no longer work, and convenience features like recipe filters come and go. This note covers what works in Google as of 2026, the tips from the source notes, and how to check the current state.
+Search operators are special characters and words that change how a search engine interprets a query: quotation marks for an exact phrase, a minus sign to exclude a word, `site:` to search one website, `filetype:` for documents, `before:` and `after:` for dates. They turn a vague search into a precise one and are the fastest practical improvement most people can make to their searching. Search engines change their features often: some operators described in older guides, such as `+`, `~` and `cache:`, no longer work, and convenience features like recipe filters come and go. This note covers what works in Google as of 2026, common search tips, and how to check the current state.
 
 ## Prerequisites
 
@@ -32,11 +32,11 @@ Google's help page "Refine Google searches" lists these operators. Put the opera
 
 Search engines may still return results that do not strictly match an operator, especially for broad queries.
 
-### Tips from the source notes
+### Common search tips
 
-The source notes list several Google tips, which are kept here with their current status:
+Several Google tips circulate widely. Here they are with their current status:
 
-- **Quotes for an exact phrase.** Works. The source example `"how fix toster"` shows a risk: an exact phrase with a typo returns only pages with the same typo. Quote only phrases you are sure of.
+- **Quotes for an exact phrase.** Works. The example `"how fix toster"` shows a risk: an exact phrase with a typo returns only pages with the same typo. Quote only phrases you are sure of.
 - **Asterisk within quotes for unknown words.** Works, useful for half-remembered lyrics or idioms.
 - **Minus sign to exclude results** (`jaguar -car`). Works.
 - **`site:` to search one website** (`Google site:TIME.com`). Works.
@@ -45,6 +45,24 @@ The source notes list several Google tips, which are kept here with their curren
 - **Recipe filters under "Search tools"** (by ingredients, time, calories). Not available in the form described.
 - **`DEFINE:` for meanings.** Often returns a dictionary box. It is a display feature rather than a documented operator.
 - **Searching with images.** Now done through Google Lens (see [image and media verification](image-and-media-verification.md)).
+
+The main operators grouped by what they do:
+
+```mermaid
+mindmap
+  root((Search operators))
+    Match words
+      Quotes for exact phrase
+      Minus to exclude
+      OR for alternatives
+      Wildcard inside quotes
+    Limit where
+      site:
+      filetype:
+    Limit when
+      before:
+      after:
+```
 
 ### Operators that no longer work
 

@@ -1,6 +1,6 @@
 # Personal branding
 
-Deliberately shaping what a professional is known for, by whom, and why they can be trusted: positioning, online presence, thought leadership and reputation. This skill belongs to [Hard skills](../README.md). The "Personal brand" heading in the source export has no content, so the notes were written from research on personal branding and impression management, law and practice.
+Deliberately shaping what a professional is known for, by whom, and why they can be trusted: positioning, online presence, thought leadership and reputation. This skill belongs to [Hard skills](../README.md).
 
 ## Notes in reading order
 
@@ -9,6 +9,19 @@ Deliberately shaping what a professional is known for, by whom, and why they can
 3. [Online presence](online-presence.md): profiles, a personal website, consistency, auditing what people find, privacy.
 4. [Thought leadership](thought-leadership.md): original insight, channels, building visibility and credibility.
 5. [Reputation management](reputation-management.md): monitoring, responding to criticism, fake reviews, legal tools including the right to be forgotten.
+
+## Map of the skill
+
+Each note builds on the one before it, from deciding what to be known for to protecting that reputation.
+
+```mermaid
+flowchart LR
+  A[Fundamentals] --> B[Positioning]
+  B --> C[Online presence]
+  C --> D[Thought leadership]
+  D --> E[Reputation management]
+  E -.-> B
+```
 
 ## How to learn it
 

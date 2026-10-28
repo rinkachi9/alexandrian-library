@@ -1,6 +1,6 @@
 # E-commerce
 
-Selling goods and services online: business and transaction models, platforms, choosing and validating products, sourcing them, payments, fulfillment, customer service, metrics and the law. This skill belongs to [Hard skills](../README.md). The notes were migrated from the e-commerce section of the Skills export (models, product, validation, sourcing, private label, dropshipping) and extended with sources, including the EU and US rules that changed online selling between 2021 and 2026.
+Selling goods and services online: business and transaction models, platforms, choosing and validating products, sourcing them, payments, fulfillment, customer service, metrics and the law. This skill belongs to [Hard skills](../README.md). The notes include the EU and US rules that changed online selling between 2021 and 2026.
 
 ## Notes in reading order
 
@@ -24,6 +24,30 @@ Selling goods and services online: business and transaction models, platforms, c
 10. [Customer service and returns](customer-service-and-returns.md): service standards, the EU right of withdrawal and legal guarantee, returns economics.
 11. [E-commerce metrics](e-commerce-metrics.md): the revenue equation, contribution margin, CAC, LTV and cohorts.
 12. [E-commerce law and cross-border](e-commerce-law-and-cross-border.md): EU consumer rules, data protection, product safety, accessibility, VAT, customs and selling to the US.
+
+## Map of the skill
+
+The three groups of notes follow the life of an online shop: the model, the product and the daily operations.
+
+```mermaid
+mindmap
+  root((E-commerce))
+    Foundations
+      Models
+      Platforms
+    Product
+      Selection
+      Validation
+      Supplier sourcing
+      Dropshipping
+      Private label
+    Operations
+      Payments and checkout
+      Fulfillment and shipping
+      Customer service and returns
+      Metrics
+      Law and cross-border
+```
 
 ## How to learn it
 

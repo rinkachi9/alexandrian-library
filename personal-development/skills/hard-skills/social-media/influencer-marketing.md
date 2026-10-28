@@ -30,6 +30,15 @@ The mechanisms are the persuasion principles of liking, social proof and authori
 
 Practitioners group creators by following, for example nano (under 10,000), micro (10,000 to 100,000), macro (100,000 to 1 million) and mega (over 1 million). The thresholds are conventions and vary. Smaller creators often have more engaged, niche audiences and lower fees. Larger creators give reach and less targeting.
 
+The four tiers in order of following. The thresholds are conventions and vary between practitioners.
+
+```mermaid
+flowchart LR
+  N["Nano: under 10,000"] --> I["Micro: 10,000 to 100,000"]
+  I --> A["Macro: 100,000 to 1 million"]
+  A --> G["Mega: over 1 million"]
+```
+
 ### Choosing creators
 
 | Criterion | What to check |
@@ -114,8 +123,6 @@ A small brand of natural deodorants plans a campaign with micro creators in Pola
 - Federal Trade Commission. Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255), revised 2023. [ftc.gov](https://www.ftc.gov/legal-library/browse/federal-register-notices/guides-concerning-use-endorsements-testimonials-advertising). The US rules.
 - Federal Trade Commission. Disclosures 101 for social media influencers. [ftc.gov](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers). Practical guidance.
 - Directive 2005/29/EC on unfair commercial practices, Annex I point 11. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2005/29/oj). The EU ban on undisclosed paid editorial content.
-- UOKiK (2022). Rekomendacje Prezesa UOKiK dotyczące oznaczania treści reklamowych przez influencerów w mediach społecznościowych. [uokik.gov.pl](https://uokik.gov.pl/). Polish guidance on labeling (in Polish).
+- UOKiK (26 September 2022). Rekomendacje Prezesa UOKiK dotyczące oznaczania treści reklamowych przez influencerów w mediach społecznościowych. [uokik.gov.pl](https://uokik.gov.pl/). Polish guidance on labeling (in Polish).
 - Horton, D., & Wohl, R. R. (1956). Mass communication and para-social interaction. *Psychiatry*, 19(3), 215-229. [doi:10.1080/00332747.1956.11023049](https://doi.org/10.1080/00332747.1956.11023049). The concept of parasocial relationships.
 - Vrontis, D., Makrides, A., Christofi, M., & Thrassou, A. (2021). Social media influencer marketing: A systematic review, integrative framework and future research agenda. *International Journal of Consumer Studies*, 45(4), 617-644. [doi:10.1111/ijcs.12647](https://doi.org/10.1111/ijcs.12647). Review of the research.
-
-TODO: Verify that Vrontis et al. (2021) is a systematic review (described here accordingly), its DOI, and the year and URL of the UOKiK recommendations.

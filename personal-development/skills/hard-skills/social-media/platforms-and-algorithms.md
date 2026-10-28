@@ -21,6 +21,16 @@ A *recommendation algorithm* (or ranking system) is a set of models that selects
 
 *Analogy.* A feed algorithm is like a waiter in a restaurant with an endless kitchen, who remembers everything you ever ate and how much of it you finished. Each time you sit down, the waiter brings the dishes you are most likely to finish and order again. A new dish gets a small tasting portion first, and if diners eat it eagerly, more of it goes out. The analogy breaks because a waiter has a sense of what is good for you, while an algorithm optimizes the signals it is given, which may not match your long-term interest, and is adjusted by the platform's commercial goals.
 
+A recommendation system narrows thousands of candidates to one feed in four stages:
+
+```mermaid
+flowchart LR
+  A[Candidate generation] --> B[Ranking by predicted actions]
+  B --> C[Filtering and integrity]
+  C --> D[Diversity and freshness]
+  D --> F[Feed]
+```
+
 ### Signals
 
 Platforms describe several groups of signals:

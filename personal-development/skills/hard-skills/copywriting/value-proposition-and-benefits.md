@@ -37,6 +37,14 @@ The *so what* technique moves from feature to outcome: state a feature, ask "so 
 
 Not every benefit should be pushed to an outcome. Big outcomes ("a promotion") are less credible and harder to prove than near benefits.
 
+Asking "so what?" twice turns a feature into an outcome:
+
+```mermaid
+flowchart LR
+  F[Feature] -->|so what?| B[Benefit]
+  B -->|so what?| O[Outcome]
+```
+
 ### The value proposition canvas
 
 Osterwalder, Pigneur, Bernarda and Smith (*Value Proposition Design*, 2014) describe a canvas with two sides:
@@ -45,6 +53,25 @@ Osterwalder, Pigneur, Bernarda and Smith (*Value Proposition Design*, 2014) desc
 - **Value map:** *products and services*, *pain relievers* (how the offer removes pains), *gain creators* (how it creates gains).
 
 A *fit* exists when the pain relievers and gain creators address the most important jobs, pains and gains. The canvas is a planning tool. The copy then states the most important fit in plain words.
+
+The canvas has two sides that must fit: each pain reliever answers a pain, and each gain creator answers a gain.
+
+```mermaid
+flowchart LR
+  subgraph Value map
+    PS[Products and services]
+    PR[Pain relievers]
+    GC[Gain creators]
+  end
+  subgraph Customer profile
+    J[Jobs]
+    P[Pains]
+    G[Gains]
+  end
+  PS --> J
+  PR --> P
+  GC --> G
+```
 
 ### Qualities of a strong value proposition
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-A call to action (CTA) is the instruction that tells the reader exactly what to do next, such as "Start your free trial". Risk reversal is everything that lowers the reader's fear of regret at that moment: guarantees, clear return policies, security signals and testimonials that answer specific worries. Together they form the last two steps of the five step formula in the source notes, which turns attention into a measurable result. Both work best when they are plain, visible, honest and tested.
+A call to action (CTA) is the instruction that tells the reader exactly what to do next, such as "Start your free trial". Risk reversal is everything that lowers the reader's fear of regret at that moment: guarantees, clear return policies, security signals and testimonials that answer specific worries. Together they form the last two steps of the five step formula for prompting action, which turns attention into a measurable result. Both work best when they are plain, visible, honest and tested.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ A call to action (CTA) is the instruction that tells the reader exactly what to 
 
 ### The five step formula
 
-The source notes describe a formula for prompting action, based on direct response copywriting:
+A formula for prompting action, based on direct response copywriting, has five steps:
 
 1. **Establish trust and authority.** Say who you are and why the reader should listen: experience, credentials, stories, testimonials, case studies.
 2. **Describe the product or service.** Clear, concrete features, shown with images or examples where possible.
@@ -20,7 +20,18 @@ The source notes describe a formula for prompting action, based on direct respon
 4. **Paint a picture of the transformation.** The "after" state: stories, case studies, before and after comparisons.
 5. **Call to action.** One clear next step, supported by risk reversal.
 
-The lesson in the source numbers the call to action and risk reversal as steps 4 and 5 in one place and step 5 in another. This note treats them as the closing pair of the formula.
+This note treats the call to action and risk reversal as the closing pair of the formula.
+
+The five steps, with risk reversal supporting the last one:
+
+```mermaid
+flowchart LR
+  T[Trust and authority] --> D[Describe the product]
+  D --> B[Benefits]
+  B --> X[Transformation]
+  X --> C[Call to action]
+  R[Risk reversal] --> C
+```
 
 ### Call to action
 
@@ -30,7 +41,7 @@ The lesson in the source numbers the call to action and risk reversal as steps 4
 
 Characteristics of a good CTA:
 
-- **Clear and simple.** Plain wording beats clever wording. "Sign up free" says what happens. The source notes observe that even the old-fashioned "Click here" often performs well in tests. This is a practitioner observation, so test it in your setting.
+- **Clear and simple.** Plain wording beats clever wording. "Sign up free" says what happens. Practitioners report that even the old-fashioned "Click here" often performs well in tests. This is a practitioner observation, so test it in your setting.
 - **Action and benefit.** Start with a verb and, where it fits, name the benefit: "Get the 10 minute budget template".
 - **Visible.** Place it where the reader has enough information to decide, and repeat it on long pages, for example after the benefits and at the end.
 - **One primary action.** Competing buttons split attention. Secondary actions can be links instead of buttons.
@@ -41,7 +52,7 @@ Characteristics of a good CTA:
 
 *Definition.* *Risk reversal* moves the risk of a bad decision from the buyer to the seller, or reduces it, so that the buyer's fear of losing money, time or face no longer blocks the decision.
 
-The source notes describe this as addressing the "fear brain", the part of the mind that hesitates under uncertainty. The phrase is a metaphor. It is not a precise description of brain anatomy. The underlying idea is supported by research on loss aversion and on perceived risk in online buying, with the caveats in [persuasion principles](persuasion-principles.md#loss-aversion).
+Marketers sometimes describe this as addressing the "fear brain", the part of the mind that hesitates under uncertainty. The phrase is a metaphor. It is not a precise description of brain anatomy. The underlying idea is supported by research on loss aversion and on perceived risk in online buying, with the caveats in [persuasion principles](persuasion-principles.md#loss-aversion).
 
 Common strategies:
 
@@ -50,6 +61,18 @@ Common strategies:
 - **Testimonials that answer fears.** "I wasn't sure it would work for a small team, but..." addresses a specific objection.
 - **Transparent policies.** Short, clear refund, return and cancellation rules, linked from the checkout.
 - **Answering objections.** Identify likely objections (price, time, effort, compatibility) and answer each one, for example in a short FAQ near the CTA. Free trials remove the cost of trying.
+
+The forms of risk reversal from the list above:
+
+```mermaid
+mindmap
+  root((Risk reversal))
+    Guarantees
+    Security signals
+    Testimonials that answer fears
+    Transparent policies
+    Answers to objections
+```
 
 ### Guarantees and the law
 
@@ -71,7 +94,7 @@ Persuasion is not the same as manipulation. Ethical CTAs and guarantees inform t
 
 ## Worked example
 
-Three CTAs from the source notes, with risk reversal:
+Three CTAs with risk reversal:
 
 | Context | CTA | Risk reversal |
 | --- | --- | --- |
@@ -113,4 +136,4 @@ Hints: question 3 concerns what the law already requires.
 - Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2019/771/oj). The legal guarantee of conformity.
 - Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing*. Cambridge University Press. [doi:10.1017/9781108653985](https://doi.org/10.1017/9781108653985). How to test changes such as CTAs properly.
 
-TODO: Find research on the effect of money-back guarantees on conversion and refund rates. The advice on guarantees comes from the source notes and practitioner knowledge.
+TODO: Find research on the effect of money-back guarantees on conversion and refund rates. The advice on guarantees comes from practitioner knowledge.

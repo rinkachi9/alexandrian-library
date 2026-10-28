@@ -30,7 +30,7 @@ A *specialized source* is a database, archive or repository that collects a part
 
 **Getting full text legally:** many articles have free versions. Tools such as Unpaywall find legal open access copies. Authors' websites, institutional repositories and PubMed Central host many papers. Libraries provide access and interlibrary loan. Authors usually send a copy on request.
 
-**Retractions:** check whether a paper has been retracted or corrected. The Retraction Watch database, acquired by Crossref in 2023 and made openly available, lists retractions. Journal pages and databases usually mark retracted papers.
+**Retractions:** check whether a paper has been retracted or corrected. The Retraction Watch database, acquired by Crossref on 12 September 2023 and made openly available, lists retractions. Journal pages and databases usually mark retracted papers.
 
 **Preprints** are useful for new findings, and have not passed peer review. Treat them with more caution.
 
@@ -67,6 +67,19 @@ Always check the consolidated (current) version of a law and the date it applies
 - Standards bodies (ISO, CEN, national bodies) publish catalogs. Standards themselves are often paid.
 - Official product documentation (software, platforms) is the primary source for how a tool works and changes faster than books.
 - RFCs (rfc-editor.org) for internet protocols.
+
+The kinds of specialized sources covered in this note:
+
+```mermaid
+mindmap
+  root((Specialized sources))
+    Research literature
+    Official statistics
+    Law and official documents
+    Companies and organizations
+    Archives and historical sources
+    Standards and technical documentation
+```
 
 ### Choosing the source
 
@@ -119,5 +132,3 @@ Question: "What share of retail sales in the EU is online, and how has it change
 - Crossref. Retraction Watch database. [crossref.org](https://www.crossref.org/). Retractions data.
 - Polona, National Library of Poland. [polona.pl](https://polona.pl/). Digitized Polish collections.
 - Library of Congress. Chronicling America. [chroniclingamerica.loc.gov](https://chroniclingamerica.loc.gov/). Historic US newspapers.
-
-TODO: Confirm the 2023 Crossref acquisition of the Retraction Watch database and the current URL of the database.

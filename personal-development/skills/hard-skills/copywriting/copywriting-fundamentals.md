@@ -49,9 +49,22 @@ The lesson of this history is humility: practitioners repeatedly found that thei
 
 Most weak copy fails at step 1 or 2, not at the sentence level. A beautifully written page aimed at the wrong reader or the wrong promise does not convert.
 
+The process is a loop: what testing teaches feeds the next round of research.
+
+```mermaid
+flowchart LR
+  R[Research] --> S[Strategy]
+  S --> T[Structure]
+  T --> D[Draft]
+  D --> E[Edit]
+  E --> V[Review]
+  V --> L[Test and learn]
+  L -.-> R
+```
+
 ### The working principle: be obsessed with the customer
 
-The only note in the source export under copywriting is a single value: *obsessed*. As a working principle it means obsession with the customer and the product: reading reviews, support tickets and interview transcripts until you can describe the reader's situation better than they can. Many experienced copywriters describe research as the larger part of the job. This is practitioner experience, consistent with Schwartz's argument that copy channels existing desire.
+One word sums up the attitude of good copywriters: *obsessed*. As a working principle it means obsession with the customer and the product: reading reviews, support tickets and interview transcripts until you can describe the reader's situation better than they can. Many experienced copywriters describe research as the larger part of the job. This is practitioner experience, consistent with Schwartz's argument that copy channels existing desire.
 
 ### Elements of persuasive copy
 
@@ -135,4 +148,4 @@ Hints: question 3 concerns measuring which advertisement produced which response
 - Directive 2005/29/EC on unfair business-to-consumer commercial practices. [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2005/29/oj). EU rules on misleading and aggressive practices.
 - Federal Trade Commission. Advertising FAQs: A guide for small business. [ftc.gov](https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business). The US rules on truthful advertising and substantiation.
 
-TODO: The copywriting section of the source export contains only the heading and the value "Obsessed". The history and process here come from the books listed and from general practice. Check the first edition details of Caples (1932) and the exact wording of Ogilvy's headline claim.
+TODO: Check the first edition details of Caples (1932) and the exact wording of Ogilvy's headline claim.

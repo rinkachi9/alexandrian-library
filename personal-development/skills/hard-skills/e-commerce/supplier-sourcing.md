@@ -2,7 +2,7 @@
 
 ## Summary
 
-Supplier sourcing is finding, evaluating and contracting the businesses that make or supply your products. For an online seller it decides product quality, cost, delivery time and legal compliance, and so most of what customers experience. The process runs from defining requirements, through searching marketplaces, trade fairs and directories, to shortlisting, sampling, negotiating terms (price, minimum order quantity, lead time, payment, Incoterms) and checking quality before shipment. The source notes describe the dropshipping version of the process. The same principles apply, with higher stakes, to buying stock and to private label manufacturing.
+Supplier sourcing is finding, evaluating and contracting the businesses that make or supply your products. For an online seller it decides product quality, cost, delivery time and legal compliance, and so most of what customers experience. The process runs from defining requirements, through searching marketplaces, trade fairs and directories, to shortlisting, sampling, negotiating terms (price, minimum order quantity, lead time, payment, Incoterms) and checking quality before shipment. Dropshipping uses a lighter version of the process. The same principles apply, with higher stakes, to buying stock and to private label manufacturing.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ Supplier sourcing is finding, evaluating and contracting the businesses that mak
 
 ### Where to find suppliers
 
-- **B2B marketplaces:** Alibaba (international), Global Sources, Made-in-China, and regional directories. The source notes list AliExpress, As Seen On TV and Wish for finding products, and AliExpress, Zendrop, Spocket and dropshipping.com as dropshipping suppliers.
+- **B2B marketplaces:** Alibaba (international), Global Sources, Made-in-China, and regional directories. AliExpress, As Seen On TV and Wish are common places for finding products, and AliExpress, Zendrop, Spocket and dropshipping.com are common dropshipping suppliers.
 - **Trade fairs:** for example the Canton Fair in Guangzhou, Ambiente in Frankfurt and industry-specific fairs. Meeting suppliers in person reveals much more than online profiles.
 - **Industry associations and chambers of commerce.**
 - **Local manufacturers,** found through directories, LinkedIn or by asking other sellers.
@@ -49,11 +49,24 @@ Write a short *product specification*: materials, dimensions, weight, colors, to
 | Communication | Response time, clarity, English or your language |
 | Terms | Price, minimum order quantity, lead time, payment terms, defect policy |
 
-The source notes stress choosing suppliers who offer quality products, timely delivery and good service, and building a relationship with good communication and prompt resolution of issues.
+Choose suppliers who offer quality products, timely delivery and good service, and build a relationship with good communication and prompt resolution of issues.
+
+The sourcing process from requirements to the first inspected shipment:
+
+```mermaid
+flowchart LR
+  R[Requirements] --> F[Find suppliers]
+  F --> E[Evaluate]
+  E --> S[Samples]
+  S --> N[Negotiate terms]
+  N --> P[Production]
+  P --> Q[Quality control]
+  Q --> D[Shipment]
+```
 
 ### Samples
 
-Order samples from several shortlisted suppliers and compare them side by side against the specification. For private label, approve a *golden sample* (the reference that production must match) and keep it. The source notes give the range of sample costs for custom products as anywhere from 50 to 100,000 dollars, because custom tooling may be needed.
+Order samples from several shortlisted suppliers and compare them side by side against the specification. For private label, approve a *golden sample* (the reference that production must match) and keep it. Practitioner courses put sample costs for custom products anywhere from 50 to 100,000 dollars, because custom tooling may be needed. Treat this as a rough range.
 
 ### Key commercial terms
 
@@ -71,7 +84,7 @@ Order samples from several shortlisted suppliers and compare them side by side a
 - **During production inspection** for large orders.
 - **Pre-shipment inspection** by an independent inspection company, using sampling plans based on *AQL* (acceptance quality limit) according to ISO 2859-1. An AQL inspection checks a statistically chosen sample and accepts or rejects the batch based on the number of defects found.
 
-### Dropshipping process from the source notes
+### Dropshipping process
 
 1. Research and select reliable suppliers (local or international, depending on the model).
 2. Choose products that fit the brand and the audience.
@@ -121,4 +134,4 @@ A seller sources 500 bamboo cutting boards for a private label kitchen brand (in
 - ISO 2859-1:1999. Sampling procedures for inspection by attributes, Part 1. [iso.org](https://www.iso.org/standard/1141.html). The basis of AQL sampling.
 - European Commission. Food contact materials. [food.ec.europa.eu](https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en). An example of product rules that suppliers must meet in the EU.
 
-TODO: Check the sample cost range from the source notes against another source. Verify the ISO 2859-1 catalog URL and the current Incoterms page URL. The 30% deposit convention and NNN agreements are common practice, add a trade source.
+TODO: The 30% deposit convention and NNN agreements are common practice. Add a trade source.

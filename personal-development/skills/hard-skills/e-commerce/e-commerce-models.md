@@ -18,13 +18,13 @@ None. This note is the entry point to [e-commerce](README.md).
 
 ### Business model and transaction model
 
-A *business model* describes how a company creates value for customers and captures part of it as revenue: what it sells, to whom, through which channels, and how it makes money. Examples from the source notes: Apple sells devices directly to consumers, Uber connects drivers with riders and takes a fee, Google and Meta (Facebook) sell advertising. The theory of business models belongs to business and management (Osterwalder and Pigneur, 2010; Teece, 2010).
+A *business model* describes how a company creates value for customers and captures part of it as revenue: what it sells, to whom, through which channels, and how it makes money. Examples: Apple sells devices directly to consumers, Uber connects drivers with riders and takes a fee, Google and Meta (Facebook) sell advertising. The theory of business models belongs to business and management (Osterwalder and Pigneur, 2010; Teece, 2010).
 
 A *transaction model* is narrower. It classifies e-commerce by the parties on each side of a sale.
 
 ### Transaction models
 
-| Model | Seller to buyer | Example from the source notes | Typical features |
+| Model | Seller to buyer | Example | Typical features |
 | --- | --- | --- | --- |
 | B2B | Business to business | A car manufacturer buying tyres from a tyre maker | Large orders, negotiated prices, invoices, repeat relationships |
 | B2C | Business to consumer | An online retailer such as Amazon selling to the public | Many small orders, listed prices, consumer protection law applies |
@@ -35,9 +35,21 @@ A *transaction model* is narrower. It classifies e-commerce by the parties on ea
 
 Marketplaces such as Amazon and eBay host several models at once: Amazon sells its own stock (B2C) and lets third-party businesses sell (B2C through a marketplace), and eBay hosts both business and private sellers. A newer label, *D2C* (direct to consumer), describes brands that sell their own products to consumers without retailers in between.
 
+The transaction models differ in who sells to whom:
+
+```mermaid
+flowchart LR
+  B[Business] -->|B2B| B2[Business]
+  B -->|B2C| C[Consumer]
+  C2[Consumer] -->|C2C| C
+  C2 -->|C2B| B
+  B -->|B2A| A[Administration]
+  C2 -->|C2A| A
+```
+
 ### The parts of an e-commerce business
 
-The source notes list the areas a seller has to understand. Each is a field of its own:
+A seller has to understand several areas. Each is a field of its own:
 
 1. **Platforms.** Hosted store builders (Shopify), plugins for a website (WooCommerce on WordPress), and marketplaces (Amazon, eBay, Allegro, Etsy). The choice trades control against reach and fees (see [e-commerce platforms](e-commerce-platforms.md)).
 2. **Traffic and marketing.** Search engine optimization (see [e-commerce SEO](../search-engine-optimization/e-commerce-seo.md)), paid ads (see [paid social advertising](../social-media/paid-social-advertising.md)), [email marketing](../content-marketing/email-marketing.md) and [content marketing](../content-marketing/content-marketing-fundamentals.md).
@@ -49,9 +61,25 @@ The source notes list the areas a seller has to understand. Each is a field of i
 8. **Analytics.** Measuring traffic, conversion rate, average order value and customer lifetime value to improve sales (see [e-commerce metrics](e-commerce-metrics.md)).
 9. **International e-commerce.** Currency, language, delivery, returns, VAT and customs (see [e-commerce law and cross-border](e-commerce-law-and-cross-border.md)).
 
+The nine parts of an online business from the list above:
+
+```mermaid
+mindmap
+  root((E-commerce business))
+    Platform
+    Traffic and marketing
+    Mobile commerce
+    Payment gateways
+    Shipping and fulfillment
+    Customer service
+    Data privacy and security
+    Analytics
+    International sales
+```
+
 ### Size of the market
 
-The US Census Bureau estimated US retail e-commerce sales at 340.2 billion dollars in the second quarter of 2026, seasonally adjusted, which was 17.1% of total retail sales, up from 16.3% a year earlier (release of 18 August 2026). Retail e-commerce in these statistics excludes services such as travel and B2B sales, which are much larger in value. Figures checked 2026-10 through search summaries of the release.
+The US Census Bureau estimated US retail e-commerce sales at 340.2 billion dollars in the second quarter of 2026, seasonally adjusted, which was 17.1% of total retail sales, up from 16.3% a year earlier (release of 18 August 2026, figures confirmed in FRED series ECOMPCTSA, which republishes the Census data, 2026-10). Retail e-commerce in these statistics excludes services such as travel and B2B sales, which are much larger in value. Figures checked 2026-10 through search summaries of the release.
 
 ## Worked example
 
@@ -91,5 +119,3 @@ Hints: question 2 involves B2A (B2G), C2B and B2C.
 - Osterwalder, A., & Pigneur, Y. (2010). *Business Model Generation*. Wiley. The business model canvas, a widely used way to describe business models.
 - Teece, D. J. (2010). Business models, business strategy and innovation. *Long Range Planning*, 43(2-3), 172-194. [doi:10.1016/j.lrp.2009.07.003](https://doi.org/10.1016/j.lrp.2009.07.003). A research view of what a business model is.
 - Regulation (EU) 2016/679 (General Data Protection Regulation). [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj). The EU rules on personal data.
-
-TODO: The census.gov release could not be opened from the working environment. Confirm the Q2 2026 figures (340.2 billion dollars, 17.1%) on the release itself.

@@ -36,6 +36,15 @@ A practical way to find a position combines:
 
 The position lies where all three overlap.
 
+A position sits where the three circles overlap: something you are good at, that an audience needs, and that sets you apart.
+
+```mermaid
+flowchart LR
+  S[Strengths] --> P[Position]
+  N[Audience need] --> P
+  D[Difference] --> P
+```
+
 ### Ways to differentiate
 
 - **Audience:** serving a specific industry or type of client ("for dental practices").

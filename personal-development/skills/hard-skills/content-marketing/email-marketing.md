@@ -68,6 +68,18 @@ Automated sequences are often the most effective emails because they arrive when
 | Post-purchase | Order | How to use the product, request for a review, related products |
 | Re-engagement | No clicks for a period | Ask whether they still want emails, then remove non-responders |
 
+The four automations from the table, each started by a trigger:
+
+```mermaid
+flowchart LR
+  S[Sign-up] --> W[Welcome sequence]
+  K[Items left in cart] --> A[Abandoned cart sequence]
+  O[Order] --> P[Post-purchase sequence]
+  N[No clicks for a period] --> R[Re-engagement sequence]
+  R --> X{Still interested?}
+  X -- no --> D[Remove from list]
+```
+
 ### Metrics
 
 | Metric | Meaning | Caveat |
@@ -124,4 +136,4 @@ A small online tea shop sets up email marketing.
 - RFC 8058 (2017). Signaling one-click functionality for list email headers. [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc8058). The one-click unsubscribe standard.
 - RFC 7489 (2015). Domain-based Message Authentication, Reporting, and Conformance (DMARC). [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc7489). The DMARC specification.
 
-TODO: Read the Google and Yahoo sender requirements directly (they were checked through vendor summaries) and the text of Article 398 of the Polish Electronic Communications Law.
+TODO: Read the Google and Yahoo sender pages directly (the requirements were checked in several vendor summaries, 2026-10) and the text of Article 398 of the Polish Electronic Communications Law.

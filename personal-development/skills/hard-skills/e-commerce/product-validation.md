@@ -18,7 +18,7 @@ Product validation is collecting evidence that people will actually pay for a pr
 
 ### Why stated intent is weak evidence
 
-When people are asked whether they would buy something, many say yes and do not buy. Research on purchase intentions finds that stated intentions do relate to later purchases, but imperfectly, and the gap depends on the product and the situation (Morwitz, Steckel and Gupta, 2007). The broader psychological literature calls this the *intention-behavior gap* (Sheeran, 2002). In customer interviews, compliments and hypothetical answers ("I would definitely buy that") are the least reliable signal. Rob Fitzpatrick's *The Mom Test* (2013) advises asking about the person's past behavior and current solutions instead of asking for opinions about your idea.
+When people are asked whether they would buy something, many say yes and do not buy. Research on purchase intentions finds that stated intentions do relate to later purchases, but imperfectly, and the gap depends on the product and the situation (Morwitz, Steckel and Gupta, 2007). The broader psychological literature calls this the *intention-behavior gap*. Sheeran (2002) pooled 10 meta-analyses covering 422 studies and found an average correlation of about .53 between intention and later behavior, so intentions explain only about a quarter of the variation in what people do. In customer interviews, compliments and hypothetical answers ("I would definitely buy that") are the least reliable signal. Rob Fitzpatrick's *The Mom Test* (2013) advises asking about the person's past behavior and current solutions instead of asking for opinions about your idea.
 
 ### Methods ordered by strength of evidence
 
@@ -34,6 +34,18 @@ When people are asked whether they would buy something, many say yes and do not 
 | Test ads | Click and purchase behavior of strangers | Medium | Medium to strong |
 | MVP | Use of a basic version | Medium to high | Strong |
 | Pre-orders and crowdfunding | Willingness to pay | Medium | Strongest before launch |
+
+The methods from the table, ordered from weaker to stronger evidence of willingness to buy:
+
+```mermaid
+flowchart LR
+  A[Market and trend research] --> B[Surveys and focus groups]
+  B --> C[Interviews and social presence]
+  C --> D[Landing page sign-ups]
+  D --> E[Test ads]
+  E --> F[MVP]
+  F --> G[Pre-orders and crowdfunding]
+```
 
 ### Market research
 
@@ -67,7 +79,7 @@ A *landing page* describes the product and its benefits and asks for an action, 
 
 ### Test ads
 
-An ad that sends people to a product page measures how strangers react: clicks, add-to-cart actions and purchases. This is how the source notes test dropshipping and private label products (see [private label](private-label.md#testing-with-ads)). Judge the result by cost per purchase compared with the margin, not by clicks alone.
+An ad that sends people to a product page measures how strangers react: clicks, add-to-cart actions and purchases. This is the usual way to test dropshipping and private label products (see [private label](private-label.md#testing-with-ads)). Judge the result by cost per purchase compared with the margin, not by clicks alone.
 
 ### Minimum viable product
 
@@ -134,4 +146,4 @@ Hints: question 4 concerns relative and absolute numbers.
 - Google Trends Help. FAQ about Google Trends data. [support.google.com](https://support.google.com/trends/answer/4365533). How the 0 to 100 index is calculated.
 - U.S. Federal Trade Commission. Mail, Internet, or Telephone Order Merchandise Rule (16 CFR Part 435). [ftc.gov](https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule). Shipping time and delay rules.
 
-TODO: Read Morwitz et al. (2007) and Sheeran (2002) in full, confirm their DOIs and add their key findings with numbers. Confirm the publication year of The Mom Test. Lean Startup belongs to business and management; link to that note when it exists.
+TODO: Read Morwitz et al. (2007) in full, confirm its DOI and add its key findings with numbers. Lean Startup belongs to business and management; link to that note when it exists.
