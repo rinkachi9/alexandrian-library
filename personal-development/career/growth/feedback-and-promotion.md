@@ -20,6 +20,19 @@ Feedback is information about how your performance compares to a standard, and i
 
 *Use.* Ask for feedback about the task ("Which part of the report was hardest to follow?") instead of the person ("Am I good?").
 
+The diagram shows the idea of the feedback intervention theory. The effect depends on where the feedback sends attention.
+
+```mermaid
+flowchart LR
+  F[Feedback] --> A{Where does attention go}
+  A --> T[The task]
+  A --> L[Task learning details]
+  A --> S[The self]
+  T --> E[Effect on performance depends on the focus]
+  L --> E
+  S --> E
+```
+
 ### Promotion
 
 There is little research in this note on promotion mechanics, so this section is practitioner advice and is marked as such.
@@ -28,6 +41,15 @@ There is little research in this note on promotion mechanics, so this section is
 - Keep an evidence log of results with dates and numbers.
 - Make your work visible to people who decide, through reports, demos and short updates.
 - Ask a senior person to advocate for you (sponsorship), as an extension of [mentoring](../methods/mentoring-process-and-relationships.md).
+
+```mermaid
+flowchart LR
+  A[Agree what the next level requires] --> B[Do the work]
+  B --> C[Log results with evidence]
+  C --> D[Make results visible]
+  D --> E[Review against the expectations]
+  E --> A
+```
 
 ## Worked example
 

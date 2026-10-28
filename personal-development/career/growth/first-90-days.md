@@ -38,6 +38,16 @@ A synthetic 30-60-90 plan for a new analyst. Use it as a template, and agree it 
 | Days 31-60 | Confirm priorities with the manager | Own one recurring report | Meet two people outside the team |
 | Days 61-90 | Review the written expectations against results | Propose one improvement | Ask two colleagues for feedback |
 
+The timeline shows the same plan in three steps.
+
+```mermaid
+timeline
+  title First 90 days
+  Days 1-30 : Write down key outputs : Finish one small task : Meet each team member
+  Days 31-60 : Confirm priorities : Own one recurring report : Meet two people outside the team
+  Days 61-90 : Review expectations against results : Propose one improvement : Ask for feedback
+```
+
 Use the question from the [interview note](../job-search/job-interview.md): "What would I have needed to accomplish in six months to exceed expectations?" Write the answer down and bring it to the first one-to-one meeting.
 
 ## Trade offs and when to use it

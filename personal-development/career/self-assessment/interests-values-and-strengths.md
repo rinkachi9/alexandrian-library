@@ -32,6 +32,16 @@ Three questions shape a good career decision: what do I find interesting, what d
 
 *Boundaries.* The research base for specific strength tests is smaller than for interests. Treat the results as prompts for a conversation, and look for external evidence such as feedback you received. TODO: add a verified source on the evidence for strengths tools.
 
+The three lenses answer different questions, and an option is worth exploring when it holds up under all of them.
+
+```mermaid
+flowchart LR
+  A["Interests<br/>What do I like to do"] --> S{Shortlist of options}
+  B["Values<br/>What do I need from work"] --> S
+  C["Strengths<br/>What do I do well"] --> S
+  S --> T[Test with a small experiment]
+```
+
 ### Analogy
 
 Interests are a compass, values are the destination criteria, and strengths are the vehicle. The analogy fails because a compass has one reading while a person has several interests that can conflict.

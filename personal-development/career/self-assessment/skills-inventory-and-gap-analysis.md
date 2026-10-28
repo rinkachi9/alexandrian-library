@@ -33,6 +33,16 @@ A skills inventory is a list of what you can do, each item backed by evidence an
 
 *Analogy.* The method is like a pre-trip check of a car: list each part, rate its state, compare it to what the route needs and fix the most critical first. The analogy fails because skills improve with use, while a worn part does not.
 
+The diagram shows the order of the method, from listing skills to a learning plan.
+
+```mermaid
+flowchart LR
+  A[List skills for the role] --> B[Rate your level 0 to 3 with evidence]
+  B --> C[Required level minus your level]
+  C --> D["Priority = importance x gap"]
+  D --> E[Learning plan]
+```
+
 ## Worked example
 
 Target role: junior data analyst. The importance and levels below are invented.
@@ -43,6 +53,16 @@ Target role: junior data analyst. The importance and levels below are invented.
 | Statistics | 4 | 2 | 1 | 1 | 4 |
 | Project management | 2 | 2 | 0 | 2 | 4 |
 | Presenting results | 3 | 3 | 2 | 1 | 3 |
+
+The chart shows the priority score of each skill. SQL stands out, so it comes first.
+
+```mermaid
+xychart-beta
+  title "Priority score (importance x gap)"
+  x-axis ["SQL", "Statistics", "Project mgmt", "Presenting"]
+  y-axis "Score" 0 --> 12
+  bar [10, 4, 4, 3]
+```
 
 Priority = importance x gap. The ranked list is: SQL (10), statistics (4), project management (4), presenting results (3). Statistics and project management tie, so break the tie by importance (4 versus 2): statistics comes first.
 

@@ -14,11 +14,32 @@ None. A general idea of what personality and motivation mean helps. See [psychol
 
 Career advice without a model is a list of opinions. A theory names the factors that matter and says how they relate, so you can ask better questions and notice what you have not considered. The cost is simplification: every theory leaves something out.
 
+Each theory answers a different question about the same person. The map below lists the five covered here and the question each one asks.
+
+```mermaid
+mindmap
+  root((Career theories))
+    Holland
+      Which work environments resemble me
+    Super
+      Which life stage and roles am I in
+    SCCT
+      What do I believe I can do
+    Career construction
+      What story links my work
+    Planned happenstance
+      How can chance work for me
+```
+
 ### Holland: matching interests to work environments
 
 *Definition.* John Holland proposed in 1959 that vocational choice expresses personality, and that people do better in work environments that resemble them. Interests are grouped into six types, known as RIASEC: Realistic, Investigative, Artistic, Social, Enterprising and Conventional. The U.S. Department of Labor's O*NET Interest Profiler uses the same six areas.
 
 *Analogy.* Picture a hexagon with the six types at its corners. Neighbors on the hexagon (for example Investigative and Artistic, or Artistic and Social) are similar, and opposite corners (Social and Realistic) are far apart. The map works like a map of a city district: nearby places share traits. It breaks where the analogy suggests fixed places, because a person is a blend, not a single corner.
+
+The figure shows the hexagon. Neighbors such as Investigative and Artistic are similar, Social and Realistic sit at opposite corners, and the dashed triangle marks the example code SIA.
+
+![Holland hexagon with the six RIASEC types and the example code SIA marked](../../../_assets/personal-development/career-riasec-hexagon.svg)
 
 *Mechanism.* A person is described by a short code made of their top types, such as SIA (Social, Investigative, Artistic). Occupations have codes too. The closer the two codes, the better the *congruence*. The theory predicts that higher congruence goes with more satisfaction and persistence.
 

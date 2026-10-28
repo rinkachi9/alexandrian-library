@@ -14,21 +14,13 @@
     { "path": "arts" },
     { "path": "personal-development" }
   ],
-  "ignore": ["_sources", "_assets"],
+  "ignore": ["_assets"],
   "toc": {
     "file": "ToC.md",
     "check": true,
     "descriptions": {
       ".gitignore": "Files excluded from version control.",
-      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules.",
-      "_sources/Business-20261027091630.html": "Export: business, startups, Lean Startup and Lean Canvas. Target: applied-sciences/business-and-management.",
-      "_sources/Career-20261027092557.html": "Export: job interview questions. Migrated into personal-development/career/job-search/job-interview.md.",
-      "_sources/Finances-20261027091604.html": "Export: personal finance and budgeting. Target: applied-sciences/finance-and-investing.",
-      "_sources/Health & fitness.html": "Export: anatomy and health. Target: applied-sciences/medicine-and-health.",
-      "_sources/Investing-20261027092545.html": "Export: stocks, futures, CFDs and options. Target: applied-sciences/finance-and-investing.",
-      "_sources/Knowledge-20261027091417.html": "Export: psychology and multiple intelligences. Target: social-sciences/psychology.",
-      "_sources/Self-development-20261027091445.html": "Export: self-improvement, habits and goals. Target: personal-development/personal-growth.",
-      "_sources/Skills-20261027091622.html": "Export: copywriting, content marketing, SEO, e-commerce, web search and LinkedIn. Migrated into personal-development/skills/hard-skills (the LinkedIn part into career/job-search/professional-profile.md)."
+      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules."
     }
   },
   "rules": { "requireSidecars": true, "noLongDashes": true }

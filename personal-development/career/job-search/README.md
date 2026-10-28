@@ -2,6 +2,19 @@
 
 The steps from a decision to an offer: strategy, documents, networks, interviews and negotiation.
 
+## How the notes fit together
+
+The diagram shows the path from strategy to an offer. Documents and networks feed the search, and the interview leads to negotiation.
+
+```mermaid
+flowchart LR
+  S[Strategy] --> D[Resume and profile]
+  S --> N[Networking]
+  D --> I[Interview]
+  N --> I
+  I --> O[Offer and negotiation]
+```
+
 ## Notes in reading order
 
 1. [Job search strategy](job-search-strategy.md): what the research says about search behavior and interventions.

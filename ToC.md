@@ -394,12 +394,14 @@ Entries without a link are planned topics. They become notes or directories when
       - [README.md](personal-development/career/methods/README.md): Methods - Techniques and processes from coaching and mentoring that are used in career work.
       - [coaching-techniques-for-career.md](personal-development/career/methods/coaching-techniques-for-career.md): Coaching techniques for career - Coaching is a set of conversation techniques that help a person clarify goals and find their own next steps.
       - [mentoring-process-and-relationships.md](personal-development/career/methods/mentoring-process-and-relationships.md): Mentoring process and relationships - A mentoring relationship is a developmental relationship in which a more experienced person supports a less experienced one.
+- **_assets/**
+  - **personal-development/**
+    - [career-riasec-hexagon.svg](_assets/personal-development/career-riasec-hexagon.svg): File.
 - **_sources/**
-  - [Business-20261027091630.html](_sources/Business-20261027091630.html): Export: business, startups, Lean Startup and Lean Canvas. Target: applied-sciences/business-and-management.
-  - [Career-20261027092557.html](_sources/Career-20261027092557.html): Export: job interview questions. Migrated into personal-development/career/job-search/job-interview.md.
-  - [Finances-20261027091604.html](_sources/Finances-20261027091604.html): Export: personal finance and budgeting. Target: applied-sciences/finance-and-investing.
-  - [Health & fitness.html](_sources/Health%20&%20fitness.html): Export: anatomy and health. Target: applied-sciences/medicine-and-health.
-  - [Investing-20261027092545.html](_sources/Investing-20261027092545.html): Export: stocks, futures, CFDs and options. Target: applied-sciences/finance-and-investing.
-  - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): Export: psychology and multiple intelligences. Target: social-sciences/psychology.
-  - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): Export: self-improvement, habits and goals. Target: personal-development/personal-growth.
-  - [Skills-20261027091622.html](_sources/Skills-20261027091622.html): Export: copywriting, content marketing, SEO, e-commerce, web search and LinkedIn. Migrated into personal-development/skills/hard-skills (the LinkedIn part into career/job-search/professional-profile.md).
+  - [Business-20261027091630.html](_sources/Business-20261027091630.html): File.
+  - [Finances-20261027091604.html](_sources/Finances-20261027091604.html): File.
+  - [Health & fitness.html](_sources/Health%20&%20fitness.html): File.
+  - [Investing-20261027092545.html](_sources/Investing-20261027092545.html): File.
+  - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): File.
+  - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): File.
+  - [Skills-20261027091622.html](_sources/Skills-20261027091622.html): File.

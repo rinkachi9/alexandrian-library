@@ -18,6 +18,19 @@ A mentoring relationship is a developmental relationship in which a more experie
 
 Kram's work distinguishes career functions (such as sponsorship, exposure and challenging assignments) from psychosocial functions (such as role modeling, acceptance and counseling). TODO: confirm the list of functions in Kram (1985) because the 1983 paper is about phases.
 
+```mermaid
+mindmap
+  root((Mentoring functions))
+    Career
+      Sponsorship
+      Exposure
+      Challenging assignments
+    Psychosocial
+      Role modeling
+      Acceptance
+      Counseling
+```
+
 ### Phases
 
 *Mechanism.* Kram (1983) described four phases:

@@ -22,9 +22,25 @@ A profile is searchable and always on. People who do not know you can see your h
 - **Experience.** Roles with results, as in the [resume](resume-and-cover-letter.md).
 - **Skills and recommendations.** Evidence from other people carries more weight than your own claims.
 
-### Common mistakes from the source notes
+The map shows how the parts of a profile work together. The headline and photo are seen first, and the experience and recommendations give the evidence.
 
-The original notes in this library, migrated from the Skills export, list these errors. They are practitioner advice and have no research source here. TODO: verify with a primary or platform source.
+```mermaid
+mindmap
+  root((Profile))
+    First impression
+      Headline
+      Photo
+    Story
+      Summary in first person
+    Evidence
+      Experience with results
+      Skills
+      Recommendations
+```
+
+### Common profile mistakes
+
+These errors are practitioner advice and have no research source here. TODO: verify with a primary or platform source.
 
 - Not writing your own summary. Write as yourself, in the first person. The third person creates distance.
 - A poor photo or none. Use a good, authentic one.
@@ -65,4 +81,4 @@ Hints: question 2 relates to evidence from a source other than yourself.
 
 - Roulin, N., & Levashina, J. (2019). LinkedIn as a new selection method: Psychometric properties and assessment approach. *Personnel Psychology*, 72(2), 187-211. [doi:10.1111/peps.12296](https://doi.org/10.1111/peps.12296). Profiles studied as an assessment tool (findings not read here).
 
-TODO: Add a platform or research source for profile elements. The LinkedIn advice comes from the personal notes of the author, migrated from the Skills export.
+TODO: Add a platform or research source for profile elements. The advice on the summary, photo and invitations is practitioner advice.
