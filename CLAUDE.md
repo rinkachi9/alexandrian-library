@@ -1,25 +1,5 @@
 # CLAUDE.md
 
-Instructions for Claude Code in the Alexandrian Library repository.
-
 @GUIDELINE.md
 
-The import above loads [GUIDELINE.md](GUIDELINE.md), the single source of truth for scope, structure, note format, writing style and quality checks. Read and follow it for every task in this repository. Do not copy its rules into this file. If this file and the GUIDELINE disagree, the GUIDELINE wins.
-
-## Quick reminders
-
-- Write everything in English.
-- Use hyphens only. Never use em dashes or en dashes.
-- Use natural, plain language and avoid filler phrases and hype words.
-- Explain each concept with a definition, an analogy, the mechanism, a concrete example and the boundaries.
-- Do not invent facts, sources or version numbers. Cite primary sources.
-- Never add secrets, credentials or personal data.
-- Reflect every added, moved, renamed or deleted file in `ToC.md`.
-- Every Markdown file in an entry point has a `.md.json` sidecar ([GUIDELINE section 3.5](GUIDELINE.md#35-sidecar-metadata)). Run `npm run check` in Librarian OS against this repository before finishing.
-- Stay within the scope described in [README.md](README.md#scope).
-
-## Before finishing a task
-
-- Run the quality checklist in the GUIDELINE, including the search for em dashes and en dashes.
-- Make sure any new note is listed in its field `README.md` and in `ToC.md`.
-- Summarize what changed, which sources were used and what remains unverified.
+The import above loads [GUIDELINE.md](GUIDELINE.md). It defines the rules and the context of this repository: scope, structure, note format, writing style, visuals, sources, Librarian OS requirements and quality checks. Take every instruction directly from it and follow it without exception. This file adds nothing to it. If anything here seems to differ from the GUIDELINE, the GUIDELINE wins.

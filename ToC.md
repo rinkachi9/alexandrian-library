@@ -8,9 +8,10 @@ Entries without a link are planned topics. They become notes or directories when
   - [ToC.md](ToC.md): This file.
   - [README.md](README.md): Alexandrian Library - A personal library of knowledge: notes, explanations, checklists and worked examples across many fields, organized by the classical division of the sciences.
   - [GUIDELINE.md](GUIDELINE.md): Guideline - This document describes how to approach the Alexandrian Library repository: what belongs in it, how notes are organized, how concepts must be explained and what qualit...
-  - [AGENTS.md](AGENTS.md): AGENTS.md - Instructions for AI agents working in the Alexandrian Library repository.
-  - [CLAUDE.md](CLAUDE.md): CLAUDE.md - Instructions for Claude Code in the Alexandrian Library repository.
+  - [AGENTS.md](AGENTS.md): AGENTS.md - GUIDELINE.md defines the rules and the context of this repository: scope, structure, note format, writing style, visuals, sources, Librarian OS requirements and qualit...
+  - [CLAUDE.md](CLAUDE.md): CLAUDE.md - @GUIDELINE.md
   - [.gitignore](.gitignore): Files excluded from version control.
+  - [INSTRUCTIONS.md](INSTRUCTIONS.md): Preparing a repository for Librarian OS - This guide is for the person, or the AI agent, who adapts a repository so that Librarian OS can open it.
   - [librarian-os.json](librarian-os.json): Configuration for Librarian OS: project name, entry points and rules.
 - **formal-sciences/** (planned)
   - [README.md](formal-sciences/README.md): Formal sciences - Disciplines that study abstract structures and rules of reasoning instead of the physical world.

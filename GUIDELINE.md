@@ -190,6 +190,7 @@ Every Markdown file inside an entry point (a directory listed in `librarian-os.j
 
 **Rules**
 
+- **Follow `INSTRUCTIONS.md` of Librarian OS.** Whenever you create or change a note, its sidecar, a README or `librarian-os.json`, follow `INSTRUCTIONS.md` in the Librarian OS repository for everything that concerns compatibility with the reader: the configuration standard, the sidecar standard, entry points and the steps to adapt a repository. If this guideline and `INSTRUCTIONS.md` disagree on a Librarian OS matter, `INSTRUCTIONS.md` wins for the technical format, and this guideline wins for content and style.
 - **Derived, not stored.** The title comes from the `#` heading and the domain, field and subfield come from the path. The hierarchy edges of the graph come from the directory tree. Storing them again would let them drift.
 - **Relations point forward only.** Backlinks are computed. Do not write the inverse relation in the target.
 - **Link only to existing ids.** A planned topic without a sidecar cannot be a target. `npm run check` fails on a broken id.
@@ -513,7 +514,7 @@ Run this list before marking a note as `reviewed`.
 - [ ] File and directory names follow the naming rules.
 - [ ] The note is linked from its field `README.md`.
 - [ ] `ToC.md` reflects every added, moved, renamed or deleted file, and its links resolve.
-- [ ] The note has a sidecar (`.md.json`), and `npm run check` in Librarian OS passes.
+- [ ] The note has a sidecar (`.md.json`), it follows `INSTRUCTIONS.md` of Librarian OS, and `npm run check` in Librarian OS passes.
 
 A quick way to check the dash rule from the repository root:
 
@@ -545,6 +546,7 @@ AI assistants are welcome collaborators. The rules are the same as for a human c
 - **No "Source material" sections.** Never mention `_sources/` exports in a note. Fill in the sources list instead.
 - **Stay in scope.** Do not add content unrelated to the request. Do not restructure the repository without being asked.
 - **Prefer editing to creating.** Extend an existing note when the topic already has a home. Create a new file only when the topic deserves its own note.
+- **Follow `INSTRUCTIONS.md`.** For every Librarian OS adaptation (configuration, sidecars, entry points, checks) follow `INSTRUCTIONS.md` of Librarian OS, and read it before creating the first note of a session.
 - **Keep sidecars in step.** A new or renamed note gets a sidecar (`npm run scaffold`), and relations are added only to ids that exist. Run `npm run check` in Librarian OS before finishing.
 - **Update `ToC.md` with every change.** Any file added, moved, renamed or deleted must be reflected in `ToC.md` before the task is finished (see [section 3.4](#34-table-of-contents)).
 - **Ask when a decision is unclear.** Structure, scope and naming decisions belong to the author.
