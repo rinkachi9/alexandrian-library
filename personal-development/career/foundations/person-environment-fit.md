@@ -21,6 +21,20 @@ Person-environment fit is the degree to which a person and their work setting ma
 
 A job can match on one and fail on the other. A role that you are fully able to do can still fail your needs.
 
+The diagram shows the two directions of fit between a person and a job. A role can pass one check and fail the other.
+
+```mermaid
+flowchart LR
+  P[Person]
+  J[Job or organization]
+  P -- abilities --> D{Demands met?}
+  J -- demands --> D
+  J -- supplies --> N{Needs met?}
+  P -- needs --> N
+  D --> O[Performance and lower strain]
+  N --> S[Satisfaction]
+```
+
 ### Analogy
 
 Fit is like a shoe. A good shoe matches the foot in size, shape and purpose. The analogy breaks in two places: feet change slowly while people and jobs can change a lot, and a person can reshape the job (job crafting), which a foot cannot do to a shoe.

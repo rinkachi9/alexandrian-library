@@ -31,6 +31,13 @@ The numbers in the second column are examples. Use only figures you can defend.
 
 Copy the key requirements from the posting, mark those you meet and place the matching evidence near the top. Do not claim skills you lack. A study of recruiters' use of resume information for recent graduates (Cole, Rubin, Feild and Giles, 2007) examined what recruiters take from a resume. TODO: read the findings and add them here.
 
+```mermaid
+flowchart LR
+  A[Copy requirements from the posting] --> B[Mark those you meet]
+  B --> C[Put matching evidence near the top]
+  C --> D[Leave out skills you lack]
+```
+
 ### Cover letter
 
 Three short parts: why this employer, what you offer with one piece of evidence, and what you ask for. Keep it to one page.

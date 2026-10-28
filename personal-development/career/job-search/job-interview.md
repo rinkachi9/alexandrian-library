@@ -29,16 +29,21 @@ A job interview is a conversation in which an employer estimates how well you wi
 
 *STAR* stands for Situation, Task, Action, Result. It is a practitioner framework for organizing answers about the past. It is not a research-validated method. TODO: add a source if one exists.
 
+```mermaid
+flowchart LR
+  S[Situation] --> T[Task] --> A[Action] --> R[Result]
+```
+
 ### Questions you ask
 
-The source notes of this library record two questions for the end of the interview:
+Two questions that work well at the end of the interview:
 
 1. "What is the biggest opportunity facing the department?"
 2. "Six months from now, what would I have needed to accomplish to exceed your expectations?"
 
 Why they work: the first tells you what the work is for and shows you think about the team's goals. The second tells you how success is judged, which you can use in your answers and in your first weeks (see [first 90 days](../growth/first-90-days.md)).
 
-The source notes also advise that you let the interviewer see you write down the answer, to show you will be part of the solution. This is practitioner advice. No research is cited for it, so treat it as an opinion.
+Some practitioners also advise that you let the interviewer see you write down the answer, to show you will be part of the solution. This is practitioner advice. No research is cited for it, so treat it as an opinion.
 
 ## Worked example
 

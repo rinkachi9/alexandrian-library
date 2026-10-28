@@ -14,6 +14,18 @@ Burnout is an occupational phenomenon that the World Health Organization describ
 
 The WHO states that burn-out in ICD-11 "is a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed." The three dimensions listed are feelings of energy depletion or exhaustion, increased mental distance from one's job or negativism or cynicism related to one's job, and reduced professional efficacy. The WHO describes it as an occupational phenomenon, not a medical condition, and says the term should not be applied to experiences in other areas of life (checked 2026-10).
 
+```mermaid
+mindmap
+  root((Burnout in ICD-11))
+    Exhaustion
+      Energy depletion
+    Distance
+      Mental distance from the job
+      Negativism or cynicism
+    Efficacy
+      Reduced professional efficacy
+```
+
 ### What the research adds
 
 Maslach and Leiter (2016) review decades of research. Measures and theoretical models exist, most work has been done in human service occupations and especially health care, and there are debates about the link between burnout and mental illness and about attempts to redefine burnout as simply exhaustion. TODO: read the paper for the six areas of work life that Maslach and Leiter describe (workload, control, reward, community, fairness, values). They are mentioned here from general knowledge and should be checked.
@@ -36,6 +48,20 @@ A weekly check for three signals, rated 1 (low) to 5 (high). The ratings are inv
 | 2 | 3 | 3 | 4 |
 | 3 | 2 | 4 | 3 |
 | 4 | 2 | 4 | 2 |
+
+The chart plots the table. Energy and effectiveness fall while distance rises, which is the pattern to act on.
+
+```mermaid
+xychart-beta
+  title "Weekly check (1 low, 5 high)"
+  x-axis ["Week 1", "Week 2", "Week 3", "Week 4"]
+  y-axis "Rating" 1 --> 5
+  line [4, 3, 2, 2]
+  line [2, 3, 4, 4]
+  line [4, 4, 3, 2]
+```
+
+The lines are energy, distance and effectiveness, in the order of the table columns.
 
 A downward trend in energy and effectiveness with rising distance over four weeks is a prompt to act. This is not a diagnosis. Actions: talk with your manager about workload and control, use leave if you have it and, if the feelings persist or you feel unwell, speak with a doctor or another qualified professional.
 

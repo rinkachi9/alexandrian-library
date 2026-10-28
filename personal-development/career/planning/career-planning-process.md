@@ -61,6 +61,19 @@ Choose between three roles. Criteria and weights (they sum to 1.0): growth 0.4, 
 
 Total for A: 5 x 0.4 + 3 x 0.3 + 2 x 0.2 + 3 x 0.1 = 2.0 + 0.9 + 0.4 + 0.3 = 3.6. B wins by a small margin.
 
+The chart compares the totals under the original weights and under the sensitivity weights described below. The ranking changes, so the decision is close.
+
+```mermaid
+xychart-beta
+  title "Weighted totals for options A, B and C"
+  x-axis ["A", "B", "C"]
+  y-axis "Total" 3 --> 4
+  bar [3.6, 3.9, 3.6]
+  bar [3.8, 3.7, 3.6]
+```
+
+The first bar of each pair uses the original weights and the second uses the weights growth 0.5, pay 0.2, location 0.2, stability 0.1.
+
 Sensitivity check: change the weights to growth 0.5, pay 0.2, location 0.2, stability 0.1. Now A = 3.8, B = 3.7 and C = 3.6. The ranking flips, so the decision is close. The right move is to find out more about the options (for example, how fast people in A actually grow), not to trust the first total.
 
 ## Trade offs and when to use it

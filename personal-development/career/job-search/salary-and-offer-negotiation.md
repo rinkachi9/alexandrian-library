@@ -18,6 +18,20 @@ Negotiation is a process in which two parties with partly shared and partly conf
 - **Target:** the outcome you aim for.
 - **Anchor:** the first offer or number, which sets a reference.
 
+The diagram shows the order in which the terms are used. Preparation comes first, the anchor opens the talk and other terms can add value.
+
+```mermaid
+flowchart LR
+  subgraph Prepare
+    I[Interests] --> R[Reservation point]
+    BA[BATNA] --> R
+    R --> TG[Target]
+  end
+  Prepare --> AN[Anchor: first offer]
+  AN --> BP[Trade beyond base pay]
+  BP --> AG[Agreement or walk away]
+```
+
 ### Anchoring evidence
 
 In three experiments, whichever party made the first offer, buyer or seller, obtained a better outcome, and first offers were a strong predictor of final settlement prices. The advantage disappeared when the party who did not make the first offer focused on information inconsistent with it: the opponent's alternatives, the opponent's reservation price or one's own target. The effects held in face-to-face and e-mail negotiations (Galinsky and Mussweiler, 2001).

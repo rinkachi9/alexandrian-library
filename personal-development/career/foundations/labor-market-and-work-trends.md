@@ -27,6 +27,18 @@ None.
 
 *Mechanism.* Each occupation lists essential skills and optional skills. You compare that list with your own inventory, and the difference shows what to learn. See [skills inventory and gap analysis](../self-assessment/skills-inventory-and-gap-analysis.md).
 
+The diagram follows one occupation from the classification to a learning plan.
+
+```mermaid
+flowchart LR
+  O["Occupation in O*NET or ESCO"] --> E[Essential skills]
+  O --> P[Optional skills]
+  E --> C{Compare}
+  I[Your skills inventory] --> C
+  C --> G[Gaps]
+  G --> L[What to learn first]
+```
+
 ### Reading a job posting
 
 A posting mixes a real need with a wish list. Look for tasks stated with verbs and outputs ("builds weekly reports for sales") rather than adjectives ("dynamic"). Requirements that appear in many postings for the same occupation are more likely real.

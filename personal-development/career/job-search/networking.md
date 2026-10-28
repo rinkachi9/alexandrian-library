@@ -18,6 +18,23 @@ Networking means building, maintaining and using professional relationships. Two
 
 *Mechanism.* A job lead has to pass through a person. Your close contacts have mostly heard the same news as you. A weak tie belongs to another group and may hear of openings you cannot see.
 
+The diagram shows two friend groups. Close ties stay inside a group, and one weak tie connects it to a group with different information.
+
+```mermaid
+flowchart LR
+  subgraph G1[Your close circle]
+    Y((You)) --- F1[Friend 1]
+    Y --- F2[Friend 2]
+    F1 --- F2
+  end
+  subgraph G2[Another circle]
+    A[Acquaintance] --- B[Contact 1]
+    A --- C[Contact 2]
+    B --- C
+  end
+  Y -. weak tie .- A
+```
+
 *Boundaries.* The 1973 paper is a theoretical argument with an empirical base from its time. Do not read it as "only weak ties help".
 
 ### What networking predicts

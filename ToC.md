@@ -318,6 +318,9 @@ Entries without a link are planned topics. They become notes or directories when
       - [README.md](personal-development/career/methods/README.md): Methods - Techniques and processes from coaching and mentoring that are used in career work.
       - [coaching-techniques-for-career.md](personal-development/career/methods/coaching-techniques-for-career.md): Coaching techniques for career - Coaching is a set of conversation techniques that help a person clarify goals and find their own next steps.
       - [mentoring-process-and-relationships.md](personal-development/career/methods/mentoring-process-and-relationships.md): Mentoring process and relationships - A mentoring relationship is a developmental relationship in which a more experienced person supports a less experienced one.
+- **_assets/**
+  - **personal-development/**
+    - [career-riasec-hexagon.svg](_assets/personal-development/career-riasec-hexagon.svg): File.
 - **_sources/**
   - [Business-20261027091630.html](_sources/Business-20261027091630.html): File.
   - [Finances-20261027091604.html](_sources/Finances-20261027091604.html): File.

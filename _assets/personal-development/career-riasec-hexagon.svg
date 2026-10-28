@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 330" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">Holland hexagon of six interest types</title>
+  <desc id="d">Six corners in order: Realistic, Investigative, Artistic, Social, Enterprising, Conventional. Neighbors are similar, opposite corners are far apart. The triangle Social, Investigative, Artistic marks the example code SIA.</desc>
+  <rect width="460" height="330" rx="14" fill="#fbfaf7" stroke="#d8d3c8"/>
+  <g transform="translate(50,0)">
+  <polygon points="180,50 275,105 275,215 180,270 85,215 85,105" fill="#eef2f7" stroke="#6b7a90" stroke-width="2"/>
+  <g stroke="#b9c2d0" stroke-width="1"><line x1="180" y1="50" x2="180" y2="270"/><line x1="275" y1="105" x2="85" y2="215"/><line x1="275" y1="215" x2="85" y2="105"/></g>
+  <polygon points="180,270 275,105 275,215" fill="#e8a33d" fill-opacity="0.28" stroke="#b9761a" stroke-width="2" stroke-dasharray="6 4"/>
+  <g stroke="#ffffff" stroke-width="3">
+    <circle cx="180" cy="50" r="21" fill="#7fb7a4"/><circle cx="275" cy="105" r="21" fill="#7da3d6"/><circle cx="275" cy="215" r="21" fill="#c79ad6"/>
+    <circle cx="180" cy="270" r="21" fill="#f0a98a"/><circle cx="85" cy="215" r="21" fill="#e6c76a"/><circle cx="85" cy="105" r="21" fill="#a9b6c4"/>
+  </g>
+  <g font-size="17" font-weight="700" fill="#1f2933" text-anchor="middle">
+    <text x="180" y="56">R</text><text x="275" y="111">I</text><text x="275" y="221">A</text>
+    <text x="180" y="276">S</text><text x="85" y="221">E</text><text x="85" y="111">C</text>
+  </g>
+  <g font-size="12" fill="#3d4852">
+    <text x="180" y="22" text-anchor="middle">Realistic</text>
+    <text x="300" y="82" text-anchor="start">Investigative</text>
+    <text x="300" y="246" text-anchor="start">Artistic</text>
+    <text x="180" y="304" text-anchor="middle">Social</text>
+    <text x="60" y="246" text-anchor="end">Enterprising</text>
+    <text x="60" y="82" text-anchor="end">Conventional</text>
+  </g>
+  <text x="180" y="165" font-size="12" fill="#7a4c0c" text-anchor="middle">example code SIA</text>
+  </g>
+</svg>

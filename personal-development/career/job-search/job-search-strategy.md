@@ -46,6 +46,15 @@ Over six weeks you send 20 applications and record the results (invented numbers
 
 Diagnosis: the response rate is the weakest step. The likely causes are targeting (roles that do not match your profile) or the [resume](resume-and-cover-letter.md). Action: apply to 10 roles that match at least 70% of the requirements, with a tailored resume, and compare the response rate. The interview-to-offer rate of 50% is fine, so keep your current interview preparation. With so few data points, the rates are rough; wait for 30 or more applications before drawing firm conclusions.
 
+The funnel shows the example counts and the rate at each step. The weakest step is the first one.
+
+```mermaid
+flowchart TB
+  A["20 applications"] -- "20%" --> B["4 responses"]
+  B -- "50%" --> C["2 interviews"]
+  C -- "50%" --> D["1 offer"]
+```
+
 ## Trade offs and when to use it
 
 - Tracking takes effort but removes guesswork. A simple spreadsheet is enough.

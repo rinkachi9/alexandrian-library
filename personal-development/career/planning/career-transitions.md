@@ -18,6 +18,17 @@ A career transition is a change in role, employer, field or working life, planne
 
 *Analogy.* A transition is like crossing a river. The width and current are the situation, your swimming skill is the self, a rope from the bank is the support and your chosen route is the strategy. The analogy fails because many transitions have no clear far bank.
 
+The diagram shows the four groups of factors that shape how a transition goes.
+
+```mermaid
+flowchart TB
+  T((Transition))
+  S1[Situation<br/>chosen, timing, duration] --> T
+  S2[Self<br/>strengths, beliefs, finances] --> T
+  S3[Support<br/>people who help] --> T
+  S4[Strategies<br/>what you will try] --> T
+```
+
 ### The protean career
 
 *Definition.* Hall (1996) described the protean career as one driven by the person's own values and managed by the person rather than the organization. The name refers to Proteus, who changed shape.

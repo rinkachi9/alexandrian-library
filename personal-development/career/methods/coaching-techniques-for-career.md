@@ -29,6 +29,14 @@ Advice often fails because it answers the adviser's problem, not yours. Coaching
 
 *Analogy.* GROW is like a route plan: destination, current position, possible routes, chosen route. It fails if the destination changes during the trip, which is normal. Go back to Goal when it does.
 
+The diagram shows the four steps and the return to Goal when it changes.
+
+```mermaid
+flowchart LR
+  G[Goal] --> R[Reality] --> O[Options] --> W[Will]
+  W -. review .-> G
+```
+
 ### Powerful questions
 
 A powerful question is open (not answerable by yes or no), non-leading and directs attention to the person's own thinking. "What matters most to you in this decision?" is stronger than "Don't you think you should take the job?"

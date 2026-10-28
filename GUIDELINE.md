@@ -46,6 +46,8 @@ The primary audience is the future version of the author. Write as if explaining
 
 **Make it verifiable.** Claims link to sources. Examples can be run or reproduced. Numbers say where they came from.
 
+**Show it as well as say it.** Notes are meant to be attractive to read and quick to grasp. A structure, a process, a model or a set of numbers is drawn, not only described. Every note has at least one diagram, schema, model or chart that carries real information (see [section 6.2](#62-diagrams-models-and-visuals)).
+
 ## 3. Repository structure and naming
 
 ### 3.1 Layout
@@ -211,6 +213,7 @@ Links to notes the reader should know first. State the assumed knowledge.
 
 ## Core concepts
 Precise definitions, the mechanism, the vocabulary. Build from simple to complex.
+Include at least one visual: a diagram, a model or a chart (section 6.2).
 
 ## Worked example
 A concrete, reproducible example that walks through the idea end to end.
@@ -231,6 +234,7 @@ Annotated links to primary sources, one sentence on why each is worth reading.
 Notes on the skeleton:
 
 - **No metadata block.** The directory path tells the domain and field, the title is the first line, and open gaps are marked with `TODO:` lines.
+- **Visuals sit where they help.** Put the diagram right after the paragraph that introduces the idea, with one sentence saying what to look at. Charts of the numbers in a worked example go directly after its table.
 - **Summary first.** A reader who only reads the summary must not come away with a wrong idea. Avoid teasers such as "we will see how this works".
 - **Motivation before mechanism.** People remember mechanisms better when they know what they were invented to fix.
 - **Practice is part of the note.** Retrieval practice is what turns reading into knowledge. Even three good questions are valuable.
@@ -242,6 +246,7 @@ Notes that were migrated from an older source (an export in `_sources/`) keep th
 - Sections of the skeleton that the original did not have contain a single line that starts with `TODO:`. Replace it with real content, or delete the section if it does not apply.
 - Search for open gaps with `grep -rn "^TODO:" --include="*.md" .`. A note without `TODO:` lines has met the skeleton, but still has to be checked against sources (see [section 8](#8-sources-references-and-verification)).
 - Content that was migrated has not been verified against sources.
+- A migrated note does not mention where it came from. Do not add "Source material" sections or sentences such as "from the export" or "the original notes say". The only provenance a note carries is its sources list (see [section 8](#8-sources-references-and-verification)).
 - The dash and emoji rules of [section 7](#7-writing-style) apply to migrated content as well. Dashes were replaced by hyphens and emoji by words during migration.
 
 ## 5. How to explain a concept
@@ -322,14 +327,41 @@ Notice the pattern: the definition is precise, the analogy explains the idea in 
 - Do not paste large listings. Show the relevant part and link to the full file if needed.
 - Output is shown in its own block, labeled as output.
 
-### 6.2 Diagrams
+### 6.2 Diagrams, models and visuals
 
-- Prefer text based diagrams so they are diffable and versioned with the note. Use a fenced `mermaid` block for flows, sequences, state machines, attack trees, architectures and timelines. Use a fenced `text` block for ASCII diagrams such as trees and data layouts.
-- Mermaid renders on GitHub and in most editors. Keep each diagram small enough to read without zooming, and split it when it grows past about 15 nodes.
-- A diagram earns its place by showing something prose cannot: structure, flow over time, relationships. Do not add one for decoration.
-- Every diagram has a caption or a sentence before it saying what to look at, and the same information is available in the surrounding text for readers who cannot see the image.
-- If you use an image, put it in `_assets/<domain>/`, keep its editable source (for example `.drawio`, `.excalidraw` or `.svg`) in the same directory, and add descriptive alt text.
-- Images taken from other people (vendor infographics, slides) are allowed only for personal study. Credit the author in the alt text or caption and prefer redrawing them as Mermaid or SVG when the note is reviewed.
+The library should be pleasant to look at and easy to scan. A reader should be able to take in the shape of a topic from its visuals before reading a line of prose.
+
+**What every note has**
+
+- **At least one visual** in "Core concepts" or "Worked example". Notes with several concepts usually need two or three: one overview of the whole topic and one for the central mechanism.
+- **An overview for each field and subfield `README.md`** where it lists more than three notes: a `mindmap` or a `flowchart` of the notes and their order.
+- **A chart for any table of numbers** in a worked example, when the numbers are compared or change over time.
+
+**Choosing the form**
+
+| What you show | Use |
+| --- | --- |
+| A process, a cycle or a decision | `flowchart` (left to right for steps, top to bottom for hierarchies) |
+| The parts of a topic or a taxonomy | `mindmap` |
+| Messages between actors over time | `sequenceDiagram` |
+| Phases, stages or a plan over time | `timeline` |
+| Two dimensions, such as effort and impact | `quadrantChart` |
+| Numbers compared or trending | `xychart-beta` (bar or line) |
+| States and transitions | `stateDiagram-v2` |
+| Structure with exact geometry, such as a hexagon model or an annotated figure | hand-drawn SVG in `_assets/<domain>/` |
+
+**Rules**
+
+- **Prefer text based diagrams.** Use a fenced `mermaid` block so the diagram is diffable and versioned with the note. Use a fenced `text` block for ASCII diagrams such as trees and data layouts. Mermaid renders on GitHub and in Librarian OS.
+- **Keep diagrams small.** Split a diagram when it grows past about 15 nodes. Node labels are short noun phrases or verbs, not sentences.
+- **A diagram earns its place** by showing structure, flow over time or relationships that prose cannot. Do not add one for decoration, and do not draw a box around a single idea.
+- **Introduce it.** Every visual has a sentence before or after it saying what to look at. The same information is available in the text, so a reader who cannot see the image loses nothing.
+- **Only facts from the note.** A visual never adds a claim that the text does not make or source. Invented numbers in a chart follow the same rule as invented numbers in a table: the note says they are examples.
+- **Mermaid syntax pitfalls.** Quote labels that contain parentheses, colons or special characters. Avoid em dashes and en dashes in labels, as everywhere. Check that the diagram renders in Librarian OS before finishing.
+- **Images and SVG.** Put the file in `_assets/<domain>/` named after the note and the subject, keep the editable source in the same directory (`.drawio`, `.excalidraw`, or the `.svg` itself), and add descriptive alt text. A hand-drawn SVG has a `<title>` and `<desc>`, a light background of its own so that it reads in dark themes, and no text smaller than 11 px.
+- **Other people's graphics.** Images taken from other people (vendor infographics, slides) are allowed only for personal study. Credit the author in the alt text or caption and prefer redrawing them as Mermaid or SVG when the note is reviewed.
+
+*Example.* The career field uses a `mindmap` for the map of the field, a `flowchart` for the planning loop, an `xychart-beta` for the weighted decision totals, a `timeline` for the first 90 days and an SVG for the Holland hexagon, whose geometry Mermaid cannot express.
 
 ### 6.2.1 Scripts, files and media
 
@@ -410,6 +442,8 @@ Text produced by language models has recognizable habits. Remove them, whether y
 ## 8. Sources, references and verification
 
 - **Prefer primary sources.** Specifications, official documentation, original papers and source code beat blog posts and videos. Use secondary sources to find primary ones.
+- **Sources are listed in "Further reading".** That section is the sources list of the note, and every note keeps it filled in: title, author or organization, year and a link. Structured detail goes into `sources` in the sidecar.
+- **No "Source material" sections.** Notes and READMEs do not describe which export, file or earlier note their content came from. The sources list names only real references (papers, standards, official documentation, books).
 - **Cite what you use.** Put links in the "Further reading" section, or inline for a specific claim. Include enough to find the source if the link dies: title, author or organization, year.
 - **Write in your own words.** Summaries are paraphrased. Quote only when the exact wording matters, keep quotes short, and mark them clearly.
 - **Record the date.** For anything that changes over time (versions, prices, limits, recommendations), write the version and the date it was checked in the text, for example "Checked against NIST CSF 2.0, 2026-09".
@@ -466,6 +500,13 @@ Run this list before marking a note as `reviewed`.
 - [ ] Headings are descriptive and in sentence case.
 - [ ] Links are relative and work.
 
+**Visuals**
+
+- [ ] The note has at least one diagram, model or chart, and it renders in Librarian OS.
+- [ ] Each visual is introduced by a sentence, and shows only facts from the note.
+- [ ] Charts match the numbers in the table they illustrate.
+- [ ] Images have alt text, and SVG files have a title, a description and their own background.
+
 **Hygiene**
 
 - [ ] No secrets, personal data or confidential material.
@@ -500,6 +541,8 @@ AI assistants are welcome collaborators. The rules are the same as for a human c
 - **Do not invent facts.** If a detail is uncertain, say so in the note or leave it out. Never fabricate citations, version numbers, benchmarks or quotes.
 - **Verify before writing.** Use primary sources for claims, and record them.
 - **Follow the style rules strictly.** In particular the ban on em dashes and en dashes, and the ban on filler language (see [section 7](#7-writing-style)).
+- **Make it visual.** Add diagrams, models and charts as described in [section 6.2](#62-diagrams-models-and-visuals). A note with only prose and tables is not finished.
+- **No "Source material" sections.** Never mention `_sources/` exports in a note. Fill in the sources list instead.
 - **Stay in scope.** Do not add content unrelated to the request. Do not restructure the repository without being asked.
 - **Prefer editing to creating.** Extend an existing note when the topic already has a home. Create a new file only when the topic deserves its own note.
 - **Keep sidecars in step.** A new or renamed note gets a sidecar (`npm run scaffold`), and relations are added only to ids that exist. Run `npm run check` in Librarian OS before finishing.
