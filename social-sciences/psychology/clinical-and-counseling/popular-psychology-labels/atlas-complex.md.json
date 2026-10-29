@@ -1,0 +1,167 @@
+{
+  "node": {
+    "id": "psychology.atlas-complex",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "over-responsibility",
+      "perfectionism",
+      "burnout"
+    ],
+    "aliases": [
+      "Atlas syndrome"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.cognitive-behavioral-therapy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.intolerance-of-uncertainty",
+      "rel": "related",
+      "note": "Same loop of relief without learning"
+    },
+    {
+      "to": "growth.stress-and-resilience",
+      "rel": "related"
+    },
+    {
+      "to": "psychology.curse-of-competence",
+      "rel": "related",
+      "note": "Over-responsibility seen from the workplace side"
+    }
+  ],
+  "sources": [
+    {
+      "key": "salkovskis-1985",
+      "type": "paper",
+      "title": "Obsessional-compulsive problems: A cognitive-behavioural analysis",
+      "authors": [
+        "Salkovskis, P. M."
+      ],
+      "year": 1985,
+      "publisher": "Behaviour Research and Therapy, 23(5), 571-583",
+      "url": "https://doi.org/10.1016/0005-7967(85)90105-6",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hewitt-flett-1991",
+      "type": "paper",
+      "title": "Perfectionism in the self and social contexts: Conceptualization, assessment, and association with psychopathology",
+      "authors": [
+        "Hewitt, P. L.",
+        "Flett, G. L."
+      ],
+      "year": 1991,
+      "publisher": "Journal of Personality and Social Psychology, 60(3), 456-470",
+      "url": "https://doi.org/10.1037/0022-3514.60.3.456",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "helgeson-fritz-1998",
+      "type": "paper",
+      "title": "A Theory of Unmitigated Communion",
+      "authors": [
+        "Helgeson, V. S.",
+        "Fritz, H. L."
+      ],
+      "year": 1998,
+      "publisher": "Personality and Social Psychology Review, 2(3), 173-183",
+      "url": "https://doi.org/10.1207/s15327957pspr0203_2",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "maslach-leiter-2016",
+      "type": "paper",
+      "title": "Understanding the burnout experience: recent research and its implications for psychiatry",
+      "authors": [
+        "Maslach, C.",
+        "Leiter, M. P."
+      ],
+      "year": 2016,
+      "publisher": "World Psychiatry, 15(2), 103-111",
+      "url": "https://doi.org/10.1002/wps.20311",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "woods-giscombe-2010",
+      "type": "paper",
+      "title": "Superwoman Schema: African American Women’s Views on Stress, Strength, and Health",
+      "authors": [
+        "Woods-Giscombé, C. L."
+      ],
+      "year": 2010,
+      "publisher": "Qualitative Health Research, 20(5), 668-683",
+      "url": "https://doi.org/10.1177/1049732310361892",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "greenberger-padesky-2015",
+      "type": "book",
+      "title": "Mind Over Mood: Change How You Feel by Changing the Way You Think (2nd ed.)",
+      "authors": [
+        "Greenberger, D.",
+        "Padesky, C. A."
+      ],
+      "year": 2015,
+      "publisher": "Guilford Press",
+      "verified": false
+    },
+    {
+      "key": "hesiod-theogony",
+      "type": "book",
+      "title": "Theogony",
+      "authors": [
+        "Hesiod"
+      ],
+      "publisher": "c. 700 BCE, many editions",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Atlas complex",
+      "anchor": "#definition",
+      "definition": "A popular label for chronic over-responsibility, with no research definition."
+    },
+    {
+      "term": "Responsibility pie chart",
+      "anchor": "#worked-example",
+      "definition": "A cognitive exercise that shares 100 percent of responsibility among all causes."
+    },
+    {
+      "term": "Unmitigated communion",
+      "anchor": "#psychological-aspects",
+      "definition": "A strong focus on others combined with neglect of one's own needs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does doing everything yourself keep the belief that it all depends on you alive?",
+      "a": "The feared outcome never happens, so the belief is never tested, and the relief rewards the behavior.",
+      "anchor": "#psychological-aspects",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which myth does the name come from, and what detail does the label leave out?",
+      "a": "Atlas holding up the sky, and that he does it under compulsion as a punishment.",
+      "anchor": "#origin",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}

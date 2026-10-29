@@ -1,0 +1,163 @@
+{
+  "node": {
+    "id": "psychology.parental-attribution-error",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "attribution",
+      "parenting",
+      "behavioral-genetics"
+    ],
+    "aliases": [
+      "parent attributions"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.attribution-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bugental-johnston-2000",
+      "type": "paper",
+      "title": "Parental and Child Cognitions in the Context of the Family",
+      "authors": [
+        "Bugental, D. B.",
+        "Johnston, C."
+      ],
+      "year": 2000,
+      "publisher": "Annual Review of Psychology, 51(1), 315-344",
+      "url": "https://doi.org/10.1146/annurev.psych.51.1.315",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "milner-2003",
+      "type": "paper",
+      "title": "Social information processing in high-risk and physically abusive parents",
+      "authors": [
+        "Milner, J. S."
+      ],
+      "year": 2003,
+      "publisher": "Child Abuse & Neglect, 27(1), 7-20",
+      "url": "https://doi.org/10.1016/S0145-2134(02)00506-9",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dodge-1980",
+      "type": "paper",
+      "title": "Social Cognition and Children's Aggressive Behavior",
+      "authors": [
+        "Dodge, K. A."
+      ],
+      "year": 1980,
+      "publisher": "Child Development, 51(1), 162-170",
+      "url": "https://doi.org/10.2307/1129603",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bell-1968",
+      "type": "paper",
+      "title": "A reinterpretation of the direction of effects in studies of socialization",
+      "authors": [
+        "Bell, R. Q."
+      ],
+      "year": 1968,
+      "publisher": "Psychological Review, 75(2), 81-95",
+      "url": "https://doi.org/10.1037/h0025583",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "harris-1995",
+      "type": "paper",
+      "title": "Where is the child's environment? A group socialization theory of development",
+      "authors": [
+        "Harris, J. R."
+      ],
+      "year": 1995,
+      "publisher": "Psychological Review, 102(3), 458-489",
+      "url": "https://doi.org/10.1037/0033-295X.102.3.458",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "harris-1998",
+      "type": "book",
+      "title": "The Nurture Assumption",
+      "authors": [
+        "Harris, J. R."
+      ],
+      "year": 1998,
+      "publisher": "Free Press",
+      "verified": false
+    },
+    {
+      "key": "polderman-2015",
+      "type": "paper",
+      "title": "Meta-analysis of the heritability of human traits based on fifty years of twin studies",
+      "authors": [
+        "Polderman, T. J. C.",
+        "Benyamin, B.",
+        "de Leeuw, C. A.",
+        "Sullivan, P. F.",
+        "van Bochoven, A."
+      ],
+      "year": 2015,
+      "publisher": "Nature Genetics, 47(7), 702-709",
+      "url": "https://doi.org/10.1038/ng.3285",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bettelheim-1967",
+      "type": "book",
+      "title": "The Empty Fortress: Infantile Autism and the Birth of the Self",
+      "authors": [
+        "Bettelheim, B."
+      ],
+      "year": 1967,
+      "publisher": "Free Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Parental attribution",
+      "anchor": "#psychological-aspects",
+      "definition": "A parent's causal explanation of a child's behavior."
+    },
+    {
+      "term": "Child effects",
+      "anchor": "#psychological-aspects",
+      "definition": "The influence of a child's behavior on how parents act."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "With twin correlations of 0.60 (identical) and 0.35 (fraternal), what share does Falconer's formula assign to genes?",
+      "a": "2 x (0.60 - 0.35) = 0.50, or 50 percent.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can a parent's attribution that a child acts on purpose make things worse?",
+      "a": "It leads to harsher and less warm responses, which can worsen the behavior.",
+      "anchor": "#psychological-aspects",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}

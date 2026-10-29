@@ -1,0 +1,182 @@
+{
+  "node": {
+    "id": "psychology.coddled-mind",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "overprotection",
+      "anxiety",
+      "exposure"
+    ],
+    "aliases": [
+      "safetyism",
+      "coddling of the American mind"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.cognitive-behavioral-therapy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.intolerance-of-uncertainty",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.antifragile-ego",
+      "rel": "related",
+      "note": "Both rest on the idea that stress can build strength"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lukianoff-haidt-2018",
+      "type": "book",
+      "title": "The Coddling of the American Mind",
+      "authors": [
+        "Lukianoff, G.",
+        "Haidt, J."
+      ],
+      "year": 2018,
+      "publisher": "Penguin Press",
+      "verified": false
+    },
+    {
+      "key": "lukianoff-haidt-2015",
+      "type": "website",
+      "title": "The Coddling of the American Mind",
+      "authors": [
+        "Lukianoff, G.",
+        "Haidt, J."
+      ],
+      "year": 2015,
+      "publisher": "The Atlantic, September 2015",
+      "verified": false
+    },
+    {
+      "key": "haslam-2016",
+      "type": "paper",
+      "title": "Concept Creep: Psychology's Expanding Concepts of Harm and Pathology",
+      "authors": [
+        "Haslam, N."
+      ],
+      "year": 2016,
+      "publisher": "Psychological Inquiry, 27(1), 1-17",
+      "url": "https://doi.org/10.1080/1047840X.2016.1082418",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "schiffrin-2014",
+      "type": "paper",
+      "title": "Helping or Hovering? The Effects of Helicopter Parenting on College Students’ Well-Being",
+      "authors": [
+        "Schiffrin, H. H.",
+        "Liss, M.",
+        "Miles-McLean, H.",
+        "Geary, K. A.",
+        "Erchull, M. J."
+      ],
+      "year": 2013,
+      "publisher": "Journal of Child and Family Studies, 23(3), 548-557",
+      "url": "https://doi.org/10.1007/s10826-013-9716-3",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bellet-2018",
+      "type": "paper",
+      "title": "Trigger warning: Empirical evidence ahead",
+      "authors": [
+        "Bellet, B. W.",
+        "Jones, P. J.",
+        "McNally, R. J."
+      ],
+      "year": 2018,
+      "publisher": "Journal of Behavior Therapy and Experimental Psychiatry, 61, 134-141",
+      "url": "https://doi.org/10.1016/j.jbtep.2018.07.002",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "jones-2020",
+      "type": "paper",
+      "title": "Helping or Harming? The Effect of Trigger Warnings on Individuals With Trauma Histories",
+      "authors": [
+        "Jones, P. J.",
+        "Bellet, B. W.",
+        "McNally, R. J."
+      ],
+      "year": 2020,
+      "publisher": "Clinical Psychological Science, 8(5), 905-917",
+      "url": "https://doi.org/10.1177/2167702620921341",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "du-toit-2015",
+      "type": "paper",
+      "title": "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy",
+      "authors": [
+        "Du Toit, G.",
+        "Roberts, G.",
+        "Sayre, P. H.",
+        "Bahnson, H. T.",
+        "Radulovic, S."
+      ],
+      "year": 2015,
+      "publisher": "New England Journal of Medicine, 372(9), 803-813",
+      "url": "https://doi.org/10.1056/NEJMoa1414850",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "odgers-2024",
+      "type": "paper",
+      "title": "The great rewiring: is social media really behind an epidemic of teenage mental illness?",
+      "authors": [
+        "Odgers, C. L."
+      ],
+      "year": 2024,
+      "publisher": "Nature, 628(8006), 29-30",
+      "url": "https://doi.org/10.1038/d41586-024-00902-2",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Safetyism",
+      "anchor": "#definition",
+      "definition": "A culture in which safety is treated as a sacred value and discomfort as harm."
+    },
+    {
+      "term": "Concept creep",
+      "anchor": "#psychological-aspects",
+      "definition": "The widening of harm-related concepts over time."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does avoidance maintain anxiety?",
+      "a": "It gives relief now and prevents learning that the feared situation is safe.",
+      "anchor": "#psychological-aspects",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What did Jones and colleagues (2020) find about trigger warnings?",
+      "a": "No benefit for trauma survivors, and some reinforcement of trauma as central to identity.",
+      "anchor": "#psychological-aspects",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}

@@ -11,7 +11,7 @@ Theories and methods used to understand and treat psychological difficulties. Th
 5. [Psychodynamic schools](psychodynamic-schools.md): Freud, Adler and Jung compared.
 6. [Trauma bonding](trauma-bonding.md): attachment to an abuser and the role of intermittent kindness.
 7. [Compulsive sexual behavior](compulsive-sexual-behavior.md): the ICD-11 diagnosis, and when high use is not a disorder.
-8. [Popular psychology labels](popular-psychology-labels.md): the evidence status of terms such as the Atlas complex.
+8. [Popular psychology labels](popular-psychology-labels/README.md): seven named patterns that are not diagnoses, such as the Atlas complex and the Cassandra complex, with their origin, the research behind them and the evidence status.
 
 ## Planned topics
 

@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "psychology.cassandra-complex",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "credibility",
+      "epistemic-injustice",
+      "risk"
+    ],
+    "aliases": [
+      "Cassandra syndrome"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.hindsight-bias",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.stereotypes",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "aeschylus-458",
+      "type": "book",
+      "title": "Agamemnon (in the Oresteia)",
+      "authors": [
+        "Aeschylus"
+      ],
+      "publisher": "5th century BCE, many editions",
+      "verified": false
+    },
+    {
+      "key": "fricker-2007",
+      "type": "book",
+      "title": "Epistemic Injustice: Power and the Ethics of Knowing",
+      "authors": [
+        "Fricker, M."
+      ],
+      "year": 2007,
+      "publisher": "Oxford University Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cassandra complex",
+      "anchor": "#definition",
+      "definition": "A popular label for giving accurate warnings and not being believed."
+    },
+    {
+      "term": "Testimonial injustice",
+      "anchor": "#psychological-aspects",
+      "definition": "Giving a speaker less credibility than the evidence deserves because of prejudice about the speaker."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a correct warning about a rare event move belief only a little?",
+      "a": "The prior odds are low, so even multiplying by a large likelihood ratio gives a small probability.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What is testimonial injustice?",
+      "a": "Giving a speaker less credibility than the evidence deserves because of prejudice about the speaker.",
+      "anchor": "#psychological-aspects",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}

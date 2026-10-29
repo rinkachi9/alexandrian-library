@@ -1,0 +1,174 @@
+{
+  "node": {
+    "id": "psychology.antifragile-ego",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "resilience",
+      "self-esteem",
+      "antifragility"
+    ],
+    "aliases": [
+      "antifragility of the self"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.stress-and-resilience",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "growth.self-esteem-and-self-acceptance",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "taleb-2012",
+      "type": "book",
+      "title": "Antifragile: Things That Gain from Disorder",
+      "authors": [
+        "Taleb, N. N."
+      ],
+      "year": 2012,
+      "publisher": "Random House",
+      "verified": false
+    },
+    {
+      "key": "kernis-2003",
+      "type": "paper",
+      "title": "Toward a Conceptualization of Optimal Self-Esteem",
+      "authors": [
+        "Kernis, M. H."
+      ],
+      "year": 2003,
+      "publisher": "Psychological Inquiry, 14(1), 1-26",
+      "url": "https://doi.org/10.1207/S15327965PLI1401_01",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "seery-2010",
+      "type": "paper",
+      "title": "Whatever does not kill us: Cumulative lifetime adversity, vulnerability, and resilience",
+      "authors": [
+        "Seery, M. D.",
+        "Holman, E. A.",
+        "Silver, R. C."
+      ],
+      "year": 2010,
+      "publisher": "Journal of Personality and Social Psychology, 99(6), 1025-1041",
+      "url": "https://doi.org/10.1037/a0021344",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bonanno-2004",
+      "type": "paper",
+      "title": "Loss, Trauma, and Human Resilience: Have We Underestimated the Human Capacity to Thrive After Extremely Aversive Events?",
+      "authors": [
+        "Bonanno, G. A."
+      ],
+      "year": 2004,
+      "publisher": "American Psychologist, 59(1), 20-28",
+      "url": "https://doi.org/10.1037/0003-066X.59.1.20",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "rutter-2006",
+      "type": "paper",
+      "title": "Implications of Resilience Concepts for Scientific Understanding",
+      "authors": [
+        "Rutter, M."
+      ],
+      "year": 2006,
+      "publisher": "Annals of the New York Academy of Sciences, 1094(1), 1-12",
+      "url": "https://doi.org/10.1196/annals.1376.002",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "tedeschi-calhoun-2004",
+      "type": "paper",
+      "title": "Posttraumatic growth: conceptual foundations and empirical evidence",
+      "authors": [
+        "Tedeschi, R. G.",
+        "Calhoun, L. G."
+      ],
+      "year": 2004,
+      "publisher": "Psychological Inquiry, 15(1), 1-18",
+      "url": "https://doi.org/10.1207/s15327965pli1501_01",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "jayawickreme-blackie-2014",
+      "type": "paper",
+      "title": "Post-traumatic Growth as Positive Personality Change: Evidence, Controversies and Future Directions",
+      "authors": [
+        "Jayawickreme, E.",
+        "Blackie, L. E. R."
+      ],
+      "year": 2014,
+      "publisher": "European Journal of Personality, 28(4), 312-331",
+      "url": "https://doi.org/10.1002/per.1963",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "calabrese-baldwin-2003",
+      "type": "paper",
+      "title": "Hormesis: The Dose-Response Revolution",
+      "authors": [
+        "Calabrese, E. J.",
+        "Baldwin, L. A."
+      ],
+      "year": 2003,
+      "publisher": "Annual Review of Pharmacology and Toxicology, 43(1), 175-197",
+      "url": "https://doi.org/10.1146/annurev.pharmtox.43.100901.140223",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Antifragile",
+      "anchor": "#definition",
+      "definition": "Gaining from volatility and stress, as opposed to being harmed or unaffected."
+    },
+    {
+      "term": "Hormesis",
+      "anchor": "#origin",
+      "definition": "A dose response in which a small dose stimulates and a large dose harms."
+    },
+    {
+      "term": "Fragile self-esteem",
+      "anchor": "#psychological-aspects",
+      "definition": "High self-esteem that depends on approval and is defended against threats."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between robust and antifragile?",
+      "a": "Robust means unharmed by stress, and antifragile means improved by it.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is posttraumatic growth research criticized?",
+      "a": "Much of the growth is perceived and self-reported, and few studies show real change over time.",
+      "anchor": "#psychological-aspects",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "node": {
+    "id": "psychology.curse-of-competence",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "workload",
+      "task-allocation",
+      "peter-principle"
+    ],
+    "aliases": [
+      "glue work",
+      "competence trap"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.dunning-kruger-effect",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.soft-skills.prioritization",
+      "rel": "related",
+      "note": "Deciding what to decline"
+    }
+  ],
+  "sources": [
+    {
+      "key": "babcock-2017",
+      "type": "paper",
+      "title": "Gender Differences in Accepting and Receiving Requests for Tasks with Low Promotability",
+      "authors": [
+        "Babcock, L.",
+        "Recalde, M. P.",
+        "Vesterlund, L.",
+        "Weingart, L."
+      ],
+      "year": 2017,
+      "publisher": "American Economic Review, 107(3), 714-747",
+      "url": "https://doi.org/10.1257/aer.20141734",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bolino-turnley-2005",
+      "type": "paper",
+      "title": "The Personal Costs of Citizenship Behavior: The Relationship Between Individual Initiative and Role Overload, Job Stress, and Work-Family Conflict",
+      "authors": [
+        "Bolino, M. C.",
+        "Turnley, W. H."
+      ],
+      "year": 2005,
+      "publisher": "Journal of Applied Psychology, 90(4), 740-748",
+      "url": "https://doi.org/10.1037/0021-9010.90.4.740",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "benson-2019",
+      "type": "paper",
+      "title": "Promotions and the Peter Principle",
+      "authors": [
+        "Benson, A.",
+        "Li, D.",
+        "Shue, K."
+      ],
+      "year": 2019,
+      "publisher": "The Quarterly Journal of Economics, 134(4), 2085-2134",
+      "url": "https://doi.org/10.1093/qje/qjz022",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "peter-hull-1969",
+      "type": "book",
+      "title": "The Peter Principle",
+      "authors": [
+        "Peter, L. J.",
+        "Hull, R."
+      ],
+      "year": 1969,
+      "publisher": "William Morrow",
+      "verified": false
+    },
+    {
+      "key": "reilly-glue",
+      "type": "website",
+      "title": "Being Glue",
+      "authors": [
+        "Reilly, T."
+      ],
+      "publisher": "No Idea Blog",
+      "url": "https://www.noidea.dog/glue",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "clance-imes-1978",
+      "type": "paper",
+      "title": "The impostor phenomenon in high achieving women: Dynamics and therapeutic intervention",
+      "authors": [
+        "Clance, P. R.",
+        "Imes, S. A."
+      ],
+      "year": 1978,
+      "publisher": "Psychotherapy: Theory, Research & Practice, 15(3), 241-247",
+      "url": "https://doi.org/10.1037/h0086006",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "camerer-1989",
+      "type": "paper",
+      "title": "The Curse of Knowledge in Economic Settings: An Experimental Analysis",
+      "authors": [
+        "Camerer, C.",
+        "Loewenstein, G.",
+        "Weber, M."
+      ],
+      "year": 1989,
+      "publisher": "Journal of Political Economy, 97(5), 1232-1254",
+      "url": "https://doi.org/10.1086/261651",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kruger-dunning-1999",
+      "type": "paper",
+      "title": "Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments",
+      "authors": [
+        "Kruger, J.",
+        "Dunning, D."
+      ],
+      "year": 1999,
+      "publisher": "Journal of Personality and Social Psychology, 77(6), 1121-1134",
+      "url": "https://doi.org/10.1037/0022-3514.77.6.1121",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Curse of competence",
+      "anchor": "#definition",
+      "definition": "The pattern in which being good at a task brings more of it, without matching reward."
+    },
+    {
+      "term": "Curse of knowledge",
+      "anchor": "#psychological-and-organizational-aspects",
+      "definition": "The difficulty of imagining not knowing something once you know it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What do Babcock and colleagues (2017) show about low-promotability tasks?",
+      "a": "Women are asked to volunteer for them, and say yes, more often than men.",
+      "anchor": "#psychological-and-organizational-aspects",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does the curse of knowledge differ from the curse of competence?",
+      "a": "The curse of knowledge is about explaining to novices, and the curse of competence is about receiving extra work.",
+      "anchor": "#psychological-and-organizational-aspects",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}

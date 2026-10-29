@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "psychology.kafka-trap",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "unfalsifiability",
+      "argument",
+      "confirmation-bias"
+    ],
+    "aliases": [
+      "kafkatrap",
+      "kafkatrapping"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.cassandra-complex",
+      "rel": "contrasts",
+      "note": "Being right and unheard versus an unanswerable accusation"
+    }
+  ],
+  "sources": [
+    {
+      "key": "esr-2010",
+      "type": "website",
+      "title": "Kafkatrapping",
+      "authors": [
+        "Raymond, E. S."
+      ],
+      "year": 2010,
+      "publisher": "Armed and Dangerous (blog), 18 July 2010",
+      "url": "https://web.archive.org/web/2012/http://esr.ibiblio.org/?p=2122",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kafka-1925",
+      "type": "book",
+      "title": "The Trial",
+      "authors": [
+        "Kafka, F."
+      ],
+      "year": 1925,
+      "publisher": "Many editions",
+      "verified": false
+    },
+    {
+      "key": "popper-1963",
+      "type": "book",
+      "title": "Conjectures and Refutations",
+      "authors": [
+        "Popper, K. R."
+      ],
+      "year": 1963,
+      "publisher": "Routledge",
+      "verified": false
+    },
+    {
+      "key": "nickerson-1998",
+      "type": "paper",
+      "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+      "authors": [
+        "Nickerson, R. S."
+      ],
+      "year": 1998,
+      "publisher": "Review of General Psychology, 2(2), 175-220",
+      "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Kafka trap",
+      "anchor": "#definition",
+      "definition": "An accusation built so that every reply, including denial, confirms it."
+    },
+    {
+      "term": "Unfalsifiable claim",
+      "anchor": "#definition",
+      "definition": "A claim that no possible observation could count against."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is a likelihood ratio of 1 a sign of a Kafka trap?",
+      "a": "The reply is equally likely whether the accusation is true or false, so it carries no information.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Who coined the term, and in which year?",
+      "a": "Eric S. Raymond, in 2010.",
+      "anchor": "#origin",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "popular-psychology-labels"
+  }
+}
