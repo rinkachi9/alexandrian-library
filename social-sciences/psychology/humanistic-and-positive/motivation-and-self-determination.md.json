@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "psychology.motivation-and-self-determination",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "motivation",
+      "sdt",
+      "rewards"
+    ],
+    "aliases": [
+      "self-determination theory",
+      "intrinsic motivation"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.maslow-hierarchy-of-needs",
+      "rel": "related",
+      "note": "Another needs-based theory of motivation"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ryan-deci-2000",
+      "type": "paper",
+      "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being",
+      "authors": [
+        "Ryan, R. M.",
+        "Deci, E. L."
+      ],
+      "year": 2000,
+      "publisher": "American Psychologist, 55(1), 68-78",
+      "url": "https://doi.org/10.1037/0003-066X.55.1.68",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "deci-1999",
+      "type": "paper",
+      "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+      "authors": [
+        "Deci, E. L.",
+        "Koestner, R.",
+        "Ryan, R. M."
+      ],
+      "year": 1999,
+      "publisher": "Psychological Bulletin, 125(6), 627-668",
+      "url": "https://doi.org/10.1037/0033-2909.125.6.627",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Intrinsic motivation",
+      "anchor": "#definition",
+      "definition": "Doing an activity for its own interest or enjoyment."
+    },
+    {
+      "term": "Self-determination theory",
+      "anchor": "#three-basic-needs",
+      "definition": "The theory that autonomy, competence and relatedness support motivation and well-being."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three basic needs in SDT?",
+      "a": "Autonomy, competence and relatedness.",
+      "anchor": "#three-basic-needs",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "When do rewards reduce intrinsic motivation?",
+      "a": "When they are tangible, expected and contingent on the task, and feel controlling.",
+      "anchor": "#rewards-and-intrinsic-motivation",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "humanistic-and-positive"
+  }
+}

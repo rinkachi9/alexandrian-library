@@ -1,0 +1,115 @@
+{
+  "node": {
+    "id": "skills.soft-skills.attention-and-multitasking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "attention",
+      "multitasking",
+      "fomo"
+    ],
+    "aliases": [
+      "attention management",
+      "task switching",
+      "fear of missing out"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "posner-petersen-1990",
+      "type": "paper",
+      "title": "The Attention System of the Human Brain",
+      "authors": [
+        "Posner, M. I.",
+        "Petersen, S. E."
+      ],
+      "year": 1990,
+      "publisher": "Annual Review of Neuroscience, 13(1), 25-42",
+      "url": "https://doi.org/10.1146/annurev.ne.13.030190.000325",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "rubinstein-2001",
+      "type": "paper",
+      "title": "Executive control of cognitive processes in task switching",
+      "authors": [
+        "Rubinstein, J. S.",
+        "Meyer, D. E.",
+        "Evans, J. E."
+      ],
+      "year": 2001,
+      "publisher": "Journal of Experimental Psychology: Human Perception and Performance, 27(4), 763-797",
+      "url": "https://doi.org/10.1037/0096-1523.27.4.763",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mark-2008",
+      "type": "paper",
+      "title": "The cost of interrupted work",
+      "authors": [
+        "Mark, G.",
+        "Gudith, D.",
+        "Klocke, U."
+      ],
+      "year": 2008,
+      "publisher": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 107-110",
+      "url": "https://doi.org/10.1145/1357054.1357072",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "przybylski-2013",
+      "type": "paper",
+      "title": "Motivational, emotional, and behavioral correlates of fear of missing out",
+      "authors": [
+        "Przybylski, A. K.",
+        "Murayama, K.",
+        "DeHaan, C. R.",
+        "Gladwell, V."
+      ],
+      "year": 2013,
+      "publisher": "Computers in Human Behavior, 29(4), 1841-1848",
+      "url": "https://doi.org/10.1016/j.chb.2013.02.014",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Task switching cost",
+      "anchor": "#the-cost-of-switching",
+      "definition": "The time and accuracy lost each time attention moves between tasks."
+    },
+    {
+      "term": "FOMO",
+      "anchor": "#fomo",
+      "definition": "The pervasive apprehension that others are having rewarding experiences from which one is absent."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three attention networks of Posner and Petersen (1990)?",
+      "a": "Alerting, orienting and executive control.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does interrupted work cost, according to Mark and colleagues (2008)?",
+      "a": "People work faster to compensate and pay with more stress, frustration and effort.",
+      "anchor": "#the-cost-of-switching",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intrapersonal"
+  }
+}

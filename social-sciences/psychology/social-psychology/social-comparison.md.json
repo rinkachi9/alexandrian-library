@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "psychology.social-comparison",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "self",
+      "comparison",
+      "social-media"
+    ],
+    "aliases": [
+      "social comparison theory",
+      "looking-glass self",
+      "tall poppy syndrome"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.self-verification-theory",
+      "rel": "related",
+      "note": "Both explain how self-views form with others"
+    }
+  ],
+  "sources": [
+    {
+      "key": "festinger-1954",
+      "type": "paper",
+      "title": "A Theory of Social Comparison Processes",
+      "authors": [
+        "Festinger, L."
+      ],
+      "year": 1954,
+      "publisher": "Human Relations, 7(2), 117-140",
+      "url": "https://doi.org/10.1177/001872675400700202",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cooley-1902",
+      "type": "book",
+      "title": "Human Nature and the Social Order",
+      "authors": [
+        "Cooley, C. H."
+      ],
+      "year": 1902,
+      "publisher": "Scribner",
+      "verified": false
+    },
+    {
+      "key": "yeung-martin-2003",
+      "type": "paper",
+      "title": "The Looking Glass Self: An Empirical Test and Elaboration",
+      "authors": [
+        "Yeung, K. T.",
+        "Martin, J. L."
+      ],
+      "year": 2003,
+      "publisher": "Social Forces, 81(3), 843-879",
+      "url": "https://doi.org/10.1353/sof.2003.0048",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "feather-1989",
+      "type": "paper",
+      "title": "Attitudes towards the high achiever: The fall of the tall poppy",
+      "authors": [
+        "Feather, N. T."
+      ],
+      "year": 1989,
+      "publisher": "Australian Journal of Psychology, 41(3), 239-267",
+      "url": "https://doi.org/10.1080/00049538908260088",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Social comparison",
+      "anchor": "#definition",
+      "definition": "Evaluating one's abilities and opinions by comparison with other people."
+    },
+    {
+      "term": "Looking-glass self",
+      "anchor": "#definition",
+      "definition": "A self-view formed by imagining how others judge us."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the steps of the looking-glass self?",
+      "a": "Imagine how we appear, imagine the judgment, and feel pride or shame.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name one way to make comparison more useful.",
+      "a": "Compare with oneself over time, or choose relevant and representative targets.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

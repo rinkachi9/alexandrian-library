@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "psychology.expectation-effects",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "expectations",
+      "education",
+      "management"
+    ],
+    "aliases": [
+      "Pygmalion effect",
+      "Golem effect",
+      "self-fulfilling prophecy"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "rosenthal-jacobson-1968",
+      "type": "book",
+      "title": "Pygmalion in the Classroom",
+      "authors": [
+        "Rosenthal, R.",
+        "Jacobson, L."
+      ],
+      "year": 1968,
+      "publisher": "Holt, Rinehart and Winston",
+      "verified": false
+    },
+    {
+      "key": "jussim-harber-2005",
+      "type": "paper",
+      "title": "Teacher Expectations and Self-Fulfilling Prophecies: Knowns and Unknowns, Resolved and Unresolved Controversies",
+      "authors": [
+        "Jussim, L.",
+        "Harber, K. D."
+      ],
+      "year": 2005,
+      "publisher": "Personality and Social Psychology Review, 9(2), 131-155",
+      "url": "https://doi.org/10.1207/s15327957pspr0902_3",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Pygmalion effect",
+      "anchor": "#definition",
+      "definition": "Better performance after high expectations from an authority."
+    },
+    {
+      "term": "Golem effect",
+      "anchor": "#definition",
+      "definition": "Worse performance after low expectations."
+    },
+    {
+      "term": "Self-fulfilling prophecy",
+      "anchor": "#definition",
+      "definition": "A belief that causes behavior which makes the belief come true."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Distinguish the Pygmalion effect and the Golem effect.",
+      "a": "The first is better performance after high expectations, the second worse performance after low ones.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What did Jussim and Harber (2005) conclude about size?",
+      "a": "Self-fulfilling prophecies occur but are generally small.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

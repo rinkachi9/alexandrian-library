@@ -5,5 +5,8 @@
     "status": "draft",
     "order": 1
   },
-  "links": []
+  "links": [],
+  "map": {
+    "group": "personal-growth"
+  }
 }

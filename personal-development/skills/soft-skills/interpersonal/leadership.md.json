@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "skills.soft-skills.leadership",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "leadership",
+      "management",
+      "teams"
+    ],
+    "aliases": [
+      "leadership styles",
+      "transformational leadership"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.trust",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.soft-skills.communication-basics",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lewin-1939",
+      "type": "paper",
+      "title": "Patterns of Aggressive Behavior in Experimentally Created “Social Climates”",
+      "authors": [
+        "Lewin, K.",
+        "Lippitt, R.",
+        "White, R. K."
+      ],
+      "year": 1939,
+      "publisher": "The Journal of Social Psychology, 10(2), 269-299",
+      "url": "https://doi.org/10.1080/00224545.1939.9713366",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "judge-piccolo-2004",
+      "type": "paper",
+      "title": "Transformational and Transactional Leadership: A Meta-Analytic Test of Their Relative Validity",
+      "authors": [
+        "Judge, T. A.",
+        "Piccolo, R. F."
+      ],
+      "year": 2004,
+      "publisher": "Journal of Applied Psychology, 89(5), 755-768",
+      "url": "https://doi.org/10.1037/0021-9010.89.5.755",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mayer-1995",
+      "type": "paper",
+      "title": "An Integrative Model of Organizational Trust",
+      "authors": [
+        "Mayer, R. C.",
+        "Davis, J. H.",
+        "Schoorman, F. D."
+      ],
+      "year": 1995,
+      "publisher": "The Academy of Management Review, 20(3), 709",
+      "url": "https://doi.org/10.5465/amr.1995.9508080335",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Leadership",
+      "anchor": "#definition",
+      "definition": "The process of influencing others toward shared objectives."
+    },
+    {
+      "term": "Transformational leadership",
+      "anchor": "#styles",
+      "definition": "A style that inspires through vision, individual attention and challenge."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three styles in Lewin's experiment.",
+      "a": "Authoritarian, democratic and laissez-faire.",
+      "anchor": "#styles",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "What is the difference between leadership and management?",
+      "a": "Management focuses on planning, organizing and controlling, leadership on direction, alignment and motivation.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

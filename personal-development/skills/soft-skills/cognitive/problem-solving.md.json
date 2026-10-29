@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "skills.soft-skills.problem-solving",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "problem-solving",
+      "method",
+      "root-cause"
+    ],
+    "aliases": [
+      "five whys",
+      "structured problem solving"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.critical-thinking",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.einstellung-effect",
+      "rel": "related",
+      "note": "Fixation on a familiar method blocks better solutions"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dzurilla-goldfried-1971",
+      "type": "paper",
+      "title": "Problem solving and behavior modification",
+      "authors": [
+        "D'Zurilla, T. J.",
+        "Goldfried, M. R."
+      ],
+      "year": 1971,
+      "publisher": "Journal of Abnormal Psychology, 78(1), 107-126",
+      "url": "https://doi.org/10.1037/h0031360",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "polya-1945",
+      "type": "book",
+      "title": "How to Solve It",
+      "authors": [
+        "Polya, G."
+      ],
+      "year": 1945,
+      "publisher": "Princeton University Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Problem",
+      "anchor": "#definition",
+      "definition": "A gap between the current state and a desired state with no obvious way to close it."
+    },
+    {
+      "term": "Five whys",
+      "anchor": "#tools",
+      "definition": "Asking why repeatedly to reach a root cause."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the five stages of D'Zurilla and Goldfried (1971).",
+      "a": "General orientation, problem definition, generating alternatives, decision making and verification.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why define the problem in several ways?",
+      "a": "A different framing can show causes and options that the first one hides.",
+      "anchor": "#cognitive-obstacles",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

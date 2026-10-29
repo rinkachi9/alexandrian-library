@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "skills.soft-skills.public-speaking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "public-speaking",
+      "presentation",
+      "anxiety"
+    ],
+    "aliases": [
+      "presentations",
+      "speech"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.communication-basics",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.soft-skills.nonverbal-communication",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dwyer-davidson-2012",
+      "type": "paper",
+      "title": "Is Public Speaking Really More Feared Than Death?",
+      "authors": [
+        "Dwyer, K. K.",
+        "Davidson, M. M."
+      ],
+      "year": 2012,
+      "publisher": "Communication Research Reports, 29(2), 99-107",
+      "url": "https://doi.org/10.1080/08824096.2012.667772",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gilovich-1998",
+      "type": "paper",
+      "title": "The illusion of transparency: Biased assessments of others' ability to read one's emotional states",
+      "authors": [
+        "Gilovich, T.",
+        "Savitsky, K.",
+        "Medvec, V. H."
+      ],
+      "year": 1998,
+      "publisher": "Journal of Personality and Social Psychology, 75(2), 332-346",
+      "url": "https://doi.org/10.1037/0022-3514.75.2.332",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Public speaking",
+      "anchor": "#definition",
+      "definition": "Communication of a message to a live audience for a purpose."
+    },
+    {
+      "term": "Retrospection",
+      "anchor": "#retrospection",
+      "definition": "Reviewing a talk after delivery to find what worked and what to change."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did Dwyer and Davidson (2012) find about death and public speaking?",
+      "a": "When students ranked their fears, death ranked above public speaking.",
+      "anchor": "#fear",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why limit a talk to two or three points?",
+      "a": "Audiences remember a few points, and more dilutes the main message.",
+      "anchor": "#preparation",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

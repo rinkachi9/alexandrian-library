@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "skills.soft-skills.flow-state",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "flow",
+      "attention",
+      "optimal-experience"
+    ],
+    "aliases": [
+      "flow",
+      "optimal experience"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.attention-and-multitasking",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "csikszentmihalyi-1990",
+      "type": "book",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "authors": [
+        "Csikszentmihalyi, M."
+      ],
+      "year": 1990,
+      "publisher": "Harper & Row",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Flow",
+      "anchor": "#definition",
+      "definition": "An optimal experience of full absorption in an activity for its own sake."
+    },
+    {
+      "term": "Challenge-skill balance",
+      "anchor": "#challenge-and-skill",
+      "definition": "Flow becomes possible when challenge and skill are both high and matched."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three characteristics of flow.",
+      "a": "For example clear goals, immediate feedback and a balance of challenge and skill.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How can a task be adjusted if it causes anxiety?",
+      "a": "Break it into smaller steps with visible results, which lowers the challenge.",
+      "anchor": "#conditions-and-practice",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intrapersonal"
+  }
+}

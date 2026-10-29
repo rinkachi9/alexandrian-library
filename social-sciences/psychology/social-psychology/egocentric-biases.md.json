@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "psychology.egocentric-biases",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "social-judgment",
+      "bias",
+      "anxiety"
+    ],
+    "aliases": [
+      "spotlight effect",
+      "illusion of transparency",
+      "false consensus effect"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gilovich-2000",
+      "type": "paper",
+      "title": "The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance",
+      "authors": [
+        "Gilovich, T.",
+        "Medvec, V. H.",
+        "Savitsky, K."
+      ],
+      "year": 2000,
+      "publisher": "Journal of Personality and Social Psychology, 78(2), 211-222",
+      "url": "https://doi.org/10.1037/0022-3514.78.2.211",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gilovich-1998",
+      "type": "paper",
+      "title": "The illusion of transparency: Biased assessments of others' ability to read one's emotional states",
+      "authors": [
+        "Gilovich, T.",
+        "Savitsky, K.",
+        "Medvec, V. H."
+      ],
+      "year": 1998,
+      "publisher": "Journal of Personality and Social Psychology, 75(2), 332-346",
+      "url": "https://doi.org/10.1037/0022-3514.75.2.332",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ross-greene-house-1977",
+      "type": "paper",
+      "title": "The “false consensus effect”: An egocentric bias in social perception and attribution processes",
+      "authors": [
+        "Ross, L.",
+        "Greene, D.",
+        "House, P."
+      ],
+      "year": 1977,
+      "publisher": "Journal of Experimental Social Psychology, 13(3), 279-301",
+      "url": "https://doi.org/10.1016/0022-1031(77)90049-X",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Spotlight effect",
+      "anchor": "#definition",
+      "definition": "Overestimating how much others notice one's appearance and actions."
+    },
+    {
+      "term": "Illusion of transparency",
+      "anchor": "#definition",
+      "definition": "Overestimating how well others can read one's inner states."
+    },
+    {
+      "term": "False consensus effect",
+      "anchor": "#definition",
+      "definition": "Overestimating how common one's own opinions and choices are."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did Gilovich and colleagues (2000) find?",
+      "a": "People estimated that about twice as many observers noticed an embarrassing T-shirt as actually did.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Give a business example of the false consensus effect.",
+      "a": "A founder who assumes that customers share their preferences and does not test.",
+      "anchor": "#practical-effects",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

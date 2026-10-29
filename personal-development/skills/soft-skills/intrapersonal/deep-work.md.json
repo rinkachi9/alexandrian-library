@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "skills.soft-skills.deep-work",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "deep-work",
+      "focus",
+      "study"
+    ],
+    "aliases": [
+      "deep dive",
+      "shallow work"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.attention-and-multitasking",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.soft-skills.flow-state",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.deliberate-practice",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "newport-2016",
+      "type": "book",
+      "title": "Deep Work: Rules for Focused Success in a Distracted World",
+      "authors": [
+        "Newport, C."
+      ],
+      "year": 2016,
+      "publisher": "Grand Central",
+      "verified": false
+    },
+    {
+      "key": "csikszentmihalyi-1990",
+      "type": "book",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "authors": [
+        "Csikszentmihalyi, M."
+      ],
+      "year": 1990,
+      "publisher": "Harper & Row",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Deep work",
+      "anchor": "#definition",
+      "definition": "Distraction-free, cognitively demanding work that pushes abilities to their limit."
+    },
+    {
+      "term": "Deep dive",
+      "anchor": "#deep-dive",
+      "definition": "A planned period of intense study of a single topic."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Define deep work and shallow work.",
+      "a": "Deep work is distraction-free, cognitively demanding work, shallow work is low-demand logistical work.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does a deep dive differ from deep work?",
+      "a": "Its aim is understanding of a topic, and the work product is a by-product.",
+      "anchor": "#deep-dive",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intrapersonal"
+  }
+}

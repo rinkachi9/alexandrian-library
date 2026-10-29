@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "psychology.hindsight-bias",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "bias",
+      "memory",
+      "judgment"
+    ],
+    "aliases": [
+      "knew-it-all-along effect"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fischhoff-1975",
+      "type": "paper",
+      "title": "Hindsight is not equal to foresight: The effect of outcome knowledge on judgment under uncertainty",
+      "authors": [
+        "Fischhoff, B."
+      ],
+      "year": 1975,
+      "publisher": "Journal of Experimental Psychology: Human Perception and Performance, 1(3), 288-299",
+      "url": "https://doi.org/10.1037/0096-1523.1.3.288",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "roese-vohs-2012",
+      "type": "paper",
+      "title": "Hindsight Bias",
+      "authors": [
+        "Roese, N. J.",
+        "Vohs, K. D."
+      ],
+      "year": 2012,
+      "publisher": "Perspectives on Psychological Science, 7(5), 411-426",
+      "url": "https://doi.org/10.1177/1745691612454303",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hindsight bias",
+      "anchor": "#definition",
+      "definition": "The tendency to see an outcome as predictable once it is known."
+    },
+    {
+      "term": "Memory distortion",
+      "anchor": "#definition",
+      "definition": "Misremembering one's earlier estimate after learning the outcome."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three levels of hindsight bias?",
+      "a": "Memory distortion, inevitability and foreseeability.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is a written forecast useful?",
+      "a": "It preserves the estimate made before the outcome.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "node": {
+    "id": "skills.soft-skills.decision-making",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "decisions",
+      "expected-value",
+      "intuition"
+    ],
+    "aliases": [
+      "decision tree",
+      "satisficing",
+      "data-driven decisions"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.soft-skills.problem-solving",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "simon-1955",
+      "type": "paper",
+      "title": "A Behavioral Model of Rational Choice",
+      "authors": [
+        "Simon, H. A."
+      ],
+      "year": 1955,
+      "publisher": "The Quarterly Journal of Economics, 69(1), 99",
+      "url": "https://doi.org/10.2307/1884852",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-klein-2009",
+      "type": "paper",
+      "title": "Conditions for intuitive expertise: A failure to disagree",
+      "authors": [
+        "Kahneman, D.",
+        "Klein, G."
+      ],
+      "year": 2009,
+      "publisher": "American Psychologist, 64(6), 515-526",
+      "url": "https://doi.org/10.1037/a0016755",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "milkman-2009",
+      "type": "paper",
+      "title": "How Can Decision Making Be Improved?",
+      "authors": [
+        "Milkman, K. L.",
+        "Chugh, D.",
+        "Bazerman, M. H."
+      ],
+      "year": 2009,
+      "publisher": "Perspectives on Psychological Science, 4(4), 379-383",
+      "url": "https://doi.org/10.1111/j.1745-6924.2009.01142.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-2011",
+      "type": "book",
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        "Kahneman, D."
+      ],
+      "year": 2011,
+      "publisher": "Farrar, Straus and Giroux",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Satisficing",
+      "anchor": "#definition",
+      "definition": "Accepting the first option that meets a threshold instead of seeking the best one."
+    },
+    {
+      "term": "Decision tree",
+      "anchor": "#decision-trees",
+      "definition": "A diagram of choices, uncertain events and payoffs evaluated from the end backward."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "When can intuition be trusted, according to Kahneman and Klein (2009)?",
+      "a": "In a regular environment where the person has practiced with fast, clear feedback.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How is a decision tree evaluated?",
+      "a": "Work backward from the payoffs, multiplying by probabilities at chance nodes and choosing the best option at decision nodes.",
+      "anchor": "#decision-trees",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

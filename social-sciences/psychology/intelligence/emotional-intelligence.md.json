@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "psychology.emotional-intelligence",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "emotions",
+      "skills",
+      "intelligence"
+    ],
+    "aliases": [
+      "EI",
+      "EQ"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.multiple-intelligences",
+      "rel": "related",
+      "note": "The wider debate about what counts as an intelligence"
+    }
+  ],
+  "sources": [
+    {
+      "key": "salovey-mayer-1990",
+      "type": "paper",
+      "title": "Emotional Intelligence",
+      "authors": [
+        "Salovey, P.",
+        "Mayer, J. D."
+      ],
+      "year": 1990,
+      "publisher": "Imagination, Cognition and Personality, 9(3), 185-211",
+      "url": "https://doi.org/10.2190/DUGG-P24E-52WK-6CDG",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "joseph-newman-2010",
+      "type": "paper",
+      "title": "Emotional intelligence: An integrative meta-analysis and cascading model",
+      "authors": [
+        "Joseph, D. L.",
+        "Newman, D. A."
+      ],
+      "year": 2010,
+      "publisher": "Journal of Applied Psychology, 95(1), 54-78",
+      "url": "https://doi.org/10.1037/a0017286",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Emotional intelligence",
+      "anchor": "#definition",
+      "definition": "The ability to monitor one's own and others' feelings and use the information to guide thinking and action."
+    },
+    {
+      "term": "Ability model",
+      "anchor": "#two-kinds-of-model",
+      "definition": "EI as cognitive abilities measured by performance tests."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between ability and mixed models of EI?",
+      "a": "Ability models use performance tests, mixed models add traits and use self-report.",
+      "anchor": "#two-kinds-of-model",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does the meta-analysis of Joseph and Newman (2010) say about measurement?",
+      "a": "The link to job performance depends on how EI is measured.",
+      "anchor": "#evidence",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intelligence"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "education.zone-of-proximal-development",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "vygotsky",
+      "scaffolding",
+      "learning"
+    ],
+    "aliases": [
+      "ZPD",
+      "scaffolding"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "vygotsky-1978",
+      "type": "book",
+      "title": "Mind in Society: The Development of Higher Psychological Processes",
+      "authors": [
+        "Vygotsky, L. S."
+      ],
+      "year": 1978,
+      "publisher": "Harvard University Press",
+      "verified": false
+    },
+    {
+      "key": "wood-bruner-ross-1976",
+      "type": "paper",
+      "title": "THE ROLE OF TUTORING IN PROBLEM SOLVING\n                    *",
+      "authors": [
+        "Wood, D.",
+        "Bruner, J. S.",
+        "Ross, G."
+      ],
+      "year": 1976,
+      "publisher": "Journal of Child Psychology and Psychiatry, 17(2), 89-100",
+      "url": "https://doi.org/10.1111/j.1469-7610.1976.tb00381.x",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Zone of proximal development",
+      "anchor": "#definition",
+      "definition": "The range of tasks a learner can do with help and not yet alone."
+    },
+    {
+      "term": "Scaffolding",
+      "anchor": "#definition",
+      "definition": "Temporary, adjustable support that lets a learner do a task beyond unaided ability."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Define the zone of proximal development.",
+      "a": "The range of tasks that a learner can do with help and not yet alone.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why should support fade?",
+      "a": "So that the learner takes over the skill and the task stays challenging.",
+      "anchor": "#scaffolding-in-practice",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "education-and-learning"
+  }
+}

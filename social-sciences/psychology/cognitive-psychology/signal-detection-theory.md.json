@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "psychology.signal-detection-theory",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "perception",
+      "decisions",
+      "screening"
+    ],
+    "aliases": [
+      "SDT",
+      "d prime"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "green-swets-1966",
+      "type": "book",
+      "title": "Signal Detection Theory and Psychophysics",
+      "authors": [
+        "Green, D. M.",
+        "Swets, J. A."
+      ],
+      "year": 1966,
+      "publisher": "Wiley",
+      "verified": false
+    },
+    {
+      "key": "stanislaw-todorov-1999",
+      "type": "paper",
+      "title": "Calculation of signal detection theory measures",
+      "authors": [
+        "Stanislaw, H.",
+        "Todorov, N."
+      ],
+      "year": 1999,
+      "publisher": "Behavior Research Methods, Instruments, & Computers, 31(1), 137-149",
+      "url": "https://doi.org/10.3758/BF03207704",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sensitivity (d prime)",
+      "anchor": "#definition",
+      "definition": "How well an observer separates signal from noise, in standard deviation units."
+    },
+    {
+      "term": "Response criterion",
+      "anchor": "#definition",
+      "definition": "How willing the observer is to say yes."
+    },
+    {
+      "term": "Absolute threshold",
+      "anchor": "#why-a-fixed-threshold-fails",
+      "definition": "The old idea of a fixed stimulus level below which nothing is sensed."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Two observers have equal d prime but different hit rates. What differs?",
+      "a": "The criterion, which is the willingness to say yes.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Define a false alarm.",
+      "a": "Saying yes when the signal is absent.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

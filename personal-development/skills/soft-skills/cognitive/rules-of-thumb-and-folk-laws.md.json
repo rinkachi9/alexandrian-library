@@ -1,0 +1,116 @@
+{
+  "node": {
+    "id": "skills.soft-skills.rules-of-thumb-and-folk-laws",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 9,
+    "tags": [
+      "heuristics",
+      "folk-laws",
+      "planning"
+    ],
+    "aliases": [
+      "Parkinson's law",
+      "Hofstadter's law",
+      "Murphy's law",
+      "Hanlon's razor",
+      "Lindy effect"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.planning-and-contingency",
+      "rel": "related",
+      "note": "Hofstadter's law matches the planning fallacy"
+    },
+    {
+      "to": "growth.essentialism",
+      "rel": "related",
+      "note": "Pareto principle"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hofstadter-1979",
+      "type": "book",
+      "title": "Godel, Escher, Bach: An Eternal Golden Braid",
+      "authors": [
+        "Hofstadter, D. R."
+      ],
+      "year": 1979,
+      "publisher": "Basic Books",
+      "verified": false
+    },
+    {
+      "key": "parkinson-1955",
+      "type": "paper",
+      "title": "Parkinson's law",
+      "authors": [
+        "Parkinson, C. N."
+      ],
+      "year": 1955,
+      "publisher": "The Economist, 19 November 1955",
+      "verified": false
+    },
+    {
+      "key": "taleb-2012",
+      "type": "book",
+      "title": "Antifragile: Things That Gain from Disorder",
+      "authors": [
+        "Taleb, N. N."
+      ],
+      "year": 2012,
+      "publisher": "Random House",
+      "verified": false
+    },
+    {
+      "key": "buehler-1994",
+      "type": "paper",
+      "title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+      "authors": [
+        "Buehler, R.",
+        "Griffin, D.",
+        "Ross, M."
+      ],
+      "year": 1994,
+      "publisher": "Journal of Personality and Social Psychology, 67(3), 366-381",
+      "url": "https://doi.org/10.1037/0022-3514.67.3.366",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Folk law",
+      "anchor": "#definition",
+      "definition": "A short, memorable statement about how things tend to go, often named after its author."
+    },
+    {
+      "term": "Hofstadter's law",
+      "anchor": "#the-common-ones",
+      "definition": "It always takes longer than you expect, even when you take into account Hofstadter's law."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What research supports Hofstadter's law?",
+      "a": "The planning fallacy, which is well documented.",
+      "anchor": "#the-common-ones",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "Which is an empirical pattern, Pareto or Murphy?",
+      "a": "Pareto, which has been observed in many data sets.",
+      "anchor": "#the-common-ones",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

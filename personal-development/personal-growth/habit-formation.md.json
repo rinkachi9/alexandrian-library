@@ -1,0 +1,130 @@
+{
+  "node": {
+    "id": "growth.habit-formation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "habits",
+      "automaticity",
+      "behavior-change"
+    ],
+    "aliases": [
+      "habit loop",
+      "implementation intention",
+      "atomic habits"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "lally-2010",
+      "type": "paper",
+      "title": "How are habits formed: Modelling habit formation in the real world",
+      "authors": [
+        "Lally, P.",
+        "van Jaarsveld, C. H. M.",
+        "Potts, H. W. W.",
+        "Wardle, J."
+      ],
+      "year": 2009,
+      "publisher": "European Journal of Social Psychology, 40(6), 998-1009",
+      "url": "https://doi.org/10.1002/ejsp.674",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "wood-neal-2007",
+      "type": "paper",
+      "title": "A new look at habits and the habit-goal interface",
+      "authors": [
+        "Wood, W.",
+        "Neal, D. T."
+      ],
+      "year": 2007,
+      "publisher": "Psychological Review, 114(4), 843-863",
+      "url": "https://doi.org/10.1037/0033-295X.114.4.843",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gollwitzer-sheeran-2006",
+      "type": "paper",
+      "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+      "authors": [
+        "Gollwitzer, P. M.",
+        "Sheeran, P."
+      ],
+      "year": 2006,
+      "publisher": "Advances in Experimental Social Psychology, 69-119",
+      "url": "https://doi.org/10.1016/S0065-2601(06)38002-1",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dai-2014",
+      "type": "paper",
+      "title": "The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior",
+      "authors": [
+        "Dai, H.",
+        "Milkman, K. L.",
+        "Riis, J."
+      ],
+      "year": 2014,
+      "publisher": "Management Science, 60(10), 2563-2582",
+      "url": "https://doi.org/10.1287/mnsc.2014.1901",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "clear-2018",
+      "type": "book",
+      "title": "Atomic Habits",
+      "authors": [
+        "Clear, J."
+      ],
+      "year": 2018,
+      "publisher": "Avery",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Habit",
+      "anchor": "#definition",
+      "definition": "A learned association between a context cue and a response, carried out with little thought."
+    },
+    {
+      "term": "Implementation intention",
+      "anchor": "#implementation-intentions",
+      "definition": "A plan of the form: if situation X occurs, I will do Y."
+    },
+    {
+      "term": "Automaticity",
+      "anchor": "#definition",
+      "definition": "The degree to which a behavior needs no deliberate intention."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What range of days did Lally and colleagues (2010) report for reaching 95% of final automaticity?",
+      "a": "18 to 254 days.",
+      "anchor": "#how-long-does-it-take",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is one missed day not a disaster?",
+      "a": "Missing one opportunity did not materially affect habit formation in that study.",
+      "anchor": "#how-long-does-it-take",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

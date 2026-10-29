@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "humanities.philosophy.existential-philosophy",
+    "kind": "index",
+    "status": "draft",
+    "order": 2
+  },
+  "links": [],
+  "map": {
+    "group": "existential-philosophy"
+  }
+}

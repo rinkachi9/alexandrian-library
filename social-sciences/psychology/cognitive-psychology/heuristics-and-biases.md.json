@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "psychology.heuristics-and-biases",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "bias",
+      "judgment",
+      "heuristics"
+    ],
+    "aliases": [
+      "cognitive biases",
+      "mental shortcuts"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "tversky-kahneman-1974",
+      "type": "paper",
+      "title": "Judgment under Uncertainty: Heuristics and Biases",
+      "authors": [
+        "Tversky, A.",
+        "Kahneman, D."
+      ],
+      "year": 1974,
+      "publisher": "Science, 185(4157), 1124-1131",
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-2011",
+      "type": "book",
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        "Kahneman, D."
+      ],
+      "year": 2011,
+      "publisher": "Farrar, Straus and Giroux",
+      "verified": false
+    },
+    {
+      "key": "milkman-2009",
+      "type": "paper",
+      "title": "How Can Decision Making Be Improved?",
+      "authors": [
+        "Milkman, K. L.",
+        "Chugh, D.",
+        "Bazerman, M. H."
+      ],
+      "year": 2009,
+      "publisher": "Perspectives on Psychological Science, 4(4), 379-383",
+      "url": "https://doi.org/10.1111/j.1745-6924.2009.01142.x",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-klein-2009",
+      "type": "paper",
+      "title": "Conditions for intuitive expertise: A failure to disagree",
+      "authors": [
+        "Kahneman, D.",
+        "Klein, G."
+      ],
+      "year": 2009,
+      "publisher": "American Psychologist, 64(6), 515-526",
+      "url": "https://doi.org/10.1037/a0016755",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "simon-1955",
+      "type": "paper",
+      "title": "A Behavioral Model of Rational Choice",
+      "authors": [
+        "Simon, H. A."
+      ],
+      "year": 1955,
+      "publisher": "The Quarterly Journal of Economics, 69(1), 99",
+      "url": "https://doi.org/10.2307/1884852",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Heuristic",
+      "anchor": "#definition",
+      "definition": "A fast mental shortcut that replaces a hard question with an easier one."
+    },
+    {
+      "term": "Cognitive bias",
+      "anchor": "#definition",
+      "definition": "A systematic deviation from a normative standard in judgment or choice."
+    },
+    {
+      "term": "Anchoring",
+      "anchor": "#definition",
+      "definition": "Starting from a number and adjusting too little."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three heuristics of Tversky and Kahneman (1974).",
+      "a": "Representativeness, availability, and anchoring and adjustment.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is awareness of a bias a weak remedy?",
+      "a": "The processes act automatically, so changing the decision process works better.",
+      "anchor": "#how-to-reduce-bias",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

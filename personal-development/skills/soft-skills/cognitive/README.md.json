@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "personal-development.skills.soft-skills.cognitive",
+    "kind": "index",
+    "status": "draft",
+    "order": 1
+  },
+  "links": [],
+  "map": {
+    "group": "cognitive"
+  }
+}

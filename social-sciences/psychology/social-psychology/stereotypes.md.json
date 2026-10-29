@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "psychology.stereotypes",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "stereotypes",
+      "prejudice",
+      "bias"
+    ],
+    "aliases": [
+      "prejudice",
+      "discrimination"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "allport-1954",
+      "type": "book",
+      "title": "The Nature of Prejudice",
+      "authors": [
+        "Allport, G. W."
+      ],
+      "year": 1954,
+      "publisher": "Addison-Wesley",
+      "verified": false
+    },
+    {
+      "key": "devine-1989",
+      "type": "paper",
+      "title": "Stereotypes and prejudice: Their automatic and controlled components",
+      "authors": [
+        "Devine, P. G."
+      ],
+      "year": 1989,
+      "publisher": "Journal of Personality and Social Psychology, 56(1), 5-18",
+      "url": "https://doi.org/10.1037/0022-3514.56.1.5",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Stereotype",
+      "anchor": "#definition",
+      "definition": "A belief about the traits of a group and its members."
+    },
+    {
+      "term": "Prejudice",
+      "anchor": "#definition",
+      "definition": "An evaluation of a group and its members."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Distinguish stereotype, prejudice and discrimination.",
+      "a": "Belief about a group, an evaluation of it, and behavior toward its members.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Devine (1989) argue about activation?",
+      "a": "Automatic activation is similar in high- and low-prejudice people, and they differ in controlled processing.",
+      "anchor": "#automatic-and-controlled-processes",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

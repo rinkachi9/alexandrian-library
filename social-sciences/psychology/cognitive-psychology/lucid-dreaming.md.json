@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "psychology.lucid-dreaming",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 12,
+    "tags": [
+      "dreaming",
+      "sleep",
+      "consciousness"
+    ],
+    "aliases": [
+      "lucid dreams"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "voss-2009",
+      "type": "paper",
+      "title": "Lucid Dreaming: a State of Consciousness with Features of Both Waking and Non-Lucid Dreaming",
+      "authors": [
+        "Voss, U.",
+        "Holzmann, R.",
+        "Tuin, I.",
+        "Hobson, A. J."
+      ],
+      "year": 2009,
+      "publisher": "Sleep, 32(9), 1191-1200",
+      "url": "https://doi.org/10.1093/sleep/32.9.1191",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "baird-2019",
+      "type": "paper",
+      "title": "The cognitive neuroscience of lucid dreaming",
+      "authors": [
+        "Baird, B.",
+        "Mota-Rolim, S. A.",
+        "Dresler, M."
+      ],
+      "year": 2019,
+      "publisher": "Neuroscience & Biobehavioral Reviews, 100, 305-323",
+      "url": "https://doi.org/10.1016/j.neubiorev.2019.03.008",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "stumbrys-2012",
+      "type": "paper",
+      "title": "Induction of lucid dreams: A systematic review of evidence",
+      "authors": [
+        "Stumbrys, T.",
+        "Erlacher, D.",
+        "Schädlich, M.",
+        "Schredl, M."
+      ],
+      "year": 2012,
+      "publisher": "Consciousness and Cognition, 21(3), 1456-1475",
+      "url": "https://doi.org/10.1016/j.concog.2012.07.003",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Lucid dream",
+      "anchor": "#definition",
+      "definition": "A dream in which the dreamer knows that they are dreaming."
+    },
+    {
+      "term": "Mnemonic induction",
+      "anchor": "#levels-and-induction",
+      "definition": "Intending before sleep to recognize a dream when it occurs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "How do researchers verify a lucid dream?",
+      "a": "Trained dreamers give a pre-arranged eye movement signal that is recorded in REM sleep.",
+      "anchor": "#levels-and-induction",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "In which sleep stage does lucid dreaming mostly occur?",
+      "a": "REM sleep.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

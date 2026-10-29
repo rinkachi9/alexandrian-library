@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "growth.self-awareness",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "self-awareness",
+      "reflection",
+      "journaling"
+    ],
+    "aliases": [
+      "self-reflection",
+      "self-discovery"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "silvia-duval-2001",
+      "type": "paper",
+      "title": "Objective Self-Awareness Theory: Recent Progress and Enduring Problems",
+      "authors": [
+        "Silvia, P. J.",
+        "Duval, T. S."
+      ],
+      "year": 2001,
+      "publisher": "Personality and Social Psychology Review, 5(3), 230-241",
+      "url": "https://doi.org/10.1207/s15327957pspr0503_4",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "smyth-1998",
+      "type": "paper",
+      "title": "Written emotional expression: Effect sizes, outcome types, and moderating variables",
+      "authors": [
+        "Smyth, J. M."
+      ],
+      "year": 1998,
+      "publisher": "Journal of Consulting and Clinical Psychology, 66(1), 174-184",
+      "url": "https://doi.org/10.1037/0022-006X.66.1.174",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Objective self-awareness",
+      "anchor": "#definition",
+      "definition": "A state of attention directed at the self, which prompts comparison with standards."
+    },
+    {
+      "term": "External self-awareness",
+      "anchor": "#definition",
+      "definition": "Knowing how others see one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What happens when attention is turned to the self, according to objective self-awareness theory?",
+      "a": "A person compares behavior with a standard and either reduces the discrepancy or avoids self-focus.",
+      "anchor": "#tools",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why add outside feedback?",
+      "a": "Introspection is limited and others see behavior that the person does not.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "physiology.menstrual-cycle",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "endocrine",
+      "menstruation",
+      "hormones"
+    ],
+    "aliases": [
+      "menstrual phases",
+      "premenstrual syndrome"
+    ]
+  },
+  "links": [
+    {
+      "to": "physiology.endocrine.anabolic-and-catabolic-hormones",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "reed-carr-endotext",
+      "type": "website",
+      "title": "The Menstrual Cycle",
+      "authors": [
+        "Reed, B. G.",
+        "Carr, B. R."
+      ],
+      "year": 2018,
+      "publisher": "Endotext, NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK279054/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Menstrual cycle",
+      "anchor": "#definition",
+      "definition": "The recurring sequence of hormonal and tissue changes that prepares the body for possible pregnancy."
+    },
+    {
+      "term": "Ovulation",
+      "anchor": "#the-phases",
+      "definition": "Release of an egg, triggered by a surge of luteinizing hormone."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the four phases of the cycle.",
+      "a": "Menstruation, follicular phase, ovulation and luteal phase.",
+      "anchor": "#the-phases",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is predicting mood by cycle phase unreliable?",
+      "a": "The pattern differs greatly between people and between cycles.",
+      "anchor": "#mood-and-the-cycle",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "endocrine"
+  }
+}

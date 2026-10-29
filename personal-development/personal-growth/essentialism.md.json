@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "growth.essentialism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "prioritization",
+      "pareto",
+      "focus"
+    ],
+    "aliases": [
+      "pareto principle",
+      "focus on the 10%",
+      "less but better"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.goal-setting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mckeown-2014",
+      "type": "book",
+      "title": "Essentialism: The Disciplined Pursuit of Less",
+      "authors": [
+        "McKeown, G."
+      ],
+      "year": 2014,
+      "publisher": "Crown Business",
+      "verified": false
+    },
+    {
+      "key": "covey-1989",
+      "type": "book",
+      "title": "The 7 Habits of Highly Effective People",
+      "authors": [
+        "Covey, S. R."
+      ],
+      "year": 1989,
+      "publisher": "Free Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Essentialism",
+      "anchor": "#definition",
+      "definition": "The disciplined pursuit of less: deciding what is essential, removing the rest and making the essential easy."
+    },
+    {
+      "term": "Pareto principle",
+      "anchor": "#the-pareto-principle",
+      "definition": "A small share of causes tends to produce a large share of results."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the core idea of essentialism?",
+      "a": "Do less but better: decide what is essential, remove the rest and make the essential easy.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why should the vital few be re-evaluated?",
+      "a": "The most valuable activities change with goals and circumstances.",
+      "anchor": "#method",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

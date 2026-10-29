@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "psychology.negativity-bias",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "bias",
+      "attention",
+      "emotion"
+    ],
+    "aliases": [
+      "bad is stronger than good"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "baumeister-2001",
+      "type": "paper",
+      "title": "Bad is Stronger than Good",
+      "authors": [
+        "Baumeister, R. F.",
+        "Bratslavsky, E.",
+        "Finkenauer, C.",
+        "Vohs, K. D."
+      ],
+      "year": 2001,
+      "publisher": "Review of General Psychology, 5(4), 323-370",
+      "url": "https://doi.org/10.1037/1089-2680.5.4.323",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "rozin-royzman-2001",
+      "type": "paper",
+      "title": "Negativity Bias, Negativity Dominance, and Contagion",
+      "authors": [
+        "Rozin, P.",
+        "Royzman, E. B."
+      ],
+      "year": 2001,
+      "publisher": "Personality and Social Psychology Review, 5(4), 296-320",
+      "url": "https://doi.org/10.1207/S15327957PSPR0504_2",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Negativity bias",
+      "anchor": "#definition",
+      "definition": "Negative stimuli are given more weight than positive stimuli of equal intensity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why might negativity bias be adaptive?",
+      "a": "Missing a threat costs more than missing a reward.",
+      "anchor": "#analogy",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "State the main finding of Baumeister and colleagues (2001).",
+      "a": "Bad events have stronger and longer effects than good ones across many areas.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

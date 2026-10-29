@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "psychology.loss-aversion",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "prospect-theory",
+      "decisions",
+      "risk"
+    ],
+    "aliases": [
+      "prospect theory value function"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kahneman-tversky-1979",
+      "type": "paper",
+      "title": "Prospect Theory: An Analysis of Decision under Risk",
+      "authors": [
+        "Kahneman, D.",
+        "Tversky, A."
+      ],
+      "year": 1979,
+      "publisher": "Econometrica, 47(2), 263",
+      "url": "https://doi.org/10.2307/1914185",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "tversky-kahneman-1992",
+      "type": "paper",
+      "title": "Advances in prospect theory: Cumulative representation of uncertainty",
+      "authors": [
+        "Tversky, A.",
+        "Kahneman, D."
+      ],
+      "year": 1992,
+      "publisher": "Journal of Risk and Uncertainty, 5(4), 297-323",
+      "url": "https://doi.org/10.1007/BF00122574",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-2011",
+      "type": "book",
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        "Kahneman, D."
+      ],
+      "year": 2011,
+      "publisher": "Farrar, Straus and Giroux",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Loss aversion",
+      "anchor": "#definition",
+      "definition": "The asymmetry by which losses weigh more than gains of the same size."
+    },
+    {
+      "term": "Reference point",
+      "anchor": "#definition",
+      "definition": "The level from which gains and losses are measured."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is a fair coin flip unattractive under prospect theory?",
+      "a": "The loss side of the value function is steeper, so the negative value of the loss outweighs the gain.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does the coefficient 2.25 say?",
+      "a": "Losses weigh about 2.25 times as much as equal gains in the estimates of Tversky and Kahneman (1992).",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

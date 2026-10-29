@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "philosophy.japanese-proverbs",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "proverbs",
+      "perseverance",
+      "humility"
+    ],
+    "aliases": [
+      "isogaba maware",
+      "nana korobi ya oki",
+      "oubaitori",
+      "kishi kaisei"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "sep-japanese-aesthetics",
+      "type": "website",
+      "title": "Japanese aesthetics",
+      "authors": [
+        "Parkes, G.",
+        "Loughnane, A."
+      ],
+      "year": 2023,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "festinger-1954",
+      "type": "paper",
+      "title": "A Theory of Social Comparison Processes",
+      "authors": [
+        "Festinger, L."
+      ],
+      "year": 1954,
+      "publisher": "Human Relations, 7(2), 117-140",
+      "url": "https://doi.org/10.1177/001872675400700202",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Isogaba maware",
+      "anchor": "#definition",
+      "definition": "If in a hurry, go around: the safe route is often faster than a rushed shortcut."
+    },
+    {
+      "term": "Oubaitori",
+      "anchor": "#definition",
+      "definition": "Each tree blooms in its own time, so do not compare."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does isogaba maware say?",
+      "a": "When in a hurry, take the safe route around.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which proverb warns against comparison?",
+      "a": "Oubaitori.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "japanese-thought"
+  }
+}

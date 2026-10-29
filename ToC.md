@@ -13,16 +13,11 @@ Entries without a link are planned topics. They become notes or directories when
   - [.gitignore](.gitignore): Files excluded from version control.
   - [INSTRUCTIONS.md](INSTRUCTIONS.md): Preparing a repository for Librarian OS - This guide is for the person, or the AI agent, who adapts a repository so that Librarian OS can open it.
   - [librarian-os.json](librarian-os.json): Configuration for Librarian OS: project name, entry points and rules.
-- **formal-sciences/** (planned)
+- **formal-sciences/**
   - [README.md](formal-sciences/README.md): Formal sciences - Disciplines that study abstract structures and rules of reasoning instead of the physical world.
-  - **mathematics/** (planned)
+  - **mathematics/**
     - [README.md](formal-sciences/mathematics/README.md): Mathematics - Numbers, structures, space and change.
-    - Arithmetic and number theory (planned)
-    - Algebra (planned)
-    - Geometry and trigonometry (planned)
-    - Calculus and analysis (planned)
-    - Linear algebra (planned)
-    - Discrete mathematics (planned)
+    - [rubiks-cube.md](formal-sciences/mathematics/rubiks-cube.md): The Rubik's Cube as a mathematical object - The Rubik's Cube has 43,252,003,274,489,856,000 reachable positions, about 4.3 x 10^19, and any of them can be solved in at most 20 moves, a result proved in 2010 and...
   - **logic/** (planned)
     - [README.md](formal-sciences/logic/README.md): Logic - Valid reasoning, proof and the structure of arguments.
     - Propositional and predicate logic (planned)
@@ -159,20 +154,53 @@ Entries without a link are planned topics. They become notes or directories when
     - **intelligence/**
       - [README.md](social-sciences/psychology/intelligence/README.md): Intelligence - Theories of what intelligence is and how it is measured.
       - [multiple-intelligences.md](social-sciences/psychology/intelligence/multiple-intelligences.md): Multiple intelligences - The theory of multiple intelligences, proposed by the psychologist Howard Gardner in 1983, says that human ability is not one general capacity but a set of relatively...
+      - [emotional-intelligence.md](social-sciences/psychology/intelligence/emotional-intelligence.md): Emotional intelligence - Emotional intelligence (EI) is the ability to perceive, understand, use and manage emotions in oneself and others.
+    - **cognitive-psychology/**
+      - [README.md](social-sciences/psychology/cognitive-psychology/README.md): Cognitive psychology - How people perceive, remember, judge and decide.
+      - [heuristics-and-biases.md](social-sciences/psychology/cognitive-psychology/heuristics-and-biases.md): Heuristics and cognitive biases - A heuristic is a fast mental shortcut that usually gives a good answer with little effort.
+      - [loss-aversion.md](social-sciences/psychology/cognitive-psychology/loss-aversion.md): Loss aversion - Loss aversion is the finding that a loss weighs more heavily in a decision than a gain of the same size.
+      - [sunk-cost-fallacy.md](social-sciences/psychology/cognitive-psychology/sunk-cost-fallacy.md): Sunk cost fallacy - A sunk cost is money, time or effort that has already been spent and cannot be recovered.
+      - [hindsight-bias.md](social-sciences/psychology/cognitive-psychology/hindsight-bias.md): Hindsight bias - Hindsight bias is the tendency, after an outcome is known, to believe that it was predictable and that one had foreseen it.
+      - [dunning-kruger-effect.md](social-sciences/psychology/cognitive-psychology/dunning-kruger-effect.md): Dunning-Kruger effect - The Dunning-Kruger effect is the finding that people with low skill in a domain tend to overestimate their performance, while people with high skill tend to underestim...
+      - [negativity-bias.md](social-sciences/psychology/cognitive-psychology/negativity-bias.md): Negativity bias - Negativity bias is the tendency for negative events, information and feelings to have a larger effect on attention, memory and judgment than positive ones of the same...
+      - [mere-exposure-effect.md](social-sciences/psychology/cognitive-psychology/mere-exposure-effect.md): Mere exposure effect - The mere exposure effect is the finding that repeated exposure to a stimulus, with no reward, increases how much people like it.
+      - [einstellung-effect.md](social-sciences/psychology/cognitive-psychology/einstellung-effect.md): Einstellung effect - The Einstellung effect is the tendency to keep using a familiar solution to a problem, even when a simpler or better one is available.
+      - [signal-detection-theory.md](social-sciences/psychology/cognitive-psychology/signal-detection-theory.md): Signal detection theory - Signal detection theory describes how an observer decides whether a faint signal is present in noise.
+      - [intolerance-of-uncertainty.md](social-sciences/psychology/cognitive-psychology/intolerance-of-uncertainty.md): Intolerance of uncertainty - Uncertainty is the state of not knowing what will happen.
+      - [time-perception.md](social-sciences/psychology/cognitive-psychology/time-perception.md): Time perception - People do not read time from a single clock.
+      - [lucid-dreaming.md](social-sciences/psychology/cognitive-psychology/lucid-dreaming.md): Lucid dreaming - A lucid dream is a dream in which the dreamer knows that they are dreaming.
     - **humanistic-and-positive/**
       - [README.md](social-sciences/psychology/humanistic-and-positive/README.md): Humanistic and positive psychology - What motivates people and what makes a life go well.
       - [maslow-hierarchy-of-needs.md](social-sciences/psychology/humanistic-and-positive/maslow-hierarchy-of-needs.md): Maslow's hierarchy of needs - Abraham Maslow proposed in 1943 that human motives fall into five groups: physiological needs, safety, love and belonging, esteem and self-actualization.
       - [hedonic-and-eudaimonic-well-being.md](social-sciences/psychology/humanistic-and-positive/hedonic-and-eudaimonic-well-being.md): Hedonic and eudaimonic well-being - Psychologists describe two traditions of happiness.
+      - [motivation-and-self-determination.md](social-sciences/psychology/humanistic-and-positive/motivation-and-self-determination.md): Motivation and self-determination - Motivation is what starts, directs and sustains behavior.
     - **social-psychology/**
       - [README.md](social-sciences/psychology/social-psychology/README.md): Social psychology - How people think about themselves and act in the presence of others.
       - [self-verification-theory.md](social-sciences/psychology/social-psychology/self-verification-theory.md): Self-verification theory - Self-verification theory, developed by the social psychologist William Swann from the early 1980s, says that people want others to see them as they see themselves.
       - [milgram-obedience-experiments.md](social-sciences/psychology/social-psychology/milgram-obedience-experiments.md): Milgram obedience experiments - In the early 1960s Stanley Milgram asked ordinary adults to give what they believed were increasingly painful electric shocks to another person, on the instruction of...
       - [social-deduction-games.md](social-sciences/psychology/social-psychology/social-deduction-games.md): Social deduction games - A social deduction game, such as Werewolf (also called Mafia), gives players hidden roles and asks an informed minority to deceive an uninformed majority while the maj...
+      - [attribution-biases.md](social-sciences/psychology/social-psychology/attribution-biases.md): Attribution biases - Attribution is the process of explaining why something happened, usually by pointing to a person (a trait or intention) or to a situation.
+      - [egocentric-biases.md](social-sciences/psychology/social-psychology/egocentric-biases.md): Egocentric biases in social judgment - People take their own perspective as the starting point for judging how others think and what they notice.
+      - [liking-gap-and-pratfall-effect.md](social-sciences/psychology/social-psychology/liking-gap-and-pratfall-effect.md): Liking gap and pratfall effect - Two findings about first impressions run against intuition.
+      - [expectation-effects.md](social-sciences/psychology/social-psychology/expectation-effects.md): Expectation effects: Pygmalion, Golem and self-fulfilling prophecies - What people expect of others can influence how those others perform.
+      - [social-comparison.md](social-sciences/psychology/social-psychology/social-comparison.md): Social comparison and the looking-glass self - People learn who they are partly by comparing themselves with others and by imagining how others see them.
+      - [stereotypes.md](social-sciences/psychology/social-psychology/stereotypes.md): Stereotypes - A stereotype is a set of beliefs about the traits of a group and its members.
+      - [dark-triad.md](social-sciences/psychology/social-psychology/dark-triad.md): Dark triad and manipulation - The dark triad is a set of three related personality traits: narcissism, Machiavellianism and psychopathy.
     - **clinical-and-counseling/**
       - [README.md](social-sciences/psychology/clinical-and-counseling/README.md): Clinical and counseling psychology - Theories and methods used to understand and treat psychological difficulties.
       - [object-relations-theory.md](social-sciences/psychology/clinical-and-counseling/object-relations-theory.md): Object relations theory - Object relations theory is a family of psychoanalytic theories which hold that the human mind is built mainly from relationships, beginning with the infant and its car...
       - [neuro-linguistic-programming.md](social-sciences/psychology/clinical-and-counseling/neuro-linguistic-programming.md): Neuro-linguistic programming - Neuro-linguistic programming (NLP) is a set of communication and self-change techniques that Richard Bandler and John Grinder started to promote in the 1970s.
       - [nlp-metaprograms.md](social-sciences/psychology/clinical-and-counseling/nlp-metaprograms.md): NLP metaprograms - In neuro-linguistic programming, a metaprogram is a habitual filter that is said to steer what a person pays attention to, how they decide and what motivates them.
+      - [cognitive-behavioral-therapy.md](social-sciences/psychology/clinical-and-counseling/cognitive-behavioral-therapy.md): Cognitive behavioral therapy and cognitive distortions - Cognitive behavioral therapy (CBT) is a structured, time-limited psychotherapy based on the idea that the way people interpret events affects how they feel and act.
+      - [psychodynamic-schools.md](social-sciences/psychology/clinical-and-counseling/psychodynamic-schools.md): Psychodynamic schools: Freud, Adler and Jung - Psychodynamic psychology began with Sigmund Freud's psychoanalysis, and two early colleagues, Alfred Adler and Carl Jung, broke from him to found their own schools.
+      - [trauma-bonding.md](social-sciences/psychology/clinical-and-counseling/trauma-bonding.md): Trauma bonding - Trauma bonding describes a strong emotional attachment between a person and someone who abuses them, built by cycles of harm and kindness.
+      - [compulsive-sexual-behavior.md](social-sciences/psychology/clinical-and-counseling/compulsive-sexual-behavior.md): Compulsive sexual behavior and problematic pornography use - Some people lose control over sexual thoughts, urges or behavior, such as heavy pornography use, in a way that causes distress or harms their work, relationships or he...
+      - [popular-psychology-labels.md](social-sciences/psychology/clinical-and-counseling/popular-psychology-labels.md): Popular psychology labels and their status - Many terms in popular psychology sound clinical but are not formal diagnoses or tested constructs: the Atlas complex, the Cassandra complex, the Kafka trap, the "coddl...
+    - **close-relationships/**
+      - [README.md](social-sciences/psychology/close-relationships/README.md): Close relationships - The science of attraction, closeness and the quality of romantic relationships.
+      - [attraction.md](social-sciences/psychology/close-relationships/attraction.md): Attraction and dating - Research on attraction finds a small set of reliable factors: proximity and repeated contact, similarity, liking in return and physical attractiveness.
+      - [self-disclosure-and-closeness.md](social-sciences/psychology/close-relationships/self-disclosure-and-closeness.md): Self-disclosure and closeness - Closeness grows when two people gradually share more personal information and each responds with care.
+      - [relationship-quality.md](social-sciences/psychology/close-relationships/relationship-quality.md): Predictors of relationship quality - Large studies of couples find that satisfaction is predicted best by features of the relationship itself: how committed and appreciated partners feel, how satisfied th...
   - **economics/**
     - [README.md](social-sciences/economics/README.md): Economics - How people and societies allocate scarce resources.
     - **microeconomics/**
@@ -222,26 +250,38 @@ Entries without a link are planned topics. They become notes or directories when
     - [README.md](social-sciences/anthropology/README.md): Anthropology - Human cultures and human origins.
     - Cultural anthropology (planned)
     - Physical anthropology (planned)
-  - **education-and-learning/** (planned)
+  - **education-and-learning/**
     - [README.md](social-sciences/education-and-learning/README.md): Education and learning - How people learn and how learning is organized.
-    - Learning science (planned)
-    - Study methods (planned)
-    - Pedagogy (planned)
+    - [zone-of-proximal-development.md](social-sciences/education-and-learning/zone-of-proximal-development.md): Zone of proximal development - The zone of proximal development (ZPD) is the range of tasks that a learner cannot yet do alone and can do with help.
   - **communication-and-media/** (planned)
     - [README.md](social-sciences/communication-and-media/README.md): Communication and media - How messages are made, carried and received.
     - Communication theory (planned)
     - Rhetoric and persuasion (planned)
     - Media studies (planned)
-- **humanities/** (planned)
+- **humanities/**
   - [README.md](humanities/README.md): Humanities - Disciplines that study human thought, culture and expression through interpretation and critique.
-  - **philosophy/** (planned)
+  - **philosophy/**
     - [README.md](humanities/philosophy/README.md): Philosophy - Fundamental questions about knowledge, existence, value and reasoning.
-    - Epistemology (planned)
-    - Metaphysics (planned)
-    - Ethics (planned)
-    - Political philosophy (planned)
-    - Philosophy of science (planned)
-    - History of philosophy (planned)
+    - **ancient-philosophy/**
+      - [README.md](humanities/philosophy/ancient-philosophy/README.md): Ancient philosophy - Philosophy of ancient Greece and Rome, with emphasis on how the schools understood the mind and the good life.
+      - [ancient-greek-psychology.md](humanities/philosophy/ancient-philosophy/ancient-greek-psychology.md): Ancient Greek psychology - Greek philosophers asked what the psyche is and how it explains thought, desire and emotion long before psychology became a science.
+      - [stoicism.md](humanities/philosophy/ancient-philosophy/stoicism.md): Stoicism - Stoicism is a school of ancient Greek and Roman philosophy founded by Zeno of Citium around 300 BCE.
+    - **existential-philosophy/**
+      - [README.md](humanities/philosophy/existential-philosophy/README.md): Existential philosophy - Philosophical answers to the question of meaning in a world that gives no ready answer.
+      - [nihilism.md](humanities/philosophy/existential-philosophy/nihilism.md): Nihilism - Nihilism is the family of views that deny that something usually taken to be real or valuable has any foundation: meaning, moral values, knowledge or the authority of...
+      - [existentialism.md](humanities/philosophy/existential-philosophy/existentialism.md): Existentialism - Existentialism is a philosophical movement of the 19th and 20th centuries that starts from the experience of individual existence: that each person must choose how to...
+      - [absurdism.md](humanities/philosophy/existential-philosophy/absurdism.md): Absurdism - Absurdism is the philosophy associated with Albert Camus.
+    - **japanese-thought/**
+      - [README.md](humanities/philosophy/japanese-thought/README.md): Japanese thought - Japanese ideas about beauty, learning, attention and hardship that are often used as guides to living.
+      - [wabi-sabi-and-mono-no-aware.md](humanities/philosophy/japanese-thought/wabi-sabi-and-mono-no-aware.md): Wabi-sabi and mono no aware - Wabi-sabi and mono no aware are two Japanese aesthetic ideas about imperfection and impermanence.
+      - [ichigo-ichie.md](humanities/philosophy/japanese-thought/ichigo-ichie.md): Ichigo ichie - Ichigo ichie (一期一会) is a Japanese saying that means "one time, one meeting".
+      - [shuhari-and-shoshin.md](humanities/philosophy/japanese-thought/shuhari-and-shoshin.md): Shuhari and shoshin - Shuhari (守破離) is a model of mastery in Japanese arts and martial arts with three stages: shu (protect or obey: learn and copy the forms exactly), ha (break: depart fro...
+      - [mushin-and-shin-gi-tai.md](humanities/philosophy/japanese-thought/mushin-and-shin-gi-tai.md): Mushin and shin-gi-tai - Mushin (無心) means "no-mind": a state in which action flows without hesitation, self-consciousness or fixation on a goal.
+      - [endurance-ideas.md](humanities/philosophy/japanese-thought/endurance-ideas.md): Japanese ideas of endurance and acceptance - Several Japanese words describe how to face hardship: gaman (patient endurance), shikata ga nai and shogonai (it cannot be helped), ganbaru (to do one's best, to persi...
+      - [proverbs.md](humanities/philosophy/japanese-thought/proverbs.md): Japanese proverbs on effort, patience and humility - Short sayings carry much of the practical wisdom of Japanese culture.
+    - **ethics/**
+      - [README.md](humanities/philosophy/ethics/README.md): Ethics - Moral questions about how to act and what is valuable.
+      - [ai-moral-dilemmas.md](humanities/philosophy/ethics/ai-moral-dilemmas.md): Moral dilemmas of artificial intelligence - Artificial intelligence raises moral questions that are partly old and partly new: who is responsible when a system causes harm, what counts as fair when a system make...
   - **history/** (planned)
     - [README.md](humanities/history/README.md): History - The human past and how it is reconstructed.
     - Ancient history (planned)
@@ -467,6 +507,7 @@ Entries without a link are planned topics. They become notes or directories when
         - [README.md](applied-sciences/medicine-and-health/physiology/endocrine/README.md): Endocrine system - Hormones are chemical messengers released into the blood that coordinate growth, metabolism, stress responses and sleep.
         - [anabolic-and-catabolic-hormones.md](applied-sciences/medicine-and-health/physiology/endocrine/anabolic-and-catabolic-hormones.md): Anabolic and catabolic hormones - Anabolic hormones promote the building of tissue: insulin, growth hormone and IGF-1, testosterone and estrogens.
         - [melatonin.md](applied-sciences/medicine-and-health/physiology/endocrine/melatonin.md): Melatonin - Melatonin is a hormone made mainly by the pineal gland in the brain.
+        - [menstrual-cycle.md](applied-sciences/medicine-and-health/physiology/endocrine/menstrual-cycle.md): Menstrual cycle - The menstrual cycle is a recurring sequence of hormonal and tissue changes that prepares the body for possible pregnancy.
       - **sleep/**
         - [README.md](applied-sciences/medicine-and-health/physiology/sleep/README.md): Sleep - Sleep is an active, regulated state in which the brain cycles through distinct stages that support memory, tissue repair, hormone release and clearance of waste from t...
         - [sleep-architecture.md](applied-sciences/medicine-and-health/physiology/sleep/sleep-architecture.md): Sleep architecture - Sleep consists of cycles of about 90 minutes, repeated four to six times a night.
@@ -959,16 +1000,19 @@ Entries without a link are planned topics. They become notes or directories when
     - Editing (planned)
 - **personal-development/**
   - [README.md](personal-development/README.md): Personal development - Deliberate improvement of oneself: character, habits, skills and career.
-  - **personal-growth/** (planned)
+  - **personal-growth/**
     - [README.md](personal-development/personal-growth/README.md): Personal growth - Understanding and changing how you think, feel and act.
-    - Goal setting (planned)
-    - Habits (planned)
-    - Motivation (planned)
-    - Self-awareness (planned)
-    - Confidence (planned)
-    - Emotional intelligence (planned)
-    - Mindfulness (planned)
-    - Stress management (planned)
+    - [self-improvement.md](personal-development/personal-growth/self-improvement.md): Self-improvement - Self-improvement is the effort to improve one's knowledge, skills, habits or character by one's own action.
+    - [goal-setting.md](personal-development/personal-growth/goal-setting.md): Goal setting - Goal-setting theory, built by Edwin Locke and Gary Latham over 35 years of studies, says that specific and difficult goals lead to higher performance than easy goals,...
+    - [habit-formation.md](personal-development/personal-growth/habit-formation.md): Habit formation - A habit is a behavior that has become automatic in a given context: the context triggers the action without a fresh decision.
+    - [kaizen.md](personal-development/personal-growth/kaizen.md): Kaizen - Kaizen is the Japanese word for "change for the better", and it names a management approach of continuous improvement in small steps, developed in Japanese manufacturi...
+    - [essentialism.md](personal-development/personal-growth/essentialism.md): Essentialism and focusing on the vital few - Essentialism is a way of working and living that puts "less but better" first: find the few things that matter most, say no to the rest and protect time for them.
+    - [self-awareness.md](personal-development/personal-growth/self-awareness.md): Self-awareness - Self-awareness is the ability to see one's own thoughts, feelings and behavior and how they affect others.
+    - [self-esteem-and-self-acceptance.md](personal-development/personal-growth/self-esteem-and-self-acceptance.md): Self-esteem and self-acceptance - Self-esteem is a person's overall evaluation of their own worth.
+    - [self-compassion.md](personal-development/personal-growth/self-compassion.md): Self-compassion - Self-compassion is treating oneself with the kindness and understanding one would give to a friend when failing or suffering.
+    - [self-regulation.md](personal-development/personal-growth/self-regulation.md): Self-regulation, self-control and self-discipline - Self-regulation is the ability to direct one's own thoughts, emotions and actions toward goals, especially when a tempting alternative is present.
+    - [stress-and-resilience.md](personal-development/personal-growth/stress-and-resilience.md): Stress and resilience - Stress is the reaction to demands that a person judges to exceed or strain their resources.
+    - [mindfulness.md](personal-development/personal-growth/mindfulness.md): Mindfulness - Mindfulness is paying attention to the present moment on purpose and without judgment.
   - **skills/**
     - [README.md](personal-development/skills/README.md): Skills - Abilities that can be learned and practiced, and how to learn them.
     - [what-is-a-skill.md](personal-development/skills/what-is-a-skill.md): What is a skill - A skill is a learned ability to carry out a task to a standard, reliably and repeatedly.
@@ -977,7 +1021,38 @@ Entries without a link are planned topics. They become notes or directories when
     - [learning-techniques.md](personal-development/skills/learning-techniques.md): Learning techniques - Some study and practice methods produce much more durable learning than others, and the ones people use most are often among the weakest.
     - **soft-skills/**
       - [README.md](personal-development/skills/soft-skills/README.md): Soft skills - Transferable skills that govern how a person thinks, manages themselves and works with others, and that apply in almost any role.
+      - **cognitive/**
+        - [README.md](personal-development/skills/soft-skills/cognitive/README.md): Cognitive soft skills - Skills of thinking, reasoning and learning.
+        - [critical-thinking.md](personal-development/skills/soft-skills/cognitive/critical-thinking.md): Critical thinking - Critical thinking is the careful evaluation of claims and arguments in order to decide what to believe or do.
+        - [problem-solving.md](personal-development/skills/soft-skills/cognitive/problem-solving.md): Structured problem solving - Structured problem solving is a stepwise method for dealing with problems: define the problem, generate options, choose, act and check the result.
+        - [decision-making.md](personal-development/skills/soft-skills/cognitive/decision-making.md): Decision making - A decision is a choice among options under uncertainty, and good decision making is about the quality of the process more than the outcome.
+        - [prediction-and-forecasting.md](personal-development/skills/soft-skills/cognitive/prediction-and-forecasting.md): Prediction and forecasting - Forecasting is estimating the probability of future events.
+        - [planning-and-contingency.md](personal-development/skills/soft-skills/cognitive/planning-and-contingency.md): Planning and contingency planning - Plans fail mostly because people underestimate how long tasks take and ignore what can go wrong.
+        - [cognitive-flexibility.md](personal-development/skills/soft-skills/cognitive/cognitive-flexibility.md): Cognitive flexibility and adaptability - Cognitive flexibility is the ability to switch between ideas, rules or perspectives and to adapt to new demands.
+        - [memory-techniques.md](personal-development/skills/soft-skills/cognitive/memory-techniques.md): Memory and memorization techniques - Human working memory holds only a handful of items at once, about four meaningful chunks according to modern estimates, which replaced Miller's classic "seven plus or...
+        - [metacognition.md](personal-development/skills/soft-skills/cognitive/metacognition.md): Metacognition and learning to learn - Metacognition is thinking about one's own thinking: knowing what you know, judging how well you understand something and controlling how you study.
+        - [rules-of-thumb-and-folk-laws.md](personal-development/skills/soft-skills/cognitive/rules-of-thumb-and-folk-laws.md): Rules of thumb and folk laws - Many short sayings are named after people and used as laws of work and life: Parkinson's law, Hofstadter's law, Murphy's law, Hanlon's razor and others.
       - [soft-skills-fundamentals.md](personal-development/skills/soft-skills/soft-skills-fundamentals.md): Soft skills fundamentals - Soft skills are transferable skills that govern how a person thinks, manages themselves and works with others: communication, collaboration, self-regulation, problem s...
+      - **intrapersonal/**
+        - [README.md](personal-development/skills/soft-skills/intrapersonal/README.md): Intrapersonal soft skills - Skills of managing oneself: time, attention, effort and motivation.
+        - [time-management.md](personal-development/skills/soft-skills/intrapersonal/time-management.md): Time management - Time management is the use of planning, prioritizing and scheduling to spend limited time on what matters.
+        - [prioritization.md](personal-development/skills/soft-skills/intrapersonal/prioritization.md): Prioritization - Prioritizing is choosing what to do first, what to do later and what not to do.
+        - [procrastination.md](personal-development/skills/soft-skills/intrapersonal/procrastination.md): Procrastination - Procrastination is voluntarily delaying an intended action despite expecting to be worse off for the delay.
+        - [attention-and-multitasking.md](personal-development/skills/soft-skills/intrapersonal/attention-and-multitasking.md): Attention and multitasking - Attention is the limited capacity of the mind to select what to process.
+        - [flow-state.md](personal-development/skills/soft-skills/intrapersonal/flow-state.md): Flow state - Flow is a state of full absorption in an activity, in which action and awareness merge, time seems to change and the work feels effortless and enjoyable.
+        - [deep-work.md](personal-development/skills/soft-skills/intrapersonal/deep-work.md): Deep work and deep dives - Deep work is professional activity done in a state of distraction-free concentration that pushes cognitive abilities to their limit.
+      - **interpersonal/**
+        - [README.md](personal-development/skills/soft-skills/interpersonal/README.md): Interpersonal soft skills - Skills of working with other people: communicating, listening, giving feedback, negotiating, building trust and leading.
+        - [communication-basics.md](personal-development/skills/soft-skills/interpersonal/communication-basics.md): Communication basics - Communication is the exchange of meaning between people through words, voice, body and writing.
+        - [active-listening.md](personal-development/skills/soft-skills/interpersonal/active-listening.md): Active listening - Active listening is a way of listening in which the listener gives full attention, shows that they are listening, checks understanding and holds back judgment and advice.
+        - [nonverbal-communication.md](personal-development/skills/soft-skills/interpersonal/nonverbal-communication.md): Nonverbal communication and body language - Nonverbal communication is everything people convey without words: facial expression, posture, gesture, gaze, touch, voice tone and use of space.
+        - [feedback-and-criticism.md](personal-development/skills/soft-skills/interpersonal/feedback-and-criticism.md): Feedback, criticism and assertiveness - Feedback is information about performance that is given to help improve it.
+        - [negotiation.md](personal-development/skills/soft-skills/interpersonal/negotiation.md): Negotiation - Negotiation is a process in which two or more parties with different interests try to reach an agreement.
+        - [mediation-and-arbitration.md](personal-development/skills/soft-skills/interpersonal/mediation-and-arbitration.md): Mediation and arbitration - Mediation and arbitration are two ways of resolving a dispute without going to court.
+        - [trust.md](personal-development/skills/soft-skills/interpersonal/trust.md): Trust - Trust is the willingness to be vulnerable to another party on the expectation that they will act in one's interest.
+        - [leadership.md](personal-development/skills/soft-skills/interpersonal/leadership.md): Leadership - Leadership is the process of influencing a group toward a shared goal.
+        - [public-speaking.md](personal-development/skills/soft-skills/interpersonal/public-speaking.md): Public speaking - Public speaking is delivering a prepared talk to an audience, and it is a skill that improves with preparation and practice.
+        - [storytelling.md](personal-development/skills/soft-skills/interpersonal/storytelling.md): Storytelling - A story is an account of events with characters, a goal, an obstacle and a change.
     - **hard-skills/**
       - [README.md](personal-development/skills/hard-skills/README.md): Hard skills - Skills tied to a specific task, tool, method or profession, whose results can be checked against a clear standard.
       - [hard-skills-fundamentals.md](personal-development/skills/hard-skills/hard-skills-fundamentals.md): Hard skills fundamentals - Hard skills are learned abilities tied to a specific task, tool, method or field, whose results can be checked against a clear standard: writing SQL, welding, bookkeep...
@@ -1109,5 +1184,4 @@ Entries without a link are planned topics. They become notes or directories when
   - **social-sciences/**
     - [maslow-hierarchy-of-needs-pyramid.svg](_assets/social-sciences/maslow-hierarchy-of-needs-pyramid.svg): Diagram of the five levels of Maslow's hierarchy of needs.
 - **_sources/**
-  - [Knowledge-20261027091417.html](_sources/Knowledge-20261027091417.html): File.
   - [Self-development-20261027091445.html](_sources/Self-development-20261027091445.html): File.

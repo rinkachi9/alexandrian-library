@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "philosophy.nihilism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "nihilism",
+      "meaning",
+      "nietzsche"
+    ],
+    "aliases": [
+      "existential nihilism",
+      "moral nihilism"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "iep-nihilism",
+      "type": "website",
+      "title": "Nihilism",
+      "publisher": "Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/nihilism/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sep-nietzsche",
+      "type": "website",
+      "title": "Friedrich Nietzsche",
+      "authors": [
+        "Anderson, R. L."
+      ],
+      "year": 2026,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/nietzsche/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "nietzsche-1882",
+      "type": "book",
+      "title": "The Gay Science",
+      "authors": [
+        "Nietzsche, F."
+      ],
+      "year": 1882,
+      "publisher": "Many editions",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nihilism",
+      "anchor": "#definition",
+      "definition": "A family of views that deny that something usually taken as real or valuable has a foundation."
+    },
+    {
+      "term": "Active nihilism",
+      "anchor": "#historical-background",
+      "definition": "Nietzsche's term for destroying old values to make room for new ones."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three kinds of nihilism.",
+      "a": "For example existential, moral and epistemological.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does no cosmic purpose not imply that nothing matters?",
+      "a": "Things can matter to people without a cosmic source of meaning.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "existential-philosophy"
+  }
+}

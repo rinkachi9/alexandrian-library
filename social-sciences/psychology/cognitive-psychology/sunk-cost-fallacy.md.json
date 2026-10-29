@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "psychology.sunk-cost-fallacy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "decisions",
+      "projects",
+      "bias"
+    ],
+    "aliases": [
+      "sunk cost effect",
+      "escalation of commitment"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.loss-aversion",
+      "rel": "related",
+      "note": "Stopping makes the loss real"
+    }
+  ],
+  "sources": [
+    {
+      "key": "arkes-blumer-1985",
+      "type": "paper",
+      "title": "The psychology of sunk cost",
+      "authors": [
+        "Arkes, H. R.",
+        "Blumer, C."
+      ],
+      "year": 1985,
+      "publisher": "Organizational Behavior and Human Decision Processes, 35(1), 124-140",
+      "url": "https://doi.org/10.1016/0749-5978(85)90049-4",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-2011",
+      "type": "book",
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        "Kahneman, D."
+      ],
+      "year": 2011,
+      "publisher": "Farrar, Straus and Giroux",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Sunk cost",
+      "anchor": "#definition",
+      "definition": "A cost already incurred that cannot be recovered whatever is chosen."
+    },
+    {
+      "term": "Sunk cost fallacy",
+      "anchor": "#definition",
+      "definition": "Letting a sunk cost influence a decision about the future."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "A ticket cost 50 and you feel ill. Why is the price irrelevant to whether you go?",
+      "a": "The 50 is spent either way, so only the future enjoyment and cost count.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name one way to reduce the fallacy.",
+      "a": "Ask whether you would start the project today, or set stopping criteria in advance.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

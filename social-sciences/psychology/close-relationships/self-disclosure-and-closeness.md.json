@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "psychology.self-disclosure-and-closeness",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "closeness",
+      "disclosure",
+      "privacy"
+    ],
+    "aliases": [
+      "36 questions",
+      "social penetration"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.attraction",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "aron-1997",
+      "type": "paper",
+      "title": "The Experimental Generation of Interpersonal Closeness: A Procedure and Some Preliminary Findings",
+      "authors": [
+        "Aron, A.",
+        "Melinat, E.",
+        "Aron, E. N.",
+        "Vallone, R. D.",
+        "Bator, R. J."
+      ],
+      "year": 1997,
+      "publisher": "Personality and Social Psychology Bulletin, 23(4), 363-377",
+      "url": "https://doi.org/10.1177/0146167297234003",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "altman-taylor-1973",
+      "type": "book",
+      "title": "Social Penetration: The Development of Interpersonal Relationships",
+      "authors": [
+        "Altman, I.",
+        "Taylor, D. A."
+      ],
+      "year": 1973,
+      "publisher": "Holt, Rinehart and Winston",
+      "verified": false
+    },
+    {
+      "key": "petronio-2002",
+      "type": "book",
+      "title": "Boundaries of Privacy: Dialectics of Disclosure",
+      "authors": [
+        "Petronio, S."
+      ],
+      "year": 2002,
+      "publisher": "SUNY Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Self-disclosure",
+      "anchor": "#definition",
+      "definition": "Sharing personal information, thoughts and feelings with another person."
+    },
+    {
+      "term": "Social penetration",
+      "anchor": "#definition",
+      "definition": "The growth of relationships as disclosure becomes broader and deeper."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What was the result of the 36-question procedure?",
+      "a": "Pairs felt closer than pairs who made small talk.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How does privacy theory complement disclosure?",
+      "a": "It says that people set rules about what to share, so disclosure should respect boundaries.",
+      "anchor": "#privacy",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "close-relationships"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "psychology.compulsive-sexual-behavior",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "icd-11",
+      "behavior",
+      "pornography"
+    ],
+    "aliases": [
+      "problematic pornography use",
+      "CSBD"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.cognitive-behavioral-therapy",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kraus-2018",
+      "type": "paper",
+      "title": "Compulsive sexual behaviour disorder in the ICD‐11",
+      "authors": [
+        "Kraus, S. W.",
+        "Krueger, R. B.",
+        "Briken, P.",
+        "First, M. B.",
+        "Stein, D. J."
+      ],
+      "year": 2018,
+      "publisher": "World Psychiatry, 17(1), 109-110",
+      "url": "https://doi.org/10.1002/wps.20499",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Compulsive sexual behaviour disorder",
+      "anchor": "#definition",
+      "definition": "An ICD-11 impulse control disorder with persistent failure to control sexual urges, causing distress or impairment."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is high frequency alone not a disorder?",
+      "a": "The criteria are loss of control and impairment or distress, not the amount.",
+      "anchor": "#what-is-and-is-not-a-problem",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Where does ICD-11 place the diagnosis?",
+      "a": "Among impulse control disorders, not among addictions.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}

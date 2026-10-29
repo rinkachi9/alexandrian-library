@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "skills.soft-skills.active-listening",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "listening",
+      "empathy",
+      "conversation"
+    ],
+    "aliases": [
+      "listening skills",
+      "paraphrasing"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.communication-basics",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "weger-2014",
+      "type": "paper",
+      "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
+      "authors": [
+        "Weger, H.",
+        "Castle Bell, G.",
+        "Minei, E. M.",
+        "Robinson, M. C."
+      ],
+      "year": 2014,
+      "publisher": "International Journal of Listening, 28(1), 13-31",
+      "url": "https://doi.org/10.1080/10904018.2013.813234",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Active listening",
+      "anchor": "#definition",
+      "definition": "Listening to understand the speaker, with signals that this is happening."
+    },
+    {
+      "term": "Paraphrase",
+      "anchor": "#behaviors",
+      "definition": "Restating what the speaker said in one's own words to check understanding."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three active listening behaviors.",
+      "a": "For example paraphrasing, open questions and summarizing.",
+      "anchor": "#behaviors",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Weger and colleagues (2014) find about feeling understood?",
+      "a": "Speakers who received active listening responses felt more understood than those who received advice or acknowledgment.",
+      "anchor": "#evidence",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

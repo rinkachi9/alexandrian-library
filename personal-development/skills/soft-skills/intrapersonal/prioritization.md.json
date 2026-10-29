@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "skills.soft-skills.prioritization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "prioritization",
+      "matrix",
+      "urgency"
+    ],
+    "aliases": [
+      "Eisenhower matrix",
+      "action priority matrix",
+      "mere urgency effect",
+      "four Ds"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.time-management",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "covey-1989",
+      "type": "book",
+      "title": "The 7 Habits of Highly Effective People",
+      "authors": [
+        "Covey, S. R."
+      ],
+      "year": 1989,
+      "publisher": "Free Press",
+      "verified": false
+    },
+    {
+      "key": "zhu-2018",
+      "type": "paper",
+      "title": "The Mere Urgency Effect",
+      "authors": [
+        "Zhu, M.",
+        "Yang, Y.",
+        "Hsee, C. K."
+      ],
+      "year": 2018,
+      "publisher": "Journal of Consumer Research",
+      "url": "https://doi.org/10.1093/jcr/ucy008",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Eisenhower matrix",
+      "anchor": "#definition",
+      "definition": "A matrix of importance and urgency used to decide what to do, schedule, delegate or drop."
+    },
+    {
+      "term": "Mere urgency effect",
+      "anchor": "#the-mere-urgency-effect",
+      "definition": "The tendency to prefer tasks with short deadlines even when they are worth less."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the four categories of the action priority matrix?",
+      "a": "Quick wins, major projects, fill-ins and thankless tasks.",
+      "anchor": "#the-matrices",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does the mere urgency effect show?",
+      "a": "People pick tasks with short deadlines over tasks with a larger payoff and a longer deadline.",
+      "anchor": "#the-mere-urgency-effect",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intrapersonal"
+  }
+}

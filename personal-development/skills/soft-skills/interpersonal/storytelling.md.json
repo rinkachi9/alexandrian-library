@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "skills.soft-skills.storytelling",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 10,
+    "tags": [
+      "storytelling",
+      "narrative",
+      "persuasion"
+    ],
+    "aliases": [
+      "narrative transportation",
+      "story arc"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.public-speaking",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "green-brock-2000",
+      "type": "paper",
+      "title": "The role of transportation in the persuasiveness of public narratives",
+      "authors": [
+        "Green, M. C.",
+        "Brock, T. C."
+      ],
+      "year": 2000,
+      "publisher": "Journal of Personality and Social Psychology, 79(5), 701-721",
+      "url": "https://doi.org/10.1037/0022-3514.79.5.701",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Storytelling",
+      "anchor": "#definition",
+      "definition": "The use of narrative to communicate."
+    },
+    {
+      "term": "Narrative transportation",
+      "anchor": "#definition",
+      "definition": "The state of being absorbed in a story, with imagery, emotion and focused attention."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the components of a story.",
+      "a": "For example character, goal, obstacle, stakes, turning point and resolution.",
+      "anchor": "#components",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Green and Brock (2000) find about highly transported readers?",
+      "a": "They noticed fewer flaws in the story and held more story-consistent beliefs.",
+      "anchor": "#why-stories-work",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

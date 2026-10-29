@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "psychology.einstellung-effect",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "problem-solving",
+      "fixation",
+      "expertise"
+    ],
+    "aliases": [
+      "mental set",
+      "functional fixedness"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bilalic-2008",
+      "type": "paper",
+      "title": "Why good thoughts block better ones: The mechanism of the pernicious Einstellung (set) effect",
+      "authors": [
+        "Bilalić, M.",
+        "McLeod, P.",
+        "Gobet, F."
+      ],
+      "year": 2008,
+      "publisher": "Cognition, 108(3), 652-661",
+      "url": "https://doi.org/10.1016/j.cognition.2008.05.005",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kahneman-2011",
+      "type": "book",
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        "Kahneman, D."
+      ],
+      "year": 2011,
+      "publisher": "Farrar, Straus and Giroux",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Einstellung effect",
+      "anchor": "#definition",
+      "definition": "A familiar solution method prevents finding a better solution."
+    },
+    {
+      "term": "Functional fixedness",
+      "anchor": "#definition",
+      "definition": "Seeing an object only in its usual function."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What did the eye movements of the chess players show?",
+      "a": "They kept looking at squares of the familiar solution while believing they searched for a better one.",
+      "anchor": "#evidence",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name one remedy for the Einstellung effect.",
+      "a": "Restate the problem, or ask someone without experience of the method.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

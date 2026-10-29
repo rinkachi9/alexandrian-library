@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "growth.mindfulness",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "attention"
+    ],
+    "aliases": [
+      "meditation",
+      "MBSR"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.stress-and-resilience",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "goyal-2014",
+      "type": "paper",
+      "title": "Meditation Programs for Psychological Stress and Well-being",
+      "authors": [
+        "Goyal, M.",
+        "Singh, S.",
+        "Sibinga, E. M. S.",
+        "Gould, N. F.",
+        "Rowland-Seymour, A."
+      ],
+      "year": 2014,
+      "publisher": "JAMA Internal Medicine, 174(3), 357",
+      "url": "https://doi.org/10.1001/jamainternmed.2013.13018",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mindfulness",
+      "anchor": "#definition",
+      "definition": "Paying attention to the present moment on purpose and without judgment."
+    },
+    {
+      "term": "Automaticity",
+      "anchor": "#definition",
+      "definition": "Acting on habit without awareness."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did Goyal and colleagues (2014) find for anxiety and depression?",
+      "a": "Moderate evidence of improvement.",
+      "anchor": "#evidence",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is the repeated step in breath meditation?",
+      "a": "Noticing that the mind wandered and gently returning attention to the breath.",
+      "anchor": "#the-practice-cycle",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

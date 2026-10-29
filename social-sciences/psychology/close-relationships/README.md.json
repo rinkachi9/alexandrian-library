@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.psychology.close-relationships",
+    "kind": "index",
+    "status": "draft",
+    "order": 5
+  },
+  "links": [],
+  "map": {
+    "group": "close-relationships"
+  }
+}

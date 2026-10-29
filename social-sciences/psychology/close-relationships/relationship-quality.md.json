@@ -1,0 +1,128 @@
+{
+  "node": {
+    "id": "psychology.relationship-quality",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "relationships",
+      "conflict",
+      "satisfaction"
+    ],
+    "aliases": [
+      "relationship satisfaction",
+      "demand-withdraw"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.self-disclosure-and-closeness",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "joel-2020",
+      "type": "paper",
+      "title": "Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies",
+      "authors": [
+        "Joel, S.",
+        "Eastwick, P. W.",
+        "Allison, C. J.",
+        "Arriaga, X. B.",
+        "Baker, Z. G."
+      ],
+      "year": 2020,
+      "publisher": "Proceedings of the National Academy of Sciences, 117(32), 19061-19071",
+      "url": "https://doi.org/10.1073/pnas.1917036117",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "christensen-heavey-1990",
+      "type": "paper",
+      "title": "Gender and social structure in the demand/withdraw pattern of marital conflict",
+      "authors": [
+        "Christensen, A.",
+        "Heavey, C. L."
+      ],
+      "year": 1990,
+      "publisher": "Journal of Personality and Social Psychology, 59(1), 73-81",
+      "url": "https://doi.org/10.1037/0022-3514.59.1.73",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gottman-levenson-1992",
+      "type": "paper",
+      "title": "Marital processes predictive of later dissolution: Behavior, physiology, and health",
+      "authors": [
+        "Gottman, J. M.",
+        "Levenson, R. W."
+      ],
+      "year": 1992,
+      "publisher": "Journal of Personality and Social Psychology, 63(2), 221-233",
+      "url": "https://doi.org/10.1037/0022-3514.63.2.221",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hyde-2005",
+      "type": "paper",
+      "title": "The gender similarities hypothesis",
+      "authors": [
+        "Hyde, J. S."
+      ],
+      "year": 2005,
+      "publisher": "American Psychologist, 60(6), 581-592",
+      "url": "https://doi.org/10.1037/0003-066X.60.6.581",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "eggerichs-2004",
+      "type": "book",
+      "title": "Love and Respect",
+      "authors": [
+        "Eggerichs, E."
+      ],
+      "year": 2004,
+      "publisher": "Thomas Nelson",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Relationship quality",
+      "anchor": "#definition",
+      "definition": "How satisfied people are with a romantic relationship and how stable it is."
+    },
+    {
+      "term": "Demand-withdraw pattern",
+      "anchor": "#patterns-in-conflict",
+      "definition": "One partner pursues change and discussion while the other withdraws."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the five strongest predictors found by Joel and colleagues (2020).",
+      "a": "Perceived partner commitment, appreciation, sexual satisfaction, perceived partner satisfaction and conflict.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is the evidence for the C.H.A.I.R.S. and C.O.U.P.L.E. models weak?",
+      "a": "They have not been tested and rest on fixed gender roles, while psychological gender differences are generally small.",
+      "anchor": "#popular-models",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "close-relationships"
+  }
+}

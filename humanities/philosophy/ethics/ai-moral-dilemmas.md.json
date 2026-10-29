@@ -1,0 +1,149 @@
+{
+  "node": {
+    "id": "philosophy.ai-moral-dilemmas",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "ai-ethics",
+      "fairness",
+      "alignment"
+    ],
+    "aliases": [
+      "AI ethics",
+      "trolley problem",
+      "alignment problem"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "sep-ethics-ai",
+      "type": "website",
+      "title": "Ethics of artificial intelligence and robotics",
+      "authors": [
+        "Müller, V. C."
+      ],
+      "year": 2026,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/ethics-ai/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "thomson-1985",
+      "type": "paper",
+      "title": "The Trolley Problem",
+      "authors": [
+        "Thomson, J. J."
+      ],
+      "year": 1985,
+      "publisher": "The Yale Law Journal, 94(6), 1395",
+      "url": "https://doi.org/10.2307/796133",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "awad-2018",
+      "type": "paper",
+      "title": "The Moral Machine experiment",
+      "authors": [
+        "Awad, E.",
+        "Dsouza, S.",
+        "Kim, R.",
+        "Schulz, J.",
+        "Henrich, J."
+      ],
+      "year": 2018,
+      "publisher": "Nature, 563(7729), 59-64",
+      "url": "https://doi.org/10.1038/s41586-018-0637-6",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "chouldechova-2017",
+      "type": "paper",
+      "title": "Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments",
+      "authors": [
+        "Chouldechova, A."
+      ],
+      "year": 2017,
+      "publisher": "Big Data, 5(2), 153-163",
+      "url": "https://doi.org/10.1089/big.2016.0047",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "amodei-2016",
+      "type": "paper",
+      "title": "Concrete problems in AI safety",
+      "authors": [
+        "Amodei, D.",
+        "Olah, C.",
+        "Steinhardt, J.",
+        "Christiano, P.",
+        "Schulman, J.",
+        "Mane, D."
+      ],
+      "year": 2016,
+      "publisher": "arXiv:1606.06565",
+      "url": "https://arxiv.org/abs/1606.06565",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "russell-2019",
+      "type": "book",
+      "title": "Human Compatible: Artificial Intelligence and the Problem of Control",
+      "authors": [
+        "Russell, S."
+      ],
+      "year": 2019,
+      "publisher": "Viking",
+      "verified": false
+    },
+    {
+      "key": "ai-act",
+      "type": "standard",
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (AI Act)",
+      "year": 2024,
+      "publisher": "European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Responsibility gap",
+      "anchor": "#responsibility",
+      "definition": "A situation in which nobody can be held accountable for harm caused with an AI system."
+    },
+    {
+      "term": "Alignment problem",
+      "anchor": "#alignment",
+      "definition": "How to make a system's behavior match human intentions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three fairness criteria.",
+      "a": "For example demographic parity, equal error rates and predictive parity.",
+      "anchor": "#fairness-a-conflict-of-criteria",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Chouldechova (2017) show?",
+      "a": "When base rates differ, a score cannot satisfy several fairness criteria at once.",
+      "anchor": "#fairness-a-conflict-of-criteria",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "ethics"
+  }
+}

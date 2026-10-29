@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "skills.soft-skills.planning-and-contingency",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "planning",
+      "risk",
+      "pre-mortem"
+    ],
+    "aliases": [
+      "planning fallacy",
+      "contingency plan",
+      "pre-mortem"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.decision-making",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "buehler-1994",
+      "type": "paper",
+      "title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+      "authors": [
+        "Buehler, R.",
+        "Griffin, D.",
+        "Ross, M."
+      ],
+      "year": 1994,
+      "publisher": "Journal of Personality and Social Psychology, 67(3), 366-381",
+      "url": "https://doi.org/10.1037/0022-3514.67.3.366",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mitchell-1989",
+      "type": "paper",
+      "title": "Back to the future: Temporal perspective in the explanation of events",
+      "authors": [
+        "Mitchell, D. J.",
+        "Edward Russo, J.",
+        "Pennington, N."
+      ],
+      "year": 1989,
+      "publisher": "Journal of Behavioral Decision Making, 2(1), 25-38",
+      "url": "https://doi.org/10.1002/bdm.3960020103",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Planning fallacy",
+      "anchor": "#definition",
+      "definition": "Underestimating the time, cost and risk of future actions despite past experience."
+    },
+    {
+      "term": "Pre-mortem",
+      "anchor": "#pre-mortem",
+      "definition": "Imagining that a project has already failed and listing the reasons."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "How does a pre-mortem work?",
+      "a": "The team assumes that the project failed, and each member independently writes reasons for it.",
+      "anchor": "#pre-mortem",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which elements make up a contingency plan?",
+      "a": "Risk, trigger, response, owner and cost or time.",
+      "anchor": "#contingency-plan-elements",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

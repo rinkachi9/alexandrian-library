@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "psychology.dunning-kruger-effect",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "bias",
+      "self-assessment",
+      "metacognition"
+    ],
+    "aliases": [
+      "Dunning-Kruger"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kruger-dunning-1999",
+      "type": "paper",
+      "title": "Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments",
+      "authors": [
+        "Kruger, J.",
+        "Dunning, D."
+      ],
+      "year": 1999,
+      "publisher": "Journal of Personality and Social Psychology, 77(6), 1121-1134",
+      "url": "https://doi.org/10.1037/0022-3514.77.6.1121",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gignac-2020",
+      "type": "paper",
+      "title": "The Dunning-Kruger effect is (mostly) a statistical artefact: Valid approaches to testing the hypothesis with individual differences data",
+      "authors": [
+        "Gignac, G. E.",
+        "Zajenkowski, M."
+      ],
+      "year": 2020,
+      "publisher": "Intelligence, 80, 101449",
+      "url": "https://doi.org/10.1016/j.intell.2020.101449",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dunning-Kruger effect",
+      "anchor": "#definition",
+      "definition": "The finding that low performers overestimate and high performers slightly underestimate their performance."
+    },
+    {
+      "term": "Regression to the mean",
+      "anchor": "#competing-explanations",
+      "definition": "The statistical tendency of extreme values to be followed by less extreme ones."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Give one statistical explanation of the Dunning-Kruger pattern.",
+      "a": "Self-estimates are loosely related to skill, so low performers must overestimate and high performers underestimate.",
+      "anchor": "#competing-explanations",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What did Kruger and Dunning (1999) find about the bottom quartile?",
+      "a": "They rated themselves well above their actual rank.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

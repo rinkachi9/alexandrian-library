@@ -1,0 +1,121 @@
+{
+  "node": {
+    "id": "skills.soft-skills.negotiation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "negotiation",
+      "interests",
+      "batna"
+    ],
+    "aliases": [
+      "BATNA",
+      "ZOPA",
+      "principled negotiation"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.communication-basics",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "career.salary-and-offer-negotiation",
+      "rel": "related",
+      "note": "Applied to pay"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fisher-ury-1981",
+      "type": "book",
+      "title": "Getting to Yes: Negotiating Agreement Without Giving In",
+      "authors": [
+        "Fisher, R.",
+        "Ury, W."
+      ],
+      "year": 1981,
+      "publisher": "Houghton Mifflin",
+      "verified": false
+    },
+    {
+      "key": "thompson-hastie-1990",
+      "type": "paper",
+      "title": "Social perception in negotiation",
+      "authors": [
+        "Thompson, L.",
+        "Hastie, R."
+      ],
+      "year": 1990,
+      "publisher": "Organizational Behavior and Human Decision Processes, 47(1), 98-123",
+      "url": "https://doi.org/10.1016/0749-5978(90)90048-E",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "galinsky-2001",
+      "type": "paper",
+      "title": "First offers as anchors: The role of perspective-taking and negotiator focus",
+      "authors": [
+        "Galinsky, A. D.",
+        "Mussweiler, T."
+      ],
+      "year": 2001,
+      "publisher": "Journal of Personality and Social Psychology, 81(4), 657-669",
+      "url": "https://doi.org/10.1037/0022-3514.81.4.657",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "thompson-2005",
+      "type": "book",
+      "title": "The Mind and Heart of the Negotiator (3rd ed.)",
+      "authors": [
+        "Thompson, L. L."
+      ],
+      "year": 2005,
+      "publisher": "Pearson",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "BATNA",
+      "anchor": "#terminology",
+      "definition": "The best alternative to a negotiated agreement: what you do if no deal is reached."
+    },
+    {
+      "term": "ZOPA",
+      "anchor": "#terminology",
+      "definition": "The zone of possible agreement: the overlap of both sides' acceptable ranges."
+    },
+    {
+      "term": "Fixed-pie assumption",
+      "anchor": "#biases-in-negotiation",
+      "definition": "Assuming that the other side's interests are opposed to yours on every issue."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between a position and an interest?",
+      "a": "A position is what a party says it wants, an interest is the reason behind it.",
+      "anchor": "#terminology",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How does the fixed-pie assumption harm a negotiation?",
+      "a": "Negotiators miss trades that serve both sides, since they assume the interests are opposed.",
+      "anchor": "#biases-in-negotiation",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "growth.kaizen",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "kaizen",
+      "pdca",
+      "continuous-improvement"
+    ],
+    "aliases": [
+      "continuous improvement",
+      "PDCA",
+      "1% rule"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.habit-formation",
+      "rel": "related",
+      "note": "Very small steps are consistent with habit research"
+    }
+  ],
+  "sources": [
+    {
+      "key": "imai-1986",
+      "type": "book",
+      "title": "Kaizen: The Key to Japan's Competitive Success",
+      "authors": [
+        "Imai, M."
+      ],
+      "year": 1986,
+      "publisher": "Random House",
+      "verified": false
+    },
+    {
+      "key": "deming-1986",
+      "type": "book",
+      "title": "Out of the Crisis",
+      "authors": [
+        "Deming, W. E."
+      ],
+      "year": 1986,
+      "publisher": "MIT Press",
+      "verified": false
+    },
+    {
+      "key": "maurer-2004",
+      "type": "book",
+      "title": "One Small Step Can Change Your Life: The Kaizen Way",
+      "authors": [
+        "Maurer, R."
+      ],
+      "year": 2004,
+      "publisher": "Workman",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Kaizen",
+      "anchor": "#definition",
+      "definition": "A philosophy of continuous, incremental improvement carried out by everyone."
+    },
+    {
+      "term": "PDCA cycle",
+      "anchor": "#the-pdca-cycle",
+      "definition": "Plan, do, check, act: a repeating cycle for testing improvements."
+    },
+    {
+      "term": "Muda",
+      "anchor": "#principles",
+      "definition": "Waste: waiting, extra motion, defects and over-processing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does PDCA stand for?",
+      "a": "Plan, do, check, act.",
+      "anchor": "#the-pdca-cycle",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How do kaizen and innovation differ?",
+      "a": "Kaizen is small, frequent change by everyone, innovation is large, rare change by a few.",
+      "anchor": "#kaizen-and-innovation",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

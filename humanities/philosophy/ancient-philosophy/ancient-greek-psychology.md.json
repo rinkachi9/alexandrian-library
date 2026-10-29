@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "philosophy.ancient-greek-psychology",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "psyche",
+      "plato",
+      "aristotle"
+    ],
+    "aliases": [
+      "Greek psychology",
+      "tripartite soul"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "sep-aristotle-psychology",
+      "type": "website",
+      "title": "Aristotle's psychology",
+      "authors": [
+        "Shields, C."
+      ],
+      "year": 2020,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/aristotle-psychology/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sep-plato-republic",
+      "type": "website",
+      "title": "Plato's ethics and politics in the Republic",
+      "authors": [
+        "Brown, E."
+      ],
+      "year": 2017,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sep-epicurus",
+      "type": "website",
+      "title": "Epicurus",
+      "authors": [
+        "Konstan, D."
+      ],
+      "year": 2022,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/epicurus/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sep-stoicism",
+      "type": "website",
+      "title": "Stoicism",
+      "authors": [
+        "Baltzly, D.",
+        "Durand, M.",
+        "Shogry, S."
+      ],
+      "year": 2023,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/stoicism/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Psyche",
+      "anchor": "#definition",
+      "definition": "The Greek word for breath or life, which came to mean the principle of life and mind."
+    },
+    {
+      "term": "Tripartite soul",
+      "anchor": "#plato",
+      "definition": "Plato's division of the soul into reason, spirit and appetite."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three parts of Plato's soul.",
+      "a": "Reason, spirit and appetite.",
+      "anchor": "#plato",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Epicurus say about fear of death?",
+      "a": "Death is nothing to us, since when we exist death is not present and when death is present we do not exist.",
+      "anchor": "#epicurus",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "ancient-philosophy"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "psychology.mere-exposure-effect",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "attitudes",
+      "familiarity",
+      "liking"
+    ],
+    "aliases": [
+      "familiarity effect"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "zajonc-1968",
+      "type": "paper",
+      "title": "Attitudinal effects of mere exposure",
+      "authors": [
+        "Zajonc, R. B."
+      ],
+      "year": 1968,
+      "publisher": "Journal of Personality and Social Psychology, 9(2, Pt.2), 1-27",
+      "url": "https://doi.org/10.1037/h0025848",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bornstein-1989",
+      "type": "paper",
+      "title": "Exposure and affect: Overview and meta-analysis of research, 1968-1987",
+      "authors": [
+        "Bornstein, R. F."
+      ],
+      "year": 1989,
+      "publisher": "Psychological Bulletin, 106(2), 265-289",
+      "url": "https://doi.org/10.1037/0033-2909.106.2.265",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mere exposure effect",
+      "anchor": "#definition",
+      "definition": "Repeated exposure to a stimulus increases liking for it."
+    },
+    {
+      "term": "Fluency",
+      "anchor": "#mechanism",
+      "definition": "The ease of processing a familiar stimulus, which is felt as positive."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Who showed the mere exposure effect first?",
+      "a": "Zajonc (1968).",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "When does the effect reverse?",
+      "a": "With too many repetitions, which cause boredom, or when the first contact was negative.",
+      "anchor": "#mechanism",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

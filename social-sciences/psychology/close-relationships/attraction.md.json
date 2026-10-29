@@ -1,0 +1,168 @@
+{
+  "node": {
+    "id": "psychology.attraction",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "attraction",
+      "dating",
+      "similarity"
+    ],
+    "aliases": [
+      "interpersonal attraction",
+      "dating"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.mere-exposure-effect",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.liking-gap-and-pratfall-effect",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "montoya-2008",
+      "type": "paper",
+      "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity",
+      "authors": [
+        "Montoya, R. M.",
+        "Horton, R. S.",
+        "Kirchner, J."
+      ],
+      "year": 2008,
+      "publisher": "Journal of Social and Personal Relationships, 25(6), 889-922",
+      "url": "https://doi.org/10.1177/0265407508096700",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "eastwick-finkel-2008",
+      "type": "paper",
+      "title": "Sex differences in mate preferences revisited: Do people know what they initially desire in a romantic partner?",
+      "authors": [
+        "Eastwick, P. W.",
+        "Finkel, E. J."
+      ],
+      "year": 2008,
+      "publisher": "Journal of Personality and Social Psychology, 94(2), 245-264",
+      "url": "https://doi.org/10.1037/0022-3514.94.2.245",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hyde-2005",
+      "type": "paper",
+      "title": "The gender similarities hypothesis",
+      "authors": [
+        "Hyde, J. S."
+      ],
+      "year": 2005,
+      "publisher": "American Psychologist, 60(6), 581-592",
+      "url": "https://doi.org/10.1037/0003-066X.60.6.581",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dion-1972",
+      "type": "paper",
+      "title": "What is beautiful is good",
+      "authors": [
+        "Dion, K.",
+        "Berscheid, E.",
+        "Walster, E."
+      ],
+      "year": 1972,
+      "publisher": "Journal of Personality and Social Psychology, 24(3), 285-290",
+      "url": "https://doi.org/10.1037/h0033731",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dutton-aron-1974",
+      "type": "paper",
+      "title": "Some evidence for heightened sexual attraction under conditions of high anxiety",
+      "authors": [
+        "Dutton, D. G.",
+        "Aron, A. P."
+      ],
+      "year": 1974,
+      "publisher": "Journal of Personality and Social Psychology, 30(4), 510-517",
+      "url": "https://doi.org/10.1037/h0037031",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "aron-2000",
+      "type": "paper",
+      "title": "Couples' shared participation in novel and arousing activities and experienced relationship quality",
+      "authors": [
+        "Aron, A.",
+        "Norman, C. C.",
+        "Aron, E. N.",
+        "McKenna, C.",
+        "Heyman, R. E."
+      ],
+      "year": 2000,
+      "publisher": "Journal of Personality and Social Psychology, 78(2), 273-284",
+      "url": "https://doi.org/10.1037/0022-3514.78.2.273",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "finkel-2012",
+      "type": "paper",
+      "title": "Online Dating",
+      "authors": [
+        "Finkel, E. J.",
+        "Eastwick, P. W.",
+        "Karney, B. R.",
+        "Reis, H. T.",
+        "Sprecher, S."
+      ],
+      "year": 2012,
+      "publisher": "Psychological Science in the Public Interest, 13(1), 3-66",
+      "url": "https://doi.org/10.1177/1529100612436522",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Interpersonal attraction",
+      "anchor": "#definition",
+      "definition": "The force that draws one person to another."
+    },
+    {
+      "term": "Misattribution of arousal",
+      "anchor": "#arousal-and-novelty",
+      "definition": "Interpreting arousal from one source as attraction to a person."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did Montoya and colleagues (2008) find about similarity?",
+      "a": "Actual similarity predicted attraction in non-interactive settings, perceived similarity in real interaction.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did the speed-dating study of Eastwick and Finkel (2008) show?",
+      "a": "Stated preferences before meeting did not predict attraction after meeting.",
+      "anchor": "#stated-and-actual-preferences",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "close-relationships"
+  }
+}

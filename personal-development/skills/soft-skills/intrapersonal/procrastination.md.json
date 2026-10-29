@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "skills.soft-skills.procrastination",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "procrastination",
+      "emotion",
+      "motivation"
+    ],
+    "aliases": [
+      "delay",
+      "mood repair"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.self-regulation",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "steel-2007",
+      "type": "paper",
+      "title": "The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure",
+      "authors": [
+        "Steel, P."
+      ],
+      "year": 2007,
+      "publisher": "Psychological Bulletin, 133(1), 65-94",
+      "url": "https://doi.org/10.1037/0033-2909.133.1.65",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sirois-pychyl-2013",
+      "type": "paper",
+      "title": "Procrastination and the Priority of Short‐Term Mood Regulation: Consequences for Future Self",
+      "authors": [
+        "Sirois, F.",
+        "Pychyl, T."
+      ],
+      "year": 2013,
+      "publisher": "Social and Personality Psychology Compass, 7(2), 115-127",
+      "url": "https://doi.org/10.1111/spc3.12011",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Procrastination",
+      "anchor": "#definition",
+      "definition": "Voluntarily delaying an intended action despite expecting to be worse off."
+    },
+    {
+      "term": "Mood repair",
+      "anchor": "#the-emotion-view",
+      "definition": "Avoiding the negative feelings of a task for short-term relief."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "How does Steel (2007) define procrastination?",
+      "a": "Voluntarily delaying an intended action despite expecting to be worse off.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name two responses that fit a task that feels vague.",
+      "a": "Define the first physical action and time box a short start.",
+      "anchor": "#what-helps",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intrapersonal"
+  }
+}

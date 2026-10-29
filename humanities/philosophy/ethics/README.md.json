@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "humanities.philosophy.ethics",
+    "kind": "index",
+    "status": "draft",
+    "order": 4
+  },
+  "links": [],
+  "map": {
+    "group": "ethics"
+  }
+}

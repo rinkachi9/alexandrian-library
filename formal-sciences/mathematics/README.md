@@ -1,6 +1,6 @@
 # Mathematics
 
-Numbers, structures, space and change. This field belongs to [Formal sciences](../README.md) and is planned. It has no notes yet.
+Numbers, structures, space and change. This field belongs to [Formal sciences](../README.md) The first note treats the Rubik's Cube as a group.
 
 ## Planned topics
 
@@ -11,6 +11,6 @@ Numbers, structures, space and change. This field belongs to [Formal sciences](.
 - Linear algebra
 - Discrete mathematics
 
-## Notes
+## Notes in reading order
 
-TODO: list notes here in recommended reading order, with one line per note.
+1. [The Rubik's Cube as a mathematical object](rubiks-cube.md): the group of the cube, counting positions and God's number.

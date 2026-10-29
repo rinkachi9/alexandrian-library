@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "philosophy.mushin-and-shin-gi-tai",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "martial-arts",
+      "flow",
+      "performance"
+    ],
+    "aliases": [
+      "mushin",
+      "shin-gi-tai",
+      "no-mind"
+    ]
+  },
+  "links": [
+    {
+      "to": "philosophy.shuhari-and-shoshin",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "skills.soft-skills.flow-state",
+      "rel": "related",
+      "note": "Closest researched state"
+    }
+  ],
+  "sources": [
+    {
+      "key": "csikszentmihalyi-1990",
+      "type": "book",
+      "title": "Flow: The Psychology of Optimal Experience",
+      "authors": [
+        "Csikszentmihalyi, M."
+      ],
+      "year": 1990,
+      "publisher": "Harper & Row",
+      "verified": false
+    },
+    {
+      "key": "sep-japanese-aesthetics",
+      "type": "website",
+      "title": "Japanese aesthetics",
+      "authors": [
+        "Parkes, G.",
+        "Loughnane, A."
+      ],
+      "year": 2023,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mushin",
+      "anchor": "#definition",
+      "definition": "No-mind: action without hesitation or fixation on oneself or the result."
+    },
+    {
+      "term": "Shin-gi-tai",
+      "anchor": "#definition",
+      "definition": "A triad of mind, technique and body that must develop together."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What do the three parts of shin-gi-tai stand for?",
+      "a": "Mind, technique and body.",
+      "anchor": "#the-triad",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Which research concept is closest to mushin?",
+      "a": "Flow, with automaticity of well-practiced skills.",
+      "anchor": "#link-to-research",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "japanese-thought"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "growth.self-regulation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 9,
+    "tags": [
+      "self-control",
+      "willpower",
+      "discipline"
+    ],
+    "aliases": [
+      "self-discipline",
+      "self-control",
+      "willpower",
+      "ego depletion"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.habit-formation",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hagger-2016",
+      "type": "paper",
+      "title": "A Multilab Preregistered Replication of the Ego-Depletion Effect",
+      "authors": [
+        "Hagger, M. S.",
+        "Chatzisarantis, N. L. D.",
+        "Alberts, H.",
+        "Anggono, C. O.",
+        "Batailler, C."
+      ],
+      "year": 2016,
+      "publisher": "Perspectives on Psychological Science, 11(4), 546-573",
+      "url": "https://doi.org/10.1177/1745691616652873",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "duckworth-2016",
+      "type": "paper",
+      "title": "Situational Strategies for Self-Control",
+      "authors": [
+        "Duckworth, A. L.",
+        "Gendler, T. S.",
+        "Gross, J. J."
+      ],
+      "year": 2016,
+      "publisher": "Perspectives on Psychological Science, 11(1), 35-55",
+      "url": "https://doi.org/10.1177/1745691615623247",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gollwitzer-sheeran-2006",
+      "type": "paper",
+      "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+      "authors": [
+        "Gollwitzer, P. M.",
+        "Sheeran, P."
+      ],
+      "year": 2006,
+      "publisher": "Advances in Experimental Social Psychology, 69-119",
+      "url": "https://doi.org/10.1016/S0065-2601(06)38002-1",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Self-regulation",
+      "anchor": "#definition",
+      "definition": "The process by which a person monitors and adjusts behavior and feelings toward goals."
+    },
+    {
+      "term": "Ego depletion",
+      "anchor": "#ego-depletion-and-what-replaced-it",
+      "definition": "The claim that self-control draws on a limited resource that effort depletes."
+    },
+    {
+      "term": "Situational strategies",
+      "anchor": "#situational-strategies",
+      "definition": "Changing the situation instead of resisting temptation in the moment."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did Hagger and colleagues (2016) find?",
+      "a": "A small effect not distinguishable from zero in a registered replication of ego depletion.",
+      "anchor": "#ego-depletion-and-what-replaced-it",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name two situational strategies.",
+      "a": "For example situation selection and situation modification.",
+      "anchor": "#situational-strategies",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "psychology.dark-triad",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "personality",
+      "manipulation",
+      "dark-triad"
+    ],
+    "aliases": [
+      "dark psychology",
+      "narcissism",
+      "Machiavellianism"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "paulhus-williams-2002",
+      "type": "paper",
+      "title": "The Dark Triad of personality: Narcissism, Machiavellianism, and psychopathy",
+      "authors": [
+        "Paulhus, D. L.",
+        "Williams, K. M."
+      ],
+      "year": 2002,
+      "publisher": "Journal of Research in Personality, 36(6), 556-563",
+      "url": "https://doi.org/10.1016/S0092-6566(02)00505-6",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Dark triad",
+      "anchor": "#definition",
+      "definition": "Three overlapping personality traits: narcissism, Machiavellianism and psychopathy."
+    },
+    {
+      "term": "Manipulation",
+      "anchor": "#common-manipulation-tactics",
+      "definition": "Influence that bypasses a person's choice."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three traits of the dark triad.",
+      "a": "Narcissism, Machiavellianism and psychopathy.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What is a defensive response to artificial urgency?",
+      "a": "Slow down, ask for facts in writing, check independently and decide on your own criteria.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

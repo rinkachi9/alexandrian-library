@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "psychology.trauma-bonding",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "abuse",
+      "attachment",
+      "relationships"
+    ],
+    "aliases": [
+      "traumatic bonding"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.relationship-quality",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dutton-painter-1993",
+      "type": "paper",
+      "title": "Emotional Attachments in Abusive Relationships: A Test of Traumatic Bonding Theory",
+      "authors": [
+        "Dutton, D. G.",
+        "Painter, S."
+      ],
+      "year": 1993,
+      "publisher": "Violence and Victims, 8(2), 105-120",
+      "url": "https://doi.org/10.1891/0886-6708.8.2.105",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Trauma bonding",
+      "anchor": "#definition",
+      "definition": "A strong attachment to an abusive person built by cycles of harm and kindness."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which two conditions did Dutton and Painter (1993) name?",
+      "a": "A power imbalance and an intermittent pattern of abuse and good treatment.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is a safety plan important?",
+      "a": "The period around leaving can carry the highest risk, and professionals can help to reduce it.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}

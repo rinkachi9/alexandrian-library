@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "skills.soft-skills.metacognition",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "metacognition",
+      "learning",
+      "monitoring"
+    ],
+    "aliases": [
+      "learning to learn",
+      "meta-learning"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.learning-techniques",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "flavell-1979",
+      "type": "paper",
+      "title": "Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry",
+      "authors": [
+        "Flavell, J. H."
+      ],
+      "year": 1979,
+      "publisher": "American Psychologist, 34(10), 906-911",
+      "url": "https://doi.org/10.1037/0003-066X.34.10.906",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dunlosky-2013",
+      "type": "paper",
+      "title": "Improving Students’ Learning With Effective Learning Techniques",
+      "authors": [
+        "Dunlosky, J.",
+        "Rawson, K. A.",
+        "Marsh, E. J.",
+        "Nathan, M. J.",
+        "Willingham, D. T."
+      ],
+      "year": 2013,
+      "publisher": "Psychological Science in the Public Interest, 14(1), 4-58",
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Metacognition",
+      "anchor": "#definition",
+      "definition": "Knowledge about one's own thinking and regulation of it through planning, monitoring and evaluating."
+    },
+    {
+      "term": "Illusion of knowing",
+      "anchor": "#the-illusion-of-knowing",
+      "definition": "Mistaking the fluency of rereading for learning."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is rereading a poor guide to learning?",
+      "a": "It makes material feel familiar, which is mistaken for knowing it.",
+      "anchor": "#the-illusion-of-knowing",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name one way to test understanding.",
+      "a": "Close the book and recall or explain the ideas, then compare with the source.",
+      "anchor": "#strategies-of-a-metacognitive-learner",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

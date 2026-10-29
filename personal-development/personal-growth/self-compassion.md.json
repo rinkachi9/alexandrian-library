@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "growth.self-compassion",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "self-compassion",
+      "emotion",
+      "resilience"
+    ],
+    "aliases": [
+      "self-kindness"
+    ]
+  },
+  "links": [
+    {
+      "to": "growth.self-esteem-and-self-acceptance",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "neff-2003",
+      "type": "paper",
+      "title": "Self-Compassion: An Alternative Conceptualization of a Healthy Attitude Toward Oneself",
+      "authors": [
+        "Neff, K."
+      ],
+      "year": 2003,
+      "publisher": "Self and Identity, 2(2), 85-101",
+      "url": "https://doi.org/10.1080/15298860309032",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "orth-robins-2014",
+      "type": "paper",
+      "title": "The Development of Self-Esteem",
+      "authors": [
+        "Orth, U.",
+        "Robins, R. W."
+      ],
+      "year": 2014,
+      "publisher": "Current Directions in Psychological Science, 23(5), 381-387",
+      "url": "https://doi.org/10.1177/0963721414547414",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Self-compassion",
+      "anchor": "#definition",
+      "definition": "Treating oneself with kindness and understanding when failing or suffering."
+    },
+    {
+      "term": "Common humanity",
+      "anchor": "#definition",
+      "definition": "Seeing one's failure as part of the shared human experience."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three components of self-compassion.",
+      "a": "Self-kindness, common humanity and mindfulness.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does self-compassion differ from self-esteem?",
+      "a": "It does not depend on evaluation, so it is more stable after failure.",
+      "anchor": "#self-compassion-and-self-esteem",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

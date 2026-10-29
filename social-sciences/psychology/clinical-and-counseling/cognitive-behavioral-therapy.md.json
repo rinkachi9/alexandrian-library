@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "psychology.cognitive-behavioral-therapy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "cbt",
+      "therapy",
+      "cognitive-distortions"
+    ],
+    "aliases": [
+      "CBT",
+      "cognitive distortions",
+      "thought record"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "beck-1976",
+      "type": "book",
+      "title": "Cognitive Therapy and the Emotional Disorders",
+      "authors": [
+        "Beck, A. T."
+      ],
+      "year": 1976,
+      "publisher": "International Universities Press",
+      "verified": false
+    },
+    {
+      "key": "hofmann-2012",
+      "type": "paper",
+      "title": "The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses",
+      "authors": [
+        "Hofmann, S. G.",
+        "Asnaani, A.",
+        "Vonk, I. J. J.",
+        "Sawyer, A. T.",
+        "Fang, A."
+      ],
+      "year": 2012,
+      "publisher": "Cognitive Therapy and Research, 36(5), 427-440",
+      "url": "https://doi.org/10.1007/s10608-012-9476-1",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cognitive behavioral therapy",
+      "anchor": "#definition",
+      "definition": "A structured psychotherapy that targets thoughts and behaviors that maintain distress."
+    },
+    {
+      "term": "Cognitive distortion",
+      "anchor": "#common-distortions",
+      "definition": "A thinking pattern that is inaccurate or unhelpful, such as catastrophizing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What does the cognitive model say about emotions?",
+      "a": "Emotions depend on how a situation is interpreted, not only on the situation.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What is the aim of a thought record?",
+      "a": "To test an automatic thought against evidence and reach a balanced thought.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}

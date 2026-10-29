@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "skills.soft-skills.mediation-and-arbitration",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "mediation",
+      "arbitration",
+      "dispute-resolution"
+    ],
+    "aliases": [
+      "e-mediation",
+      "ADR"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.negotiation",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wall-lynn-1993",
+      "type": "paper",
+      "title": "Mediation",
+      "authors": [
+        "Wall, J. A.",
+        "Lynn, A."
+      ],
+      "year": 1993,
+      "publisher": "Journal of Conflict Resolution, 37(1), 160-194",
+      "url": "https://doi.org/10.1177/0022002793037001007",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "uncitral-model-law",
+      "type": "standard",
+      "title": "UNCITRAL Model Law on International Commercial Arbitration (1985, with amendments as adopted in 2006)",
+      "authors": [
+        "UNCITRAL"
+      ],
+      "year": 2006,
+      "publisher": "United Nations Commission on International Trade Law",
+      "url": "https://uncitral.un.org/en/texts/arbitration/modellaw/commercial_arbitration",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "singapore-convention",
+      "type": "standard",
+      "title": "United Nations Convention on International Settlement Agreements Resulting from Mediation (Singapore Convention on Mediation)",
+      "authors": [
+        "UNCITRAL"
+      ],
+      "year": 2018,
+      "publisher": "United Nations Commission on International Trade Law",
+      "url": "https://uncitral.un.org/en/texts/mediation/conventions/international_settlement_agreements",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "fisher-ury-1981",
+      "type": "book",
+      "title": "Getting to Yes: Negotiating Agreement Without Giving In",
+      "authors": [
+        "Fisher, R.",
+        "Ury, W."
+      ],
+      "year": 1981,
+      "publisher": "Houghton Mifflin",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Mediation",
+      "anchor": "#definition",
+      "definition": "A voluntary, confidential process in which a neutral mediator helps the parties reach their own agreement."
+    },
+    {
+      "term": "Arbitration",
+      "anchor": "#definition",
+      "definition": "A process in which a neutral arbitrator decides a dispute, usually with a binding award."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the main difference between mediation and arbitration?",
+      "a": "A mediator helps the parties decide, an arbitrator decides.",
+      "anchor": "#comparison",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does the Singapore Convention on Mediation do?",
+      "a": "It lets parties enforce international commercial settlements from mediation in states that have joined it.",
+      "anchor": "#online-and-international-settings",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

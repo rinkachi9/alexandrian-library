@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "psychology.intolerance-of-uncertainty",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "uncertainty",
+      "anxiety",
+      "risk"
+    ],
+    "aliases": [
+      "fear of the unknown"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.signal-detection-theory",
+      "rel": "related",
+      "note": "Decisions under noisy evidence"
+    },
+    {
+      "to": "psychology.cognitive-behavioral-therapy",
+      "rel": "related",
+      "note": "CBT is the best-supported treatment for anxiety"
+    }
+  ],
+  "sources": [
+    {
+      "key": "carleton-2016",
+      "type": "paper",
+      "title": "Fear of the unknown: One fear to rule them all?",
+      "authors": [
+        "Carleton, R. N."
+      ],
+      "year": 2016,
+      "publisher": "Journal of Anxiety Disorders, 41, 5-21",
+      "url": "https://doi.org/10.1016/j.janxdis.2016.03.011",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "hofmann-2012",
+      "type": "paper",
+      "title": "The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses",
+      "authors": [
+        "Hofmann, S. G.",
+        "Asnaani, A.",
+        "Vonk, I. J. J.",
+        "Sawyer, A. T.",
+        "Fang, A."
+      ],
+      "year": 2012,
+      "publisher": "Cognitive Therapy and Research, 36(5), 427-440",
+      "url": "https://doi.org/10.1007/s10608-012-9476-1",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Intolerance of uncertainty",
+      "anchor": "#definition",
+      "definition": "A tendency to react negatively to uncertain situations and events."
+    },
+    {
+      "term": "Ambiguity",
+      "anchor": "#definition",
+      "definition": "A situation in which the probabilities of outcomes are unknown."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Distinguish risk from ambiguity.",
+      "a": "In risk the probabilities are known, in ambiguity they are unknown.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why does avoidance keep the problem going?",
+      "a": "It gives short-term relief and prevents learning that the situation can be tolerated.",
+      "anchor": "#the-cycle-of-worry",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "node": {
+    "id": "growth.goal-setting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "goals",
+      "motivation",
+      "performance"
+    ],
+    "aliases": [
+      "goal-setting theory",
+      "SMART goals",
+      "wheel of life"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.motivation-and-self-determination",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "locke-latham-2002",
+      "type": "paper",
+      "title": "Building a practically useful theory of goal setting and task motivation: A 35-year odyssey",
+      "authors": [
+        "Locke, E. A.",
+        "Latham, G. P."
+      ],
+      "year": 2002,
+      "publisher": "American Psychologist, 57(9), 705-717",
+      "url": "https://doi.org/10.1037/0003-066X.57.9.705",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gollwitzer-sheeran-2006",
+      "type": "paper",
+      "title": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+      "authors": [
+        "Gollwitzer, P. M.",
+        "Sheeran, P."
+      ],
+      "year": 2006,
+      "publisher": "Advances in Experimental Social Psychology, 69-119",
+      "url": "https://doi.org/10.1016/S0065-2601(06)38002-1",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Goal-setting theory",
+      "anchor": "#definition",
+      "definition": "The theory that specific, difficult goals with commitment and feedback give higher performance."
+    },
+    {
+      "term": "SMART goal",
+      "anchor": "#smart-goals",
+      "definition": "A goal that is specific, measurable, achievable, relevant and time-bound."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What kind of goals produce the highest performance?",
+      "a": "Specific and difficult goals, with commitment and feedback.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "When is a learning goal better than a performance goal?",
+      "a": "For complex or new tasks, where outcome focus can narrow attention and raise stress.",
+      "anchor": "#limits",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

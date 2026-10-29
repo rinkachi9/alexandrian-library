@@ -6,8 +6,8 @@ What motivates people and what makes a life go well. This subfield belongs to [P
 
 1. [Maslow's hierarchy of needs](maslow-hierarchy-of-needs.md): five groups of needs, the history of the pyramid and what research supports.
 2. [Hedonic and eudaimonic well-being](hedonic-and-eudaimonic-well-being.md): pleasure and meaning as two traditions of happiness, with adaptation and the limits of the evidence.
+3. [Motivation and self-determination](motivation-and-self-determination.md): intrinsic and extrinsic motivation, the three basic needs and the effect of rewards.
 
 ## Planned topics
 
-- Self-determination theory
-- Motivation theories
+- Flow and optimal experience

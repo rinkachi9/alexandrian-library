@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "skills.soft-skills.communication-basics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "communication",
+      "message",
+      "feedback"
+    ],
+    "aliases": [
+      "filler words",
+      "communication model"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "mehrabian-wiener-1967",
+      "type": "paper",
+      "title": "Inference of attitudes from nonverbal communication in two channels",
+      "authors": [
+        "Mehrabian, A.",
+        "Ferris, S. R."
+      ],
+      "year": 1967,
+      "publisher": "Journal of Consulting Psychology, 31(3), 248-252",
+      "url": "https://doi.org/10.1037/h0024648",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "weger-2014",
+      "type": "paper",
+      "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
+      "authors": [
+        "Weger, H.",
+        "Castle Bell, G.",
+        "Minei, E. M.",
+        "Robinson, M. C."
+      ],
+      "year": 2014,
+      "publisher": "International Journal of Listening, 28(1), 13-31",
+      "url": "https://doi.org/10.1080/10904018.2013.813234",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Communication",
+      "anchor": "#definition",
+      "definition": "The process by which a sender encodes a message, sends it through a channel and a receiver decodes it, with feedback."
+    },
+    {
+      "term": "Noise",
+      "anchor": "#definition",
+      "definition": "Anything that distorts a message on its way."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is noise in communication?",
+      "a": "Anything that distorts the message on its way, such as unclear wording or distraction.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name two ways to reduce filler words.",
+      "a": "For example pause instead of using a filler, or slow down.",
+      "anchor": "#filler-words",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

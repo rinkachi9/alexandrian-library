@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "skills.soft-skills.trust",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 7,
+    "tags": [
+      "trust",
+      "relationships",
+      "leadership"
+    ],
+    "aliases": [
+      "trustworthiness"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.communication-basics",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mayer-1995",
+      "type": "paper",
+      "title": "An Integrative Model of Organizational Trust",
+      "authors": [
+        "Mayer, R. C.",
+        "Davis, J. H.",
+        "Schoorman, F. D."
+      ],
+      "year": 1995,
+      "publisher": "The Academy of Management Review, 20(3), 709",
+      "url": "https://doi.org/10.5465/amr.1995.9508080335",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dirks-ferrin-2002",
+      "type": "paper",
+      "title": "Trust in leadership: Meta-analytic findings and implications for research and practice",
+      "authors": [
+        "Dirks, K. T.",
+        "Ferrin, D. L."
+      ],
+      "year": 2002,
+      "publisher": "Journal of Applied Psychology, 87(4), 611-628",
+      "url": "https://doi.org/10.1037/0021-9010.87.4.611",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Trust",
+      "anchor": "#definition",
+      "definition": "The willingness to be vulnerable to another party on the expectation that they will act in one's interest."
+    },
+    {
+      "term": "Trustworthiness",
+      "anchor": "#definition",
+      "definition": "The qualities that give reason to trust: ability, benevolence and integrity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three factors of trustworthiness.",
+      "a": "Ability, benevolence and integrity.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How can a breach of trust be repaired?",
+      "a": "With a sincere apology, an explanation, a change in behavior and time.",
+      "anchor": "#how-trust-develops",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

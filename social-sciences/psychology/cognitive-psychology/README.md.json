@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "social-sciences.psychology.cognitive-psychology",
+    "kind": "index",
+    "status": "draft",
+    "order": 2
+  },
+  "links": [],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

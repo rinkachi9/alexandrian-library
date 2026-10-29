@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "skills.soft-skills.feedback-and-criticism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "feedback",
+      "criticism",
+      "assertiveness"
+    ],
+    "aliases": [
+      "constructive criticism",
+      "assertiveness",
+      "difficult people"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.active-listening",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "kluger-denisi-1996",
+      "type": "paper",
+      "title": "The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory",
+      "authors": [
+        "Kluger, A. N.",
+        "DeNisi, A."
+      ],
+      "year": 1996,
+      "publisher": "Psychological Bulletin, 119(2), 254-284",
+      "url": "https://doi.org/10.1037/0033-2909.119.2.254",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "stone-heen-2014",
+      "type": "book",
+      "title": "Thanks for the Feedback: The Science and Art of Receiving Feedback Well",
+      "authors": [
+        "Stone, D.",
+        "Heen, S."
+      ],
+      "year": 2014,
+      "publisher": "Viking",
+      "verified": false
+    },
+    {
+      "key": "alberti-emmons-1970",
+      "type": "book",
+      "title": "Your Perfect Right: A Guide to Assertive Living",
+      "authors": [
+        "Alberti, R. E.",
+        "Emmons, M. L."
+      ],
+      "year": 1970,
+      "publisher": "Impact Publishers",
+      "verified": false
+    },
+    {
+      "key": "ury-2015",
+      "type": "book",
+      "title": "Getting Past No: Negotiating in Difficult Situations",
+      "authors": [
+        "Ury, W."
+      ],
+      "year": 2007,
+      "publisher": "Bantam",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Constructive criticism",
+      "anchor": "#constructive-and-destructive-criticism",
+      "definition": "Feedback that aims to improve and identifies specific changes."
+    },
+    {
+      "term": "Assertiveness",
+      "anchor": "#assertiveness",
+      "definition": "Expressing needs, opinions and boundaries directly and respectfully."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What did Kluger and DeNisi (1996) find about feedback?",
+      "a": "It raises performance on average, but more than a third of interventions lowered it, especially when attention moved to the self.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What are the three triggers described by Stone and Heen (2014)?",
+      "a": "Truth, relationship and identity.",
+      "anchor": "#receiving-feedback",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

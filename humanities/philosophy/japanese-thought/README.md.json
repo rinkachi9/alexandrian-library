@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "humanities.philosophy.japanese-thought",
+    "kind": "index",
+    "status": "draft",
+    "order": 3
+  },
+  "links": [],
+  "map": {
+    "group": "japanese-thought"
+  }
+}

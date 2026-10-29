@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "psychology.psychodynamic-schools",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "psychoanalysis",
+      "freud",
+      "jung",
+      "adler"
+    ],
+    "aliases": [
+      "Freud",
+      "Adler",
+      "Jung",
+      "individual psychology"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.object-relations-theory",
+      "rel": "related",
+      "note": "A later development of the tradition"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ellenberger-1970",
+      "type": "book",
+      "title": "The Discovery of the Unconscious",
+      "authors": [
+        "Ellenberger, H. F."
+      ],
+      "year": 1970,
+      "publisher": "Basic Books",
+      "verified": false
+    },
+    {
+      "key": "shedler-2010",
+      "type": "paper",
+      "title": "The efficacy of psychodynamic psychotherapy",
+      "authors": [
+        "Shedler, J."
+      ],
+      "year": 2010,
+      "publisher": "American Psychologist, 65(2), 98-109",
+      "url": "https://doi.org/10.1037/a0018378",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Psychodynamic",
+      "anchor": "#definition",
+      "definition": "Explaining behavior by interacting forces in the mind, many outside awareness."
+    },
+    {
+      "term": "Individual psychology",
+      "anchor": "#the-three-schools",
+      "definition": "Adler's school, based on striving to overcome inferiority and social interest."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is the central idea of Adler's individual psychology?",
+      "a": "Striving to overcome inferiority, together with social interest.",
+      "anchor": "#the-three-schools",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What did Jung add to Freud's concept of the unconscious?",
+      "a": "The collective unconscious with archetypes shared across people.",
+      "anchor": "#the-three-schools",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "clinical-and-counseling"
+  }
+}

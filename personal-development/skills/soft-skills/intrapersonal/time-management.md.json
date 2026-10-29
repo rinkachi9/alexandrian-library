@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "skills.soft-skills.time-management",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "time-management",
+      "planning",
+      "scheduling"
+    ],
+    "aliases": [
+      "buffer time",
+      "time blocking",
+      "3-2-1 method"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.planning-and-contingency",
+      "rel": "related",
+      "note": "Buffers absorb overruns"
+    }
+  ],
+  "sources": [
+    {
+      "key": "aeon-2021",
+      "type": "paper",
+      "title": "Does time management work? A meta-analysis",
+      "authors": [
+        "Aeon, B.",
+        "Faber, A.",
+        "Panaccio, A."
+      ],
+      "year": 2021,
+      "publisher": "PLOS ONE, 16(1), e0245066",
+      "url": "https://doi.org/10.1371/journal.pone.0245066",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "buehler-1994",
+      "type": "paper",
+      "title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+      "authors": [
+        "Buehler, R.",
+        "Griffin, D.",
+        "Ross, M."
+      ],
+      "year": 1994,
+      "publisher": "Journal of Personality and Social Psychology, 67(3), 366-381",
+      "url": "https://doi.org/10.1037/0022-3514.67.3.366",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "covey-1989",
+      "type": "book",
+      "title": "The 7 Habits of Highly Effective People",
+      "authors": [
+        "Covey, S. R."
+      ],
+      "year": 1989,
+      "publisher": "Free Press",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Time management",
+      "anchor": "#definition",
+      "definition": "Behaviors aimed at using time effectively for goal-directed activities."
+    },
+    {
+      "term": "Buffer time",
+      "anchor": "#buffer-time",
+      "definition": "Unscheduled time between commitments that absorbs overruns."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Which outcome had the strongest link to time management in Aeon and colleagues (2021)?",
+      "a": "Well-being.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is buffer time for?",
+      "a": "It absorbs overruns and gives time for transition.",
+      "anchor": "#buffer-time",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "intrapersonal"
+  }
+}

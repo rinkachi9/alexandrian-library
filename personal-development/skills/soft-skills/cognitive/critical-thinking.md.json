@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "skills.soft-skills.critical-thinking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "critical-thinking",
+      "reasoning",
+      "argument"
+    ],
+    "aliases": [
+      "critical reasoning",
+      "logical fallacies"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "halpern-1998",
+      "type": "paper",
+      "title": "Teaching critical thinking for transfer across domains: Disposition, skills, structure training, and metacognitive monitoring",
+      "authors": [
+        "Halpern, D. F."
+      ],
+      "year": 1998,
+      "publisher": "American Psychologist, 53(4), 449-455",
+      "url": "https://doi.org/10.1037/0003-066X.53.4.449",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "abrami-2015",
+      "type": "paper",
+      "title": "Strategies for Teaching Students to Think Critically",
+      "authors": [
+        "Abrami, P. C.",
+        "Bernard, R. M.",
+        "Borokhovski, E.",
+        "Waddington, D. I.",
+        "Wade, C. A."
+      ],
+      "year": 2015,
+      "publisher": "Review of Educational Research, 85(2), 275-314",
+      "url": "https://doi.org/10.3102/0034654314551063",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Critical thinking",
+      "anchor": "#definition",
+      "definition": "Purposeful, reflective judgment about what to believe or do."
+    },
+    {
+      "term": "Straw man",
+      "anchor": "#the-elements-of-an-argument",
+      "definition": "Misstating an opponent's view so that it is easy to attack."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the four parts of Halpern's (1998) model for teaching critical thinking.",
+      "a": "Disposition, skills, structure for transfer and metacognitive monitoring.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "A headline says coffee drinkers live longer, so coffee extends life. What is the gap?",
+      "a": "An observational association does not show cause, since confounders may explain it.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

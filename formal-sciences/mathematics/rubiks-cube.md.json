@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "math.rubiks-cube",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "group-theory",
+      "combinatorics",
+      "puzzles"
+    ],
+    "aliases": [
+      "Rubik's Cube",
+      "God's number"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "rokicki-2014",
+      "type": "paper",
+      "title": "The Diameter of the Rubik's Cube Group Is Twenty",
+      "authors": [
+        "Rokicki, T.",
+        "Kociemba, H.",
+        "Davidson, M.",
+        "Dethridge, J."
+      ],
+      "year": 2014,
+      "publisher": "SIAM Review, 56(4), 645-670",
+      "url": "https://doi.org/10.1137/140973499",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "God's number",
+      "anchor": "#definition",
+      "definition": "The maximum number of moves needed to solve any position of the cube, which is 20."
+    },
+    {
+      "term": "Group",
+      "anchor": "#definition",
+      "definition": "A set of operations that can be combined and undone, where order matters."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What is God's number?",
+      "a": "20: every position can be solved in at most 20 moves.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is the position count divided by 2?",
+      "a": "The permutations of corners and edges must have the same parity.",
+      "anchor": "#counting-positions",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "mathematics"
+  }
+}

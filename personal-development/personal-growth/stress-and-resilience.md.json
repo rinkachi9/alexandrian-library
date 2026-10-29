@@ -1,0 +1,93 @@
+{
+  "node": {
+    "id": "growth.stress-and-resilience",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 10,
+    "tags": [
+      "stress",
+      "coping",
+      "resilience"
+    ],
+    "aliases": [
+      "coping",
+      "transactional model of stress"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "lazarus-folkman-1984",
+      "type": "book",
+      "title": "Stress, Appraisal, and Coping",
+      "authors": [
+        "Lazarus, R. S.",
+        "Folkman, S."
+      ],
+      "year": 1984,
+      "publisher": "Springer",
+      "verified": false
+    },
+    {
+      "key": "bonanno-2004",
+      "type": "paper",
+      "title": "Loss, Trauma, and Human Resilience: Have We Underestimated the Human Capacity to Thrive After Extremely Aversive Events?",
+      "authors": [
+        "Bonanno, G. A."
+      ],
+      "year": 2004,
+      "publisher": "American Psychologist, 59(1), 20-28",
+      "url": "https://doi.org/10.1037/0003-066X.59.1.20",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cohen-wills-1985",
+      "type": "paper",
+      "title": "Stress, social support, and the buffering hypothesis",
+      "authors": [
+        "Cohen, S.",
+        "Wills, T. A."
+      ],
+      "year": 1985,
+      "publisher": "Psychological Bulletin, 98(2), 310-357",
+      "url": "https://doi.org/10.1037/0033-2909.98.2.310",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Primary and secondary appraisal",
+      "anchor": "#definition",
+      "definition": "Judging whether a demand is a threat or challenge, and whether one has resources to cope."
+    },
+    {
+      "term": "Problem-focused coping",
+      "anchor": "#types-of-coping",
+      "definition": "Efforts to change the stressful situation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are primary and secondary appraisal?",
+      "a": "Primary appraisal judges whether a demand is a threat or a challenge, secondary judges whether one has resources to cope.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What did Bonanno (2004) argue?",
+      "a": "A stable, healthy course after loss is common, and chronic distress is a minority outcome.",
+      "anchor": "#resilience",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "personal-growth"
+  }
+}

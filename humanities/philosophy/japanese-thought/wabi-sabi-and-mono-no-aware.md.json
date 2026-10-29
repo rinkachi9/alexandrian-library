@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "philosophy.wabi-sabi-and-mono-no-aware",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "aesthetics",
+      "impermanence",
+      "japan"
+    ],
+    "aliases": [
+      "wabi-sabi",
+      "mono no aware"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "sep-japanese-aesthetics",
+      "type": "website",
+      "title": "Japanese aesthetics",
+      "authors": [
+        "Parkes, G.",
+        "Loughnane, A."
+      ],
+      "year": 2023,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kenko",
+      "type": "book",
+      "title": "Essays in Idleness (Tsurezuregusa)",
+      "authors": [
+        "Yoshida, K."
+      ],
+      "publisher": "Many editions; written in the 14th century",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Wabi-sabi",
+      "anchor": "#definition",
+      "definition": "A Japanese aesthetic of imperfection, simplicity and the marks of time."
+    },
+    {
+      "term": "Mono no aware",
+      "anchor": "#definition",
+      "definition": "A gentle sadness at the passing of things."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does mono no aware mean?",
+      "a": "A gentle sadness at the passing of things, which gives them depth.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Who linked mono no aware to the Tale of Genji?",
+      "a": "Motoori Norinaga.",
+      "anchor": "#definition",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "japanese-thought"
+  }
+}

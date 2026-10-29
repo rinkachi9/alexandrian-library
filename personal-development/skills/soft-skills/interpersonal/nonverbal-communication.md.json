@@ -1,0 +1,165 @@
+{
+  "node": {
+    "id": "skills.soft-skills.nonverbal-communication",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "nonverbal",
+      "body-language",
+      "deception"
+    ],
+    "aliases": [
+      "body language",
+      "eye contact",
+      "7-38-55 rule",
+      "power posing"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.soft-skills.communication-basics",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mehrabian-wiener-1967",
+      "type": "paper",
+      "title": "Inference of attitudes from nonverbal communication in two channels",
+      "authors": [
+        "Mehrabian, A.",
+        "Ferris, S. R."
+      ],
+      "year": 1967,
+      "publisher": "Journal of Consulting Psychology, 31(3), 248-252",
+      "url": "https://doi.org/10.1037/h0024648",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "kleinke-1986",
+      "type": "paper",
+      "title": "Gaze and eye contact: A research review",
+      "authors": [
+        "Kleinke, C. L."
+      ],
+      "year": 1986,
+      "publisher": "Psychological Bulletin, 100(1), 78-100",
+      "url": "https://doi.org/10.1037/0033-2909.100.1.78",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "elfenbein-ambady-2002",
+      "type": "paper",
+      "title": "On the universality and cultural specificity of emotion recognition: A meta-analysis",
+      "authors": [
+        "Elfenbein, H. A.",
+        "Ambady, N."
+      ],
+      "year": 2002,
+      "publisher": "Psychological Bulletin, 128(2), 203-235",
+      "url": "https://doi.org/10.1037/0033-2909.128.2.203",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "depaulo-2003",
+      "type": "paper",
+      "title": "Cues to deception",
+      "authors": [
+        "DePaulo, B. M.",
+        "Lindsay, J. J.",
+        "Malone, B. E.",
+        "Muhlenbruck, L.",
+        "Charlton, K."
+      ],
+      "year": 2003,
+      "publisher": "Psychological Bulletin, 129(1), 74-118",
+      "url": "https://doi.org/10.1037/0033-2909.129.1.74",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "bond-depaulo-2006",
+      "type": "paper",
+      "title": "Accuracy of deception judgments",
+      "authors": [
+        "Bond, C. F.",
+        "DePaulo, B. M."
+      ],
+      "year": 2006,
+      "publisher": "Personality and Social Psychology Review, 10(3), 214-234",
+      "url": "https://doi.org/10.1207/s15327957pspr1003_2",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "carney-2010",
+      "type": "paper",
+      "title": "Power Posing",
+      "authors": [
+        "Carney, D. R.",
+        "Cuddy, A. J.",
+        "Yap, A. J."
+      ],
+      "year": 2010,
+      "publisher": "Psychological Science, 21(10), 1363-1368",
+      "url": "https://doi.org/10.1177/0956797610383437",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "ranehill-2015",
+      "type": "paper",
+      "title": "Assessing the Robustness of Power Posing",
+      "authors": [
+        "Ranehill, E.",
+        "Dreber, A.",
+        "Johannesson, M.",
+        "Leiberg, S.",
+        "Sul, S."
+      ],
+      "year": 2015,
+      "publisher": "Psychological Science, 26(5), 653-656",
+      "url": "https://doi.org/10.1177/0956797614553946",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Nonverbal communication",
+      "anchor": "#definition",
+      "definition": "Transmission of meaning through signals other than words."
+    },
+    {
+      "term": "7-38-55 rule",
+      "anchor": "#the-7-38-55-myth",
+      "definition": "A misreading of two experiments on single words that claims 7% of communication is words."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What did the 7-38-55 studies actually examine?",
+      "a": "Inference of feelings from conflicting words and tone of voice for a single word, and from facial expression.",
+      "anchor": "#the-7-38-55-myth",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "How accurate are people at judging lies?",
+      "a": "About 54% correct on average.",
+      "anchor": "#detecting-lies",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "interpersonal"
+  }
+}

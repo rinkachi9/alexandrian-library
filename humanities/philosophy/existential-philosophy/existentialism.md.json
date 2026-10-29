@@ -1,0 +1,115 @@
+{
+  "node": {
+    "id": "philosophy.existentialism",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "existentialism",
+      "freedom",
+      "authenticity"
+    ],
+    "aliases": [
+      "existentialist philosophy"
+    ]
+  },
+  "links": [
+    {
+      "to": "philosophy.nihilism",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sep-existentialism",
+      "type": "website",
+      "title": "Existentialism",
+      "authors": [
+        "Aho, K."
+      ],
+      "year": 2023,
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/existentialism/",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "sartre-1946",
+      "type": "book",
+      "title": "Existentialism Is a Humanism",
+      "authors": [
+        "Sartre, J.-P."
+      ],
+      "year": 1946,
+      "publisher": "Many editions",
+      "verified": false
+    },
+    {
+      "key": "kierkegaard-1849",
+      "type": "book",
+      "title": "The Sickness Unto Death",
+      "authors": [
+        "Kierkegaard, S."
+      ],
+      "year": 1849,
+      "publisher": "Many editions",
+      "verified": false
+    },
+    {
+      "key": "beauvoir-1947",
+      "type": "book",
+      "title": "The Ethics of Ambiguity",
+      "authors": [
+        "de Beauvoir, S."
+      ],
+      "year": 1947,
+      "publisher": "Many editions",
+      "verified": false
+    },
+    {
+      "key": "yalom-1980",
+      "type": "book",
+      "title": "Existential Psychotherapy",
+      "authors": [
+        "Yalom, I. D."
+      ],
+      "year": 1980,
+      "publisher": "Basic Books",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Existence precedes essence",
+      "anchor": "#key-concepts",
+      "definition": "A person first exists and then defines what they are through choices."
+    },
+    {
+      "term": "Bad faith",
+      "anchor": "#key-concepts",
+      "definition": "Denying one's freedom, for example by claiming that one had no choice."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What does existence precedes essence mean?",
+      "a": "A person has no fixed essence in advance and defines themselves through choices.",
+      "anchor": "#key-concepts",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What is bad faith?",
+      "a": "Denying one's freedom.",
+      "anchor": "#key-concepts",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "existential-philosophy"
+  }
+}

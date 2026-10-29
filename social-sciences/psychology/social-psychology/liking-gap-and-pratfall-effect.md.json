@@ -1,0 +1,90 @@
+{
+  "node": {
+    "id": "psychology.liking-gap-and-pratfall-effect",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "first-impressions",
+      "likability",
+      "conversation"
+    ],
+    "aliases": [
+      "liking gap",
+      "pratfall effect"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.egocentric-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "boothby-2018",
+      "type": "paper",
+      "title": "The Liking Gap in Conversations: Do People Like Us More Than We Think?",
+      "authors": [
+        "Boothby, E. J.",
+        "Cooney, G.",
+        "Sandstrom, G. M.",
+        "Clark, M. S."
+      ],
+      "year": 2018,
+      "publisher": "Psychological Science, 29(11), 1742-1756",
+      "url": "https://doi.org/10.1177/0956797618783714",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "aronson-1966",
+      "type": "paper",
+      "title": "The effect of a pratfall on increasing interpersonal attractiveness",
+      "authors": [
+        "Aronson, E.",
+        "Willerman, B.",
+        "Floyd, J."
+      ],
+      "year": 1966,
+      "publisher": "Psychonomic Science, 4(6), 227-228",
+      "url": "https://doi.org/10.3758/BF03342263",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Liking gap",
+      "anchor": "#definition",
+      "definition": "People underestimate how much their conversation partners like them."
+    },
+    {
+      "term": "Pratfall effect",
+      "anchor": "#definition",
+      "definition": "A minor blunder can raise the likability of a person seen as highly competent."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "In the pratfall study, who benefited from the blunder?",
+      "a": "The highly competent contestant.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What action does the liking gap support?",
+      "a": "Following up and starting conversations, since the other person likes you more than you think.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

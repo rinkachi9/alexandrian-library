@@ -1,0 +1,136 @@
+{
+  "node": {
+    "id": "skills.soft-skills.memory-techniques",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "memory",
+      "mnemonics",
+      "learning"
+    ],
+    "aliases": [
+      "memorization",
+      "method of loci",
+      "chunking"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.learning-techniques",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "miller-1956",
+      "type": "paper",
+      "title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information",
+      "authors": [
+        "Miller, G. A."
+      ],
+      "year": 1956,
+      "publisher": "Psychological Review, 63(2), 81-97",
+      "url": "https://doi.org/10.1037/h0043158",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "cowan-2001",
+      "type": "paper",
+      "title": "The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
+      "authors": [
+        "Cowan, N."
+      ],
+      "year": 2001,
+      "publisher": "Behavioral and Brain Sciences, 24(1), 87-114",
+      "url": "https://doi.org/10.1017/S0140525X01003922",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "maguire-2003",
+      "type": "paper",
+      "title": "Routes to remembering: the brains behind superior memory",
+      "authors": [
+        "Maguire, E. A.",
+        "Valentine, E. R.",
+        "Wilding, J. M.",
+        "Kapur, N."
+      ],
+      "year": 2002,
+      "publisher": "Nature Neuroscience, 6(1), 90-95",
+      "url": "https://doi.org/10.1038/nn988",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dresler-2017",
+      "type": "paper",
+      "title": "Mnemonic Training Reshapes Brain Networks to Support Superior Memory",
+      "authors": [
+        "Dresler, M.",
+        "Shirer, W. R.",
+        "Konrad, B. N.",
+        "Müller, N. C.",
+        "Wagner, I. C."
+      ],
+      "year": 2017,
+      "publisher": "Neuron, 93(5), 1227-1235.e6",
+      "url": "https://doi.org/10.1016/j.neuron.2017.02.003",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "dunlosky-2013",
+      "type": "paper",
+      "title": "Improving Students’ Learning With Effective Learning Techniques",
+      "authors": [
+        "Dunlosky, J.",
+        "Rawson, K. A.",
+        "Marsh, E. J.",
+        "Nathan, M. J.",
+        "Willingham, D. T."
+      ],
+      "year": 2013,
+      "publisher": "Psychological Science in the Public Interest, 14(1), 4-58",
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Chunk",
+      "anchor": "#definition",
+      "definition": "A unit that the person treats as one item, such as a familiar word or date."
+    },
+    {
+      "term": "Method of loci",
+      "anchor": "#techniques",
+      "definition": "A mnemonic that places items along a familiar route and recalls them by walking it mentally."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What capacity did Cowan (2001) propose for working memory?",
+      "a": "About four chunks.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "What did Maguire and colleagues (2003) find about memory champions?",
+      "a": "Their brains and intelligence did not differ from controls, and they used mnemonic strategies.",
+      "anchor": "#memory-champions",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive"
+  }
+}

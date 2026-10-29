@@ -1,0 +1,118 @@
+{
+  "node": {
+    "id": "psychology.attribution-biases",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "attribution",
+      "bias",
+      "social-perception"
+    ],
+    "aliases": [
+      "fundamental attribution error",
+      "self-serving bias",
+      "correspondence bias"
+    ]
+  },
+  "links": [
+    {
+      "to": "psychology.heuristics-and-biases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "jones-harris-1967",
+      "type": "paper",
+      "title": "The attribution of attitudes",
+      "authors": [
+        "Jones, E. E.",
+        "Harris, V. A."
+      ],
+      "year": 1967,
+      "publisher": "Journal of Experimental Social Psychology, 3(1), 1-24",
+      "url": "https://doi.org/10.1016/0022-1031(67)90034-0",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "gilbert-malone-1995",
+      "type": "paper",
+      "title": "The correspondence bias",
+      "authors": [
+        "Gilbert, D. T.",
+        "Malone, P. S."
+      ],
+      "year": 1995,
+      "publisher": "Psychological Bulletin, 117(1), 21-38",
+      "url": "https://doi.org/10.1037/0033-2909.117.1.21",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "campbell-sedikides-1999",
+      "type": "paper",
+      "title": "Self-Threat Magnifies the Self-Serving Bias: A Meta-Analytic Integration",
+      "authors": [
+        "Campbell, W. K.",
+        "Sedikides, C."
+      ],
+      "year": 1999,
+      "publisher": "Review of General Psychology, 3(1), 23-43",
+      "url": "https://doi.org/10.1037/1089-2680.3.1.23",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "mezulis-2004",
+      "type": "paper",
+      "title": "Is There a Universal Positivity Bias in Attributions? A Meta-Analytic Review of Individual, Developmental, and Cultural Differences in the Self-Serving Attributional Bias",
+      "authors": [
+        "Mezulis, A. H.",
+        "Abramson, L. Y.",
+        "Hyde, J. S.",
+        "Hankin, B. L."
+      ],
+      "year": 2004,
+      "publisher": "Psychological Bulletin, 130(5), 711-747",
+      "url": "https://doi.org/10.1037/0033-2909.130.5.711",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Fundamental attribution error",
+      "anchor": "#definition",
+      "definition": "Overweighting character and underweighting the situation when explaining another person's behavior."
+    },
+    {
+      "term": "Self-serving bias",
+      "anchor": "#definition",
+      "definition": "Crediting oneself for success and blaming circumstances for failure."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What does the Jones and Harris (1967) study show?",
+      "a": "People inferred the writer's attitude from an essay even when the position had been assigned.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Give an example of the self-serving bias.",
+      "a": "Taking credit for a good exam result and blaming an unfair test for a poor one.",
+      "anchor": "#worked-example",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "social-psychology"
+  }
+}

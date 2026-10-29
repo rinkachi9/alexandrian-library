@@ -1,0 +1,93 @@
+{
+  "node": {
+    "id": "philosophy.shuhari-and-shoshin",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "learning",
+      "mastery",
+      "zen"
+    ],
+    "aliases": [
+      "shuhari",
+      "shoshin",
+      "beginner's mind"
+    ]
+  },
+  "links": [
+    {
+      "to": "skills.skill-acquisition",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "psychology.einstellung-effect",
+      "rel": "related",
+      "note": "Shoshin as a remedy for fixation"
+    }
+  ],
+  "sources": [
+    {
+      "key": "suzuki-1970",
+      "type": "book",
+      "title": "Zen Mind, Beginner's Mind",
+      "authors": [
+        "Suzuki, S."
+      ],
+      "year": 1970,
+      "publisher": "Weatherhill",
+      "verified": false
+    },
+    {
+      "key": "dunlosky-2013",
+      "type": "paper",
+      "title": "Improving Students’ Learning With Effective Learning Techniques",
+      "authors": [
+        "Dunlosky, J.",
+        "Rawson, K. A.",
+        "Marsh, E. J.",
+        "Nathan, M. J.",
+        "Willingham, D. T."
+      ],
+      "year": 2013,
+      "publisher": "Psychological Science in the Public Interest, 14(1), 4-58",
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Shuhari",
+      "anchor": "#definition",
+      "definition": "A model of mastery in three stages: obey, break and leave the forms."
+    },
+    {
+      "term": "Shoshin",
+      "anchor": "#definition",
+      "definition": "The beginner's mind: openness and lack of preconception."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three stages of shuhari.",
+      "a": "Shu (obey), ha (break) and ri (leave).",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How does shoshin relate to the Einstellung effect?",
+      "a": "It is a remedy: an open mind looks for better solutions instead of repeating a familiar one.",
+      "anchor": "#relation-to-research",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "japanese-thought"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "psychology.time-perception",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 11,
+    "tags": [
+      "time",
+      "attention",
+      "memory"
+    ],
+    "aliases": [
+      "sense of time",
+      "duration judgment"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "wittmann-2013",
+      "type": "paper",
+      "title": "The inner sense of time: how the brain creates a representation of duration",
+      "authors": [
+        "Wittmann, M."
+      ],
+      "year": 2013,
+      "publisher": "Nature Reviews Neuroscience, 14(3), 217-223",
+      "url": "https://doi.org/10.1038/nrn3452",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "droit-volet-gil-2009",
+      "type": "paper",
+      "title": "The time-emotion paradox",
+      "authors": [
+        "Droit-Volet, S.",
+        "Gil, S."
+      ],
+      "year": 2009,
+      "publisher": "Philosophical Transactions of the Royal Society B: Biological Sciences, 364(1525), 1943-1953",
+      "url": "https://doi.org/10.1098/rstb.2009.0013",
+      "verified": true,
+      "checked": "2026-10"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Prospective judgment",
+      "anchor": "#definition",
+      "definition": "A duration estimate made while one knows that time will be judged."
+    },
+    {
+      "term": "Retrospective judgment",
+      "anchor": "#definition",
+      "definition": "A duration estimate made afterwards from memory."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does a novel holiday seem long in memory?",
+      "a": "It creates many distinct memories, and the number of memories shapes remembered duration.",
+      "anchor": "#what-bends-the-sense-of-time",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does arousing emotion do to felt duration?",
+      "a": "It tends to lengthen it, as if the internal pace is faster.",
+      "anchor": "#what-bends-the-sense-of-time",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "cognitive-psychology"
+  }
+}

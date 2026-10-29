@@ -1,0 +1,12 @@
+{
+  "node": {
+    "id": "humanities.philosophy.ancient-philosophy",
+    "kind": "index",
+    "status": "draft",
+    "order": 1
+  },
+  "links": [],
+  "map": {
+    "group": "ancient-philosophy"
+  }
+}

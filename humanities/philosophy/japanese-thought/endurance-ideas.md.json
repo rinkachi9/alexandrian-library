@@ -1,0 +1,92 @@
+{
+  "node": {
+    "id": "philosophy.japanese-endurance-ideas",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "gaman",
+      "acceptance",
+      "resilience"
+    ],
+    "aliases": [
+      "gaman",
+      "shikata ga nai",
+      "ganbaru",
+      "nintai"
+    ]
+  },
+  "links": [
+    {
+      "to": "philosophy.stoicism",
+      "rel": "related",
+      "note": "Parallel to the dichotomy of control"
+    },
+    {
+      "to": "growth.stress-and-resilience",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cohen-wills-1985",
+      "type": "paper",
+      "title": "Stress, social support, and the buffering hypothesis",
+      "authors": [
+        "Cohen, S.",
+        "Wills, T. A."
+      ],
+      "year": 1985,
+      "publisher": "Psychological Bulletin, 98(2), 310-357",
+      "url": "https://doi.org/10.1037/0033-2909.98.2.310",
+      "verified": true,
+      "checked": "2026-10"
+    },
+    {
+      "key": "lazarus-folkman-1984",
+      "type": "book",
+      "title": "Stress, Appraisal, and Coping",
+      "authors": [
+        "Lazarus, R. S.",
+        "Folkman, S."
+      ],
+      "year": 1984,
+      "publisher": "Springer",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gaman",
+      "anchor": "#definition",
+      "definition": "Enduring difficulty with patience and dignity, without complaint."
+    },
+    {
+      "term": "Shikata ga nai",
+      "anchor": "#definition",
+      "definition": "It cannot be helped: acceptance of what is beyond control."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What does shikata ga nai mean?",
+      "a": "It cannot be helped: acceptance of what is beyond control.",
+      "anchor": "#definition",
+      "origin": "author"
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is the main risk of unlimited endurance?",
+      "a": "It can discourage help-seeking and hide problems that should be changed.",
+      "anchor": "#the-cost",
+      "origin": "author"
+    }
+  ],
+  "map": {
+    "group": "japanese-thought"
+  }
+}
